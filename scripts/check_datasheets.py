@@ -11,6 +11,7 @@ REPORT_FILE (default snapshot/datasheet-report.json).
 """
 import json
 import os
+import re
 from datetime import date, datetime
 
 import requests
@@ -94,8 +95,12 @@ def check_url(url):
 
 def ensure_check_column(svc, header):
     """Aggiunge la colonna datasheet_last_check se manca. Ritorna l'indice."""
+    # Sheets riempie le celle header vuote con placeholder localizzati
+    # ("Colonna N"): vanno trattati come vuote
     compact = [h for h in header]
-    while compact and not compact[-1].strip():
+    while compact and (not compact[-1].strip()
+                       or re.match(r"^(colonna|column)\s+\d+$",
+                                   compact[-1].strip(), re.I)):
         compact.pop()
     if CHECK_COL in compact:
         return compact.index(CHECK_COL)
