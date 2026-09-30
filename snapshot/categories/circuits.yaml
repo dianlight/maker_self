@@ -127,5 +127,5 @@
     "https://www.handsontec.com/dataspecs/relay/JQC-3FF-S-Z.pdf", "note": "Modulo
     per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC; bobina
     12VDC."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 30/09/2026 18.50.33
