@@ -311,6 +311,26 @@ def finalize_black(svc, tab_id, n, idx, row):
             print(f"riga {n}: reset colore fallito ({e}).")
 
 
+def extract_json(text):
+    """Estrae l'oggetto JSON vero (l'LLM a volte ecua parametri o prose)."""
+    dec = json.JSONDecoder()
+    fallback, keyed = None, None
+    for m in re.finditer(r"\{", text or ""):
+        try:
+            obj, _ = dec.raw_decode(text, m.start())
+        except Exception:
+            continue
+        if isinstance(obj, dict):
+            fallback = obj
+            if any(k in obj for k in ("codice", "categoria", "descrizione")):
+                keyed = obj  # ultimo vince: la risposta vera e' in fondo
+    if keyed is not None:
+        return json.dumps(keyed, ensure_ascii=False)
+    if fallback is not None:
+        return json.dumps(fallback, ensure_ascii=False)
+    return (text or "").strip()
+
+
 def vision_llm(jpg_bytes):
     from PIL import Image
     import io
@@ -351,14 +371,7 @@ def vision_llm(jpg_bytes):
     content = (msg.get("content") or msg.get("reasoning")
                or msg.get("reasoning_content") or "")
     print(f"AI finish={choice.get('finish_reason')} len={len(content)}")
-    # keep only the JSON object if the model wrapped it in prose or fences
-    m = re.search(r"\{.*\}", content, re.S)
-    out = m.group(0) if m else content.strip()
-    try:
-        json.loads(out)
-    except (json.JSONDecodeError, AttributeError):
-        print("AI: proposta non-JSON, la scrivo grezza per revisione manuale.")
-    return out
+    return extract_json(content)
 
 
 def main():
