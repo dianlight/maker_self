@@ -1,0 +1,280 @@
+{
+  "checked_at": "2026-09-30",
+  "rows": [
+    {
+      "row": 2,
+      "id": "sensori-na-02",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Rain Sensors",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 3,
+      "id": "sensori-na-03",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Capacitive Soil Moisture Sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 4,
+      "id": "sensori-na-04",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Soil Sensore",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 5,
+      "id": "sensori-na-05",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Water Level",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 6,
+      "id": "sensori-na-06",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Color Sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 7,
+      "id": "sensori-na-07",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Linear Hall Sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 8,
+      "id": "sensori-na-08",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "Magnetic Spring",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 9,
+      "id": "sensori-na-09",
+      "codice": "?",
+      "categoria": "sensori",
+      "descrizione": "IR Distance Sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 10,
+      "id": "sensori-18n20-tem-10",
+      "codice": "18N20 Tem",
+      "categoria": "sensori",
+      "descrizione": "Temperature sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 11,
+      "id": "sensori-a3144-11",
+      "codice": "A3144",
+      "categoria": "sensori",
+      "descrizione": "Hall Sensor",
+      "old_url": "https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf",
+      "status": "ok",
+      "detail": "HTTP 200",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 12,
+      "id": "sensori-acs-758-12",
+      "codice": "ACS-758",
+      "categoria": "sensori",
+      "descrizione": "Current Sensor",
+      "old_url": "https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758",
+      "status": "ok",
+      "detail": "HTTP 200",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 13,
+      "id": "sensori-acs712-13",
+      "codice": "ACS712",
+      "categoria": "sensori",
+      "descrizione": "Current Sensor",
+      "old_url": "https://homotix_it.e-mind.it/upld/repository/File/datasheet%20acs712.pdf",
+      "status": "invalid",
+      "detail": "rete: ConnectionError (HTTPSConnectionPool(host='homotix_it.e-mind.it', port=443): Max retries exceeded with url: /upld/repository/File/datasheet%20acs712.pdf (Caused by NewConnectionError(\"HTTPSConnection(host='homotix_it.e-mind.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\")))",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 14,
+      "id": "sensori-adxl345-14",
+      "codice": "ADXL345",
+      "categoria": "sensori",
+      "descrizione": "3 Axis acce 13bit",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 15,
+      "id": "sensori-ags02ma-15",
+      "codice": "AGS02MA",
+      "categoria": "sensori",
+      "descrizione": "TVOC Gas Sensor",
+      "old_url": "http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF",
+      "status": "ok",
+      "detail": "HTTP 200",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 16,
+      "id": "sensori-am2302-16",
+      "codice": "AM2302",
+      "categoria": "sensori",
+      "descrizione": "Temperature sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 17,
+      "id": "sensori-am2320-17",
+      "codice": "AM2320",
+      "categoria": "sensori",
+      "descrizione": "Temperature sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 18,
+      "id": "sensori-am312-18",
+      "codice": "AM312",
+      "categoria": "sensori",
+      "descrizione": "HW-740 Pir Sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 19,
+      "id": "sensori-as5600-19",
+      "codice": "AS5600",
+      "categoria": "sensori",
+      "descrizione": "Angolo Rotazione/RPM",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 20,
+      "id": "sensori-big-sound-20",
+      "codice": "Big Sound",
+      "categoria": "sensori",
+      "descrizione": "Microphone",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 21,
+      "id": "sensori-bmp180-21",
+      "codice": "BMP180",
+      "categoria": "sensori",
+      "descrizione": "Barometrix/Temp/Pressure/altitude",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 22,
+      "id": "sensori-bmp280-22",
+      "codice": "BMP280",
+      "categoria": "sensori",
+      "descrizione": "Barometrix/Temp/Pressure/altitude",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 23,
+      "id": "sensori-cny70-23",
+      "codice": "CNY70",
+      "categoria": "sensori",
+      "descrizione": "Reflective Optical Sensor",
+      "old_url": "https://www.vishay.com/docs/83751/cny70.pdf",
+      "status": "ok",
+      "detail": "HTTP 200",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 24,
+      "id": "sensori-d203-24",
+      "codice": "D203",
+      "categoria": "sensori",
+      "descrizione": "Sensore Infrarossi",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 25,
+      "id": "sensori-dht-11-25",
+      "codice": "DHT-11",
+      "categoria": "sensori",
+      "descrizione": "Temperature sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    },
+    {
+      "row": 26,
+      "id": "sensori-ds1820-26",
+      "codice": "DS1820",
+      "categoria": "sensori",
+      "descrizione": "Temperature sensor",
+      "old_url": "",
+      "status": "empty",
+      "detail": "cella vuota",
+      "checked_at": "2026-09-30"
+    }
+  ]
+}
