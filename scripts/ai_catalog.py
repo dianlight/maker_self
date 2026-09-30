@@ -22,10 +22,13 @@ MODEL = os.environ.get("LLM_MODEL", "")
 KEY = os.environ.get("LLM_KEY", "")
 PROVIDER = os.environ.get("LLM_PROVIDER", "")
 
-PROMPT = ("Sei un catalogatore di componenti elettronici. Dalla foto restituisci SOLO JSON "
-          "con chiavi: codice, categoria, descrizione, interfaccia, quantita, posizione, "
-          "datasheet_url, note. categoria deve essere una di: " + ", ".join(CATEGORIES) +
-          ". Se incerto usa stringa vuota, quantita 1.")
+PROMPT = ("Sei un catalogatore di componenti elettronici. Guarda bene la foto e "
+          "restituisci SOLO JSON con chiavi: codice, categoria, descrizione, interfaccia, "
+          "quantita, posizione, datasheet_url, note. categoria deve essere una di: "
+          + ", ".join(CATEGORIES) + ". Descrivi sempre cio' che vedi in descrizione "
+          "(tipo componente, quantita visibile, package, scritte leggibili) e fai la "
+          "migliore ipotesi per codice e categoria; usa stringa vuota solo se davvero "
+          "impossibile. quantita default 1.")
 
 
 def slug(s):
@@ -52,6 +55,16 @@ def drive_svc():
 
 
 def vision_llm(jpg_bytes):
+    from PIL import Image
+    import io
+    try:
+        img = Image.open(io.BytesIO(jpg_bytes)).convert("RGB")
+        img.thumbnail((1024, 1024))
+        buf = io.BytesIO()
+        img.save(buf, "JPEG", quality=82)
+        jpg_bytes = buf.getvalue()
+    except Exception:
+        pass
     b64 = base64.b64encode(jpg_bytes).decode()
     headers = {"Content-Type": "application/json"}
     if KEY:
@@ -64,17 +77,20 @@ def vision_llm(jpg_bytes):
         "messages": [{
             "role": "user",
             "content": [
-                {"type": "text", "text": PROMPT},
+                {"type": "text", "text": PROMPT + " Output: ONLY the JSON object, no other text."},
                 {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}},
             ],
         }],
         "temperature": 0.1,
+        "max_tokens": 1200,
+        "response_format": {"type": "json_object"},
     }
     r = requests.post(f"{BASE_URL}/chat/completions", headers=headers,
-                      json=body, timeout=120)
+                      json=body, timeout=180)
     r.raise_for_status()
     msg = r.json()["choices"][0]["message"]
-    content = msg.get("content") or msg.get("reasoning") or ""
+    content = (msg.get("content") or msg.get("reasoning")
+               or msg.get("reasoning_content") or "")
     # keep only the JSON object if the model wrapped it in prose or fences
     m = re.search(r"\{.*\}", content, re.S)
     return m.group(0) if m else content.strip()

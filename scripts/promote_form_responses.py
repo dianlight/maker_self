@@ -58,6 +58,9 @@ def main():
         return
     header = [h.strip() for h in resp[0]]
     idx = {h: i for i, h in enumerate(header)}
+    if "promosso" not in idx:
+        # marcatore scritto in colonna K senza header: fallback posizionale
+        idx["promosso"] = len(header)
 
     inv = svc.spreadsheets().values().get(
         spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A1:Z").execute().get("values", [])
