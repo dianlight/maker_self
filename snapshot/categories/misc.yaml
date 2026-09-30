@@ -1,7 +1,7 @@
 - id: na-ws2812b-64-02
   categoria: ''
   codice: WS2812B-64
-  quantita: 1
+  quantita: 2
   descrizione: 24bit color 64 RGB LEDs
   interfaccia: ''
   note: ''
@@ -12,3 +12,17 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: '2026-09-30T14:48:45Z'
+- id: na-na-03
+  categoria: ''
+  codice: ''
+  quantita: 1
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: 1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI
+  foto_url: https://drive.google.com/open?id=1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI, https://drive.google.com/open?id=1EO4hgn5ULjg0_ckzvo1fbYDyaJ5AWSDd
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-09-30T15:02:17Z'
