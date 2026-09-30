@@ -101,7 +101,7 @@
     plastico trasparente", "datasheet_url": "", "note": "Modulo rele bistabile (latching)
     a 1 canale, probabile marca eletechsup. Possibile selezione tensione 3V o 5V.
     Codice letto: I025A01."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 30/09/2026 18.49.32
 - id: na-na-05
   categoria: circuits

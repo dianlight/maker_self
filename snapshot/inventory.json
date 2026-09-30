@@ -4492,7 +4492,7 @@
     "foto_drive_id": "10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp",
     "foto_url": "https://drive.google.com/open?id=10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp",
     "ai_proposta": "{\"codice\": \"I025A01\", \"categoria\": \"circuits\", \"descrizione\": \"Modulo rele bistabile/latching 1 canale su PCB verde, 1 pezzo visibile. Package: modulo PCB con fori e piazzole. Scritte leggibili: eletechsup, 1ch Bistable relay, I025A01, 3V, 5V, NC, COM, NO, T, GND, VCC.\", \"interfaccia\": \"T/GND/VCC per controllo; NC/COM/NO per contatto rele; selezione 3V/5V\", \"quantita\": 1, \"posizione\": \"contenitore plastico trasparente\", \"datasheet_url\": \"\", \"note\": \"Modulo rele bistabile (latching) a 1 canale, probabile marca eletechsup. Possibile selezione tensione 3V o 5V. Codice letto: I025A01.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": "30/09/2026 18.49.32"
   },
   {
