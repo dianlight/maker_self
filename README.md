@@ -21,6 +21,7 @@ Google Sheets (mobile)      ▲                        │
 | Path | Purpose |
 | --- | --- |
 | `.github/workflows/sync.yml` | Daily + manual sync: Sheet → snapshot, AI catalog, commit if diff |
+| `.github/workflows/datasheet-check.yml` | Daily + manual: validate column H (max 25 rows/run), web-search replacements, commit report |
 | `scripts/sync_sheet_to_git.py` | Reads the Sheet, writes `snapshot/inventory.json` + per-category YAML |
 | `scripts/ai_catalog.py` | Catalogs new photos via a configurable vision LLM (JSON proposal) |
 | `scripts/import_excel_once.py` | One-shot import from `Inventario.xlsx` (~12 categories, ~250 rows) |
@@ -50,6 +51,8 @@ Google Sheets (mobile)      ▲                        │
 | `LLM_BASE_URL` | API base URL |
 | `LLM_MODEL` | Model name |
 | `LLM_KEY` | API key |
+| `WEBSEARCH_PROVIDERS` | Comma-separated list, e.g. `exa,firecrawl,parallel,tinyfish` (datasheet-check only) |
+| `EXA_API_KEY` / `FIRECRAWL_API_KEY` / `PARALLEL_API_KEY` / `TINYFISH_API_KEY` | Per-provider keys (`WEBSEARCH_API_KEY` works as shared fallback) |
 
 Provider is **only** configured here — no hardcoded provider, changing models means changing secrets, not code.
 

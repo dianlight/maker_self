@@ -9,7 +9,7 @@ SHEET_TAB = os.environ.get("SHEET_TAB", "inventario")
 SA_JSON = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 
 EXPECTED = ["id", "categoria", "codice", "quantita", "descrizione", "interfaccia",
-            "note", "datasheet_url", "posizione", "foto_drive_id", "foto_url",
+            "note", "datasheet_url", "datasheet_last_check", "posizione", "foto_drive_id", "foto_url",
             "ai_proposta", "ai_stato", "updated_at"]
 
 
@@ -51,6 +51,7 @@ def to_parts(values):
             "id": pid, "categoria": categoria, "codice": codice, "quantita": max(q, 0),
             "descrizione": g("descrizione"), "interfaccia": g("interfaccia"),
             "note": g("note"), "datasheet_url": g("datasheet_url"),
+            "datasheet_last_check": g("datasheet_last_check"),
             "posizione": g("posizione"), "foto_drive_id": g("foto_drive_id"),
             "foto_url": g("foto_url"), "ai_proposta": g("ai_proposta"),
             "ai_stato": g("ai_stato"), "updated_at": g("updated_at"),

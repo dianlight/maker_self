@@ -12,6 +12,7 @@
     "interfaccia": { "type": "string" },
     "note": { "type": "string" },
     "datasheet_url": { "type": "string" },
+    "datasheet_last_check": { "type": "string" },
     "posizione": { "type": "string" },
     "foto_drive_id": { "type": "string" },
     "foto_url": { "type": "string" },
