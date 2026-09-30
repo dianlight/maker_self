@@ -1,12 +1,12 @@
 """MCP stdio locale read-only sopra snapshot/inventory.json."""
 import json
 import os
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SNAP = os.path.join(BASE, "snapshot", "inventory.json")
 
-mcp = FastMCP("maker-self")
+mcp = MCPServer("maker-self")
 
 
 def load():
