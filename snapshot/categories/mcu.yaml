@@ -1,0 +1,252 @@
+- id: mcu-esp-8266-225
+  categoria: mcu
+  codice: ESP 8266
+  quantita: 2
+  descrizione: '8266'
+  interfaccia: MINI DIP
+  note: ''
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-atmega644pa-226
+  categoria: mcu
+  codice: ATMEGA644PA
+  quantita: 5
+  descrizione: 64KB / 4096B Ram
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-esp-32-227
+  categoria: mcu
+  codice: ESP 32
+  quantita: 2
+  descrizione: '32'
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-esp-32-s2-228
+  categoria: mcu
+  codice: ESP 32 S2
+  quantita: 1
+  descrizione: ESP 32 S2
+  interfaccia: MINI DIP
+  note: ''
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-attiny2313a-229
+  categoria: mcu
+  codice: ATTINY2313A
+  quantita: 2
+  descrizione: 2KB / 128byte Ram
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed.
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-atmega328p-230
+  categoria: mcu
+  codice: ATMEGA328P
+  quantita: 5
+  descrizione: 32KB / 1024B Ram
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-atmega328p-231
+  categoria: mcu
+  codice: ATMEGA328P
+  quantita: 5
+  descrizione: 32KB / 1024B Ram
+  interfaccia: SMD
+  note: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-atmega1284p-232
+  categoria: mcu
+  codice: ATMEGA1284P
+  quantita: 1
+  descrizione: 128K / 16K Ram
+  interfaccia: SMD
+  note: ''
+  datasheet_url: http://www.lyr-ing.com/DocumentosLyR/EXT/ICs/AVR/AtMega1284P_(3)_8059S.pdf
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-attiny12-attiny85-pacco-233
+  categoria: mcu
+  codice: ATTINY12 (ATTINY85 + PACCO)
+  quantita: 4
+  descrizione: 1KB
+  interfaccia: DIP
+  note: Probabilmente ATTINY12 rimachliati. Programmare uasbasp JP3 per 1Mhz
+  datasheet_url: https://www.dexsilicium.com/Atmel_Tiny12l.pdf
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-atmega8a-234
+  categoria: mcu
+  codice: ATMEGA8A
+  quantita: 4
+  descrizione: ''
+  interfaccia: DIP
+  note: I marchiati in rosso devono essere riprogrammati in HV
+  datasheet_url: https://www.microchip.com/wwwproducts/en/ATmega8A
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-esp-01m-235
+  categoria: mcu
+  codice: ESP-01M
+  quantita: 2
+  descrizione: '8266'
+  interfaccia: Edge
+  note: ''
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-1-236
+  categoria: mcu
+  codice: '1'
+  quantita: 3
+  descrizione: '8266'
+  interfaccia: DIP
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-esp32-s-237
+  categoria: mcu
+  codice: ESP32-S
+  quantita: 2
+  descrizione: ESP32-S
+  interfaccia: SDM
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-esp-wroom32-238
+  categoria: mcu
+  codice: ESP-WROOM32
+  quantita: 1
+  descrizione: ESP-WROOM32
+  interfaccia: SDM
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-zyzbp008-239
+  categoria: mcu
+  codice: ZYZBP008
+  quantita: 3
+  descrizione: EFR32
+  interfaccia: MINI DIP
+  note: Internal Antenna
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-zyzbp008-240
+  categoria: mcu
+  codice: ZYZBP008
+  quantita: 2
+  descrizione: EFR32
+  interfaccia: MINI DIP
+  note: IPEX
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-zyzb010-241
+  categoria: mcu
+  codice: ZYZB010
+  quantita: 1
+  descrizione: TLSR8258
+  interfaccia: MINI DP
+  note: Internal Antenna
+  datasheet_url: ''
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-esp-02s-242
+  categoria: mcu
+  codice: ESP-02S
+  quantita: 3
+  descrizione: '8266'
+  interfaccia: COPIA TUYA
+  note: ''
+  datasheet_url: https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121831_DOIT-ESP-02S_C19949060.pdf
+  posizione: MCU BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

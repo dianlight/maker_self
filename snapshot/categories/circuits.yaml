@@ -1,0 +1,56 @@
+- id: circuits-fy-0524-1-273
+  categoria: circuits
+  codice: FY-0524(1)
+  quantita: 2
+  descrizione: Night IR Lamp for camera
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: circuits-ir-transmitter-274
+  categoria: circuits
+  codice: IR Transmitter
+  quantita: 3
+  descrizione: Dual Power IR Trasmitter
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: circuits-relay-10a-275
+  categoria: circuits
+  codice: Relay 10A
+  quantita: 1
+  descrizione: Relay 10A 5v
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: circuits-metaldetector-276
+  categoria: circuits
+  codice: MetalDetector
+  quantita: 1
+  descrizione: MetalDetector
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: A BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

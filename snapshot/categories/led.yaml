@@ -1,0 +1,42 @@
+- id: led-cjmcu-2812-b-205
+  categoria: led
+  codice: CJMCU-2812-B
+  quantita: 1
+  descrizione: 8 RGB LED BAR
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Component Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: led-ir-rx-tx-206
+  categoria: led
+  codice: Ir RX+TX
+  quantita: 20
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Led Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: led-dual-ir-emitter-207
+  categoria: led
+  codice: DUAL IR EMITTER
+  quantita: 2
+  descrizione: IR Emitter
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Component Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

@@ -1,0 +1,84 @@
+- id: resistors-table-1-1-b5k-243
+  categoria: resistors---table-1-1
+  codice: B5K
+  quantita: 9
+  descrizione: Variable Reistor
+  interfaccia: 3PIN
+  note: ''
+  datasheet_url: ''
+  posizione: V-Resitor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: resistors-table-1-1-b50k-244
+  categoria: resistors---table-1-1
+  codice: B50K
+  quantita: 8
+  descrizione: Variable Reistor
+  interfaccia: 3PIN
+  note: ''
+  datasheet_url: ''
+  posizione: V-Resitor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: resistors-table-1-1-b100k-245
+  categoria: resistors---table-1-1
+  codice: B100K
+  quantita: 5
+  descrizione: Variable Reistor
+  interfaccia: 3PIN
+  note: ''
+  datasheet_url: ''
+  posizione: V-Resitor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: resistors-table-1-1-x9c103p-246
+  categoria: resistors---table-1-1
+  codice: X9C103P
+  quantita: 5
+  descrizione: Digital Potentiometer
+  interfaccia: 8DIP
+  note: 50kOhm
+  datasheet_url: ''
+  posizione: V-Resitor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: resistors-table-1-1-3295-247
+  categoria: resistors---table-1-1
+  codice: '3295'
+  quantita: 19
+  descrizione: Variable Reistor
+  interfaccia: 3PIN
+  note: 200K
+  datasheet_url: ''
+  posizione: V-Resitor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: resistors-table-1-1-photo-resistors-248
+  categoria: resistors---table-1-1
+  codice: Photo Resistors
+  quantita: 20
+  descrizione: Photo Resistor
+  interfaccia: 2pin
+  note: ''
+  datasheet_url: ''
+  posizione: V-Resitor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

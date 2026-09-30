@@ -1,0 +1,1005 @@
+- id: sensori-na-02
+  categoria: sensori
+  codice: '?'
+  quantita: 8
+  descrizione: Rain Sensors
+  interfaccia: '?'
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-03
+  categoria: sensori
+  codice: '?'
+  quantita: 1
+  descrizione: Capacitive Soil Moisture Sensor
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-04
+  categoria: sensori
+  codice: '?'
+  quantita: 2
+  descrizione: Soil Sensore
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-05
+  categoria: sensori
+  codice: '?'
+  quantita: 1
+  descrizione: Water Level
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-06
+  categoria: sensori
+  codice: '?'
+  quantita: 1
+  descrizione: Color Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-07
+  categoria: sensori
+  codice: '?'
+  quantita: 1
+  descrizione: Linear Hall Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-08
+  categoria: sensori
+  codice: '?'
+  quantita: 1
+  descrizione: Magnetic Spring
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-09
+  categoria: sensori
+  codice: '?'
+  quantita: 2
+  descrizione: IR Distance Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-18n20-tem-10
+  categoria: sensori
+  codice: 18N20 Tem
+  quantita: 1
+  descrizione: Temperature sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-a3144-11
+  categoria: sensori
+  codice: A3144
+  quantita: 10
+  descrizione: Hall Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-acs-758-12
+  categoria: sensori
+  codice: ACS-758
+  quantita: 4
+  descrizione: Current Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-acs712-13
+  categoria: sensori
+  codice: ACS712
+  quantita: 2
+  descrizione: Current Sensor
+  interfaccia: '?'
+  note: ''
+  datasheet_url: https://homotix_it.e-mind.it/upld/repository/File/datasheet%20acs712.pdf
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-adxl345-14
+  categoria: sensori
+  codice: ADXL345
+  quantita: 1
+  descrizione: 3 Axis acce 13bit
+  interfaccia: I2C- SPI
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-ags02ma-15
+  categoria: sensori
+  codice: AGS02MA
+  quantita: 1
+  descrizione: TVOC Gas Sensor
+  interfaccia: I2C
+  note: ''
+  datasheet_url: http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF
+  posizione: S Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-am2302-16
+  categoria: sensori
+  codice: AM2302
+  quantita: 1
+  descrizione: Temperature sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-am2320-17
+  categoria: sensori
+  codice: AM2320
+  quantita: 2
+  descrizione: Temperature sensor
+  interfaccia: '? + I2C?'
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-am312-18
+  categoria: sensori
+  codice: AM312
+  quantita: 4
+  descrizione: HW-740 Pir Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-as5600-19
+  categoria: sensori
+  codice: AS5600
+  quantita: 1
+  descrizione: Angolo Rotazione/RPM
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-big-sound-20
+  categoria: sensori
+  codice: Big Sound
+  quantita: 1
+  descrizione: Microphone
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-bmp180-21
+  categoria: sensori
+  codice: BMP180
+  quantita: 2
+  descrizione: Barometrix/Temp/Pressure/altitude
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-bmp280-22
+  categoria: sensori
+  codice: BMP280
+  quantita: 2
+  descrizione: Barometrix/Temp/Pressure/altitude
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-cny70-23
+  categoria: sensori
+  codice: CNY70
+  quantita: 5
+  descrizione: Reflective Optical Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://www.vishay.com/docs/83751/cny70.pdf
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-d203-24
+  categoria: sensori
+  codice: D203
+  quantita: 6
+  descrizione: Sensore Infrarossi
+  interfaccia: '?'
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-dht-11-25
+  categoria: sensori
+  codice: DHT-11
+  quantita: 1
+  descrizione: Temperature sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-ds1820-26
+  categoria: sensori
+  codice: DS1820
+  quantita: 1
+  descrizione: Temperature sensor
+  interfaccia: '?'
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-dsm501a-27
+  categoria: sensori
+  codice: DSM501A
+  quantita: 1
+  descrizione: Dust Sensor
+  interfaccia: '?'
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-flame-sensor-28
+  categoria: sensori
+  codice: Flame Sensor
+  quantita: 1
+  descrizione: Flame Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-gy-521-29
+  categoria: sensori
+  codice: GY-521
+  quantita: 9
+  descrizione: 3 axis Gyro, Accel
+  interfaccia: I2C
+  note: ''
+  datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-gy-906-30
+  categoria: sensori
+  codice: GY-906
+  quantita: 1
+  descrizione: Non contact infra temp sensor
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-gy-91-31
+  categoria: sensori
+  codice: GY-91
+  quantita: 1
+  descrizione: 9-Axis MPU9250+BMP280
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-hc-sr04-32
+  categoria: sensori
+  codice: HC-SR04
+  quantita: 1
+  descrizione: Micronde distance sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-hd-36-33
+  categoria: sensori
+  codice: HD-36
+  quantita: 1
+  descrizione: Solar Tracker
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-htu21d-34
+  categoria: sensori
+  codice: HTU21D
+  quantita: 8
+  descrizione: Temp/Humidity
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-hw-740-35
+  categoria: sensori
+  codice: HW-740
+  quantita: 4
+  descrizione: IR Presence Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-ina226-36
+  categoria: sensori
+  codice: INA226
+  quantita: 2
+  descrizione: Current Sensor
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-ina3221-37
+  categoria: sensori
+  codice: INA3221
+  quantita: 1
+  descrizione: Power monitor 3 ch
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-inmp441-38
+  categoria: sensori
+  codice: INMP441
+  quantita: 2
+  descrizione: Microphone
+  interfaccia: I2S
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-max31865-39
+  categoria: sensori
+  codice: MAX31865
+  quantita: 3
+  descrizione: Temperature sensor
+  interfaccia: '?'
+  note: Per PT100 etc
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-max4466-40
+  categoria: sensori
+  codice: MAX4466
+  quantita: 1
+  descrizione: Microphone
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-md-ps002-41
+  categoria: sensori
+  codice: MD-PS002
+  quantita: 2
+  descrizione: Pressure Sensor 700Kpa
+  interfaccia: '?'
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-metal-touch-42
+  categoria: sensori
+  codice: Metal Touch
+  quantita: 1
+  descrizione: Metal Touch Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-mpr121-43
+  categoria: sensori
+  codice: MPR121
+  quantita: 1
+  descrizione: Capacity Touch Sensor IC
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-mq-4-44
+  categoria: sensori
+  codice: MQ-4
+  quantita: 1
+  descrizione: Methane Gas Sensor/ Nature Gas Detection Gas Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-mq-9-45
+  categoria: sensori
+  codice: MQ-9
+  quantita: 1
+  descrizione: CO/Combustible GAS sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://components101.com/sites/default/files/component_datasheet/MQ-9%20Sensor%20Datasheet.pdf
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-mq135-46
+  categoria: sensori
+  codice: MQ135
+  quantita: 1
+  descrizione: NH3, NOx, alcohol, benzene, smoke, CO2, etc.
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-owc-236-47
+  categoria: sensori
+  codice: OWC 236
+  quantita: 1
+  descrizione: Omnidirectional Microphone
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-p100-48
+  categoria: sensori
+  codice: P100
+  quantita: 2
+  descrizione: Temperature sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-ph-4502c-49
+  categoria: sensori
+  codice: PH-4502C
+  quantita: 1
+  descrizione: Controller + sonda
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: A Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-pms5003-50
+  categoria: sensori
+  codice: PMS5003
+  quantita: 1
+  descrizione: Ait Quality Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-rp-c7-6-lt-51
+  categoria: sensori
+  codice: RP-C7.6-LT
+  quantita: 1
+  descrizione: Force Sensitive Resistor
+  interfaccia: '?'
+  note: 20g to 1.5kg
+  datasheet_url: ''
+  posizione: V Resitor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-rp-s5-st-52
+  categoria: sensori
+  codice: RP-s5-ST
+  quantita: 1
+  descrizione: Force Sensitive Resistor
+  interfaccia: ''
+  note: 10g to 1000g
+  datasheet_url: ''
+  posizione: V Resitor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-shock-53
+  categoria: sensori
+  codice: Shock
+  quantita: 1
+  descrizione: Shock Switch
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-small-sound-54
+  categoria: sensori
+  codice: Small Sound
+  quantita: 2
+  descrizione: Microphone
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-zmct103c-55
+  categoria: sensori
+  codice: ZMCT103C
+  quantita: 2
+  descrizione: Current Sensor/Trnsformer
+  interfaccia: ''
+  note: https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/
+  datasheet_url: https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-ta12-100-56
+  categoria: sensori
+  codice: TA12-100
+  quantita: 1
+  descrizione: Current Sensor
+  interfaccia: ''
+  note: https://electronics.stackexchange.com/questions/406959/ta12-100-current-sensor-increase-range
+  datasheet_url: https://www.electronicoscaldas.com/datasheet/TA12-TA12L-Series_YHDC.pdf
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-tap-module-57
+  categoria: sensori
+  codice: Tap Module
+  quantita: 1
+  descrizione: Tao Module
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-tds-ntc-58
+  categoria: sensori
+  codice: TDS + NTC
+  quantita: 1
+  descrizione: Conducibilità + Temperatura
+  interfaccia: ''
+  note: Sonda manca controller TDS. NTC da 10K
+  datasheet_url: '3/8 "tubo di test di qualità Dell''acqua TDS di conducibilità con
+    NTC sensore di temperatura di misura OD9.5mm tubo
+
+
+    Tubo di plastica di diametro Della Sonda: 9.5 +/-0.2 millimetri
+
+    TDS pole materiale: SUS316
+
+    Campo di misura: 0-9990 ppm(mg/l)
+
+    Rapporto di risoluzione: 1 mg/l
+
+
+    Precisione: +/-2%
+
+    Resistenza di isolamento> 50M
+
+    Temperatura media 0-99 C
+
+    Di lavoro tempeature 0-120 C
+
+    Tensione di funzionamento 0-24V
+
+    Corrente di funzionamento <50UA
+
+    Termistore/sensore di Temperatura: 10K'
+  posizione: A Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-temt6000-59
+  categoria: sensori
+  codice: TEMT6000
+  quantita: 5
+  descrizione: Ambient Light Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-tilt-switch-60
+  categoria: sensori
+  codice: Tilt Switch
+  quantita: 1
+  descrizione: Tilt Switch
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-tmb12a05-61
+  categoria: sensori
+  codice: TMB12A05
+  quantita: 3
+  descrizione: Buzzer
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-veml-6040-62
+  categoria: sensori
+  codice: VEML 6040
+  quantita: 2
+  descrizione: Sensore di colore RGBW RGB
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-vl53ldk-63
+  categoria: sensori
+  codice: VL53LDK
+  quantita: 2
+  descrizione: TOF Ranging
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-vl6180x-64
+  categoria: sensori
+  codice: VL6180X
+  quantita: 2
+  descrizione: LIDAR
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-wcmcu-65
+  categoria: sensori
+  codice: WCMCU
+  quantita: 2
+  descrizione: IR SPEED SENSOR
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-xfw-hx711-66
+  categoria: sensori
+  codice: XFW-HX711
+  quantita: 2
+  descrizione: Scale Load Cell
+  interfaccia: '?'
+  note: 2 IC ma solo un sensore
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-xkc-y25-npn-67
+  categoria: sensori
+  codice: XKC-Y25-NPN
+  quantita: 1
+  descrizione: Level Sensor
+  interfaccia: NPN
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-yf-s401-68
+  categoria: sensori
+  codice: YF-S401
+  quantita: 1
+  descrizione: Flow Sensor
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: A Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-cjmcu-811-69
+  categoria: sensori
+  codice: CJMCU-811
+  quantita: 1
+  descrizione: eCO2 TVOC
+  interfaccia: I2C
+  note: CCS811
+  datasheet_url: ''
+  posizione: Sensor Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-na-70
+  categoria: sensori
+  codice: ''
+  quantita: 1
+  descrizione: Magnetic Window switch
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: sensori-aj-sr04m-71
+  categoria: sensori
+  codice: AJ-SR04M
+  quantita: 1
+  descrizione: Waterproof Ultrasonic Sensor AJ-SR04M
+  interfaccia: SERIAL
+  note: ''
+  datasheet_url: https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

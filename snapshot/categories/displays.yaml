@@ -1,0 +1,154 @@
+- id: displays-icst7735s-99
+  categoria: displays
+  codice: ICST7735S
+  quantita: 1
+  descrizione: OLED Display 0.96’
+  interfaccia: SPI
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-nx3224t24-100
+  categoria: displays
+  codice: NX3224T24
+  quantita: 1
+  descrizione: Nextion
+  interfaccia: TTL Serial
+  note: B Box
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-st7789-101
+  categoria: displays
+  codice: ST7789
+  quantita: 1
+  descrizione: IPS 240x240 1.3”
+  interfaccia: SPI
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-sdd-102
+  categoria: displays
+  codice: SDD?
+  quantita: 1
+  descrizione: OLED Display 1.3”
+  interfaccia: I2C
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-1309-103
+  categoria: displays
+  codice: '1309'
+  quantita: 1
+  descrizione: OLED Display 1.5’
+  interfaccia: I2C
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-x30637-104
+  categoria: displays
+  codice: X30637
+  quantita: 2
+  descrizione: 1.5’ RGB Oled Module
+  interfaccia: Spi
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-ssd-105
+  categoria: displays
+  codice: SSD?
+  quantita: 1
+  descrizione: OLED Display 0.91”
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-hw-109-106
+  categoria: displays
+  codice: HW-109
+  quantita: 1
+  descrizione: MAX7219 8x8 dot matrix
+  interfaccia: ''
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-ssd130-107
+  categoria: displays
+  codice: SSD130?
+  quantita: 3
+  descrizione: OLED Display 0.96’
+  interfaccia: I2C
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-1602-i2c-108
+  categoria: displays
+  codice: 1602 + I2C
+  quantita: 3
+  descrizione: 1602 + I2C Adapter
+  interfaccia: I2C
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: displays-pj-69c-109
+  categoria: displays
+  codice: PJ-69C
+  quantita: 1
+  descrizione: Clock Display
+  interfaccia: ''
+  note: Display Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

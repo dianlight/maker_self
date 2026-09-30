@@ -1,0 +1,308 @@
+- id: pu-2578ay-szb-183
+  categoria: pu
+  codice: 2578AY-SZB
+  quantita: 1
+  descrizione: Step Down DC-DC 20A
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-anelli-di-ferrite-184
+  categoria: pu
+  codice: Anelli Di Ferrite
+  quantita: 5
+  descrizione: Da cavo
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: A BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-anelli-di-ferrite-185
+  categoria: pu
+  codice: Anelli Di Ferrite
+  quantita: 3
+  descrizione: Da IC
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-b0505s-2w-186
+  categoria: pu
+  codice: B0505S-2W
+  quantita: 4
+  descrizione: Convertitore 5v-5v 2W
+  interfaccia: 4PIN
+  note: ''
+  datasheet_url: ''
+  posizione: Relay BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-db207-187
+  categoria: pu
+  codice: DB207
+  quantita: 10
+  descrizione: Raddrizzatore a ponte
+  interfaccia: DIN
+  note: 2A
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-fs030116-01-188
+  categoria: pu
+  codice: FS030116-01
+  quantita: 1
+  descrizione: Alternatore
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Componet Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-kbl610-189
+  categoria: pu
+  codice: KBL610
+  quantita: 10
+  descrizione: Raddrizzatore a ponte
+  interfaccia: 4PIN
+  note: 6A
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-kbp210-190
+  categoria: pu
+  codice: KBP210
+  quantita: 5
+  descrizione: Raddrizzatore a ponte
+  interfaccia: 4PIN
+  note: 2A
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-kbp310-191
+  categoria: pu
+  codice: KBP310
+  quantita: 10
+  descrizione: Raddrizzatore a ponte
+  interfaccia: 4PIN
+  note: 3A
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-fdc-2s-2-192
+  categoria: pu
+  codice: FDC-2S-2
+  quantita: 1
+  descrizione: 18650 dual battery management
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-stunt-193
+  categoria: pu
+  codice: Stunt
+  quantita: 1
+  descrizione: 30A
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: B BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-uu10-5-194
+  categoria: pu
+  codice: UU10.5
+  quantita: 5
+  descrizione: Induttore 10mh
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-uu16-195
+  categoria: pu
+  codice: UU16
+  quantita: 3
+  descrizione: Induttore 3A 10mh
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-uu9-8-196
+  categoria: pu
+  codice: UU9.8
+  quantita: 5
+  descrizione: Induttore 10mh
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-lipo-3s-20a-197
+  categoria: pu
+  codice: Lipo 3S 20A
+  quantita: 2
+  descrizione: Lipo
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-alimentatore-198
+  categoria: pu
+  codice: Alimentatore
+  quantita: 1
+  descrizione: 220c -> 5v (2A)
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-solar-charger-199
+  categoria: pu
+  codice: Solar Charger
+  quantita: 2
+  descrizione: Solar Charger + Pannello solare
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: A BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-wifi-charger-200
+  categoria: pu
+  codice: WiFI Charger
+  quantita: 2
+  descrizione: ''
+  interfaccia: 1 solo con controller
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-motor-dimmer-201
+  categoria: pu
+  codice: Motor Dimmer
+  quantita: 1
+  descrizione: 4.5 - 35V dimmer
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-dc-dc-filter-50v-4a-202
+  categoria: pu
+  codice: DC-DC Filter 50v 4A
+  quantita: 5
+  descrizione: DC-DC Filter 50v 4A
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: A BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-lm2596-203
+  categoria: pu
+  codice: LM2596
+  quantita: 1
+  descrizione: DC-DC  3.3v-12v -> 1.2v-37v 2A
+  interfaccia: https://www.ti.com/lit/ds/symlink/lm2596.pdf?ts=1690434988173&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fes-mx%252FLM2596
+  note: 2A
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: pu-xl4016-204
+  categoria: pu
+  codice: XL4016
+  quantita: 1
+  descrizione: DC-DC  4-36V->1.25-36V  8A
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: PU Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

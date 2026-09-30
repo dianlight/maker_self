@@ -1,0 +1,238 @@
+- id: componenti-hw-125-208
+  categoria: componenti
+  codice: HW-125
+  quantita: 1
+  descrizione: Micro SD SPI
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-pca9685-209
+  categoria: componenti
+  codice: PCA9685
+  quantita: 1
+  descrizione: PWM Driver 12bit 16 Channel
+  interfaccia: I2C
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-p25-11-210
+  categoria: componenti
+  codice: P25/11
+  quantita: 1
+  descrizione: Electrocalamita 12v - 5kg
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-slide-pot-211
+  categoria: componenti
+  codice: Slide Pot
+  quantita: 1
+  descrizione: Resistor - Slide Pot.
+  interfaccia: ''
+  note: B BOX
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-xa0065-212
+  categoria: componenti
+  codice: XA0065
+  quantita: 1
+  descrizione: Micro USB Ultrasonic mist Maker
+  interfaccia: Micro USB
+  note: B BOX
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-x30567-213
+  categoria: componenti
+  codice: X30567
+  quantita: 1
+  descrizione: DC 10A Mini voltometro
+  interfaccia: ''
+  note: B BOX
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-mosfet-irf520-214
+  categoria: componenti
+  codice: MOSFET IRF520
+  quantita: 4
+  descrizione: Module MOSFET
+  interfaccia: 3PIN
+  note: B BOX
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-yf08e-215
+  categoria: componenti
+  codice: YF08E
+  quantita: 7
+  descrizione: Level Converter 3-5v
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-laser-216
+  categoria: componenti
+  codice: Laser
+  quantita: 1
+  descrizione: Laser Emitter
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-digital-joystic-217
+  categoria: componenti
+  codice: Digital Joystic
+  quantita: 1
+  descrizione: Joystick
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-ic-joystick-218
+  categoria: componenti
+  codice: IC Joystick
+  quantita: 3
+  descrizione: Joystick
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-keyboards-219
+  categoria: componenti
+  codice: Keyboards
+  quantita: 3
+  descrizione: Tastiera a Pression
+  interfaccia: ''
+  note: A Box
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-zs-042-220
+  categoria: componenti
+  codice: ZS-042
+  quantita: 1
+  descrizione: RTC Clock
+  interfaccia: I2C
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-rotary-encoder-221
+  categoria: componenti
+  codice: Rotary Encoder
+  quantita: 10
+  descrizione: Rotary Encoder
+  interfaccia: ''
+  note: A Box
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-pulsanti-colorati-222
+  categoria: componenti
+  codice: Pulsanti Colorati
+  quantita: 10
+  descrizione: Pulsanti Multicolori
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-power-button-223
+  categoria: componenti
+  codice: Power Button
+  quantita: 1
+  descrizione: Power Button + Led
+  interfaccia: ''
+  note: Component Barrel
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: componenti-mosfet-irf530-224
+  categoria: componenti
+  codice: MOSFET IRF530
+  quantita: 1
+  descrizione: Module MOSFET
+  interfaccia: ''
+  note: B BOX
+  datasheet_url: ''
+  posizione: ''
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

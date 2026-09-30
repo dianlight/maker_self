@@ -1,0 +1,798 @@
+- id: ic-components-5730-126
+  categoria: ic-components
+  codice: '5730'
+  quantita: 100
+  descrizione: LED Colorati
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-rc45558-127
+  categoria: ic-components
+  codice: RC45558
+  quantita: 10
+  descrizione: OP-AMP
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-24c32-128
+  categoria: ic-components
+  codice: 24C32
+  quantita: 20
+  descrizione: EEPROM 32bit
+  interfaccia: SMD I2C
+  note: 1.8V - 5.5V
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/doc0336.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-25q64fv-129
+  categoria: ic-components
+  codice: 25Q64FV
+  quantita: 1
+  descrizione: 64Mbit Serial Flash Memory
+  interfaccia: QUAD SPI
+  note: 3V
+  datasheet_url: https://datasheetspdf.com/pdf-file/935537/Winbond/25Q64FV/1
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-74hc126n-130
+  categoria: ic-components
+  codice: 74HC126N
+  quantita: 10
+  descrizione: Line Driver
+  interfaccia: DIP-14
+  note: ''
+  datasheet_url: ''
+  posizione: Blu IC Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-93c86-131
+  categoria: ic-components
+  codice: 93C86
+  quantita: 20
+  descrizione: 16Kbit EEPROM
+  interfaccia: ''
+  note: 5V
+  datasheet_url: https://datasheetspdf.com/pdf/46386/MicrochipTechnology/93C86/1
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-a09t-132
+  categoria: ic-components
+  codice: A09T
+  quantita: 30
+  descrizione: MOSFETS
+  interfaccia: SMD
+  note: 20V
+  datasheet_url: http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ads1115-133
+  categoria: ic-components
+  codice: ADS1115
+  quantita: 10
+  descrizione: ADC 4 Channel Amplifier
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ams1117-3-3-134
+  categoria: ic-components
+  codice: AMS1117-3.3
+  quantita: 50
+  descrizione: DC-DC Switching Regulator
+  interfaccia: SMD
+  note: 3.3V
+  datasheet_url: https://www.angeladvance.com/HT73xx.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ams1117-5-0-135
+  categoria: ic-components
+  codice: AMS1117-5.0
+  quantita: 50
+  descrizione: DC-DC Switching Regulator
+  interfaccia: SMD
+  note: 5V
+  datasheet_url: https://www.angeladvance.com/HT73xx.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ams1117-adj-136
+  categoria: ic-components
+  codice: AMS1117-ADJ
+  quantita: 50
+  descrizione: DC-DC Switching Regulator
+  interfaccia: SMD
+  note: ADJ
+  datasheet_url: https://www.angeladvance.com/HT73xx.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-at24c256-137
+  categoria: ic-components
+  codice: AT24C256
+  quantita: 8
+  descrizione: EPROM 256bit
+  interfaccia: DIP I2C
+  note: 1.8V - 5.5V
+  datasheet_url: ''
+  posizione: Blu IC Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-at24c512-138
+  categoria: ic-components
+  codice: AT24C512
+  quantita: 5
+  descrizione: EPROM 512bit
+  interfaccia: DIP I2C
+  note: 1.8V - 5.5V
+  datasheet_url: ''
+  posizione: Blu IC Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-bc547-139
+  categoria: ic-components
+  codice: BC547
+  quantita: 99
+  descrizione: NPN Transistor
+  interfaccia: DIP
+  note: Vice = 50V 100mA
+  datasheet_url: https://www.sparkfun.com/datasheets/Components/BC546.pdf
+  posizione: Transistor BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-bpw34-140
+  categoria: ic-components
+  codice: BPW34
+  quantita: 5
+  descrizione: Photo Diodi
+  interfaccia: DIP
+  note: ''
+  datasheet_url: ''
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-bu8874-141
+  categoria: ic-components
+  codice: BU8874
+  quantita: 1
+  descrizione: DTMF Receiver for Telephones
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.mouser.it/datasheet/2/348/rohm_semiconductor_rohms30191-1-1742744.pdf
+  posizione: GEN BLU 01 / 01
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-cd4017-142
+  categoria: ic-components
+  codice: CD4017
+  quantita: 5
+  descrizione: CMOS Counter
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/cd4017b.pdf
+  posizione: IC BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-cd405x-143
+  categoria: ic-components
+  codice: CD405x
+  quantita: 8
+  descrizione: Analog Multiplexer
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-cd4066b-144
+  categoria: ic-components
+  codice: CD4066B
+  quantita: 5
+  descrizione: Quad Bilateral Switch
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/cd4066b-mil.pdf
+  posizione: IC BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ch340g-145
+  categoria: ic-components
+  codice: CH340G
+  quantita: 5
+  descrizione: USB Slave Chip
+  interfaccia: SMD
+  note: ''
+  datasheet_url: https://www.mpja.com/download/35227cpdata.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-cp2101-146
+  categoria: ic-components
+  codice: CP2101
+  quantita: 5
+  descrizione: USB UART
+  interfaccia: SMD
+  note: Mixed Values
+  datasheet_url: https://www.silabs.com/documents/public/data-sheets/CP2101.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ds1307-147
+  categoria: ic-components
+  codice: DS1307
+  quantita: 10
+  descrizione: RTC
+  interfaccia: SMD
+  note: ''
+  datasheet_url: https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-f3aa005v-148
+  categoria: ic-components
+  codice: F3AA005V
+  quantita: 5
+  descrizione: Relay 5A
+  interfaccia: DIP
+  note: 250AC / 30DC
+  datasheet_url: https://cdn.soselectronic.com/productdata/2e/41/df68a637/ftr-f3aa005v.pdf
+  posizione: Relay BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-fqp30n06-149
+  categoria: ic-components
+  codice: FQP30N06
+  quantita: 10
+  descrizione: N-Channel MOSFET
+  interfaccia: DIP
+  note: Vd 60v Id 120A
+  datasheet_url: https://rcl-radio.ru/wp-content/uploads/2014/11/FQP30N06.pdf
+  posizione: Mosfet Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ft232bl-150
+  categoria: ic-components
+  codice: FT232BL
+  quantita: 2
+  descrizione: USB UART
+  interfaccia: SMD
+  note: Mixed Values
+  datasheet_url: https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-hp4067-151
+  categoria: ic-components
+  codice: HP4067
+  quantita: 2
+  descrizione: Digital Multiplexer
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ht1621b-152
+  categoria: ic-components
+  codice: HT1621B
+  quantita: 10
+  descrizione: LCD Driver
+  interfaccia: SMD
+  note: SSOP48
+  datasheet_url: https://www.holtek.com/documents/10179/116711/HT1621v321.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ht7333-153
+  categoria: ic-components
+  codice: HT7333
+  quantita: 20
+  descrizione: Linar Voltage Regulator
+  interfaccia: SMD
+  note: ''
+  datasheet_url: https://components101.com/regulators/ht7333-linear-voltage-regulator-datasheet-pinout
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-i7824hs-154
+  categoria: ic-components
+  codice: i7824HS
+  quantita: 3
+  descrizione: PWM controller
+  interfaccia: TSOP-14
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-irl540n-155
+  categoria: ic-components
+  codice: IRL540N
+  quantita: 10
+  descrizione: Power MOSFET
+  interfaccia: DIP
+  note: Vd 100 Id 20
+  datasheet_url: https://www.vishay.com/docs/91300/sihl540.pdf
+  posizione: Mosfet Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-irlz44n-156
+  categoria: ic-components
+  codice: IRLZ44N
+  quantita: 16
+  descrizione: Power MOSFET
+  interfaccia: DIP
+  note: Vd 55v Id 47A
+  datasheet_url: https://www.infineon.com/dgdl/irlz44npbf.pdf?fileId=5546d462533600a40153567217c32725
+  posizione: Mosfet Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-l393-157
+  categoria: ic-components
+  codice: L393
+  quantita: 5
+  descrizione: Motor Driver
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.arduino.cc/documents/datasheets/H-bridge_motor_driver.PDF
+  posizione: IC BOX 1
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ld33-158
+  categoria: ic-components
+  codice: LD33
+  quantita: 10
+  descrizione: Linar Voltage Regulator
+  interfaccia: SMD
+  note: 3v3
+  datasheet_url: https://www.st.com/resource/en/datasheet/ld1117a.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-lm358p-159
+  categoria: ic-components
+  codice: LM358P
+  quantita: 20
+  descrizione: Dual OP-AMP
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/lm358b.pdf?ts=1639818830392&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM358B%253FkeyMatch%253DLM358%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
+  posizione: IC BOX 1
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-lm3915-160
+  categoria: ic-components
+  codice: LM3915
+  quantita: 5
+  descrizione: LED DOT/LINEAR DRIVER
+  interfaccia: DIP
+  note: https://easyelectronicsproject.com/mini-projects/battery-level-indicator-circuit/
+  datasheet_url: https://www.mouser.com/datasheet/2/405/lm3915-443929.pdf
+  posizione: IC BOX 2
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-max7219-161
+  categoria: ic-components
+  codice: MAX7219
+  quantita: 1
+  descrizione: 8 DIGIT LED DRIVER
+  interfaccia: DIP / SPI
+  note: ''
+  datasheet_url: https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
+  posizione: IC BOX 1
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-max98357a-162
+  categoria: ic-components
+  codice: MAX98357A
+  quantita: 1
+  descrizione: Mono Amp
+  interfaccia: I2S
+  note: ''
+  datasheet_url: https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-mcp23017-163
+  categoria: ic-components
+  codice: MCP23017
+  quantita: 4
+  descrizione: I/O Extender Board
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-mcp23017-164
+  categoria: ic-components
+  codice: MCP23017
+  quantita: 5
+  descrizione: I/O Extender Chip
+  interfaccia: DIP-28
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-mx-rs1m-us1m-165
+  categoria: ic-components
+  codice: Mx + RS1M + US1M
+  quantita: 50
+  descrizione: Diodo
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ob2224ncp-166
+  categoria: ic-components
+  codice: OB2224NCP
+  quantita: 20
+  descrizione: Switch Power IC
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-pcf8574-167
+  categoria: ic-components
+  codice: PCF8574
+  quantita: 1
+  descrizione: GPIO Extender
+  interfaccia: I2C
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ptc1206-168
+  categoria: ic-components
+  codice: PTC1206
+  quantita: 20
+  descrizione: Poly-Fuse Resettable
+  interfaccia: SMD
+  note: ''
+  datasheet_url: https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-rf16100-169
+  categoria: ic-components
+  codice: RF16100
+  quantita: 10
+  descrizione: Auto Recover Fuse
+  interfaccia: DIP
+  note: 16V 1A
+  datasheet_url: https://it.aliexpress.com/item/32960613217.html?spm=a2g0s.9042311.0.0.27424c4dICEFYi
+  posizione: FUSE BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-sip-1a05-170
+  categoria: ic-components
+  codice: SIP-1A05
+  quantita: 5
+  descrizione: Relay 1A
+  interfaccia: 4Pin
+  note: https://www.lcsc.com/product-detail/Reed-Relays_PAN-CHANG-SIP-1A05_C10496.html
+  datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/SIP%20Series.pdf
+  posizione: Relay e PU Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-sn74ls162-171
+  categoria: ic-components
+  codice: SN74LS162
+  quantita: 10
+  descrizione: 4Bit counter
+  interfaccia: DIP
+  note: ''
+  datasheet_url: ''
+  posizione: IC BOX 2
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-sn29cp-172
+  categoria: ic-components
+  codice: SN29CP
+  quantita: 2
+  descrizione: 6-60W Led Driver
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-sn5408-173
+  categoria: ic-components
+  codice: SN5408
+  quantita: 2
+  descrizione: QUAD 2 INPUT P AND GATE
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls08-sp.pdf?ts=1639771200586&ref_url=https%253A%252F%252Fwww.google.com%252F
+  posizione: IC BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-ssxx-174
+  categoria: ic-components
+  codice: SSxx
+  quantita: 30
+  descrizione: Scotty Diodo
+  interfaccia: SMD
+  note: ''
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-tda2030-175
+  categoria: ic-components
+  codice: TDA2030
+  quantita: 5
+  descrizione: Audoo Amp
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://www.st.com/resource/en/datasheet/cd00000128.pdf
+  posizione: IC BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-tl0754cn-176
+  categoria: ic-components
+  codice: TL0754CN
+  quantita: 10
+  descrizione: JET OP AMP
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-tl081acp-177
+  categoria: ic-components
+  codice: TL081ACP
+  quantita: 10
+  descrizione: OP-AMP
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/tl081a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1639737982939&ref_url=https%253A%252F%252Fwww.mouser.de%252F
+  posizione: IC BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-tsal6200-178
+  categoria: ic-components
+  codice: TSAL6200
+  quantita: 20
+  descrizione: Hight Power IR Diode 940nm
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.vishay.com/docs/81010/tsal6200.pdf
+  posizione: Led Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-uc3845-179
+  categoria: ic-components
+  codice: UC3845
+  quantita: 5
+  descrizione: PWM Controller
+  interfaccia: DIP
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/uc3845.pdf?ts=1639737658616&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUC3845
+  posizione: IC BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-w25q128bvfg-180
+  categoria: ic-components
+  codice: W25Q128BVFG
+  quantita: 5
+  descrizione: SERIAL FLASH MEMOR - 128Mbit
+  interfaccia: QUAD SPI
+  note: 3V
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-w25q128bvmg-181
+  categoria: ic-components
+  codice: W25Q128BVMG
+  quantita: 5
+  descrizione: SERIAL FLASH MEMOR - 128Mbit
+  interfaccia: QUAD SPI
+  note: 3V
+  datasheet_url: ''
+  posizione: SMD BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: ic-components-xy8018-182
+  categoria: ic-components
+  codice: XY8018
+  quantita: 10
+  descrizione: Solar Led Driver
+  interfaccia: 4Pin
+  note: https://www.datasheetcafe.com/xy8018-datasheet-solar-led-driver/
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

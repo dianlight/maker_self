@@ -1,0 +1,378 @@
+- id: comunication-antenna-2-4g-72
+  categoria: comunication
+  codice: Antenna 2.4G
+  quantita: 4
+  descrizione: Plain Antenna 5dB
+  interfaccia: Mini IPEX
+  note: ''
+  datasheet_url: ''
+  posizione: Antenna Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-antenna-2-4g-73
+  categoria: comunication
+  codice: Antenna 2.4G
+  quantita: 5
+  descrizione: Plain Antenna 8dB
+  interfaccia: Mini IPEX
+  note: ''
+  datasheet_url: ''
+  posizione: Antenna Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-antenna-2-4g-74
+  categoria: comunication
+  codice: Antenna 2.4G
+  quantita: 7
+  descrizione: Antenna
+  interfaccia: IPEX
+  note: ''
+  datasheet_url: ''
+  posizione: Antenna Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-antenna-433mhz-75
+  categoria: comunication
+  codice: Antenna 433Mhz
+  quantita: 10
+  descrizione: Attorcigliata
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Antenna Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-bte19-05-76
+  categoria: comunication
+  codice: BTE19-05
+  quantita: 5
+  descrizione: USB -> TTL
+  interfaccia: CH340N
+  note: ''
+  datasheet_url: ''
+  posizione: Program Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-enc28j60-77
+  categoria: comunication
+  codice: ENC28J60
+  quantita: 1
+  descrizione: ETH Adapter
+  interfaccia: '?'
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-hc-05-78
+  categoria: comunication
+  codice: HC-05
+  quantita: 1
+  descrizione: Bluetooth
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-hc-06-79
+  categoria: comunication
+  codice: HC-06
+  quantita: 1
+  descrizione: Bluetooth Slave
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-hw-244-80
+  categoria: comunication
+  codice: HW-244
+  quantita: 1
+  descrizione: USB Host 2.0
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-lan8720-81
+  categoria: comunication
+  codice: LAN8720
+  quantita: 1
+  descrizione: ETH Adapter
+  interfaccia: '?'
+  note: https://sautter.com/blog/ethernet-on-esp32-using-lan8720/
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-mcp2515-82
+  categoria: comunication
+  codice: MCP2515
+  quantita: 2
+  descrizione: CAN BUS MODULE
+  interfaccia: TTL
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-nfr24-83
+  categoria: comunication
+  codice: nFR24
+  quantita: 6
+  descrizione: 2.4Ghz tranceaver
+  interfaccia: SPI
+  note: IpEX antenna
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-nfr24-84
+  categoria: comunication
+  codice: nFR24
+  quantita: 4
+  descrizione: 2.4Ghz tranceaver
+  interfaccia: SPI
+  note: Internal Antenna
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-nfr24-adapter-85
+  categoria: comunication
+  codice: nFR24 Adapter
+  quantita: 2
+  descrizione: Adapter
+  interfaccia: SPI
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-rf96-86
+  categoria: comunication
+  codice: RF96
+  quantita: 1
+  descrizione: 433Mhz Rx+Tx
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-rf98-87
+  categoria: comunication
+  codice: RF98
+  quantita: 3
+  descrizione: 433Mhz Rx+Tx
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-sn65hvd230-88
+  categoria: comunication
+  codice: SN65HVD230
+  quantita: 3
+  descrizione: CAN BUS Commutator
+  interfaccia: CAN
+  note: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1640328008103&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-sn65hvd239-89
+  categoria: comunication
+  codice: SN65HVD239
+  quantita: 3
+  descrizione: CAN BUS MODULE
+  interfaccia: TTL
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-srx882-90
+  categoria: comunication
+  codice: SRX882
+  quantita: 1
+  descrizione: 433Mhz ASK Rx
+  interfaccia: Con antenna
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-stx882-91
+  categoria: comunication
+  codice: STX882
+  quantita: 1
+  descrizione: 433Mhz ASK Tx
+  interfaccia: Con antenna
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-w5500-92
+  categoria: comunication
+  codice: W5500
+  quantita: 1
+  descrizione: ETH Adapter
+  interfaccia: SPI
+  note: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-wl101-341-93
+  categoria: comunication
+  codice: WL101-341
+  quantita: 3
+  descrizione: 433Mhz Rx+Tx
+  interfaccia: '2 schede     Antenne - Small TX'
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-wlc-tx1-94
+  categoria: comunication
+  codice: WLC-TX1
+  quantita: 3
+  descrizione: 433Mhz ASK Tx
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-xy-wb-95
+  categoria: comunication
+  codice: XY-WB
+  quantita: 2
+  descrizione: 2.4Ghz wireless tranciare. LT8920 Chip
+  interfaccia: SPI.
+  note: ''
+  datasheet_url: https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-neo-6n-gps-96
+  categoria: comunication
+  codice: NEO-6N GPS
+  quantita: 1
+  descrizione: GPS
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-rf-315mhz-97
+  categoria: comunication
+  codice: RF 315Mhz
+  quantita: 5
+  descrizione: 315Mhx Rx + Tx
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: comunication-rbx6-98
+  categoria: comunication
+  codice: RBX6
+  quantita: 1
+  descrizione: 433Mhx
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: Io Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''

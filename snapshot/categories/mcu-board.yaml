@@ -1,0 +1,337 @@
+- id: mcu-board-ch32f103c8t6-249
+  categoria: mcu-board
+  codice: CH32F103C8T6
+  quantita: 1
+  descrizione: Dev Boards
+  interfaccia: USB
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-d1-mini-250
+  categoria: mcu-board
+  codice: D1 mini
+  quantita: 0
+  descrizione: ESP8266 + USB
+  interfaccia: USB + Wifi
+  note: ''
+  datasheet_url: https://www.wemos.cc/en/latest/_static/files/sch_d1_mini_v3.0.0.pdf
+  posizione: Garage 01 e 02
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-efr32mg2x-251
+  categoria: mcu-board
+  codice: EFR32MG2X
+  quantita: 2
+  descrizione: Blank for EFR32
+  interfaccia: PIN
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esb-test-252
+  categoria: mcu-board
+  codice: ESB TEST
+  quantita: 1
+  descrizione: Test ESP8266
+  interfaccia: PIN
+  note: Autostampato
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-32-board-253
+  categoria: mcu-board
+  codice: ESP 32 - Board
+  quantita: 1
+  descrizione: ESP32 + USB + Battery
+  interfaccia: USB+Bluetooth+Wifi
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-board-254
+  categoria: mcu-board
+  codice: ESP BOARD
+  quantita: 2
+  descrizione: Dev board montata
+  interfaccia: PIN
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-01-s-255
+  categoria: mcu-board
+  codice: ESP-01(s)
+  quantita: 4
+  descrizione: '8266'
+  interfaccia: Wifi
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-01m-256
+  categoria: mcu-board
+  codice: ESP-01M
+  quantita: 2
+  descrizione: ESP8266 + Blade
+  interfaccia: Blade
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-01w-257
+  categoria: mcu-board
+  codice: ESP-01W
+  quantita: 1
+  descrizione: W600-W300?
+  interfaccia: TTL + Wifi
+  note: SDK non cinese
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-board-258
+  categoria: mcu-board
+  codice: ESP-Board
+  quantita: 9
+  descrizione: Blank for ESP8266
+  interfaccia: TTL
+  note: No regulator / No buttons
+  datasheet_url: https://homeding.github.io/boards/whiteadapter.htm
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-cam-259
+  categoria: mcu-board
+  codice: ESP-CAM
+  quantita: 2
+  descrizione: ESP-CAM - ESP32S - OVcam
+  interfaccia: TTL + Wifi + Bluetooth
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-wroom-32-260
+  categoria: mcu-board
+  codice: ESP-WROOM-32
+  quantita: 1
+  descrizione: Dev Board da montare
+  interfaccia: USB
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp-wroom-32-261
+  categoria: mcu-board
+  codice: ESP-WROOM-32
+  quantita: 1
+  descrizione: Test ESP32
+  interfaccia: PIN
+  note: Autostampato
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp32-s-262
+  categoria: mcu-board
+  codice: ESP32-S
+  quantita: 3
+  descrizione: Blank for ESP32
+  interfaccia: TTL
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp32-s-263
+  categoria: mcu-board
+  codice: ESP32-S
+  quantita: 3
+  descrizione: Dev Board da montare
+  interfaccia: PIN
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp32-t-264
+  categoria: mcu-board
+  codice: ESP32-T
+  quantita: 1
+  descrizione: Blank for ESP32
+  interfaccia: USB
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-nodemcu-0-1-265
+  categoria: mcu-board
+  codice: NodeMCU 0.1
+  quantita: 1
+  descrizione: ESP8266 + USB
+  interfaccia: USB + Wifi
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-pro-mini-266
+  categoria: mcu-board
+  codice: Pro Mini
+  quantita: 1
+  descrizione: ATMEDA328P
+  interfaccia: TTL
+  note: ''
+  datasheet_url: ''
+  posizione: MCU
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-stm32-smart-v2-267
+  categoria: mcu-board
+  codice: STM32 Smart v2
+  quantita: 1
+  descrizione: SMT32F103 + USB + TFT 1.44”
+  interfaccia: USB + JTag
+  note: +512k eproom i2c
+  datasheet_url: https://stm32-base.org/boards/STM32F103C8T6-STM32-Smart-V2.0.html
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-stm32f401cxux-268
+  categoria: mcu-board
+  codice: STM32F401CxUx
+  quantita: 2
+  descrizione: Dev Boards
+  interfaccia: USB C + JTAG
+  note: Black and Green
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-tft35-269
+  categoria: mcu-board
+  codice: TFT35
+  quantita: 1
+  descrizione: STM32F103VCT6990G0
+  interfaccia: TTL +JTAG
+  note: Con TFT35 e SD
+  datasheet_url: ''
+  posizione: A BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-zyzbp008-270
+  categoria: mcu-board
+  codice: ZYZBP008
+  quantita: 2
+  descrizione: Custom EFR32
+  interfaccia: PIN
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp32-s2-mini-271
+  categoria: mcu-board
+  codice: Esp32-s2 mini
+  quantita: 1
+  descrizione: TZT ESP32 S2 Mini scheda WIFI basata su ESP32-S2FN4R2 ESP32-S2 4MB
+    FLASH 2MB PSRAM micropyone per Arduino compatibile D1 mini aggiornamento
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
+- id: mcu-board-esp32-c3-supermini-272
+  categoria: mcu-board
+  codice: Esp32-c3 supermini
+  quantita: 1
+  descrizione: ESP32-C3 scheda di sviluppo ESP32 C3 SuperMini WiFi Bluetooth per Arduino
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  posizione: MCU IK BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: ''
