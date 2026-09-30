@@ -7,6 +7,14 @@ sovrascritte se gia' presenti/confermato."""
 CATEGORIES = ["sensori", "comunication", "displays", "motors-hardware",
               "ic-components", "pu", "led", "componenti", "mcu",
               "resistors", "mcu-board", "circuits"]
+
+# proposta -> colonna inventario (solo celle vuote, mai sovrascritture)
+PREFILL = [("codice", "codice"), ("categoria", "categoria"),
+           ("descrizione", "descrizione"), ("interfaccia", "interfaccia"),
+           ("quantita", "quantita"), ("posizione", "posizione"),
+           ("note", "note"), ("datasheet_url", "datasheet_url")]
+
+GRAY = {"red": 0.55, "green": 0.55, "blue": 0.55}
 import base64
 import json
 import os
@@ -52,6 +60,61 @@ def drive_svc():
     creds = service_account.Credentials.from_service_account_info(
         info, scopes=["https://www.googleapis.com/auth/drive.readonly"])
     return build("drive", "v3", credentials=creds, cache_discovery=False)
+
+
+def sheet_tab_id(svc):
+    meta = svc.spreadsheets().get(spreadsheetId=SHEET_ID,
+                                  fields="sheets.properties").execute()
+    for s in meta["sheets"]:
+        if s["properties"]["title"] == SHEET_TAB:
+            return s["properties"]["sheetId"]
+    return 0
+
+
+def prefill_gray(svc, tab_id, n, idx, row, prop):
+    """Riempie le celle A-I vuote con la proposta, testo grigio."""
+    reqs = []
+    for pkey, col in PREFILL:
+        if col not in idx:
+            continue
+        v = str(prop.get(pkey, "") or "").strip()
+        cur = row[idx[col]].strip() if idx[col] < len(row) else ""
+        if not v or cur:
+            continue
+        reqs.append({"updateCells": {
+            "range": {"sheetId": tab_id, "startRowIndex": n - 1, "endRowIndex": n,
+                      "startColumnIndex": idx[col], "endColumnIndex": idx[col] + 1},
+            "rows": [{"values": [{
+                "userEnteredValue": {"stringValue": v},
+                "userEnteredFormat": {"textFormat": {"foregroundColor": GRAY}}}]}],
+            "fields": "userEnteredValue,userEnteredFormat.textFormat.foregroundColor"}})
+    if reqs:
+        svc.spreadsheets().batchUpdate(
+            spreadsheetId=SHEET_ID, body={"requests": reqs}).execute()
+        print(f"riga {n}: precompilati {len(reqs)} campi in grigio.")
+
+
+def finalize_black(svc, tab_id, n, idx, row):
+    """Conferma: riporta il testo A-I a nero (solo celle valorizzate)."""
+    reqs = []
+    for _, col in PREFILL:
+        if col not in idx:
+            continue
+        if not (idx[col] < len(row) and row[idx[col]].strip()):
+            continue
+        reqs.append({"updateCells": {
+            "range": {"sheetId": tab_id, "startRowIndex": n - 1, "endRowIndex": n,
+                      "startColumnIndex": idx[col], "endColumnIndex": idx[col] + 1},
+            "rows": [{"values": [{
+                "userEnteredFormat": {"textFormat": {"foregroundColor": {}}}}]}],
+            "fields": "userEnteredFormat.textFormat.foregroundColor"}})
+    if reqs:
+        try:
+            svc.spreadsheets().batchUpdate(
+                spreadsheetId=SHEET_ID, body={"requests": reqs}).execute()
+            print(f"riga {n}: confermata, testo nero.")
+        except Exception as e:
+            print(f"riga {n}: reset colore fallito ({e}).")
 
 
 def vision_llm(jpg_bytes):
@@ -112,9 +175,11 @@ def main():
         print("colonne foto_drive_id/ai_stato mancanti.")
         return
     drv = drive_svc()
+    tab_id = sheet_tab_id(svc)
     for n, r in enumerate(vals[1:], 2):
         g = lambda c: r[idx[c]] if c in idx and idx[c] < len(r) else ""
-        if g("foto_drive_id") and not g("ai_stato"):
+        stato = g("ai_stato").strip()
+        if g("foto_drive_id") and not stato:
             fid = g("foto_drive_id").strip()
             try:
                 data = drv.files().get_media(fileId=fid).execute()
@@ -124,24 +189,27 @@ def main():
                 continue
             col_ai = chr(ord("A") + idx["ai_proposta"])
             col_st = chr(ord("A") + idx["ai_stato"])
-            data_u = [
-                {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[proposta[:4000]]]},
-                {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
-            ]
-            # categoria vuota -> riempi diretto dalla proposta (normalizzata)
-            if not g("categoria"):
-                try:
-                    pc = slug(json.loads(proposta).get("categoria", ""))
-                except (json.JSONDecodeError, AttributeError):
-                    pc = ""
-                if pc in CATEGORIES:
-                    col_cat = chr(ord("A") + idx["categoria"])
-                    data_u.append({"range": f"{SHEET_TAB}!{col_cat}{n}",
-                                   "values": [[pc]]})
-                    print(f"riga {n}: categoria auto={pc}")
             svc.spreadsheets().values().batchUpdate(
-                spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": data_u}).execute()
+                spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
+                    {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[proposta[:4000]]]},
+                    {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
+                ]}).execute()
             print(f"riga {n}: proposta AI scritta.")
+            try:
+                prop = json.loads(proposta)
+            except (json.JSONDecodeError, AttributeError):
+                prop = {}
+            if prop:
+                prefill_gray(svc, tab_id, n, idx, r, prop)
+        elif stato == "da_verificare" and g("ai_proposta"):
+            try:
+                prop = json.loads(g("ai_proposta"))
+            except (json.JSONDecodeError, AttributeError):
+                continue
+            if prop:
+                prefill_gray(svc, tab_id, n, idx, r, prop)
+        elif stato == "confermato":
+            finalize_black(svc, tab_id, n, idx, r)
 
 
 if __name__ == "__main__":
