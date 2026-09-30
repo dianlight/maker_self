@@ -24,6 +24,7 @@ import requests
 
 SHEET_ID = os.environ.get("SHEET_ID", "")
 SHEET_TAB = os.environ.get("SHEET_TAB", "inventario")
+RESP_TAB = os.environ.get("RESP_TAB", "Risposte del modulo 1")
 SA_JSON = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 BASE_URL = os.environ.get("LLM_BASE_URL", "").rstrip("/")
 MODEL = os.environ.get("LLM_MODEL", "")
@@ -58,17 +59,83 @@ def drive_svc():
     from googleapiclient.discovery import build
     info = json.loads(SA_JSON)
     creds = service_account.Credentials.from_service_account_info(
-        info, scopes=["https://www.googleapis.com/auth/drive.readonly"])
+        info, scopes=["https://www.googleapis.com/auth/drive"])
     return build("drive", "v3", credentials=creds, cache_discovery=False)
 
 
-def sheet_tab_id(svc):
+def sheet_tab_id(svc, title):
     meta = svc.spreadsheets().get(spreadsheetId=SHEET_ID,
                                   fields="sheets.properties").execute()
     for s in meta["sheets"]:
-        if s["properties"]["title"] == SHEET_TAB:
+        if s["properties"]["title"] == title:
             return s["properties"]["sheetId"]
     return 0
+
+
+def trash_file(drv, fid):
+    """Cestina la foto Drive. True se ok o gia' sparita."""
+    from googleapiclient.errors import HttpError
+    try:
+        drv.files().update(fileId=fid, body={"trashed": True}).execute()
+        return True
+    except HttpError as e:
+        if e.resp.status == 404:
+            print("foto gia' eliminata.")
+            return True
+        print(f"cestino foto fallito (HTTP {e.resp.status}, serve ruolo Editor sulla cartella).")
+        return False
+    except Exception as e:
+        print(f"cestino foto fallito ({e}).")
+        return False
+
+
+def cleanup_confirmed(svc, drv, inv_tab_id, resp_tab_id, n, idx, row, vals):
+    """Riga confermata: cestina foto (se non riusata), pulisci J/K,
+    elimina righe risposte consumate e collegate."""
+    g = lambda c: row[idx[c]].strip() if c in idx and idx[c] < len(row) else ""
+    fid = g("foto_drive_id")
+    ts = g("updated_at")
+    if not (fid or ts):
+        return
+    if fid:
+        refs = sum(1 for i, r2 in enumerate(vals[1:], 2)
+                   if i != n and "foto_drive_id" in idx
+                   and idx["foto_drive_id"] < len(r2)
+                   and r2[idx["foto_drive_id"]].strip() == fid)
+        if refs:
+            print(f"riga {n}: foto riusata da {refs} righe, tengo il file.")
+        elif not trash_file(drv, fid):
+            return  # non orfanare nulla, riprova al prossimo run
+        else:
+            cj = chr(ord("A") + idx["foto_drive_id"])
+            ck = chr(ord("A") + idx["foto_url"])
+            svc.spreadsheets().values().update(
+                spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{cj}{n}:{ck}{n}",
+                valueInputOption="RAW", body={"values": [["", ""]]}).execute()
+            print(f"riga {n}: foto cestinata, riferimenti puliti.")
+    if not resp_tab_id:
+        return
+    try:
+        resp = svc.spreadsheets().values().get(
+            spreadsheetId=SHEET_ID, range=f"'{RESP_TAB}'!A1:Z").execute().get("values", [])
+    except Exception as e:
+        print(f"riga {n}: lettura risposte fallita ({e}).")
+        return
+    kill = []
+    for m, rr in enumerate(resp[1:], 2):
+        prom = rr[10].strip().lower() if len(rr) > 10 else ""
+        if prom not in ("si", "sì", "true", "1"):
+            continue
+        fcell = rr[9] if len(rr) > 9 else ""
+        tcell = rr[0].strip() if rr else ""
+        if (fid and fid in fcell) or (ts and tcell == ts):
+            kill.append(m)
+    if kill:
+        svc.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={"requests": [
+            {"deleteDimension": {"range": {"sheetId": resp_tab_id, "dimension": "ROWS",
+                                           "startIndex": k - 1, "endIndex": k}}}
+            for k in sorted(kill, reverse=True)]}).execute()
+        print(f"riga {n}: eliminate {len(kill)} righe risposte.")
 
 
 def prefill_gray(svc, tab_id, n, idx, row, prop):
@@ -175,7 +242,8 @@ def main():
         print("colonne foto_drive_id/ai_stato mancanti.")
         return
     drv = drive_svc()
-    tab_id = sheet_tab_id(svc)
+    tab_id = sheet_tab_id(svc, SHEET_TAB)
+    resp_tab_id = sheet_tab_id(svc, RESP_TAB)
     for n, r in enumerate(vals[1:], 2):
         g = lambda c: r[idx[c]] if c in idx and idx[c] < len(r) else ""
         stato = g("ai_stato").strip()
@@ -210,6 +278,7 @@ def main():
                 prefill_gray(svc, tab_id, n, idx, r, prop)
         elif stato == "confermato":
             finalize_black(svc, tab_id, n, idx, r)
+            cleanup_confirmed(svc, drv, tab_id, resp_tab_id, n, idx, r, vals)
 
 
 if __name__ == "__main__":

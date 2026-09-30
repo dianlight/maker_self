@@ -93,7 +93,7 @@ def main():
         except ValueError:
             q = 1
         foto_id = extract_drive_id(foto_url)
-        ts = g("timestamp") or now
+        ts = g("Informazioni cronologiche") or g("timestamp") or now
 
         if cod and cod != "?" and (cat, cod) in existing:
             row = existing[(cat, cod)]

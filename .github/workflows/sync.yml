@@ -34,6 +34,7 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           SHEET_ID: ${{ secrets.SHEET_ID }}
           SHEET_TAB: inventario
+          RESP_TAB: Risposte del modulo 1
           DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
           LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
