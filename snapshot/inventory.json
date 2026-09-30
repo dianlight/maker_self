@@ -4433,18 +4433,18 @@
   },
   {
     "id": "na-na-03",
-    "categoria": "",
-    "codice": "",
+    "categoria": "comunication",
+    "codice": "Ra-02 (Ai-Thinker LoRa SX1278 433MHz)",
     "quantita": 1,
-    "descrizione": "",
-    "interfaccia": "",
-    "note": "",
-    "datasheet_url": "",
-    "posizione": "MCU Box",
+    "descrizione": "Modulo ricetrasmettitore LoRa su breakout board blu, tenuto in mano: 1 pezzo visibile. Shield metallico stagnato con logo Ai-Thinker e marcature leggibili 'Ra-02', 'Ai-Thinker', 'SX1278 433MHz', 'PA +1dBm', 'LoRa / FSK / OOK', '410-525MHz'. Package SMD a moduli con pad castellati sui due lati: a sinistra GND, DIO4, DIO5, SCK, MISO, MOSI, NSS; a destra DIO3, DIO2, DIO1, DIO0, RST, 3.3V, GND, GND. Presenta connettore coassiale U.FL/IPEX con pigtail nero collegato. Componenti passivi SMD (condensatori e induttanze) visibili accanto al modulo RF. Nella foto e' presente anche una striscia di antenna flessibile adesiva bianca con scritta stampata (marchio/tipo parzialmente leggibile)",
+    "interfaccia": "SPI",
+    "note": "Modulo LoRa 433MHz basato su Semtech SX1278, alimentazione 3.3V (non 5V tolleranti), fino a +18/+20dBm in base alla configurazione PA. Richiede antenna 433MHz (connettore U.FL oppure saldatura su ANT); nella foto e' collegato un pigtail con antenna flessibile adesiva. Da usare con librerie LoRa (es. sandeepmistry/arduino-LoRa). Verificare la frequenza di banda libera locale prima dell'uso.",
+    "datasheet_url": "https://docs.ai-thinker.com/_media/lora/docs/ra-02_product_specification.pdf",
+    "posizione": "Io Barrel",
     "foto_drive_id": "1Xiby1Ow0tHS8_7L6x-uSo55UVYJtJaYV",
     "foto_url": "https://drive.google.com/open?id=1Xiby1Ow0tHS8_7L6x-uSo55UVYJtJaYV",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"Ra-02 (Ai-Thinker LoRa SX1278 433MHz)\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo ricetrasmettitore LoRa su breakout board blu, tenuto in mano: 1 pezzo visibile. Shield metallico stagnato con logo Ai-Thinker e marcature leggibili 'Ra-02', 'Ai-Thinker', 'SX1278 433MHz', 'PA +1dBm', 'LoRa / FSK / OOK', '410-525MHz'. Package SMD a moduli con pad castellati sui due lati: a sinistra GND, DIO4, DIO5, SCK, MISO, MOSI, NSS; a destra DIO3, DIO2, DIO1, DIO0, RST, 3.3V, GND, GND. Presenta connettore coassiale U.FL/IPEX con pigtail nero collegato. Componenti passivi SMD (condensatori e induttanze) visibili accanto al modulo RF. Nella foto e' presente anche una striscia di antenna flessibile adesiva bianca con scritta stampata (marchio/tipo parzialmente leggibile)\", \"interfaccia\": \"SPI\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"https://docs.ai-thinker.com/_media/lora/docs/ra-02_product_specification.pdf\", \"note\": \"Modulo LoRa 433MHz basato su Semtech SX1278, alimentazione 3.3V (non 5V tolleranti), fino a +18/+20dBm in base alla configurazione PA. Richiede antenna 433MHz (connettore U.FL oppure saldatura su ANT); nella foto e' collegato un pigtail con antenna flessibile adesiva. Da usare con librerie LoRa (es. sandeepmistry/arduino-LoRa). Verificare la frequenza di banda libera locale prima dell'uso.\"}",
+    "ai_stato": "confermato",
     "updated_at": "30/09/2026 18.06.58"
   }
 ]
