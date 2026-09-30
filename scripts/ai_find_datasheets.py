@@ -8,14 +8,14 @@ Non sovrascrive mai un URL diventato valido nel frattempo.
 Provider: lista in WEBSEARCH_PROVIDERS (es. "exa,firecrawl,parallel,tinyfish",
 fallback singolo WEBSEARCH_PROVIDER). Uso a rotazione: ogni giorno si parte
 da un provider diverso e se uno fallisce si passa al successivo.
-Chiavi: EXA_API_KEY, FIRECRAWL_API_KEY, PARALLEL_API_KEY, TINYFISH_API_KEY
-oppure WEBSEARCH_API_KEY condivisa come fallback.
+Chiavi: EXA_API_KEY, FIRECRAWL_API_KEY, PARALLEL_API_KEY, TINYFISH_API_KEY,
+TAVILY_API_KEY oppure WEBSEARCH_API_KEY condivisa come fallback.
 Se piu' candidati sono validi e l'LLM e' configurato (LLM_BASE_URL/MODEL),
 chiede al modello di scegliere il migliore; altrimenti prende il primo.
 
 Env: GOOGLE_SERVICE_ACCOUNT_JSON, SHEET_ID, SHEET_TAB, TARGETS_FILE,
 WEBSEARCH_PROVIDERS, WEBSEARCH_PROVIDER, WEBSEARCH_API_KEY,
-EXA_API_KEY, FIRECRAWL_API_KEY, PARALLEL_API_KEY, TINYFISH_API_KEY,
+EXA_API_KEY, FIRECRAWL_API_KEY, PARALLEL_API_KEY, TINYFISH_API_KEY, TAVILY_API_KEY,
 LLM_PROVIDER, LLM_BASE_URL, LLM_MODEL, LLM_KEY, HTTP_TIMEOUT (default 10).
 """
 import json
@@ -34,7 +34,8 @@ PROVIDERS = [p.strip().lower() for p in
              if p.strip()]
 SHARED_KEY = os.environ.get("WEBSEARCH_API_KEY", "")
 KEY_ENVS = {"exa": "EXA_API_KEY", "firecrawl": "FIRECRAWL_API_KEY",
-            "parallel": "PARALLEL_API_KEY", "tinyfish": "TINYFISH_API_KEY"}
+            "parallel": "PARALLEL_API_KEY", "tinyfish": "TINYFISH_API_KEY",
+            "tavily": "TAVILY_API_KEY"}
 TIMEOUT = int(os.environ.get("HTTP_TIMEOUT", "10") or 10)
 BASE_URL = os.environ.get("LLM_BASE_URL", "").rstrip("/")
 MODEL = os.environ.get("LLM_MODEL", "")
@@ -98,8 +99,17 @@ def search_tinyfish(q, key):
     return [x["url"] for x in r.json().get("results", []) if x.get("url")]
 
 
+def search_tavily(q, key):
+    r = requests.post("https://api.tavily.com/search",
+                      headers={"Authorization": f"Bearer {key}"},
+                      json={"query": q, "max_results": 10}, timeout=60)
+    r.raise_for_status()
+    return [x["url"] for x in r.json().get("results", []) if x.get("url")]
+
+
 SEARCHERS = {"exa": search_exa, "firecrawl": search_firecrawl,
-             "parallel": search_parallel, "tinyfish": search_tinyfish}
+             "parallel": search_parallel, "tinyfish": search_tinyfish,
+             "tavily": search_tavily}
 
 
 def provider_key(name):
