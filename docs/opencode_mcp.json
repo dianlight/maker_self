@@ -1,0 +1,9 @@
+{
+  "mcp": {
+    "maker-self": {
+      "type": "stdio",
+      "command": ["python", "mcp_server/server.py"],
+      "cwd": "/Users/ltarantino/Documents/Sources/maker_self"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+name: sync-sheet-to-git
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Sync Sheet to snapshot
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          SHEET_TAB: inventario
+        run: python scripts/sync_sheet_to_git.py
+      - name: AI catalog new photos
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+          SHEET_TAB: inventario
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          LLM_PROVIDER: ${{ secrets.LLM_PROVIDER }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_KEY: ${{ secrets.LLM_KEY }}
+        run: python scripts/ai_catalog.py
+      - name: Commit snapshot if changed
+        run: |
+          git config user.name "maker-self-bot"
+          git config user.email "maker-self-bot@users.noreply.github.com"
+          git add snapshot/
+          git diff --cached --quiet || git commit -m "sync: snapshot Sheet $(date -u +%F)"
+          git push

@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "maker_self part",
+  "type": "object",
+  "required": ["id", "categoria", "codice", "quantita"],
+  "properties": {
+    "id": { "type": "string" },
+    "categoria": { "type": "string" },
+    "codice": { "type": "string" },
+    "quantita": { "type": "integer", "minimum": 0 },
+    "descrizione": { "type": "string" },
+    "interfaccia": { "type": "string" },
+    "note": { "type": "string" },
+    "datasheet_url": { "type": "string" },
+    "posizione": { "type": "string" },
+    "foto_drive_id": { "type": "string" },
+    "foto_url": { "type": "string" },
+    "ai_proposta": { "type": "string" },
+    "ai_stato": { "type": "string", "enum": ["", "da_verificare", "confermato", "scartato"] },
+    "updated_at": { "type": "string" }
+  }
+}
