@@ -121,6 +121,15 @@ def main():
             if any((c or "").strip() for c in r):
                 last = i
         nxt = last + 1
+        meta = svc.spreadsheets().get(
+            spreadsheetId=SHEET_ID, fields="sheets.properties").execute()
+        props = next(s["properties"] for s in meta["sheets"]
+                     if s["properties"]["title"] == SHEET_TAB)
+        need = nxt + len(to_append) - 1
+        if need > props["gridProperties"]["rowCount"]:
+            svc.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={"requests": [
+                {"appendDimension": {"sheetId": props["sheetId"], "dimension": "ROWS",
+                                     "length": need - props["gridProperties"]["rowCount"] + 10}}]}).execute()
         svc.spreadsheets().values().update(
             spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A{nxt}",
             valueInputOption="RAW",
