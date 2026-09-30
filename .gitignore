@@ -3,3 +3,7 @@ __pycache__/
 .env
 service-account.json
 /tmp/
+.venv/
+.opencode/
+import_preview.json
+import_for_sheet.csv

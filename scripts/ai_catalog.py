@@ -2,6 +2,8 @@
 import base64
 import json
 import os
+import re
+import uuid
 import requests
 
 SHEET_ID = os.environ.get("SHEET_ID", "")
@@ -10,6 +12,7 @@ SA_JSON = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON", "")
 BASE_URL = os.environ.get("LLM_BASE_URL", "").rstrip("/")
 MODEL = os.environ.get("LLM_MODEL", "")
 KEY = os.environ.get("LLM_KEY", "")
+PROVIDER = os.environ.get("LLM_PROVIDER", "")
 
 PROMPT = ("Sei un catalogatore di componenti elettronici. Dalla foto restituisci SOLO JSON "
           "con chiavi: codice, categoria, descrizione, interfaccia, quantita, posizione, "
@@ -38,6 +41,9 @@ def vision_llm(jpg_bytes):
     headers = {"Content-Type": "application/json"}
     if KEY:
         headers["Authorization"] = f"Bearer {KEY}"
+    # opencode-go (zen/go) routes chat requests by session
+    if PROVIDER == "opencode-go":
+        headers["x-opencode-session"] = uuid.uuid4().hex
     body = {
         "model": MODEL,
         "messages": [{
@@ -52,7 +58,11 @@ def vision_llm(jpg_bytes):
     r = requests.post(f"{BASE_URL}/chat/completions", headers=headers,
                       json=body, timeout=120)
     r.raise_for_status()
-    return r.json()["choices"][0]["message"]["content"]
+    msg = r.json()["choices"][0]["message"]
+    content = msg.get("content") or msg.get("reasoning") or ""
+    # keep only the JSON object if the model wrapped it in prose or fences
+    m = re.search(r"\{.*\}", content, re.S)
+    return m.group(0) if m else content.strip()
 
 
 def main():
