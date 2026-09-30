@@ -94,9 +94,12 @@ def check_url(url):
 
 def ensure_check_column(svc, header):
     """Aggiunge la colonna datasheet_last_check se manca. Ritorna l'indice."""
-    if CHECK_COL in header:
-        return header.index(CHECK_COL)
-    ci = len(header)
+    compact = [h for h in header]
+    while compact and not compact[-1].strip():
+        compact.pop()
+    if CHECK_COL in compact:
+        return compact.index(CHECK_COL)
+    ci = len(compact)
     svc.spreadsheets().values().update(
         spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{col_letter(ci)}1",
         valueInputOption="RAW", body={"values": [[CHECK_COL]]}).execute()
