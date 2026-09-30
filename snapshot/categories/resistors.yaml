@@ -1,5 +1,5 @@
 - id: resistors-table-1-1-b5k-243
-  categoria: resistors---table-1-1
+  categoria: resistors
   codice: B5K
   quantita: 9
   descrizione: Variable Reistor
@@ -13,7 +13,7 @@
   ai_stato: ''
   updated_at: ''
 - id: resistors-table-1-1-b50k-244
-  categoria: resistors---table-1-1
+  categoria: resistors
   codice: B50K
   quantita: 8
   descrizione: Variable Reistor
@@ -27,7 +27,7 @@
   ai_stato: ''
   updated_at: ''
 - id: resistors-table-1-1-b100k-245
-  categoria: resistors---table-1-1
+  categoria: resistors
   codice: B100K
   quantita: 5
   descrizione: Variable Reistor
@@ -41,7 +41,7 @@
   ai_stato: ''
   updated_at: ''
 - id: resistors-table-1-1-x9c103p-246
-  categoria: resistors---table-1-1
+  categoria: resistors
   codice: X9C103P
   quantita: 5
   descrizione: Digital Potentiometer
@@ -55,7 +55,7 @@
   ai_stato: ''
   updated_at: ''
 - id: resistors-table-1-1-3295-247
-  categoria: resistors---table-1-1
+  categoria: resistors
   codice: '3295'
   quantita: 19
   descrizione: Variable Reistor
@@ -69,7 +69,7 @@
   ai_stato: ''
   updated_at: ''
 - id: resistors-table-1-1-photo-resistors-248
-  categoria: resistors---table-1-1
+  categoria: resistors
   codice: Photo Resistors
   quantita: 20
   descrizione: Photo Resistor

@@ -82,13 +82,13 @@ def main():
         if g("promosso").lower() in ("si", "sì", "true", "1"):
             continue
         cod, cat = g("codice"), g("categoria")
-        if not (cod or g("descrizione")):
+        foto_url = g("foto")
+        if not (cod or g("descrizione") or foto_url):
             continue
         try:
             q = int(g("quantita") or 1)
         except ValueError:
             q = 1
-        foto_url = g("foto")
         foto_id = extract_drive_id(foto_url)
         ts = g("timestamp") or now
 

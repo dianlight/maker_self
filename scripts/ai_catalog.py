@@ -1,4 +1,12 @@
-"""Catalogo foto nuove via LLM agnostico OpenAI-compatibile. Scrive solo colonne AI."""
+"""Catalogo foto nuove via LLM agnostico OpenAI-compatibile.
+
+Scrive ai_proposta + ai_stato; se categoria e' vuota la riempie
+diretto dalla proposta (normalizzata alle categorie note). Mai
+sovrascritte se gia' presenti/confermato."""
+
+CATEGORIES = ["sensori", "comunication", "displays", "motors-hardware",
+              "ic-components", "pu", "led", "componenti", "mcu",
+              "resistors", "mcu-board", "circuits"]
 import base64
 import json
 import os
@@ -16,7 +24,14 @@ PROVIDER = os.environ.get("LLM_PROVIDER", "")
 
 PROMPT = ("Sei un catalogatore di componenti elettronici. Dalla foto restituisci SOLO JSON "
           "con chiavi: codice, categoria, descrizione, interfaccia, quantita, posizione, "
-          "datasheet_url, note. Se incerto usa stringa vuota, quantita 1.")
+          "datasheet_url, note. categoria deve essere una di: " + ", ".join(CATEGORIES) +
+          ". Se incerto usa stringa vuota, quantita 1.")
+
+
+def slug(s):
+    s = (s or "").lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s or ""
 
 
 def sheets_svc(creds_scopes):
@@ -93,11 +108,23 @@ def main():
                 continue
             col_ai = chr(ord("A") + idx["ai_proposta"])
             col_st = chr(ord("A") + idx["ai_stato"])
+            data_u = [
+                {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[proposta[:4000]]]},
+                {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
+            ]
+            # categoria vuota -> riempi diretto dalla proposta (normalizzata)
+            if not g("categoria"):
+                try:
+                    pc = slug(json.loads(proposta).get("categoria", ""))
+                except (json.JSONDecodeError, AttributeError):
+                    pc = ""
+                if pc in CATEGORIES:
+                    col_cat = chr(ord("A") + idx["categoria"])
+                    data_u.append({"range": f"{SHEET_TAB}!{col_cat}{n}",
+                                   "values": [[pc]]})
+                    print(f"riga {n}: categoria auto={pc}")
             svc.spreadsheets().values().batchUpdate(
-                spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
-                    {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[proposta[:4000]]]},
-                    {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
-                ]}).execute()
+                spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": data_u}).execute()
             print(f"riga {n}: proposta AI scritta.")
 
 

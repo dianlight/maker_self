@@ -1,5 +1,5 @@
 - id: motors-hardware-5w-heater-110
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: 5W Heater
   quantita: 1
   descrizione: 5W Heater 220v
@@ -13,7 +13,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-fan-3010-12-111
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: FAN 3010 12
   quantita: 2
   descrizione: Radial Fan
@@ -27,7 +27,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-fan-3010-12-p-112
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: FAN 3010 12 P
   quantita: 2
   descrizione: Radial Fan
@@ -41,7 +41,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-fan-3010-5-113
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: FAN 3010 5
   quantita: 2
   descrizione: Radial Fan
@@ -55,7 +55,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-fan-5012-12-114
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: FAN 5012 12
   quantita: 2
   descrizione: Radial Fan
@@ -69,7 +69,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-fan-5015-12b-115
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: FAN 5015 12B
   quantita: 2
   descrizione: Blow Fan
@@ -83,7 +83,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-fan-9025-12-116
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: FAN 9025 12
   quantita: 1
   descrizione: Radial Fan
@@ -97,7 +97,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-jf-0530b-117
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: JF.0530B
   quantita: 1
   descrizione: Linear 10mm
@@ -111,7 +111,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-jyd8131-118
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: JYD8131
   quantita: 1
   descrizione: Fog creator
@@ -125,7 +125,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-mini-passo-passo-119
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: Mini Passo Passo
   quantita: 10
   descrizione: Ministepper  3v
@@ -147,7 +147,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-ministepper-120
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: Ministepper
   quantita: 10
   descrizione: Ministepper
@@ -169,7 +169,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-motore-senza-fine-121
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: Motore Senza Fine
   quantita: 10
   descrizione: DC 1v.5v Motor
@@ -185,7 +185,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-sg90-122
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: SG90
   quantita: 5
   descrizione: Microservo 9g
@@ -199,7 +199,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-water-pump-123
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: Water Pump
   quantita: 1
   descrizione: ''
@@ -213,7 +213,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-perrier-124
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: Perrier
   quantita: 1
   descrizione: Perrier Cell + Fan x Liquidi
@@ -227,7 +227,7 @@
   ai_stato: ''
   updated_at: ''
 - id: motors-hardware-speaker-125
-  categoria: motors-_-hardware
+  categoria: motors-hardware
   codice: Speaker
   quantita: 2
   descrizione: Minispeaker
