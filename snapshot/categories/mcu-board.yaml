@@ -335,3 +335,30 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
+- id: na-na-02
+  categoria: mcu-board
+  codice: NodeMCU-ESP8266-ESP12E
+  quantita: 1
+  descrizione: 'Scheda di sviluppo per modulo ESP8266 ESP-12E, PCB nero con antenna
+    PCB integrata, shield metallico con scritte ''ESP-12E'' e ''ESP8266EX''. Presenti
+    header maschio su due lati (15 pin per lato), pulsanti RST e FLASH, connettore
+    micro-USB, regolatore di tensione e componenti SMD. Serigrafia ''Ver 0.1''. Quantità
+    visibile: 1.'
+  interfaccia: Micro-USB, Wi-Fi 802.11 b/g/n, GPIO, UART, I2C, SPI, ADC
+  note: Board compatibile NodeMCU V3 con modulo ESP-12E; possibile chip USB-seriale
+    CH340. Fori di montaggio agli angoli.
+  datasheet_url: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
+  posizione: MCU Box
+  foto_drive_id: 1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
+  foto_url: https://drive.google.com/open?id=1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
+  ai_proposta: '{"codice": "NodeMCU-ESP8266-ESP12E", "categoria": "mcu-board", "descrizione":
+    "Scheda di sviluppo per modulo ESP8266 ESP-12E, PCB nero con antenna PCB integrata,
+    shield metallico con scritte ''ESP-12E'' e ''ESP8266EX''. Presenti header maschio
+    su due lati (15 pin per lato), pulsanti RST e FLASH, connettore micro-USB, regolatore
+    di tensione e componenti SMD. Serigrafia ''Ver 0.1''. Quantità visibile: 1.",
+    "interfaccia": "Micro-USB, Wi-Fi 802.11 b/g/n, GPIO, UART, I2C, SPI, ADC", "quantita":
+    1, "posizione": "", "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf",
+    "note": "Board compatibile NodeMCU V3 con modulo ESP-12E; possibile chip USB-seriale
+    CH340. Fori di montaggio agli angoli."}'
+  ai_stato: confermato
+  updated_at: 30/09/2026 18.46.48
