@@ -67,13 +67,29 @@ def main():
     inv_header = [h.strip() for h in inv[0]] if inv else []
     inv_idx = {h: i for i, h in enumerate(inv_header)}
 
-    # indici esistenti per deduplica (solo codice significativo)
+    # id esistenti per unicita'
+    existing_ids = set()
+    for r in inv[1:]:
+        rid = r[inv_idx["id"]].strip() if "id" in inv_idx and inv_idx["id"] < len(r) else ""
+        if rid:
+            existing_ids.add(rid)
+
+    def unique_id(base):
+        base = slug(base) or "noid"
+        cand, k = base, 2
+        while cand in existing_ids:
+            cand = f"{base}-{k}"
+            k += 1
+        existing_ids.add(cand)
+        return cand
+
+    # righe esistenti per incremento (codice significativo)
     existing = {}
     for r in inv[1:]:
-        g = lambda c: r[inv_idx[c]].strip() if c in inv_idx and inv_idx[c] < len(r) else ""
-        cod, cat = g("codice"), g("categoria")
-        if cod and cod != "?":
-            existing[(cat, cod)] = r
+        g0 = lambda c: r[inv_idx[c]].strip() if c in inv_idx and inv_idx[c] < len(r) else ""
+        cod0, cat0 = g0("codice"), g0("categoria")
+        if cod0 and cod0 != "?":
+            existing[(cat0, cod0)] = r
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     to_append = []
@@ -106,7 +122,7 @@ def main():
             promoted.append(n)
             print(f"riga {n}: incremento {cat}/{cod} -> {new_q}")
         else:
-            pid = f"{slug(cat)}-{slug(cod)}-{n:02d}"
+            pid = unique_id(f"{slug(cat)}-{slug(cod) or 'foto'}")
             to_append.append([pid, cat, cod, str(q), g("descrizione"), g("interfaccia"),
                               g("note"), g("dataheet_url"), g("posizione"), foto_id,
                               foto_url, "", "", ts])
