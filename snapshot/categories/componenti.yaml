@@ -236,3 +236,32 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
+- id: na-na-06
+  categoria: componenti
+  codice: EGBO-5PCS-BUZZER-85DB-12V
+  quantita: 5
+  descrizione: 'Busta trasparente con etichetta F2-02. Articolo indicato: 5PCS EGBO
+    Alarm Buzzer DC 12V 85dB Mini Electronic Alarm Buzzers Constant Tone#Color:5PCS
+    Buzzer 85DB. Si intravedono fili rossi/neri all''interno; package dei buzzer non
+    completamente visibile. Made in China.'
+  interfaccia: 2 fili
+  note: 'Buzzer/mini campanelli elettronici DC 12V, 85dB, tono costante, confezione
+    da 5 pezzi. Produttore: Shenzhen Beishun Ming core Electronics Co., LTD. Barcode:
+    772509759985. Codice etichetta: cn1077051220ojiae. Made in China. REP: Yaling
+    He, E-CrossStu GmbH, Mainzer Landstrasse 69, Frankfurt am Main, Germany.'
+  datasheet_url: ''
+  posizione: IC Box
+  foto_drive_id: 1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG
+  foto_url: https://drive.google.com/open?id=1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG, https://drive.google.com/open?id=1WnwKk78iNLAgyzX12t6iewfN79_jx132
+  ai_proposta: '{"codice": "EGBO-5PCS-BUZZER-85DB-12V", "categoria": "componenti",
+    "descrizione": "Busta trasparente con etichetta F2-02. Articolo indicato: 5PCS
+    EGBO Alarm Buzzer DC 12V 85dB Mini Electronic Alarm Buzzers Constant Tone#Color:5PCS
+    Buzzer 85DB. Si intravedono fili rossi/neri all''interno; package dei buzzer non
+    completamente visibile. Made in China.", "interfaccia": "2 fili", "quantita":
+    5, "posizione": "F2-02", "datasheet_url": "", "note": "Buzzer/mini campanelli
+    elettronici DC 12V, 85dB, tono costante, confezione da 5 pezzi. Produttore: Shenzhen
+    Beishun Ming core Electronics Co., LTD. Barcode: 772509759985. Codice etichetta:
+    cn1077051220ojiae. Made in China. REP: Yaling He, E-CrossStu GmbH, Mainzer Landstrasse
+    69, Frankfurt am Main, Germany."}'
+  ai_stato: confermato
+  updated_at: 30/09/2026 19.16.20

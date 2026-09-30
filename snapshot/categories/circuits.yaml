@@ -54,3 +54,78 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
+- id: na-na-03
+  categoria: circuits
+  codice: HCM-M02
+  quantita: 1
+  descrizione: 'Modulo relè su PCB blu, 1 pezzo visibile. Relè Songle SRD-05VDC-SL-C,
+    package SIP, scritte leggibili: SONGLE, SRD-05VDC-SL-C, 10A 250VAC, 10A 125VAC,
+    10A 30VDC, 10A 28VDC, HCM-M02. Presenti morsettiere a vite blu, pulsante e componenti
+    SMD.'
+  interfaccia: morsettiere a vite e header di controllo
+  note: Modulo relè 5V monocanale; possibile optoisolatore/transistor di pilotaggio;
+    codice relè Songle SRD-05VDC-SL-C.
+  datasheet_url: https://www.songle.com/en/relay/SRD.pdf
+  posizione: IC Barrel
+  foto_drive_id: 1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
+  foto_url: https://drive.google.com/open?id=1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
+  ai_proposta: '{"codice": "HCM-M02", "categoria": "circuits", "descrizione": "Modulo
+    relè su PCB blu, 1 pezzo visibile. Relè Songle SRD-05VDC-SL-C, package SIP, scritte
+    leggibili: SONGLE, SRD-05VDC-SL-C, 10A 250VAC, 10A 125VAC, 10A 30VDC, 10A 28VDC,
+    HCM-M02. Presenti morsettiere a vite blu, pulsante e componenti SMD.", "interfaccia":
+    "morsettiere a vite e header di controllo", "quantita": 1, "posizione": "contenitore
+    plastico", "datasheet_url": "https://www.songle.com/en/relay/SRD.pdf", "note":
+    "Modulo relè 5V monocanale; possibile optoisolatore/transistor di pilotaggio;
+    codice relè Songle SRD-05VDC-SL-C."}'
+  ai_stato: confermato
+  updated_at: 30/09/2026 18.48.09
+- id: na-na-04
+  categoria: circuits
+  codice: I025A01
+  quantita: 1
+  descrizione: 'Modulo rele bistabile/latching 1 canale su PCB verde, 1 pezzo visibile.
+    Package: modulo PCB con fori e piazzole. Scritte leggibili: eletechsup, 1ch Bistable
+    relay, I025A01, 3V, 5V, NC, COM, NO, T, GND, VCC.'
+  interfaccia: T/GND/VCC per controllo; NC/COM/NO per contatto rele; selezione 3V/5V
+  note: 'Modulo rele bistabile (latching) a 1 canale, probabile marca eletechsup.
+    Possibile selezione tensione 3V o 5V. Codice letto: I025A01.'
+  datasheet_url: ''
+  posizione: IC Barrel
+  foto_drive_id: 10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
+  foto_url: https://drive.google.com/open?id=10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
+  ai_proposta: '{"codice": "I025A01", "categoria": "circuits", "descrizione": "Modulo
+    rele bistabile/latching 1 canale su PCB verde, 1 pezzo visibile. Package: modulo
+    PCB con fori e piazzole. Scritte leggibili: eletechsup, 1ch Bistable relay, I025A01,
+    3V, 5V, NC, COM, NO, T, GND, VCC.", "interfaccia": "T/GND/VCC per controllo; NC/COM/NO
+    per contatto rele; selezione 3V/5V", "quantita": 1, "posizione": "contenitore
+    plastico trasparente", "datasheet_url": "", "note": "Modulo rele bistabile (latching)
+    a 1 canale, probabile marca eletechsup. Possibile selezione tensione 3V o 5V.
+    Codice letto: I025A01."}'
+  ai_stato: confermato
+  updated_at: 30/09/2026 18.49.32
+- id: na-na-05
+  categoria: circuits
+  codice: JQC-3FF-S-Z
+  quantita: 1
+  descrizione: 'Modulo relè a 2 canali su PCB rosso con due relè blu JQC-3FF-S-Z 12VDC,
+    10A 250VAC / 15A 125VAC. Visibili 2 relè, 1 morsettiera a vite da 4 poli sul lato
+    sinistro e 1 morsettiera a vite da 6 poli sul lato destro, optoisolatori SMD e
+    jumper. Scritte leggibili sui relè: 12VDC, 10A 250VAC, 15A 125VAC, JQC-3FF-S-Z.'
+  interfaccia: morsettiere a vite / header GPIO
+  note: Modulo per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC;
+    bobina 12VDC.
+  datasheet_url: https://www.handsontec.com/dataspecs/relay/JQC-3FF-S-Z.pdf
+  posizione: IC Barrel
+  foto_drive_id: 1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
+  foto_url: https://drive.google.com/open?id=1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
+  ai_proposta: '{"codice": "JQC-3FF-S-Z", "categoria": "circuits", "descrizione":
+    "Modulo relè a 2 canali su PCB rosso con due relè blu JQC-3FF-S-Z 12VDC, 10A 250VAC
+    / 15A 125VAC. Visibili 2 relè, 1 morsettiera a vite da 4 poli sul lato sinistro
+    e 1 morsettiera a vite da 6 poli sul lato destro, optoisolatori SMD e jumper.
+    Scritte leggibili sui relè: 12VDC, 10A 250VAC, 15A 125VAC, JQC-3FF-S-Z.", "interfaccia":
+    "morsettiere a vite / header GPIO", "quantita": 1, "posizione": "", "datasheet_url":
+    "https://www.handsontec.com/dataspecs/relay/JQC-3FF-S-Z.pdf", "note": "Modulo
+    per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC; bobina
+    12VDC."}'
+  ai_stato: confermato
+  updated_at: 30/09/2026 18.50.33
