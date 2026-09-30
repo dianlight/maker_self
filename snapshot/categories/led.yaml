@@ -40,3 +40,26 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
+- id: na-na-03
+  categoria: led
+  codice: WS2812B-8x8
+  quantita: 1
+  descrizione: 'Pannello/matrice di LED RGB indirizzabili 8x8 (64 LED) con package
+    SMD 5050 e lente bianca quadrata, montati su PCB nero; singolo modulo in busta
+    antistatica. Scritte sul modulo non chiaramente leggibili. Quantità visibile:
+    1 pannello.'
+  interfaccia: 5V, GND, DIN, DOUT (seriale one-wire)
+  note: Probabile WS2812B o compatibile; 8x8 = 64 LED; richiede alimentazione 5V e
+    controllo seriale.
+  datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+  posizione: A Box
+  foto_drive_id: 1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI
+  foto_url: https://drive.google.com/open?id=1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI, https://drive.google.com/open?id=1EO4hgn5ULjg0_ckzvo1fbYDyaJ5AWSDd
+  ai_proposta: '{"codice":"WS2812B-8x8","categoria":"led","descrizione":"Pannello/matrice
+    di LED RGB indirizzabili 8x8 (64 LED) con package SMD 5050 e lente bianca quadrata,
+    montati su PCB nero; singolo modulo in busta antistatica. Scritte sul modulo non
+    chiaramente leggibili. Quantità visibile: 1 pannello.","interfaccia":"5V, GND,
+    DIN, DOUT (seriale one-wire)","quantita":1,"posizione":"","datasheet_url":"https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf","note":"Probabile
+    WS2812B o compatibile; 8x8 = 64 LED; richiede alimentazione 5V e controllo seriale."}'
+  ai_stato: confermato
+  updated_at: '2026-09-30T15:02:17Z'

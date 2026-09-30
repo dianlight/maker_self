@@ -6,7 +6,7 @@
   interfaccia: USB
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -34,7 +34,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -48,7 +48,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -62,7 +62,7 @@
   interfaccia: USB+Bluetooth+Wifi
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -76,7 +76,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -90,7 +90,7 @@
   interfaccia: Wifi
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -104,7 +104,7 @@
   interfaccia: Blade
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -146,7 +146,7 @@
   interfaccia: TTL + Wifi + Bluetooth
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -160,7 +160,7 @@
   interfaccia: USB
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -174,7 +174,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -202,7 +202,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -230,7 +230,7 @@
   interfaccia: USB + Wifi
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -258,7 +258,7 @@
   interfaccia: USB + JTag
   note: +512k eproom i2c
   datasheet_url: https://stm32-base.org/boards/STM32F103C8T6-STM32-Smart-V2.0.html
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -272,7 +272,7 @@
   interfaccia: USB C + JTAG
   note: Black and Green
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -286,7 +286,7 @@
   interfaccia: TTL +JTAG
   note: Con TFT35 e SD
   datasheet_url: ''
-  posizione: A BOX
+  posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -300,7 +300,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -315,7 +315,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -329,7 +329,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
-  posizione: MCU IK BOX
+  posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''

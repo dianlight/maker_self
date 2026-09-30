@@ -6,7 +6,7 @@
   interfaccia: MINI DIP
   note: ''
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -20,7 +20,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -48,7 +48,7 @@
   interfaccia: MINI DIP
   note: ''
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -76,7 +76,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -90,7 +90,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -104,7 +104,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: http://www.lyr-ing.com/DocumentosLyR/EXT/ICs/AVR/AtMega1284P_(3)_8059S.pdf
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -118,7 +118,7 @@
   interfaccia: DIP
   note: Probabilmente ATTINY12 rimachliati. Programmare uasbasp JP3 per 1Mhz
   datasheet_url: https://www.dexsilicium.com/Atmel_Tiny12l.pdf
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -132,7 +132,7 @@
   interfaccia: DIP
   note: I marchiati in rosso devono essere riprogrammati in HV
   datasheet_url: https://www.microchip.com/wwwproducts/en/ATmega8A
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -146,7 +146,7 @@
   interfaccia: Edge
   note: ''
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -202,7 +202,7 @@
   interfaccia: MINI DIP
   note: Internal Antenna
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -216,7 +216,7 @@
   interfaccia: MINI DIP
   note: IPEX
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -230,7 +230,7 @@
   interfaccia: MINI DP
   note: Internal Antenna
   datasheet_url: ''
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -244,7 +244,7 @@
   interfaccia: COPIA TUYA
   note: ''
   datasheet_url: https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121831_DOIT-ESP-02S_C19949060.pdf
-  posizione: MCU BOX
+  posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''

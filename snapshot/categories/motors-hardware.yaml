@@ -20,7 +20,7 @@
   interfaccia: 2 pin
   note: ''
   datasheet_url: +12v
-  posizione: FanBox
+  posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -34,7 +34,7 @@
   interfaccia: 3 pin
   note: ''
   datasheet_url: +12v
-  posizione: FanBox
+  posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -48,7 +48,7 @@
   interfaccia: 2 pin
   note: ''
   datasheet_url: +5v
-  posizione: FanBox
+  posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -62,7 +62,7 @@
   interfaccia: 2 pin
   note: ''
   datasheet_url: +12v
-  posizione: FanBox
+  posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -76,7 +76,7 @@
   interfaccia: 2 pin
   note: ''
   datasheet_url: +12v
-  posizione: FanBox
+  posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -90,7 +90,7 @@
   interfaccia: 2 pin
   note: ''
   datasheet_url: +12v
-  posizione: FanBox
+  posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -118,7 +118,7 @@
   interfaccia: 2.4Mhz 1.70Mhz 2Ohm
   note: ''
   datasheet_url: ''
-  posizione: Componet Barrel
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -206,7 +206,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
-  posizione: A  BOX
+  posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -220,7 +220,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
-  posizione: A BOX
+  posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -234,7 +234,7 @@
   interfaccia: 8Ohm 1W
   note: ''
   datasheet_url: ''
-  posizione: A  BOX
+  posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
