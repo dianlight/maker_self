@@ -4416,7 +4416,7 @@
     "updated_at": "2026-09-30T14:48:45Z"
   },
   {
-    "id": "na-na-03",
+    "id": "led-ws2812b-8x8",
     "categoria": "led",
     "codice": "WS2812B-8x8",
     "quantita": 1,
@@ -4432,7 +4432,7 @@
     "updated_at": "2026-09-30T15:02:17Z"
   },
   {
-    "id": "na-na-03",
+    "id": "comunication-ra-02-ai-thinker-lora-sx1278-433mhz",
     "categoria": "comunication",
     "codice": "Ra-02 (Ai-Thinker LoRa SX1278 433MHz)",
     "quantita": 1,
@@ -4464,7 +4464,7 @@
     "updated_at": "30/09/2026 18.46.48"
   },
   {
-    "id": "na-na-03",
+    "id": "circuits-hcm-m02",
     "categoria": "circuits",
     "codice": "HCM-M02",
     "quantita": 1,

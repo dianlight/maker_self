@@ -40,7 +40,7 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
-- id: na-na-03
+- id: led-ws2812b-8x8
   categoria: led
   codice: WS2812B-8x8
   quantita: 1
