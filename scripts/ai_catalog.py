@@ -118,8 +118,8 @@ def merge_duplicate(svc, drv, inv_tab_id, resp_tab_id, vals, idx, n, row, prop, 
                 spreadsheetId=SHEET_ID, body={"requests": reqs}).execute()
     fid = (row[idx["foto_drive_id"]].strip()
            if "foto_drive_id" in idx and idx["foto_drive_id"] < len(row) else "")
-    if fid and not trash_file(drv, fid):
-        print(f"riga {n}: merge quantita ok, foto non cestinata (riprova manuale).")
+    if fid and not archive_file(drv, fid):
+        print(f"riga {n}: merge quantita ok, foto non archiviata.")
         return False
     if resp_tab_id:
         for k in linked_responses(svc, fid, ""):
@@ -168,6 +168,7 @@ BASE_URL = os.environ.get("LLM_BASE_URL", "").rstrip("/")
 MODEL = os.environ.get("LLM_MODEL", "")
 KEY = os.environ.get("LLM_KEY", "")
 PROVIDER = os.environ.get("LLM_PROVIDER", "")
+ARCHIVE_FOLDER_ID = os.environ.get("DRIVE_FOLDER_ID", "")
 
 PROMPT = ("Sei un catalogatore di componenti elettronici. Guarda bene la foto e "
           "restituisci SOLO JSON con chiavi: codice, categoria, descrizione, interfaccia, "
@@ -210,20 +211,30 @@ def sheet_tab_id(svc, title):
     return 0
 
 
-def trash_file(drv, fid):
-    """Cestina la foto Drive. True se ok o gia' sparita."""
+def archive_file(drv, fid):
+    """Sposta la foto nella cartella archivio (link invariato).
+    True se ok o gia' sparita."""
     from googleapiclient.errors import HttpError
+    if not ARCHIVE_FOLDER_ID:
+        print("DRIVE_FOLDER_ID mancante, skip archivio foto.")
+        return False
     try:
-        drv.files().update(fileId=fid, body={"trashed": True}).execute()
+        cur = drv.files().get(fileId=fid, fields="parents").execute().get("parents", [])
+        if cur == [ARCHIVE_FOLDER_ID]:
+            return True
+        drv.files().update(
+            fileId=fid, addParents=ARCHIVE_FOLDER_ID,
+            removeParents=",".join(cur) if cur else None,
+            fields="id,parents").execute()
         return True
     except HttpError as e:
         if e.resp.status == 404:
-            print("foto gia' eliminata.")
+            print("foto gia' sparita.")
             return True
-        print(f"cestino foto fallito (HTTP {e.resp.status}, serve ruolo Editor sulla cartella).")
+        print(f"archivio foto fallito (HTTP {e.resp.status}).")
         return False
     except Exception as e:
-        print(f"cestino foto fallito ({e}).")
+        print(f"archivio foto fallito ({e}).")
         return False
 
 
@@ -241,16 +252,11 @@ def cleanup_confirmed(svc, drv, inv_tab_id, resp_tab_id, n, idx, row, vals):
                    and idx["foto_drive_id"] < len(r2)
                    and r2[idx["foto_drive_id"]].strip() == fid)
         if refs:
-            print(f"riga {n}: foto riusata da {refs} righe, tengo il file.")
-        elif not trash_file(drv, fid):
-            return  # non orfanare nulla, riprova al prossimo run
+            print(f"riga {n}: foto riusata da {refs} righe, la tengo dov'e'.")
+        elif not archive_file(drv, fid):
+            return  # non cancellare i riferimenti, riprova al prossimo run
         else:
-            cj = chr(ord("A") + idx["foto_drive_id"])
-            ck = chr(ord("A") + idx["foto_url"])
-            svc.spreadsheets().values().update(
-                spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{cj}{n}:{ck}{n}",
-                valueInputOption="RAW", body={"values": [["", ""]]}).execute()
-            print(f"riga {n}: foto cestinata, riferimenti puliti.")
+            print(f"riga {n}: foto archiviata, link invariato.")
     if not resp_tab_id:
         return
     kill = linked_responses(svc, fid, ts)

@@ -4,7 +4,7 @@
 3. La Action giornaliera propone `ai_proposta` + `ai_stato=da_verificare` in `inventario`.
 4. Conferma: i campi suggeriti dall'AI sono gia' precompilati in grigio.
    Controllali, correggi se serve e metti `ai_stato=confermato`: il testo torna nero da solo al run successivo.
-   Alla conferma la foto viene cestinata su Drive e la riga risposta eliminata, tutto automatico.
+   Alla conferma la foto viene spostata in maker_self_foto e la riga risposta eliminata, tutto automatico.
    Se la foto ritrae un pezzo gia' presente (stesso codice e categoria), la quantita viene accorpata da sola e la riga duplicata sparisce.
 
 # Decremento / prelievo
