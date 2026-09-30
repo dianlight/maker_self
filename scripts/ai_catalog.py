@@ -339,18 +339,26 @@ def vision_llm(jpg_bytes):
             ],
         }],
         "temperature": 0.1,
-        "max_tokens": 1200,
+        "max_tokens": 6000,
         "response_format": {"type": "json_object"},
     }
     r = requests.post(f"{BASE_URL}/chat/completions", headers=headers,
-                      json=body, timeout=180)
+                      json=body, timeout=300)
     r.raise_for_status()
-    msg = r.json()["choices"][0]["message"]
+    resp = r.json()
+    choice = resp["choices"][0]
+    msg = choice["message"]
     content = (msg.get("content") or msg.get("reasoning")
                or msg.get("reasoning_content") or "")
+    print(f"AI finish={choice.get('finish_reason')} len={len(content)}")
     # keep only the JSON object if the model wrapped it in prose or fences
     m = re.search(r"\{.*\}", content, re.S)
-    return m.group(0) if m else content.strip()
+    out = m.group(0) if m else content.strip()
+    try:
+        json.loads(out)
+    except (json.JSONDecodeError, AttributeError):
+        print("AI: proposta non-JSON, la scrivo grezza per revisione manuale.")
+    return out
 
 
 def main():

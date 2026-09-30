@@ -39,6 +39,8 @@ def to_parts(values):
     parts = []
     for n, r in enumerate(values[1:], 1):
         g = lambda c: r[idx[c]].strip() if c in idx and idx[c] < len(r) else ""
+        if not (g("id") or g("codice") or g("descrizione") or g("foto_drive_id")):
+            continue  # riga vuota, mai in snapshot
         categoria, codice = g("categoria"), g("codice")
         try:
             q = int(g("quantita") or 0)

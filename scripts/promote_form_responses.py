@@ -114,10 +114,18 @@ def main():
             print(f"riga {n}: nuovo {pid}")
 
     if to_append:
-        svc.spreadsheets().values().append(
-            spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A1",
-            valueInputOption="RAW", insertDataOption="INSERT_ROWS",
+        # riga esplicita invece di append: l'ancoraggio append si rompe
+        # con righe griglia vuote in mezzo
+        last = 1
+        for i, r in enumerate(inv, 1):
+            if any((c or "").strip() for c in r):
+                last = i
+        nxt = last + 1
+        svc.spreadsheets().values().update(
+            spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A{nxt}",
+            valueInputOption="RAW",
             body={"values": to_append}).execute()
+        print(f"append righe {nxt}-{nxt + len(to_append) - 1}")
     for row_num, new_q in to_update:
         svc.spreadsheets().values().update(
             spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!D{row_num}",
