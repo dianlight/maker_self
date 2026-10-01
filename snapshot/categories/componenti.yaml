@@ -4,9 +4,10 @@
   quantita: 1
   descrizione: Micro SD SPI
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -18,9 +19,10 @@
   quantita: 1
   descrizione: PWM Driver 12bit 16 Channel
   interfaccia: I2C
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -32,9 +34,10 @@
   quantita: 1
   descrizione: Electrocalamita 12v - 5kg
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -46,9 +49,10 @@
   quantita: 1
   descrizione: Resistor - Slide Pot.
   interfaccia: ''
-  note: B BOX
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -60,9 +64,10 @@
   quantita: 1
   descrizione: Micro USB Ultrasonic mist Maker
   interfaccia: Micro USB
-  note: B BOX
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -74,9 +79,10 @@
   quantita: 1
   descrizione: DC 10A Mini voltometro
   interfaccia: ''
-  note: B BOX
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -88,9 +94,10 @@
   quantita: 4
   descrizione: Module MOSFET
   interfaccia: 3PIN
-  note: B BOX
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -102,9 +109,10 @@
   quantita: 7
   descrizione: Level Converter 3-5v
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -116,9 +124,10 @@
   quantita: 1
   descrizione: Laser Emitter
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -130,9 +139,10 @@
   quantita: 1
   descrizione: Joystick
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -144,9 +154,10 @@
   quantita: 3
   descrizione: Joystick
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -158,9 +169,10 @@
   quantita: 3
   descrizione: Tastiera a Pression
   interfaccia: ''
-  note: A Box
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -172,9 +184,10 @@
   quantita: 1
   descrizione: RTC Clock
   interfaccia: I2C
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -186,9 +199,10 @@
   quantita: 10
   descrizione: Rotary Encoder
   interfaccia: ''
-  note: A Box
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -200,9 +214,10 @@
   quantita: 10
   descrizione: Pulsanti Multicolori
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -214,9 +229,10 @@
   quantita: 1
   descrizione: Power Button + Led
   interfaccia: ''
-  note: Component Barrel
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -228,9 +244,10 @@
   quantita: 1
   descrizione: Module MOSFET
   interfaccia: ''
-  note: B BOX
+  note: ''
   datasheet_url: ''
-  posizione: ''
+  datasheet_last_check: ''
+  posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: ''
@@ -250,6 +267,7 @@
     772509759985. Codice etichetta: cn1077051220ojiae. Made in China. REP: Yaling
     He, E-CrossStu GmbH, Mainzer Landstrasse 69, Frankfurt am Main, Germany.'
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: IC Box
   foto_drive_id: 1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG
   foto_url: https://drive.google.com/open?id=1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG, https://drive.google.com/open?id=1WnwKk78iNLAgyzX12t6iewfN79_jx132

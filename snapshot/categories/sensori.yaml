@@ -5,7 +5,8 @@
   descrizione: Rain Sensors
   interfaccia: '?'
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -19,7 +20,8 @@
   descrizione: Capacitive Soil Moisture Sensor
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -33,7 +35,8 @@
   descrizione: Soil Sensore
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -47,7 +50,8 @@
   descrizione: Water Level
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -61,7 +65,8 @@
   descrizione: Color Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -75,7 +80,8 @@
   descrizione: Linear Hall Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/ja/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -89,7 +95,8 @@
   descrizione: Magnetic Spring
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://linmot.com/en/produkte/magspring/
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -103,7 +110,8 @@
   descrizione: IR Distance Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -117,7 +125,8 @@
   descrizione: Temperature sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -132,6 +141,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -146,6 +156,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -159,7 +170,8 @@
   descrizione: Current Sensor
   interfaccia: '?'
   note: ''
-  datasheet_url: https://homotix_it.e-mind.it/upld/repository/File/datasheet%20acs712.pdf
+  datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/168326/ALLEGRO/ACS712.html
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -173,7 +185,8 @@
   descrizione: 3 Axis acce 13bit
   interfaccia: I2C- SPI
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://www.farnell.com/datasheets/3708808.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -188,6 +201,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF
+  datasheet_last_check: '2026-09-30'
   posizione: S Box
   foto_drive_id: ''
   foto_url: ''
@@ -201,7 +215,8 @@
   descrizione: Temperature sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -215,7 +230,8 @@
   descrizione: Temperature sensor
   interfaccia: '? + I2C?'
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -229,7 +245,8 @@
   descrizione: HW-740 Pir Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/
+  datasheet_last_check: '2026-09-30'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -243,7 +260,8 @@
   descrizione: Angolo Rotazione/RPM
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -257,7 +275,8 @@
   descrizione: Microphone
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -271,7 +290,8 @@
   descrizione: Barometrix/Temp/Pressure/altitude
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -285,7 +305,8 @@
   descrizione: Barometrix/Temp/Pressure/altitude
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -300,6 +321,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.vishay.com/docs/83751/cny70.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -313,7 +335,8 @@
   descrizione: Sensore Infrarossi
   interfaccia: '?'
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://www.futurlec.com/PIR_D203S.shtml
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -327,7 +350,8 @@
   descrizione: Temperature sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://moodle.upm.es/en-abierto/pluginfile.php/47163/mod_page/content/10/DHT11.PDF
+  datasheet_last_check: '2026-09-30'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -341,7 +365,8 @@
   descrizione: Temperature sensor
   interfaccia: '?'
   note: ''
-  datasheet_url: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
+  datasheet_last_check: '2026-09-30'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -356,6 +381,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -370,6 +396,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -384,6 +411,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -398,6 +426,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -412,6 +441,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -426,6 +456,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -440,6 +471,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -454,6 +486,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -468,6 +501,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -482,6 +516,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -496,6 +531,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -510,6 +546,7 @@
   interfaccia: I2S
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -524,6 +561,7 @@
   interfaccia: '?'
   note: Per PT100 etc
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -538,6 +576,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -552,6 +591,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -566,6 +606,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -580,6 +621,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -594,6 +636,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -608,6 +651,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/MQ-9%20Sensor%20Datasheet.pdf
+  datasheet_last_check: ''
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -622,6 +666,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -636,6 +681,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -650,6 +696,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -664,6 +711,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -678,6 +726,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -692,6 +741,7 @@
   interfaccia: '?'
   note: 20g to 1.5kg
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -706,6 +756,7 @@
   interfaccia: ''
   note: 10g to 1000g
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -720,6 +771,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -734,6 +786,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -748,6 +801,7 @@
   interfaccia: ''
   note: https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/
   datasheet_url: https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -762,6 +816,7 @@
   interfaccia: ''
   note: https://electronics.stackexchange.com/questions/406959/ta12-100-current-sensor-increase-range
   datasheet_url: https://www.electronicoscaldas.com/datasheet/TA12-TA12L-Series_YHDC.pdf
+  datasheet_last_check: ''
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -776,6 +831,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -815,6 +871,7 @@
     Corrente di funzionamento <50UA
 
     Termistore/sensore di Temperatura: 10K'
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -829,6 +886,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -843,6 +901,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -857,6 +916,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -871,6 +931,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -885,6 +946,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -899,6 +961,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -913,6 +976,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -927,6 +991,7 @@
   interfaccia: '?'
   note: 2 IC ma solo un sensore
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -941,6 +1006,7 @@
   interfaccia: NPN
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -955,6 +1021,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -969,6 +1036,7 @@
   interfaccia: I2C
   note: CCS811
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -983,6 +1051,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -997,6 +1066,7 @@
   interfaccia: SERIAL
   note: ''
   datasheet_url: https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''

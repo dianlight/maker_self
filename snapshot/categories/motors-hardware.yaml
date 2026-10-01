@@ -6,6 +6,7 @@
   interfaccia: Slim
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -18,8 +19,9 @@
   quantita: 2
   descrizione: Radial Fan
   interfaccia: 2 pin
-  note: ''
-  datasheet_url: +12v
+  note: +12v
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -32,8 +34,9 @@
   quantita: 2
   descrizione: Radial Fan
   interfaccia: 3 pin
-  note: ''
-  datasheet_url: +12v
+  note: +12v
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -46,8 +49,9 @@
   quantita: 2
   descrizione: Radial Fan
   interfaccia: 2 pin
-  note: ''
-  datasheet_url: +5v
+  note: +5v
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -60,8 +64,9 @@
   quantita: 2
   descrizione: Radial Fan
   interfaccia: 2 pin
-  note: ''
-  datasheet_url: +12v
+  note: +12v
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -74,8 +79,9 @@
   quantita: 2
   descrizione: Blow Fan
   interfaccia: 2 pin
-  note: ''
-  datasheet_url: +12v
+  note: +12v
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -88,8 +94,9 @@
   quantita: 1
   descrizione: Radial Fan
   interfaccia: 2 pin
-  note: ''
-  datasheet_url: +12v
+  note: +12v
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -104,6 +111,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -118,6 +126,7 @@
   interfaccia: 2.4Mhz 1.70Mhz 2Ohm
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -140,6 +149,7 @@
 
     Modalità di guida: 2 fase 4 fili mini motore passo a passo'
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -162,6 +172,7 @@
 
     Modalità di guida: 2 fase 4 fili mini motore passo a passo'
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -178,6 +189,7 @@
 
     https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita'
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -192,6 +204,7 @@
   interfaccia: 3 pin
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -206,6 +219,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -220,6 +234,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -234,6 +249,7 @@
   interfaccia: 8Ohm 1W
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''

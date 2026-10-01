@@ -6,6 +6,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -20,6 +21,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Led Box
   foto_drive_id: ''
   foto_url: ''
@@ -34,6 +36,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -52,6 +55,7 @@
   note: Probabile WS2812B o compatibile; 8x8 = 64 LED; richiede alimentazione 5V e
     controllo seriale.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: 1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI
   foto_url: https://drive.google.com/open?id=1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI, https://drive.google.com/open?id=1EO4hgn5ULjg0_ckzvo1fbYDyaJ5AWSDd

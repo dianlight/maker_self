@@ -6,6 +6,7 @@
   interfaccia: Mini IPEX
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -20,6 +21,7 @@
   interfaccia: Mini IPEX
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -34,6 +36,7 @@
   interfaccia: IPEX
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -48,6 +51,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -62,6 +66,7 @@
   interfaccia: CH340N
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Program Box
   foto_drive_id: ''
   foto_url: ''
@@ -76,6 +81,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -90,6 +96,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -104,6 +111,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -118,6 +126,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -132,6 +141,7 @@
   interfaccia: '?'
   note: https://sautter.com/blog/ethernet-on-esp32-using-lan8720/
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -146,6 +156,7 @@
   interfaccia: TTL
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -160,6 +171,7 @@
   interfaccia: SPI
   note: IpEX antenna
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -174,6 +186,7 @@
   interfaccia: SPI
   note: Internal Antenna
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -188,6 +201,7 @@
   interfaccia: SPI
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -202,6 +216,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -216,6 +231,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -230,6 +246,7 @@
   interfaccia: CAN
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1640328008103&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -244,6 +261,7 @@
   interfaccia: TTL
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -258,6 +276,7 @@
   interfaccia: Con antenna
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -272,6 +291,7 @@
   interfaccia: Con antenna
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -286,6 +306,7 @@
   interfaccia: SPI
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -300,6 +321,7 @@
   interfaccia: '2 schede     Antenne - Small TX'
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -314,6 +336,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -328,6 +351,7 @@
   interfaccia: SPI.
   note: ''
   datasheet_url: https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -342,6 +366,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -356,6 +381,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -370,6 +396,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -396,6 +423,7 @@
     flessibile adesiva. Da usare con librerie LoRa (es. sandeepmistry/arduino-LoRa).
     Verificare la frequenza di banda libera locale prima dell'uso.
   datasheet_url: https://docs.ai-thinker.com/_media/lora/docs/ra-02_product_specification.pdf
+  datasheet_last_check: n
   posizione: Io Barrel
   foto_drive_id: 1Xiby1Ow0tHS8_7L6x-uSo55UVYJtJaYV
   foto_url: https://drive.google.com/open?id=1Xiby1Ow0tHS8_7L6x-uSo55UVYJtJaYV

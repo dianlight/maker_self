@@ -6,6 +6,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -20,6 +21,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -34,6 +36,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -48,6 +51,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -66,6 +70,7 @@
   note: Modulo relè 5V monocanale; possibile optoisolatore/transistor di pilotaggio;
     codice relè Songle SRD-05VDC-SL-C.
   datasheet_url: https://www.songle.com/en/relay/SRD.pdf
+  datasheet_last_check: ''
   posizione: IC Barrel
   foto_drive_id: 1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
   foto_url: https://drive.google.com/open?id=1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
@@ -90,6 +95,7 @@
   note: 'Modulo rele bistabile (latching) a 1 canale, probabile marca eletechsup.
     Possibile selezione tensione 3V o 5V. Codice letto: I025A01.'
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: IC Barrel
   foto_drive_id: 10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
   foto_url: https://drive.google.com/open?id=10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
@@ -115,6 +121,7 @@
   note: Modulo per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC;
     bobina 12VDC.
   datasheet_url: https://www.handsontec.com/dataspecs/relay/JQC-3FF-S-Z.pdf
+  datasheet_last_check: ''
   posizione: IC Barrel
   foto_drive_id: 1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
   foto_url: https://drive.google.com/open?id=1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn

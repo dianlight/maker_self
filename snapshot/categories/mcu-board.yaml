@@ -6,6 +6,7 @@
   interfaccia: USB
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -20,6 +21,7 @@
   interfaccia: USB + Wifi
   note: ''
   datasheet_url: https://www.wemos.cc/en/latest/_static/files/sch_d1_mini_v3.0.0.pdf
+  datasheet_last_check: ''
   posizione: Garage 01 e 02
   foto_drive_id: ''
   foto_url: ''
@@ -34,6 +36,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -48,6 +51,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -62,6 +66,7 @@
   interfaccia: USB+Bluetooth+Wifi
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -76,6 +81,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -90,6 +96,7 @@
   interfaccia: Wifi
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -104,6 +111,7 @@
   interfaccia: Blade
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -118,6 +126,7 @@
   interfaccia: TTL + Wifi
   note: SDK non cinese
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -132,6 +141,7 @@
   interfaccia: TTL
   note: No regulator / No buttons
   datasheet_url: https://homeding.github.io/boards/whiteadapter.htm
+  datasheet_last_check: ''
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -146,6 +156,7 @@
   interfaccia: TTL + Wifi + Bluetooth
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -160,6 +171,7 @@
   interfaccia: USB
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -174,6 +186,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -188,6 +201,7 @@
   interfaccia: TTL
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -202,6 +216,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -216,6 +231,7 @@
   interfaccia: USB
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -230,6 +246,7 @@
   interfaccia: USB + Wifi
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -244,6 +261,7 @@
   interfaccia: TTL
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -258,6 +276,7 @@
   interfaccia: USB + JTag
   note: +512k eproom i2c
   datasheet_url: https://stm32-base.org/boards/STM32F103C8T6-STM32-Smart-V2.0.html
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -272,6 +291,7 @@
   interfaccia: USB C + JTAG
   note: Black and Green
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -286,6 +306,7 @@
   interfaccia: TTL +JTAG
   note: Con TFT35 e SD
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -300,6 +321,7 @@
   interfaccia: PIN
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -315,6 +337,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -329,6 +352,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: ''
+  datasheet_last_check: ''
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -348,6 +372,7 @@
   note: Board compatibile NodeMCU V3 con modulo ESP-12E; possibile chip USB-seriale
     CH340. Fori di montaggio agli angoli.
   datasheet_url: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
+  datasheet_last_check: ''
   posizione: MCU Box
   foto_drive_id: 1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
   foto_url: https://drive.google.com/open?id=1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
