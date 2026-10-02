@@ -380,8 +380,8 @@
   descrizione: Dust Sensor
   interfaccia: '?'
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.elektronik.ropla.eu/pdf/stock/smy/dsm501.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -395,8 +395,8 @@
   descrizione: Flame Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -411,7 +411,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -425,8 +425,8 @@
   descrizione: Non contact infra temp sensor
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -440,8 +440,8 @@
   descrizione: 9-Axis MPU9250+BMP280
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://forum.arduino.cc/t/unlocking-the-gy-91-mpu-9250-bmp-280/701895
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -455,8 +455,8 @@
   descrizione: Micronde distance sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -470,8 +470,8 @@
   descrizione: Solar Tracker
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.proinso.net/pub/doc/File/ingl/Manual%20MS-2%20Tracker%20v%204.1.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -485,8 +485,8 @@
   descrizione: Temp/Humidity
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/2207166.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -500,8 +500,8 @@
   descrizione: IR Presence Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -515,8 +515,8 @@
   descrizione: Current Sensor
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/ina226.pdf?ts=1790852131805
+  datasheet_last_check: '2026-10-01'
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -530,8 +530,8 @@
   descrizione: Power monitor 3 ch
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/ina3221.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -545,8 +545,8 @@
   descrizione: Microphone
   interfaccia: I2S
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/1824785.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -560,8 +560,8 @@
   descrizione: Temperature sensor
   interfaccia: '?'
   note: Per PT100 etc
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/944025037/RTD-Sensor
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -575,8 +575,8 @@
   descrizione: Microphone
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.datasheetall.com/pdf/max4466.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -590,8 +590,8 @@
   descrizione: Pressure Sensor 700Kpa
   interfaccia: '?'
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://electronperdido.com/wp-content/uploads/2021/12/MD_PS002-Datasheet.zh-CN.en_.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -605,8 +605,8 @@
   descrizione: Metal Touch Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.keyestudio.com/projects/KT0193F/en/latest/docs/22.html
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -620,8 +620,8 @@
   descrizione: Capacity Touch Sensor IC
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://wiki.seeedstudio.com/Grove-12_Key_Capacitive_I2C_Touch_Sensor_V2-MPR121/
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -635,8 +635,8 @@
   descrizione: Methane Gas Sensor/ Nature Gas Detection Gas Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://components101.com/sensors/mq-4-methane-gas-sensor-pinout-datasheet
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -651,7 +651,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/MQ-9%20Sensor%20Datasheet.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-01'
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -665,8 +665,8 @@
   descrizione: NH3, NOx, alcohol, benzene, smoke, CO2, etc.
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.olimex.com/Products/Components/Sensors/Gas/SNS-MQ135/resources/SNS-MQ135.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -680,8 +680,8 @@
   descrizione: Omnidirectional Microphone
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -695,8 +695,8 @@
   descrizione: Temperature sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -710,8 +710,8 @@
   descrizione: Controller + sonda
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://thinkrobotics.com/products/ph4502c-ph-meter
+  datasheet_last_check: '2026-10-01'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -725,8 +725,8 @@
   descrizione: Ait Quality Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual_v2-3.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -740,8 +740,8 @@
   descrizione: Force Sensitive Resistor
   interfaccia: '?'
   note: 20g to 1.5kg
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf
+  datasheet_last_check: '2026-10-01'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
