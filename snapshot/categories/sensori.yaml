@@ -1048,3 +1048,35 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
+- id: na-na-5
+  categoria: sensori
+  codice: TS1229P-MAX31865
+  quantita: 1
+  descrizione: 'Busta antistatica sigillata contenente 1 modulo convertitore RTD-to-Digital
+    MAX31865 per sensori di temperatura PT100/PT1000, 3.3V/5V. Etichetta leggibile:
+    TS1229P-MAX31865, barcode, item MAX31865 PT100/PT1000 RTD-to-Digital Converter
+    Board Temperature Thermocouple Sensor Amplifier Module 3.3V/5V, produttore TSTAR
+    ELECTRONIC TECH LIMITED, Made in China. Il modulo all''interno non è chiaramente
+    visibile per riflessi sulla busta.'
+  interfaccia: SPI
+  note: Componente per misura temperatura RTD; nonostante l'etichetta citi thermocouple,
+    MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865.
+    Busta antistatica con barcode e numeri parzialmente leggibili.
+  datasheet_url: https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf
+  datasheet_last_check: ''
+  posizione: Sensor Barrel
+  foto_drive_id: 1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa
+  foto_url: https://drive.google.com/open?id=1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa
+  ai_proposta: '{"codice": "TS1229P-MAX31865", "categoria": "sensori", "descrizione":
+    "Busta antistatica sigillata contenente 1 modulo convertitore RTD-to-Digital MAX31865
+    per sensori di temperatura PT100/PT1000, 3.3V/5V. Etichetta leggibile: TS1229P-MAX31865,
+    barcode, item MAX31865 PT100/PT1000 RTD-to-Digital Converter Board Temperature
+    Thermocouple Sensor Amplifier Module 3.3V/5V, produttore TSTAR ELECTRONIC TECH
+    LIMITED, Made in China. Il modulo all''interno non è chiaramente visibile per
+    riflessi sulla busta.", "interfaccia": "SPI", "quantita": 1, "posizione": "",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf",
+    "note": "Componente per misura temperatura RTD; nonostante l''etichetta citi thermocouple,
+    MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865.
+    Busta antistatica con barcode e numeri parzialmente leggibili."}'
+  ai_stato: da_verificare
+  updated_at: 03/10/2026 18.48.01

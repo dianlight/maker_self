@@ -4841,7 +4841,7 @@
     "foto_drive_id": "1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk",
     "foto_url": "https://drive.google.com/open?id=1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk, https://drive.google.com/open?id=1h-qE213Bd4UwD_9gz8F55UhHnfuj_Xw5",
     "ai_proposta": "{\"codice\": \"10-Q17C-S-Piezo-15mm-Wire\", \"categoria\": \"componenti\", \"descrizione\": \"Elemento piezo elettrico da 15 mm con fili, confezionato in busta plastica trasparente. Sull'etichetta sono leggibili: codice 10-Q17C-S-Piezo-15mm-Wire, codice a barre, 'Made in China', produttore Shenzhen ... Technology Co., Ltd. Quantità visibile: 1 pezzo.\", \"interfaccia\": \"fili\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"\", \"note\": \"Componente piezo con wire da 15 mm; possibile utilizzo come buzzer/sensore. Etichetta riporta anche codici 6970273694769 e 787157151343; produttore cinese.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": "03/10/2026 18.42.11"
   },
   {
@@ -4880,19 +4880,19 @@
   },
   {
     "id": "na-na-5",
-    "categoria": "",
-    "codice": "",
+    "categoria": "sensori",
+    "codice": "TS1229P-MAX31865",
     "quantita": 1,
-    "descrizione": "",
-    "interfaccia": "",
-    "note": "",
-    "datasheet_url": "",
+    "descrizione": "Busta antistatica sigillata contenente 1 modulo convertitore RTD-to-Digital MAX31865 per sensori di temperatura PT100/PT1000, 3.3V/5V. Etichetta leggibile: TS1229P-MAX31865, barcode, item MAX31865 PT100/PT1000 RTD-to-Digital Converter Board Temperature Thermocouple Sensor Amplifier Module 3.3V/5V, produttore TSTAR ELECTRONIC TECH LIMITED, Made in China. Il modulo all'interno non è chiaramente visibile per riflessi sulla busta.",
+    "interfaccia": "SPI",
+    "note": "Componente per misura temperatura RTD; nonostante l'etichetta citi thermocouple, MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865. Busta antistatica con barcode e numeri parzialmente leggibili.",
+    "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf",
     "datasheet_last_check": "",
     "posizione": "Sensor Barrel",
     "foto_drive_id": "1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa",
     "foto_url": "https://drive.google.com/open?id=1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"TS1229P-MAX31865\", \"categoria\": \"sensori\", \"descrizione\": \"Busta antistatica sigillata contenente 1 modulo convertitore RTD-to-Digital MAX31865 per sensori di temperatura PT100/PT1000, 3.3V/5V. Etichetta leggibile: TS1229P-MAX31865, barcode, item MAX31865 PT100/PT1000 RTD-to-Digital Converter Board Temperature Thermocouple Sensor Amplifier Module 3.3V/5V, produttore TSTAR ELECTRONIC TECH LIMITED, Made in China. Il modulo all'interno non è chiaramente visibile per riflessi sulla busta.\", \"interfaccia\": \"SPI\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf\", \"note\": \"Componente per misura temperatura RTD; nonostante l'etichetta citi thermocouple, MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865. Busta antistatica con barcode e numeri parzialmente leggibili.\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "03/10/2026 18.48.01"
   }
 ]

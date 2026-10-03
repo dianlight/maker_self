@@ -13,18 +13,3 @@
   ai_proposta: '{"type": "json_object"}'
   ai_stato: da_verificare
   updated_at: 03/10/2026 18.46.59
-- id: na-na-5
-  categoria: ''
-  codice: ''
-  quantita: 1
-  descrizione: ''
-  interfaccia: ''
-  note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
-  posizione: Sensor Barrel
-  foto_drive_id: 1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa
-  foto_url: https://drive.google.com/open?id=1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: 03/10/2026 18.48.01
