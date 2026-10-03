@@ -4826,5 +4826,22 @@
     "ai_proposta": "{\"codice\": \"USB-A-flat-cable-LED\", \"categoria\": \"comunication\", \"descrizione\": \"1 pezzo visibile: cavo/adattatore piatto con modulo rettangolare in plastica nera (circa 4x1,5 cm) recante logo USB serigrafato in bianco entro cornice e un LED rosso acceso, collegato tramite nastro flessibile nero (lunghezza totale circa 12 cm, come da righello 22,5-34,5 cm) a un connettore USB-A maschio metallico piatto all'estremità opposta (contatti dorati visibili). Fondo righello/banco da taglio con scritta 'screw position / 450mmX300mm'.\", \"interfaccia\": \"USB-A 2.0 maschio\", \"quantita\": 1, \"posizione\": \"banco da lavoro\", \"datasheet_url\": \"\", \"note\": \"Componente singolo, probabilmente prolunga/indicatore USB con LED di stato; nessuna sigla leggibile sul corpo nero, codice ipotizzato.\"}",
     "ai_stato": "scartato",
     "updated_at": "03/10/2026 18.18.28"
+  },
+  {
+    "id": "na-na-2",
+    "categoria": "",
+    "codice": "",
+    "quantita": 10,
+    "descrizione": "",
+    "interfaccia": "",
+    "note": "",
+    "datasheet_url": "",
+    "datasheet_last_check": "",
+    "posizione": "Component Barrel",
+    "foto_drive_id": "1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk",
+    "foto_url": "https://drive.google.com/open?id=1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk, https://drive.google.com/open?id=1h-qE213Bd4UwD_9gz8F55UhHnfuj_Xw5",
+    "ai_proposta": "",
+    "ai_stato": "",
+    "updated_at": "03/10/2026 18.42.11"
   }
 ]

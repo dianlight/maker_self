@@ -1,15 +1,15 @@
-- id: na-na
+- id: na-na-2
   categoria: ''
   codice: ''
-  quantita: 2
+  quantita: 10
   descrizione: ''
   interfaccia: ''
   note: ''
   datasheet_url: ''
   datasheet_last_check: ''
-  posizione: A Box
-  foto_drive_id: 1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
-  foto_url: https://drive.google.com/open?id=1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
+  posizione: Component Barrel
+  foto_drive_id: 1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk
+  foto_url: https://drive.google.com/open?id=1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk, https://drive.google.com/open?id=1h-qE213Bd4UwD_9gz8F55UhHnfuj_Xw5
   ai_proposta: ''
   ai_stato: ''
-  updated_at: 03/10/2026 18.18.28
+  updated_at: 03/10/2026 18.42.11
