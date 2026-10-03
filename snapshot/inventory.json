@@ -4847,7 +4847,7 @@
   {
     "id": "na-na-3",
     "categoria": "mcu-board",
-    "codice": "ESP32-C6",
+    "codice": "ESP32-H6",
     "quantita": 1,
     "descrizione": "Modulo di sviluppo ESP32-C6 SuperMini in busta antistatica sigillata. Etichetta visibile con barcode e testo: 'Single-Core SuperMini ESP32-S3 ESP32-C3 ESP32-H2 ESP32-C6 development Board Modules Super Mini WIFI BT Bluetooth Module Color: ESP32 C6', produttore 'Shenzhen Hongwei Microelectronics Co., Ltd.'. Quantità visibile: 1 pezzo.",
     "interfaccia": "Wi-Fi, Bluetooth",
@@ -4858,7 +4858,7 @@
     "foto_drive_id": "18oUWE_GhoMP-zTeJpvzLXnz-fBscd4mL",
     "foto_url": "https://drive.google.com/open?id=18oUWE_GhoMP-zTeJpvzLXnz-fBscd4mL",
     "ai_proposta": "{\"codice\": \"ESP32-C6\", \"categoria\": \"mcu-board\", \"descrizione\": \"Modulo di sviluppo ESP32-C6 SuperMini in busta antistatica sigillata. Etichetta visibile con barcode e testo: 'Single-Core SuperMini ESP32-S3 ESP32-C3 ESP32-H2 ESP32-C6 development Board Modules Super Mini WIFI BT Bluetooth Module Color: ESP32 C6', produttore 'Shenzhen Hongwei Microelectronics Co., Ltd.'. Quantità visibile: 1 pezzo.\", \"interfaccia\": \"Wi-Fi, Bluetooth\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf\", \"note\": \"Etichetta con barcode 12000044682986982, 873294607774, cn10873682262xgae, Made in China. Busta antistatica non aperta.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": "03/10/2026 18.44.28"
   },
   {
@@ -4875,7 +4875,7 @@
     "foto_drive_id": "1puFKivEqWW4-wzOw2Sqj8Tb_IXm-QkHv",
     "foto_url": "https://drive.google.com/open?id=1puFKivEqWW4-wzOw2Sqj8Tb_IXm-QkHv",
     "ai_proposta": "{\"type\": \"json_object\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "scartato",
     "updated_at": "03/10/2026 18.46.59"
   },
   {

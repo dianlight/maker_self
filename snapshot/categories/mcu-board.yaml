@@ -389,7 +389,7 @@
   updated_at: 30/09/2026 18.46.48
 - id: na-na-3
   categoria: mcu-board
-  codice: ESP32-C6
+  codice: ESP32-H6
   quantita: 1
   descrizione: 'Modulo di sviluppo ESP32-C6 SuperMini in busta antistatica sigillata.
     Etichetta visibile con barcode e testo: ''Single-Core SuperMini ESP32-S3 ESP32-C3
@@ -413,5 +413,5 @@
     "datasheet_url": "https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf",
     "note": "Etichetta con barcode 12000044682986982, 873294607774, cn10873682262xgae,
     Made in China. Busta antistatica non aperta."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 03/10/2026 18.44.28
