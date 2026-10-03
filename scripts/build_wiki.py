@@ -10,6 +10,7 @@ Le foto vengono scaricate da Drive (foto_drive_id) o da foto_url, ridimensionate
 e cachate in snapshot/thumbs/, poi copiate in images/ del wiki.
 """
 import argparse
+import html
 import io
 import json
 import os
@@ -38,10 +39,16 @@ def is_url(s):
     return s.startswith(("http://", "https://"))
 
 
-def cell(v, limit=0):
-    """Escape di una cella tabella wiki (righe su una riga, pipe sicure)."""
-    t = str(v or "").replace("\r\n", "\n").replace("\n", "<br>").strip()
-    t = t.replace("|", "\\|")
+def hcell(v, limit=0):
+    """Cella tabella HTML (escape + newline -> <br>).
+
+    Le foto stanno in tabelle HTML grezze (non markdown): il CSS di GitHub
+    (`img { max-width: 100% }`) collassa la colonna foto delle tabelle
+    markdown e l'attributo width viene ignorato. Con <td width="...">
+    la colonna resta larga e la foto rende alla dimensione voluta.
+    """
+    t = str(v or "").replace("\r\n", "\n").strip()
+    t = html.escape(t).replace("\n", "<br>")
     if limit and len(t) > limit:
         t = t[:limit].rstrip() + "…"
     return t or "—"
@@ -167,13 +174,14 @@ def photo_md(path, out_images, label):
     return f'<img src="images/{fname}" width="270" alt="{safe}">'
 
 
-def ds_md(raw):
+def ds_html(raw):
     v = (raw or "").strip()
     if not v:
         return "—"
     if is_url(v):
-        return f"[Datasheet]({v})"
-    return cell(v, CELL_DS_LIMIT)  # testo incollato nella cella, non un link
+        safe = html.escape(v, quote=True)
+        return f'<a href="{safe}">Datasheet</a>'
+    return hcell(v, CELL_DS_LIMIT)  # testo incollato nella cella, non un link
 
 
 def sort_key(p):
@@ -203,22 +211,23 @@ def build_category_page(cat, items, resolver, out_images):
         if path:
             img = photo_md(path, out_images, p.get("codice") or p["id"])
             n_photo += 1
-        ds = ds_md(p.get("datasheet_url"))
+        ds = ds_html(p.get("datasheet_url"))
         if ds != "—":
             n_ds += 1
         qty = p.get("quantita", 0)
-        qty_md = f"**{qty}**" if qty <= 0 else str(qty)
-        rows.append("| " + " | ".join([
-            img,
-            f"**{cell(p.get('codice'))}**",
-            cell(p.get("descrizione")),
-            qty_md,
-            cell(p.get("posizione")),
-            cell(p.get("interfaccia")),
-            ds,
-            cell(p.get("note")),
-            cell(p.get("updated_at")),
-        ]) + " |")
+        qty_html = f"<strong>{qty}</strong>" if qty <= 0 else str(qty)
+        rows.append(
+            "<tr>"
+            f'<td width="300" align="center">{img}</td>'
+            f"<td><strong>{hcell(p.get('codice'))}</strong></td>"
+            f"<td>{hcell(p.get('descrizione'))}</td>"
+            f'<td align="right">{qty_html}</td>'
+            f"<td>{hcell(p.get('posizione'))}</td>"
+            f"<td>{hcell(p.get('interfaccia'))}</td>"
+            f"<td>{ds}</td>"
+            f"<td>{hcell(p.get('note'))}</td>"
+            f"<td>{hcell(p.get('updated_at'))}</td>"
+            "</tr>")
 
     total_qty = sum(p.get("quantita", 0) for p in items)
     name = display_name(cat)
@@ -230,11 +239,13 @@ def build_category_page(cat, items, resolver, out_images):
         f"{n_ds} datasheet · {plural(n_photo, 'foto', 'foto')} "
         f"— [Home](Home)",
         "",
-        "| Foto | Codice | Descrizione | Qty | Posizione | Interfaccia "
-        "| Datasheet | Note | Aggiornato |",
-        "|:---:|---|---|---:|---|---|---|---|---|",
+        "<table>",
+        "<tr><th>Foto</th><th>Codice</th><th>Descrizione</th><th>Qty</th>"
+        "<th>Posizione</th><th>Interfaccia</th><th>Datasheet</th>"
+        "<th>Note</th><th>Aggiornato</th></tr>",
     ]
     out.extend(rows)
+    out.append("</table>")
     out.append("")
     return "\n".join(out)
 
