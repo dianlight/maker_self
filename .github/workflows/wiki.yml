@@ -1,0 +1,46 @@
+name: build-wiki
+
+# Rigenera le pagine del wiki GitHub (Home, categorie, foto) ogni giorno.
+# Prerequisiti: Wiki abilitata nelle Settings del repo, snapshot gia' sincronizzato.
+# Se il push con il token di default fallisce, creare un PAT con scope "repo"
+# e salvarlo come secret WIKI_TOKEN.
+
+on:
+  schedule:
+    - cron: "30 6 * * *"   # dopo sync-sheet-to-git (06:00)
+  workflow_dispatch:
+
+jobs:
+  wiki:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Build wiki pages
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/build_wiki.py --out wiki_build
+      - name: Checkout wiki repository
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository }}.wiki
+          path: wiki_repo
+          token: ${{ secrets.WIKI_TOKEN || github.token }}
+      - name: Publish wiki
+        run: |
+          rsync -a --delete --exclude '.git' wiki_build/ wiki_repo/
+          cd wiki_repo
+          git config user.name "maker-self-bot"
+          git config user.email "maker-self-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "wiki invariata, niente push."
+          else
+            git commit -m "wiki: aggiornamento $(date -u +%F)"
+            git push
+          fi

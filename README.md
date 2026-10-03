@@ -22,7 +22,9 @@ Google Sheets (mobile)      ▲                        │
 | --- | --- |
 | `.github/workflows/sync.yml` | Daily + manual sync: Sheet → snapshot, AI catalog, commit if diff |
 | `.github/workflows/datasheet-check.yml` | Daily + manual: validate column H (max 25 rows/run), web-search replacements, commit report |
+| `.github/workflows/wiki.yml` | Daily + manual: rebuild wiki pages from snapshot and push to `.wiki.git` |
 | `scripts/sync_sheet_to_git.py` | Reads the Sheet, writes `snapshot/inventory.json` + per-category YAML |
+| `scripts/build_wiki.py` | Generates wiki `Home.md`, one page per category, downloads/photos thumbnails |
 | `scripts/ai_catalog.py` | Catalogs new photos via a configurable vision LLM (JSON proposal) |
 | `scripts/import_excel_once.py` | One-shot import from `Inventario.xlsx` (~12 categories, ~250 rows) |
 | `mcp_server/server.py` | MCP stdio server: `search_parts`, `get_part`, `stock_check` (read-only) |
@@ -53,6 +55,7 @@ Google Sheets (mobile)      ▲                        │
 | `LLM_KEY` | API key |
 | `WEBSEARCH_PROVIDERS` | Comma-separated list, e.g. `exa,firecrawl,parallel,tinyfish` (datasheet-check only) |
 | `EXA_API_KEY` / `FIRECRAWL_API_KEY` / `PARALLEL_API_KEY` / `TINYFISH_API_KEY` | Per-provider keys (`WEBSEARCH_API_KEY` works as shared fallback) |
+| `WIKI_TOKEN` | Optional. Classic PAT with `repo` scope — only if the workflow cannot push to the wiki with the default token |
 
 Provider is **only** configured here — no hardcoded provider, changing models means changing secrets, not code.
 
@@ -88,6 +91,17 @@ Example: `search_parts("BMP280")` resolves from the snapshot in <2s. Tools are r
 - **AI proposals**: new photos get `ai_proposta` + `ai_stato=da_verificare` on the next run; confirm by copying values into the real columns. Never overwritten once `confermato`.
 
 See `docs/mobile.md` and `docs/opencode.md`.
+
+## GitHub Wiki
+
+A daily Action ([`.github/workflows/wiki.yml`](.github/workflows/wiki.yml), manual trigger available) rebuilds the wiki from `snapshot/inventory.json`:
+
+- **Home** with totals + a per-category index, one **page per category** (table: photo, codice, descrizione, qty, posizione, interfaccia, datasheet, note, updated) and `_Sidebar.md`.
+- Photos come from Drive (`foto_drive_id` / `foto_url`), are thumbnailed into `snapshot/thumbs/` (cached) and committed to the wiki under `images/`.
+
+Run locally: `python scripts/build_wiki.py --out wiki_build` (set `GOOGLE_SERVICE_ACCOUNT_JSON` to fetch photos, or pass `--no-download`).
+
+Needs the **Wiki** feature enabled in Settings → Features. If the workflow push fails with permission errors, add the `WIKI_TOKEN` secret.
 
 ## Phase 1 limits
 
