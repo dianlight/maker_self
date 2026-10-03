@@ -167,11 +167,12 @@ class PhotoResolver:
 
 
 def photo_md(path, out_images, label):
-    """Copia l'immagine nel wiki e ne ritorna il markdown HTML."""
+    """Copia l'immagine nel wiki e ne ritorna il markdown HTML cliccabile."""
     fname = os.path.basename(path)
     shutil.copy2(path, os.path.join(out_images, fname))
     safe = (label or "").replace('"', "'").replace("<", "").replace(">", "")
-    return f'<img src="images/{fname}" width="270" alt="{safe}">'
+    img = f'<img src="images/{fname}" width="270" alt="{safe}">'
+    return f'<a href="images/{fname}">{img}</a>'
 
 
 def ds_html(raw):
@@ -203,33 +204,44 @@ def page_name(cat):
 
 
 def build_category_page(cat, items, resolver, out_images):
-    rows = []
+    """Una sezione per componente: heading, foto grande cliccabile, box scheda."""
     n_photo = n_ds = 0
+    total_qty = sum(p.get("quantita", 0) for p in items)
+    sections = []
     for p in sorted(items, key=sort_key):
-        img = "—"
+        bits = []
         path = resolver.resolve(p)
         if path:
-            img = photo_md(path, out_images, p.get("codice") or p["id"])
+            bits.append(photo_md(path, out_images, p.get("codice") or p["id"]))
+            bits.append("")
             n_photo += 1
+
+        qty = p.get("quantita", 0)
+        qty_s = f"**{qty}**" if qty <= 0 else str(qty)
         ds = ds_html(p.get("datasheet_url"))
         if ds != "—":
             n_ds += 1
-        qty = p.get("quantita", 0)
-        qty_html = f"<strong>{qty}</strong>" if qty <= 0 else str(qty)
-        rows.append(
-            "<tr>"
-            f'<td width="300" align="center">{img}</td>'
-            f"<td><strong>{hcell(p.get('codice'))}</strong></td>"
-            f"<td>{hcell(p.get('descrizione'))}</td>"
-            f'<td align="right">{qty_html}</td>'
-            f"<td>{hcell(p.get('posizione'))}</td>"
-            f"<td>{hcell(p.get('interfaccia'))}</td>"
-            f"<td>{ds}</td>"
-            f"<td>{hcell(p.get('note'))}</td>"
-            f"<td>{hcell(p.get('updated_at'))}</td>"
-            "</tr>")
 
-    total_qty = sum(p.get("quantita", 0) for p in items)
+        # box scheda compatta (griglia label/valore, stile definition list)
+        rows = [("Qty", qty_s),
+                ("Posizione", hcell(p.get("posizione"))),
+                ("Interfaccia", hcell(p.get("interfaccia"))),
+                ("Datasheet", ds),
+                ("Note", hcell(p.get("note"))),
+                ("Aggiornato", hcell(p.get("updated_at")))]
+        rows = [(k, v) for k, v in rows if v != "—"]
+        if rows:
+            bits.append("<table>")
+            for k, v in rows:
+                bits.append(f"<tr><th>{k}</th><td>{v}</td></tr>")
+            bits.append("</table>")
+
+        heading = hcell(p.get("codice")) or hcell(p.get("descrizione")) or p["id"]
+        descr = hcell(p.get("descrizione"))
+        title = f"{heading} — {descr}" if (descr and descr != heading) else heading
+        parts = [f"### {title}"] + bits
+        sections.append("\n".join(parts))
+
     name = display_name(cat)
     out = [
         f"# {name}",
@@ -239,13 +251,8 @@ def build_category_page(cat, items, resolver, out_images):
         f"{n_ds} datasheet · {plural(n_photo, 'foto', 'foto')} "
         f"— [Home](Home)",
         "",
-        "<table>",
-        "<tr><th>Foto</th><th>Codice</th><th>Descrizione</th><th>Qty</th>"
-        "<th>Posizione</th><th>Interfaccia</th><th>Datasheet</th>"
-        "<th>Note</th><th>Aggiornato</th></tr>",
     ]
-    out.extend(rows)
-    out.append("</table>")
+    out.extend(sections)
     out.append("")
     return "\n".join(out)
 
