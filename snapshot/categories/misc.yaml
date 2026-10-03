@@ -1,15 +1,15 @@
-- id: na-na-2
+- id: na-na-3
   categoria: ''
   codice: ''
-  quantita: 10
+  quantita: 1
   descrizione: ''
   interfaccia: ''
   note: ''
   datasheet_url: ''
   datasheet_last_check: ''
-  posizione: Component Barrel
-  foto_drive_id: 1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk
-  foto_url: https://drive.google.com/open?id=1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk, https://drive.google.com/open?id=1h-qE213Bd4UwD_9gz8F55UhHnfuj_Xw5
+  posizione: MCU Box
+  foto_drive_id: 18oUWE_GhoMP-zTeJpvzLXnz-fBscd4mL
+  foto_url: https://drive.google.com/open?id=18oUWE_GhoMP-zTeJpvzLXnz-fBscd4mL
   ai_proposta: ''
   ai_stato: ''
-  updated_at: 03/10/2026 18.42.11
+  updated_at: 03/10/2026 18.44.28

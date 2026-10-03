@@ -283,3 +283,29 @@
     69, Frankfurt am Main, Germany."}'
   ai_stato: confermato
   updated_at: 30/09/2026 19.16.20
+- id: na-na-2
+  categoria: componenti
+  codice: 10-Q17C-S-Piezo-15mm-Wire
+  quantita: 10
+  descrizione: 'Elemento piezo elettrico da 15 mm con fili, confezionato in busta
+    plastica trasparente. Sull''etichetta sono leggibili: codice 10-Q17C-S-Piezo-15mm-Wire,
+    codice a barre, ''Made in China'', produttore Shenzhen ... Technology Co., Ltd.
+    Quantità visibile: 1 pezzo.'
+  interfaccia: fili
+  note: Componente piezo con wire da 15 mm; possibile utilizzo come buzzer/sensore.
+    Etichetta riporta anche codici 6970273694769 e 787157151343; produttore cinese.
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
+  foto_drive_id: 1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk
+  foto_url: https://drive.google.com/open?id=1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk, https://drive.google.com/open?id=1h-qE213Bd4UwD_9gz8F55UhHnfuj_Xw5
+  ai_proposta: '{"codice": "10-Q17C-S-Piezo-15mm-Wire", "categoria": "componenti",
+    "descrizione": "Elemento piezo elettrico da 15 mm con fili, confezionato in busta
+    plastica trasparente. Sull''etichetta sono leggibili: codice 10-Q17C-S-Piezo-15mm-Wire,
+    codice a barre, ''Made in China'', produttore Shenzhen ... Technology Co., Ltd.
+    Quantità visibile: 1 pezzo.", "interfaccia": "fili", "quantita": 1, "posizione":
+    "", "datasheet_url": "", "note": "Componente piezo con wire da 15 mm; possibile
+    utilizzo come buzzer/sensore. Etichetta riporta anche codici 6970273694769 e 787157151343;
+    produttore cinese."}'
+  ai_stato: da_verificare
+  updated_at: 03/10/2026 18.42.11
