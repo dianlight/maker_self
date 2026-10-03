@@ -164,7 +164,7 @@ def photo_md(path, out_images, label):
     fname = os.path.basename(path)
     shutil.copy2(path, os.path.join(out_images, fname))
     safe = (label or "").replace('"', "'").replace("<", "").replace(">", "")
-    return f'<img src="images/{fname}" width="90" alt="{safe}">'
+    return f'<img src="images/{fname}" width="270" alt="{safe}">'
 
 
 def ds_md(raw):
