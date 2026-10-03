@@ -252,7 +252,10 @@ def build_category_page(cat, items, resolver, out_images):
         f"— [Home](Home)",
         "",
     ]
-    out.extend(sections)
+    out.extend(sections[0:1])
+    for s in sections[1:]:
+        out.append("")
+        out.append(s)
     out.append("")
     return "\n".join(out)
 
