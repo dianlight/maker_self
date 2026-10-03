@@ -853,3 +853,32 @@
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
+- id: na-na
+  categoria: ic-components
+  codice: Bottone a membrana con led
+  quantita: 2
+  descrizione: '1 pezzo visibile: cavo/adattatore piatto con modulo rettangolare in
+    plastica nera (circa 4x1,5 cm) recante logo USB serigrafato in bianco entro cornice
+    e un LED rosso acceso, collegato tramite nastro flessibile nero (lunghezza totale
+    circa 12 cm, come da righello 22,5-34,5 cm) a un connettore USB-A maschio metallico
+    piatto all''estremità opposta (contatti dorati visibili). Fondo righello/banco
+    da taglio con scritta ''screw position / 450mmX300mm''.'
+  interfaccia: 3 fili
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: A Box
+  foto_drive_id: 1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
+  foto_url: https://drive.google.com/open?id=1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
+  ai_proposta: '{"codice": "USB-A-flat-cable-LED", "categoria": "comunication", "descrizione":
+    "1 pezzo visibile: cavo/adattatore piatto con modulo rettangolare in plastica
+    nera (circa 4x1,5 cm) recante logo USB serigrafato in bianco entro cornice e un
+    LED rosso acceso, collegato tramite nastro flessibile nero (lunghezza totale circa
+    12 cm, come da righello 22,5-34,5 cm) a un connettore USB-A maschio metallico
+    piatto all''estremità opposta (contatti dorati visibili). Fondo righello/banco
+    da taglio con scritta ''screw position / 450mmX300mm''.", "interfaccia": "USB-A
+    2.0 maschio", "quantita": 1, "posizione": "banco da lavoro", "datasheet_url":
+    "", "note": "Componente singolo, probabilmente prolunga/indicatore USB con LED
+    di stato; nessuna sigla leggibile sul corpo nero, codice ipotizzato."}'
+  ai_stato: confermato
+  updated_at: 03/10/2026 18.18.28
