@@ -2,8 +2,12 @@
   "mcp": {
     "maker-self": {
       "type": "stdio",
-      "command": ["python", "mcp_server/server.py"],
-      "cwd": "/Users/ltarantino/Documents/Sources/maker_self"
+      "command": ["uv", "run", "mcp_server/server.py"],
+      "cwd": "/Users/ltarantino/Documents/Sources/maker_self",
+      "environment": {
+        "SHEET_ID": "YOUR_SHEET_ID_HERE",
+        "GOOGLE_SERVICE_ACCOUNT_JSON_PATH": "service-account.json"
+      }
     }
   }
 }

@@ -75,14 +75,23 @@ Copy the snippet from `docs/opencode_mcp.json` into your `opencode.json`:
   "mcp": {
     "maker-self": {
       "type": "stdio",
-      "command": ["python", "mcp_server/server.py"],
-      "cwd": "/Users/ltarantino/Documents/Sources/maker_self"
+      "command": ["uv", "run", "mcp_server/server.py"],
+      "cwd": "/Users/ltarantino/Documents/Sources/maker_self",
+      "environment": {
+        "SHEET_ID": "YOUR_SHEET_ID_HERE",
+        "GOOGLE_SERVICE_ACCOUNT_JSON_PATH": "service-account.json"
+      }
     }
   }
 }
 ```
 
-Example: `search_parts("BMP280")` resolves from the snapshot in <2s. Tools are read-only in Phase 1; stock changes are proposals only.
+No venv or `pip install` needed — `uv run` reads the PEP 723 header in `mcp_server/server.py` and installs deps automatically.
+
+Read tools: `search_parts`, `get_part`, `stock_check` (snapshot locale).
+Write tools (Sheet online, poi refresh snapshot): `update_inventory` (Sheet → snapshot), `stock_use(id, qty)` (decrementa, clamp a 0), `set_part(id, ...)` (solo campi utente: categoria, codice, quantita, descrizione, interfaccia, note, datasheet_url, posizione).
+
+Write tools need the Sheet shared with the service account as **Editor**. Put your real `SHEET_ID` in the `environment` above.
 
 ## Mobile workflow
 
