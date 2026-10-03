@@ -80,8 +80,8 @@
   descrizione: ETH Adapter
   interfaccia: '?'
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -95,8 +95,8 @@
   descrizione: Bluetooth
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -110,8 +110,8 @@
   descrizione: Bluetooth Slave
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.utmel.com/components/hc-06-bluetooth-module-pinout-datasheet-pdf-and-arduino-connection?id=884
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -125,8 +125,8 @@
   descrizione: USB Host 2.0
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.hestore.hu/prod_getfile.php?id=16097&srsltid=AU7gw4V22QROJ_Q0a2Fg2_8_W_rcT5jVokWWtkxGGtqx61ZxCg9vmTI_
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -140,8 +140,8 @@
   descrizione: ETH Adapter
   interfaccia: '?'
   note: https://sautter.com/blog/ethernet-on-esp32-using-lan8720/
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/00002165b.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -155,8 +155,8 @@
   descrizione: CAN BUS MODULE
   interfaccia: TTL
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -170,8 +170,8 @@
   descrizione: 2.4Ghz tranceaver
   interfaccia: SPI
   note: IpEX antenna
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -185,8 +185,8 @@
   descrizione: 2.4Ghz tranceaver
   interfaccia: SPI
   note: Internal Antenna
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -200,8 +200,8 @@
   descrizione: Adapter
   interfaccia: SPI
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -215,8 +215,8 @@
   descrizione: 433Mhz Rx+Tx
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -230,8 +230,8 @@
   descrizione: 433Mhz Rx+Tx
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_101229_433mhz_rf_transmitter_and_receiver-3532571.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -246,7 +246,7 @@
   interfaccia: CAN
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1640328008103&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -260,8 +260,8 @@
   descrizione: CAN BUS MODULE
   interfaccia: TTL
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.rs-online.com/a748/A700000007028912.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -275,8 +275,8 @@
   descrizione: 433Mhz ASK Rx
   interfaccia: Con antenna
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/718639676/srx882
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -290,8 +290,8 @@
   descrizione: 433Mhz ASK Tx
   interfaccia: Con antenna
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -306,7 +306,7 @@
   interfaccia: SPI
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -320,8 +320,8 @@
   descrizione: 433Mhz Rx+Tx
   interfaccia: '2 schede     Antenne - Small TX'
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://michiel.vanderwulp.be/domotica/Modules/RF-433Mhz-transmitter-receiver/
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -335,8 +335,8 @@
   descrizione: 433Mhz ASK Tx
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/1033295124/TX1
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -351,7 +351,7 @@
   interfaccia: SPI.
   note: ''
   datasheet_url: https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -365,8 +365,8 @@
   descrizione: GPS
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -380,8 +380,8 @@
   descrizione: 315Mhx Rx + Tx
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://wiki.seeedstudio.com/RF-Transmitter-and-Receiver-Link-Kit-315MHz-433MHz/
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -395,8 +395,8 @@
   descrizione: 433Mhx
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/493735409/RXB6EN
+  datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''

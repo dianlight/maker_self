@@ -5,8 +5,8 @@
   descrizione: OLED Display 0.96’
   interfaccia: SPI
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: Nextion
   interfaccia: TTL Serial
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://nextion.tech/datasheets/
+  datasheet_last_check: '2026-10-03'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: IPS 240x240 1.3”
   interfaccia: SPI
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.waveshare.com/wiki/File:ST7789_Datasheet.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''

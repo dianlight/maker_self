@@ -303,9 +303,9 @@
   codice: LM2596
   quantita: 1
   descrizione: DC-DC  3.3v-12v -> 1.2v-37v 2A
-  interfaccia: https://www.ti.com/lit/ds/symlink/lm2596.pdf?ts=1690434988173&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fes-mx%252FLM2596
+  interfaccia: ''
   note: 2A
-  datasheet_url: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/lm2596.pdf?ts=1690434988173&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fes-mx%252FLM2596
   datasheet_last_check: ''
   posizione: PU Barrel
   foto_drive_id: ''
