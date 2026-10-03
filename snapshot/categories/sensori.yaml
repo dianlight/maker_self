@@ -755,8 +755,8 @@
   descrizione: Force Sensitive Resistor
   interfaccia: ''
   note: 10g to 1000g
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/force-sensitive-resistor-fsr.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -770,8 +770,8 @@
   descrizione: Shock Switch
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.swann-associates.com/pdf/murphy/VS2.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -785,8 +785,8 @@
   descrizione: Microphone
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -801,7 +801,7 @@
   interfaccia: ''
   note: https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/
   datasheet_url: https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -816,7 +816,7 @@
   interfaccia: ''
   note: https://electronics.stackexchange.com/questions/406959/ta12-100-current-sensor-increase-range
   datasheet_url: https://www.electronicoscaldas.com/datasheet/TA12-TA12L-Series_YHDC.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-02'
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -830,8 +830,8 @@
   descrizione: Tao Module
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://taphome.com/en/datasheets/
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -845,33 +845,8 @@
   descrizione: Conducibilità + Temperatura
   interfaccia: ''
   note: Sonda manca controller TDS. NTC da 10K
-  datasheet_url: '3/8 "tubo di test di qualità Dell''acqua TDS di conducibilità con
-    NTC sensore di temperatura di misura OD9.5mm tubo
-
-
-    Tubo di plastica di diametro Della Sonda: 9.5 +/-0.2 millimetri
-
-    TDS pole materiale: SUS316
-
-    Campo di misura: 0-9990 ppm(mg/l)
-
-    Rapporto di risoluzione: 1 mg/l
-
-
-    Precisione: +/-2%
-
-    Resistenza di isolamento> 50M
-
-    Temperatura media 0-99 C
-
-    Di lavoro tempeature 0-120 C
-
-    Tensione di funzionamento 0-24V
-
-    Corrente di funzionamento <50UA
-
-    Termistore/sensore di Temperatura: 10K'
-  datasheet_last_check: ''
+  datasheet_url: https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -885,8 +860,8 @@
   descrizione: Ambient Light Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/81579/temt6000.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -900,8 +875,8 @@
   descrizione: Tilt Switch
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.leveldevelopments.com/wp/wp-content/uploads/documents/ETS-Tilt-Switch.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -915,8 +890,8 @@
   descrizione: Buzzer
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.javanelec.com/stfiles/getappdocument/1/true/7d2107c2-4d68-41ec-be98-ad927a83c466.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -930,8 +905,8 @@
   descrizione: Sensore di colore RGBW RGB
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/84276/veml6040.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -945,8 +920,8 @@
   descrizione: TOF Ranging
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -960,8 +935,8 @@
   descrizione: LIDAR
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/DM00112632.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -975,8 +950,8 @@
   descrizione: IR SPEED SENSOR
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -990,8 +965,8 @@
   descrizione: Scale Load Cell
   interfaccia: '?'
   note: 2 IC ma solo un sensore
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/347141991/HX711-Avia-Semiconductor
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -1005,8 +980,8 @@
   descrizione: Level Sensor
   interfaccia: NPN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -1020,8 +995,8 @@
   descrizione: Flow Sensor
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.rajguruelectronics.com/Product/1669/YF-S401%20PVC%20Water%20Flow%20Hall%20Sensor.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -1035,8 +1010,8 @@
   descrizione: eCO2 TVOC
   interfaccia: I2C
   note: CCS811
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -1050,8 +1025,8 @@
   descrizione: Magnetic Window switch
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://probots.co.in/technical_data/LockIT%20Magnetic%20Door%20Sensors%20Datasheet.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -1066,7 +1041,7 @@
   interfaccia: SERIAL
   note: ''
   datasheet_url: https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-02'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''

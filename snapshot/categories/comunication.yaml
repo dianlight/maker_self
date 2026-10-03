@@ -5,8 +5,8 @@
   descrizione: Plain Antenna 5dB
   interfaccia: Mini IPEX
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/4393752.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: Plain Antenna 8dB
   interfaccia: Mini IPEX
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/2614673.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: Antenna
   interfaccia: IPEX
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://dl.ubnt.com/datasheets/airmaxomni/amo_ds_web.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -50,8 +50,8 @@
   descrizione: Attorcigliata
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/1669554.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: USB -> TTL
   interfaccia: CH340N
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf
+  datasheet_last_check: '2026-10-02'
   posizione: Program Box
   foto_drive_id: ''
   foto_url: ''
