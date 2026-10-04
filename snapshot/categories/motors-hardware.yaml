@@ -5,8 +5,8 @@
   descrizione: 5W Heater 220v
   interfaccia: Slim
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.processtechnology.com/wp-content/uploads/2024/05/heaterinstallation-1.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: Radial Fan
   interfaccia: 2 pin
   note: +12v
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: Radial Fan
   interfaccia: 3 pin
   note: +12v
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -50,8 +50,8 @@
   descrizione: Radial Fan
   interfaccia: 2 pin
   note: +5v
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: Radial Fan
   interfaccia: 2 pin
   note: +12v
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.mechatronics.com/pdf/mechatronics_catalog.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -80,8 +80,8 @@
   descrizione: Blow Fan
   interfaccia: 2 pin
   note: +12v
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://protosupplies.com/product/5015-blower-fan-12v/
+  datasheet_last_check: '2026-10-03'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -95,8 +95,8 @@
   descrizione: Radial Fan
   interfaccia: 2 pin
   note: +12v
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://orionfans.com/productFiles/datasheet/OD9225.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: ''
@@ -110,8 +110,8 @@
   descrizione: Linear 10mm
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -125,8 +125,8 @@
   descrizione: Fog creator
   interfaccia: 2.4Mhz 1.70Mhz 2Ohm
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://smoke-factory.de/pdf/manual_fog_blaster.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -148,8 +148,8 @@
     12 denti 0.2mod; Tasso di Vlotage: 3VDC
 
     Modalità di guida: 2 fase 4 fili mini motore passo a passo'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/353094200/Steper-Manual
+  datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -171,8 +171,8 @@
     12 denti 0.2mod; Tasso di Vlotage: 3VDC
 
     Modalità di guida: 2 fase 4 fili mini motore passo a passo'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://images-eu.ssl-images-amazon.com/images/I/81v-YO2qbWS.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -188,8 +188,8 @@
   note: '10-150rpm
 
     https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/doc/210101380/DC-Motors
+  datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -203,8 +203,8 @@
   descrizione: Microservo 9g
   interfaccia: 3 pin
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -218,8 +218,8 @@
   descrizione: ''
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -233,8 +233,8 @@
   descrizione: Perrier Cell + Fan x Liquidi
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.perrier.com/products/detail/perrier
+  datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -248,8 +248,8 @@
   descrizione: Minispeaker
   interfaccia: 8Ohm 1W
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_101656_speaker_05w_8ohm-3532535.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''

@@ -50,8 +50,8 @@
   descrizione: OLED Display 1.3”
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: OLED Display 1.5’
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.hpinfotech.ro/SSD1309.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -80,8 +80,8 @@
   descrizione: 1.5’ RGB Oled Module
   interfaccia: Spi
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module?srsltid=AU7gw4WwdjijC5U-mDGhtptRisDK9YnZz5wh3vT2rY4ZKR_-mEPqPsWH
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -95,8 +95,8 @@
   descrizione: OLED Display 0.91”
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: ''
   foto_drive_id: ''
   foto_url: ''
@@ -110,8 +110,8 @@
   descrizione: MAX7219 8x8 dot matrix
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://components101.com/sites/default/files/component_datasheet/max7219-8x8-led-matrix-module-datasheet.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -125,8 +125,8 @@
   descrizione: OLED Display 0.96’
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -140,8 +140,8 @@
   descrizione: 1602 + I2C Adapter
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://files.waveshare.com/upload/4/4d/LCD1602_I2C_Module.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -155,8 +155,8 @@
   descrizione: Clock Display
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf
+  datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
