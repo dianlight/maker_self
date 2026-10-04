@@ -100,6 +100,7 @@ Write tools need the Sheet shared with the service account as **Editor**. Put yo
 - **New part**: Google Form with photo → <2 min from the phone.
 - **Search / decrement**: Google Sheets app, edit `quantita` directly.
 - **AI proposals**: new photos get `ai_proposta` + `ai_stato=da_verificare` on the next run; confirm by copying values into the real columns. Never overwritten once `confermato`.
+- **Reclassify**: set `ai_stato=retry` on any row → the next run re-classifies it from the row's own fields (+ photo if present, never from the Form responses), writes the corrected JSON to `ai_proposta`, prefills empty/gray cells and leaves the row `da_verificare`.
 
 See `docs/mobile.md` and `docs/opencode.md`.
 

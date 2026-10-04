@@ -2,7 +2,10 @@
 
 Scrive ai_proposta + ai_stato; se categoria e' vuota la riempie
 diretto dalla proposta (normalizzata alle categorie note). Mai
-sovrascritte se gia' presenti/confermato."""
+sovrascritte se gia' presenti/confermato.
+ai_stato=retry: riclassifica la riga dai dati del tab inventario
+(+foto se presente), mai dalle risposte del modulo, e la rimette
+in da_verificare con la proposta corretta."""
 
 CATEGORIES = ["sensori", "comunication", "displays", "motors-hardware",
               "ic-components", "pu", "led", "componenti", "mcu",
@@ -81,7 +84,8 @@ def row_formats(svc, n, cols):
 
 def merge_duplicate(svc, drv, inv_tab_id, resp_tab_id, vals, idx, n, row, prop, match):
     """Accorpa riga foto n nella riga esistente match. True se riuscita."""
-    q[H] = to_int(row[idx["quantita"]]) if "quantita" in idx and idx["quantita"] < len(row) else 1
+    qtd = (to_int(row[idx["quantita"]])
+           if "quantita" in idx and idx["quantita"] < len(row) else 1)
     if qtd <= 0:
         qtd = to_int(prop.get("quantita", 1), 1)
     tgt = read_row(svc, match)
@@ -170,13 +174,21 @@ KEY = os.environ.get("LLM_KEY", "")
 PROVIDER = os.environ.get("LLM_PROVIDER", "")
 ARCHIVE_FOLDER_ID = os.environ.get("DRIVE_FOLDER_ID", "")
 
-PROMPT = ("Sei un catalogatore di componenti elettronici. Guarda bene la foto e "
-          "restituisci SOLO JSON con chiavi: codice, categoria, descrizione, interfaccia, "
-          "quantita, posizione, datasheet_url, note. categoria deve essere una di: "
-          + ", ".join(CATEGORIES) + ". Descrivi sempre cio' che vedi in descrizione "
-          "(tipo componente, quantita visibile, package, scritte leggibili) e fai la "
-          "migliore ipotesi per codice e categoria; usa stringa vuota solo se davvero "
-          "impossibile. quantita default 1.")
+KEYS = ("restituisci SOLO JSON con chiavi: codice, categoria, descrizione, interfaccia, "
+        "quantita, posizione, datasheet_url, note. categoria deve essere una di: "
+        + ", ".join(CATEGORIES) + ". Descrivi sempre cio' che vedi in descrizione "
+        "(tipo componente, quantita visibile, package, scritte leggibili) e fai la "
+        "migliore ipotesi per codice e categoria; usa stringa vuota solo se davvero "
+        "impossibile. quantita default 1.")
+
+PROMPT = ("Sei un catalogatore di componenti elettronici. Guarda bene la foto e " + KEYS)
+
+TEXT_PROMPT = ("Sei un catalogatore di componenti elettronici. Nessuna foto disponibile: "
+               "riclassifica leggendo i campi della riga. " + KEYS)
+
+# campi della riga inventario usati per la riclassificazione (retry)
+RETRY_COLS = ["categoria", "codice", "quantita", "descrizione", "interfaccia",
+              "note", "posizione", "datasheet_url"]
 
 
 def slug(s):
@@ -265,16 +277,41 @@ def cleanup_confirmed(svc, drv, inv_tab_id, resp_tab_id, n, idx, row, vals):
         print(f"riga {n}: eliminate {len(kill)} righe risposte.")
 
 
-def prefill_gray(svc, tab_id, n, idx, row, prop):
-    """Riempie le celle A-I vuote con la proposta, testo grigio."""
+def _is_gray(fg):
+    """True se il colore testo della cella e' il grigio AI."""
+    if not isinstance(fg, dict) or not fg:
+        return False
+    try:
+        return all(abs(float(fg.get(k, 1)) - 0.55) < 0.05
+                   for k in ("red", "green", "blue"))
+    except (TypeError, ValueError):
+        return False
+
+
+def prefill_gray(svc, tab_id, n, idx, row, prop, overwrite_gray=False):
+    """Riempie le celle A-I vuote con la proposta, testo grigio.
+
+    overwrite_gray: con retry riscrive anche le celle gia' compilate in grigio
+    (proposte AI precedenti). Le celle scure dall'utente non si toccano mai."""
     reqs = []
+    cells = []
+    if overwrite_gray:
+        cols = sorted(idx[c] for _, c in PREFILL if c in idx)
+        cells = row_formats(svc, n, list(range(cols[0], cols[-1] + 1)))
+        lo = cols[0]
     for pkey, col in PREFILL:
         if col not in idx:
             continue
         v = str(prop.get(pkey, "") or "").strip()
         cur = row[idx[col]].strip() if idx[col] < len(row) else ""
-        if not v or cur:
+        if not v or (cur and not overwrite_gray):
             continue
+        if cur and cells:
+            k = idx[col] - lo
+            fg = (cells[k].get("userEnteredFormat", {}).get("textFormat", {})
+                  .get("foregroundColor")) if 0 <= k < len(cells) else None
+            if not _is_gray(fg):
+                continue  # cella nera (utente): intoccabile
         reqs.append({"updateCells": {
             "range": {"sheetId": tab_id, "startRowIndex": n - 1, "endRowIndex": n,
                       "startColumnIndex": idx[col], "endColumnIndex": idx[col] + 1},
@@ -331,7 +368,7 @@ def extract_json(text):
     return (text or "").strip()
 
 
-def vision_llm(jpg_bytes):
+def vision_llm(jpg_bytes, extra=""):
     from PIL import Image
     import io
     try:
@@ -354,7 +391,7 @@ def vision_llm(jpg_bytes):
         "messages": [{
             "role": "user",
             "content": [
-                {"type": "text", "text": PROMPT + " Output: ONLY the JSON object, no other text."},
+                {"type": "text", "text": PROMPT + extra + " Output: ONLY the JSON object, no other text."},
                 {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}},
             ],
         }],
@@ -372,6 +409,80 @@ def vision_llm(jpg_bytes):
                or msg.get("reasoning_content") or "")
     print(f"AI finish={choice.get('finish_reason')} len={len(content)}")
     return extract_json(content)
+
+
+def text_llm(prompt):
+    """Classificazione solo testo (riga inventario senza foto)."""
+    headers = {"Content-Type": "application/json"}
+    if KEY:
+        headers["Authorization"] = f"Bearer {KEY}"
+    if PROVIDER == "opencode-go":
+        headers["x-opencode-session"] = uuid.uuid4().hex
+    body = {
+        "model": MODEL,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.1,
+        "max_tokens": 4000,
+        "response_format": {"type": "json_object"},
+    }
+    r = requests.post(f"{BASE_URL}/chat/completions", headers=headers,
+                      json=body, timeout=300)
+    r.raise_for_status()
+    resp = r.json()
+    choice = resp["choices"][0]
+    msg = choice["message"]
+    content = (msg.get("content") or msg.get("reasoning")
+               or msg.get("reasoning_content") or "")
+    print(f"AI(text) finish={choice.get('finish_reason')} len={len(content)}")
+    return extract_json(content)
+
+
+def retry_extra(idx, row, has_photo):
+    """Contesto retry: solo dati della riga inventario, mai le risposte modulo."""
+    g = lambda c: row[idx[c]].strip() if c in idx and idx[c] < len(row) else ""
+    cur = ", ".join(f"{c}: {g(c)}" for c in RETRY_COLS if g(c)) or "(riga vuota)"
+    txt = (" RICLASSIFICAZIONE. Fonte: riga del tab inventario qui sotto "
+           "(NON le risposte del modulo). Campi attuali -> " + cur +
+           ". Correggi categoria, codice, descrizione e gli altri campi "
+           "se sbagliati o incompleti.")
+    txt += (" Incrocia i campi con cio' che vedi nella foto."
+            if has_photo else " Non ci sono foto: basati solo su questi campi.")
+    return txt
+
+
+def retry_reclassify(svc, drv, tab_id, n, idx, row):
+    """ai_stato=retry: riclassifica dalla riga inventario (+foto se presente),
+    scrive ai_proposta, precompila celle vuote/grigie, stato -> da_verificare.
+    True se la proposta e' stata scritta."""
+    g = lambda c: row[idx[c]].strip() if c in idx and idx[c] < len(row) else ""
+    fid = g("foto_drive_id")
+    extra = retry_extra(idx, row, bool(fid))
+    try:
+        if fid:
+            data = drv.files().get_media(fileId=fid).execute()
+            out = vision_llm(data, extra)
+        else:
+            out = text_llm(TEXT_PROMPT + extra)
+    except Exception as e:
+        print(f"riga {n}: retry AI fallita ({e}), resta in retry.")
+        return False
+    try:
+        prop = json.loads(out)
+    except (json.JSONDecodeError, AttributeError):
+        prop = {}
+    if not prop:
+        print(f"riga {n}: retry senza JSON valido, resta in retry.")
+        return False
+    col_ai = chr(ord("A") + idx["ai_proposta"])
+    col_st = chr(ord("A") + idx["ai_stato"])
+    svc.spreadsheets().values().batchUpdate(
+        spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
+            {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[out[:4000]]]},
+            {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
+        ]}).execute()
+    print(f"riga {n}: retry riclassificata, proposta aggiornata.")
+    prefill_gray(svc, tab_id, n, idx, row, prop, overwrite_gray=True)
+    return True
 
 
 def main():
@@ -433,6 +544,8 @@ def main():
                 prop = {}
             if prop:
                 prefill_gray(svc, tab_id, n, idx, r, prop)
+        elif stato == "retry":
+            retry_reclassify(svc, drv, tab_id, n, idx, r)
         elif stato == "da_verificare" and g("ai_proposta"):
             try:
                 prop = json.loads(g("ai_proposta"))

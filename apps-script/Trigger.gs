@@ -30,7 +30,7 @@ function onEditTrigger(e) {
   if (!r) return;
   if (r.getSheet().getName() !== "inventario" || r.getColumn() !== 13) return; // M
   const v = String(r.getValue());
-  if (v === "confermato" || v === "scartato") {
+  if (v === "confermato" || v === "scartato" || v === "retry") {
     dispatch("sheet-confirmed");
   }
 }

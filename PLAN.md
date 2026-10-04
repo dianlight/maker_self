@@ -25,7 +25,7 @@ Colonne Sheet target (unico Sheet `inventario` + colonna `categoria`, oppure uno
 - `posizione` (es. Sensor Box, Sensor Barrel, 20, 18, 480, MCU BOX)
 - `foto_drive_id` / `foto_url`
 - `ai_proposta` (JSON proposta vision-LLM)
-- `ai_stato` (`da_verificare | confermato | scartato`)
+- `ai_stato` (`da_verificare | confermato | scartato | retry`)
 - `updated_at`
 
 Snapshot git generato dalla Action:

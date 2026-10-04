@@ -17,7 +17,7 @@
     "foto_drive_id": { "type": "string" },
     "foto_url": { "type": "string" },
     "ai_proposta": { "type": "string" },
-    "ai_stato": { "type": "string", "enum": ["", "da_verificare", "confermato", "scartato"] },
+    "ai_stato": { "type": "string", "enum": ["", "da_verificare", "confermato", "scartato", "retry"] },
     "updated_at": { "type": "string" }
   }
 }
