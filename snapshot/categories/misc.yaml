@@ -1,8 +1,8 @@
 - id: na-na-4
   categoria: ''
-  codice: ''
+  codice: DS18820
   quantita: 1
-  descrizione: ''
+  descrizione: Temperature Sensor Module Kit Eaterproof 100cm stainless steel 1m cable
   interfaccia: ''
   note: ''
   datasheet_url: ''
@@ -11,5 +11,5 @@
   foto_drive_id: 1puFKivEqWW4-wzOw2Sqj8Tb_IXm-QkHv
   foto_url: https://drive.google.com/open?id=1puFKivEqWW4-wzOw2Sqj8Tb_IXm-QkHv
   ai_proposta: '{"type": "json_object"}'
-  ai_stato: scartato
+  ai_stato: retry
   updated_at: 03/10/2026 18.46.59

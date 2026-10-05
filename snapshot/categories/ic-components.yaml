@@ -21,7 +21,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -36,7 +36,7 @@
   interfaccia: SMD I2C
   note: 1.8V - 5.5V
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/doc0336.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -50,8 +50,8 @@
   descrizione: 64Mbit Serial Flash Memory
   interfaccia: QUAD SPI
   note: 3V
-  datasheet_url: https://datasheetspdf.com/pdf-file/935537/Winbond/25Q64FV/1
-  datasheet_last_check: ''
+  datasheet_url: https://www.pjrc.com/store/w25q64fv.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: Line Driver
   interfaccia: DIP-14
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.rs-online.com/8629/0900766b81324aac.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -80,8 +80,8 @@
   descrizione: 16Kbit EEPROM
   interfaccia: ''
   note: 5V
-  datasheet_url: https://datasheetspdf.com/pdf/46386/MicrochipTechnology/93C86/1
-  datasheet_last_check: ''
+  datasheet_url: https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -96,7 +96,7 @@
   interfaccia: SMD
   note: 20V
   datasheet_url: http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -110,8 +110,8 @@
   descrizione: ADC 4 Channel Amplifier
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/3759179.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -126,7 +126,7 @@
   interfaccia: SMD
   note: 3.3V
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -141,7 +141,7 @@
   interfaccia: SMD
   note: 5V
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -156,7 +156,7 @@
   interfaccia: SMD
   note: ADJ
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -170,8 +170,8 @@
   descrizione: EPROM 256bit
   interfaccia: DIP I2C
   note: 1.8V - 5.5V
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -185,8 +185,8 @@
   descrizione: EPROM 512bit
   interfaccia: DIP I2C
   note: 1.8V - 5.5V
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/doc1116.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -201,7 +201,7 @@
   interfaccia: DIP
   note: Vice = 50V 100mA
   datasheet_url: https://www.sparkfun.com/datasheets/Components/BC546.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: Transistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -215,8 +215,8 @@
   descrizione: Photo Diodi
   interfaccia: DIP
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/81521/bpw34.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
@@ -231,7 +231,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.mouser.it/datasheet/2/348/rohm_semiconductor_rohms30191-1-1742744.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: GEN BLU 01 / 01
   foto_drive_id: ''
   foto_url: ''
@@ -246,7 +246,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4017b.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -260,8 +260,8 @@
   descrizione: Analog Multiplexer
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/cd4051b.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -276,7 +276,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4066b-mil.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -290,8 +290,8 @@
   descrizione: USB Slave Chip
   interfaccia: SMD
   note: ''
-  datasheet_url: https://www.mpja.com/download/35227cpdata.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://datacapturecontrol.com/articles/io-devices/usb-serial-adapters/overview
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -306,7 +306,7 @@
   interfaccia: SMD
   note: Mixed Values
   datasheet_url: https://www.silabs.com/documents/public/data-sheets/CP2101.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -320,8 +320,8 @@
   descrizione: RTC
   interfaccia: SMD
   note: ''
-  datasheet_url: https://datasheets.maximintegrated.com/en/ds/DS1307.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS1307?qs=1eQvB6Dk1vjgsJfdc7e59A%3D%3D
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -336,7 +336,7 @@
   interfaccia: DIP
   note: 250AC / 30DC
   datasheet_url: https://cdn.soselectronic.com/productdata/2e/41/df68a637/ftr-f3aa005v.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: Relay Box
   foto_drive_id: ''
   foto_url: ''
@@ -351,7 +351,7 @@
   interfaccia: DIP
   note: Vd 60v Id 120A
   datasheet_url: https://rcl-radio.ru/wp-content/uploads/2014/11/FQP30N06.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: ''
@@ -366,7 +366,7 @@
   interfaccia: SMD
   note: Mixed Values
   datasheet_url: https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -380,8 +380,8 @@
   descrizione: Digital Multiplexer
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
+  datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
