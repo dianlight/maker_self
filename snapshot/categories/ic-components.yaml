@@ -396,7 +396,7 @@
   interfaccia: SMD
   note: SSOP48
   datasheet_url: https://www.holtek.com/documents/10179/116711/HT1621v321.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -411,7 +411,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: https://components101.com/regulators/ht7333-linear-voltage-regulator-datasheet-pinout
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -425,8 +425,8 @@
   descrizione: PWM controller
   interfaccia: TSOP-14
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134
+  datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -440,8 +440,8 @@
   descrizione: Power MOSFET
   interfaccia: DIP
   note: Vd 100 Id 20
-  datasheet_url: https://www.vishay.com/docs/91300/sihl540.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/91300/irl540.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: ''
@@ -456,7 +456,7 @@
   interfaccia: DIP
   note: Vd 55v Id 47A
   datasheet_url: https://www.infineon.com/dgdl/irlz44npbf.pdf?fileId=5546d462533600a40153567217c32725
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: ''
@@ -471,7 +471,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.arduino.cc/documents/datasheets/H-bridge_motor_driver.PDF
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: ''
@@ -485,8 +485,8 @@
   descrizione: Linar Voltage Regulator
   interfaccia: SMD
   note: 3v3
-  datasheet_url: https://www.st.com/resource/en/datasheet/ld1117a.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/lm3940.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -501,7 +501,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm358b.pdf?ts=1639818830392&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM358B%253FkeyMatch%253DLM358%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: ''
@@ -516,7 +516,7 @@
   interfaccia: DIP
   note: https://easyelectronicsproject.com/mini-projects/battery-level-indicator-circuit/
   datasheet_url: https://www.mouser.com/datasheet/2/405/lm3915-443929.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box 2
   foto_drive_id: ''
   foto_url: ''
@@ -530,8 +530,8 @@
   descrizione: 8 DIGIT LED DRIVER
   interfaccia: DIP / SPI
   note: ''
-  datasheet_url: https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://cdn.sparkfun.com/assets/3/e/c/b/d/COM-09622-MAX7219-MAX7221.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: ''
@@ -546,7 +546,7 @@
   interfaccia: I2S
   note: ''
   datasheet_url: https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -560,8 +560,8 @@
   descrizione: I/O Extender Board
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -575,8 +575,8 @@
   descrizione: I/O Extender Chip
   interfaccia: DIP-28
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -590,8 +590,8 @@
   descrizione: Diodo
   interfaccia: SMD
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.diodes.com/datasheet/download/US1A.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -605,8 +605,8 @@
   descrizione: Switch Power IC
   interfaccia: SMD
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://fr.scribd.com/document/651991833/ob2223hc
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -620,8 +620,8 @@
   descrizione: GPIO Extender
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/pcf8574.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -636,7 +636,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -651,7 +651,7 @@
   interfaccia: DIP
   note: 16V 1A
   datasheet_url: https://it.aliexpress.com/item/32960613217.html?spm=a2g0s.9042311.0.0.27424c4dICEFYi
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: Fuse Box
   foto_drive_id: ''
   foto_url: ''
@@ -666,7 +666,7 @@
   interfaccia: 4Pin
   note: https://www.lcsc.com/product-detail/Reed-Relays_PAN-CHANG-SIP-1A05_C10496.html
   datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/SIP%20Series.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: Relay e PU Box
   foto_drive_id: ''
   foto_url: ''
@@ -680,8 +680,8 @@
   descrizione: 4Bit counter
   interfaccia: DIP
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls161a-sp.pdf?ts=1791156058661
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box 2
   foto_drive_id: ''
   foto_url: ''
@@ -695,8 +695,8 @@
   descrizione: 6-60W Led Driver
   interfaccia: SMD
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.dc.systems/assets/public/LED-Driver-Datasheet.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -711,7 +711,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls08-sp.pdf?ts=1639771200586&ref_url=https%253A%252F%252Fwww.google.com%252F
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -725,8 +725,8 @@
   descrizione: Scotty Diodo
   interfaccia: SMD
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/88751/ss32.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -740,8 +740,8 @@
   descrizione: Audoo Amp
   interfaccia: ''
   note: ''
-  datasheet_url: https://www.st.com/resource/en/datasheet/cd00000128.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf
+  datasheet_last_check: '2026-10-05'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -755,8 +755,8 @@
   descrizione: JET OP AMP
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1791156956453
+  datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
