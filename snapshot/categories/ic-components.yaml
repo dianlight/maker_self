@@ -771,7 +771,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl081a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1639737982939&ref_url=https%253A%252F%252Fwww.mouser.de%252F
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-06'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -786,7 +786,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.vishay.com/docs/81010/tsal6200.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-06'
   posizione: Led Box
   foto_drive_id: ''
   foto_url: ''
@@ -801,7 +801,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/uc3845.pdf?ts=1639737658616&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUC3845
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-06'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -815,8 +815,8 @@
   descrizione: SERIAL FLASH MEMOR - 128Mbit
   interfaccia: QUAD SPI
   note: 3V
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/413276139/datasheet-1-abc
+  datasheet_last_check: '2026-10-06'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -830,8 +830,8 @@
   descrizione: SERIAL FLASH MEMOR - 128Mbit
   interfaccia: QUAD SPI
   note: 3V
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/413276139/datasheet-1-abc
+  datasheet_last_check: '2026-10-06'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -845,8 +845,8 @@
   descrizione: Solar Led Driver
   interfaccia: 4Pin
   note: https://www.datasheetcafe.com/xy8018-datasheet-solar-led-driver/
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://datasheet4u.com/datasheets/Shiningic/YX8018/710956
+  datasheet_last_check: '2026-10-06'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
