@@ -5,8 +5,8 @@
   descrizione: Micro SD SPI
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: PWM Driver 12bit 16 Channel
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: Electrocalamita 12v - 5kg
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://mktechnic.com/product/emc-kk-p2511-v/?srsltid=AU7gw4Wu_lG0fMqyZ4dmVmwgZZKohUMj7W64Yb4QCcrTeCd3xyBS_iFw
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -50,8 +50,8 @@
   descrizione: Resistor - Slide Pot.
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: Micro USB Ultrasonic mist Maker
   interfaccia: Micro USB
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/81205.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
@@ -80,8 +80,8 @@
   descrizione: DC 10A Mini voltometro
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7
+  datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
@@ -95,8 +95,8 @@
   descrizione: Module MOSFET
   interfaccia: 3PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/91017/irf520.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
@@ -110,8 +110,8 @@
   descrizione: Level Converter 3-5v
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.ti.com/lit/ds/symlink/txs0108e.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -125,8 +125,8 @@
   descrizione: Laser Emitter
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -140,8 +140,8 @@
   descrizione: Joystick
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -155,8 +155,8 @@
   descrizione: Joystick
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -170,8 +170,8 @@
   descrizione: Tastiera a Pression
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.dtresearch.com/support/datasheet/Sealed_IP68_BT_Keyboard_W_datasheet.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -185,8 +185,8 @@
   descrizione: RTC Clock
   interfaccia: I2C
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.eitkw.com/product/zs-042-rtc-real-time-clock-module/?srsltid=AU7gw4WxoxhNrmgRufE8rLiePKkkk0aOU7CPG4nyMpqJbpXyZS3NyYOR
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -200,8 +200,8 @@
   descrizione: Rotary Encoder
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.precizika.com/wp-content/uploads/2021/08/A102H-Rotary-Encoder-Datasheet.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -215,8 +215,8 @@
   descrizione: Pulsanti Multicolori
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/notifier-it/HBT-Fire-1026-Pulsanti-Convenzionali.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -230,8 +230,8 @@
   descrizione: Power Button + Led
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.scribd.com/document/729310888/n83-power-button-board-revb-1126
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -245,8 +245,8 @@
   descrizione: Module MOSFET
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/91019/irf530.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''

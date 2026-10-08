@@ -5,8 +5,8 @@
   descrizione: '8266'
   interfaccia: MINI DIP
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: 64KB / 4096B Ram
   interfaccia: SMD
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''

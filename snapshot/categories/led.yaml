@@ -5,8 +5,8 @@
   descrizione: 8 RGB LED BAR
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: ''
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.vishay.com/docs/82491/tsop382.pdf
+  datasheet_last_check: '2026-10-07'
   posizione: Led Box
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: IR Emitter
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.mouser.com/datasheet/2/239/HSDL_4260_DS-1143990.pdf?srsltid=AU7gw4W5MeVP5AXg0JlcXsEQ518Y5-YSly0KPKn-sbLvGrRO6v1qI6HW
+  datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
