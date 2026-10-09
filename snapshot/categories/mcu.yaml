@@ -35,8 +35,8 @@
   descrizione: '32'
   interfaccia: SMD
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -50,8 +50,8 @@
   descrizione: ESP 32 S2
   interfaccia: MINI DIP
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32-s2_datasheet_en.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -66,7 +66,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed.
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -81,7 +81,7 @@
   interfaccia: DIP
   note: ''
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -96,7 +96,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -111,7 +111,7 @@
   interfaccia: SMD
   note: ''
   datasheet_url: http://www.lyr-ing.com/DocumentosLyR/EXT/ICs/AVR/AtMega1284P_(3)_8059S.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -125,8 +125,8 @@
   descrizione: 1KB
   interfaccia: DIP
   note: Probabilmente ATTINY12 rimachliati. Programmare uasbasp JP3 per 1Mhz
-  datasheet_url: https://www.dexsilicium.com/Atmel_Tiny12l.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.radiolocman.com/datasheet/data.html?di=506855&%2FATtiny85=
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -141,7 +141,7 @@
   interfaccia: DIP
   note: I marchiati in rosso devono essere riprogrammati in HV
   datasheet_url: https://www.microchip.com/wwwproducts/en/ATmega8A
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -155,8 +155,8 @@
   descrizione: '8266'
   interfaccia: Edge
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -170,8 +170,8 @@
   descrizione: '8266'
   interfaccia: DIP
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -185,8 +185,8 @@
   descrizione: ESP32-S
   interfaccia: SDM
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.es.co.th/Schemetic/PDF/ESP32.PDF
+  datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -200,8 +200,8 @@
   descrizione: ESP-WROOM32
   interfaccia: SDM
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -215,8 +215,8 @@
   descrizione: EFR32
   interfaccia: MINI DIP
   note: Internal Antenna
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://source.cntooya.com/all/pro/EFR32MG21/EFR32MG21%20Coordinator%20Module%20datasheet-EN.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -230,8 +230,8 @@
   descrizione: EFR32
   interfaccia: MINI DIP
   note: IPEX
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.silabs.com/rail/2.19.3/using-rail-for-802-15-4-applications-with-efr32/
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -245,8 +245,8 @@
   descrizione: TLSR8258
   interfaccia: MINI DP
   note: Internal Antenna
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://zigbee.blakadder.com/eWeLight_ZYZB010.html
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
@@ -261,7 +261,7 @@
   interfaccia: COPIA TUYA
   note: ''
   datasheet_url: https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121831_DOIT-ESP-02S_C19949060.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''

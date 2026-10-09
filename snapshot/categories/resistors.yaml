@@ -5,8 +5,8 @@
   descrizione: Variable Reistor
   interfaccia: 3PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/2261187.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -20,8 +20,8 @@
   descrizione: Variable Reistor
   interfaccia: 3PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.utmel.com/productdetail/alphataiwan-rv09af4020kb50k-24413960
+  datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: Variable Reistor
   interfaccia: 3PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://datasheet.b-cdn.net/posts/b100k-datasheet
+  datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -50,8 +50,8 @@
   descrizione: Digital Potentiometer
   interfaccia: 8DIP
   note: 50kOhm
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.instructables.com/X9C103P-Basic-Operation
+  datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: Variable Reistor
   interfaccia: 3PIN
   note: 200K
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/2002041.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -80,8 +80,8 @@
   descrizione: Photo Resistor
   interfaccia: 2pin
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.handsontec.com/dataspecs/sensor/GL55-LDR.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''

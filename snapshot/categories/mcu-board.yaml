@@ -5,8 +5,8 @@
   descrizione: Dev Boards
   interfaccia: USB
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://handsontec.com/dataspecs/module/STM32F103%20module.pdf
+  datasheet_last_check: '2026-10-08'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -21,7 +21,7 @@
   interfaccia: USB + Wifi
   note: ''
   datasheet_url: https://www.wemos.cc/en/latest/_static/files/sch_d1_mini_v3.0.0.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-08'
   posizione: Garage 01 e 02
   foto_drive_id: ''
   foto_url: ''
@@ -35,8 +35,8 @@
   descrizione: Blank for EFR32
   interfaccia: PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://datasheet4u.com/datasheets/Silicon-Labs/EFR32MG24/1502659
+  datasheet_last_check: '2026-10-08'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
