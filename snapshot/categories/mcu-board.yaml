@@ -50,8 +50,8 @@
   descrizione: Test ESP8266
   interfaccia: PIN
   note: Autostampato
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -65,8 +65,8 @@
   descrizione: ESP32 + USB + Battery
   interfaccia: USB+Bluetooth+Wifi
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -80,8 +80,8 @@
   descrizione: Dev board montata
   interfaccia: PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -95,8 +95,8 @@
   descrizione: '8266'
   interfaccia: Wifi
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -110,8 +110,8 @@
   descrizione: ESP8266 + Blade
   interfaccia: Blade
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -125,8 +125,8 @@
   descrizione: W600-W300?
   interfaccia: TTL + Wifi
   note: SDK non cinese
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.winnermicro.com/en/upload/1/editor/1565008131994.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -141,7 +141,7 @@
   interfaccia: TTL
   note: No regulator / No buttons
   datasheet_url: https://homeding.github.io/boards/whiteadapter.htm
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -155,8 +155,8 @@
   descrizione: ESP-CAM - ESP32S - OVcam
   interfaccia: TTL + Wifi + Bluetooth
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0602_Web.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -170,8 +170,8 @@
   descrizione: Dev Board da montare
   interfaccia: USB
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -185,8 +185,8 @@
   descrizione: Test ESP32
   interfaccia: PIN
   note: Autostampato
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -200,8 +200,8 @@
   descrizione: Blank for ESP32
   interfaccia: TTL
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -215,8 +215,8 @@
   descrizione: Dev Board da montare
   interfaccia: PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2025/09/ESP32-S3-DEV-MODULE-datasheet-1-1.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -230,8 +230,8 @@
   descrizione: Blank for ESP32
   interfaccia: USB
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -245,8 +245,8 @@
   descrizione: ESP8266 + USB
   interfaccia: USB + Wifi
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.make-it.ca/nodemcu-details-specifications/
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -260,8 +260,8 @@
   descrizione: ATMEDA328P
   interfaccia: TTL
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://arala.r-e-f.org/wp-content/uploads/2022/03/PRO-Mini-5V_EN.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -276,7 +276,7 @@
   interfaccia: USB + JTag
   note: +512k eproom i2c
   datasheet_url: https://stm32-base.org/boards/STM32F103C8T6-STM32-Smart-V2.0.html
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -290,8 +290,8 @@
   descrizione: Dev Boards
   interfaccia: USB C + JTAG
   note: Black and Green
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://stm32-base.org/boards/STM32F401CCU6-STM32-Mini-F401.html
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -305,8 +305,8 @@
   descrizione: STM32F103VCT6990G0
   interfaccia: TTL +JTAG
   note: Con TFT35 e SD
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://github.com/bigtreetech/BTT-TFT35-E3-V3.0/blob/master/BTT%20TFT35-E3%20V3.0%20User%20Guide.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -320,8 +320,8 @@
   descrizione: Custom EFR32
   interfaccia: PIN
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://source.cntooya.com/all/pro/EFR32MG21/EFR32MG21%20Coordinator%20Module%20datasheet-EN.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -336,8 +336,8 @@
     FLASH 2MB PSRAM micropyone per Arduino compatibile D1 mini aggiornamento
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.wemos.cc/en/latest/s2/s2_mini.html
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -351,8 +351,8 @@
   descrizione: ESP32-C3 scheda di sviluppo ESP32 C3 SuperMini WiFi Bluetooth per Arduino
   interfaccia: ''
   note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://dl.artronshop.co.th/ESP32-C3%20SuperMini%20datasheet.pdf
+  datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
