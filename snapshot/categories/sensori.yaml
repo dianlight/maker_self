@@ -6,7 +6,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.krain.com/content/files/images/landingpages/rain%20sensor/product_main_rain%20sensors-min.jpg
@@ -21,7 +21,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://dfimg.dfrobot.com/enshop/SEN0193/SEN0193_Main_01.jpg
@@ -36,7 +36,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://res.cloudinary.com/campbellsci/image/upload/f_auto,c_limit,w_600,h_600/11468.png
@@ -51,7 +51,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.glerl.noaa.gov/images/glerlLogoInvertNoDefSmall.png
@@ -66,7 +66,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/images/thumbnail/mega-menu/k_thumb_photodiode.jpg
@@ -81,7 +81,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/ja/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/optimized/4X/3/6/2/362da1bf6d2e78a06096c64693e401e412c18220_2_690x335.jpeg
@@ -96,7 +96,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://linmot.com/en/produkte/magspring/
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.fenetex.com/media/bxipk1vh/spring-demo.png
@@ -111,7 +111,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/164-00.jpg
@@ -126,7 +126,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/1/11050-04.jpg
@@ -141,7 +141,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61gUkDoHh-L.jpg
@@ -156,7 +156,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/-/media/images/packaging/cb-package/allegro-cb-5-package-image.png
@@ -171,7 +171,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/168326/ALLEGRO/ACS712.html
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/-/media/images/products/0712/acs712-product-image.jpg
@@ -1061,8 +1061,8 @@
   note: 'Riclassificato: codice errato DS18820 -> DS18B20; categoria sensori. Descrizione
     originale riporta ''Eaterproof'' invece di Waterproof e ''100cm stainless steel
     1m cable''. Corretto e integrato con dettagli visibili in foto.'
-  datasheet_url: https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://protosupplies.com/product/ds18b20-waterproof/
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Barrel
   foto_drive_id: 1puFKivEqWW4-wzOw2Sqj8Tb_IXm-QkHv
   foto_url: https://drive.google.com/open?id=1puFKivEqWW4-wzOw2Sqj8Tb_IXm-QkHv
@@ -1092,8 +1092,8 @@
   note: Componente per misura temperatura RTD; nonostante l'etichetta citi thermocouple,
     MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865.
     Busta antistatica con barcode e numeri parzialmente leggibili.
-  datasheet_url: https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.pickadogbreed.com/best/singles
+  datasheet_last_check: '2026-10-10'
   posizione: Sensor Barrel
   foto_drive_id: 1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa
   foto_url: https://drive.google.com/open?id=1r3mOXUhixHgr9IbOW22ftx5ceQqiGBxa

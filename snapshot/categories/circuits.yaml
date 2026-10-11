@@ -69,8 +69,8 @@
   interfaccia: morsettiere a vite e header di controllo
   note: Modulo relè 5V monocanale; possibile optoisolatore/transistor di pilotaggio;
     codice relè Songle SRD-05VDC-SL-C.
-  datasheet_url: https://www.songle.com/en/relay/SRD.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf
+  datasheet_last_check: '2026-10-10'
   posizione: IC Barrel
   foto_drive_id: 1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
   foto_url: https://drive.google.com/open?id=1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
@@ -94,8 +94,8 @@
   interfaccia: T/GND/VCC per controllo; NC/COM/NO per contatto rele; selezione 3V/5V
   note: 'Modulo rele bistabile (latching) a 1 canale, probabile marca eletechsup.
     Possibile selezione tensione 3V o 5V. Codice letto: I025A01.'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://eletechsup.com/products/5v-24-1-4ch-flip-flop-relay-module-bistable-self-locking-trigger-time-switch-turn-on-off-plc-board
+  datasheet_last_check: '2026-10-10'
   posizione: IC Barrel
   foto_drive_id: 10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
   foto_url: https://drive.google.com/open?id=10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
@@ -120,8 +120,8 @@
   interfaccia: morsettiere a vite / header GPIO
   note: Modulo per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC;
     bobina 12VDC.
-  datasheet_url: https://www.handsontec.com/dataspecs/relay/JQC-3FF-S-Z.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://denkovi.com/Documents/JQC-3FF-S-Z.pdf
+  datasheet_last_check: '2026-10-10'
   posizione: IC Barrel
   foto_drive_id: 1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
   foto_url: https://drive.google.com/open?id=1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn

@@ -372,7 +372,7 @@
   note: Board compatibile NodeMCU V3 con modulo ESP-12E; possibile chip USB-seriale
     CH340. Fori di montaggio agli angoli.
   datasheet_url: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-10'
   posizione: MCU Box
   foto_drive_id: 1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
   foto_url: https://drive.google.com/open?id=1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
@@ -400,7 +400,7 @@
   note: Etichetta con barcode 12000044682986982, 873294607774, cn10873682262xgae,
     Made in China. Busta antistatica non aperta.
   datasheet_url: https://www.espressif.com/sites/default/files/documentation/esp32-c6_datasheet_en.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-10'
   posizione: MCU Box
   foto_drive_id: 18oUWE_GhoMP-zTeJpvzLXnz-fBscd4mL
   foto_url: https://drive.google.com/open?id=18oUWE_GhoMP-zTeJpvzLXnz-fBscd4mL
