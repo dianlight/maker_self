@@ -1,3 +1,46 @@
+- id: ic-components-irl540n-155
+  categoria: componenti
+  codice: IRL540N
+  quantita: 10
+  descrizione: 'Power MOSFET N-channel logic level, package TO-220AB, quantità dichiarata
+    10, scritte leggibili: IRL540N, Vd 100, Id 20'
+  interfaccia: TO-220
+  note: Vd 100, Id 20; MOSFET discreto, non IC. Package TO-220.
+  datasheet_url: https://www.vishay.com/docs/91300/irl540.pdf
+  datasheet_last_check: '2026-10-05'
+  posizione: Mosfet Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "IRL540N", "categoria": "componenti", "descrizione": "Power
+    MOSFET N-channel logic level, package TO-220AB, quantità dichiarata 10, scritte
+    leggibili: IRL540N, Vd 100, Id 20", "interfaccia": "TO-220", "quantita": 10, "posizione":
+    "Mosfet Box", "datasheet_url": "https://www.vishay.com/docs/91300/irl540.pdf",
+    "note": "Vd 100, Id 20; MOSFET discreto, non IC. Package TO-220."}'
+  ai_stato: da_verificare
+  updated_at: ''
+- id: ic-components-ssxx-174
+  categoria: componenti
+  codice: SS32
+  quantita: 30
+  descrizione: Diodo Schottky SS32, componente discreto, package SMD, quantità 30
+    pz da inventario; nessuna foto disponibile, sigla SS32 ricavata dai campi della
+    riga.
+  interfaccia: SMD
+  note: Riclassificato da 'Scotty Diodo' a 'Diodo Schottky SS32'. Categoria corretta
+    da ic-components a componenti. Codice corretto da SSxx a SS32.
+  datasheet_url: https://www.vishay.com/docs/88751/ss32.pdf
+  datasheet_last_check: '2026-10-05'
+  posizione: SMD Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "SS32", "categoria": "componenti", "descrizione": "Diodo
+    Schottky SS32, componente discreto, package SMD, quantità 30 pz da inventario;
+    nessuna foto disponibile, sigla SS32 ricavata dai campi della riga.", "interfaccia":
+    "SMD", "quantita": 30, "posizione": "SMD Box", "datasheet_url": "https://www.vishay.com/docs/88751/ss32.pdf",
+    "note": "Riclassificato da ''Scotty Diodo'' a ''Diodo Schottky SS32''. Categoria
+    corretta da ic-components a componenti. Codice corretto da SSxx a SS32."}'
+  ai_stato: da_verificare
+  updated_at: ''
 - id: componenti-hw-125-208
   categoria: componenti
   codice: HW-125
@@ -77,11 +120,12 @@
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Potensiometro
-    a slitta (slide potentiometer), componente resistivo variabile; quantità visibile
-    1; package non specificato; scritte leggibili non disponibili dalla riga.", "interfaccia":
-    "analogico", "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
+  foto_url: ''
+  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Resistor
+    - Slide Pot. Potenziometro a slitta (slide potentiometer) serie PSxxG, componente
+    passivo variabile. Quantità visibile: 1. Package e scritte leggibili non disponibili
+    dalla riga; valore ohmico e corsa da verificare.", "interfaccia": "analogico",
+    "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
     "note": "Riclassificato da componenti a resistors; codice generico ''Slide Pot''
     aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa."}'
   ai_stato: da_verificare
@@ -179,18 +223,18 @@
   codice: Laser
   quantita: 1
   descrizione: Laser Emitter
-  interfaccia: ''
+  interfaccia: 2 pin
   note: Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico.
     Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.
   datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: https://www.lasercomponents.com/fileadmin/_processed_/a/5/csm_lcusa-ra-te-a1-1-1_c9501494ae.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Laser Emitter
-    (emettitore laser), componente optoelettronico, quantità 1, package non specificato,
-    nessuna foto disponibile, nessuna scritta leggibile", "interfaccia": "", "quantita":
-    1, "posizione": "Component Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
+    (emettitore laser / possibile diodo laser optoelettronico), quantità 1; package
+    e scritte non leggibili perché nessuna foto disponibile.", "interfaccia": "",
+    "quantita": 1, "posizione": "Component Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
     "note": "Nessuna foto; riclassificato da ''componenti'' a ''led'' perché emettitore
     optoelettronico. Codice originale ''Laser'' mantenuto; verificare part number
     e package dal datasheet."}'
@@ -229,12 +273,11 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: https://www.allegromicro.com/images/allegro-logo-og.png
-  ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
-    joystick analogico KY-023, 2 assi X/Y e pulsante, 3 unità, package modulo PCB;
-    nessuna foto disponibile, scritte non leggibili.", "interfaccia": "Analogica/Digitale
-    (VRx, VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url":
-    "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
+  foto_url: ''
+  ai_proposta: '{"codice": "KY-023", "categoria": "componenti", "descrizione": "Modulo
+    joystick KY-023, 3 pezzi, con uscite analogiche VRx, VRy e switch digitale SW.
+    Modulo PCB con joystick a levetta.", "interfaccia": "Analogica/Digitale (VRx,
+    VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
     "note": "Riclassificato da ''IC Joystick'' a modulo joystick KY-023; non è un
     IC."}'
   ai_stato: da_verificare

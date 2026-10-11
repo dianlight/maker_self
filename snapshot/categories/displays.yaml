@@ -68,26 +68,29 @@
   updated_at: ''
 - id: displays-sdd-102
   categoria: displays
-  codice: SDD?
+  codice: SH1106
   quantita: 1
-  descrizione: OLED Display 1.3”
+  descrizione: Display OLED 1.3" con interfaccia I2C, modulo display; 1 unità; controller
+    ipotizzato SH1106; nessuna foto disponibile; descrizione ricavata dai campi della
+    riga.
   interfaccia: I2C
   note: 'Categoria confermata: displays. Codice originale ''SDD?'' incompleto/dubbio;
-    ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: descrizione basata
+    ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: riclassificazione basata
     sui campi della riga.'
   datasheet_url: https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "SH1106", "categoria": "displays", "descrizione": "Modulo
-    display OLED 1.3 pollici, 1 pezzo, controller SH1106, interfaccia I2C, package
-    modulo breakout; scritte leggibili non disponibili (nessuna foto).", "interfaccia":
-    "I2C", "quantita": 1, "posizione": "Display Barrel", "datasheet_url": "https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf",
+  ai_proposta: '{"categoria": "displays", "codice": "SH1106", "descrizione": "Display
+    OLED 1.3\" con interfaccia I2C, modulo display; 1 unità; controller ipotizzato
+    SH1106; nessuna foto disponibile; descrizione ricavata dai campi della riga.",
+    "interfaccia": "I2C", "quantita": 1, "posizione": "Display Barrel", "datasheet_url":
+    "https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf",
     "note": "Categoria confermata: displays. Codice originale ''SDD?'' incompleto/dubbio;
-    ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: descrizione basata
+    ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: riclassificazione basata
     sui campi della riga."}'
-  ai_stato: retry
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-1309-103
   categoria: displays
@@ -95,17 +98,20 @@
   quantita: 1
   descrizione: OLED Display 1.5’
   interfaccia: I2C
-  note: Display OLED 1.5", driver SSD1309, risoluzione tipica 128x64 (presunta)
+  note: Display OLED 1.5", driver SSD1309, risoluzione tipica 128x64 (presunta). Codice
+    attuale 1309; ipotizzato SSD1309.
   datasheet_url: https://www.hpinfotech.ro/SSD1309.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "SSD1309", "categoria": "displays", "descrizione": "OLED
-    Display 1.5 pollici, controller SSD1309, interfaccia I2C", "interfaccia": "I2C",
-    "quantita": 1, "posizione": "Display Barrel", "datasheet_url": "https://www.hpinfotech.ro/SSD1309.pdf",
-    "note": "Display OLED 1.5\", driver SSD1309, risoluzione tipica 128x64 (presunta)"}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "SSD1309", "categoria": "displays", "descrizione": "Display
+    OLED 1.5\" monocromatico, modulo display con driver SSD1309, interfaccia I2C,
+    risoluzione presunta 128x64. Quantità 1.", "interfaccia": "I2C", "quantita": 1,
+    "posizione": "Display Barrel", "datasheet_url": "https://www.hpinfotech.ro/SSD1309.pdf",
+    "note": "Display OLED 1.5\", driver SSD1309, risoluzione tipica 128x64 (presunta).
+    Codice attuale 1309; ipotizzato SSD1309."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-x30637-104
   categoria: displays
@@ -204,12 +210,12 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "LCD1602-I2C", "categoria": "displays", "descrizione":
-    "Modulo display LCD 1602 16x2 con adattatore I2C, 3 pezzi, package modulo PCB,
-    scritta leggibile \"1602 + I2C Adapter\"", "interfaccia": "I2C", "quantita": 3,
-    "posizione": "Display Barrel", "datasheet_url": "https://files.waveshare.com/upload/4/4d/LCD1602_I2C_Module.pdf",
+    "Modulo display LCD 1602 con adattatore I2C, 3 pezzi indicati nella riga inventario.
+    Package non specificato; scritte leggibili dalla riga: 1602 + I2C Adapter.", "interfaccia":
+    "I2C", "quantita": 3, "posizione": "Display Barrel", "datasheet_url": "https://files.waveshare.com/upload/4/4d/LCD1602_I2C_Module.pdf",
     "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. Codice
     ipotizzato come LCD1602-I2C partendo da 1602 + I2C."}'
-  ai_stato: retry
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-pj-69c-109
   categoria: displays

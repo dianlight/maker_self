@@ -1,3 +1,25 @@
+- id: pu-stunt-193
+  categoria: resistors
+  codice: SCD30A
+  quantita: 1
+  descrizione: 'Shunt di corrente SCD30A da 30A, 1 pezzo, package non visibile, nessuna
+    foto disponibile; scritte leggibili: SCD30A, 30A.'
+  interfaccia: ''
+  note: 'Riclassificato dalla riga inventario: categoria originale ''pu'' corretta
+    in resistors; codice ''Stunt'' corretto in SCD30A (shunt 30A).'
+  datasheet_url: https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf
+  datasheet_last_check: '2026-10-06'
+  posizione: B Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "SCD30A", "categoria": "resistors", "descrizione": "Shunt
+    di corrente SCD30A da 30A, 1 pezzo, package non visibile, nessuna foto disponibile;
+    scritte leggibili: SCD30A, 30A.", "interfaccia": "", "quantita": 1, "posizione":
+    "B Box", "datasheet_url": "https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf",
+    "note": "Riclassificato dalla riga inventario: categoria originale ''pu'' corretta
+    in resistors; codice ''Stunt'' corretto in SCD30A (shunt 30A)."}'
+  ai_stato: da_verificare
+  updated_at: ''
 - id: resistors-table-1-1-b5k-243
   categoria: resistors
   codice: B5K

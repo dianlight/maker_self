@@ -22,20 +22,22 @@
   codice: Anelli Di Ferrite
   quantita: 5
   descrizione: Da cavo
-  interfaccia: ''
-  note: Il datasheet Vishay ILBB0603 si riferisce a ferrite bead SMD 0603, mentre
-    la descrizione indica anelli da cavo; verificare corrispondenza.
+  interfaccia: cavo
+  note: Riclassificato da 'pu' a 'componenti'. Il datasheet Vishay ILBB0603 si riferisce
+    a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo; verificare
+    corrispondenza e part number.
   datasheet_url: https://www.vishay.com/docs/34024/ilbb0603.pdf
   datasheet_last_check: '2026-10-06'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: https://resources.altium.com/sites/default/files/blogs/Everything%20You%20Need%20to%20Know%20About%20Ferrite%20Beads-67884.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
-    "Anelli in ferrite per cavi, quantità 5; package non specificato; nessuna scritta
-    leggibile disponibile. Componente passivo per soppressione disturbi su cavo.",
-    "interfaccia": "", "quantita": 5, "posizione": "A Box", "datasheet_url": "https://www.vishay.com/docs/34024/ilbb0603.pdf",
-    "note": "Il datasheet Vishay ILBB0603 si riferisce a ferrite bead SMD 0603, mentre
-    la descrizione indica anelli da cavo; verificare corrispondenza."}'
+    "Anelli di ferrite per cavo, quantità visibile 5, package non specificato; nessuna
+    scritta leggibile disponibile (nessuna foto).", "interfaccia": "", "quantita":
+    5, "posizione": "A Box", "datasheet_url": "https://www.vishay.com/docs/34024/ilbb0603.pdf",
+    "note": "Riclassificato da ''pu'' a ''componenti''. Il datasheet Vishay ILBB0603
+    si riferisce a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo;
+    verificare corrispondenza e part number."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-anelli-di-ferrite-185
@@ -45,19 +47,20 @@
   descrizione: Da IC
   interfaccia: ''
   note: 'Riclassificato da categoria ''pu'' a ''componenti'': si tratta di componenti
-    passivi per filtraggio/soppressione EMI, non di una unità di potenza.'
+    passivi per filtraggio/soppressione EMI (anelli di ferrite), non di una unità
+    di potenza.'
   datasheet_url: https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
-  foto_url: https://resources.altium.com/sites/default/files/blogs/Everything%20You%20Need%20to%20Know%20About%20Ferrite%20Beads-67884.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
-    "Anelli di ferrite (ferrite beads/rings) per soppressione EMI; quantità 3; package
-    non specificato; nessuna marcatura leggibile. Dati ricavati dalla riga inventario,
-    senza foto.", "interfaccia": "", "quantita": 3, "posizione": "PU Barrel", "datasheet_url":
-    "https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf",
+    "3 anelli di ferrite per filtraggio/soppressione EMI; package non specificato,
+    nessuna scritta leggibile.", "interfaccia": "", "quantita": 3, "posizione": "PU
+    Barrel", "datasheet_url": "https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf",
     "note": "Riclassificato da categoria ''pu'' a ''componenti'': si tratta di componenti
-    passivi per filtraggio/soppressione EMI, non di una unità di potenza."}'
+    passivi per filtraggio/soppressione EMI (anelli di ferrite), non di una unità
+    di potenza."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-b0505s-2w-186
@@ -193,27 +196,6 @@
     Codice originale FDC-2S-2; il datasheet indica HX-2S-3A. Categoria PU/power management."}'
   ai_stato: da_verificare
   updated_at: ''
-- id: pu-stunt-193
-  categoria: pu
-  codice: Stunt
-  quantita: 1
-  descrizione: 30A
-  interfaccia: ''
-  note: Categoria originale 'pu' corretta in resistors; codice 'Stunt' corretto in
-    SCD30A (shunt 30A).
-  datasheet_url: https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf
-  datasheet_last_check: '2026-10-06'
-  posizione: B Box
-  foto_drive_id: ''
-  foto_url: https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png
-  ai_proposta: '{"codice": "SCD30A", "categoria": "resistors", "descrizione": "Shunt
-    di corrente Siglent SCD30A, 30A, accessorio per multimetro SDM3065X. Package:
-    modulo shunt con morsetti. Scritte leggibili: 30A, SCD30A.", "interfaccia": "",
-    "quantita": 1, "posizione": "B Box", "datasheet_url": "https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf",
-    "note": "Categoria originale ''pu'' corretta in resistors; codice ''Stunt'' corretto
-    in SCD30A (shunt 30A)."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: pu-uu10-5-194
   categoria: pu
   codice: UU10.5
@@ -322,49 +304,54 @@
   quantita: 2
   descrizione: Solar Charger + Pannello solare
   interfaccia: DC/USB (presunta)
-  note: Categoria 'pu' interpretata come power unit; codice ipotizzato da 'Solar Charger';
-    datasheet è un link PDF Amazon non verificato; quantità 2 si riferisce a 2 pezzi
-    del componente/kit; nessuna foto disponibile per verifica.
+  note: Riclassificato come 'pu' (power unit / modulo di ricarica solare). Codice
+    ipotizzato da 'Solar Charger'; nessun part number verificabile. Datasheet è un
+    link PDF Amazon non verificato. Quantità 2 riferita a 2 pezzi del componente/kit.
+    Nessuna foto disponibile per verifica.
   datasheet_url: https://m.media-amazon.com/images/I/919dJp-mC1L.pdf
   datasheet_last_check: '2026-10-06'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: http://flexsolarenergies.com/cdn/shop/files/flexsolar20210521-01_forWEB.png?v=1626203109
-  ai_proposta: '{"codice": "SOLAR-CHARGER", "categoria": "pu", "descrizione": "Solar
-    Charger + Pannello solare; modulo di ricarica a energia solare con pannello, quantità
-    2; package non specificato; nessuna scritta leggibile disponibile (nessuna foto).",
-    "interfaccia": "", "quantita": 2, "posizione": "A Box", "datasheet_url": "https://m.media-amazon.com/images/I/919dJp-mC1L.pdf",
-    "note": "Categoria ''pu'' interpretata come power unit; codice ipotizzato da ''Solar
-    Charger''; datasheet è un link PDF Amazon non verificato; quantità 2 si riferisce
-    a 2 pezzi del componente/kit; nessuna foto disponibile per verifica."}'
+  foto_url: ''
+  ai_proposta: '{"codice": "Solar Charger", "categoria": "pu", "descrizione": "Caricatore
+    solare + pannello solare. Quantità dichiarata: 2. Package non specificato, nessuna
+    scritta leggibile perché non è disponibile alcuna foto.", "interfaccia": "DC/USB
+    (presunta)", "quantita": 2, "posizione": "A Box", "datasheet_url": "https://m.media-amazon.com/images/I/919dJp-mC1L.pdf",
+    "note": "Riclassificato come ''pu'' (power unit / modulo di ricarica solare).
+    Codice ipotizzato da ''Solar Charger''; nessun part number verificabile. Datasheet
+    è un link PDF Amazon non verificato. Quantità 2 riferita a 2 pezzi del componente/kit.
+    Nessuna foto disponibile per verifica."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-wifi-charger-200
   categoria: pu
   codice: WiFI Charger
   quantita: 2
-  descrizione: 'Nessuna foto disponibile. Dedotto dal datasheet: IC ricevitore di
-    potenza wireless Qi con caricabatteria integrato per celle Li-Ion/Li-Po singole,
-    package DSBGA-28 (YFF). Quantità da inventario: 2. Scritte leggibili: non disponibili.'
+  descrizione: 'IC ricevitore di potenza wireless Qi con caricabatteria integrato
+    per celle Li-Ion/Li-Po singole, package DSBGA-28 (YFF). Quantità da inventario:
+    2. Scritte leggibili: non disponibili (nessuna foto).'
   interfaccia: 1 solo con controller
   note: 'Riclassificato dalla riga inventario: ''WiFI Charger'' è probabilmente un
-    refuso per Wireless Charger; ''pu'' corretto in ic-components. Il datasheet TI
-    indica bq51051B come ricevitore/caricabatteria wireless. Interfaccia originale
-    ''1 solo con controller'' ambigua.'
+    refuso per Wireless Charger; ''pu'' corretto in ic-components. Codice corretto
+    in bq51051B dal datasheet TI. Interfaccia originale ''1 solo con controller''
+    ambigua: il dispositivo è un ricevitore Qi con ricarica integrata, comunicazione
+    di potenza via coil e configurazione via pin. Quantità 2 da inventario.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/bq51051b.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
-  foto_url: https://www.cnet.com/wp-content/uploads/sites/2/9da2e9c7-d07d-45cb-89d1-18c7013249e5.png
-  ai_proposta: '{"codice": "BQ51051B", "categoria": "ic-components", "descrizione":
-    "Nessuna foto disponibile. Dedotto dal datasheet: IC ricevitore di potenza wireless
-    Qi con caricabatteria integrato per celle Li-Ion/Li-Po singole, package DSBGA-28
-    (YFF). Quantità da inventario: 2. Scritte leggibili: non disponibili.", "interfaccia":
-    "Qi wireless (induttiva)", "quantita": 2, "posizione": "PU Barrel", "datasheet_url":
-    "https://www.ti.com/lit/ds/symlink/bq51051b.pdf", "note": "Riclassificato dalla
-    riga inventario: ''WiFI Charger'' è probabilmente un refuso per Wireless Charger;
-    ''pu'' corretto in ic-components. Il datasheet TI indica bq51051B come ricevitore/caricabatteria
-    wireless. Interfaccia originale ''1 solo con controller'' ambigua."}'
+  foto_url: ''
+  ai_proposta: '{"codice": "bq51051B", "categoria": "ic-components", "descrizione":
+    "IC ricevitore di potenza wireless Qi con caricabatteria integrato per celle Li-Ion/Li-Po
+    singole, package DSBGA-28 (YFF). Quantità da inventario: 2. Scritte leggibili:
+    non disponibili (nessuna foto).", "interfaccia": "Qi wireless power (induttiva);
+    configurazione tramite pin esterni, nessuna interfaccia dati standard nota.",
+    "quantita": 2, "posizione": "PU Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/bq51051b.pdf",
+    "note": "Riclassificato dalla riga inventario: ''WiFI Charger'' è probabilmente
+    un refuso per Wireless Charger; ''pu'' corretto in ic-components. Codice corretto
+    in bq51051B dal datasheet TI. Interfaccia originale ''1 solo con controller''
+    ambigua: il dispositivo è un ricevitore Qi con ricarica integrata, comunicazione
+    di potenza via coil e configurazione via pin. Quantità 2 da inventario."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-motor-dimmer-201

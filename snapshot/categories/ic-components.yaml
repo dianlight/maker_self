@@ -24,20 +24,20 @@
   codice: RC45558
   quantita: 10
   descrizione: OP-AMP
-  interfaccia: ''
-  note: Codice originale RC45558 corretto in RC4558. Categoria ic-components confermata.
+  interfaccia: analogico
+  note: Riclassificato da riga inventario. Codice originale RC45558 corretto in RC4558.
+    Categoria ic-components confermata. Nessuna foto disponibile.
   datasheet_url: https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-qrc4558_1.png?itok=bTMfLOCV
+  foto_url: ''
   ai_proposta: '{"codice": "RC4558", "categoria": "ic-components", "descrizione":
-    "Nessuna foto disponibile. Dai campi inventario: amplificatore operazionale duale
-    RC4558 (OP-AMP), circuito integrato; quantita 10 pezzi; package non specificato
-    (tipico DIP-8/SOIC-8); scritta leggibile presunta RC4558.", "interfaccia": "",
-    "quantita": 10, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F",
+    "OP-AMP RC4558, integrato dual operational amplifier, package non specificato,
+    quantità 10", "interfaccia": "analogico", "quantita": 10, "posizione": "IC Barrel",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F",
     "note": "Codice originale RC45558 corretto in RC4558. Categoria ic-components
-    confermata."}'
+    confermata. Nessuna foto disponibile: package non deducibile dalla riga."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-24c32-128
@@ -70,12 +70,13 @@
   datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: https://datasheet4u.com/pdfhtml/0740/1462011/page-000001.png
+  foto_url: ''
   ai_proposta: '{"codice": "W25Q64FV", "categoria": "ic-components", "descrizione":
-    "IC memoria Flash seriale 64Mbit Winbond W25Q64FV, 1 pezzo, package SMD non specificato,
-    scritta leggibile W25Q64FV, interfaccia Quad SPI, tensione 3V; nessuna foto disponibile.",
-    "interfaccia": "QUAD SPI", "quantita": 1, "posizione": "SMD Box", "datasheet_url":
-    "https://www.pjrc.com/store/w25q64fv.pdf", "note": "3V"}'
+    "Memoria Flash seriale 64Mbit (8MB), interfaccia Quad SPI, tensione 3V, package
+    SMD non specificato, quantita 1. Nessuna foto disponibile; dati ricavati dalla
+    riga inventario. Probabile Winbond W25Q64FV.", "interfaccia": "QUAD SPI", "quantita":
+    1, "posizione": "SMD Box", "datasheet_url": "https://www.pjrc.com/store/w25q64fv.pdf",
+    "note": "3V; codice originale 25Q64FV; probabile Winbond W25Q64FV"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-74hc126n-130
@@ -108,12 +109,12 @@
   datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: https://datasheet4u.com/pdfhtml/0228/46386/page-000001.png
-  ai_proposta: '{"codice": "93C86", "categoria": "ic-components", "descrizione": "EEPROM
-    seriale Microwire 93C86, 16Kbit, 5V, 20 pezzi; package SMD (da posizione SMD Box).",
-    "interfaccia": "Microwire", "quantita": 20, "posizione": "SMD Box", "datasheet_url":
-    "https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386", "note":
-    "5V; EEPROM 16Kbit, interfaccia seriale Microwire/3-wire."}'
+  foto_url: ''
+  ai_proposta: '{"codice": "93C86", "categoria": "ic-components", "descrizione": "Circuito
+    integrato EEPROM 16Kbit con interfaccia Microwire, 5V, package SMD (non specificato),
+    quantità 20. Marcatura/identificativo: 93C86.", "interfaccia": "Microwire", "quantita":
+    20, "posizione": "SMD Box", "datasheet_url": "https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386",
+    "note": "5V"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-a09t-132
@@ -230,12 +231,12 @@
   datasheet_last_check: '2026-10-04'
   posizione: Blu IC Box
   foto_drive_id: ''
-  foto_url: https://res.utmel.com/Images/Banner/c1ac6b3f-2bb8-49bd-97f4-725776460b52.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "AT24C256", "categoria": "ic-components", "descrizione":
-    "EEPROM seriale I2C 256Kbit (32K x 8), package DIP-8 (presunto), quantità 8, sigla
-    AT24C256", "interfaccia": "I2C", "quantita": 8, "posizione": "Blu IC Box", "datasheet_url":
-    "http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf",
-    "note": "1.8V - 5.5V; corretta da EPROM 256bit a EEPROM I2C 256Kbit"}'
+    "EEPROM I2C 256 Kbit (32 KByte), package DIP-8; quantità 8; parte AT24C256", "interfaccia":
+    "I2C", "quantita": 8, "posizione": "Blu IC Box", "datasheet_url": "http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf",
+    "note": "1.8V - 5.5V; DIP è il package, non l''interfaccia. Correzione: non è
+    EPROM 256 bit ma EEPROM 256 Kbit."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-at24c512-138
@@ -346,19 +347,20 @@
   interfaccia: analogica/digitale di selezione
   note: Riclassificato senza foto dai campi riga inventario. CD405x indica una famiglia
     compatibile CD4051/CD4052/CD4053; datasheet fornito per CD4051B. Package e suffisso
-    non specificati.
+    non specificati. Codice famiglia mantenuto come da inventario.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4051b.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: https://www.circuitspecialists.com/content/876445/circ-4k.webp
+  foto_url: ''
   ai_proposta: '{"codice": "CD405x", "categoria": "ic-components", "descrizione":
-    "Circuito integrato CMOS analog multiplexer/demultiplexer serie CD405x (riferimento
-    datasheet CD4051B); package non specificato; quantita 8.", "interfaccia": "analogica/digitale
-    di selezione", "quantita": 8, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd4051b.pdf",
+    "Circuito integrato analogico multiplexer/demultiplexer della famiglia CD405x
+    (compatibile CD4051/CD4052/CD4053), package non specificato, scritte leggibili
+    non disponibili; quantità indicata 8.", "interfaccia": "analogica/digitale di
+    selezione", "quantita": 8, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd4051b.pdf",
     "note": "Riclassificato senza foto dai campi riga inventario. CD405x indica una
     famiglia compatibile CD4051/CD4052/CD4053; datasheet fornito per CD4051B. Package
-    e suffisso non specificati."}'
+    e suffisso non specificati. Codice famiglia mantenuto come da inventario."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-cd4066b-144
@@ -412,11 +414,11 @@
   datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: https://learn.microsoft.com/en-us/media/open-graph-image.png
+  foto_url: ''
   ai_proposta: '{"codice": "CP2101", "categoria": "ic-components", "descrizione":
-    "Circuito integrato USB-to-UART bridge, package SMD, quantità 5", "interfaccia":
-    "USB/UART", "quantita": 5, "posizione": "SMD Box", "datasheet_url": "https://www.silabs.com/documents/public/data-sheets/CP2101.pdf",
-    "note": "Nessuna foto disponibile; riclassificato da campi inventario."}'
+    "CP2101 USB-to-UART bridge IC, package SMD, 5 pezzi", "interfaccia": "USB / UART",
+    "quantita": 5, "posizione": "SMD Box", "datasheet_url": "https://www.silabs.com/documents/public/data-sheets/CP2101.pdf",
+    "note": "Mixed Values"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ds1307-147
@@ -577,24 +579,6 @@
     "SOIC-16/PDIP-16", "quantita": 3, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134",
     "note": "Codice originale ''i7824HS'' probabilmente errato: il datasheet indica
     UC3824. Interfaccia originale TSOP-14 non compatibile con UC3824 (SOIC-16/PDIP-16)."}'
-  ai_stato: da_verificare
-  updated_at: ''
-- id: ic-components-irl540n-155
-  categoria: ic-components
-  codice: IRL540N
-  quantita: 10
-  descrizione: Power MOSFET
-  interfaccia: DIP
-  note: Vd 100 Id 20
-  datasheet_url: https://www.vishay.com/docs/91300/irl540.pdf
-  datasheet_last_check: '2026-10-05'
-  posizione: Mosfet Box
-  foto_drive_id: ''
-  foto_url: https://res.utmel.com/Images/Banner/c1ac6b3f-2bb8-49bd-97f4-725776460b52.jpg
-  ai_proposta: '{"codice": "IRL540N", "categoria": "componenti", "descrizione": "MOSFET
-    canale N logic-level, package TO-220, quantita 10, sigla IRL540N", "interfaccia":
-    "TO-220", "quantita": 10, "posizione": "Mosfet Box", "datasheet_url": "https://www.vishay.com/docs/91300/irl540.pdf",
-    "note": "Vds=100V, Id=36A, Rds(on)=44mΩ, N-channel logic-level"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-irlz44n-156
@@ -760,21 +744,25 @@
   quantita: 20
   descrizione: Switch Power IC
   interfaccia: SMD
-  note: Il datasheet_url fornito è per OB2223HC, non per OB2224NCP; verificare corrispondenza.
-    Package ipotizzato DIP-8/THT; se effettivamente SMD potrebbe trattarsi di variante
-    SOP-8 (es. CPA).
+  note: 'Il datasheet_url originale era per OB2223HC, non per OB2224NCP: sostituire
+    con datasheet corretto. Codice NCP suggerisce package DIP-8/THT; inventario indica
+    SMD Box/interfaccia SMD, possibile variante SOP-8 (es. CPA). Verificare package
+    e datasheet.'
   datasheet_url: https://fr.scribd.com/document/651991833/ob2223hc
   datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: https://www.ic-components.com/upfile/images/20/20250905154209174.png
+  foto_url: ''
   ai_proposta: '{"codice": "OB2224NCP", "categoria": "ic-components", "descrizione":
-    "IC per alimentatori switching (SMPS) On-Bright OB2224NCP, package DIP-8, 20 pezzi.
-    Descrizione originale: Switch Power IC.", "interfaccia": "DIP-8", "quantita":
-    20, "posizione": "SMD Box", "datasheet_url": "https://fr.scribd.com/document/651991833/ob2223hc",
-    "note": "Il datasheet_url fornito è per OB2223HC, non per OB2224NCP; verificare
-    corrispondenza. Package ipotizzato DIP-8/THT; se effettivamente SMD potrebbe trattarsi
-    di variante SOP-8 (es. CPA)."}'
+    "IC di potenza switching/PWM power switch On-Bright, 20 pezzi, package ipotizzato
+    DIP-8/THT dalla sigla NCP; scritta leggibile: OB2224NCP. Inventario indica interfaccia
+    SMD e posizione SMD Box, incongruente: possibile variante SOP-8 (es. OB2224CPA)
+    oppure errore di collocazione.", "interfaccia": "THT/DIP-8 (da verificare; inventario
+    indica SMD)", "quantita": 20, "posizione": "SMD Box (da verificare; se DIP-8/THT
+    dovrebbe essere in THT Box)", "datasheet_url": "", "note": "Il datasheet_url originale
+    era per OB2223HC, non per OB2224NCP: sostituire con datasheet corretto. Codice
+    NCP suggerisce package DIP-8/THT; inventario indica SMD Box/interfaccia SMD, possibile
+    variante SOP-8 (es. CPA). Verificare package e datasheet."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-pcf8574-167
@@ -917,44 +905,25 @@
     Package DIP, quantità indicata 2."}'
   ai_stato: da_verificare
   updated_at: ''
-- id: ic-components-ssxx-174
-  categoria: ic-components
-  codice: SSxx
-  quantita: 30
-  descrizione: Scotty Diodo
-  interfaccia: SMD
-  note: Riclassificato da 'Scotty Diodo' a 'Diodo Schottky SS32'. Categoria corretta
-    da ic-components a componenti. Codice corretto da SSxx a SS32.
-  datasheet_url: https://www.vishay.com/docs/88751/ss32.pdf
-  datasheet_last_check: '2026-10-05'
-  posizione: SMD Box
-  foto_drive_id: ''
-  foto_url: https://cdn.bodanius.com/resources/static/4/crop/-/Webwinkelkeur-logo.png
-  ai_proposta: '{"codice": "SS32", "categoria": "componenti", "descrizione": "Diodo
-    Schottky SS32, package SMD, quantità 30, marcatura SS32", "interfaccia": "SMD",
-    "quantita": 30, "posizione": "SMD Box", "datasheet_url": "https://www.vishay.com/docs/88751/ss32.pdf",
-    "note": "Riclassificato da ''Scotty Diodo'' a ''Diodo Schottky SS32''. Categoria
-    corretta da ic-components a componenti. Codice corretto da SSxx a SS32."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: ic-components-tda2030-175
   categoria: ic-components
   codice: TDA2030
   quantita: 5
   descrizione: Audoo Amp
   interfaccia: analogico
-  note: Descrizione originale 'Audoo Amp' corretta in Audio Amplifier IC; categoria
-    confermata ic-components.
+  note: 'Riclassificato dalla riga inventario: descrizione originale ''Audoo Amp''
+    interpretata come Audio Amplifier IC; categoria confermata ic-components.'
   datasheet_url: https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf
   datasheet_last_check: '2026-10-05'
   posizione: IC Box
   foto_drive_id: ''
-  foto_url: https://content.instructables.com/FOH/WSI6/KS0CY0A6/FOHWSI6KS0CY0A6.jpg?auto=webp&amp;frame=1&amp;width=2100
+  foto_url: ''
   ai_proposta: '{"codice": "TDA2030", "categoria": "ic-components", "descrizione":
-    "TDA2030, IC amplificatore audio in package TO-220 a 5 pin; quantità 5; scritta
-    leggibile TDA2030", "interfaccia": "", "quantita": 5, "posizione": "IC Box", "datasheet_url":
-    "https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf", "note": "Descrizione
-    originale ''Audoo Amp'' corretta in Audio Amplifier IC; categoria confermata ic-components."}'
+    "Integrato amplificatore audio TDA2030, package Pentawatt/TO-220-5, quantità 5.",
+    "interfaccia": "analogico", "quantita": 5, "posizione": "IC Box", "datasheet_url":
+    "https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf", "note": "Riclassificato
+    dalla riga inventario: descrizione originale ''Audoo Amp'' interpretata come Audio
+    Amplifier IC; categoria confermata ic-components."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-tl0754cn-176
@@ -1092,13 +1061,15 @@
   datasheet_last_check: '2026-10-06'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: https://avatars.githubusercontent.com/u/1038959?s=60&amp;v=4
+  foto_url: ''
   ai_proposta: '{"codice": "YX8018", "categoria": "ic-components", "descrizione":
-    "Circuito integrato driver per LED solare, package 4 pin (TO-94), marcatura YX8018,
-    quantità 10", "interfaccia": "4Pin", "quantita": 10, "posizione": "IC Barrel",
-    "datasheet_url": "https://datasheet4u.com/datasheets/Shiningic/YX8018/710956",
-    "note": "https://www.datasheetcafe.com/xy8018-datasheet-solar-led-driver/ - probabile
-    refuso: XY8018 vs YX8018"}'
+    "Circuito integrato driver per LED a energia solare (LED driver solare), package
+    TO-94 a 4 pin, marcatura leggibile YX8018 (nella riga inventario riportata erroneamente
+    come XY8018), quantità 10 pezzi. Componente attivo a semiconduttore con funzione
+    di boost/regolazione per LED da cella solare.", "interfaccia": "4Pin (TO-94)",
+    "quantita": 10, "posizione": "IC Barrel", "datasheet_url": "https://datasheet4u.com/datasheets/Shiningic/YX8018/710956",
+    "note": "Codice corretto da XY8018 a YX8018 (il datasheet fa riferimento a Shiningic
+    YX8018 solar LED driver). Riferimento aggiuntivo: https://www.datasheetcafe.com/xy8018-datasheet-solar-led-driver/"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: na-na

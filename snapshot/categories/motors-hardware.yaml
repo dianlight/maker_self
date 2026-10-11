@@ -141,20 +141,21 @@
   descrizione: Linear 10mm
   interfaccia: 2 fili DC
   note: 'Riclassificato da riga inventario: categoria motors-hardware confermata;
-    codice normalizzato da JF.0530B a JF-0530B; descrizione originale ''Linear 10mm''.'
+    codice normalizzato da JF.0530B a JF-0530B; descrizione ampliata come attuatore
+    lineare DC 10 mm, 2 fili. Nessuna foto disponibile per verificare package e scritte.'
   datasheet_url: https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "JF-0530B", "categoria": "motors-hardware", "descrizione":
-    "Attuatore lineare (linear actuator) JF-0530B con corsa 10 mm; quantità inventario
-    1; package non specificato; nessuna foto disponibile, descrizione ricavata dai
-    campi riga.", "interfaccia": "2 fili DC", "quantita": 1, "posizione": "Servo Box",
-    "datasheet_url": "https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf",
+    "Attuatore lineare DC / mini attuatore lineare, corsa 10 mm, connessione 2 fili
+    DC; package non specificato; quantità 1; sigla/codice JF-0530B.", "interfaccia":
+    "2 fili DC", "quantita": 1, "posizione": "Servo Box", "datasheet_url": "https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf",
     "note": "Riclassificato da riga inventario: categoria motors-hardware confermata;
-    codice normalizzato da JF.0530B a JF-0530B; descrizione originale ''Linear 10mm''."}'
-  ai_stato: retry
+    codice normalizzato da JF.0530B a JF-0530B; descrizione ampliata come attuatore
+    lineare DC 10 mm, 2 fili. Nessuna foto disponibile per verificare package e scritte."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-jyd8131-118
   categoria: motors-hardware
@@ -198,18 +199,22 @@
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "Mini Passo Passo 3V 4-Fili 2-Fasi 8mm", "categoria": "motors-hardware",
-    "descrizione": "Mini motore passo-passo (stepper) 2 fasi, 4 fili, 3 VDC; diametro
-    8 mm, altezza 9,2 mm, albero di uscita 0,8 mm, lunghezza albero 4 mm, pignone
-    12 denti 0,2 mod; utilizzo per fotocamera digitale o piccoli elettrodomestici.
-    Quantità da inventario: 10 pezzi. Package: mini stepper. Scritte leggibili non
-    specificate.", "interfaccia": "4 pin / 4 fili", "quantita": 10, "posizione": "Servo
-    Box", "datasheet_url": "https://www.scribd.com/document/353094200/Steper-Manual",
-    "note": "4 Wire 2 Fase Mini motore passo-passo per la Macchina Fotografica Digitale
-    o piccoli elettrodomestici. Diametro del motore: 8mm; Altezza: 9.2 millimetri;
-    Albero di Uscita: 0.8 millimetri; lunghezza albero di uscita: 4mm; 12 denti 0.2mod;
-    Tensione: 3VDC; Modalità di guida: 2 fase 4 fili."}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "MINI-STEPPER-8MM-3V", "categoria": "motors-hardware",
+    "descrizione": "Mini motore passo-passo (stepper) bipolare/2 fasi a 4 fili, alimentazione
+    3 VDC. Dimensioni: diametro corpo 8 mm, altezza 9,2 mm; albero di uscita diametro
+    0,8 mm, lunghezza 4 mm, con pignone integrato a 12 denti, modulo 0,2. Quantita''
+    visibile in inventario: 10 pezzi. Package: componente discreto con corpo cilindrico
+    e 4 terminali/fili, nessun package SMD; tipico impiego in fotocamere digitali
+    e piccoli elettrodomestici. Marcature leggibili: nessuna sigla di part number
+    riportata, solo specifiche tecniche (3V, 2 fasi, 4 fili).", "interfaccia": "4pin
+    (4 fili, 2 fasi)", "quantita": 10, "posizione": "Servo Box", "datasheet_url":
+    "https://www.scribd.com/document/353094200/Steper-Manual", "note": "Motore passo-passo
+    mini 4 wire 2 fase, 3 VDC, diametro 8 mm, altezza 9,2 mm, albero 0,8 mm x 4 mm,
+    pignone 12 denti mod 0.2. Codice ''Mini Passo Passo'' era descrittivo: riclassificato
+    con codice piu'' identificativo. Categoria confermata motors-hardware (attuatore/motore).
+    URL datasheet e'' un manuale generico su Scribd, non un datasheet ufficiale del
+    produttore: verificare/aggiornare."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-ministepper-120
   categoria: motors-hardware
@@ -231,36 +236,38 @@
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "Ministepper", "categoria": "motors-hardware", "descrizione":
-    "Mini motore passo-passo 2 fasi 4 fili, diametro 8mm, altezza 9.2mm, albero di
-    uscita 0.8mm, lunghezza albero 4mm, 12 denti 0.2mod, tensione 3VDC; quantità 10",
-    "interfaccia": "4 pin / 4 fili", "quantita": 10, "posizione": "Servo Box", "datasheet_url":
-    "https://images-eu.ssl-images-amazon.com/images/I/81v-YO2qbWS.pdf", "note": "4
-    Wire 2 Fase Mini motore passo-passo per Macchina Fotografica Digitale o piccoli
-    elettrodomestici. Modalità di guida: 2 fase 4 fili. Nessuna foto disponibile:
-    dati riclassificati dalla riga inventario."}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "MiniStepper", "categoria": "motors-hardware", "descrizione":
+    "Mini motore passo-passo 4 fili, 2 fasi, 3 VDC; dimensioni: diametro 8 mm, altezza
+    9.2 mm, albero 0.8 mm, lunghezza albero 4 mm; 12 denti 0.2 mod; quantità: 10.
+    Scritte non leggibili/non disponibili.", "interfaccia": "4 pin (4 fili)", "quantita":
+    10, "posizione": "Servo Box", "datasheet_url": "https://images-eu.ssl-images-amazon.com/images/I/81v-YO2qbWS.pdf",
+    "note": "4 Wire 2 Fase Mini motore passo-passo per Macchina Fotografica Digitale
+    o piccoli elettrodomestici. Diametro motore: 8mm; Altezza: 9.2mm; Albero di uscita:
+    0.8mm; lunghezza albero di uscita: 4mm; 12 denti 0.2mod; Tensione: 3VDC; Modalità
+    di guida: 2 fase 4 fili."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-motore-senza-fine-121
   categoria: motors-hardware
-  codice: Motore Senza Fine
+  codice: DC Motor 1.5V 10-150rpm
   quantita: 10
-  descrizione: DC 1v.5v Motor
+  descrizione: Motore DC, 2 pin, alimentazione 1.5V, velocità 10-150rpm, quantità
+    10. Package non specificato; nessuna foto disponibile, dati dedotti dalla riga
+    inventario.
   interfaccia: 2 pin
-  note: '10-150rpm
-
-    https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita'
+  note: '10-150rpm; link prodotto AliExpress: https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita'
   datasheet_url: https://www.scribd.com/doc/210101380/DC-Motors
   datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "DC Motor 1.5V 10-150rpm", "categoria": "motors-hardware",
-    "descrizione": "Motore DC 1.5V, 2 pin, velocità 10-150rpm. Quantità 10. Package
-    non specificato. Nessuna scritta leggibile disponibile.", "interfaccia": "2 pin",
-    "quantita": 10, "posizione": "Servo Box", "datasheet_url": "https://www.scribd.com/doc/210101380/DC-Motors",
-    "note": "10-150rpm; ex codice: Motore Senza Fine; link prodotto: https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita"}'
-  ai_stato: retry
+    "descrizione": "Motore DC, 2 pin, alimentazione 1.5V, velocità 10-150rpm, quantità
+    10. Package non specificato; nessuna foto disponibile, dati dedotti dalla riga
+    inventario.", "interfaccia": "2 pin", "quantita": 10, "posizione": "Servo Box",
+    "datasheet_url": "https://www.scribd.com/doc/210101380/DC-Motors", "note": "10-150rpm;
+    link prodotto AliExpress: https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-sg90-122
   categoria: motors-hardware
@@ -286,51 +293,54 @@
   categoria: motors-hardware
   codice: Water Pump
   quantita: 1
-  descrizione: 'Nessuna foto disponibile. Riga inventario: pompa d''acqua / Water
-    Pump, quantità 1, posizione A Box, datasheet SC_Pump_Sheet.pdf. Tipo componente:
-    pompa/motore-hw. Package e scritte non visibili perché non c''è foto.'
-  interfaccia: AC/elettrica
-  note: Riclassificato dalla riga inventario. Categoria confermata motors-hardware;
-    codice ipotizzato SC_Pump dal datasheet SC_Pump_Sheet.pdf, tipo Water Pump. Interfaccia
-    e package non deducibili senza foto.
+  descrizione: 'Pompa d''acqua / Water Pump. Quantità 1. Nessuna foto disponibile:
+    package e scritte non visibili. Tipo componente: pompa/motore-hw. Datasheet: SC_Pump_Sheet.pdf.'
+  interfaccia: elettrica
+  note: 'Riclassificato dalla riga inventario: pompa d''acqua / Water Pump, quantità
+    1, posizione A Box, datasheet SC_Pump_Sheet.pdf. Categoria motors-hardware confermata.
+    Codice ipotizzato SC_Pump dal datasheet. Interfaccia e package non deducibili
+    senza foto.'
   datasheet_url: https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "SC_Pump", "categoria": "motors-hardware", "descrizione":
-    "Nessuna foto disponibile. Riga inventario: pompa d''acqua / Water Pump, quantità
-    1, posizione A Box, datasheet SC_Pump_Sheet.pdf. Tipo componente: pompa/motore-hw.
-    Package e scritte non visibili perché non c''è foto.", "interfaccia": "", "quantita":
-    1, "posizione": "A Box", "datasheet_url": "https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf",
-    "note": "Riclassificato dalla riga inventario. Categoria confermata motors-hardware;
-    codice ipotizzato SC_Pump dal datasheet SC_Pump_Sheet.pdf, tipo Water Pump. Interfaccia
-    e package non deducibili senza foto."}'
-  ai_stato: retry
+    "Pompa d''acqua / Water Pump. Quantità 1. Nessuna foto disponibile: package e
+    scritte non visibili. Tipo componente: pompa/motore-hw. Datasheet: SC_Pump_Sheet.pdf.",
+    "interfaccia": "elettrica", "quantita": 1, "posizione": "A Box", "datasheet_url":
+    "https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf", "note": "Riclassificato
+    dalla riga inventario: pompa d''acqua / Water Pump, quantità 1, posizione A Box,
+    datasheet SC_Pump_Sheet.pdf. Categoria motors-hardware confermata. Codice ipotizzato
+    SC_Pump dal datasheet. Interfaccia e package non deducibili senza foto."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-perrier-124
   categoria: motors-hardware
   codice: Perrier
   quantita: 1
   descrizione: Perrier Cell + Fan x Liquidi
-  interfaccia: Non specificata; probabile alimentazione DC e connessione ventola/raccordi
-    liquido.
-  note: 'Riclassificazione basata solo sui campi della riga. Categoria originale motors-hardware
-    non pertinente: componente termoelettrico con ventola, non semplice hardware motore.
-    URL datasheet originale (Perrier) non valido come datasheet elettronico, rimosso.'
+  interfaccia: Alimentazione DC (probabile 12 V); connessioni per ventola e raccordi
+    liquido. Non specificata nella riga originale.
+  note: 'Riclassificato da motors-hardware a componenti: non è semplice hardware motore
+    ma cella termoelettrica Peltier con ventola/raffreddamento liquido. Codice originale
+    ''Perrier'' corretto in ''Peltier'' (probabile refuso). URL datasheet Perrier
+    non valido come datasheet elettronico, rimosso.'
   datasheet_url: https://www.perrier.com/products/detail/perrier
   datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: https://www.perrier.com/sites/g/files/xknfdk331/files/Perrier.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "Peltier Cell + Fan x Liquidi", "categoria": "componenti",
-    "descrizione": "Riga inventario: Perrier Cell + Fan x Liquidi. Interpretato come
-    cella di Peltier con ventola per liquidi. Quantità 1. Package non specificato.
-    Scritta originale ''Perrier'' probabile refuso per ''Peltier''.", "interfaccia":
-    "", "quantita": 1, "posizione": "A Box", "datasheet_url": "", "note": "Riclassificazione
-    basata solo sui campi della riga. Categoria originale motors-hardware non pertinente:
-    componente termoelettrico con ventola, non semplice hardware motore. URL datasheet
-    originale (Perrier) non valido come datasheet elettronico, rimosso."}'
+    "descrizione": "Componente termoelettrico tipo cella di Peltier con ventola e
+    raffreddamento a liquido. Quantità visibile: 1. Package non visibile. Scritte
+    leggibili: ''Perrier Cell + Fan x Liquidi'' (probabile refuso per Peltier).",
+    "interfaccia": "Alimentazione DC (probabile 12 V); connessioni per ventola e raccordi
+    liquido. Non specificata nella riga originale.", "quantita": 1, "posizione": "A
+    Box", "datasheet_url": "", "note": "Riclassificato da motors-hardware a componenti:
+    non è semplice hardware motore ma cella termoelettrica Peltier con ventola/raffreddamento
+    liquido. Codice originale ''Perrier'' corretto in ''Peltier'' (probabile refuso).
+    URL datasheet Perrier non valido come datasheet elettronico, rimosso."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-speaker-125
@@ -345,11 +355,11 @@
   datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: https://sharperimage.com/cdn/shop/collections/207072-z1.jpg?crop=center&height=1200&v=1780595910&width=1200
+  foto_url: ''
   ai_proposta: '{"codice": "Speaker", "categoria": "componenti", "descrizione": "Minispeaker/altoparlante
-    8 Ohm 1 W, quantita 2, package non specificato, nessuna scritta leggibile (nessuna
-    foto disponibile)", "interfaccia": "8Ohm 1W", "quantita": 2, "posizione": "A Box",
-    "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_101656_speaker_05w_8ohm-3532535.pdf",
+    da 8 Ohm 1 W, quantita visibile 2, package non specificato; nessuna foto disponibile.",
+    "interfaccia": "8Ohm 1W", "quantita": 2, "posizione": "A Box", "datasheet_url":
+    "https://www.mouser.com/datasheet/2/1398/Soldered_101656_speaker_05w_8ohm-3532535.pdf",
     "note": "Riclassificato da motors-hardware a componenti: si tratta di un altoparlante/minispeaker,
     non di hardware motore."}'
   ai_stato: da_verificare

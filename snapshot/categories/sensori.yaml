@@ -10,13 +10,14 @@
   datasheet_last_check: '2026-10-10'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: https://www.krain.com/content/files/images/landingpages/rain%20sensor/product_main_rain%20sensors-min.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "333044", "categoria": "sensori", "descrizione": "Sensore
-    di pioggia (Rain Sensors), modulo sensore, quantità 8, package non visibile, marca
-    Soldered, codice 333044", "interfaccia": "analogico/digitale", "quantita": 8,
-    "posizione": "B Box", "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf",
+    di pioggia (Rain Sensor) - modulo/breakout, 8 pezzi nella riga inventario; package
+    e scritte non visibili perché nessuna foto disponibile; codice 333044.", "interfaccia":
+    "analogico/digitale", "quantita": 8, "posizione": "B Box", "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf",
     "note": "Riclassificato dalla riga inventario; categoria confermata sensori; codice
-    ipotizzato dal datasheet Soldered 333044."}'
+    333044; interfaccia ipotizzata analogico/digitale; quantità 8; posizione B Box.
+    Nessuna foto disponibile."}'
   ai_stato: confermato
   updated_at: ''
 - id: sensori-na-03
@@ -41,7 +42,7 @@
     "note": "Interfaccia corretta da I2C ad analogica. Codice ipotizzato SEN0193 /
     DFRobot SEN0193. Nessuna foto disponibile: riclassificazione basata sulla riga
     inventario e sul datasheet."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-na-04
   categoria: sensori
@@ -50,19 +51,22 @@
   descrizione: Soil Sensore
   interfaccia: analogico
   note: 'Riclassificato dalla riga inventario: categoria ''sensori'' confermata; codice
-    ricavato dal datasheet DFRobot SEN0193. Quantità 2 come da riga.'
+    SEN0193 ricavato dal datasheet DFRobot; interfaccia analogica; quantità 2 come
+    da riga.'
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://res.cloudinary.com/campbellsci/image/upload/f_auto,c_limit,w_600,h_600/11468.png
-  ai_proposta: '{"codice": "SEN0193", "categoria": "sensori", "descrizione": "Sensore
-    di umidità del suolo capacitivo DFRobot SEN0193, modulo PCB con connettore a 3
-    pin; quantità indicata: 2; nessuna foto disponibile, scritte non leggibili.",
-    "interfaccia": "analogico", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
-    "https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf",
+  foto_url: ''
+  ai_proposta: '{"codice": "SEN0193", "categoria": "sensori", "descrizione": "Nessuna
+    foto disponibile. Tipo componente: sensore di umidità del suolo capacitivo DFRobot
+    SEN0193, modulo PCB con connettore Gravity a 3 pin. Quantità da inventario: 2.
+    Package: modulo PCB. Scritte leggibili: non disponibili senza foto; codice SEN0193
+    ricavato dal datasheet DFRobot.", "interfaccia": "analogico", "quantita": 2, "posizione":
+    "Sensor Box", "datasheet_url": "https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf",
     "note": "Riclassificato dalla riga inventario: categoria ''sensori'' confermata;
-    codice ricavato dal datasheet DFRobot SEN0193. Quantità 2 come da riga."}'
+    codice SEN0193 ricavato dal datasheet DFRobot; interfaccia analogica; quantità
+    2 come da riga."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-05
@@ -77,11 +81,11 @@
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://www.glerl.noaa.gov/images/glerlLogoInvertNoDefSmall.png
-  ai_proposta: '{"codice": "RAK7205", "categoria": "sensori", "descrizione": "Nodo/sensore
-    RAKwireless WisNode Water Level Monitoring per livello acqua, quantità 1, posizione
-    Sensor Box; nessuna foto disponibile, dati ricavati dalla riga inventario.", "interfaccia":
-    "LoRaWAN", "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/",
+  foto_url: ''
+  ai_proposta: '{"codice": "RAK7205", "categoria": "sensori", "descrizione": "Sensore
+    di livello dell''acqua LoRaWAN RAK7205 (Water Level), 1 unità, package non visibile,
+    scritta leggibile: Water Level.", "interfaccia": "LoRaWAN", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/",
     "note": "Riclassificato da riga inventario: categoria sensori, codice ipotizzato
     RAK7205. Verificare modello esatto."}'
   ai_stato: da_verificare
@@ -92,20 +96,22 @@
   quantita: 1
   descrizione: Color Sensor
   interfaccia: I2C
-  note: Riclassificato da descrizione e URL datasheet; codice ipotizzato come TCS34725.
-    Nessuna foto disponibile.
+  note: 'Riclassificato leggendo la riga inventario: categoria sensori confermata;
+    codice TCS34725 coerente con descrizione Color Sensor e datasheet AMS/OSRAM. Quantita
+    impostata a 1.'
   datasheet_url: https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/images/thumbnail/mega-menu/k_thumb_photodiode.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "TCS34725", "categoria": "sensori", "descrizione": "Sensore
-    di colore RGB/clear e luce ambientale basato su TCS34725. Nessuna foto disponibile;
-    riga inventario: Color Sensor. Package tipico FN a 6 pin, spesso su modulo breakout.
-    Interfaccia I2C. Quantita inventario: 1.", "interfaccia": "I2C", "quantita": 1,
-    "posizione": "Sensor Box", "datasheet_url": "https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor",
-    "note": "Riclassificato da descrizione e URL datasheet; codice ipotizzato come
-    TCS34725. Nessuna foto disponibile."}'
+    di colore/light-to-digital TCS34725 (RGB + clear), interfaccia I2C. Nessuna foto
+    disponibile: package e scritte non verificabili; quantita 1 da riga inventario.",
+    "interfaccia": "I2C", "quantita": 1, "posizione": "Sensor Box", "datasheet_url":
+    "https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor",
+    "note": "Riclassificato leggendo la riga inventario: categoria sensori confermata;
+    codice TCS34725 coerente con descrizione Color Sensor e datasheet AMS/OSRAM. Quantita
+    impostata a 1."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-07
@@ -136,18 +142,20 @@
   descrizione: Magnetic Spring
   interfaccia: meccanica
   note: 'Riclassificato da sensori a motors-hardware: non è un sensore ma un componente
-    hardware/molla magnetica LinMot.'
+    hardware/molla magnetica LinMot. Codice non specificato in inventario; ipotizzato
+    MagSpring.'
   datasheet_url: https://linmot.com/en/produkte/magspring/
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://www.fenetex.com/media/bxipk1vh/spring-demo.png
-  ai_proposta: '{"codice": "LINMOT-MAGSPRING", "categoria": "motors-hardware", "descrizione":
-    "Componente LinMot MagSpring (molla magnetica), quantità 1, package non specificato,
-    scritta leggibile: Magnetic Spring", "interfaccia": "meccanica", "quantita": 1,
-    "posizione": "Sensor Box", "datasheet_url": "https://linmot.com/en/produkte/magspring/",
-    "note": "Riclassificato da sensori a motors-hardware: non è un sensore ma un componente
-    hardware/molla magnetica LinMot."}'
+  foto_url: ''
+  ai_proposta: '{"codice": "MAGSPRING", "categoria": "motors-hardware", "descrizione":
+    "Molla magnetica LinMot (Magnetic Spring), componente hardware/meccanico per attuatori
+    lineari; quantità 1; package non specificato; scritte leggibili: ''Magnetic Spring''.",
+    "interfaccia": "meccanica", "quantita": 1, "posizione": "Sensor Box", "datasheet_url":
+    "https://linmot.com/en/produkte/magspring/", "note": "Riclassificato da sensori
+    a motors-hardware: non è un sensore ma un componente hardware/molla magnetica
+    LinMot. Codice ipotizzato MAGSPRING dal nome prodotto/URL."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-09
@@ -360,19 +368,20 @@
   quantita: 1
   descrizione: Angolo Rotazione/RPM
   interfaccia: I2C
-  note: Modulo Grove basato su AS5600, output angolo/RPM via I2C. Categoria confermata
-    sensori.
+  note: Modulo Grove Seeed Studio basato su AS5600, sensore magnetico rotativo a 12
+    bit, output angolo/RPM via I2C. Categoria confermata sensori.
   datasheet_url: https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
-  foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: '{"codice": "AS5600", "categoria": "sensori", "descrizione": "Sensore
-    magnetico rotativo AS5600, 12-bit, misura angolo/RPM, modulo Grove, q.tà 1, package
-    non visibile (nessuna foto)", "interfaccia": "I2C", "quantita": 1, "posizione":
-    "Sensor Barrel", "datasheet_url": "https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf",
-    "note": "Modulo Grove basato su AS5600, output angolo/RPM via I2C. Categoria confermata
-    sensori."}'
+  foto_url: ''
+  ai_proposta: '{"codice": "AS5600", "categoria": "sensori", "descrizione": "Tipo
+    componente: modulo sensore magnetico rotativo. Quantità visibile: 1 modulo. Package:
+    modulo Grove. Scritte leggibili: AS5600. Funzione: misura angolo di rotazione/RPM
+    via I2C.", "interfaccia": "I2C", "quantita": 1, "posizione": "Sensor Barrel",
+    "datasheet_url": "https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf",
+    "note": "Modulo Grove Seeed Studio basato su AS5600, sensore magnetico rotativo
+    a 12 bit, output angolo/RPM via I2C. Categoria confermata sensori."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-big-sound-20
@@ -388,10 +397,10 @@
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://shure.widen.net/content/tcasbybhcw/webp/web_hero_imx_room_kits_zoom.webp?position=c&amp;color=ffffffff&amp;quality=82&amp;u=s1b3kh
+  foto_url: ''
   ai_proposta: '{"codice": "Big Sound", "categoria": "sensori", "descrizione": "Microfono
-    / modulo sensore audio, quantità 1, package non specificato, scritte leggibili:
-    ''Microphone'' e ''Big Sound''.", "interfaccia": "analogico", "quantita": 1, "posizione":
+    (Microphone), quantità 1, package non specificato, scritte leggibili: nessuna
+    (nessuna foto disponibile).", "interfaccia": "analogico", "quantita": 1, "posizione":
     "Sensor Box", "datasheet_url": "https://www.farnell.com/datasheets/1920625.pdf",
     "note": "Nessuna foto disponibile; riclassificazione basata solo sui campi della
     riga. Categoria ''sensori'' confermata per microfono. Codice ''Big Sound'' mantenuto
@@ -558,11 +567,10 @@
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://www.hogslat.com/images/thumbs/0012731_flame-sensor_600.jpeg
+  foto_url: ''
   ai_proposta: '{"codice": "FFS05", "categoria": "sensori", "descrizione": "Sensore
-    di fiamma (flame sensor) per rilevamento fiamma; riga inventario indica quantità
-    1, posizione Sensor Box; package non specificato; scritte leggibili: ''Flame Sensor'',
-    ''Sensor Box''; datasheet Lamtec FFS05/FFS05-EX.", "interfaccia": "", "quantita":
+    di fiamma, quantità 1, package non desumibile, scritta leggibile: ''Flame Sensor''.
+    Ricondotto a Lamtec FFS05; possibile variante FFS05-EX.", "interfaccia": "", "quantita":
     1, "posizione": "Sensor Box", "datasheet_url": "https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/",
     "note": "Categoria confermata sensori. Codice generico ''Flame Sensor'' ricondotto
     a FFS05 dal datasheet Lamtec; possibile variante FFS05-EX. Interfaccia e package
@@ -990,26 +998,22 @@
   categoria: sensori
   codice: P100
   quantita: 2
-  descrizione: 'Sensore di temperatura, probabile Pt100; dalla riga inventario: descrizione
-    ''Temperature sensor'', codice P100, quantità 2, package non specificato, interfaccia
-    analogica/resistiva. Nessuna foto disponibile.'
+  descrizione: Sensore di temperatura, probabile Pt100 (sonda resistiva). Quantità
+    2. Package non specificato; nessuna foto disponibile.
   interfaccia: analogica/resistiva
   note: 'Riclassificazione dalla riga inventario: categoria sensori confermata. Codice
-    P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile; dati basati
-    solo sui campi della riga.'
+    P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile.'
   datasheet_url: https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "P100", "categoria": "sensori", "descrizione": "Sensore
-    di temperatura, probabile Pt100; dalla riga inventario: descrizione ''Temperature
-    sensor'', codice P100, quantità 2, package non specificato, interfaccia analogica/resistiva.
-    Nessuna foto disponibile.", "interfaccia": "analogica/resistiva", "quantita":
+    di temperatura, probabile Pt100 (sonda resistiva). Quantità 2. Package non specificato;
+    nessuna foto disponibile.", "interfaccia": "analogica/resistiva", "quantita":
     2, "posizione": "Sensor Box", "datasheet_url": "https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf",
     "note": "Riclassificazione dalla riga inventario: categoria sensori confermata.
-    Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile;
-    dati basati solo sui campi della riga."}'
+    Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ph-4502c-49
@@ -1059,24 +1063,24 @@
   categoria: sensori
   codice: RP-C7.6-LT
   quantita: 1
-  descrizione: Force Sensitive Resistor (FSR), sensore di forza a film sottile, 1
-    pezzo visibile nei campi inventario; package piatto/flessibile, sigla RP-C7.6-LT,
-    range di forza 20g-1.5kg
-  interfaccia: analogico
-  note: 20g to 1.5kg; resistenza variabile con la forza applicata, richiede tipicamente
-    un partitore di tensione per lettura analogica
+  descrizione: 'Sensore di forza resistivo (FSR) DFRobot RP-C7.6-LT / SEN0298, package
+    a film sottile flessibile con area sensibile circolare da 7.6 mm e 2 terminali.
+    Quantità da inventario: 1. Marcatura non visibile senza foto; codice identificativo
+    RP-C7.6-LT.'
+  interfaccia: analogico resistivo
+  note: 20g to 1.5kg; FSR DFRobot SEN0298; resistenza variabile con forza applicata.
   datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf
   datasheet_last_check: '2026-10-01'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "RP-C7.6-LT", "categoria": "sensori", "descrizione": "Force
-    Sensitive Resistor (FSR), sensore di forza a film sottile, 1 pezzo visibile nei
-    campi inventario; package piatto/flessibile, sigla RP-C7.6-LT, range di forza
-    20g-1.5kg", "interfaccia": "analogico", "quantita": "1", "posizione": "V Resistor
-    Box", "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf",
-    "note": "20g to 1.5kg; resistenza variabile con la forza applicata, richiede tipicamente
-    un partitore di tensione per lettura analogica"}'
+  ai_proposta: '{"codice": "RP-C7.6-LT", "categoria": "sensori", "descrizione": "Sensore
+    di forza resistivo (FSR) DFRobot RP-C7.6-LT / SEN0298, package a film sottile
+    flessibile con area sensibile circolare da 7.6 mm e 2 terminali. Quantità da inventario:
+    1. Marcatura non visibile senza foto; codice identificativo RP-C7.6-LT.", "interfaccia":
+    "analogico resistivo", "quantita": 1, "posizione": "V Resistor Box", "datasheet_url":
+    "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf",
+    "note": "20g to 1.5kg; FSR DFRobot SEN0298; resistenza variabile con forza applicata."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-rp-s5-st-52
@@ -1100,12 +1104,13 @@
   updated_at: ''
 - id: sensori-shock-53
   categoria: sensori
-  codice: Shock
+  codice: VS2
   quantita: 1
-  descrizione: Shock Switch
-  interfaccia: SPDT (contatti elettrici)
-  note: 'Riclassificato dalla riga: categoria originale sensori confermata; codice
-    originale ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
+  descrizione: Interruttore di shock/vibrazione Murphy VS2, SPDT, 1 pezzo, package
+    non specificato, scritte non leggibili (nessuna foto).
+  interfaccia: SPDT
+  note: 'Riclassificato dalla riga: categoria sensori confermata; codice originale
+    ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
     di rilevamento vibrazioni/shock.'
   datasheet_url: https://www.swann-associates.com/pdf/murphy/VS2.pdf
   datasheet_last_check: '2026-10-02'
@@ -1113,35 +1118,39 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "VS2", "categoria": "sensori", "descrizione": "Interruttore
-    di shock/vibrazione (Shock Switch) Murphy VS2, quantità 1, package non desumibile
-    dalla riga, scritta leggibile: VS2", "interfaccia": "SPDT (contatti elettrici)",
-    "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://www.swann-associates.com/pdf/murphy/VS2.pdf",
-    "note": "Riclassificato dalla riga: categoria originale sensori confermata; codice
-    originale ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
+    di shock/vibrazione Murphy VS2, SPDT, 1 pezzo, package non specificato, scritte
+    non leggibili (nessuna foto).", "interfaccia": "SPDT", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://www.swann-associates.com/pdf/murphy/VS2.pdf",
+    "note": "Riclassificato dalla riga: categoria sensori confermata; codice originale
+    ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
     di rilevamento vibrazioni/shock."}'
-  ai_stato: retry
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-small-sound-54
   categoria: sensori
-  codice: Small Sound
+  codice: MIC-WIRELESS
   quantita: 2
-  descrizione: Microphone
+  descrizione: 'Microfono, quantità 2, interfaccia wireless. Probabile accessorio/componente
+    audio (ReSound Mini Microphone). Package non specificato. Scritte leggibili: ReSound
+    Mini Microphone dal datasheet.'
   interfaccia: wireless
-  note: Codice attuale 'Small Sound' non standard e riclassificato; verificare se
-    accessorio o componente. Categoria sensori per microfono.
+  note: Codice attuale 'Small Sound' non standard e riclassificato in 'MIC-WIRELESS'.
+    Categoria sensori per microfono. Verificare se accessorio o componente. Nessuna
+    foto disponibile; basato sulla riga inventario.
   datasheet_url: https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "MIC-RESOUND-MINI", "categoria": "sensori", "descrizione":
-    "Microfono remoto/accessorio ReSound Mini Microphone per apparecchi acustici;
-    quantità 2; package non visibile; nessuna scritta leggibile oltre al nome dal
-    datasheet.", "interfaccia": "wireless", "quantita": 2, "posizione": "Sensor Box",
-    "datasheet_url": "https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf",
-    "note": "Codice attuale ''Small Sound'' non standard e riclassificato; verificare
-    se accessorio o componente. Categoria sensori per microfono."}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "MIC-WIRELESS", "categoria": "sensori", "descrizione":
+    "Microfono, quantità 2, interfaccia wireless. Probabile accessorio/componente
+    audio (ReSound Mini Microphone). Package non specificato. Scritte leggibili: ReSound
+    Mini Microphone dal datasheet.", "interfaccia": "wireless", "quantita": 2, "posizione":
+    "Sensor Box", "datasheet_url": "https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf",
+    "note": "Codice attuale ''Small Sound'' non standard e riclassificato in ''MIC-WIRELESS''.
+    Categoria sensori per microfono. Verificare se accessorio o componente. Nessuna
+    foto disponibile; basato sulla riga inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-zmct103c-55
   categoria: sensori
@@ -1204,24 +1213,27 @@
   updated_at: ''
 - id: sensori-tds-ntc-58
   categoria: sensori
-  codice: TDS + NTC
+  codice: TDS+NTC
   quantita: 1
-  descrizione: Conducibilità + Temperatura
+  descrizione: Sonda/misuratore di conducibilità TDS con sensore di temperatura NTC
+    10K, interfaccia analogica; quantità 1; package non specificato; nessuna foto
+    disponibile, scritte leggibili non indicate.
   interfaccia: analogica
-  note: Sonda manca controller TDS. NTC da 10K
+  note: Sonda manca controller TDS. NTC da 10K. Datasheet attuale riferito ai termistori
+    NTC; datasheet TDS non disponibile nella riga.
   datasheet_url: https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf
   datasheet_last_check: '2026-10-02'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "TDS+NTC-10K", "categoria": "sensori", "descrizione": "Sonda
-    combinata TDS + NTC 10K per misura di conducibilità e temperatura; quantità 1;
-    package tipo sonda/elettrodo; scritte non leggibili perché nessuna foto disponibile.",
-    "interfaccia": "analogica", "quantita": 1, "posizione": "A Box", "datasheet_url":
-    "https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf",
-    "note": "Sonda manca controller TDS. NTC da 10K. Datasheet fornito riferito a
-    termistori TCS, non specifico per la parte TDS."}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "TDS+NTC", "categoria": "sensori", "descrizione": "Sonda/misuratore
+    di conducibilità TDS con sensore di temperatura NTC 10K, interfaccia analogica;
+    quantità 1; package non specificato; nessuna foto disponibile, scritte leggibili
+    non indicate.", "interfaccia": "analogica", "quantita": 1, "posizione": "A Box",
+    "datasheet_url": "https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf",
+    "note": "Sonda manca controller TDS. NTC da 10K. Datasheet attuale riferito ai
+    termistori NTC; datasheet TDS non disponibile nella riga."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-temt6000-59
   categoria: sensori
@@ -1347,24 +1359,26 @@
   updated_at: ''
 - id: sensori-wcmcu-65
   categoria: sensori
-  codice: WCMCU
+  codice: FC-03/LM393
   quantita: 2
-  descrizione: IR SPEED SENSOR
+  descrizione: Sensore di velocità IR a forcella (photointerrupter) con comparatore
+    LM393, modulo PCB, 2 unità in inventario, etichetta WCMCU, compatibile FC-03.
   interfaccia: Digitale (DO)
-  note: Codice inventario WCMCU; possibile modulo compatibile FC-03/LM393. Sensore
-    a forca ottica per rilevamento velocità/rotazione.
+  note: Codice inventario WCMCU; modulo compatibile FC-03/LM393; sensore a forcella
+    ottica per rilevamento velocità/rotazione; possibile uscita analogica AO.
   datasheet_url: https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "WCMCU", "categoria": "sensori", "descrizione": "Modulo
-    sensore di velocità a infrarossi (IR speed sensor), package modulo PCB, quantità
-    2, scritta WCMCU.", "interfaccia": "Digitale (DO)", "quantita": 2, "posizione":
-    "Sensor Box", "datasheet_url": "https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html",
+  ai_proposta: '{"codice": "FC-03", "categoria": "sensori", "descrizione": "Modulo
+    sensore di velocità IR a forcella ottica, basato su comparatore LM393, compatibile
+    FC-03. Quantità visibile: 2 (da inventario). Package: modulo PCB con connettore.
+    Interfaccia digitale DO. Scritte leggibili non disponibili (nessuna foto).", "interfaccia":
+    "Digitale (DO)", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html",
     "note": "Codice inventario WCMCU; possibile modulo compatibile FC-03/LM393. Sensore
     a forca ottica per rilevamento velocità/rotazione."}'
-  ai_stato: retry
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-xfw-hx711-66
   categoria: sensori

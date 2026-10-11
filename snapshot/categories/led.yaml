@@ -23,26 +23,29 @@
   categoria: led
   codice: Ir RX+TX
   quantita: 20
-  descrizione: Modulo ricevitore IR Vishay TSOP382, package a 3 pin, uscita digitale
-    demodulata per telecomandi; la riga riporta 'Ir RX+TX' e quantità 20, ma il datasheet
-    indicato è del solo ricevitore IR.
+  descrizione: 'Modulo ricevitore IR Vishay TSOP382, package a 3 pin, uscita digitale
+    demodulata per telecomandi. Quantità indicata: 20. La riga riporta ''Ir RX+TX'',
+    ma il datasheet è del solo ricevitore IR. Nessuna foto disponibile.'
   interfaccia: '3 pin: OUT, GND, VCC; uscita digitale demodulata a 38 kHz'
   note: 'Riclassificato da ''led'' a ''sensori'': TSOP382 è un ricevitore IR, non
-    un LED. Verificare se la voce include anche un trasmettitore IR TX e la frequenza
-    portante esatta.'
+    un LED. La riga riporta ''Ir RX+TX'' e quantità 20, ma il datasheet indicato è
+    del solo ricevitore; verificare se la voce include anche un trasmettitore IR TX
+    e la frequenza portante esatta (tipicamente 38 kHz).'
   datasheet_url: https://www.vishay.com/docs/82491/tsop382.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Led Box
   foto_drive_id: ''
-  foto_url: https://www.latticesemi.com/images/menu.png
-  ai_proposta: '{"codice": "TSOP38238", "categoria": "sensori", "descrizione": "Modulo
+  foto_url: ''
+  ai_proposta: '{"codice": "TSOP382", "categoria": "sensori", "descrizione": "Modulo
     ricevitore IR Vishay TSOP382, package a 3 pin, uscita digitale demodulata per
-    telecomandi; la riga riporta ''Ir RX+TX'' e quantità 20, ma il datasheet indicato
-    è del solo ricevitore IR.", "interfaccia": "3 pin: OUT, GND, VCC; uscita digitale
-    demodulata a 38 kHz", "quantita": 20, "posizione": "Led Box", "datasheet_url":
-    "https://www.vishay.com/docs/82491/tsop382.pdf", "note": "Riclassificato da ''led''
-    a ''sensori'': TSOP382 è un ricevitore IR, non un LED. Verificare se la voce include
-    anche un trasmettitore IR TX e la frequenza portante esatta."}'
+    telecomandi. Quantità indicata: 20. La riga riporta ''Ir RX+TX'', ma il datasheet
+    è del solo ricevitore IR. Nessuna foto disponibile.", "interfaccia": "3 pin: OUT,
+    GND, VCC; uscita digitale demodulata a 38 kHz", "quantita": 20, "posizione": "Led
+    Box", "datasheet_url": "https://www.vishay.com/docs/82491/tsop382.pdf", "note":
+    "Riclassificato da ''led'' a ''sensori'': TSOP382 è un ricevitore IR, non un LED.
+    La riga riporta ''Ir RX+TX'' e quantità 20, ma il datasheet indicato è del solo
+    ricevitore; verificare se la voce include anche un trasmettitore IR TX e la frequenza
+    portante esatta (tipicamente 38 kHz)."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: led-dual-ir-emitter-207

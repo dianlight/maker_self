@@ -210,47 +210,52 @@
   updated_at: ''
 - id: comunication-nfr24-83
   categoria: comunication
-  codice: nFR24
+  codice: nRF24L01
   quantita: 6
-  descrizione: 2.4Ghz tranceaver
+  descrizione: Modulo transceiver 2.4GHz nRF24L01, quantità 6, package modulo, interfaccia
+    SPI, antenna IPEX
   interfaccia: SPI
-  note: IpEX antenna
+  note: Antenna IPEX
   datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "nRF24L01", "categoria": "comunication", "descrizione":
-    "Modulo transceiver 2.4GHz nRF24L01, package modulo, interfaccia SPI, connettore
-    antenna IPEX; quantità 6", "interfaccia": "SPI", "quantita": 6, "posizione": "Io
-    Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
-    "note": "Antenna IPEX; codice originale riga: nFR24"}'
-  ai_stato: retry
+    "Modulo transceiver 2.4GHz nRF24L01, quantità 6, package modulo, interfaccia SPI,
+    antenna IPEX", "interfaccia": "SPI", "quantita": 6, "posizione": "Io Barrel",
+    "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
+    "note": "Antenna IPEX"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-nfr24-84
   categoria: comunication
-  codice: nFR24
+  codice: nRF24L01
   quantita: 4
-  descrizione: 2.4Ghz tranceaver
+  descrizione: Modulo transceiver 2.4GHz nRF24L01+ con antenna interna, package modulo
+    PCB, interfaccia SPI; quantità 4. Scritte leggibili non disponibili (nessuna foto).
   interfaccia: SPI
-  note: Internal Antenna
+  note: Antenna interna (Internal Antenna)
   datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "nRF24L01+", "categoria": "comunication", "descrizione":
-    "Modulo transceiver 2.4GHz nRF24L01+ con antenna interna, interfaccia SPI. Package:
-    modulo PCB. Scritte leggibili: nRF24L01+, 2.4GHz. Quantità: 4.", "interfaccia":
-    "SPI", "quantita": 4, "posizione": "Io Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
-    "note": "Antenna interna"}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "nRF24L01", "categoria": "comunication", "descrizione":
+    "Modulo transceiver 2.4GHz nRF24L01+ con antenna interna, package modulo PCB,
+    interfaccia SPI; quantità 4. Scritte leggibili non disponibili (nessuna foto).",
+    "interfaccia": "SPI", "quantita": 4, "posizione": "Io Barrel", "datasheet_url":
+    "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
+    "note": "Antenna interna (Internal Antenna)"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-nfr24-adapter-85
   categoria: comunication
-  codice: nFR24 Adapter
+  codice: nRF24 Adapter
   quantita: 2
-  descrizione: Adapter
+  descrizione: Nessuna foto disponibile. Dalla riga inventario risulta un adattatore
+    (Adapter) per modulo nRF24L01, quantità 2, package non specificato e scritte non
+    leggibili; interfaccia SPI.
   interfaccia: SPI
   note: 'Riclassificato dalla riga: categoria confermata come comunicazione; codice
     corretto da ''nFR24 Adapter'' a ''nRF24 Adapter''; datasheet riferito al modulo
@@ -261,12 +266,14 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "nRF24 Adapter", "categoria": "comunication", "descrizione":
-    "Adattatore per modulo nRF24L01, interfaccia SPI, quantità 2", "interfaccia":
-    "SPI", "quantita": 2, "posizione": "Io Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
-    "note": "Riclassificato dalla riga: categoria confermata come comunicazione; codice
-    corretto da ''nFR24 Adapter'' a ''nRF24 Adapter''; datasheet riferito al modulo
-    nRF24L01, non specifico per l''adattatore."}'
-  ai_stato: retry
+    "Adattatore per modulo nRF24L01, interfaccia SPI. Quantità: 2 pezzi. Package non
+    specificato. Nessuna foto disponibile: descrizione basata sui campi dell''inventario.",
+    "interfaccia": "SPI", "quantita": 2, "posizione": "Io Barrel", "datasheet_url":
+    "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
+    "note": "Riclassificato: categoria confermata ''comunication''. Codice corretto
+    in ''nRF24 Adapter''. Descrizione ampliata: adattatore per modulo nRF24L01, interfaccia
+    SPI. Datasheet del modulo nRF24L01, non specifico per adattatore."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-rf96-86
   categoria: comunication
@@ -532,26 +539,29 @@
   updated_at: ''
 - id: comunication-rbx6-98
   categoria: comunication
-  codice: RBX6
+  codice: RXB6
   quantita: 1
-  descrizione: 433Mhx
+  descrizione: Modulo ricevitore RF 433MHz RXB6, package modulo a 4 pin, uscita dati
+    digitale OOK/ASK
   interfaccia: '4 pin: ANT, GND, VCC, DATA; uscita dati digitale OOK/ASK a 433MHz'
   note: 'Riclassificato da campi inventario: categoria comunication confermata; codice
-    corretto da RBX6 a RXB6; descrizione ''433Mhx'' ampliata. Nessuna foto disponibile.'
+    corretto da RBX6 a RXB6; descrizione ampliata. Nessuna foto disponibile; dati
+    basati solo sulla riga inventario.'
   datasheet_url: https://www.scribd.com/document/493735409/RXB6EN
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "RXB6", "categoria": "comunication", "descrizione": "Modulo
-    ricevitore RF RXB6 a 433MHz (433.92MHz), 1 pezzo, package modulo 4 pin, marcatura
-    RXB6/433MHz (dedotto da codice e datasheet).", "interfaccia": "4 pin: ANT, GND,
-    VCC, DATA; uscita dati digitale OOK/ASK a 433MHz", "quantita": 1, "posizione":
-    "Io Barrel", "datasheet_url": "https://www.scribd.com/document/493735409/RXB6EN",
-    "note": "Riclassificato da campi inventario: categoria comunication confermata;
-    codice corretto da RBX6 a RXB6; descrizione ''433Mhx'' ampliata. Nessuna foto
-    disponibile."}'
-  ai_stato: retry
+    ricevitore RF 433MHz RXB6, 4 pin (ANT, GND, VCC, DATA), uscita dati digitale OOK/ASK.
+    Package: modulo; scritta/etichetta 433MHz. Quantità visibile: 1 (da inventario).
+    Nessuna foto disponibile.", "interfaccia": "4 pin: ANT, GND, VCC, DATA; uscita
+    dati digitale OOK/ASK a 433MHz", "quantita": 1, "posizione": "Io Barrel", "datasheet_url":
+    "https://www.scribd.com/document/493735409/RXB6EN", "note": "Riclassificato da
+    campi inventario: categoria comunication confermata; codice corretto da RBX6 a
+    RXB6; descrizione ''433Mhx'' ampliata. RXB6 è ricevitore RF supereterodina a 433.92MHz.
+    Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-ra-02-ai-thinker-lora-sx1278-433mhz
   categoria: comunication
