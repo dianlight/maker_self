@@ -50,6 +50,7 @@ Google Sheets (mobile)      ▲                        │
 | --- | --- |
 | `GOOGLE_SERVICE_ACCOUNT_JSON` | Service account key JSON |
 | `SHEET_ID` | Spreadsheet ID |
+| `FORM_ID` | Google Form ID (`Nuovo componente`, edit URL `.../d/<FORM_ID>/edit`) — for categoria/posizione dropdown sync |
 | `DRIVE_FOLDER_ID` | Photos folder ID |
 | `LLM_PROVIDER` | e.g. `openai`, `openai-compatible` |
 | `LLM_BASE_URL` | API base URL |
@@ -91,9 +92,9 @@ Copy the snippet from `docs/opencode_mcp.json` into your `opencode.json`:
 No venv or `pip install` needed — `uv run` reads the PEP 723 header in `mcp_server/server.py` and installs deps automatically.
 
 Read tools: `search_parts`, `get_part`, `stock_check` (snapshot locale).
-Write tools (Sheet online, poi refresh snapshot): `update_inventory` (Sheet → snapshot), `stock_use(id, qty)` (decrementa, clamp a 0), `set_part(id, ...)` (solo campi utente: categoria, codice, quantita, descrizione, interfaccia, note, datasheet_url, posizione).
+Write tools (Sheet online, poi refresh snapshot): `update_inventory` (Sheet → snapshot), `stock_use(id, qty)` (decrementa, clamp a 0), `set_part(id, ...)` (solo campi utente: categoria, codice, quantita, descrizione, interfaccia, note, datasheet_url, posizione), `stock_add_batch(items, dry_run)` (bulk add/increment, preview con dry_run).
 
-Write tools need the Sheet shared with the service account as **Editor**. Put your real `SHEET_ID` in the `environment` above.
+Write tools need the Sheet shared with the service account as **Editor**. Put your real `SHEET_ID` in the `environment` above. Bulk skill: `.opencode/skills/inventory-bulk/SKILL.md`. New box/position also updates the Form dropdown via `python scripts/update_form_choices.py --add-posizione "Diod Box"` (needs `FORM_ID`, Form shared as Editor).
 
 ## Mobile workflow
 

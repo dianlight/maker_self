@@ -24,6 +24,7 @@ jobs:
           SHEET_ID: ${{ secrets.SHEET_ID }}
           SHEET_TAB: inventario
           RESP_TAB: Risposte del modulo 1
+          FORM_ID: ${{ secrets.FORM_ID }}
         run: python scripts/promote_form_responses.py
       - name: Sync Sheet to snapshot
         env:

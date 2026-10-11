@@ -249,5 +249,152 @@ def set_part(id: str, categoria: Optional[str] = None, codice: Optional[str] = N
                        "snapshot": {"parts": parts, "categories": cats}})
 
 
+@mcp.tool()
+def stock_add_batch(items: str, dry_run: bool = False) -> str:
+    """Aggiunge molte parti in una volta sullo Sheet (bulk mode).
+
+    items: JSON array di oggetti {categoria, codice, quantita, descrizione?,
+      interfaccia?, note?, datasheet_url?, posizione?, foto_url?}.
+    Se (categoria, codice) esiste gia' (strip exact, codice != '?'),
+    incrementa quantita; altrimenti appende una nuova riga con id slug unico.
+    dry_run=true: solo preview, nessuna scrittura. Aggiorna snapshot alla fine.
+    """
+    import re as _re
+
+    if not SHEET_ID:
+        return json.dumps({"error": "SHEET_ID non configurato"})
+    try:
+        parsed = json.loads(items) if isinstance(items, str) else items
+    except Exception as e:
+        return json.dumps({"error": f"items non e' JSON valido: {e}"})
+    if not isinstance(parsed, list) or not parsed:
+        return json.dumps({"error": "items deve essere una lista non vuota"})
+    values = fetch_values()
+    if not values:
+        return json.dumps({"error": "Sheet vuoto o illeggibile"})
+    header = [h.strip() for h in values[0]]
+    idx = {h: i for i, h in enumerate(header)}
+    for col in ("categoria", "codice", "quantita"):
+        if col not in idx:
+            return json.dumps({"error": f"colonna {col} mancante nello Sheet"})
+    ts = datetime.now(timezone.utc).isoformat()
+
+    def _g(row, col):
+        return row[idx[col]].strip() if idx[col] < len(row) else ""
+
+    # indice esistenti per incremento
+    existing_row = {}
+    existing_ids = set()
+    for n, r in enumerate(values[1:], 2):
+        rid = _g(r, "id") if "id" in idx else ""
+        if rid:
+            existing_ids.add(rid)
+        cod, cat = _g(r, "codice"), _g(r, "categoria")
+        if cod and cod != "?" and (cat, cod) not in existing_row:
+            existing_row[(cat, cod)] = n
+
+    def _unique_id(base):
+        base = _re.sub(r"[^a-z0-9]+", "-", (base or "").lower()).strip("-") or "noid"
+        cand, k = base, 2
+        while cand in existing_ids:
+            cand = f"{base}-{k}"
+            k += 1
+        existing_ids.add(cand)
+        return cand
+
+    def _norm(it):
+        cat = str(it.get("categoria") or "").strip()
+        cod = str(it.get("codice") or "").strip()
+        try:
+            q = max(int(it.get("quantita") or 0), 0)
+        except (ValueError, TypeError):
+            raise ValueError(f"quantita non valida per {cod}: {it.get('quantita')!r}")
+        if not (cod or (it.get("descrizione") or "").strip()):
+            raise ValueError("ogni item vuole almeno codice o descrizione")
+        return {
+            "categoria": cat, "codice": cod, "quantita": q,
+            "descrizione": str(it.get("descrizione") or "").strip(),
+            "interfaccia": str(it.get("interfaccia") or "").strip(),
+            "note": str(it.get("note") or "").strip(),
+            "datasheet_url": str(it.get("datasheet_url") or "").strip(),
+            "posizione": str(it.get("posizione") or "").strip(),
+            "foto_url": str(it.get("foto_url") or "").strip(),
+        }
+
+    try:
+        norms = [_norm(it) for it in parsed]
+    except ValueError as e:
+        return json.dumps({"error": str(e)})
+
+    increments = []  # (row, new_q, codice)
+    appends = []     # full Sheet rows
+    for it in norms:
+        key = (it["categoria"], it["codice"])
+        if it["codice"] and it["codice"] != "?" and key in existing_row:
+            row_n = existing_row[key]
+            cur = values[row_n - 1][idx["quantita"]].strip() \
+                if idx["quantita"] < len(values[row_n - 1]) else ""
+            try:
+                new_q = int(cur or 0) + it["quantita"]
+            except ValueError:
+                new_q = it["quantita"]
+            increments.append({"row": row_n, "codice": it["codice"], "after": new_q})
+        else:
+            pid = _unique_id(f"{slug(it['categoria'])}-{slug(it['codice']) or 'row'}")
+            row = [""] * len(header)
+
+            def _set(c, v):
+                if c in idx:
+                    row[idx[c]] = v
+
+            _set("id", pid)
+            _set("categoria", it["categoria"])
+            _set("codice", it["codice"])
+            _set("quantita", str(it["quantita"]))
+            _set("descrizione", it["descrizione"])
+            _set("interfaccia", it["interfaccia"])
+            _set("note", it["note"])
+            _set("datasheet_url", it["datasheet_url"])
+            _set("posizione", it["posizione"])
+            _set("foto_url", it["foto_url"])
+            _set("updated_at", ts)
+            appends.append({"id": pid, "codice": it["codice"], "row_values": row})
+
+    if dry_run:
+        return json.dumps({"status": "preview", "increments": increments,
+                           "appends": [{"id": a["id"], "codice": a["codice"]} for a in appends]},
+                          ensure_ascii=False)
+    svc = sheets_svc()
+    for inc in increments:
+        upd = [(inc["row"], idx["quantita"], str(inc["after"]))]
+        if "updated_at" in idx:
+            upd.append((inc["row"], idx["updated_at"], ts))
+        write_cells(svc, upd)
+    if appends:
+        last = 1
+        for i, r in enumerate(values, 1):
+            if any((c or "").strip() for c in r):
+                last = i
+        nxt = last + 1
+        meta = svc.spreadsheets().get(
+            spreadsheetId=SHEET_ID, fields="sheets.properties").execute()
+        props = next(s["properties"] for s in meta["sheets"]
+                     if s["properties"]["title"] == SHEET_TAB)
+        need = nxt + len(appends) - 1
+        if need > props["gridProperties"]["rowCount"]:
+            svc.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={"requests": [
+                {"appendDimension": {"sheetId": props["sheetId"], "dimension": "ROWS",
+                                     "length": need - props["gridProperties"]["rowCount"]}}]}).execute()
+        svc.spreadsheets().values().update(
+            spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!A{nxt}",
+            valueInputOption="RAW",
+            body={"values": [a["row_values"] for a in appends]}).execute()
+    parts, cats = refresh_snapshot(fetch_values())
+    return json.dumps({"status": "ok", "incremented": len(increments), "appended": len(appends),
+                       "increments": increments,
+                       "appends": [{"id": a["id"], "codice": a["codice"]} for a in appends],
+                       "snapshot": {"parts": parts, "categories": cats}}, ensure_ascii=False)
+
+
 if __name__ == "__main__":
     mcp.run()

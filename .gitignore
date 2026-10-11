@@ -4,7 +4,10 @@ __pycache__/
 service-account.json
 /tmp/
 .venv/
-.opencode/
+.opencode/*
+!.opencode/skills
+!.opencode/skills/**
+
 import_preview.json
 import_for_sheet.csv
 /wiki_build/
