@@ -70,7 +70,7 @@
     "note": "Riclassificato: categoria ''led'' confermata (LED a infrarosso). Codice
     corretto in HSDL-4260 in base al datasheet; ''DUAL IR EMITTER'' è una descrizione,
     non un codice parte."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: na-ws2812b-64-02
   categoria: led

@@ -78,7 +78,7 @@
     indicato; nessuna foto disponibile.", "interfaccia": "USB / UART (CH340N)", "quantita":
     5, "posizione": "Program Box", "datasheet_url": "https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf",
     "note": "Riclassificato dalla riga inventario; codice interno BTE19-05."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-enc28j60-77
   categoria: comunication
@@ -122,7 +122,7 @@
     1, "posizione": "Io Barrel", "datasheet_url": "https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf",
     "note": "Nessuna foto disponibile: riclassificato leggendo i campi della riga
     inventario. Categoria comunication confermata per modulo Bluetooth."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-hc-06-79
   categoria: comunication
@@ -295,7 +295,7 @@
     "quantita": 1, "posizione": "Io Barrel", "datasheet_url": "https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf",
     "note": "Riclassificato dalla riga inventario: categoria communication confermata;
     quantità default 1."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-rf98-87
   categoria: comunication
@@ -317,7 +317,7 @@
     "note": "Riclassificato dalla riga inventario senza foto. Categoria confermata
     comunication. Codice RF98 mantenuto come da inventario; descrizione ampliata con
     tipo e quantità."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-sn65hvd230-88
   categoria: comunication
@@ -361,7 +361,7 @@
     "note": "Riclassificato da comunication a ic-components in base al codice SN65HVD239,
     transceiver CAN. Descrizione originale ''CAN BUS MODULE'' suggerisce modulo CAN
     basato su questo IC. Nessuna foto disponibile."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-srx882-90
   categoria: comunication
@@ -424,7 +424,7 @@
     "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf",
     "note": "Riclassificato come componente di comunicazione Ethernet; codice W5500
     confermato dai campi."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-wl101-341-93
   categoria: comunication
@@ -469,7 +469,7 @@
     "quantita": 3, "posizione": "Io Barrel", "datasheet_url": "https://www.scribd.com/document/1033295124/TX1",
     "note": "Riclassificato da riga inventario; nessuna foto. Categoria corretta in
     comunication. Codice WLC-TX1 mantenuto; modello TX1. Interfaccia ipotizzata."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-xy-wb-95
   categoria: comunication
@@ -536,7 +536,7 @@
     "datasheet_url": "https://wiki.seeedstudio.com/RF-Transmitter-and-Receiver-Link-Kit-315MHz-433MHz/",
     "note": "Riclassificato dalla riga inventario; categoria ''comunication'' adatta
     a moduli RF. Verificare se quantità 5 indica 5 kit Rx+Tx oppure 5 pezzi singoli."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-rbx6-98
   categoria: comunication

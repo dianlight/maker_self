@@ -91,9 +91,9 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "FS030116-01", "categoria": "motors-hardware", "descrizione":
-    "Alternatore/generatore AC, 1 unità, package non specificato, marcatura codice
-    FS030116-01, datasheet KD2500-F", "interfaccia": "Elettrica AC / meccanica", "quantita":
-    1, "posizione": "Component Barrel", "datasheet_url": "https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf",
+    "Alternatore/generatore AC, modello KD2500-F; nessuna foto disponibile, package
+    non visibile; quantità inventariata 1.", "interfaccia": "Elettrica AC / meccanica",
+    "quantita": 1, "posizione": "Component Barrel", "datasheet_url": "https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf",
     "note": "Nessuna foto disponibile; riclassificato da ''pu'' a ''motors-hardware''
     in quanto alternatore/generatore, non power unit. Codice e posizione invariati."}'
   ai_stato: da_verificare
@@ -111,10 +111,9 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "KBL610", "categoria": "componenti", "descrizione": "Raddrizzatore
-    a ponte (bridge rectifier) KBL610, package KBL, 4 pin, 6 A, 1000 V; quantità inventario
-    10 pezzi.", "interfaccia": "4PIN", "quantita": 10, "posizione": "PU Barrel", "datasheet_url":
-    "https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf", "note":
-    "6A, 1000V; KBL610 = 1000V 6A secondo datasheet KBL601-KBL610."}'
+    a ponte KBL610, 10 pezzi, package KBL, 4 pin, 6A, 1000V", "interfaccia": "4PIN",
+    "quantita": 10, "posizione": "PU Barrel", "datasheet_url": "https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf",
+    "note": "6A; 1000V; package KBL; ponte raddrizzatore monofase"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-kbp210-190
@@ -133,7 +132,7 @@
     a ponte (bridge rectifier) KBP210, package KBP, 4 pin, 2A, 5 pezzi", "interfaccia":
     "4PIN", "quantita": 5, "posizione": "PU Barrel", "datasheet_url": "https://www.eicsemi.com/DataSheet/KBP200_10.pdf",
     "note": "2A"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: pu-kbp310-191
   categoria: pu
@@ -342,7 +341,7 @@
     "datasheet_url": "https://www.robotics.org.za/DC-FILTER-50V-4A", "note": "Categoria
     ''pu'' (power unit) mantenuta per modulo di alimentazione/filtro DC-DC. Interfaccia
     non desumibile dalla riga."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: pu-lm2596-203
   categoria: pu

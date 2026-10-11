@@ -132,7 +132,7 @@
     2, "posizione": "Display Barrel", "datasheet_url": "https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module?srsltid=AU7gw4WwdjijC5U-mDGhtptRisDK9YnZz5wh3vT2rY4ZKR_-mEPqPsWH",
     "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     confermata come displays. Codice inventariale mantenuto."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: displays-ssd-105
   categoria: displays
@@ -194,7 +194,7 @@
     "I2C", "quantita": 3, "posizione": "Display Barrel", "datasheet_url": "https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf",
     "note": "Riclassificato da riga inventario; codice controller corretto da SSD130?
     a SSD1306."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: displays-1602-i2c-108
   categoria: displays

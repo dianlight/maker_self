@@ -103,18 +103,18 @@
   },
   {
     "id": "sensori-na-08",
-    "categoria": "sensori",
-    "codice": "?",
+    "categoria": "motors-hardware",
+    "codice": "MagSpring",
     "quantita": 1,
-    "descrizione": "Magnetic Spring",
+    "descrizione": "Componente/accessorio hardware LinMot tipo Magnetic Spring (molla magnetica). Quantità visibile: 1. Package non specificato/visibile. Scritte leggibili nella riga: \"Magnetic Spring\".",
     "interfaccia": "meccanica",
-    "note": "Riclassificato da sensori a motors-hardware: non è un sensore ma un componente hardware/molla magnetica LinMot. Codice non specificato in inventario; ipotizzato MagSpring.",
-    "datasheet_url": "https://linmot.com/en/produkte/magspring/",
-    "datasheet_last_check": "2026-10-10",
+    "note": "Riclassificato da sensori a motors-hardware: non è un sensore ma un componente/accessorio meccanico a molla magnetica LinMot. Codice non specificato nell'inventario; ipotizzato MagSpring.",
+    "datasheet_url": "",
+    "datasheet_last_check": "",
     "posizione": "Sensor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"MAGSPRING\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Molla magnetica LinMot (Magnetic Spring), componente hardware/meccanico per attuatori lineari; quantità 1; package non specificato; scritte leggibili: 'Magnetic Spring'.\", \"interfaccia\": \"meccanica\", \"quantita\": 1, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://linmot.com/en/produkte/magspring/\", \"note\": \"Riclassificato da sensori a motors-hardware: non è un sensore ma un componente hardware/molla magnetica LinMot. Codice ipotizzato MAGSPRING dal nome prodotto/URL.\"}",
+    "ai_proposta": "{\"codice\": \"MagSpring\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Componente/accessorio hardware LinMot tipo Magnetic Spring (molla magnetica). Quantità visibile: 1. Package non specificato/visibile. Scritte leggibili nella riga: \\\"Magnetic Spring\\\".\", \"interfaccia\": \"meccanica\", \"quantita\": 1, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"\", \"note\": \"Riclassificato da sensori a motors-hardware: non è un sensore ma un componente/accessorio meccanico a molla magnetica LinMot. Codice non specificato nell'inventario; ipotizzato MagSpring.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -1118,7 +1118,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.ram-e-shop.com/web/image/product.template/8131/image_1024?unique=f7f3331",
     "ai_proposta": "{\"codice\": \"XKC-Y25-NPN\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di livello liquido senza contatto XKC-Y25-NPN, 1 pezzo, uscita NPN; nessuna foto disponibile.\", \"interfaccia\": \"NPN\", \"quantita\": 1, \"posizione\": \"B Box\", \"datasheet_url\": \"https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf\", \"note\": \"Categoria sensori confermata; codice e interfaccia coerenti con sensore di livello XKC-Y25-NPN.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1254,7 +1254,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/2/12977-00.jpg",
     "ai_proposta": "{\"codice\": \"BTE19-05\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo convertitore USB -> TTL basato su CH340N; quantita 5 pezzi; package non indicato; nessuna foto disponibile.\", \"interfaccia\": \"USB / UART (CH340N)\", \"quantita\": 5, \"posizione\": \"Program Box\", \"datasheet_url\": \"https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf\", \"note\": \"Riclassificato dalla riga inventario; codice interno BTE19-05.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1288,7 +1288,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.electronicwings.com/storage/PlatformSection/TopicContent/118/description/1_HC-05_Bluetooth_Module.jpg",
     "ai_proposta": "{\"codice\": \"HC-05\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo Bluetooth HC-05 per comunicazione seriale wireless, con breakout e pin header; quantità 1; package modulo HC-05.\", \"interfaccia\": \"UART / Serial TTL\", \"quantita\": 1, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf\", \"note\": \"Nessuna foto disponibile: riclassificato leggendo i campi della riga inventario. Categoria comunication confermata per modulo Bluetooth.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1424,7 +1424,7 @@
     "foto_drive_id": "",
     "foto_url": "https://media.mikroelectron.com/27096/conversions/8PGvJu1pSCq0EgbdioRV8tNBqvZLU57drxwAr1Ht-og.jpg",
     "ai_proposta": "{\"codice\": \"RF96\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo ricetrasmettitore RF 433MHz Rx+Tx, coppia trasmettitore + ricevitore, package modulo, indicazione 433MHz; nessuna foto disponibile\", \"interfaccia\": \"RF 433MHz\", \"quantita\": 1, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf\", \"note\": \"Riclassificato dalla riga inventario: categoria communication confermata; quantità default 1.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1441,7 +1441,7 @@
     "foto_drive_id": "",
     "foto_url": "https://media.mikroelectron.com/27096/conversions/8PGvJu1pSCq0EgbdioRV8tNBqvZLU57drxwAr1Ht-og.jpg",
     "ai_proposta": "{\"codice\": \"RF98\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo RF 433MHz trasmettitore + ricevitore (Rx+Tx), quantità 3, package non visibile, nessuna scritta leggibile (nessuna foto disponibile).\", \"interfaccia\": \"RF 433 MHz wireless\", \"quantita\": 3, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://www.mouser.com/datasheet/2/1398/Soldered_101229_433mhz_rf_transmitter_and_receiver-3532571.pdf\", \"note\": \"Riclassificato dalla riga inventario senza foto. Categoria confermata comunication. Codice RF98 mantenuto come da inventario; descrizione ampliata con tipo e quantità.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1475,7 +1475,7 @@
     "foto_drive_id": "",
     "foto_url": "https://electropeak.com/media/catalog/product/cache/fd3007d55266f7276c10ebf7f3da2215/c/o/com-05-041-new-1.jpg",
     "ai_proposta": "{\"codice\": \"SN65HVD239\", \"categoria\": \"ic-components\", \"descrizione\": \"Transceiver CAN bus SN65HVD239, 3 pezzi, package non visibile, scritte leggibili: SN65HVD239, CAN BUS MODULE, TTL\", \"interfaccia\": \"TTL\", \"quantita\": 3, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://docs.rs-online.com/a748/A700000007028912.pdf\", \"note\": \"Riclassificato da comunication a ic-components in base al codice SN65HVD239, transceiver CAN. Descrizione originale 'CAN BUS MODULE' suggerisce modulo CAN basato su questo IC. Nessuna foto disponibile.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1526,7 +1526,7 @@
     "foto_drive_id": "",
     "foto_url": "https://lectronz-images.b-cdn.net/lectronz/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0MTUsInB1ciI6ImJsb2JfaWQifX0=--3466abd8dc95d26d8f52e8e74b3a0ab4988de044/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2xpbWl0IjpbNjQwLG51bGxdLCJzYXZlciI6eyJzYXZlciI6ImpwZWciLCJRIjo5MCwic3RyaXAiOnRydWV9fSwicHVyIjoidmFyaWF0aW9uIn19--746e2d4375972e82a11ea47d1ec12203cd2c035e/DSC_0025.jpeg",
     "ai_proposta": "{\"codice\": \"W5500\", \"categoria\": \"comunication\", \"descrizione\": \"Adattatore/modulo Ethernet basato su W5500, interfaccia SPI; nessuna foto disponibile, package non visibile.\", \"interfaccia\": \"SPI\", \"quantita\": 1, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf\", \"note\": \"Riclassificato come componente di comunicazione Ethernet; codice W5500 confermato dai campi.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1560,7 +1560,7 @@
     "foto_drive_id": "",
     "foto_url": "https://circuitdigest.com/sites/default/files/projectimage/433MHz-ASK-RF-Link-Uses.jpg",
     "ai_proposta": "{\"codice\": \"WLC-TX1\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo trasmettitore RF ASK 433MHz (TX1). Quantità 3. Package non specificato. Scritte leggibili: TX1.\", \"interfaccia\": \"3 pin (VCC, GND, DATA) - 433MHz ASK\", \"quantita\": 3, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://www.scribd.com/document/1033295124/TX1\", \"note\": \"Riclassificato da riga inventario; nessuna foto. Categoria corretta in comunication. Codice WLC-TX1 mantenuto; modello TX1. Interfaccia ipotizzata.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1611,7 +1611,7 @@
     "foto_drive_id": "",
     "foto_url": "https://ablkart.com/wp-content/uploads/2024/07/IMAGE1565172234-600x600.jpg",
     "ai_proposta": "{\"codice\": \"RF 315MHz\", \"categoria\": \"comunication\", \"descrizione\": \"Dai campi inventario: kit RF 315MHz composto da ricevitore (Rx) e trasmettitore (Tx); moduli wireless a 315MHz, package non specificato, probabile header pin per alimentazione/dati/antenna. Quantità 5.\", \"interfaccia\": \"RF wireless 315MHz; probabile header pin (VCC/GND/DATA/ANT)\", \"quantita\": 5, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://wiki.seeedstudio.com/RF-Transmitter-and-Receiver-Link-Kit-315MHz-433MHz/\", \"note\": \"Riclassificato dalla riga inventario; categoria 'comunication' adatta a moduli RF. Verificare se quantità 5 indica 5 kit Rx+Tx oppure 5 pezzi singoli.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1730,7 +1730,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.waveshare.com/w/upload/4/4e/1.5inch_RGB_OLED_Module2.png",
     "ai_proposta": "{\"codice\": \"X30637\", \"categoria\": \"displays\", \"descrizione\": \"Modulo display OLED RGB da 1.5 pollici, quantità 2, package modulo display, scritta leggibile '1.5’ RGB Oled Module', interfaccia SPI.\", \"interfaccia\": \"SPI\", \"quantita\": 2, \"posizione\": \"Display Barrel\", \"datasheet_url\": \"https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module?srsltid=AU7gw4WwdjijC5U-mDGhtptRisDK9YnZz5wh3vT2rY4ZKR_-mEPqPsWH\", \"note\": \"Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria confermata come displays. Codice inventariale mantenuto.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1781,7 +1781,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.lcdwiki.com/images/thumb/f/f3/0.96-OLED-7pin-main-30.jpg/300px-0.96-OLED-7pin-main-30.jpg",
     "ai_proposta": "{\"categoria\": \"displays\", \"codice\": \"SSD1306\", \"descrizione\": \"OLED Display 0.96\\\", modulo 128x64, 4 pin, colore blu; quantita 3\", \"interfaccia\": \"I2C\", \"quantita\": 3, \"posizione\": \"Display Barrel\", \"datasheet_url\": \"https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf\", \"note\": \"Riclassificato da riga inventario; codice controller corretto da SSD130? a SSD1306.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -1917,7 +1917,7 @@
     "foto_drive_id": "",
     "foto_url": "https://protosupplies.com/wp-content/uploads/2019/04/5015-Blower-Fan-12V.jpg",
     "ai_proposta": "{\"codice\": \"FAN-5015-12V\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Ventola blower 5015 da 12V, 2 pezzi, package 50x15 mm (5015), interfaccia 2 pin, alimentazione +12V; tipo blower fan, scritte non leggibili dai campi disponibili.\", \"interfaccia\": \"2 pin\", \"quantita\": 2, \"posizione\": \"Fan Box\", \"datasheet_url\": \"https://protosupplies.com/product/5015-blower-fan-12v/\", \"note\": \"+12V; ventola blower 5015, 2 fili\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2104,7 +2104,7 @@
     "foto_drive_id": "",
     "foto_url": "https://image.chukouplus.com/upload/C_1267/file/20260915/8ecd9b792a00c9e640eadc62c89c7260.png",
     "ai_proposta": "{\"codice\": \"5730\", \"categoria\": \"led\", \"descrizione\": \"LED colorati SMD in package 5730 (5,7 x 3,0 mm), quantità indicata 100; codice leggibile 5730; datasheet Sunrom.\", \"interfaccia\": \"SMD\", \"quantita\": 100, \"posizione\": \"SMD Box\", \"datasheet_url\": \"https://www.sunrom.com/download/716.pdf\", \"note\": \"Riclassificato da ic-components a led in base al codice 5730 e alla descrizione LED colorati SMD. Nessuna foto disponibile.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2172,7 +2172,7 @@
     "foto_drive_id": "",
     "foto_url": "https://rajivelectronics.com/images/get_image/SUNELTIwMC5qcGc",
     "ai_proposta": "{\"codice\": \"74HC126N\", \"categoria\": \"ic-components\", \"descrizione\": \"IC logico 74HC126N, quad buffer/line driver 3-state; package DIP-14; quantità 10; codice leggibile 74HC126N\", \"interfaccia\": \"DIP-14\", \"quantita\": 10, \"posizione\": \"Blu IC Box\", \"datasheet_url\": \"https://docs.rs-online.com/8629/0900766b81324aac.pdf\", \"note\": \"Riclassificato dalla riga inventario; nessuna foto disponibile.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2206,7 +2206,7 @@
     "foto_drive_id": "",
     "foto_url": "http://www.etstore.in/cdn/shop/files/sot23_cf7f38dc-5586-4a19-b608-c077b5de0dca.jpg?v=1756910272",
     "ai_proposta": "{\"codice\": \"A09T\", \"categoria\": \"ic-components\", \"descrizione\": \"MOSFET N-Channel 20V SMD, package SOT-23, marking A09T (probabile SI2302), quantità 30\", \"interfaccia\": \"SMD\", \"quantita\": 30, \"posizione\": \"SMD Box\", \"datasheet_url\": \"http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf\", \"note\": \"20V, N-Channel, SOT-23\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2274,7 +2274,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.eleccircuit.com/wp-content/uploads/2024/08/ams1117-in-many-circuit-boards.jpg",
     "ai_proposta": "{\"codice\": \"AMS1117-ADJ\", \"categoria\": \"ic-components\", \"descrizione\": \"Regolatore lineare LDO regolabile AMS1117-ADJ, 1A, package SMD SOT-223; quantità 50 pz; nessuna foto disponibile\", \"interfaccia\": \"SMD\", \"quantita\": 50, \"posizione\": \"SMD Box\", \"datasheet_url\": \"https://www.advanced-monolithic.com/pdf/ds1117.pdf\", \"note\": \"ADJ\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2308,7 +2308,7 @@
     "foto_drive_id": "",
     "foto_url": "http://quartzcomponents.com/cdn/shop/products/AT24C512.jpg?v=1653633960",
     "ai_proposta": "{\"codice\": \"AT24C512\", \"categoria\": \"ic-components\", \"descrizione\": \"EEPROM seriale I2C 512Kbit (64K x 8), package DIP-8, tensione 1.8-5.5V, quantità 5\", \"interfaccia\": \"I2C\", \"quantita\": 5, \"posizione\": \"Blu IC Box\", \"datasheet_url\": \"https://ww1.microchip.com/downloads/en/devicedoc/doc1116.pdf\", \"note\": \"1.8V - 5.5V; corretta da EPROM a EEPROM I2C\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2461,7 +2461,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.adafruit.com/images/480x360/3296-03.jpg",
     "ai_proposta": "{\"codice\": \"DS1307\", \"categoria\": \"ic-components\", \"descrizione\": \"IC RTC (real-time clock) DS1307, package SMD SOIC-8, quantità 10, marcatura leggibile DS1307; dalla riga inventario risulta RTC.\", \"interfaccia\": \"I2C\", \"quantita\": 10, \"posizione\": \"SMD Box\", \"datasheet_url\": \"https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf\", \"note\": \"SMD indica il package/montaggio, non l'interfaccia; il DS1307 usa I2C. Il link Mouser fornito è una pagina prodotto, non il datasheet ufficiale. Verificare package reale (SOIC-8 o PDIP-8).\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2522,7 +2522,7 @@
     "quantita": 2,
     "descrizione": "Digital Multiplexer",
     "interfaccia": "16 canali analogici/digitali, selezione a 4 bit",
-    "note": "HP4067 probabilmente refuso per CD74HC4067; il datasheet TI conferma 16-channel analog multiplexer/demultiplexer. Categoria ic-components confermata.",
+    "note": "Codice originale HP4067 probabilmente refuso per CD74HC4067; il datasheet TI conferma 16-channel analog multiplexer/demultiplexer.",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf",
     "datasheet_last_check": "2026-10-04",
     "posizione": "IC Barrel",
@@ -2580,7 +2580,7 @@
     "foto_drive_id": "",
     "foto_url": "https://s.alicdn.com/@sc04/kf/Hb0ae8fcd6f7442479b2093b4e8a586c7a.jpg_300x300.jpg",
     "ai_proposta": "{\"codice\": \"UC3824\", \"categoria\": \"ic-components\", \"descrizione\": \"IC PWM controller, 3 pezzi, package SOIC-16/PDIP-16, riferimento UC3824\", \"interfaccia\": \"SOIC-16/PDIP-16\", \"quantita\": 3, \"posizione\": \"IC Barrel\", \"datasheet_url\": \"https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134\", \"note\": \"Codice originale 'i7824HS' probabilmente errato: il datasheet indica UC3824. Interfaccia originale TSOP-14 non compatibile con UC3824 (SOIC-16/PDIP-16).\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2699,7 +2699,7 @@
     "foto_drive_id": "",
     "foto_url": "http://keszoox.com/cdn/shop/files/MAX7219-LED-Driver-1.jpg?v=1723007377",
     "ai_proposta": "{\"codice\": \"MAX7219\", \"categoria\": \"ic-components\", \"descrizione\": \"Circuito integrato driver LED a 8 cifre MAX7219, package DIP-24, interfaccia seriale SPI; quantita visibile 1\", \"interfaccia\": \"SPI\", \"quantita\": 1, \"posizione\": \"IC Box 1\", \"datasheet_url\": \"https://cdn.sparkfun.com/assets/3/e/c/b/d/COM-09622-MAX7219-MAX7221.pdf\", \"note\": \"Nessuna foto disponibile; riclassificato dai campi della riga inventario.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2766,7 +2766,7 @@
     "posizione": "IC Barrel",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"PCF8574\", \"categoria\": \"ic-components\", \"descrizione\": \"Espansore I/O I2C a 8 bit (GPIO extender), quantità 1, package non visibile, nessuna scritta leggibile; dato inventario indica PCF8574.\", \"interfaccia\": \"I2C\", \"quantita\": 1, \"posizione\": \"IC Barrel\", \"datasheet_url\": \"https://www.ti.com/lit/ds/symlink/pcf8574.pdf\", \"note\": \"Riclassificato dalla riga inventario senza foto. Categoria confermata ic-components. Verificare package e tensione di alimentazione.\"}",
+    "ai_proposta": "{\"codice\": \"PCF8574\", \"categoria\": \"ic-components\", \"descrizione\": \"IC expander I/O a 8 bit PCF8574, interfaccia I2C; nessuna foto disponibile, quantità 1, package non specificato, scritte non leggibili.\", \"interfaccia\": \"I2C\", \"quantita\": 1, \"posizione\": \"IC Barrel\", \"datasheet_url\": \"https://www.ti.com/lit/ds/symlink/pcf8574.pdf\", \"note\": \"Riclassificato dalla riga inventario senza foto. Categoria confermata ic-components. Verificare package e tensione di alimentazione.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -2818,7 +2818,7 @@
     "foto_drive_id": "",
     "foto_url": "https://c1.neweggimages.com/ProductImage/C6FGD26082804ZEQB2F.jpg",
     "ai_proposta": "{\"codice\": \"SIP-1A05\", \"categoria\": \"componenti\", \"descrizione\": \"Relay reed PAN-CHANG SIP-1A05, 1A, package SIP, 4 pin, quantità 5\", \"interfaccia\": \"4Pin\", \"quantita\": 5, \"posizione\": \"Relay e PU Box\", \"datasheet_url\": \"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/SIP%20Series.pdf\", \"note\": \"https://www.lcsc.com/product-detail/Reed-Relays_PAN-CHANG-SIP-1A05_C10496.html\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2988,7 +2988,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.ultralibrarian.com/wp-content/uploads/2026/10/W25Q128-Serial-Flash-Memory-Datasheet.webp",
     "ai_proposta": "{\"codice\": \"W25Q128BVFG\", \"categoria\": \"ic-components\", \"descrizione\": \"Circuito integrato memoria Flash NOR seriale 128Mbit, interfaccia Quad SPI, tensione 3V, package SMD (SOIC-8 presunto), marcatura W25Q128BVFG; quantità 5.\", \"interfaccia\": \"QUAD SPI\", \"quantita\": 5, \"posizione\": \"SMD Box\", \"datasheet_url\": \"https://www.winbond.com/resource-files/w25q128bv%20revh%2003102016.pdf\", \"note\": \"3V; Winbond; NOR Flash; non volatile; package SOIC-8 presunto\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -2996,15 +2996,15 @@
     "categoria": "ic-components",
     "codice": "W25Q128BVMG",
     "quantita": 5,
-    "descrizione": "IC memoria Flash seriale NOR 128Mbit Winbond W25Q128BV, quantità 5, package SMD non specificato nei campi, marcatura W25Q128BVMG, interfaccia Quad SPI, tensione 3V",
+    "descrizione": "SERIAL FLASH MEMORY - 128Mbit, Winbond W25Q128BVMG, package SOIC-8, 3V, interfaccia Quad SPI; quantità 5",
     "interfaccia": "QUAD SPI",
-    "note": "3V (2.7-3.6V), memoria Flash NOR seriale; verificare eventuale suffisso industriale 'I' nel codice",
-    "datasheet_url": "https://www.winbond.com/resource-files/w25q128bv%20revg%2003272018%20plus.pdf",
+    "note": "3V",
+    "datasheet_url": "https://www.scribd.com/document/413276139/datasheet-1-abc",
     "datasheet_last_check": "2026-10-06",
     "posizione": "SMD Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"W25Q128BVMG\", \"categoria\": \"ic-components\", \"descrizione\": \"IC memoria Flash seriale NOR 128Mbit Winbond W25Q128BV, quantità 5, package SMD non specificato nei campi, marcatura W25Q128BVMG, interfaccia Quad SPI, tensione 3V\", \"interfaccia\": \"QUAD SPI\", \"quantita\": 5, \"posizione\": \"SMD Box\", \"datasheet_url\": \"https://www.winbond.com/resource-files/w25q128bv%20revg%2003272018%20plus.pdf\", \"note\": \"3V (2.7-3.6V), memoria Flash NOR seriale; verificare eventuale suffisso industriale 'I' nel codice\"}",
+    "ai_proposta": "{\"codice\": \"W25Q128BVMG\", \"categoria\": \"ic-components\", \"descrizione\": \"SERIAL FLASH MEMORY - 128Mbit, Winbond W25Q128BVMG, package SOIC-8, 3V, interfaccia Quad SPI; quantità 5\", \"interfaccia\": \"QUAD SPI\", \"quantita\": 5, \"posizione\": \"SMD Box\", \"datasheet_url\": \"https://www.scribd.com/document/413276139/datasheet-1-abc\", \"note\": \"3V\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3123,7 +3123,7 @@
     "posizione": "Component Barrel",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"FS030116-01\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Alternatore/generatore AC, 1 unità, package non specificato, marcatura codice FS030116-01, datasheet KD2500-F\", \"interfaccia\": \"Elettrica AC / meccanica\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf\", \"note\": \"Nessuna foto disponibile; riclassificato da 'pu' a 'motors-hardware' in quanto alternatore/generatore, non power unit. Codice e posizione invariati.\"}",
+    "ai_proposta": "{\"codice\": \"FS030116-01\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Alternatore/generatore AC, modello KD2500-F; nessuna foto disponibile, package non visibile; quantità inventariata 1.\", \"interfaccia\": \"Elettrica AC / meccanica\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf\", \"note\": \"Nessuna foto disponibile; riclassificato da 'pu' a 'motors-hardware' in quanto alternatore/generatore, non power unit. Codice e posizione invariati.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3140,7 +3140,7 @@
     "posizione": "PU Barrel",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"KBL610\", \"categoria\": \"componenti\", \"descrizione\": \"Raddrizzatore a ponte (bridge rectifier) KBL610, package KBL, 4 pin, 6 A, 1000 V; quantità inventario 10 pezzi.\", \"interfaccia\": \"4PIN\", \"quantita\": 10, \"posizione\": \"PU Barrel\", \"datasheet_url\": \"https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf\", \"note\": \"6A, 1000V; KBL610 = 1000V 6A secondo datasheet KBL601-KBL610.\"}",
+    "ai_proposta": "{\"codice\": \"KBL610\", \"categoria\": \"componenti\", \"descrizione\": \"Raddrizzatore a ponte KBL610, 10 pezzi, package KBL, 4 pin, 6A, 1000V\", \"interfaccia\": \"4PIN\", \"quantita\": 10, \"posizione\": \"PU Barrel\", \"datasheet_url\": \"https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf\", \"note\": \"6A; 1000V; package KBL; ponte raddrizzatore monofase\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3158,7 +3158,7 @@
     "foto_drive_id": "",
     "foto_url": "https://kitsguru.com/cdn/shop/files/KBP210BridgeRectifierKBP-41000V2ADIPPackage-1.jpg?v=1754289519",
     "ai_proposta": "{\"codice\": \"KBP210\", \"categoria\": \"componenti\", \"descrizione\": \"Raddrizzatore a ponte (bridge rectifier) KBP210, package KBP, 4 pin, 2A, 5 pezzi\", \"interfaccia\": \"4PIN\", \"quantita\": 5, \"posizione\": \"PU Barrel\", \"datasheet_url\": \"https://www.eicsemi.com/DataSheet/KBP200_10.pdf\", \"note\": \"2A\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -3362,7 +3362,7 @@
     "foto_drive_id": "",
     "foto_url": "https://pmdway.com/cdn/shop/files/50V-DC-4A-power-filter-pmdway_1_1200x1200_crop_center.avif?v=1788911851",
     "ai_proposta": "{\"codice\": \"DC-DC Filter 50V 4A\", \"categoria\": \"pu\", \"descrizione\": \"Modulo filtro DC-DC 50V 4A. Quantità: 5. Package non specificato. Scritte leggibili: DC-DC Filter 50v 4A.\", \"interfaccia\": \"\", \"quantita\": 5, \"posizione\": \"A Box\", \"datasheet_url\": \"https://www.robotics.org.za/DC-FILTER-50V-4A\", \"note\": \"Categoria 'pu' (power unit) mantenuta per modulo di alimentazione/filtro DC-DC. Interfaccia non desumibile dalla riga.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -3447,7 +3447,7 @@
     "foto_drive_id": "",
     "foto_url": "https://russound.com/wp-content/uploads/2026/07/ire-2-dual-ir-emitter-1.jpg",
     "ai_proposta": "{\"codice\": \"HSDL-4260\", \"categoria\": \"led\", \"descrizione\": \"Emettitore IR doppio (LED infrarosso), parte HSDL-4260. Quantità visibile: 2 pezzi. Package non specificato. Scritte leggibili: 'DUAL IR EMITTER' (dal campo codice) e 'HSDL-4260' (dal datasheet).\", \"interfaccia\": \"\", \"quantita\": 2, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://www.mouser.com/datasheet/2/239/HSDL_4260_DS-1143990.pdf?srsltid=AU7gw4W5MeVP5AXg0JlcXsEQ518Y5-YSly0KPKn-sbLvGrRO6v1qI6HW\", \"note\": \"Riclassificato: categoria 'led' confermata (LED a infrarosso). Codice corretto in HSDL-4260 in base al datasheet; 'DUAL IR EMITTER' è una descrizione, non un codice parte.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -3464,7 +3464,7 @@
     "foto_drive_id": "",
     "foto_url": "https://shillehtek.com/cdn/shop/files/1_c60d4fea-c515-4367-b12e-0f89e369909c.png?v=1771543653&width=240",
     "ai_proposta": "{\"codice\": \"HW-125\", \"categoria\": \"componenti\", \"descrizione\": \"Modulo lettore Micro SD con interfaccia SPI, codice HW-125, 1 pezzo visibile, modulo PCB con slot per micro SD e pin SPI; scritta leggibile presunta: HW-125.\", \"interfaccia\": \"SPI\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives\", \"note\": \"Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria 'componenti' perché modulo storage generico, non sensore/display/IC. Verificare corrispondenza codice HW-125 con modulo micro SD SPI.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -3506,7 +3506,7 @@
     "categoria": "resistors",
     "codice": "PSxxG",
     "quantita": 1,
-    "descrizione": "Potenziometro slide (slide pot) TT Electronics serie PSxxG; quantita visibile 1; package slide pot non specificato; scritta leggibile 'Slide Pot'; valore ohmico e corsa da verificare.",
+    "descrizione": "Resistor - Slide Pot. / potenziometro a slitta, serie TTE PSxxG; quantità visibile 1; package non specificato (probabile PCB/assiale); scritte leggibili non disponibili.",
     "interfaccia": "analogico",
     "note": "Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.",
     "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
@@ -3514,7 +3514,7 @@
     "posizione": "B BOX",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"PSxxG\", \"categoria\": \"resistors\", \"descrizione\": \"Potenziometro slide (slide pot) TT Electronics serie PSxxG; quantita visibile 1; package slide pot non specificato; scritta leggibile 'Slide Pot'; valore ohmico e corsa da verificare.\", \"interfaccia\": \"analogico\", \"quantita\": 1, \"posizione\": \"B BOX\", \"datasheet_url\": \"https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf\", \"note\": \"Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.\"}",
+    "ai_proposta": "{\"codice\": \"PSxxG\", \"categoria\": \"resistors\", \"descrizione\": \"Resistor - Slide Pot. / potenziometro a slitta, serie TTE PSxxG; quantità visibile 1; package non specificato (probabile PCB/assiale); scritte leggibili non disponibili.\", \"interfaccia\": \"analogico\", \"quantita\": 1, \"posizione\": \"B BOX\", \"datasheet_url\": \"https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf\", \"note\": \"Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3542,13 +3542,13 @@
     "quantita": 1,
     "descrizione": "DC 10A Mini voltometro",
     "interfaccia": "DC",
-    "note": "Riclassificato da 'componenti' a 'displays'; descrizione corretta a modulo voltmetro/amperometro DC 10A mini.",
+    "note": "Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.",
     "datasheet_url": "https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7",
     "datasheet_last_check": "2026-10-07",
     "posizione": "B BOX",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"X30567\", \"categoria\": \"displays\", \"descrizione\": \"Modulo voltmetro/amperometro DC 10A mini con display, quantità 1, package modulo; nessuna foto disponibile, scritte non leggibili.\", \"interfaccia\": \"DC\", \"quantita\": 1, \"posizione\": \"B BOX\", \"datasheet_url\": \"https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7\", \"note\": \"Riclassificato da 'componenti' a 'displays'; descrizione corretta a modulo voltmetro/amperometro DC 10A mini.\"}",
+    "ai_proposta": "{\"codice\": \"X30567\", \"categoria\": \"displays\", \"descrizione\": \"Modulo voltmetro/amperometro DC 10A mini, 1 pezzo, package modulo, display, scritta 'DC 10A Mini voltometro'\", \"interfaccia\": \"DC\", \"quantita\": 1, \"posizione\": \"B BOX\", \"datasheet_url\": \"https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7\", \"note\": \"Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3583,7 +3583,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.canaduino.ca/wp-content/uploads/2025/01/26639-8-channel-level-converter-3.jpg",
     "ai_proposta": "{\"codice\": \"TXS0108E\", \"categoria\": \"ic-components\", \"descrizione\": \"Level Converter 3-5V, IC traduttore di livello bidirezionale 8 bit, package non specificato, quantità 7\", \"interfaccia\": \"I2C/SPI/UART/GPIO\", \"quantita\": 7, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://www.ti.com/lit/ds/symlink/txs0108e.pdf\", \"note\": \"Riclassificato dalla riga inventario: codice YF08E probabilmente errato o abbreviazione di TXS0108E; il datasheet TI corrisponde a TXS0108E. Categoria corretta da componenti a ic-components.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -3592,31 +3592,31 @@
     "codice": "Laser",
     "quantita": 1,
     "descrizione": "Laser Emitter",
-    "interfaccia": "elettrica",
+    "interfaccia": "N/A",
     "note": "Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico. Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.",
     "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
     "datasheet_last_check": "2026-10-07",
     "posizione": "Component Barrel",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"Laser\", \"categoria\": \"led\", \"descrizione\": \"Emettitore laser (Laser Emitter), 1 pezzo, package non noto, nessuna scritta leggibile (nessuna foto disponibile).\", \"interfaccia\": \"\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://docs.rs-online.com/60f1/0900766b8001ab04.pdf\", \"note\": \"Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico. Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.\"}",
+    "ai_proposta": "{\"codice\": \"Laser\", \"categoria\": \"led\", \"descrizione\": \"Laser Emitter (emettitore laser/diodo laser optoelettronico); quantità 1; nessuna foto disponibile, package e scritte non visibili/leggibili.\", \"interfaccia\": \"N/A\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://docs.rs-online.com/60f1/0900766b8001ab04.pdf\", \"note\": \"Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico. Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
   {
     "id": "componenti-digital-joystic-217",
-    "categoria": "componenti",
-    "codice": "Digital Joystic",
+    "categoria": "sensori",
+    "codice": "KY-023",
     "quantita": 1,
-    "descrizione": "Joystick",
+    "descrizione": "Modulo joystick KY-023: joystick a due assi con potenziometri analogici X/Y e pulsante digitale SW; quantità 1; package modulo breakout; scritta leggibile KY-023 (nessuna foto disponibile, dati da riga inventario).",
     "interfaccia": "Analogica/Digitale (X, Y analogici, SW digitale)",
     "note": "Riclassificato da riga inventario: codice originale 'Digital Joystic' corretto in KY-023; categoria originale 'componenti' aggiornata a sensori.",
-    "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
-    "datasheet_last_check": "2026-10-07",
+    "datasheet_url": "",
+    "datasheet_last_check": "",
     "posizione": "Component Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://cdn.prod.website-files.com/69a5a9fd0bfb9a26219eba91/6abaa643e5744f12b9fd0128_Product-Photo-PT-MINIJOY-G1-White-Background%20(25).JPG",
-    "ai_proposta": "{\"codice\": \"KY-023\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo joystick analogico a 2 assi con pulsante integrato, 1 pezzo da inventario, package modulo PCB con 5 pin, scritta leggibile KY-023.\", \"interfaccia\": \"Analogica/Digitale (X, Y analogici, SW digitale)\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf\", \"note\": \"Riclassificato da riga inventario: codice originale 'Digital Joystic' corretto in KY-023; categoria originale 'componenti' aggiornata a sensori.\"}",
+    "foto_url": "",
+    "ai_proposta": "{\"codice\": \"KY-023\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo joystick KY-023: joystick a due assi con potenziometri analogici X/Y e pulsante digitale SW; quantità 1; package modulo breakout; scritta leggibile KY-023 (nessuna foto disponibile, dati da riga inventario).\", \"interfaccia\": \"Analogica/Digitale (X, Y analogici, SW digitale)\", \"quantita\": 1, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"\", \"note\": \"Riclassificato da riga inventario: codice originale 'Digital Joystic' corretto in KY-023; categoria originale 'componenti' aggiornata a sensori.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3625,15 +3625,15 @@
     "categoria": "sensori",
     "codice": "KY-023",
     "quantita": 3,
-    "descrizione": "Modulo joystick KY-023 (non IC), 3 pezzi, package modulo con leva analogica a doppio potenziometro VRx/VRy e pulsante SW.",
+    "descrizione": "Modulo joystick KY-023 a 2 assi con pulsante; breakout board, 3 unità in inventario; uscite analogiche VRx/VRy e digitale SW.",
     "interfaccia": "Analogica/Digitale (VRx, VRy, SW)",
-    "note": "Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC. Corretto codice in KY-023 e categoria in sensori.",
+    "note": "Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC.",
     "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
     "datasheet_last_check": "2026-10-07",
     "posizione": "Component Barrel",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"KY-023\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo joystick KY-023 (non IC), 3 pezzi, package modulo con leva analogica a doppio potenziometro VRx/VRy e pulsante SW.\", \"interfaccia\": \"Analogica/Digitale (VRx, VRy, SW)\", \"quantita\": 3, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf\", \"note\": \"Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC. Corretto codice in KY-023 e categoria in sensori.\"}",
+    "ai_proposta": "{\"codice\": \"KY-023\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo joystick KY-023 a 2 assi con pulsante; breakout board, 3 unità in inventario; uscite analogiche VRx/VRy e digitale SW.\", \"interfaccia\": \"Analogica/Digitale (VRx, VRy, SW)\", \"quantita\": 3, \"posizione\": \"Component Barrel\", \"datasheet_url\": \"https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf\", \"note\": \"Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3644,13 +3644,13 @@
     "quantita": 3,
     "descrizione": "Tastiera a Pression",
     "interfaccia": "Bluetooth",
-    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet indica tastiera Bluetooth sealed IP68. Categoria generica: tastiera non presente nelle categorie specifiche.",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet indica tastiera Bluetooth sealed IP68. Categoria generica 'componenti' perché non esiste categoria specifica per tastiere.",
     "datasheet_url": "",
     "datasheet_last_check": "",
     "posizione": "A Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"Keyboards\", \"categoria\": \"componenti\", \"descrizione\": \"Tastiera a pressione Bluetooth, 3 pezzi, IP68 sealed; package non specificato; nessuna foto disponibile, nessuna scritta leggibile.\", \"interfaccia\": \"Bluetooth\", \"quantita\": 3, \"posizione\": \"A Box\", \"datasheet_url\": \"\", \"note\": \"Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet indica tastiera Bluetooth sealed IP68.\"}",
+    "ai_proposta": "{\"codice\": \"KEYBOARD-BT-IP68\", \"categoria\": \"componenti\", \"descrizione\": \"Tastiera a pressione Bluetooth, sealed IP68, quantità 3. Nessuna foto disponibile; dati dalla riga inventario.\", \"interfaccia\": \"Bluetooth\", \"quantita\": 3, \"posizione\": \"A Box\", \"datasheet_url\": \"\", \"note\": \"Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet indica tastiera Bluetooth sealed IP68. Categoria generica 'componenti' perché non esiste categoria specifica per tastiere.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3678,13 +3678,13 @@
     "quantita": 10,
     "descrizione": "Rotary Encoder",
     "interfaccia": "incrementale/quadratura",
-    "note": "Riclassificato da 'componenti' a 'sensori'; codice generico 'Rotary Encoder' sostituito con A102H dalla nota/datasheet. Verificare package e interfaccia sul datasheet.",
+    "note": "Riclassificato da 'componenti' a 'sensori'. Codice generico 'Rotary Encoder' sostituito con A102H dalla nota/datasheet. Nessuna foto: verificare package e pinout sul datasheet.",
     "datasheet_url": "",
     "datasheet_last_check": "",
     "posizione": "A Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"A102H\", \"categoria\": \"sensori\", \"descrizione\": \"Rotary encoder (encoder rotativo) incrementale/quadratura, quantità 10, package non specificato nelle righe; codice A102H.\", \"interfaccia\": \"incrementale/quadratura\", \"quantita\": 10, \"posizione\": \"A Box\", \"datasheet_url\": \"\", \"note\": \"Riclassificato da 'componenti' a 'sensori'; codice generico 'Rotary Encoder' sostituito con A102H dalla nota/datasheet. Verificare package e interfaccia sul datasheet.\"}",
+    "ai_proposta": "{\"codice\": \"A102H\", \"categoria\": \"sensori\", \"descrizione\": \"Rotary encoder incrementale/quadratura, 10 pezzi in inventario, package non specificato; scritta leggibile/nota: A102H. Verificare package e interfaccia sul datasheet.\", \"interfaccia\": \"incrementale/quadratura\", \"quantita\": 10, \"posizione\": \"A Box\", \"datasheet_url\": \"\", \"note\": \"Riclassificato da 'componenti' a 'sensori'. Codice generico 'Rotary Encoder' sostituito con A102H dalla nota/datasheet. Nessuna foto: verificare package e pinout sul datasheet.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3741,18 +3741,18 @@
   },
   {
     "id": "mcu-esp-8266-225",
-    "categoria": "mcu",
+    "categoria": "mcu-board",
     "codice": "ESP8266",
     "quantita": 2,
-    "descrizione": "ESP8266, microcontroller Wi-Fi, interfaccia MINI DIP, quantita 2",
+    "descrizione": "Modulo/scheda a base di chip ESP8266 (WiFi SoC), interfaccia/pinout MINI DIP, quantita visibile 2.",
     "interfaccia": "MINI DIP",
-    "note": "Riclassificato da mcu-board a mcu; codice normalizzato in ESP8266; descrizione ampliata. Basato solo sui campi della riga, nessuna foto.",
+    "note": "Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione ampliata. Basato solo sui campi della riga, nessuna foto.",
     "datasheet_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf",
     "datasheet_last_check": "2026-10-07",
     "posizione": "MCU Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"ESP8266\", \"categoria\": \"mcu\", \"descrizione\": \"ESP8266, microcontroller Wi-Fi, interfaccia MINI DIP, quantita 2\", \"interfaccia\": \"MINI DIP\", \"quantita\": 2, \"posizione\": \"MCU Box\", \"datasheet_url\": \"https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf\", \"note\": \"Riclassificato da mcu-board a mcu; codice normalizzato in ESP8266; descrizione ampliata. Basato solo sui campi della riga, nessuna foto.\"}",
+    "ai_proposta": "{\"codice\": \"ESP8266\", \"categoria\": \"mcu-board\", \"descrizione\": \"Modulo/scheda a base di chip ESP8266 (WiFi SoC), interfaccia/pinout MINI DIP, quantita visibile 2.\", \"interfaccia\": \"MINI DIP\", \"quantita\": 2, \"posizione\": \"MCU Box\", \"datasheet_url\": \"https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf\", \"note\": \"Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione ampliata. Basato solo sui campi della riga, nessuna foto.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -3770,7 +3770,7 @@
     "foto_drive_id": "",
     "foto_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4230/150%7E44A%7EA%7E44.JPG",
     "ai_proposta": "{\"codice\": \"ATMEGA644PA\", \"categoria\": \"mcu\", \"descrizione\": \"Microcontrollore AVR ATmega644PA, 8-bit, 64KB Flash, 4096B SRAM; package SMD (TQFP/QFN non specificato); quantita dichiarata 5 pezzi.\", \"interfaccia\": \"SMD\", \"quantita\": 5, \"posizione\": \"MCU Box\", \"datasheet_url\": \"https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf\", \"note\": \"Riclassificato dalla riga inventario: categoria corretta in mcu per ATmega644PA; package SMD generico, non specificato se TQFP44 o QFN44.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {

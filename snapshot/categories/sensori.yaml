@@ -135,29 +135,6 @@
     datasheet copre famiglia SS39ET/SS49E/SS59ET. Quantità default 1."}'
   ai_stato: confermato
   updated_at: ''
-- id: sensori-na-08
-  categoria: sensori
-  codice: '?'
-  quantita: 1
-  descrizione: Magnetic Spring
-  interfaccia: meccanica
-  note: 'Riclassificato da sensori a motors-hardware: non è un sensore ma un componente
-    hardware/molla magnetica LinMot. Codice non specificato in inventario; ipotizzato
-    MagSpring.'
-  datasheet_url: https://linmot.com/en/produkte/magspring/
-  datasheet_last_check: '2026-10-10'
-  posizione: Sensor Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "MAGSPRING", "categoria": "motors-hardware", "descrizione":
-    "Molla magnetica LinMot (Magnetic Spring), componente hardware/meccanico per attuatori
-    lineari; quantità 1; package non specificato; scritte leggibili: ''Magnetic Spring''.",
-    "interfaccia": "meccanica", "quantita": 1, "posizione": "Sensor Box", "datasheet_url":
-    "https://linmot.com/en/produkte/magspring/", "note": "Riclassificato da sensori
-    a motors-hardware: non è un sensore ma un componente hardware/molla magnetica
-    LinMot. Codice ipotizzato MAGSPRING dal nome prodotto/URL."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: sensori-na-09
   categoria: sensori
   codice: '?'
@@ -1419,7 +1396,7 @@
     "https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf", "note":
     "Categoria sensori confermata; codice e interfaccia coerenti con sensore di livello
     XKC-Y25-NPN."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-yf-s401-68
   categoria: sensori
@@ -1504,26 +1481,51 @@
     HC-SR04); alcune versioni supportano UART/serial. Codice e descrizione confermati."}'
   ai_stato: da_verificare
   updated_at: ''
+- id: componenti-digital-joystic-217
+  categoria: sensori
+  codice: KY-023
+  quantita: 1
+  descrizione: 'Modulo joystick KY-023: joystick a due assi con potenziometri analogici
+    X/Y e pulsante digitale SW; quantità 1; package modulo breakout; scritta leggibile
+    KY-023 (nessuna foto disponibile, dati da riga inventario).'
+  interfaccia: Analogica/Digitale (X, Y analogici, SW digitale)
+  note: 'Riclassificato da riga inventario: codice originale ''Digital Joystic'' corretto
+    in KY-023; categoria originale ''componenti'' aggiornata a sensori.'
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
+    joystick KY-023: joystick a due assi con potenziometri analogici X/Y e pulsante
+    digitale SW; quantità 1; package modulo breakout; scritta leggibile KY-023 (nessuna
+    foto disponibile, dati da riga inventario).", "interfaccia": "Analogica/Digitale
+    (X, Y analogici, SW digitale)", "quantita": 1, "posizione": "Component Barrel",
+    "datasheet_url": "", "note": "Riclassificato da riga inventario: codice originale
+    ''Digital Joystic'' corretto in KY-023; categoria originale ''componenti'' aggiornata
+    a sensori."}'
+  ai_stato: da_verificare
+  updated_at: ''
 - id: componenti-ic-joystick-218
   categoria: sensori
   codice: KY-023
   quantita: 3
-  descrizione: Modulo joystick KY-023 (non IC), 3 pezzi, package modulo con leva analogica
-    a doppio potenziometro VRx/VRy e pulsante SW.
+  descrizione: Modulo joystick KY-023 a 2 assi con pulsante; breakout board, 3 unità
+    in inventario; uscite analogiche VRx/VRy e digitale SW.
   interfaccia: Analogica/Digitale (VRx, VRy, SW)
-  note: Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC. Corretto
-    codice in KY-023 e categoria in sensori.
+  note: Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC.
   datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
-    joystick KY-023 (non IC), 3 pezzi, package modulo con leva analogica a doppio
-    potenziometro VRx/VRy e pulsante SW.", "interfaccia": "Analogica/Digitale (VRx,
-    VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
+    joystick KY-023 a 2 assi con pulsante; breakout board, 3 unità in inventario;
+    uscite analogiche VRx/VRy e digitale SW.", "interfaccia": "Analogica/Digitale
+    (VRx, VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url":
+    "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
     "note": "Riclassificato da ''IC Joystick'' a modulo joystick KY-023; non è un
-    IC. Corretto codice in KY-023 e categoria in sensori."}'
+    IC."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: na-na-4

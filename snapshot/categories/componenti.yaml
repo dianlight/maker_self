@@ -105,7 +105,7 @@
     "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
     ''componenti'' perché modulo storage generico, non sensore/display/IC. Verificare
     corrispondenza codice HW-125 con modulo micro SD SPI."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: componenti-pca9685-209
   categoria: componenti
@@ -180,19 +180,20 @@
   quantita: 1
   descrizione: DC 10A Mini voltometro
   interfaccia: DC
-  note: Riclassificato da 'componenti' a 'displays'; descrizione corretta a modulo
-    voltmetro/amperometro DC 10A mini.
+  note: Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A
+    Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.
   datasheet_url: https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "X30567", "categoria": "displays", "descrizione": "Modulo
-    voltmetro/amperometro DC 10A mini con display, quantità 1, package modulo; nessuna
-    foto disponibile, scritte non leggibili.", "interfaccia": "DC", "quantita": 1,
-    "posizione": "B BOX", "datasheet_url": "https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7",
+    voltmetro/amperometro DC 10A mini, 1 pezzo, package modulo, display, scritta ''DC
+    10A Mini voltometro''", "interfaccia": "DC", "quantita": 1, "posizione": "B BOX",
+    "datasheet_url": "https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7",
     "note": "Riclassificato da ''componenti'' a ''displays''; descrizione corretta
-    a modulo voltmetro/amperometro DC 10A mini."}'
+    da ''DC 10A Mini voltometro'' a modulo voltmetro/amperometro DC 10A mini. Nessuna
+    foto disponibile."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-mosfet-irf520-214
@@ -237,14 +238,14 @@
     "note": "Riclassificato dalla riga inventario: codice YF08E probabilmente errato
     o abbreviazione di TXS0108E; il datasheet TI corrisponde a TXS0108E. Categoria
     corretta da componenti a ic-components."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: componenti-laser-216
   categoria: componenti
   codice: Laser
   quantita: 1
   descrizione: Laser Emitter
-  interfaccia: elettrica
+  interfaccia: N/A
   note: Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico.
     Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.
   datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
@@ -252,35 +253,13 @@
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Emettitore
-    laser (Laser Emitter), 1 pezzo, package non noto, nessuna scritta leggibile (nessuna
-    foto disponibile).", "interfaccia": "", "quantita": 1, "posizione": "Component
-    Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
+  ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Laser Emitter
+    (emettitore laser/diodo laser optoelettronico); quantità 1; nessuna foto disponibile,
+    package e scritte non visibili/leggibili.", "interfaccia": "N/A", "quantita":
+    1, "posizione": "Component Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
     "note": "Nessuna foto; riclassificato da ''componenti'' a ''led'' perché emettitore
     optoelettronico. Codice originale ''Laser'' mantenuto; verificare part number
     e package dal datasheet."}'
-  ai_stato: da_verificare
-  updated_at: ''
-- id: componenti-digital-joystic-217
-  categoria: componenti
-  codice: Digital Joystic
-  quantita: 1
-  descrizione: Joystick
-  interfaccia: Analogica/Digitale (X, Y analogici, SW digitale)
-  note: 'Riclassificato da riga inventario: codice originale ''Digital Joystic'' corretto
-    in KY-023; categoria originale ''componenti'' aggiornata a sensori.'
-  datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
-  datasheet_last_check: '2026-10-07'
-  posizione: Component Barrel
-  foto_drive_id: ''
-  foto_url: https://cdn.prod.website-files.com/69a5a9fd0bfb9a26219eba91/6abaa643e5744f12b9fd0128_Product-Photo-PT-MINIJOY-G1-White-Background%20(25).JPG
-  ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
-    joystick analogico a 2 assi con pulsante integrato, 1 pezzo da inventario, package
-    modulo PCB con 5 pin, scritta leggibile KY-023.", "interfaccia": "Analogica/Digitale
-    (X, Y analogici, SW digitale)", "quantita": 1, "posizione": "Component Barrel",
-    "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
-    "note": "Riclassificato da riga inventario: codice originale ''Digital Joystic''
-    corretto in KY-023; categoria originale ''componenti'' aggiornata a sensori."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-keyboards-219
@@ -289,20 +268,20 @@
   quantita: 3
   descrizione: Tastiera a Pression
   interfaccia: Bluetooth
-  note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
-    indica tastiera Bluetooth sealed IP68. Categoria generica: tastiera non presente
-    nelle categorie specifiche.'
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
+    indica tastiera Bluetooth sealed IP68. Categoria generica 'componenti' perché
+    non esiste categoria specifica per tastiere.
   datasheet_url: ''
   datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "Keyboards", "categoria": "componenti", "descrizione":
-    "Tastiera a pressione Bluetooth, 3 pezzi, IP68 sealed; package non specificato;
-    nessuna foto disponibile, nessuna scritta leggibile.", "interfaccia": "Bluetooth",
-    "quantita": 3, "posizione": "A Box", "datasheet_url": "", "note": "Riclassificato
-    dalla riga inventario; nessuna foto disponibile. Il datasheet indica tastiera
-    Bluetooth sealed IP68."}'
+  ai_proposta: '{"codice": "KEYBOARD-BT-IP68", "categoria": "componenti", "descrizione":
+    "Tastiera a pressione Bluetooth, sealed IP68, quantità 3. Nessuna foto disponibile;
+    dati dalla riga inventario.", "interfaccia": "Bluetooth", "quantita": 3, "posizione":
+    "A Box", "datasheet_url": "", "note": "Riclassificato dalla riga inventario; nessuna
+    foto disponibile. Il datasheet indica tastiera Bluetooth sealed IP68. Categoria
+    generica ''componenti'' perché non esiste categoria specifica per tastiere."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-zs-042-220
@@ -332,20 +311,21 @@
   quantita: 10
   descrizione: Rotary Encoder
   interfaccia: incrementale/quadratura
-  note: Riclassificato da 'componenti' a 'sensori'; codice generico 'Rotary Encoder'
-    sostituito con A102H dalla nota/datasheet. Verificare package e interfaccia sul
-    datasheet.
+  note: 'Riclassificato da ''componenti'' a ''sensori''. Codice generico ''Rotary
+    Encoder'' sostituito con A102H dalla nota/datasheet. Nessuna foto: verificare
+    package e pinout sul datasheet.'
   datasheet_url: ''
   datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "A102H", "categoria": "sensori", "descrizione": "Rotary
-    encoder (encoder rotativo) incrementale/quadratura, quantità 10, package non specificato
-    nelle righe; codice A102H.", "interfaccia": "incrementale/quadratura", "quantita":
-    10, "posizione": "A Box", "datasheet_url": "", "note": "Riclassificato da ''componenti''
-    a ''sensori''; codice generico ''Rotary Encoder'' sostituito con A102H dalla nota/datasheet.
-    Verificare package e interfaccia sul datasheet."}'
+    encoder incrementale/quadratura, 10 pezzi in inventario, package non specificato;
+    scritta leggibile/nota: A102H. Verificare package e interfaccia sul datasheet.",
+    "interfaccia": "incrementale/quadratura", "quantita": 10, "posizione": "A Box",
+    "datasheet_url": "", "note": "Riclassificato da ''componenti'' a ''sensori''.
+    Codice generico ''Rotary Encoder'' sostituito con A102H dalla nota/datasheet.
+    Nessuna foto: verificare package e pinout sul datasheet."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-pulsanti-colorati-222

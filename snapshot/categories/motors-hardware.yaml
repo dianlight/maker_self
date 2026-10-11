@@ -1,3 +1,28 @@
+- id: sensori-na-08
+  categoria: motors-hardware
+  codice: MagSpring
+  quantita: 1
+  descrizione: 'Componente/accessorio hardware LinMot tipo Magnetic Spring (molla
+    magnetica). Quantità visibile: 1. Package non specificato/visibile. Scritte leggibili
+    nella riga: "Magnetic Spring".'
+  interfaccia: meccanica
+  note: 'Riclassificato da sensori a motors-hardware: non è un sensore ma un componente/accessorio
+    meccanico a molla magnetica LinMot. Codice non specificato nell''inventario; ipotizzato
+    MagSpring.'
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Sensor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "MagSpring", "categoria": "motors-hardware", "descrizione":
+    "Componente/accessorio hardware LinMot tipo Magnetic Spring (molla magnetica).
+    Quantità visibile: 1. Package non specificato/visibile. Scritte leggibili nella
+    riga: \"Magnetic Spring\".", "interfaccia": "meccanica", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "", "note": "Riclassificato da sensori a motors-hardware:
+    non è un sensore ma un componente/accessorio meccanico a molla magnetica LinMot.
+    Codice non specificato nell''inventario; ipotizzato MagSpring."}'
+  ai_stato: da_verificare
+  updated_at: ''
 - id: motors-hardware-5w-heater-110
   categoria: motors-hardware
   codice: 5W Heater
@@ -111,7 +136,7 @@
     "interfaccia": "2 pin", "quantita": 2, "posizione": "Fan Box", "datasheet_url":
     "https://protosupplies.com/product/5015-blower-fan-12v/", "note": "+12V; ventola
     blower 5015, 2 fili"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: motors-hardware-fan-9025-12-116
   categoria: motors-hardware

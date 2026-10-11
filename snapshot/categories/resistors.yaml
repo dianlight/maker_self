@@ -24,9 +24,9 @@
   categoria: resistors
   codice: PSxxG
   quantita: 1
-  descrizione: Potenziometro slide (slide pot) TT Electronics serie PSxxG; quantita
-    visibile 1; package slide pot non specificato; scritta leggibile 'Slide Pot';
-    valore ohmico e corsa da verificare.
+  descrizione: Resistor - Slide Pot. / potenziometro a slitta, serie TTE PSxxG; quantità
+    visibile 1; package non specificato (probabile PCB/assiale); scritte leggibili
+    non disponibili.
   interfaccia: analogico
   note: Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato
     a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.
@@ -35,11 +35,11 @@
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Potenziometro
-    slide (slide pot) TT Electronics serie PSxxG; quantita visibile 1; package slide
-    pot non specificato; scritta leggibile ''Slide Pot''; valore ohmico e corsa da
-    verificare.", "interfaccia": "analogico", "quantita": 1, "posizione": "B BOX",
-    "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
+  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Resistor
+    - Slide Pot. / potenziometro a slitta, serie TTE PSxxG; quantità visibile 1; package
+    non specificato (probabile PCB/assiale); scritte leggibili non disponibili.",
+    "interfaccia": "analogico", "quantita": 1, "posizione": "B BOX", "datasheet_url":
+    "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
     "note": "Riclassificato da componenti a resistors; codice generico ''Slide Pot''
     aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa."}'
   ai_stato: da_verificare

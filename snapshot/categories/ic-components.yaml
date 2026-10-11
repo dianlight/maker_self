@@ -17,7 +17,7 @@
     "datasheet_url": "https://www.sunrom.com/download/716.pdf", "note": "Riclassificato
     da ic-components a led in base al codice 5730 e alla descrizione LED colorati
     SMD. Nessuna foto disponibile."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-rc45558-127
   categoria: ic-components
@@ -96,7 +96,7 @@
     10; codice leggibile 74HC126N", "interfaccia": "DIP-14", "quantita": 10, "posizione":
     "Blu IC Box", "datasheet_url": "https://docs.rs-online.com/8629/0900766b81324aac.pdf",
     "note": "Riclassificato dalla riga inventario; nessuna foto disponibile."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-93c86-131
   categoria: ic-components
@@ -134,7 +134,7 @@
     "interfaccia": "SMD", "quantita": 30, "posizione": "SMD Box", "datasheet_url":
     "http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf",
     "note": "20V, N-Channel, SOT-23"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-ads1115-133
   categoria: ic-components
@@ -218,7 +218,7 @@
     50 pz; nessuna foto disponibile", "interfaccia": "SMD", "quantita": 50, "posizione":
     "SMD Box", "datasheet_url": "https://www.advanced-monolithic.com/pdf/ds1117.pdf",
     "note": "ADJ"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-at24c256-137
   categoria: ic-components
@@ -256,7 +256,7 @@
     5", "interfaccia": "I2C", "quantita": 5, "posizione": "Blu IC Box", "datasheet_url":
     "https://ww1.microchip.com/downloads/en/devicedoc/doc1116.pdf", "note": "1.8V
     - 5.5V; corretta da EPROM a EEPROM I2C"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-bc547-139
   categoria: ic-components
@@ -442,7 +442,7 @@
     "note": "SMD indica il package/montaggio, non l''interfaccia; il DS1307 usa I2C.
     Il link Mouser fornito è una pagina prodotto, non il datasheet ufficiale. Verificare
     package reale (SOIC-8 o PDIP-8)."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-f3aa005v-148
   categoria: ic-components
@@ -506,8 +506,8 @@
   quantita: 2
   descrizione: Digital Multiplexer
   interfaccia: 16 canali analogici/digitali, selezione a 4 bit
-  note: HP4067 probabilmente refuso per CD74HC4067; il datasheet TI conferma 16-channel
-    analog multiplexer/demultiplexer. Categoria ic-components confermata.
+  note: Codice originale HP4067 probabilmente refuso per CD74HC4067; il datasheet
+    TI conferma 16-channel analog multiplexer/demultiplexer.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
@@ -580,7 +580,7 @@
     "SOIC-16/PDIP-16", "quantita": 3, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134",
     "note": "Codice originale ''i7824HS'' probabilmente errato: il datasheet indica
     UC3824. Interfaccia originale TSOP-14 non compatibile con UC3824 (SOIC-16/PDIP-16)."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-irlz44n-156
   categoria: ic-components
@@ -696,7 +696,7 @@
     seriale SPI; quantita visibile 1", "interfaccia": "SPI", "quantita": 1, "posizione":
     "IC Box 1", "datasheet_url": "https://cdn.sparkfun.com/assets/3/e/c/b/d/COM-09622-MAX7219-MAX7221.pdf",
     "note": "Nessuna foto disponibile; riclassificato dai campi della riga inventario."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-max98357a-162
   categoria: ic-components
@@ -776,9 +776,9 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "PCF8574", "categoria": "ic-components", "descrizione":
-    "Espansore I/O I2C a 8 bit (GPIO extender), quantità 1, package non visibile,
-    nessuna scritta leggibile; dato inventario indica PCF8574.", "interfaccia": "I2C",
-    "quantita": 1, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/pcf8574.pdf",
+    "IC expander I/O a 8 bit PCF8574, interfaccia I2C; nessuna foto disponibile, quantità
+    1, package non specificato, scritte non leggibili.", "interfaccia": "I2C", "quantita":
+    1, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/pcf8574.pdf",
     "note": "Riclassificato dalla riga inventario senza foto. Categoria confermata
     ic-components. Verificare package e tensione di alimentazione."}'
   ai_stato: da_verificare
@@ -838,7 +838,7 @@
     reed PAN-CHANG SIP-1A05, 1A, package SIP, 4 pin, quantità 5", "interfaccia": "4Pin",
     "quantita": 5, "posizione": "Relay e PU Box", "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/SIP%20Series.pdf",
     "note": "https://www.lcsc.com/product-detail/Reed-Relays_PAN-CHANG-SIP-1A05_C10496.html"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-sn74ls162-171
   categoria: ic-components
@@ -1029,30 +1029,26 @@
     3V, package SMD (SOIC-8 presunto), marcatura W25Q128BVFG; quantità 5.", "interfaccia":
     "QUAD SPI", "quantita": 5, "posizione": "SMD Box", "datasheet_url": "https://www.winbond.com/resource-files/w25q128bv%20revh%2003102016.pdf",
     "note": "3V; Winbond; NOR Flash; non volatile; package SOIC-8 presunto"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: ic-components-w25q128bvmg-181
   categoria: ic-components
   codice: W25Q128BVMG
   quantita: 5
-  descrizione: IC memoria Flash seriale NOR 128Mbit Winbond W25Q128BV, quantità 5,
-    package SMD non specificato nei campi, marcatura W25Q128BVMG, interfaccia Quad
-    SPI, tensione 3V
+  descrizione: SERIAL FLASH MEMORY - 128Mbit, Winbond W25Q128BVMG, package SOIC-8,
+    3V, interfaccia Quad SPI; quantità 5
   interfaccia: QUAD SPI
-  note: 3V (2.7-3.6V), memoria Flash NOR seriale; verificare eventuale suffisso industriale
-    'I' nel codice
-  datasheet_url: https://www.winbond.com/resource-files/w25q128bv%20revg%2003272018%20plus.pdf
+  note: 3V
+  datasheet_url: https://www.scribd.com/document/413276139/datasheet-1-abc
   datasheet_last_check: '2026-10-06'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "W25Q128BVMG", "categoria": "ic-components", "descrizione":
-    "IC memoria Flash seriale NOR 128Mbit Winbond W25Q128BV, quantità 5, package SMD
-    non specificato nei campi, marcatura W25Q128BVMG, interfaccia Quad SPI, tensione
-    3V", "interfaccia": "QUAD SPI", "quantita": 5, "posizione": "SMD Box", "datasheet_url":
-    "https://www.winbond.com/resource-files/w25q128bv%20revg%2003272018%20plus.pdf",
-    "note": "3V (2.7-3.6V), memoria Flash NOR seriale; verificare eventuale suffisso
-    industriale ''I'' nel codice"}'
+    "SERIAL FLASH MEMORY - 128Mbit, Winbond W25Q128BVMG, package SOIC-8, 3V, interfaccia
+    Quad SPI; quantità 5", "interfaccia": "QUAD SPI", "quantita": 5, "posizione":
+    "SMD Box", "datasheet_url": "https://www.scribd.com/document/413276139/datasheet-1-abc",
+    "note": "3V"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-xy8018-182
