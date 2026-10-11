@@ -93,9 +93,10 @@ def merge_duplicate(svc, drv, inv_tab_id, resp_tab_id, vals, idx, n, row, prop, 
         return False
     di = idx.get("quantita", 3)
     new_q = to_int(tgt[di] if di < len(tgt) else 0) + qtd
-    svc.spreadsheets().values().update(
+    _exec(svc.spreadsheets().values().update(
         spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{chr(65 + di)}{match}",
-        valueInputOption="RAW", body={"values": [[str(new_q)]]}).execute()
+        valueInputOption="RAW", body={"values": [[str(new_q)]]}),
+        f"riga {n}: incremento quantita")
     # eredita info utili solo in celle vuote, preservando il colore
     cols = [idx[c] for c in CARRY_COLS if c in idx]
     if cols:
@@ -118,8 +119,9 @@ def merge_duplicate(svc, drv, inv_tab_id, resp_tab_id, vals, idx, n, row, prop, 
                 "rows": [{"values": [cell]}],
                 "fields": "userEnteredValue,userEnteredFormat.textFormat.foregroundColor"}})
         if reqs:
-            svc.spreadsheets().batchUpdate(
-                spreadsheetId=SHEET_ID, body={"requests": reqs}).execute()
+            _exec(svc.spreadsheets().batchUpdate(
+                spreadsheetId=SHEET_ID, body={"requests": reqs}),
+                f"riga {n}: eredita campi duplicato")
     fid = (row[idx["foto_drive_id"]].strip()
            if "foto_drive_id" in idx and idx["foto_drive_id"] < len(row) else "")
     if fid and not archive_file(drv, fid):
@@ -153,14 +155,16 @@ def linked_responses(svc, fid, ts):
 
 def delete_rows(svc, tab_id, rows):
     if rows:
-        svc.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={"requests": [
+        _exec(svc.spreadsheets().batchUpdate(spreadsheetId=SHEET_ID, body={"requests": [
             {"deleteDimension": {"range": {"sheetId": tab_id, "dimension": "ROWS",
                                            "startIndex": k - 1, "endIndex": k}}}
-            for k in sorted(rows, reverse=True)]}).execute()
+            for k in sorted(rows, reverse=True)]}),
+            "elimina righe")
 import base64
 import json
 import os
 import re
+import time
 import uuid
 import requests
 
@@ -189,6 +193,34 @@ TEXT_PROMPT = ("Sei un catalogatore di componenti elettronici. Nessuna foto disp
 # campi della riga inventario usati per la riclassificazione (retry)
 RETRY_COLS = ["categoria", "codice", "quantita", "descrizione", "interfaccia",
               "note", "posizione", "datasheet_url"]
+
+# Throttling scritture Sheet (quota 60 write/min/user): pausa tra le righe
+# che scrivono + retry con backoff su 429/5xx.
+WRITE_PAUSE = float(os.environ.get("SHEETS_WRITE_PAUSE", "1.5") or 1.5)
+WRITE_RETRIES = int(os.environ.get("SHEETS_WRITE_RETRIES", "4") or 4)
+
+
+def _exec(req, what):
+    """Esegue una richiesta Sheets in scrittura con retry su 429/5xx."""
+    delay = 10
+    for att in range(WRITE_RETRIES + 1):
+        try:
+            return req.execute()
+        except Exception as e:
+            code = getattr(getattr(e, "resp", None), "status", 0) or 0
+            if code in (429, 500, 502, 503) and att < WRITE_RETRIES:
+                print(f"{what}: quota/transitorio HTTP {code}, "
+                      f"attendo {delay}s (tentativo {att + 1}).")
+                time.sleep(delay)
+                delay *= 2
+                continue
+            raise
+    raise RuntimeError(f"{what}: retry esauriti")
+
+
+def _paced():
+    if WRITE_PAUSE > 0:
+        time.sleep(WRITE_PAUSE)
 
 
 def slug(s):
@@ -320,8 +352,9 @@ def prefill_gray(svc, tab_id, n, idx, row, prop, overwrite_gray=False):
                 "userEnteredFormat": {"textFormat": {"foregroundColor": GRAY}}}]}],
             "fields": "userEnteredValue,userEnteredFormat.textFormat.foregroundColor"}})
     if reqs:
-        svc.spreadsheets().batchUpdate(
-            spreadsheetId=SHEET_ID, body={"requests": reqs}).execute()
+        _exec(svc.spreadsheets().batchUpdate(
+            spreadsheetId=SHEET_ID, body={"requests": reqs}),
+            f"riga {n}: prefill grigio")
         print(f"riga {n}: precompilati {len(reqs)} campi in grigio.")
 
 
@@ -341,8 +374,9 @@ def finalize_black(svc, tab_id, n, idx, row):
             "fields": "userEnteredFormat.textFormat.foregroundColor"}})
     if reqs:
         try:
-            svc.spreadsheets().batchUpdate(
-                spreadsheetId=SHEET_ID, body={"requests": reqs}).execute()
+            _exec(svc.spreadsheets().batchUpdate(
+                spreadsheetId=SHEET_ID, body={"requests": reqs}),
+                f"riga {n}: testo nero")
             print(f"riga {n}: confermata, testo nero.")
         except Exception as e:
             print(f"riga {n}: reset colore fallito ({e}).")
@@ -475,13 +509,15 @@ def retry_reclassify(svc, drv, tab_id, n, idx, row):
         return False
     col_ai = chr(ord("A") + idx["ai_proposta"])
     col_st = chr(ord("A") + idx["ai_stato"])
-    svc.spreadsheets().values().batchUpdate(
+    _exec(svc.spreadsheets().values().batchUpdate(
         spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
             {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[out[:4000]]]},
             {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
-        ]}).execute()
+        ]}),
+        f"riga {n}: retry proposta")
     print(f"riga {n}: retry riclassificata, proposta aggiornata.")
     prefill_gray(svc, tab_id, n, idx, row, prop, overwrite_gray=True)
+    _paced()
     return True
 
 
@@ -513,20 +549,24 @@ def text_classify_new(svc, drv, tab_id, resp_tab_id, vals, idx, n, row,
     if match is not None and merge_duplicate(
             svc, drv, tab_id, resp_tab_id, vals, idx, n, row, prop, match):
         col_st = chr(ord("A") + idx["ai_stato"])
-        svc.spreadsheets().values().update(
+        _exec(svc.spreadsheets().values().update(
             spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{col_st}{n}",
-            valueInputOption="RAW", body={"values": [["confermato"]]}).execute()
+            valueInputOption="RAW", body={"values": [["confermato"]]}),
+            f"riga {n}: merge confermato")
         pending_deletes.append(n)
+        _paced()
         return True
     col_ai = chr(ord("A") + idx["ai_proposta"])
     col_st = chr(ord("A") + idx["ai_stato"])
-    svc.spreadsheets().values().batchUpdate(
+    _exec(svc.spreadsheets().values().batchUpdate(
         spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
             {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[out[:4000]]]},
             {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
-        ]}).execute()
+        ]}),
+        f"riga {n}: proposta testo")
     print(f"riga {n}: proposta AI testo scritta.")
     prefill_gray(svc, tab_id, n, idx, row, prop)
+    _paced()
     return True
 
 
@@ -550,62 +590,71 @@ def main():
     resp_tab_id = sheet_tab_id(svc, RESP_TAB)
     pending_deletes = []
     for n, r in enumerate(vals[1:], 2):
-        g = lambda c: r[idx[c]] if c in idx and idx[c] < len(r) else ""
-        stato = g("ai_stato").strip()
-        if g("foto_drive_id") and not stato:
-            fid = g("foto_drive_id").strip()
-            try:
-                data = drv.files().get_media(fileId=fid).execute()
-                proposta = vision_llm(data)
-            except Exception as e:
-                print(f"riga {n}: AI fallita ({e}), salto.")
-                continue
-            try:
-                prop = json.loads(proposta)
-            except (json.JSONDecodeError, AttributeError):
-                prop = {}
-            match = (find_match(vals, idx, n, prop.get("categoria", ""),
-                                prop.get("codice", ""), skip=pending_deletes)
-                     if prop else None)
-            if match is not None and merge_duplicate(
-                    svc, drv, tab_id, resp_tab_id, vals, idx, n, r, prop, match):
+        try:
+            g = lambda c: r[idx[c]] if c in idx and idx[c] < len(r) else ""
+            stato = g("ai_stato").strip()
+            if g("foto_drive_id") and not stato:
+                fid = g("foto_drive_id").strip()
+                try:
+                    data = drv.files().get_media(fileId=fid).execute()
+                    proposta = vision_llm(data)
+                except Exception as e:
+                    print(f"riga {n}: AI fallita ({e}), salto.")
+                    continue
+                try:
+                    prop = json.loads(proposta)
+                except (json.JSONDecodeError, AttributeError):
+                    prop = {}
+                match = (find_match(vals, idx, n, prop.get("categoria", ""),
+                                    prop.get("codice", ""), skip=pending_deletes)
+                         if prop else None)
+                if match is not None and merge_duplicate(
+                        svc, drv, tab_id, resp_tab_id, vals, idx, n, r, prop, match):
+                    col_st = chr(ord("A") + idx["ai_stato"])
+                    _exec(svc.spreadsheets().values().update(
+                        spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{col_st}{n}",
+                        valueInputOption="RAW", body={"values": [["confermato"]]}),
+                        f"riga {n}: merge confermato")
+                    pending_deletes.append(n)
+                    _paced()
+                    continue
+                col_ai = chr(ord("A") + idx["ai_proposta"])
                 col_st = chr(ord("A") + idx["ai_stato"])
-                svc.spreadsheets().values().update(
-                    spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{col_st}{n}",
-                    valueInputOption="RAW", body={"values": [["confermato"]]}).execute()
-                pending_deletes.append(n)
-                continue
-            col_ai = chr(ord("A") + idx["ai_proposta"])
-            col_st = chr(ord("A") + idx["ai_stato"])
-            svc.spreadsheets().values().batchUpdate(
-                spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
-                    {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[proposta[:4000]]]},
-                    {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
-                ]}).execute()
-            print(f"riga {n}: proposta AI scritta.")
-            try:
-                prop = json.loads(proposta)
-            except (json.JSONDecodeError, AttributeError):
-                prop = {}
-            if prop:
-                prefill_gray(svc, tab_id, n, idx, r, prop)
-        elif stato == "retry":
-            retry_reclassify(svc, drv, tab_id, n, idx, r)
-        elif stato == "da_verificare" and g("ai_proposta"):
-            try:
-                prop = json.loads(g("ai_proposta"))
-            except (json.JSONDecodeError, AttributeError):
-                continue
-            if prop:
-                prefill_gray(svc, tab_id, n, idx, r, prop)
-        elif (not g("foto_drive_id").strip() and not g("ai_proposta").strip()
-                and stato in ("", "da_verificare")):
-            # nessun foto: classifica dai campi inseriti (codice, descrizione, ...)
-            text_classify_new(svc, drv, tab_id, resp_tab_id, vals, idx, n, r,
-                              pending_deletes)
-        elif stato == "confermato":
-            finalize_black(svc, tab_id, n, idx, r)
-            cleanup_confirmed(svc, drv, tab_id, resp_tab_id, n, idx, r, vals)
+                _exec(svc.spreadsheets().values().batchUpdate(
+                    spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
+                        {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[proposta[:4000]]]},
+                        {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
+                    ]}),
+                    f"riga {n}: proposta vision")
+                print(f"riga {n}: proposta AI scritta.")
+                try:
+                    prop = json.loads(proposta)
+                except (json.JSONDecodeError, AttributeError):
+                    prop = {}
+                if prop:
+                    prefill_gray(svc, tab_id, n, idx, r, prop)
+                _paced()
+            elif stato == "retry":
+                if retry_reclassify(svc, drv, tab_id, n, idx, r):
+                    _paced()
+            elif stato == "da_verificare" and g("ai_proposta"):
+                try:
+                    prop = json.loads(g("ai_proposta"))
+                except (json.JSONDecodeError, AttributeError):
+                    continue
+                if prop:
+                    prefill_gray(svc, tab_id, n, idx, r, prop)
+            elif (not g("foto_drive_id").strip() and not g("ai_proposta").strip()
+                    and stato in ("", "da_verificare")):
+                # nessun foto: classifica dai campi inseriti (codice, descrizione, ...)
+                text_classify_new(svc, drv, tab_id, resp_tab_id, vals, idx, n, r,
+                                  pending_deletes)
+            elif stato == "confermato":
+                finalize_black(svc, tab_id, n, idx, r)
+                cleanup_confirmed(svc, drv, tab_id, resp_tab_id, n, idx, r, vals)
+        except Exception as e:
+            print(f"riga {n}: errore Sheets ({e}), continuo con le altre.")
+            continue
     if pending_deletes:
         # numbering del loop resta valido: eliminazioni solo a fine run
         delete_rows(svc, tab_id, pending_deletes)
