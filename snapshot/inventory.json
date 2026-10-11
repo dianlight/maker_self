@@ -4928,5 +4928,22 @@
     "ai_proposta": "",
     "ai_stato": "",
     "updated_at": "11/10/2026 16.57.33"
+  },
+  {
+    "id": "componenti-4n35",
+    "categoria": "componenti",
+    "codice": "4N35",
+    "quantita": 7,
+    "descrizione": "",
+    "interfaccia": "",
+    "note": "",
+    "datasheet_url": "",
+    "datasheet_last_check": "",
+    "posizione": "Last Drawer",
+    "foto_drive_id": "",
+    "foto_url": "",
+    "ai_proposta": "",
+    "ai_stato": "",
+    "updated_at": "11/10/2026 16.58.19"
   }
 ]
