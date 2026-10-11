@@ -596,21 +596,23 @@
   quantita: 1
   descrizione: Non contact infra temp sensor
   interfaccia: I2C
-  note: Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614. Codice
-    modulo GY-906, possibile alternativa MLX90614 per il sensore.
+  note: Riclassificato come sensore. GY-906 è il modulo breakout del MLX90614; codice
+    modulo GY-906, possibile alternativa/chip MLX90614. Interfaccia I2C. Nessuna foto
+    disponibile.
   datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "GY-906", "categoria": "sensori", "descrizione": "Modulo
-    breakout sensore di temperatura infrarosso senza contatto GY-906 basato su MLX90614;
-    quantità 1; package modulo breakout; interfaccia I2C; nessuna foto disponibile,
-    scritte leggibili non rilevabili.", "interfaccia": "I2C", "quantita": 1, "posizione":
-    "Sensor Box", "datasheet_url": "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf",
-    "note": "Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614.
-    Codice modulo GY-906, possibile alternativa MLX90614 per il sensore."}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "GY-906", "categoria": "sensori", "descrizione": "Sensore
+    di temperatura a infrarossi senza contatto; modulo GY-906 basato su MLX90614,
+    1 pezzo, package breakout, interfaccia I2C. Nessuna foto disponibile: scritte
+    non leggibili, identificazione dai campi inventario.", "interfaccia": "I2C", "quantita":
+    1, "posizione": "Sensor Box", "datasheet_url": "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf",
+    "note": "Riclassificato come sensore. GY-906 è il modulo breakout del MLX90614;
+    codice modulo GY-906, possibile alternativa/chip MLX90614. Interfaccia I2C. Nessuna
+    foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-gy-91-31
   categoria: sensori
@@ -712,14 +714,14 @@
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://c1.neweggimages.com/WebResource/Themes/2005/Nest/logo_424x210.png
+  foto_url: ''
   ai_proposta: '{"codice": "HW-740", "categoria": "sensori", "descrizione": "Sensore
     di presenza a infrarossi (IR), modulo HW-740, 4 pezzi, package non specificato,
     marcatura HW-740.", "interfaccia": "digitale", "quantita": 4, "posizione": "Sensor
     Box", "datasheet_url": "", "note": "Il datasheet fornito è generico Honeywell
     e non specifico per HW-740. HW-740 è tipicamente un modulo sensore IR di presenza;
     verificare tensione di alimentazione e pinout."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: sensori-ina226-36
   categoria: sensori
