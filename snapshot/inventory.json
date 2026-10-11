@@ -166,7 +166,7 @@
     "foto_drive_id": "",
     "foto_url": "https://m.media-amazon.com/images/I/61gUkDoHh-L.jpg",
     "ai_proposta": "{\"codice\": \"A3144\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di effetto Hall unipolare A3144, package TO-92S, uscita digitale open collector, quantita visibile/riferita 10 pezzi\", \"interfaccia\": \"3 pin: VCC, GND, OUT (digitale open collector)\", \"quantita\": 10, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf\", \"note\": \"Riclassificato dalla riga inventario senza foto disponibili. Categoria confermata: sensori. A3144 è un sensore Hall switch unipolare; la sigla indicata è compatibile con la famiglia A3141/A3142/A3143/A3144.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {

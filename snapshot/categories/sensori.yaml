@@ -207,7 +207,7 @@
     dalla riga inventario senza foto disponibili. Categoria confermata: sensori. A3144
     è un sensore Hall switch unipolare; la sigla indicata è compatibile con la famiglia
     A3141/A3142/A3143/A3144."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-acs-758-12
   categoria: sensori
