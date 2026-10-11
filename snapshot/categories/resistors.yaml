@@ -119,3 +119,468 @@
     "note": "Riclassificato da resistors a sensori: è un sensore di luce/LDR."}'
   ai_stato: da_verificare
   updated_at: ''
+- id: resistors-10
+  categoria: resistors
+  codice: '10'
+  quantita: 20
+  descrizione: Resistore through-hole 10
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-22
+  categoria: resistors
+  codice: '22'
+  quantita: 20
+  descrizione: Resistore through-hole 22
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-47
+  categoria: resistors
+  codice: '47'
+  quantita: 20
+  descrizione: Resistore through-hole 47
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-68
+  categoria: resistors
+  codice: '68'
+  quantita: 20
+  descrizione: Resistore through-hole 68
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-100
+  categoria: resistors
+  codice: '100'
+  quantita: 20
+  descrizione: Resistore through-hole 100
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-150
+  categoria: resistors
+  codice: '150'
+  quantita: 20
+  descrizione: Resistore through-hole 150
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-200
+  categoria: resistors
+  codice: '200'
+  quantita: 20
+  descrizione: Resistore through-hole 200
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-220
+  categoria: resistors
+  codice: '220'
+  quantita: 20
+  descrizione: Resistore through-hole 220
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-270
+  categoria: resistors
+  codice: '270'
+  quantita: 20
+  descrizione: Resistore through-hole 270
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-330
+  categoria: resistors
+  codice: '330'
+  quantita: 20
+  descrizione: Resistore through-hole 330
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-470
+  categoria: resistors
+  codice: '470'
+  quantita: 20
+  descrizione: Resistore through-hole 470
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-510
+  categoria: resistors
+  codice: '510'
+  quantita: 20
+  descrizione: Resistore through-hole 510
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-680
+  categoria: resistors
+  codice: '680'
+  quantita: 20
+  descrizione: Resistore through-hole 680
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-1k
+  categoria: resistors
+  codice: 1k
+  quantita: 20
+  descrizione: Resistore through-hole 1k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-2k
+  categoria: resistors
+  codice: 2k
+  quantita: 20
+  descrizione: Resistore through-hole 2k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-2k2
+  categoria: resistors
+  codice: 2k2
+  quantita: 20
+  descrizione: Resistore through-hole 2k2
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-3k
+  categoria: resistors
+  codice: 3k
+  quantita: 20
+  descrizione: Resistore through-hole 3k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-4k7
+  categoria: resistors
+  codice: 4k7
+  quantita: 20
+  descrizione: Resistore through-hole 4k7
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-5k1
+  categoria: resistors
+  codice: 5k1
+  quantita: 20
+  descrizione: Resistore through-hole 5k1
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-6k8
+  categoria: resistors
+  codice: 6k8
+  quantita: 20
+  descrizione: Resistore through-hole 6k8
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-10k
+  categoria: resistors
+  codice: 10k
+  quantita: 20
+  descrizione: Resistore through-hole 10k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-20k
+  categoria: resistors
+  codice: 20k
+  quantita: 20
+  descrizione: Resistore through-hole 20k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-47k
+  categoria: resistors
+  codice: 47k
+  quantita: 20
+  descrizione: Resistore through-hole 47k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-51k
+  categoria: resistors
+  codice: 51k
+  quantita: 20
+  descrizione: Resistore through-hole 51k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-68k
+  categoria: resistors
+  codice: 68k
+  quantita: 20
+  descrizione: Resistore through-hole 68k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-100k
+  categoria: resistors
+  codice: 100k
+  quantita: 20
+  descrizione: Resistore through-hole 100k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-220k
+  categoria: resistors
+  codice: 220k
+  quantita: 20
+  descrizione: Resistore through-hole 220k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-300k
+  categoria: resistors
+  codice: 300k
+  quantita: 20
+  descrizione: Resistore through-hole 300k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-470k
+  categoria: resistors
+  codice: 470k
+  quantita: 20
+  descrizione: Resistore through-hole 470k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-680k
+  categoria: resistors
+  codice: 680k
+  quantita: 20
+  descrizione: Resistore through-hole 680k
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
+- id: resistors-1m
+  categoria: resistors
+  codice: 1m
+  quantita: 20
+  descrizione: Resistore through-hole 1m
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: V Resistor Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:37:29.930660+00:00'
