@@ -26,11 +26,24 @@ function onFormSubmitTrigger() {
 }
 
 function onEditTrigger(e) {
+  if (handleReviewAction(e)) return;
   const r = e && e.range;
   if (!r) return;
-  if (r.getSheet().getName() !== "inventario" || r.getColumn() !== 13) return; // M
-  const v = String(r.getValue());
+  const sheet = r.getSheet();
+  if (!sheet || sheet.getName() !== "inventario") return;
+  // Colonna ai_stato risolta per nome header (non per lettera fissa).
+  let isStato = false;
+  try {
+    const hr = findHeaderRow(sheet);
+    if (r.getRow() <= hr) return;
+    isStato = normHeader(sheet.getRange(hr, r.getColumn()).getValue()) === "ai_stato";
+  } catch (err) {
+    isStato = (r.getColumn() === 14); // fallback N
+  }
+  if (!isStato) return;
+  const v = String(r.getValue()).trim().toLowerCase();
   if (v === "confermato" || v === "scartato" || v === "retry") {
     dispatch("sheet-confirmed");
+    try { syncAcceptBoxes(); } catch (err) { console.log("syncAccept " + err.message); }
   }
 }
