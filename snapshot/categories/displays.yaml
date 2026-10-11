@@ -281,5 +281,5 @@
     "interfaccia": "multiplexed 7-segment", "quantita": 5, "posizione": "Last Drawer",
     "datasheet_url": "", "note": "Riclassificato dai campi della riga inventario.
     Verificare package, comune anodo/catodo e datasheet."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 17.14.47

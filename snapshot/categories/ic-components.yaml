@@ -1145,7 +1145,7 @@
     "", "quantita": 10, "posizione": "Last Drawer", "datasheet_url": "https://www.farnell.com/datasheets/2007824.pdf",
     "note": "Riclassificato: categoria originale ''componenti'' errata; optoisolatore
     classificato come ic-components. Package DIP-4."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 16.57.33
 - id: componenti-4n35
   categoria: ic-components
@@ -1165,7 +1165,7 @@
     dai campi della riga inventario.", "interfaccia": "DIP-6", "quantita": 7, "posizione":
     "Last Drawer", "datasheet_url": "https://www.vishay.com/docs/81181/4n35.pdf",
     "note": "Riclassificato da ''componenti'' a ''ic-components''."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 16.58.19
 - id: componenti-moc3051
   categoria: ic-components
@@ -1187,7 +1187,7 @@
     9, "posizione": "Last Drawer", "datasheet_url": "https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf",
     "note": "Riclassificato da ''componenti'' a ''ic-components'' in base al codice
     MOC3051. Componente optoisolatore/triac driver, 6 pin DIP, random phase."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 16.58.48
 - id: na-hpcl3700
   categoria: ic-components
@@ -1211,7 +1211,7 @@
     "datasheet_url": "https://docs.broadcom.com/doc/AV02-0391EN", "note": "Riclassificato
     da categoria ''componenti'' a ''ic-components''. Codice corretto da HPCL3700 a
     HCPL-3700."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 16.59.14
 - id: componenti-pc8170
   categoria: ic-components
@@ -1233,7 +1233,7 @@
     "datasheet_url": "https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf",
     "note": "Nessuna foto: riclassificato dai campi. Codice originale ''PC8170'' interpretato
     come ''PC817'' (optoisolatore Sharp). Categoria corretta da ''componenti'' a ''ic-components''."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 16.59.46
 - id: na-lm317t
   categoria: ic-components
@@ -1257,111 +1257,6 @@
     Nessuna foto disponibile."}'
   ai_stato: confermato
   updated_at: 11/10/2026 17.10.59
-- id: na-lm2576
-  categoria: ic-components
-  codice: TLP627
-  quantita: 10
-  descrizione: Optoisolatore TLP627 (fotocoupler), package DIP-4, quantità 10
-  interfaccia: TO-220-5
-  note: Componente a semiconduttore; riclassificato da componenti a ic-components.
-  datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "TLP627", "categoria": "ic-components", "descrizione":
-    "Optoisolatore TLP627 (fotocoupler), package DIP-4, quantità 10", "interfaccia":
-    "", "quantita": 10, "posizione": "Last Drawer", "datasheet_url": "https://www.farnell.com/datasheets/2007824.pdf",
-    "note": "Componente a semiconduttore; riclassificato da componenti a ic-components."}'
-  ai_stato: da_verificare
-  updated_at: 11/10/2026 17.11.19
-- id: na-tc4058a
-  categoria: ic-components
-  codice: 4N35
-  quantita: 5
-  descrizione: Optocoupler/optoisolatore 4N35 con uscita a fototransistor, package
-    DIP-6; quantita 7 pezzi.
-  interfaccia: ''
-  note: Riclassificato da componenti a ic-components.
-  datasheet_url: https://www.vishay.com/docs/81181/4n35.pdf
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "4N35", "categoria": "ic-components", "descrizione": "Optocoupler/optoisolatore
-    4N35 con uscita a fototransistor, package DIP-6; quantita 7 pezzi.", "interfaccia":
-    "", "quantita": 7, "posizione": "Last Drawer", "datasheet_url": "https://www.vishay.com/docs/81181/4n35.pdf",
-    "note": "Riclassificato da componenti a ic-components."}'
-  ai_stato: da_verificare
-  updated_at: 11/10/2026 17.12.22
-- id: na-le33
-  categoria: ic-components
-  codice: MOC3051
-  quantita: 8
-  descrizione: Optoisolatore/optotriac MOC3051, package DIP-6, 6 pin, driver triac,
-    9 pezzi in inventario, nessuna foto disponibile
-  interfaccia: DIP-6
-  note: Riclassificato da categoria componenti a ic-components; componente IC optoelettronico
-    per pilotaggio triac.
-  datasheet_url: https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "MOC3051", "categoria": "ic-components", "descrizione":
-    "Optoisolatore/optotriac MOC3051, package DIP-6, 6 pin, driver triac, 9 pezzi
-    in inventario, nessuna foto disponibile", "interfaccia": "DIP-6", "quantita":
-    9, "posizione": "Last Drawer", "datasheet_url": "https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf",
-    "note": "Riclassificato da categoria componenti a ic-components; componente IC
-    optoelettronico per pilotaggio triac."}'
-  ai_stato: da_verificare
-  updated_at: 11/10/2026 17.13.10
-- id: na-ams1117
-  categoria: ic-components
-  codice: HCPL3700
-  quantita: 5
-  descrizione: Optoaccoppiatore/sensore di tensione isolato AC/DC, package DIP-8,
-    quantità 10, marcatura HCPL-3700.
-  interfaccia: logica
-  note: Codice originale 'HPCL3700' probabile refuso per HCPL3700 (HCPL-3700). Verificare
-    corrispondenza esatta e package.
-  datasheet_url: https://docs.broadcom.com/doc/AV02-0390EN
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "HCPL3700", "categoria": "ic-components", "descrizione":
-    "Optoaccoppiatore/sensore di tensione isolato AC/DC, package DIP-8, quantità 10,
-    marcatura HCPL-3700.", "interfaccia": "logica", "quantita": 10, "posizione": "Last
-    Drawer", "datasheet_url": "https://docs.broadcom.com/doc/AV02-0390EN", "note":
-    "Codice originale ''HPCL3700'' probabile refuso per HCPL3700 (HCPL-3700). Verificare
-    corrispondenza esatta e package."}'
-  ai_stato: da_verificare
-  updated_at: 11/10/2026 17.13.44
-- id: na-lm2596
-  categoria: ic-components
-  codice: PC817
-  quantita: 3
-  descrizione: 'Optoisolatore/optocoupler a 1 canale, package DIP-4, 30 pezzi. Riga
-    inventario: codice PC8170, quantità 30, posizione Last Drawer. Nessuna foto disponibile;
-    probabile refuso PC8170 -> PC817.'
-  interfaccia: DIP-4
-  note: 'Riclassificato da componenti a ic-components. Verificare codice e package:
-    probabile PC817 (optocoupler Sharp) e non PC8170.'
-  datasheet_url: https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "PC817", "categoria": "ic-components", "descrizione": "Optoisolatore/optocoupler
-    a 1 canale, package DIP-4, 30 pezzi. Riga inventario: codice PC8170, quantità
-    30, posizione Last Drawer. Nessuna foto disponibile; probabile refuso PC8170 ->
-    PC817.", "interfaccia": "DIP-4", "quantita": 30, "posizione": "Last Drawer", "datasheet_url":
-    "https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf", "note":
-    "Riclassificato da componenti a ic-components. Verificare codice e package: probabile
-    PC817 (optocoupler Sharp) e non PC8170."}'
-  ai_stato: da_verificare
-  updated_at: 11/10/2026 17.14.07
 - id: na-na-6
   categoria: ic-components
   codice: MC34963AP
@@ -1382,7 +1277,7 @@
     "Last Drawer", "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm317.pdf",
     "note": "Riclassificato dalla riga inventario; componente IC analogico, non sensore.
     Verificare eventuale sigla produttore (es. ST/ON/TI)."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 17.17.52
 - id: na-lm317
   categoria: ic-components
@@ -1405,7 +1300,7 @@
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm2576.pdf", "note": "Riclassificato
     dalla riga inventario: codice LM2576, quantità 10, posizione Last Drawer. Nessuna
     foto disponibile."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 17.18.16
 - id: na-mt3608
   categoria: ic-components
@@ -1427,7 +1322,7 @@
     "posizione": "Last Drawer", "datasheet_url": "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf",
     "note": "Nessuna foto disponibile. Riclassificato dalla riga inventario: codice
     MT3608, quantità 5, posizione Last Drawer. Presunto IC boost converter SOT23-6."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 17.18.58
 - id: na-hw-668
   categoria: ic-components
@@ -1447,7 +1342,7 @@
     8", "interfaccia": "", "quantita": 8, "posizione": "Last Drawer", "datasheet_url":
     "https://www.st.com/resource/en/datasheet/le33.pdf", "note": "Riclassificato da
     riga inventario: componente attivo, regolatore LDO 3.3V."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 17.19.19
 - id: na-ams117
   categoria: ic-components
@@ -1468,5 +1363,5 @@
     "Last Drawer", "datasheet_url": "https://www.advanced-monolithic.com/pdf/ds1117.pdf",
     "note": "Componente riclassificato: regolatore di tensione lineare, non sensore.
     Verificare tensione di uscita (3.3V, 5V, ADJ)."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 11/10/2026 17.19.51
