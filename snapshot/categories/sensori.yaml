@@ -1076,7 +1076,7 @@
     "note": "Riclassificato: codice errato DS18820 -> DS18B20; categoria sensori.
     Descrizione originale riporta ''Eaterproof'' invece di Waterproof e ''100cm stainless
     steel 1m cable''. Corretto e integrato con dettagli visibili in foto."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: 03/10/2026 18.46.59
 - id: na-na-5
   categoria: sensori
