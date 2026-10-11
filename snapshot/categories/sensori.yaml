@@ -707,21 +707,20 @@
   quantita: 4
   descrizione: IR Presence Sensor
   interfaccia: digitale
-  note: Il datasheet fornito è generico Honeywell e non specifico per HW-740. HW-740
-    è tipicamente un modulo sensore IR di presenza; verificare tensione di alimentazione
-    e pinout.
+  note: Il datasheet Honeywell fornito è generico e non specifico per HW-740; nessun
+    datasheet specifico verificato. Verificare tensione di alimentazione e pinout.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "HW-740", "categoria": "sensori", "descrizione": "Sensore
-    di presenza a infrarossi (IR), modulo HW-740, 4 pezzi, package non specificato,
-    marcatura HW-740.", "interfaccia": "digitale", "quantita": 4, "posizione": "Sensor
-    Box", "datasheet_url": "", "note": "Il datasheet fornito è generico Honeywell
-    e non specifico per HW-740. HW-740 è tipicamente un modulo sensore IR di presenza;
-    verificare tensione di alimentazione e pinout."}'
-  ai_stato: retry
+  ai_proposta: '{"codice": "HW-740", "categoria": "sensori", "descrizione": "Modulo
+    sensore IR di presenza/ostacolo, uscita digitale, package modulo PCB, codice HW-740,
+    quantità 4 (da inventario).", "interfaccia": "digitale", "quantita": 4, "posizione":
+    "Sensor Box", "datasheet_url": "", "note": "Il datasheet Honeywell fornito è generico
+    e non specifico per HW-740; nessun datasheet specifico verificato. Verificare
+    tensione di alimentazione e pinout."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ina226-36
   categoria: sensori
@@ -967,42 +966,50 @@
   categoria: sensori
   codice: OWC 236
   quantita: 1
-  descrizione: Omnidirectional Microphone
+  descrizione: Microfono omnidirezionale OWC 236, 1 pezzo, package non visibile, probabilmente
+    electret condenser, sigla OWC 236 leggibile dai campi inventario.
   interfaccia: analogico
   note: 'Riclassificato dalla riga inventario: microfono omnidirezionale, categoria
-    sensori. Interfaccia analogica ipotizzata.'
+    sensori. Interfaccia analogica ipotizzata. Nessuna foto disponibile; package non
+    determinabile.'
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
   datasheet_last_check: '2026-10-01'
   posizione: ''
   foto_drive_id: ''
-  foto_url: https://www.icomjapan.com/media/images/common/ogp_en.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "OWC 236", "categoria": "sensori", "descrizione": "Microfono
-    omnidirezionale OWC 236, componente acustico/sensore, quantità 1, package non
-    specificato; nessuna foto disponibile.", "interfaccia": "analogico", "quantita":
-    1, "posizione": "", "datasheet_url": "https://www.farnell.com/datasheets/1920625.pdf",
+    omnidirezionale OWC 236, 1 pezzo, package non visibile, probabilmente electret
+    condenser, sigla OWC 236 leggibile dai campi inventario.", "interfaccia": "analogico",
+    "quantita": 1, "posizione": "", "datasheet_url": "https://www.farnell.com/datasheets/1920625.pdf",
     "note": "Riclassificato dalla riga inventario: microfono omnidirezionale, categoria
-    sensori. Interfaccia analogica ipotizzata."}'
+    sensori. Interfaccia analogica ipotizzata. Nessuna foto disponibile; package non
+    determinabile."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-p100-48
   categoria: sensori
   codice: P100
   quantita: 2
-  descrizione: Temperature sensor
+  descrizione: 'Sensore di temperatura, probabile Pt100; dalla riga inventario: descrizione
+    ''Temperature sensor'', codice P100, quantità 2, package non specificato, interfaccia
+    analogica/resistiva. Nessuna foto disponibile.'
   interfaccia: analogica/resistiva
   note: 'Riclassificazione dalla riga inventario: categoria sensori confermata. Codice
-    P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile.'
+    P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile; dati basati
+    solo sui campi della riga.'
   datasheet_url: https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://www.polyscience.com/media/ilwfivnr/ps_logo.png?width=1200&amp;height=630&amp;rnd=133050635806030000
+  foto_url: ''
   ai_proposta: '{"codice": "P100", "categoria": "sensori", "descrizione": "Sensore
-    di temperatura, probabile Pt100/P100, quantità 2, package non specificato, nessuna
-    scritta leggibile; datasheet Stoerk-Tronic 900001_030", "interfaccia": "analogica/resistiva",
-    "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf",
+    di temperatura, probabile Pt100; dalla riga inventario: descrizione ''Temperature
+    sensor'', codice P100, quantità 2, package non specificato, interfaccia analogica/resistiva.
+    Nessuna foto disponibile.", "interfaccia": "analogica/resistiva", "quantita":
+    2, "posizione": "Sensor Box", "datasheet_url": "https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf",
     "note": "Riclassificazione dalla riga inventario: categoria sensori confermata.
-    Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile."}'
+    Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile;
+    dati basati solo sui campi della riga."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ph-4502c-49
@@ -1052,19 +1059,24 @@
   categoria: sensori
   codice: RP-C7.6-LT
   quantita: 1
-  descrizione: Force Sensitive Resistor
-  interfaccia: '?'
-  note: 20g to 1.5kg
+  descrizione: Force Sensitive Resistor (FSR), sensore di forza a film sottile, 1
+    pezzo visibile nei campi inventario; package piatto/flessibile, sigla RP-C7.6-LT,
+    range di forza 20g-1.5kg
+  interfaccia: analogico
+  note: 20g to 1.5kg; resistenza variabile con la forza applicata, richiede tipicamente
+    un partitore di tensione per lettura analogica
   datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf
   datasheet_last_check: '2026-10-01'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: https://digilogelectronics.com/wp-content/uploads/2025/09/digilogelectronics-logo.png
+  foto_url: ''
   ai_proposta: '{"codice": "RP-C7.6-LT", "categoria": "sensori", "descrizione": "Force
-    Sensitive Resistor (FSR), sensore di forza resistivo, modello RP-C7.6-LT, range
-    20g-1.5kg, package piatto/lineare; nessuna foto disponibile", "interfaccia": "analogico
-    (resistivo)", "quantita": 1, "posizione": "V Resistor Box", "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf",
-    "note": "20g to 1.5kg; FSR resistivo analogico; datasheet riferito a DFRobot SEN0298"}'
+    Sensitive Resistor (FSR), sensore di forza a film sottile, 1 pezzo visibile nei
+    campi inventario; package piatto/flessibile, sigla RP-C7.6-LT, range di forza
+    20g-1.5kg", "interfaccia": "analogico", "quantita": "1", "posizione": "V Resistor
+    Box", "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf",
+    "note": "20g to 1.5kg; resistenza variabile con la forza applicata, richiede tipicamente
+    un partitore di tensione per lettura analogica"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-rp-s5-st-52
@@ -1099,7 +1111,7 @@
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://images.ctfassets.net/b3qyjbtna6pj/6s4EHioVVa8X0pt5SWA2Ya/02b9c1294a273382bc6367a70b2ff841/APEM-FAQ-92-1536x864.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "VS2", "categoria": "sensori", "descrizione": "Interruttore
     di shock/vibrazione (Shock Switch) Murphy VS2, quantità 1, package non desumibile
     dalla riga, scritta leggibile: VS2", "interfaccia": "SPDT (contatti elettrici)",
@@ -1107,7 +1119,7 @@
     "note": "Riclassificato dalla riga: categoria originale sensori confermata; codice
     originale ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
     di rilevamento vibrazioni/shock."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: sensori-small-sound-54
   categoria: sensori
@@ -1121,7 +1133,7 @@
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://cdn.mos.cms.futurecdn.net/duaRKvMTHQonkB23LRUEgd-2048-80.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "MIC-RESOUND-MINI", "categoria": "sensori", "descrizione":
     "Microfono remoto/accessorio ReSound Mini Microphone per apparecchi acustici;
     quantità 2; package non visibile; nessuna scritta leggibile oltre al nome dal
@@ -1129,7 +1141,7 @@
     "datasheet_url": "https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf",
     "note": "Codice attuale ''Small Sound'' non standard e riclassificato; verificare
     se accessorio o componente. Categoria sensori per microfono."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: sensori-zmct103c-55
   categoria: sensori
@@ -1201,7 +1213,7 @@
   datasheet_last_check: '2026-10-02'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: https://www.ametherm.com/wp-content/uploads/2024/01/NTC-and-RTD.png
+  foto_url: ''
   ai_proposta: '{"codice": "TDS+NTC-10K", "categoria": "sensori", "descrizione": "Sonda
     combinata TDS + NTC 10K per misura di conducibilità e temperatura; quantità 1;
     package tipo sonda/elettrodo; scritte non leggibili perché nessuna foto disponibile.",
@@ -1209,7 +1221,7 @@
     "https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf",
     "note": "Sonda manca controller TDS. NTC da 10K. Datasheet fornito riferito a
     termistori TCS, non specifico per la parte TDS."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: sensori-temt6000-59
   categoria: sensori
@@ -1345,14 +1357,14 @@
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png
+  foto_url: ''
   ai_proposta: '{"codice": "WCMCU", "categoria": "sensori", "descrizione": "Modulo
     sensore di velocità a infrarossi (IR speed sensor), package modulo PCB, quantità
     2, scritta WCMCU.", "interfaccia": "Digitale (DO)", "quantita": 2, "posizione":
     "Sensor Box", "datasheet_url": "https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html",
     "note": "Codice inventario WCMCU; possibile modulo compatibile FC-03/LM393. Sensore
     a forca ottica per rilevamento velocità/rotazione."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: sensori-xfw-hx711-66
   categoria: sensori

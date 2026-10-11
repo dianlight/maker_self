@@ -219,13 +219,13 @@
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
-  foto_url: https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png
+  foto_url: ''
   ai_proposta: '{"codice": "nRF24L01", "categoria": "comunication", "descrizione":
     "Modulo transceiver 2.4GHz nRF24L01, package modulo, interfaccia SPI, connettore
     antenna IPEX; quantità 6", "interfaccia": "SPI", "quantita": 6, "posizione": "Io
     Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
     "note": "Antenna IPEX; codice originale riga: nFR24"}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: comunication-nfr24-84
   categoria: comunication
@@ -238,13 +238,13 @@
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
-  foto_url: https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png
+  foto_url: ''
   ai_proposta: '{"codice": "nRF24L01+", "categoria": "comunication", "descrizione":
     "Modulo transceiver 2.4GHz nRF24L01+ con antenna interna, interfaccia SPI. Package:
     modulo PCB. Scritte leggibili: nRF24L01+, 2.4GHz. Quantità: 4.", "interfaccia":
     "SPI", "quantita": 4, "posizione": "Io Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
     "note": "Antenna interna"}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: comunication-nfr24-adapter-85
   categoria: comunication
@@ -259,14 +259,14 @@
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
-  foto_url: https://www.electromaker.io/images/icons/twitter-footer-logo-2025.png
+  foto_url: ''
   ai_proposta: '{"codice": "nRF24 Adapter", "categoria": "comunication", "descrizione":
     "Adattatore per modulo nRF24L01, interfaccia SPI, quantità 2", "interfaccia":
     "SPI", "quantita": 2, "posizione": "Io Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
     "note": "Riclassificato dalla riga: categoria confermata come comunicazione; codice
     corretto da ''nFR24 Adapter'' a ''nRF24 Adapter''; datasheet riferito al modulo
     nRF24L01, non specifico per l''adattatore."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: comunication-rf96-86
   categoria: comunication
@@ -542,7 +542,7 @@
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
-  foto_url: https://stef-aap.github.io/RFLink-ESP/433%20MHz%20Transceivers_files/image0.png
+  foto_url: ''
   ai_proposta: '{"codice": "RXB6", "categoria": "comunication", "descrizione": "Modulo
     ricevitore RF RXB6 a 433MHz (433.92MHz), 1 pezzo, package modulo 4 pin, marcatura
     RXB6/433MHz (dedotto da codice e datasheet).", "interfaccia": "4 pin: ANT, GND,
@@ -551,7 +551,7 @@
     "note": "Riclassificato da campi inventario: categoria comunication confermata;
     codice corretto da RBX6 a RXB6; descrizione ''433Mhx'' ampliata. Nessuna foto
     disponibile."}'
-  ai_stato: da_verificare
+  ai_stato: retry
   updated_at: ''
 - id: comunication-ra-02-ai-thinker-lora-sx1278-433mhz
   categoria: comunication

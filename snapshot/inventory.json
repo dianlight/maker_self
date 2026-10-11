@@ -567,14 +567,14 @@
     "quantita": 4,
     "descrizione": "IR Presence Sensor",
     "interfaccia": "digitale",
-    "note": "Il datasheet fornito è generico Honeywell e non specifico per HW-740. HW-740 è tipicamente un modulo sensore IR di presenza; verificare tensione di alimentazione e pinout.",
+    "note": "Il datasheet Honeywell fornito è generico e non specifico per HW-740; nessun datasheet specifico verificato. Verificare tensione di alimentazione e pinout.",
     "datasheet_url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false",
     "datasheet_last_check": "2026-10-11",
     "posizione": "Sensor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "{\"codice\": \"HW-740\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di presenza a infrarossi (IR), modulo HW-740, 4 pezzi, package non specificato, marcatura HW-740.\", \"interfaccia\": \"digitale\", \"quantita\": 4, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"\", \"note\": \"Il datasheet fornito è generico Honeywell e non specifico per HW-740. HW-740 è tipicamente un modulo sensore IR di presenza; verificare tensione di alimentazione e pinout.\"}",
-    "ai_stato": "retry",
+    "ai_proposta": "{\"codice\": \"HW-740\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo sensore IR di presenza/ostacolo, uscita digitale, package modulo PCB, codice HW-740, quantità 4 (da inventario).\", \"interfaccia\": \"digitale\", \"quantita\": 4, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"\", \"note\": \"Il datasheet Honeywell fornito è generico e non specifico per HW-740; nessun datasheet specifico verificato. Verificare tensione di alimentazione e pinout.\"}",
+    "ai_stato": "da_verificare",
     "updated_at": ""
   },
   {
@@ -769,15 +769,15 @@
     "categoria": "sensori",
     "codice": "OWC 236",
     "quantita": 1,
-    "descrizione": "Omnidirectional Microphone",
+    "descrizione": "Microfono omnidirezionale OWC 236, 1 pezzo, package non visibile, probabilmente electret condenser, sigla OWC 236 leggibile dai campi inventario.",
     "interfaccia": "analogico",
-    "note": "Riclassificato dalla riga inventario: microfono omnidirezionale, categoria sensori. Interfaccia analogica ipotizzata.",
+    "note": "Riclassificato dalla riga inventario: microfono omnidirezionale, categoria sensori. Interfaccia analogica ipotizzata. Nessuna foto disponibile; package non determinabile.",
     "datasheet_url": "https://www.farnell.com/datasheets/1920625.pdf",
     "datasheet_last_check": "2026-10-01",
     "posizione": "",
     "foto_drive_id": "",
-    "foto_url": "https://www.icomjapan.com/media/images/common/ogp_en.jpg",
-    "ai_proposta": "{\"codice\": \"OWC 236\", \"categoria\": \"sensori\", \"descrizione\": \"Microfono omnidirezionale OWC 236, componente acustico/sensore, quantità 1, package non specificato; nessuna foto disponibile.\", \"interfaccia\": \"analogico\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"https://www.farnell.com/datasheets/1920625.pdf\", \"note\": \"Riclassificato dalla riga inventario: microfono omnidirezionale, categoria sensori. Interfaccia analogica ipotizzata.\"}",
+    "foto_url": "",
+    "ai_proposta": "{\"codice\": \"OWC 236\", \"categoria\": \"sensori\", \"descrizione\": \"Microfono omnidirezionale OWC 236, 1 pezzo, package non visibile, probabilmente electret condenser, sigla OWC 236 leggibile dai campi inventario.\", \"interfaccia\": \"analogico\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"https://www.farnell.com/datasheets/1920625.pdf\", \"note\": \"Riclassificato dalla riga inventario: microfono omnidirezionale, categoria sensori. Interfaccia analogica ipotizzata. Nessuna foto disponibile; package non determinabile.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -786,15 +786,15 @@
     "categoria": "sensori",
     "codice": "P100",
     "quantita": 2,
-    "descrizione": "Temperature sensor",
+    "descrizione": "Sensore di temperatura, probabile Pt100; dalla riga inventario: descrizione 'Temperature sensor', codice P100, quantità 2, package non specificato, interfaccia analogica/resistiva. Nessuna foto disponibile.",
     "interfaccia": "analogica/resistiva",
-    "note": "Riclassificazione dalla riga inventario: categoria sensori confermata. Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile.",
+    "note": "Riclassificazione dalla riga inventario: categoria sensori confermata. Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile; dati basati solo sui campi della riga.",
     "datasheet_url": "https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf",
     "datasheet_last_check": "2026-10-01",
     "posizione": "Sensor Box",
     "foto_drive_id": "",
-    "foto_url": "https://www.polyscience.com/media/ilwfivnr/ps_logo.png?width=1200&amp;height=630&amp;rnd=133050635806030000",
-    "ai_proposta": "{\"codice\": \"P100\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di temperatura, probabile Pt100/P100, quantità 2, package non specificato, nessuna scritta leggibile; datasheet Stoerk-Tronic 900001_030\", \"interfaccia\": \"analogica/resistiva\", \"quantita\": 2, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf\", \"note\": \"Riclassificazione dalla riga inventario: categoria sensori confermata. Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile.\"}",
+    "foto_url": "",
+    "ai_proposta": "{\"codice\": \"P100\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di temperatura, probabile Pt100; dalla riga inventario: descrizione 'Temperature sensor', codice P100, quantità 2, package non specificato, interfaccia analogica/resistiva. Nessuna foto disponibile.\", \"interfaccia\": \"analogica/resistiva\", \"quantita\": 2, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf\", \"note\": \"Riclassificazione dalla riga inventario: categoria sensori confermata. Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile; dati basati solo sui campi della riga.\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -837,15 +837,15 @@
     "categoria": "sensori",
     "codice": "RP-C7.6-LT",
     "quantita": 1,
-    "descrizione": "Force Sensitive Resistor",
-    "interfaccia": "?",
-    "note": "20g to 1.5kg",
+    "descrizione": "Force Sensitive Resistor (FSR), sensore di forza a film sottile, 1 pezzo visibile nei campi inventario; package piatto/flessibile, sigla RP-C7.6-LT, range di forza 20g-1.5kg",
+    "interfaccia": "analogico",
+    "note": "20g to 1.5kg; resistenza variabile con la forza applicata, richiede tipicamente un partitore di tensione per lettura analogica",
     "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf",
     "datasheet_last_check": "2026-10-01",
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
-    "foto_url": "https://digilogelectronics.com/wp-content/uploads/2025/09/digilogelectronics-logo.png",
-    "ai_proposta": "{\"codice\": \"RP-C7.6-LT\", \"categoria\": \"sensori\", \"descrizione\": \"Force Sensitive Resistor (FSR), sensore di forza resistivo, modello RP-C7.6-LT, range 20g-1.5kg, package piatto/lineare; nessuna foto disponibile\", \"interfaccia\": \"analogico (resistivo)\", \"quantita\": 1, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf\", \"note\": \"20g to 1.5kg; FSR resistivo analogico; datasheet riferito a DFRobot SEN0298\"}",
+    "foto_url": "",
+    "ai_proposta": "{\"codice\": \"RP-C7.6-LT\", \"categoria\": \"sensori\", \"descrizione\": \"Force Sensitive Resistor (FSR), sensore di forza a film sottile, 1 pezzo visibile nei campi inventario; package piatto/flessibile, sigla RP-C7.6-LT, range di forza 20g-1.5kg\", \"interfaccia\": \"analogico\", \"quantita\": \"1\", \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf\", \"note\": \"20g to 1.5kg; resistenza variabile con la forza applicata, richiede tipicamente un partitore di tensione per lettura analogica\"}",
     "ai_stato": "da_verificare",
     "updated_at": ""
   },
@@ -878,9 +878,9 @@
     "datasheet_last_check": "2026-10-02",
     "posizione": "Sensor Box",
     "foto_drive_id": "",
-    "foto_url": "https://images.ctfassets.net/b3qyjbtna6pj/6s4EHioVVa8X0pt5SWA2Ya/02b9c1294a273382bc6367a70b2ff841/APEM-FAQ-92-1536x864.jpg",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"VS2\", \"categoria\": \"sensori\", \"descrizione\": \"Interruttore di shock/vibrazione (Shock Switch) Murphy VS2, quantità 1, package non desumibile dalla riga, scritta leggibile: VS2\", \"interfaccia\": \"SPDT (contatti elettrici)\", \"quantita\": 1, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://www.swann-associates.com/pdf/murphy/VS2.pdf\", \"note\": \"Riclassificato dalla riga: categoria originale sensori confermata; codice originale 'Shock' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico di rilevamento vibrazioni/shock.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -895,9 +895,9 @@
     "datasheet_last_check": "2026-10-02",
     "posizione": "Sensor Box",
     "foto_drive_id": "",
-    "foto_url": "https://cdn.mos.cms.futurecdn.net/duaRKvMTHQonkB23LRUEgd-2048-80.jpg",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"MIC-RESOUND-MINI\", \"categoria\": \"sensori\", \"descrizione\": \"Microfono remoto/accessorio ReSound Mini Microphone per apparecchi acustici; quantità 2; package non visibile; nessuna scritta leggibile oltre al nome dal datasheet.\", \"interfaccia\": \"wireless\", \"quantita\": 2, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf\", \"note\": \"Codice attuale 'Small Sound' non standard e riclassificato; verificare se accessorio o componente. Categoria sensori per microfono.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -963,9 +963,9 @@
     "datasheet_last_check": "2026-10-02",
     "posizione": "A Box",
     "foto_drive_id": "",
-    "foto_url": "https://www.ametherm.com/wp-content/uploads/2024/01/NTC-and-RTD.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"TDS+NTC-10K\", \"categoria\": \"sensori\", \"descrizione\": \"Sonda combinata TDS + NTC 10K per misura di conducibilità e temperatura; quantità 1; package tipo sonda/elettrodo; scritte non leggibili perché nessuna foto disponibile.\", \"interfaccia\": \"analogica\", \"quantita\": 1, \"posizione\": \"A Box\", \"datasheet_url\": \"https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf\", \"note\": \"Sonda manca controller TDS. NTC da 10K. Datasheet fornito riferito a termistori TCS, non specifico per la parte TDS.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1082,9 +1082,9 @@
     "datasheet_last_check": "2026-10-02",
     "posizione": "Sensor Box",
     "foto_drive_id": "",
-    "foto_url": "https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"WCMCU\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo sensore di velocità a infrarossi (IR speed sensor), package modulo PCB, quantità 2, scritta WCMCU.\", \"interfaccia\": \"Digitale (DO)\", \"quantita\": 2, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html\", \"note\": \"Codice inventario WCMCU; possibile modulo compatibile FC-03/LM393. Sensore a forca ottica per rilevamento velocità/rotazione.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1371,9 +1371,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Io Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"nRF24L01\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo transceiver 2.4GHz nRF24L01, package modulo, interfaccia SPI, connettore antenna IPEX; quantità 6\", \"interfaccia\": \"SPI\", \"quantita\": 6, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf\", \"note\": \"Antenna IPEX; codice originale riga: nFR24\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1388,9 +1388,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Io Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"nRF24L01+\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo transceiver 2.4GHz nRF24L01+ con antenna interna, interfaccia SPI. Package: modulo PCB. Scritte leggibili: nRF24L01+, 2.4GHz. Quantità: 4.\", \"interfaccia\": \"SPI\", \"quantita\": 4, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf\", \"note\": \"Antenna interna\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1405,9 +1405,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Io Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://www.electromaker.io/images/icons/twitter-footer-logo-2025.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"nRF24 Adapter\", \"categoria\": \"comunication\", \"descrizione\": \"Adattatore per modulo nRF24L01, interfaccia SPI, quantità 2\", \"interfaccia\": \"SPI\", \"quantita\": 2, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf\", \"note\": \"Riclassificato dalla riga: categoria confermata come comunicazione; codice corretto da 'nFR24 Adapter' a 'nRF24 Adapter'; datasheet riferito al modulo nRF24L01, non specifico per l'adattatore.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1626,9 +1626,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Io Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://stef-aap.github.io/RFLink-ESP/433%20MHz%20Transceivers_files/image0.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"RXB6\", \"categoria\": \"comunication\", \"descrizione\": \"Modulo ricevitore RF RXB6 a 433MHz (433.92MHz), 1 pezzo, package modulo 4 pin, marcatura RXB6/433MHz (dedotto da codice e datasheet).\", \"interfaccia\": \"4 pin: ANT, GND, VCC, DATA; uscita dati digitale OOK/ASK a 433MHz\", \"quantita\": 1, \"posizione\": \"Io Barrel\", \"datasheet_url\": \"https://www.scribd.com/document/493735409/RXB6EN\", \"note\": \"Riclassificato da campi inventario: categoria comunication confermata; codice corretto da RBX6 a RXB6; descrizione '433Mhx' ampliata. Nessuna foto disponibile.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1694,9 +1694,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Display Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"SH1106\", \"categoria\": \"displays\", \"descrizione\": \"Modulo display OLED 1.3 pollici, 1 pezzo, controller SH1106, interfaccia I2C, package modulo breakout; scritte leggibili non disponibili (nessuna foto).\", \"interfaccia\": \"I2C\", \"quantita\": 1, \"posizione\": \"Display Barrel\", \"datasheet_url\": \"https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf\", \"note\": \"Categoria confermata: displays. Codice originale 'SDD?' incompleto/dubbio; ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: descrizione basata sui campi della riga.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1711,9 +1711,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Display Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"SSD1309\", \"categoria\": \"displays\", \"descrizione\": \"OLED Display 1.5 pollici, controller SSD1309, interfaccia I2C\", \"interfaccia\": \"I2C\", \"quantita\": 1, \"posizione\": \"Display Barrel\", \"datasheet_url\": \"https://www.hpinfotech.ro/SSD1309.pdf\", \"note\": \"Display OLED 1.5\\\", driver SSD1309, risoluzione tipica 128x64 (presunta)\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1796,9 +1796,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Display Barrel",
     "foto_drive_id": "",
-    "foto_url": "https://content.instructables.com/FQB/FPLN/KNABJGCP/FQBFPLNKNABJGCP.jpg?auto=webp&amp;frame=1",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"LCD1602-I2C\", \"categoria\": \"displays\", \"descrizione\": \"Modulo display LCD 1602 16x2 con adattatore I2C, 3 pezzi, package modulo PCB, scritta leggibile \\\"1602 + I2C Adapter\\\"\", \"interfaccia\": \"I2C\", \"quantita\": 3, \"posizione\": \"Display Barrel\", \"datasheet_url\": \"https://files.waveshare.com/upload/4/4d/LCD1602_I2C_Module.pdf\", \"note\": \"Nessuna foto disponibile; riclassificato dalla riga inventario. Codice ipotizzato come LCD1602-I2C partendo da 1602 + I2C.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1949,9 +1949,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Servo Box",
     "foto_drive_id": "",
-    "foto_url": "https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"JF-0530B\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Attuatore lineare (linear actuator) JF-0530B con corsa 10 mm; quantità inventario 1; package non specificato; nessuna foto disponibile, descrizione ricavata dai campi riga.\", \"interfaccia\": \"2 fili DC\", \"quantita\": 1, \"posizione\": \"Servo Box\", \"datasheet_url\": \"https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf\", \"note\": \"Riclassificato da riga inventario: categoria motors-hardware confermata; codice normalizzato da JF.0530B a JF-0530B; descrizione originale 'Linear 10mm'.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -1983,9 +1983,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Servo Box",
     "foto_drive_id": "",
-    "foto_url": "https://staminaproducts.com/cdn/shop/files/stepper-image_e0d63758-c2ee-47da-9893-4160289d12da.jpg?v=1767389296",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"Mini Passo Passo 3V 4-Fili 2-Fasi 8mm\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Mini motore passo-passo (stepper) 2 fasi, 4 fili, 3 VDC; diametro 8 mm, altezza 9,2 mm, albero di uscita 0,8 mm, lunghezza albero 4 mm, pignone 12 denti 0,2 mod; utilizzo per fotocamera digitale o piccoli elettrodomestici. Quantità da inventario: 10 pezzi. Package: mini stepper. Scritte leggibili non specificate.\", \"interfaccia\": \"4 pin / 4 fili\", \"quantita\": 10, \"posizione\": \"Servo Box\", \"datasheet_url\": \"https://www.scribd.com/document/353094200/Steper-Manual\", \"note\": \"4 Wire 2 Fase Mini motore passo-passo per la Macchina Fotografica Digitale o piccoli elettrodomestici. Diametro del motore: 8mm; Altezza: 9.2 millimetri; Albero di Uscita: 0.8 millimetri; lunghezza albero di uscita: 4mm; 12 denti 0.2mod; Tensione: 3VDC; Modalità di guida: 2 fase 4 fili.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -2000,9 +2000,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Servo Box",
     "foto_drive_id": "",
-    "foto_url": "https://staminaproducts.com/cdn/shop/files/stepper-image_e0d63758-c2ee-47da-9893-4160289d12da.jpg?v=1767389296",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"Ministepper\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Mini motore passo-passo 2 fasi 4 fili, diametro 8mm, altezza 9.2mm, albero di uscita 0.8mm, lunghezza albero 4mm, 12 denti 0.2mod, tensione 3VDC; quantità 10\", \"interfaccia\": \"4 pin / 4 fili\", \"quantita\": 10, \"posizione\": \"Servo Box\", \"datasheet_url\": \"https://images-eu.ssl-images-amazon.com/images/I/81v-YO2qbWS.pdf\", \"note\": \"4 Wire 2 Fase Mini motore passo-passo per Macchina Fotografica Digitale o piccoli elettrodomestici. Modalità di guida: 2 fase 4 fili. Nessuna foto disponibile: dati riclassificati dalla riga inventario.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -2017,9 +2017,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "Servo Box",
     "foto_drive_id": "",
-    "foto_url": "https://m.media-amazon.com/images/G/51/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546778527_.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"DC Motor 1.5V 10-150rpm\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Motore DC 1.5V, 2 pin, velocità 10-150rpm. Quantità 10. Package non specificato. Nessuna scritta leggibile disponibile.\", \"interfaccia\": \"2 pin\", \"quantita\": 10, \"posizione\": \"Servo Box\", \"datasheet_url\": \"https://www.scribd.com/doc/210101380/DC-Motors\", \"note\": \"10-150rpm; ex codice: Motore Senza Fine; link prodotto: https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
@@ -2051,9 +2051,9 @@
     "datasheet_last_check": "2026-10-03",
     "posizione": "A Box",
     "foto_drive_id": "",
-    "foto_url": "https://www.usmotorworks.com/wp-content/uploads/2025/03/Derale-Logo-New.png",
+    "foto_url": "",
     "ai_proposta": "{\"codice\": \"SC_Pump\", \"categoria\": \"motors-hardware\", \"descrizione\": \"Nessuna foto disponibile. Riga inventario: pompa d'acqua / Water Pump, quantità 1, posizione A Box, datasheet SC_Pump_Sheet.pdf. Tipo componente: pompa/motore-hw. Package e scritte non visibili perché non c'è foto.\", \"interfaccia\": \"\", \"quantita\": 1, \"posizione\": \"A Box\", \"datasheet_url\": \"https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf\", \"note\": \"Riclassificato dalla riga inventario. Categoria confermata motors-hardware; codice ipotizzato SC_Pump dal datasheet SC_Pump_Sheet.pdf, tipo Water Pump. Interfaccia e package non deducibili senza foto.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "retry",
     "updated_at": ""
   },
   {
