@@ -10,10 +10,19 @@ Rotazione come check_datasheets.py: max MAX_ROWS_PER_RUN righe per run, quelle
 con photo_last_check piu' vecchio (o mai controllate). Per ogni riga:
 - foto Drive non ancora confermata (ai_stato != confermato) -> saltata:
   la foto serve per la prima classificazione;
-- foto_url http non-Drive, viva e immagine -> ok (elimina residui Drive);
-- altrimenti cerca immagini via web search, scarica i candidati per validarli
-  esattamente come farebbe build_wiki (GET plain, magic bytes, min 5 KB),
-  chiede all'LLM di scegliere il migliore e collega il solo link.
+- foto_url http non-Drive, viva e immagine -> ricontrollata con vision LLM
+  (loghi, foto di gruppo, paesaggi/persone/animali scartati), se valida ok
+  (elimina residui Drive);
+- altrimenti prima il datasheet (datasheet_url): se pagina HTML o immagine
+  diretta ne usa le foto, se PDF ne estrae le immagini embedded come
+  riferimento visivo; poi la ricerca web come fallback. I candidati passano
+  al vision LLM che ne sceglie uno valido o scarta tutto.
+
+Regole foto (sempre applicate quando l'LLM e' configurato):
+1) se il datasheet contiene una foto del componente, ha priorita';
+2) mai loghi come foto valida;
+3) mai foto di gruppo: solo il componente corretto, non assieme ad altri;
+4) mai paesaggi, persone o animali.
 
 Aggiorna sempre photo_last_check, scrive snapshot/photo-report.json (con gli
 eventuali cestini falliti, riprovati al prossimo run) e cancella le thumbnail
@@ -27,6 +36,8 @@ LLM_PROVIDER, LLM_BASE_URL, LLM_MODEL, LLM_KEY,
 PHOTO_REPORT_FILE (default snapshot/photo-report.json),
 PHOTO_DRY_RUN (con "1" non scrive su Sheet/Drive).
 """
+import base64
+import io
 import json
 import os
 import re
@@ -43,6 +54,7 @@ TIMEOUT = int(os.environ.get("HTTP_TIMEOUT", "10") or 10)
 URL_COL = "foto_url"
 FID_COL = "foto_drive_id"
 STATE_COL = "ai_stato"
+DS_COL = "datasheet_url"
 CHECK_COL = "photo_last_check"
 REPORT_FILE = os.environ.get("PHOTO_REPORT_FILE", "snapshot/photo-report.json")
 DRY_RUN = os.environ.get("PHOTO_DRY_RUN", "").strip().lower() in ("1", "true", "si", "sì")
@@ -65,8 +77,22 @@ DRIVE_ID_PATTERNS = (r"/file/d/([-\w]{20,})", r"[?&]id=([-\w]{20,})")
 IMAGE_MIME = ("image/jpeg", "image/png", "image/webp", "image/gif")
 MIN_BYTES = 5000               # niente icone/tracker: il wiki vuole foto vere
 MAX_PAGE_BYTES = 1_000_000     # massimo letto da una pagina per estrarre immagini
-MAX_IMG_CANDIDATES = 3         # quanti candidati passano all'LLM
+MAX_PDF_BYTES = 15_000_000     # massimo scaricato da un PDF datasheet
+MAX_IMG_CANDIDATES = 3         # quanti candidati web passano all'LLM
+MAX_DS_IMAGES = 4              # quante foto max dal datasheet (HTML o PDF)
+VISION_SIZE = 1024             # lato max immagini inviate al vision LLM
 PAGE_UA = {"User-Agent": "Mozilla/5.0 (maker-self-photo-check/1.0)"}
+# regole di validita' foto, condivise da check e scelta vision
+PHOTO_RULES = (
+    "Regole di validita' (tutte obbligatorie): "
+    "1) la foto deve mostrare il componente elettronico richiesto "
+    "(codice/descrizione/categoria); "
+    "2) MAI loghi, icone, marchi, grafiche promozionali, schemi o piedinature: "
+    "i loghi non sono mai una foto valida; "
+    "3) MAI foto di gruppo: la foto deve contenere solo il componente corretto, "
+    "non assieme ad altri componenti diversi; "
+    "4) MAI paesaggi, persone o animali."
+)
 # domini da preferire quando si ordinano i candidati
 PREFERRED_HOSTS = ("mouser", "digikey", "farnell", "rs-online", "lcsc", "tme.",
                    "adafruit", "sparkfun", "pololu", "arduino", "seeedstudio",
@@ -200,6 +226,101 @@ def fetch_image(url):
     return r.content if sniff(r.content) else None
 
 
+def fetch_bytes(url, max_bytes=MAX_PDF_BYTES):
+    """Scarica url: ritorna (content-type, bytes troncati). ("", b"") se ko."""
+    try:
+        r = requests.get(url, timeout=30, allow_redirects=True,
+                         headers=PAGE_UA)
+    except requests.RequestException:
+        return "", b""
+    if not r.ok or not r.content:
+        return "", b""
+    return _ctype(r), r.content[:max_bytes]
+
+
+def pdf_embedded_images(pdf_bytes, max_n=MAX_DS_IMAGES):
+    """Immagini raster embedded in un PDF (solo validazione, non salvate).
+    Ritorna lista bytes, le piu' grandi prima. [] se PyMuPDF manca o ko."""
+    try:
+        import fitz
+    except ImportError:
+        print("  PyMuPDF mancante: foto dentro PDF non estraibili.")
+        return []
+    try:
+        doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    except Exception as e:
+        print(f"  PDF non apribile ({e}).")
+        return []
+    imgs = []
+    try:
+        for page in doc:
+            for im in page.get_images(full=True):
+                try:
+                    data = doc.extract_image(im[0]).get("image", b"")
+                except Exception:
+                    continue
+                if len(data) < MIN_BYTES or sniff(data) == "":
+                    continue
+                imgs.append(data)
+                if len(imgs) >= max_n * 3:
+                    break
+            if len(imgs) >= max_n * 3:
+                break
+    finally:
+        doc.close()
+    imgs.sort(key=len, reverse=True)
+    return imgs[:max_n]
+
+
+def img_b64(data):
+    """Riduce per la vision (come ai_catalog) e codifica base64."""
+    try:
+        from PIL import Image
+        img = Image.open(io.BytesIO(data)).convert("RGB")
+        img.thumbnail((VISION_SIZE, VISION_SIZE))
+        buf = io.BytesIO()
+        img.save(buf, "JPEG", quality=82)
+        data = buf.getvalue()
+    except Exception:
+        pass
+    return base64.b64encode(data).decode()
+
+
+def llm_headers():
+    import uuid
+    h = {"Content-Type": "application/json"}
+    if KEY:
+        h["Authorization"] = f"Bearer {KEY}"
+    if LLM_PROVIDER == "opencode-go":
+        h["x-opencode-session"] = uuid.uuid4().hex
+    return h
+
+
+def extract_img_urls(base, html):
+    """URL immagine da HTML (og:image, twitter:image, <img>). Max 12."""
+    raw = []
+    for m in re.finditer(r"<meta[^>]+>", html, re.I):
+        tag = m.group(0)
+        if re.search(r"(?:property|name)=[\"'](?:og:image|twitter:image)[\"']",
+                     tag, re.I):
+            cm = re.search(r"content=[\"']([^\"']+)[\"']", tag, re.I)
+            if cm:
+                raw.append(cm.group(1))
+    raw += [m.group(1) for m in
+            re.finditer(r"<img[^>]+src=[\"']([^\"']+)[\"']", html, re.I)]
+    out, seen = [], set()
+    for u in raw:
+        u = urljoin(base, u.strip()).strip()
+        if not u.startswith(("http://", "https://")):
+            continue
+        if re.search(r"\.svg(?:\?|$)", u, re.I):
+            continue
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out[:12]
+
+
 def page_image_urls(page):
     """URL immagine trovati nella pagina (og:image, twitter:image, <img>).
     Se la URL cercata e' un'immagine diretta, ritorna quella."""
@@ -213,27 +334,7 @@ def page_image_urls(page):
     if _ctype(r).startswith("image/"):
         return [page]
     html = r.content[:MAX_PAGE_BYTES].decode("utf-8", "replace")
-    raw = []
-    for m in re.finditer(r"<meta[^>]+>", html, re.I):
-        tag = m.group(0)
-        if re.search(r"(?:property|name)=[\"'](?:og:image|twitter:image)[\"']",
-                     tag, re.I):
-            cm = re.search(r"content=[\"']([^\"']+)[\"']", tag, re.I)
-            if cm:
-                raw.append(cm.group(1))
-    raw += [m.group(1) for m in
-            re.finditer(r"<img[^>]+src=[\"']([^\"']+)[\"']", html, re.I)]
-    out, seen = [], set()
-    for u in raw:
-        u = urljoin(page, u.strip()).strip()
-        if not u.startswith(("http://", "https://")):
-            continue
-        if re.search(r"\.svg(?:\?|$)", u, re.I):
-            continue
-        if u not in seen:
-            seen.add(u)
-            out.append(u)
-    return out[:12]
+    return extract_img_urls(page, html)
 
 
 def host_score(url):
@@ -330,7 +431,7 @@ def build_queries(t):
 
 def find_image_candidates(t, order, dead):
     """Cerca pagine, ne estrae le immagini e ne valida (scaricandole come il
-    wiki) finche' ne ha almeno MAX_IMG_CANDIDATES. Ritorna la lista URL."""
+    wiki). Ritorna lista (url, bytes, 'web'), domini noti prima."""
     found, seen = [], set()
     for q in build_queries(t):
         print(f"riga {t['n']} [{t['codice']}]: cerco immagini {q!r}...")
@@ -342,48 +443,149 @@ def find_image_candidates(t, order, dead):
                 if u in seen:
                     continue
                 seen.add(u)
-                if fetch_image(u) is not None:
-                    found.append(u)
+                b = fetch_image(u)
+                if b is not None:
+                    found.append((u, b, "web"))
             if len(found) > MAX_IMG_CANDIDATES + 2:
                 break
         if found:
             break
     # i domini dei distributori/produttori passano prima all'LLM
-    found.sort(key=host_score, reverse=True)
+    found.sort(key=lambda x: host_score(x[0]), reverse=True)
     return found[:MAX_IMG_CANDIDATES]
 
 
-def llm_pick_best(part, candidates):
-    """Chiede al modello di scegliere la miglior foto prodotto. Fallback: primo."""
-    if not (BASE_URL and MODEL):
-        return candidates[0]
-    import uuid
-    prompt = ("Scegli l'URL dell'immagine del prodotto ufficiale piu' adatta e "
-              "leggibile per questo componente elettronico (foto del prodotto, "
-              "non loghi, icone, sfondi o grafiche promozionali): "
-              f"codice={part['codice']!r}, "
-              f"descrizione={part['descrizione']!r}, categoria={part['categoria']!r}. "
-              "Candidati:\n" + "\n".join(f"- {u}" for u in candidates) +
-              "\nRispondi SOLO con l'URL scelto, nient'altro.")
-    headers = {"Content-Type": "application/json"}
-    if KEY:
-        headers["Authorization"] = f"Bearer {KEY}"
-    if LLM_PROVIDER == "opencode-go":
-        headers["x-opencode-session"] = uuid.uuid4().hex
+def get_datasheet_candidates(t):
+    """Foto dal datasheet (datasheet_url). Ritorna (linkable, pdf_refs):
+    - linkable: lista (url, bytes, 'datasheet'), usabile come foto_url;
+    - pdf_refs: immagini embedded nel PDF, solo riferimento visivo (un PDF
+      non e' linkabile come foto, ma dice all'LLM com'e' fatto il pezzo)."""
+    linkable, refs = [], []
+    ds = (t.get("datasheet") or "").strip()
+    if not ds or not ds.startswith(("http://", "https://")) or drive_like(ds):
+        return linkable, refs
+    if re.search(r"\.(jpe?g|png|webp|gif)(\?|$)", ds, re.I):
+        b = fetch_image(ds)
+        if b is not None:
+            print(f"  datasheet e' un'immagine diretta.")
+            return [(ds, b, "datasheet")], refs
     try:
-        r = requests.post(f"{BASE_URL}/chat/completions", headers=headers,
-                          json={"model": MODEL,
-                                "messages": [{"role": "user", "content": prompt}],
-                                "temperature": 0.0, "max_tokens": 500},
-                          timeout=120)
+        ct, content = fetch_bytes(ds)
+    except Exception as e:
+        print(f"  datasheet non scaricato ({e}).")
+        return linkable, refs
+    if not content:
+        return linkable, refs
+    if ct.startswith("image/"):
+        if len(content) >= MIN_BYTES and sniff(content):
+            return [(ds, content, "datasheet")], refs
+        return linkable, refs
+    if ct == "application/pdf" or ds.lower().split("?")[0].endswith(".pdf"):
+        emb = pdf_embedded_images(content)
+        print(f"  datasheet PDF: {len(emb)} immagini embedded.")
+        refs.extend(emb)
+        return linkable, refs
+    # pagina HTML: usa le foto della pagina del datasheet per prime
+    try:
+        html = content[:MAX_PAGE_BYTES].decode("utf-8", "replace")
+    except Exception:
+        return linkable, refs
+    for u in extract_img_urls(ds, html):
+        b = fetch_image(u)
+        if b is not None:
+            linkable.append((u, b, "datasheet"))
+        if len(linkable) >= MAX_DS_IMAGES:
+            break
+    if linkable:
+        print(f"  datasheet HTML: {len(linkable)} foto candidabili.")
+    return linkable, refs
+
+
+def llm_vision_check(part, img_bytes):
+    """(valida, motivo): la foto esistente rispetta le regole? Senza LLM
+    ritorna (True, fallback) per non bloccare il flusso."""
+    if not (BASE_URL and MODEL):
+        return True, "vision non configurata"
+    text = ("Sei un revisore di foto per un inventario di componenti elettronici. "
+            f"Componente: codice={part['codice']!r}, "
+            f"descrizione={part['descrizione']!r}, "
+            f"categoria={part['categoria']!r}. "
+            + PHOTO_RULES +
+            " Guarda la foto e rispondi SOLO con JSON "
+            '{"ok": true/false, "reason": "motivo breve"}.')
+    try:
+        r = requests.post(
+            f"{BASE_URL}/chat/completions", headers=llm_headers(),
+            json={"model": MODEL,
+                  "messages": [{"role": "user", "content": [
+                      {"type": "text", "text": text},
+                      {"type": "image_url",
+                       "image_url": {"url": f"data:image/jpeg;base64,{img_b64(img_bytes)}"}}]}],
+                  "temperature": 0.0, "max_tokens": 300,
+                  "response_format": {"type": "json_object"}},
+            timeout=120)
         r.raise_for_status()
-        choice = r.json()["choices"][0]["message"].get("content", "").strip()
-        for u in candidates:
-            if u in choice:
-                return u
+        content = r.json()["choices"][0]["message"].get("content", "")
+        obj = json.loads(content)
+        return bool(obj.get("ok")), str(obj.get("reason", ""))[:200]
+    except Exception as e:
+        print(f"  vision check fallita ({e}), tengo la foto.")
+        return True, f"vision fallita: {e}"
+
+
+def llm_pick_best(part, candidates, pdf_refs=None):
+    """Sceglie con vision tra (url, bytes, fonte). Ritorna (url|None, motivo).
+    Le foto del datasheet hanno priorita' a pari validita'. Se nessuna
+    rispetta le regole ritorna (None, motivo): meglio nessuna foto che una
+    sbagliata. Senza LLM: primo datasheet, poi primo web (regole non verificate)."""
+    linkable = [(u, b, s) for u, b, s in candidates if u]
+    if not linkable:
+        return None, "nessun candidato linkabile"
+    if not (BASE_URL and MODEL):
+        ds = next((u for u, _, s in linkable if s == "datasheet"), None)
+        return (ds or linkable[0][0]), "LLM non configurato (regole non verificate)"
+    pdf_refs = pdf_refs or []
+    head = ("Sei un revisore di foto per un inventario di componenti elettronici. "
+            f"Componente: codice={part['codice']!r}, "
+            f"descrizione={part['descrizione']!r}, "
+            f"categoria={part['categoria']!r}. "
+            + PHOTO_RULES +
+            " A pari validita' preferisci i candidati fonte 'datasheet'. "
+            "Se nessuno e' valido rispondi con url vuoto. "
+            "Rispondi SOLO con JSON {\"url\": \"<url scelto o stringa vuota>\", "
+            "\"reason\": \"motivo breve\"}. Candidati:")
+    content = [{"type": "text", "text": head}]
+    for i, b in enumerate(pdf_refs[:MAX_DS_IMAGES]):
+        content.append({"type": "text",
+                        "text": f"Riferimento {i}: foto estratta dal PDF datasheet "
+                                "(aspetto vero del componente, NON candidabile)."})
+        content.append({"type": "image_url",
+                        "image_url": {"url": f"data:image/jpeg;base64,{img_b64(b)}"}})
+    for i, (u, b, s) in enumerate(linkable):
+        content.append({"type": "text",
+                        "text": f"Candidato {i} (fonte {s}): {u}"})
+        content.append({"type": "image_url",
+                        "image_url": {"url": f"data:image/jpeg;base64,{img_b64(b)}"}})
+    try:
+        r = requests.post(
+            f"{BASE_URL}/chat/completions", headers=llm_headers(),
+            json={"model": MODEL,
+                  "messages": [{"role": "user", "content": content}],
+                  "temperature": 0.0, "max_tokens": 500,
+                  "response_format": {"type": "json_object"}},
+            timeout=180)
+        r.raise_for_status()
+        obj = json.loads(r.json()["choices"][0]["message"].get("content", "{}"))
+        choice, reason = (obj.get("url") or "").strip(), str(obj.get("reason", ""))[:200]
+        for u, _, _ in linkable:
+            if choice and (choice == u or choice in u or u in choice):
+                return u, reason or "scelta vision"
+        if not choice:
+            return None, reason or "nessun candidato valido"
     except Exception as e:
         print(f"  LLM fallito ({e}), uso primo candidato.")
-    return candidates[0]
+        return linkable[0][0], f"fallback LLM fallito: {e}"
+    return linkable[0][0], "fallback: risposta LLM non riconosciuta"
 
 
 def trash_photo(drv, fid):
@@ -461,6 +663,9 @@ def main():
                      "codice": g("codice"), "descrizione": g("descrizione"),
                      "foto_url": g(URL_COL), "fid": g(FID_COL),
                      "stato": g(STATE_COL).lower(),
+                     "datasheet": (r[idx[DS_COL]].strip()
+                                   if DS_COL in idx and idx[DS_COL] < len(r)
+                                   else ""),
                      "last": parse_check(r[ci] if ci < len(r) else "")})
     # quali righe referenziano ogni foto Drive: stato grezzo del Sheet,
     # righe "vuote" comprese (basta che abbiano il fid)
@@ -490,6 +695,17 @@ def main():
                              detail="foto caricata in attesa di classificazione")
             else:
                 ok, detail = check_image(t["foto_url"])
+                if ok:
+                    # la foto esistente deve rispettare le regole: vision check
+                    raw = fetch_image(t["foto_url"])
+                    if raw is None:
+                        ok, detail = False, f"{detail}; download fallito"
+                    else:
+                        valid, why = llm_vision_check(t, raw)
+                        if not valid:
+                            ok, detail = False, f"foto scartata dalla vision: {why}"
+                        else:
+                            detail = f"{detail}; vision ok ({why})" if why else detail
                 if ok and not t["fid"]:
                     entry.update(status="ok", detail=detail)
                 elif ok:
@@ -510,37 +726,45 @@ def main():
                                  new_url=t["foto_url"],
                                  detail=f"foto Drive rimossa ({detail})")
                 else:
-                    cands = (find_image_candidates(t, order, dead)
-                             if order and (t["codice"] or t["descrizione"]) else [])
+                    # datasheet prima (foto ufficiale), web search come fallback
+                    ds_cands, pdf_refs = get_datasheet_candidates(t)
+                    web_cands = (find_image_candidates(t, order, dead)
+                                 if order and (t["codice"] or t["descrizione"]) else [])
+                    seen_u = {u for u, _, _ in ds_cands}
+                    cands = ds_cands + [w for w in web_cands if w[0] not in seen_u]
                     if not cands:
                         why = "nessun provider di ricerca" if not order else \
                             "nessuna immagine valida trovata"
                         entry.update(status="missing", detail=f"{detail}; {why}")
                     else:
-                        best = llm_pick_best(t, cands)
-                        if fetch_image(best) is None:
-                            # rifinitura del wiki: se il scelto non passa, il primo ok
-                            best = next((u for u in cands if fetch_image(u) is not None),
-                                        best)
-                        had_fid = bool(t["fid"])
-                        updates = [(idx[URL_COL], best)]
-                        if had_fid:
-                            updates.append((idx[FID_COL], ""))
-                        if DRY_RUN:
-                            print(f"riga {t['n']} [{t['codice']}]: DRY_RUN, foto -> {best}")
+                        best, reason = llm_pick_best(t, cands, pdf_refs)
+                        if best is None:
+                            entry.update(status="missing",
+                                         detail=f"{detail}; scartate dalla vision "
+                                                f"({len(cands)} candidati): {reason}")
                         else:
-                            svc.spreadsheets().values().batchUpdate(
-                                spreadsheetId=SHEET_ID,
-                                body={"valueInputOption": "RAW", "data": [
-                                    {"range": f"{SHEET_TAB}!{col_letter(a)}{t['n']}",
-                                     "values": [[v]]} for a, v in updates]}).execute()
-                        if had_fid:
-                            cleared.append((t["fid"], t["n"]))
-                        if not DRY_RUN:
-                            drop_thumb(t["id"])
-                        entry.update(status="replaced" if had_fid else "set",
-                                     fid="", new_url=best,
-                                     detail=f"foto ufficiale online ({len(cands)} candidati)")
+                            src = next((s for u, _, s in cands if u == best),
+                                       "web")
+                            had_fid = bool(t["fid"])
+                            updates = [(idx[URL_COL], best)]
+                            if had_fid:
+                                updates.append((idx[FID_COL], ""))
+                            if DRY_RUN:
+                                print(f"riga {t['n']} [{t['codice']}]: DRY_RUN, foto -> {best}")
+                            else:
+                                svc.spreadsheets().values().batchUpdate(
+                                    spreadsheetId=SHEET_ID,
+                                    body={"valueInputOption": "RAW", "data": [
+                                        {"range": f"{SHEET_TAB}!{col_letter(a)}{t['n']}",
+                                         "values": [[v]]} for a, v in updates]}).execute()
+                            if had_fid:
+                                cleared.append((t["fid"], t["n"]))
+                            if not DRY_RUN:
+                                drop_thumb(t["id"])
+                            entry.update(status="replaced" if had_fid else "set",
+                                         fid="", new_url=best,
+                                         detail=f"foto da {src} ({len(cands)} candidati): "
+                                                f"{reason}")
             # sempre il timestamp di controllo (tranne DRY_RUN)
             if not DRY_RUN and entry["status"] != "error":
                 svc.spreadsheets().values().update(
