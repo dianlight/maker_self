@@ -596,17 +596,20 @@
   quantita: 1
   descrizione: Non contact infra temp sensor
   interfaccia: I2C
-  note: Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614.
+  note: Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614. Codice
+    modulo GY-906, possibile alternativa MLX90614 per il sensore.
   datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "GY-906", "categoria": "sensori", "descrizione": "Modulo
-    sensore di temperatura a infrarossi senza contatto, basato su MLX90614, package
-    breakout GY-906, interfaccia I2C, quantita 1", "interfaccia": "I2C", "quantita":
-    1, "posizione": "Sensor Box", "datasheet_url": "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf",
-    "note": "Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614."}'
+    breakout sensore di temperatura infrarosso senza contatto GY-906 basato su MLX90614;
+    quantità 1; package modulo breakout; interfaccia I2C; nessuna foto disponibile,
+    scritte leggibili non rilevabili.", "interfaccia": "I2C", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf",
+    "note": "Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614.
+    Codice modulo GY-906, possibile alternativa MLX90614 per il sensore."}'
   ai_stato: retry
   updated_at: ''
 - id: sensori-gy-91-31
