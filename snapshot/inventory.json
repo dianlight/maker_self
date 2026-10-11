@@ -13,7 +13,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.krain.com/content/files/images/landingpages/rain%20sensor/product_main_rain%20sensors-min.jpg",
     "ai_proposta": "{\"codice\": \"333044\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di pioggia (Rain Sensors), modulo sensore, quantità 8, package non visibile, marca Soldered, codice 333044\", \"interfaccia\": \"analogico/digitale\", \"quantita\": 8, \"posizione\": \"B Box\", \"datasheet_url\": \"https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf\", \"note\": \"Riclassificato dalla riga inventario; categoria confermata sensori; codice ipotizzato dal datasheet Soldered 333044.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {

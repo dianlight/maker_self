@@ -17,7 +17,7 @@
     "posizione": "B Box", "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf",
     "note": "Riclassificato dalla riga inventario; categoria confermata sensori; codice
     ipotizzato dal datasheet Soldered 333044."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-na-03
   categoria: sensori
