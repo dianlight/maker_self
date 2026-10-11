@@ -454,8 +454,8 @@
     RFID-RC522'' sul lato destro. Quantità visibile: 1 modulo.'
   interfaccia: SPI
   note: Modulo lettore RFID a 13.56MHz basato su MFRC522, richiede alimentazione 3.3V.
-  datasheet_url: https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://docs.sunfounder.com/projects/elite-explorer-kit/it/latest/basic_projects/08_basic_mfrc522.html
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: 1dlikIXtnHgI8FgWkCqooEHNeRVPEF_gZ
   foto_url: https://drive.google.com/open?id=1dlikIXtnHgI8FgWkCqooEHNeRVPEF_gZ, https://drive.google.com/open?id=1zvVLhvapmlXKwGA4ECp3EpjzvaNN7y_h

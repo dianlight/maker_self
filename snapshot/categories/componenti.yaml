@@ -9,7 +9,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://shillehtek.com/cdn/shop/files/1_c60d4fea-c515-4367-b12e-0f89e369909c.png?v=1771543653&width=240
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -24,7 +24,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/815-05.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -39,7 +39,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://i0.wp.com/mktechnic.com/wp-content/uploads/2023/02/EMC-KK-P2511-V.jpg?fit=1000%2C1000&#038;ssl=1
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -54,7 +54,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -84,7 +84,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://m.media-amazon.com/images/G/42/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546775727_.png
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -99,7 +99,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://protosupplies.com/wp-content/uploads/2018/02/IRF520-MOSFET-Breakout-Board-Top.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -114,7 +114,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.canaduino.ca/wp-content/uploads/2025/01/26639-8-channel-level-converter-3.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -129,7 +129,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.lasercomponents.com/fileadmin/_processed_/a/5/csm_lcusa-ra-te-a1-1-1_c9501494ae.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -144,7 +144,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://cdn.prod.website-files.com/69a5a9fd0bfb9a26219eba91/6abaa643e5744f12b9fd0128_Product-Photo-PT-MINIJOY-G1-White-Background%20(25).JPG
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -159,7 +159,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.allegromicro.com/images/allegro-logo-og.png
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -174,7 +174,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.daskeyboard.com/images/open-graph-daskeyboard-4-professional.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -189,7 +189,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://eitkw.com/wp-content/uploads/2018/04/reloj-tiempo-real-rtc-ds3231-eeprom-24c32-arduino-en-rosario-D_NQ_NP_678115-MLA25177203318_112016-F.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -204,7 +204,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://global.discourse-cdn.com/digikey/original/3X/e/e/ee6872641fcd4645e369240709b40f193add1207.jpeg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -219,7 +219,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://ss-pics.s3.eu-west-1.amazonaws.com/files/2180504/page-34.png?1787035793
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -249,7 +249,7 @@
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv347x1m4zrmh5p1x66jb.jpg
   ai_proposta: ''
   ai_stato: ''
   updated_at: ''
@@ -309,3 +309,18 @@
     produttore cinese."}'
   ai_stato: confermato
   updated_at: 03/10/2026 18.42.11
+- id: componenti-tlp627
+  categoria: componenti
+  codice: TLP627
+  quantita: 10
+  descrizione: optoisolatore
+  interfaccia: ''
+  note: ''
+  datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 16.57.33

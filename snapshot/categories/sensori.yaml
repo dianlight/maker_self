@@ -186,7 +186,7 @@
   interfaccia: I2C- SPI
   note: ''
   datasheet_url: https://www.farnell.com/datasheets/3708808.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721152116/ADXL345_I2CS_A_1.png
@@ -201,7 +201,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: S Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5593-01.jpg
@@ -216,7 +216,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/393-00.jpg
@@ -231,7 +231,7 @@
   interfaccia: '? + I2C?'
   note: ''
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3721-00.jpg
@@ -246,7 +246,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://makerselectronics.com/wp-content/uploads/2025/05/b687d94e-a1c9-4204-9f88-f1e8e3b11b1e.jpg
@@ -261,7 +261,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
@@ -276,7 +276,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://shure.widen.net/content/tcasbybhcw/webp/web_hero_imx_room_kits_zoom.webp?position=c&amp;color=ffffffff&amp;quality=82&amp;u=s1b3kh
@@ -291,7 +291,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1603-03.jpg
@@ -306,7 +306,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/096/medium800/BMP280_top.jpg
@@ -321,7 +321,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.vishay.com/docs/83751/cny70.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.vishay.com/images/product-images/pt-large/83751-pt-large.jpg
@@ -336,7 +336,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://www.futurlec.com/PIR_D203S.shtml
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sensore-electronic.com/wp-content/uploads/2025/07/Glovebox_Inerting-800x800.jpg
@@ -351,7 +351,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://moodle.upm.es/en-abierto/pluginfile.php/47163/mod_page/content/10/DHT11.PDF
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://shillehtek.com/cdn/shop/files/1_a4b6495a-07ba-44f0-b580-8c834b854558.jpg?v=1765786089
@@ -366,7 +366,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
-  datasheet_last_check: '2026-09-30'
+  datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/374-01.jpg
@@ -381,7 +381,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://www.elektronik.ropla.eu/pdf/stock/smy/dsm501.pdf
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/d/u/dust_sensor-_dsm501a.jpg
@@ -396,7 +396,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.hogslat.com/images/thumbs/0012731_flame-sensor_600.jpeg
@@ -411,7 +411,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/03/MPU-6050-Accel-and-Gyro-Module.jpg
@@ -426,7 +426,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png
@@ -441,7 +441,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://forum.arduino.cc/t/unlocking-the-gy-91-mpu-9250-bmp-280/701895
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sigmanortec.ro/1181-large_default/sensor-9-axis-10-dof-gy-91-mpu9250-bmp280-3-5v.jpg
@@ -456,7 +456,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/5/15569-Ultrasonic_Distance_Sensor_-_HC-SR04-01a.jpg
@@ -471,7 +471,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://www.proinso.net/pub/doc/File/ingl/Manual%20MS-2%20Tracker%20v%204.1.pdf
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000066_03.front.jpg?v=1727098250
@@ -486,7 +486,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://www.farnell.com/datasheets/2207166.pdf
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/640x480/1899-04.jpg
@@ -501,7 +501,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://c1.neweggimages.com/WebResource/Themes/2005/Nest/logo_424x210.png
@@ -516,7 +516,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina226.pdf?ts=1790852131805
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://deepbluembedded.com/wp-content/uploads/2025/02/Arduino-INA226-DC-Current-Sensor-Library-Code-Example.webp
@@ -531,7 +531,7 @@
   interfaccia: I2C
   note: ''
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina3221.pdf
-  datasheet_last_check: '2026-10-01'
+  datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/6062-00.jpg
