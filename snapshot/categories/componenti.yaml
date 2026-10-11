@@ -424,3 +424,213 @@
     produttore cinese."}'
   ai_stato: confermato
   updated_at: 03/10/2026 18.42.11
+- id: componenti-1n4001
+  categoria: componenti
+  codice: 1N4001
+  quantita: 10
+  descrizione: Raddrizzatore general purpose 1A 50V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n4004
+  categoria: componenti
+  codice: 1N4004
+  quantita: 10
+  descrizione: Raddrizzatore general purpose 1A 400V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n4007
+  categoria: componenti
+  codice: 1N4007
+  quantita: 10
+  descrizione: Raddrizzatore general purpose 1A 1000V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-rl207
+  categoria: componenti
+  codice: RL207
+  quantita: 10
+  descrizione: Raddrizzatore general purpose 2A 1000V, DO-15
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n5404
+  categoria: componenti
+  codice: 1N5404
+  quantita: 10
+  descrizione: Raddrizzatore 3A 400V, DO-201AD
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n5406
+  categoria: componenti
+  codice: 1N5406
+  quantita: 10
+  descrizione: Raddrizzatore 3A 600V, DO-201AD
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n5408
+  categoria: componenti
+  codice: 1N5408
+  quantita: 10
+  descrizione: Raddrizzatore 3A 1000V, DO-201AD
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n4148
+  categoria: componenti
+  codice: 1N4148
+  quantita: 10
+  descrizione: Diodo switching veloce 100V, DO-35
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-uf4007
+  categoria: componenti
+  codice: UF4007
+  quantita: 10
+  descrizione: Raddrizzatore ultrafast 1A 1000V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-fr107
+  categoria: componenti
+  codice: FR107
+  quantita: 10
+  descrizione: Raddrizzatore fast recovery 1A 1000V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-fr207
+  categoria: componenti
+  codice: FR207
+  quantita: 10
+  descrizione: Raddrizzatore fast recovery 2A 1000V, DO-15
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n5817
+  categoria: componenti
+  codice: 1N5817
+  quantita: 10
+  descrizione: Diodo Schottky 1A 20V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n5819
+  categoria: componenti
+  codice: 1N5819
+  quantita: 10
+  descrizione: Diodo Schottky 1A 40V, DO-41
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'
+- id: componenti-1n5822
+  categoria: componenti
+  codice: 1N5822
+  quantita: 10
+  descrizione: Diodo Schottky 3A 40V, DO-201AD
+  interfaccia: through-hole
+  note: Bulk add 2026-10-11
+  datasheet_url: ''
+  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  posizione: Diode Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: '2026-10-11T16:26:16.861301+00:00'

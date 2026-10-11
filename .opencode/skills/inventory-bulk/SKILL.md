@@ -12,6 +12,7 @@ Bulk add / fix for maker_self. Source of truth is the Google Sheet tab `inventar
 Parse the request into rows of `categoria, codice, quantita, posizione`. If anything is unclear, STOP and ask. Typical ambiguities:
 
 - "Diod Box" — is that `posizione` (box) or `categoria`? Default: box name goes to `posizione`, infer `categoria` from parts (e.g. diodes -> `componenti` or existing category of similar codes). Confirm.
+- Before using a new `posizione`/`categoria` value, fetch the Sheet's column data-validation list (`ONE_OF_LIST`, strict) and reuse the existing canonical spelling (e.g. `Diode Box`, not `Diod Box`). A value outside the list shows as invalid in column I. Only add a truly new box to the validation + Form.
 - Missing qty — default 1 each unless user said "10 each". Confirm.
 - "icon" means `foto_url` (official photo link) and/or `foto_drive_id`. Confirm which.
 - "description is wrong" — propose new `descrizione` via web search, never invent specs.
