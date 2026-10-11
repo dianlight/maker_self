@@ -485,6 +485,51 @@ def retry_reclassify(svc, drv, tab_id, n, idx, row):
     return True
 
 
+def text_classify_new(svc, drv, tab_id, resp_tab_id, vals, idx, n, row,
+                      pending_deletes):
+    """Riga senza foto mai classificata: usa tutti i campi inseriti
+    (codice, descrizione, categoria, ...) via text_llm, scrive ai_proposta,
+    stato -> da_verificare e precompila le celle vuote in grigio.
+    True se la proposta e' stata scritta."""
+    g = lambda c: row[idx[c]].strip() if c in idx and idx[c] < len(row) else ""
+    if not any(g(c) for c in ("codice", "descrizione", "categoria",
+                              "interfaccia", "note", "posizione")):
+        return False
+    extra = retry_extra(idx, row, False)
+    try:
+        out = text_llm(TEXT_PROMPT + extra)
+    except Exception as e:
+        print(f"riga {n}: AI testo fallita ({e}), salto.")
+        return False
+    try:
+        prop = json.loads(out)
+    except (json.JSONDecodeError, AttributeError):
+        prop = {}
+    if not prop:
+        print(f"riga {n}: AI testo senza JSON valido, salto.")
+        return False
+    match = find_match(vals, idx, n, prop.get("categoria", ""),
+                       prop.get("codice", ""), skip=pending_deletes)
+    if match is not None and merge_duplicate(
+            svc, drv, tab_id, resp_tab_id, vals, idx, n, row, prop, match):
+        col_st = chr(ord("A") + idx["ai_stato"])
+        svc.spreadsheets().values().update(
+            spreadsheetId=SHEET_ID, range=f"{SHEET_TAB}!{col_st}{n}",
+            valueInputOption="RAW", body={"values": [["confermato"]]}).execute()
+        pending_deletes.append(n)
+        return True
+    col_ai = chr(ord("A") + idx["ai_proposta"])
+    col_st = chr(ord("A") + idx["ai_stato"])
+    svc.spreadsheets().values().batchUpdate(
+        spreadsheetId=SHEET_ID, body={"valueInputOption": "RAW", "data": [
+            {"range": f"{SHEET_TAB}!{col_ai}{n}", "values": [[out[:4000]]]},
+            {"range": f"{SHEET_TAB}!{col_st}{n}", "values": [["da_verificare"]]},
+        ]}).execute()
+    print(f"riga {n}: proposta AI testo scritta.")
+    prefill_gray(svc, tab_id, n, idx, row, prop)
+    return True
+
+
 def main():
     if not (SHEET_ID and SA_JSON and BASE_URL and MODEL):
         print("secrets mancanti (Sheet o LLM), skip AI.")
@@ -553,6 +598,11 @@ def main():
                 continue
             if prop:
                 prefill_gray(svc, tab_id, n, idx, r, prop)
+        elif (not g("foto_drive_id").strip() and not g("ai_proposta").strip()
+                and stato in ("", "da_verificare")):
+            # nessun foto: classifica dai campi inseriti (codice, descrizione, ...)
+            text_classify_new(svc, drv, tab_id, resp_tab_id, vals, idx, n, r,
+                              pending_deletes)
         elif stato == "confermato":
             finalize_black(svc, tab_id, n, idx, r)
             cleanup_confirmed(svc, drv, tab_id, resp_tab_id, n, idx, r, vals)
