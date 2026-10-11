@@ -1,6 +1,6 @@
 - id: sensori-na-02
   categoria: sensori
-  codice: '?'
+  codice: '333044'
   quantita: 8
   descrizione: Rain Sensors
   interfaccia: '?'
@@ -21,7 +21,7 @@
   updated_at: ''
 - id: sensori-na-03
   categoria: sensori
-  codice: '?'
+  codice: SEN0193
   quantita: 1
   descrizione: Capacitive Soil Moisture Sensor
   interfaccia: I2C
@@ -45,7 +45,7 @@
   updated_at: ''
 - id: sensori-na-04
   categoria: sensori
-  codice: '?'
+  codice: SEN0193
   quantita: 2
   descrizione: Soil Sensore
   interfaccia: analogico
@@ -67,7 +67,7 @@
   updated_at: ''
 - id: sensori-na-05
   categoria: sensori
-  codice: '?'
+  codice: RAK7205
   quantita: 1
   descrizione: Water Level
   interfaccia: LoRaWAN
@@ -88,7 +88,7 @@
   updated_at: ''
 - id: sensori-na-06
   categoria: sensori
-  codice: '?'
+  codice: TCS34725
   quantita: 1
   descrizione: Color Sensor
   interfaccia: I2C
@@ -110,7 +110,7 @@
   updated_at: ''
 - id: sensori-na-07
   categoria: sensori
-  codice: '?'
+  codice: SS49E
   quantita: 1
   descrizione: Linear Hall Sensor
   interfaccia: analogica
@@ -168,7 +168,7 @@
     "interfaccia": "analogico", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
     "https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf",
     "note": "Codice dedotto dal datasheet Sharp GP2Y0A21YK; categoria confermata sensori."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-18n20-tem-10
   categoria: sensori

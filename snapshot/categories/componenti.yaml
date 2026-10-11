@@ -431,13 +431,17 @@
   descrizione: Raddrizzatore general purpose 1A 50V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N4001", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore general purpose 1N4001, 1A 50V, package DO-41, through-hole; quantita
+    10", "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode Box",
+    "datasheet_url": "https://www.vishay.com/docs/88503/1n4001.pdf", "note": "Bulk
+    add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n4004
   categoria: componenti
@@ -446,13 +450,17 @@
   descrizione: Raddrizzatore general purpose 1A 400V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N4004", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore general purpose 1N4004, 1A 400V, package DO-41, through-hole. Quantità
+    10.", "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode Box",
+    "datasheet_url": "https://www.vishay.com/docs/88503/1n4001.pdf", "note": "Bulk
+    add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n4007
   categoria: componenti
@@ -466,8 +474,11 @@
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N4007", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore general purpose 1A 1000V, package DO-41, through-hole, quantità
+    10, scritte leggibili: 1N4007", "interfaccia": "through-hole", "quantita": 10,
+    "posizione": "Diode Box", "datasheet_url": "", "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-rl207
   categoria: componenti
@@ -481,8 +492,11 @@
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RL207", "categoria": "componenti", "descrizione": "Raddrizzatore
+    general purpose 2A 1000V, package DO-15, through-hole; quantità 10", "interfaccia":
+    "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "",
+    "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n5404
   categoria: componenti
@@ -491,13 +505,16 @@
   descrizione: Raddrizzatore 3A 400V, DO-201AD
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88516/1n5400.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N5404", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore 3A 400V, package DO-201AD, through-hole, quantità 10", "interfaccia":
+    "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/88516/1n5400.pdf",
+    "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n5406
   categoria: componenti
@@ -506,13 +523,16 @@
   descrizione: Raddrizzatore 3A 600V, DO-201AD
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88516/1n5400.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N5406", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore 1N5406, 3A 600V, package DO-201AD, through-hole. Quantità 10.",
+    "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url":
+    "https://www.vishay.com/docs/88516/1n5400.pdf", "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n5408
   categoria: componenti
@@ -526,8 +546,11 @@
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N5408", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore 3A 1000V, package DO-201AD, through-hole", "interfaccia": "through-hole",
+    "quantita": 10, "posizione": "Diode Box", "datasheet_url": "", "note": "Bulk add
+    2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n4148
   categoria: componenti
@@ -536,13 +559,16 @@
   descrizione: Diodo switching veloce 100V, DO-35
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/85651/1n4148.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N4148", "categoria": "componenti", "descrizione": "Diodo
+    switching veloce 100V, package DO-35, through-hole, quantità 10", "interfaccia":
+    "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/85651/1n4148.pdf",
+    "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-uf4007
   categoria: componenti
@@ -551,13 +577,17 @@
   descrizione: Raddrizzatore ultrafast 1A 1000V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88743/uf4001.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "UF4007", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore ultrafast 1A 1000V, package DO-41, through-hole. Codice UF4007.
+    Quantità 10.", "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode
+    Box", "datasheet_url": "https://www.vishay.com/docs/88743/uf4001.pdf", "note":
+    "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-fr107
   categoria: componenti
@@ -566,13 +596,17 @@
   descrizione: Raddrizzatore fast recovery 1A 1000V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.diodes.com/assets/Datasheets/ds28004.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FR107", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore fast recovery 1A 1000V, package DO-41, through-hole. Quantità 10.
+    Nessuna foto disponibile.", "interfaccia": "through-hole", "quantita": 10, "posizione":
+    "Diode Box", "datasheet_url": "https://www.diodes.com/assets/Datasheets/ds28004.pdf",
+    "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-fr207
   categoria: componenti
@@ -581,13 +615,20 @@
   descrizione: Raddrizzatore fast recovery 2A 1000V, DO-15
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88528/fr201.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FR207", "categoria": "componenti", "descrizione": "Diodo
+    raddrizzatore fast recovery, 2 A / 1000 V (Vrrm), package DO-15 (DO-204AC) through-hole,
+    10 pezzi visibili in busta/contenitore bulk; marcatura sul corpo: ''FR207'' con
+    possibile banda catodo. Discreto a semiconduttore, non un IC.", "interfaccia":
+    "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/88528/fr201.pdf",
+    "note": "Bulk add 2026-10-11. Riclassificato: categoria piu'' corretta ''componenti''
+    (diodo discreto). Verificare marca (Vishay/Diodes/onsemi) e confermare Vrrm 1000V
+    e If 2A prima dell''uso."}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n5817
   categoria: componenti
@@ -596,13 +637,16 @@
   descrizione: Diodo Schottky 1A 20V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88525/1n5817.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N5817", "categoria": "componenti", "descrizione": "Diodo
+    Schottky 1N5817, 1A 20V, package DO-41, through-hole; quantità 10.", "interfaccia":
+    "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/88525/1n5817.pdf",
+    "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n5819
   categoria: componenti
@@ -616,8 +660,11 @@
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N5819", "categoria": "componenti", "descrizione": "Diodo
+    Schottky 1A 40V, package DO-41, through-hole. Quantità visibile: 10. Scritte leggibili:
+    1N5819.", "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode Box",
+    "datasheet_url": "", "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'
 - id: componenti-1n5822
   categoria: componenti
@@ -626,11 +673,14 @@
   descrizione: Diodo Schottky 3A 40V, DO-201AD
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
+  datasheet_url: https://www.vishay.com/docs/88525/1n5820.pdf
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "1N5822", "categoria": "componenti", "descrizione": "Diodo
+    Schottky 3A 40V, package DO-201AD, through-hole, quantità 10", "interfaccia":
+    "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/88525/1n5820.pdf",
+    "note": "Bulk add 2026-10-11"}'
+  ai_stato: da_verificare
   updated_at: '2026-10-11T16:26:16.861301+00:00'

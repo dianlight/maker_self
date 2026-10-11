@@ -2,7 +2,7 @@
   {
     "id": "sensori-na-02",
     "categoria": "sensori",
-    "codice": "?",
+    "codice": "333044",
     "quantita": 8,
     "descrizione": "Rain Sensors",
     "interfaccia": "?",
@@ -19,7 +19,7 @@
   {
     "id": "sensori-na-03",
     "categoria": "sensori",
-    "codice": "?",
+    "codice": "SEN0193",
     "quantita": 1,
     "descrizione": "Capacitive Soil Moisture Sensor",
     "interfaccia": "I2C",
@@ -36,7 +36,7 @@
   {
     "id": "sensori-na-04",
     "categoria": "sensori",
-    "codice": "?",
+    "codice": "SEN0193",
     "quantita": 2,
     "descrizione": "Soil Sensore",
     "interfaccia": "analogico",
@@ -53,7 +53,7 @@
   {
     "id": "sensori-na-05",
     "categoria": "sensori",
-    "codice": "?",
+    "codice": "RAK7205",
     "quantita": 1,
     "descrizione": "Water Level",
     "interfaccia": "LoRaWAN",
@@ -70,7 +70,7 @@
   {
     "id": "sensori-na-06",
     "categoria": "sensori",
-    "codice": "?",
+    "codice": "TCS34725",
     "quantita": 1,
     "descrizione": "Color Sensor",
     "interfaccia": "I2C",
@@ -87,7 +87,7 @@
   {
     "id": "sensori-na-07",
     "categoria": "sensori",
-    "codice": "?",
+    "codice": "SS49E",
     "quantita": 1,
     "descrizione": "Linear Hall Sensor",
     "interfaccia": "analogica",
@@ -132,7 +132,7 @@
     "foto_drive_id": "",
     "foto_url": "https://www.adafruit.com/images/480x360/164-00.jpg",
     "ai_proposta": "{\"codice\": \"GP2Y0A21YK0F\", \"categoria\": \"sensori\", \"descrizione\": \"Sensore di distanza a infrarossi Sharp GP2Y0A21YK0F, modulo analogico a 3 pin, range tipico 10-80 cm; dalla riga inventario quantità 2. Nessuna foto disponibile.\", \"interfaccia\": \"analogico\", \"quantita\": 2, \"posizione\": \"Sensor Box\", \"datasheet_url\": \"https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf\", \"note\": \"Codice dedotto dal datasheet Sharp GP2Y0A21YK; categoria confermata sensori.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": ""
   },
   {
@@ -4954,13 +4954,13 @@
     "descrizione": "Raddrizzatore general purpose 1A 50V, DO-41",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88503/1n4001.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N4001\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore general purpose 1N4001, 1A 50V, package DO-41, through-hole; quantita 10\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88503/1n4001.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -4971,13 +4971,13 @@
     "descrizione": "Raddrizzatore general purpose 1A 400V, DO-41",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88503/1n4001.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N4004\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore general purpose 1N4004, 1A 400V, package DO-41, through-hole. Quantità 10.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88503/1n4001.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -4993,8 +4993,8 @@
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N4007\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore general purpose 1A 1000V, package DO-41, through-hole, quantità 10, scritte leggibili: 1N4007\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5010,8 +5010,8 @@
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"RL207\", \"categoria\": \"componenti\", \"descrizione\": \"Raddrizzatore general purpose 2A 1000V, package DO-15, through-hole; quantità 10\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5022,13 +5022,13 @@
     "descrizione": "Raddrizzatore 3A 400V, DO-201AD",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88516/1n5400.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N5404\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore 3A 400V, package DO-201AD, through-hole, quantità 10\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88516/1n5400.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5039,13 +5039,13 @@
     "descrizione": "Raddrizzatore 3A 600V, DO-201AD",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88516/1n5400.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N5406\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore 1N5406, 3A 600V, package DO-201AD, through-hole. Quantità 10.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88516/1n5400.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5061,8 +5061,8 @@
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N5408\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore 3A 1000V, package DO-201AD, through-hole\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5073,13 +5073,13 @@
     "descrizione": "Diodo switching veloce 100V, DO-35",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/85651/1n4148.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N4148\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo switching veloce 100V, package DO-35, through-hole, quantità 10\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/85651/1n4148.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5090,13 +5090,13 @@
     "descrizione": "Raddrizzatore ultrafast 1A 1000V, DO-41",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88743/uf4001.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"UF4007\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore ultrafast 1A 1000V, package DO-41, through-hole. Codice UF4007. Quantità 10.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88743/uf4001.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5107,13 +5107,13 @@
     "descrizione": "Raddrizzatore fast recovery 1A 1000V, DO-41",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.diodes.com/assets/Datasheets/ds28004.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"FR107\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore fast recovery 1A 1000V, package DO-41, through-hole. Quantità 10. Nessuna foto disponibile.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.diodes.com/assets/Datasheets/ds28004.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5124,13 +5124,13 @@
     "descrizione": "Raddrizzatore fast recovery 2A 1000V, DO-15",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88528/fr201.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"FR207\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo raddrizzatore fast recovery, 2 A / 1000 V (Vrrm), package DO-15 (DO-204AC) through-hole, 10 pezzi visibili in busta/contenitore bulk; marcatura sul corpo: 'FR207' con possibile banda catodo. Discreto a semiconduttore, non un IC.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88528/fr201.pdf\", \"note\": \"Bulk add 2026-10-11. Riclassificato: categoria piu' corretta 'componenti' (diodo discreto). Verificare marca (Vishay/Diodes/onsemi) e confermare Vrrm 1000V e If 2A prima dell'uso.\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5141,13 +5141,13 @@
     "descrizione": "Diodo Schottky 1A 20V, DO-41",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88525/1n5817.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N5817\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo Schottky 1N5817, 1A 20V, package DO-41, through-hole; quantità 10.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88525/1n5817.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5163,8 +5163,8 @@
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N5819\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo Schottky 1A 40V, package DO-41, through-hole. Quantità visibile: 10. Scritte leggibili: 1N5819.\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5175,13 +5175,13 @@
     "descrizione": "Diodo Schottky 3A 40V, DO-201AD",
     "interfaccia": "through-hole",
     "note": "Bulk add 2026-10-11",
-    "datasheet_url": "",
+    "datasheet_url": "https://www.vishay.com/docs/88525/1n5820.pdf",
     "datasheet_last_check": "2026-10-11T16:28:03.491372+00:00",
     "posizione": "Diode Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1N5822\", \"categoria\": \"componenti\", \"descrizione\": \"Diodo Schottky 3A 40V, package DO-201AD, through-hole, quantità 10\", \"interfaccia\": \"through-hole\", \"quantita\": 10, \"posizione\": \"Diode Box\", \"datasheet_url\": \"https://www.vishay.com/docs/88525/1n5820.pdf\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:26:16.861301+00:00"
   },
   {
@@ -5197,8 +5197,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"10\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, valore 10 Ω, quantità 20\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5214,8 +5214,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"22\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 22 Ω, quantità 20, package assiale through-hole, scritta 22\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5231,8 +5231,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"47Ω\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 47 Ω, quantità 20, package assiale/through-hole, scritta 47 (probabile 47 Ω)\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11; valore 47 Ω, through-hole\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5248,8 +5248,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"68\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, valore/codice 68 Ω (presunto), quantità 20, package assiale through-hole; nessuna foto disponibile, scritte non leggibili\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5265,8 +5265,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"100\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, codice 100, valore presunto 100 Ω, quantità 20 pezzi, package assiale, marcatura leggibile '100'\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5282,8 +5282,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"150\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, valore 150 Ω, quantità 20, package assiale through-hole\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5299,8 +5299,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"200\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole valore 200 (presunto 200 Ω), quantità 20 pezzi, package assiale/through-hole, scritta leggibile: 200\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5316,8 +5316,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"220\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 220Ω, 20 pezzi, package assiale/through-hole, marcatura 220\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5333,8 +5333,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"270\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 270 Ω (presunto), package assiale, quantità 20; nessuna foto disponibile, scritte non leggibili.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5350,8 +5350,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"330\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 330 Ω; quantità 20 pezzi; package through-hole non specificato; valore leggibile 330\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5367,8 +5367,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"470\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 470 Ω; quantità 20; package through-hole; nessuna foto, scritte non leggibili\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5384,8 +5384,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"510\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, valore 510 Ω, quantità 20 da inventario, package through-hole\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5401,8 +5401,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"680\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 680 Ω, package assiale; quantità 20; scritta leggibile: 680\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5418,8 +5418,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 1kΩ, quantità 20, package assiale through-hole, scritta leggibile 1k\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5435,8 +5435,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"2k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 2 kΩ, package assiale, quantità 20. Nessuna foto disponibile; dati ricavati dalla riga inventario.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5452,8 +5452,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"2k2\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 2k2 (2.2 kΩ), 20 pezzi, package through-hole; valore leggibile: 2k2\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5469,8 +5469,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"3k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 3kΩ, quantità 20, package assiale through-hole\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5486,8 +5486,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"4k7\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 4k7, valore 4.7 kΩ, package through-hole/assiale non specificato, quantità 20.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5503,8 +5503,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"5k1\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, valore 5k1, quantità 20, package through-hole, scritte leggibili: 5k1\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5520,8 +5520,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"6k8\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 6k8 (6.8 kΩ), quantità 20, package assiale through-hole, scritta leggibile: 6k8.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5537,8 +5537,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"10k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 10kΩ, quantità 20, package assiale/through-hole, valore leggibile 10k\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5554,8 +5554,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"20k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 20 kΩ, quantità 20; package through-hole/assiale ipotizzato; scritta valore '20k' dal campo codice; nessuna foto disponibile.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11; riclassificato come resistore. Nessuna foto disponibile.\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5571,8 +5571,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"47k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 47k, quantità 20, package through-hole, marcatura leggibile 47k\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5588,8 +5588,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"51k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 51k, quantità 20, package assiale/through-hole non specificato (nessuna foto disponibile)\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5605,8 +5605,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"68k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 68 kΩ; quantità dichiarata: 20; package: through-hole; scritta leggibile: 68k\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5622,8 +5622,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"100k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole da 100k, quantità 20, package through-hole, valore leggibile 100k\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5639,8 +5639,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"220k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 220 kΩ, quantità indicata 20, package assiale through-hole, marcatura 220k\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5656,8 +5656,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"300k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole, valore 300 kΩ, quantità indicata 20, package through-hole, nessuna marcatura aggiuntiva leggibile.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11; resistore 300 kΩ through-hole.\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5673,8 +5673,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"470k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 470k (470 kΩ), package assiale; quantità 20. Nessuna foto disponibile.\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5690,8 +5690,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"680k\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 680 kΩ, package assiale, quantità 20\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   },
   {
@@ -5707,8 +5707,8 @@
     "posizione": "V Resistor Box",
     "foto_drive_id": "",
     "foto_url": "",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"1M\", \"categoria\": \"resistors\", \"descrizione\": \"Resistore through-hole 1MΩ, package assiale, quantità 20; nessuna foto disponibile, marcatura non leggibile\", \"interfaccia\": \"through-hole\", \"quantita\": 20, \"posizione\": \"V Resistor Box\", \"datasheet_url\": \"\", \"note\": \"Bulk add 2026-10-11\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "2026-10-11T16:37:29.930660+00:00"
   }
 ]
