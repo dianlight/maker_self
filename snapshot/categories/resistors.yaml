@@ -2,22 +2,46 @@
   categoria: resistors
   codice: SCD30A
   quantita: 1
-  descrizione: 'Shunt di corrente SCD30A da 30A, 1 pezzo, package non visibile, nessuna
-    foto disponibile; scritte leggibili: SCD30A, 30A.'
+  descrizione: 'Shunt di corrente Siglent SCD30A, 30 A, per multimetro SDM3065X; quantità
+    visibile 1; package non specificato; scritte leggibili: 30A, SCD30A.'
   interfaccia: ''
-  note: 'Riclassificato dalla riga inventario: categoria originale ''pu'' corretta
-    in resistors; codice ''Stunt'' corretto in SCD30A (shunt 30A).'
+  note: 'Riclassificato: shunt 30A Siglent SCD30A; categoria corretta da pu a resistors;
+    codice corretto da Stunt a SCD30A. Quantità 1, posizione B Box.'
   datasheet_url: https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf
   datasheet_last_check: '2026-10-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "SCD30A", "categoria": "resistors", "descrizione": "Shunt
-    di corrente SCD30A da 30A, 1 pezzo, package non visibile, nessuna foto disponibile;
-    scritte leggibili: SCD30A, 30A.", "interfaccia": "", "quantita": 1, "posizione":
-    "B Box", "datasheet_url": "https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf",
-    "note": "Riclassificato dalla riga inventario: categoria originale ''pu'' corretta
-    in resistors; codice ''Stunt'' corretto in SCD30A (shunt 30A)."}'
+    di corrente Siglent SCD30A, 30 A, per multimetro SDM3065X; quantità visibile 1;
+    package non specificato; scritte leggibili: 30A, SCD30A.", "interfaccia": "",
+    "quantita": 1, "posizione": "B Box", "datasheet_url": "https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf",
+    "note": "Riclassificato: shunt 30A Siglent SCD30A; categoria corretta da pu a
+    resistors; codice corretto da Stunt a SCD30A. Quantità 1, posizione B Box."}'
+  ai_stato: da_verificare
+  updated_at: ''
+- id: componenti-slide-pot-211
+  categoria: resistors
+  codice: PSxxG
+  quantita: 1
+  descrizione: Potenziometro slide (slide pot) TT Electronics serie PSxxG; quantita
+    visibile 1; package slide pot non specificato; scritta leggibile 'Slide Pot';
+    valore ohmico e corsa da verificare.
+  interfaccia: analogico
+  note: Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato
+    a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.
+  datasheet_url: https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf
+  datasheet_last_check: '2026-10-07'
+  posizione: B BOX
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Potenziometro
+    slide (slide pot) TT Electronics serie PSxxG; quantita visibile 1; package slide
+    pot non specificato; scritta leggibile ''Slide Pot''; valore ohmico e corsa da
+    verificare.", "interfaccia": "analogico", "quantita": 1, "posizione": "B BOX",
+    "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
+    "note": "Riclassificato da componenti a resistors; codice generico ''Slide Pot''
+    aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: resistors-table-1-1-b5k-243

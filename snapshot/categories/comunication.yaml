@@ -86,20 +86,21 @@
   quantita: 1
   descrizione: ETH Adapter
   interfaccia: '?'
-  note: ENC28J60 è un controller Ethernet 10Base-T con interfaccia SPI, tipicamente
-    usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione.
+  note: 'ENC28J60 è un controller Ethernet 10Base-T con interfaccia SPI, tipicamente
+    usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione. Nessuna
+    foto disponibile: riclassificato dalla riga inventario.'
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
-  foto_url: https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png
+  foto_url: ''
   ai_proposta: '{"codice": "ENC28J60", "categoria": "comunication", "descrizione":
-    "Nessuna foto disponibile. Dai campi risulta un adattatore Ethernet basato su
-    ENC28J60; quantità 1; package non visibile; scritte leggibili desumibili: ENC28J60,
-    ETH Adapter.", "interfaccia": "SPI", "quantita": 1, "posizione": "Io Barrel",
-    "datasheet_url": "https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf",
+    "ETH Adapter / modulo Ethernet basato su ENC28J60, interfaccia SPI, 10Base-T;
+    quantita 1; package non visibile.", "interfaccia": "SPI", "quantita": 1, "posizione":
+    "Io Barrel", "datasheet_url": "https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf",
     "note": "ENC28J60 è un controller Ethernet 10Base-T con interfaccia SPI, tipicamente
-    usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione."}'
+    usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione. Nessuna
+    foto disponibile: riclassificato dalla riga inventario."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: comunication-hc-05-78

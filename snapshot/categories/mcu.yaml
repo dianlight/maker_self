@@ -1,21 +1,21 @@
 - id: mcu-esp-8266-225
   categoria: mcu
-  codice: ESP 8266
+  codice: ESP8266
   quantita: 2
-  descrizione: '8266'
+  descrizione: ESP8266, microcontroller Wi-Fi, interfaccia MINI DIP, quantita 2
   interfaccia: MINI DIP
-  note: Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione
-    ampliata. Basato solo sui campi della riga, nessuna foto disponibile.
+  note: Riclassificato da mcu-board a mcu; codice normalizzato in ESP8266; descrizione
+    ampliata. Basato solo sui campi della riga, nessuna foto.
   datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
   datasheet_last_check: '2026-10-07'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "ESP8266", "categoria": "mcu-board", "descrizione": "Modulo/scheda
-    basata su ESP8266, interfaccia MINI DIP, 2 pezzi; MCU Wi-Fi SoC.", "interfaccia":
-    "MINI DIP", "quantita": 2, "posizione": "MCU Box", "datasheet_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf",
-    "note": "Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione
-    ampliata. Basato solo sui campi della riga, nessuna foto disponibile."}'
+  ai_proposta: '{"codice": "ESP8266", "categoria": "mcu", "descrizione": "ESP8266,
+    microcontroller Wi-Fi, interfaccia MINI DIP, quantita 2", "interfaccia": "MINI
+    DIP", "quantita": 2, "posizione": "MCU Box", "datasheet_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf",
+    "note": "Riclassificato da mcu-board a mcu; codice normalizzato in ESP8266; descrizione
+    ampliata. Basato solo sui campi della riga, nessuna foto."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: mcu-atmega644pa-226

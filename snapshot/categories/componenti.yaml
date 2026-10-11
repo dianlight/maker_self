@@ -1,30 +1,49 @@
+- id: motors-hardware-jyd8131-118
+  categoria: componenti
+  codice: JYD8131
+  quantita: 1
+  descrizione: 'Generatore di nebbia / fog creator; 1 pezzo; modulo/componente elettronico;
+    package non specificato; scritte/valori leggibili: 2.4MHz, 1.70MHz, 2 Ohm.'
+  interfaccia: 2.4MHz 1.70MHz 2 Ohm
+  note: 'Riclassificato da motors-hardware a componenti: non è un motore ma un componente/generatore
+    di nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità.'
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Component Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "JYD8131", "categoria": "componenti", "descrizione": "Generatore
+    di nebbia / fog creator; 1 pezzo; modulo/componente elettronico; package non specificato;
+    scritte/valori leggibili: 2.4MHz, 1.70MHz, 2 Ohm.", "interfaccia": "2.4MHz 1.70MHz
+    2 Ohm", "quantita": 1, "posizione": "Component Barrel", "datasheet_url": "", "note":
+    "Riclassificato da motors-hardware a componenti: non è un motore ma un componente/generatore
+    di nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità."}'
+  ai_stato: da_verificare
+  updated_at: ''
 - id: ic-components-irl540n-155
   categoria: componenti
   codice: IRL540N
   quantita: 10
-  descrizione: 'Power MOSFET N-channel logic level, package TO-220AB, quantità dichiarata
-    10, scritte leggibili: IRL540N, Vd 100, Id 20'
-  interfaccia: TO-220
-  note: Vd 100, Id 20; MOSFET discreto, non IC. Package TO-220.
+  descrizione: Power MOSFET N-channel, package TO-220AB, quantità 10, sigla IRL540N,
+    Vds 100V, Id 20A
+  interfaccia: TO-220AB
+  note: Vds 100V, Id 20A
   datasheet_url: https://www.vishay.com/docs/91300/irl540.pdf
   datasheet_last_check: '2026-10-05'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "IRL540N", "categoria": "componenti", "descrizione": "Power
-    MOSFET N-channel logic level, package TO-220AB, quantità dichiarata 10, scritte
-    leggibili: IRL540N, Vd 100, Id 20", "interfaccia": "TO-220", "quantita": 10, "posizione":
-    "Mosfet Box", "datasheet_url": "https://www.vishay.com/docs/91300/irl540.pdf",
-    "note": "Vd 100, Id 20; MOSFET discreto, non IC. Package TO-220."}'
+    MOSFET N-channel, package TO-220AB, quantità 10, sigla IRL540N, Vds 100V, Id 20A",
+    "interfaccia": "TO-220AB", "quantita": 10, "posizione": "Mosfet Box", "datasheet_url":
+    "https://www.vishay.com/docs/91300/irl540.pdf", "note": "Vds 100V, Id 20A"}'
   ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ssxx-174
   categoria: componenti
   codice: SS32
   quantita: 30
-  descrizione: Diodo Schottky SS32, componente discreto, package SMD, quantità 30
-    pz da inventario; nessuna foto disponibile, sigla SS32 ricavata dai campi della
-    riga.
+  descrizione: Diodo Schottky SS32, package SMD, quantita 30, scritta leggibile SS32
   interfaccia: SMD
   note: Riclassificato da 'Scotty Diodo' a 'Diodo Schottky SS32'. Categoria corretta
     da ic-components a componenti. Codice corretto da SSxx a SS32.
@@ -34,11 +53,35 @@
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "SS32", "categoria": "componenti", "descrizione": "Diodo
-    Schottky SS32, componente discreto, package SMD, quantità 30 pz da inventario;
-    nessuna foto disponibile, sigla SS32 ricavata dai campi della riga.", "interfaccia":
+    Schottky SS32, package SMD, quantita 30, scritta leggibile SS32", "interfaccia":
     "SMD", "quantita": 30, "posizione": "SMD Box", "datasheet_url": "https://www.vishay.com/docs/88751/ss32.pdf",
     "note": "Riclassificato da ''Scotty Diodo'' a ''Diodo Schottky SS32''. Categoria
     corretta da ic-components a componenti. Codice corretto da SSxx a SS32."}'
+  ai_stato: da_verificare
+  updated_at: ''
+- id: pu-anelli-di-ferrite-184
+  categoria: componenti
+  codice: Anelli Di Ferrite
+  quantita: 5
+  descrizione: Anelli di ferrite per cavo, quantità 5. Package non specificato; nessuna
+    scritta leggibile nella riga. Il datasheet associato è per ferrite bead SMD 0603
+    Vishay ILBB0603, non per anelli da cavo.
+  interfaccia: cavo
+  note: Il datasheet originario https://www.vishay.com/docs/34024/ilbb0603.pdf si
+    riferisce a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo;
+    verificare corrispondenza e package.
+  datasheet_url: https://www.vishay.com/docs/34024/ilbb0603.pdf
+  datasheet_last_check: '2026-10-06'
+  posizione: A Box
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
+    "Anelli di ferrite per cavo, quantità 5. Package non specificato; nessuna scritta
+    leggibile nella riga. Il datasheet associato è per ferrite bead SMD 0603 Vishay
+    ILBB0603, non per anelli da cavo.", "interfaccia": "", "quantita": 5, "posizione":
+    "A Box", "datasheet_url": "", "note": "Il datasheet originario https://www.vishay.com/docs/34024/ilbb0603.pdf
+    si riferisce a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo;
+    verificare corrispondenza e package."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-hw-125-208
@@ -108,28 +151,6 @@
     prodotto, non datasheet tecnico."}'
   ai_stato: da_verificare
   updated_at: ''
-- id: componenti-slide-pot-211
-  categoria: componenti
-  codice: Slide Pot
-  quantita: 1
-  descrizione: Resistor - Slide Pot.
-  interfaccia: analogico
-  note: Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato
-    a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.
-  datasheet_url: https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf
-  datasheet_last_check: '2026-10-07'
-  posizione: B BOX
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Resistor
-    - Slide Pot. Potenziometro a slitta (slide potentiometer) serie PSxxG, componente
-    passivo variabile. Quantità visibile: 1. Package e scritte leggibili non disponibili
-    dalla riga; valore ohmico e corsa da verificare.", "interfaccia": "analogico",
-    "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
-    "note": "Riclassificato da componenti a resistors; codice generico ''Slide Pot''
-    aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: componenti-xa0065-212
   categoria: componenti
   codice: XA0065
@@ -159,19 +180,19 @@
   quantita: 1
   descrizione: DC 10A Mini voltometro
   interfaccia: DC
-  note: Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A
-    Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.
+  note: Riclassificato da 'componenti' a 'displays'; descrizione corretta a modulo
+    voltmetro/amperometro DC 10A mini.
   datasheet_url: https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: https://m.media-amazon.com/images/G/42/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546775727_.png
+  foto_url: ''
   ai_proposta: '{"codice": "X30567", "categoria": "displays", "descrizione": "Modulo
-    voltmetro/amperometro DC 10A mini con display digitale per misura tensione/corrente",
-    "interfaccia": "", "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7",
+    voltmetro/amperometro DC 10A mini con display, quantità 1, package modulo; nessuna
+    foto disponibile, scritte non leggibili.", "interfaccia": "DC", "quantita": 1,
+    "posizione": "B BOX", "datasheet_url": "https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7",
     "note": "Riclassificato da ''componenti'' a ''displays''; descrizione corretta
-    da ''DC 10A Mini voltometro'' a modulo voltmetro/amperometro DC 10A mini. Nessuna
-    foto disponibile."}'
+    a modulo voltmetro/amperometro DC 10A mini."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-mosfet-irf520-214
@@ -223,7 +244,7 @@
   codice: Laser
   quantita: 1
   descrizione: Laser Emitter
-  interfaccia: 2 pin
+  interfaccia: elettrica
   note: Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico.
     Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.
   datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
@@ -231,10 +252,10 @@
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Laser Emitter
-    (emettitore laser / possibile diodo laser optoelettronico), quantità 1; package
-    e scritte non leggibili perché nessuna foto disponibile.", "interfaccia": "",
-    "quantita": 1, "posizione": "Component Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
+  ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Emettitore
+    laser (Laser Emitter), 1 pezzo, package non noto, nessuna scritta leggibile (nessuna
+    foto disponibile).", "interfaccia": "", "quantita": 1, "posizione": "Component
+    Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
     "note": "Nessuna foto; riclassificato da ''componenti'' a ''led'' perché emettitore
     optoelettronico. Codice originale ''Laser'' mantenuto; verificare part number
     e package dal datasheet."}'
@@ -262,45 +283,26 @@
     corretto in KY-023; categoria originale ''componenti'' aggiornata a sensori."}'
   ai_stato: da_verificare
   updated_at: ''
-- id: componenti-ic-joystick-218
-  categoria: componenti
-  codice: IC Joystick
-  quantita: 3
-  descrizione: Joystick
-  interfaccia: Analogica/Digitale (VRx, VRy, SW)
-  note: Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC.
-  datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
-  datasheet_last_check: '2026-10-07'
-  posizione: Component Barrel
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "KY-023", "categoria": "componenti", "descrizione": "Modulo
-    joystick KY-023, 3 pezzi, con uscite analogiche VRx, VRy e switch digitale SW.
-    Modulo PCB con joystick a levetta.", "interfaccia": "Analogica/Digitale (VRx,
-    VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
-    "note": "Riclassificato da ''IC Joystick'' a modulo joystick KY-023; non è un
-    IC."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: componenti-keyboards-219
   categoria: componenti
   codice: Keyboards
   quantita: 3
   descrizione: Tastiera a Pression
   interfaccia: Bluetooth
-  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
-    indica tastiera Bluetooth sealed IP68.
-  datasheet_url: https://www.dtresearch.com/support/datasheet/Sealed_IP68_BT_Keyboard_W_datasheet.pdf
-  datasheet_last_check: '2026-10-07'
+  note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
+    indica tastiera Bluetooth sealed IP68. Categoria generica: tastiera non presente
+    nelle categorie specifiche.'
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
-  foto_url: https://www.daskeyboard.com/images/open-graph-daskeyboard-4-professional.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "Keyboards", "categoria": "componenti", "descrizione":
-    "Tastiera a pressione, 3 unità visibili, modello sealed IP68 Bluetooth, package
-    non specificato", "interfaccia": "Bluetooth", "quantita": 3, "posizione": "A Box",
-    "datasheet_url": "https://www.dtresearch.com/support/datasheet/Sealed_IP68_BT_Keyboard_W_datasheet.pdf",
-    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
-    indica tastiera Bluetooth sealed IP68."}'
+    "Tastiera a pressione Bluetooth, 3 pezzi, IP68 sealed; package non specificato;
+    nessuna foto disponibile, nessuna scritta leggibile.", "interfaccia": "Bluetooth",
+    "quantita": 3, "posizione": "A Box", "datasheet_url": "", "note": "Riclassificato
+    dalla riga inventario; nessuna foto disponibile. Il datasheet indica tastiera
+    Bluetooth sealed IP68."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-zs-042-220
@@ -330,22 +332,20 @@
   quantita: 10
   descrizione: Rotary Encoder
   interfaccia: incrementale/quadratura
-  note: Riclassificato da categoria 'componenti' a 'sensori'; codice generico 'Rotary
-    Encoder' sostituito con A102H dal datasheet. Verificare interfaccia e package
-    sul datasheet.
-  datasheet_url: https://www.precizika.com/wp-content/uploads/2021/08/A102H-Rotary-Encoder-Datasheet.pdf
-  datasheet_last_check: '2026-10-07'
+  note: Riclassificato da 'componenti' a 'sensori'; codice generico 'Rotary Encoder'
+    sostituito con A102H dalla nota/datasheet. Verificare package e interfaccia sul
+    datasheet.
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: A Box
   foto_drive_id: ''
-  foto_url: https://global.discourse-cdn.com/digikey/original/3X/e/e/ee6872641fcd4645e369240709b40f193add1207.jpeg
+  foto_url: ''
   ai_proposta: '{"codice": "A102H", "categoria": "sensori", "descrizione": "Rotary
-    encoder A102H (Precizika), componente elettromeccanico per rilevazione rotazione/posizione;
-    quantità inventario 10 pezzi; package non specificato; scritta leggibile: A102H.",
-    "interfaccia": "incrementale/quadratura", "quantita": 10, "posizione": "A Box",
-    "datasheet_url": "https://www.precizika.com/wp-content/uploads/2021/08/A102H-Rotary-Encoder-Datasheet.pdf",
-    "note": "Riclassificato da categoria ''componenti'' a ''sensori''; codice generico
-    ''Rotary Encoder'' sostituito con A102H dal datasheet. Verificare interfaccia
-    e package sul datasheet."}'
+    encoder (encoder rotativo) incrementale/quadratura, quantità 10, package non specificato
+    nelle righe; codice A102H.", "interfaccia": "incrementale/quadratura", "quantita":
+    10, "posizione": "A Box", "datasheet_url": "", "note": "Riclassificato da ''componenti''
+    a ''sensori''; codice generico ''Rotary Encoder'' sostituito con A102H dalla nota/datasheet.
+    Verificare package e interfaccia sul datasheet."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: componenti-pulsanti-colorati-222

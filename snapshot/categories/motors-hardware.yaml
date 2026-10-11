@@ -157,28 +157,6 @@
     lineare DC 10 mm, 2 fili. Nessuna foto disponibile per verificare package e scritte."}'
   ai_stato: da_verificare
   updated_at: ''
-- id: motors-hardware-jyd8131-118
-  categoria: motors-hardware
-  codice: JYD8131
-  quantita: 1
-  descrizione: Fog creator
-  interfaccia: 2.4Mhz 1.70Mhz 2Ohm
-  note: 'Riclassificato da motors-hardware a componenti: non è un motore ma un componente/generatore
-    di nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità.'
-  datasheet_url: https://smoke-factory.de/pdf/manual_fog_blaster.pdf
-  datasheet_last_check: '2026-10-03'
-  posizione: Component Barrel
-  foto_drive_id: ''
-  foto_url: https://www.jmfx.net/sites/default/files/styles/product_home/public/viper_running_2.jpg?itok=yHecJAy3
-  ai_proposta: '{"codice": "JYD8131", "categoria": "componenti", "descrizione": "Modulo/generatore
-    di nebbia (fog creator) a ultrasuoni; 1 pezzo; package non specificato; scritte
-    leggibili: JYD8131; frequenze 2.4MHz e 1.70MHz, resistenza 2 Ohm.", "interfaccia":
-    "2.4MHz / 1.70MHz, 2 Ohm", "quantita": 1, "posizione": "Component Barrel", "datasheet_url":
-    "https://smoke-factory.de/pdf/manual_fog_blaster.pdf", "note": "Riclassificato
-    da motors-hardware a componenti: non è un motore ma un componente/generatore di
-    nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: motors-hardware-mini-passo-passo-119
   categoria: motors-hardware
   codice: Mini Passo Passo

@@ -219,25 +219,26 @@
   updated_at: ''
 - id: displays-pj-69c-109
   categoria: displays
-  codice: PJ-69C
+  codice: TX16D204VM0BVA
   quantita: 1
-  descrizione: Clock Display
+  descrizione: Display LCD 16x2, modulo caratteri, interfaccia parallela HD44780,
+    part number TX16D204VM0BVA, quantità 1. Descrizione originale 'Clock Display'
+    imprecisa.
   interfaccia: parallela HD44780
   note: Codice originale PJ-69C non corrisponde (PJ-69C è un jack DC). Datasheet TX16D204VM0BVA
-    indica display LCD 16x2. Descrizione originale 'Clock Display' imprecisa. Possibile
-    codice interno CMP7377.
-  datasheet_url: http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf
-  datasheet_last_check: '2026-10-03'
+    indica display LCD 16x2. Possibile codice interno CMP7377.
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Display Barrel
   foto_drive_id: ''
-  foto_url: https://nihrlatamcentre.com/wp-content/uploads/2023/09/01.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "TX16D204VM0BVA", "categoria": "displays", "descrizione":
-    "Display LCD 16x2 caratteri, modulo, 1 pezzo visibile, package modulo, marcatura
-    TX16D204VM0BVA", "interfaccia": "parallela HD44780", "quantita": 1, "posizione":
-    "Display Barrel", "datasheet_url": "http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf",
-    "note": "Codice originale PJ-69C non corrisponde (PJ-69C è un jack DC). Datasheet
-    TX16D204VM0BVA indica display LCD 16x2. Descrizione originale ''Clock Display''
-    imprecisa. Possibile codice interno CMP7377."}'
+    "Display LCD 16x2, modulo caratteri, interfaccia parallela HD44780, part number
+    TX16D204VM0BVA, quantità 1. Descrizione originale ''Clock Display'' imprecisa.",
+    "interfaccia": "parallela HD44780", "quantita": 1, "posizione": "Display Barrel",
+    "datasheet_url": "", "note": "Codice originale PJ-69C non corrisponde (PJ-69C
+    è un jack DC). Datasheet TX16D204VM0BVA indica display LCD 16x2. Possibile codice
+    interno CMP7377."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: na-hx40023

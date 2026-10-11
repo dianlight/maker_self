@@ -17,50 +17,28 @@
     "https://roboeq.ir/uploads/files/163826248821.pdf", "note": ""}'
   ai_stato: da_verificare
   updated_at: ''
-- id: pu-anelli-di-ferrite-184
-  categoria: pu
-  codice: Anelli Di Ferrite
-  quantita: 5
-  descrizione: Da cavo
-  interfaccia: cavo
-  note: Riclassificato da 'pu' a 'componenti'. Il datasheet Vishay ILBB0603 si riferisce
-    a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo; verificare
-    corrispondenza e part number.
-  datasheet_url: https://www.vishay.com/docs/34024/ilbb0603.pdf
-  datasheet_last_check: '2026-10-06'
-  posizione: A Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
-    "Anelli di ferrite per cavo, quantità visibile 5, package non specificato; nessuna
-    scritta leggibile disponibile (nessuna foto).", "interfaccia": "", "quantita":
-    5, "posizione": "A Box", "datasheet_url": "https://www.vishay.com/docs/34024/ilbb0603.pdf",
-    "note": "Riclassificato da ''pu'' a ''componenti''. Il datasheet Vishay ILBB0603
-    si riferisce a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo;
-    verificare corrispondenza e part number."}'
-  ai_stato: da_verificare
-  updated_at: ''
 - id: pu-anelli-di-ferrite-185
   categoria: pu
   codice: Anelli Di Ferrite
   quantita: 3
   descrizione: Da IC
   interfaccia: ''
-  note: 'Riclassificato da categoria ''pu'' a ''componenti'': si tratta di componenti
-    passivi per filtraggio/soppressione EMI (anelli di ferrite), non di una unità
-    di potenza.'
+  note: 'Riclassificato da ''pu'' a ''componenti'': si tratta di componenti passivi
+    per filtraggio/soppressione EMI, non di una unità di potenza. Codice mantenuto
+    descrittivo ''Anelli Di Ferrite''.'
   datasheet_url: https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: ''
   ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
-    "3 anelli di ferrite per filtraggio/soppressione EMI; package non specificato,
-    nessuna scritta leggibile.", "interfaccia": "", "quantita": 3, "posizione": "PU
-    Barrel", "datasheet_url": "https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf",
-    "note": "Riclassificato da categoria ''pu'' a ''componenti'': si tratta di componenti
-    passivi per filtraggio/soppressione EMI (anelli di ferrite), non di una unità
-    di potenza."}'
+    "Anelli di ferrite (ferrite rings/beads) per filtraggio e soppressione EMI. Quantità
+    3. Package non specificato. Scritte leggibili non disponibili. Provenienza indicata:
+    ''Da IC''.", "interfaccia": "", "quantita": 3, "posizione": "PU Barrel", "datasheet_url":
+    "https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf",
+    "note": "Riclassificato da ''pu'' a ''componenti'': si tratta di componenti passivi
+    per filtraggio/soppressione EMI, non di una unità di potenza. Codice mantenuto
+    descrittivo ''Anelli Di Ferrite''."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-b0505s-2w-186
@@ -111,12 +89,11 @@
   datasheet_last_check: '2026-10-06'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: https://i.ytimg.com/vi/bLAvVjBiqNI/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&amp;rs=AOn4CLD1j019e4ATSj-Gdd-j10K1qNXIfg&amp;usqp=CCk
+  foto_url: ''
   ai_proposta: '{"codice": "FS030116-01", "categoria": "motors-hardware", "descrizione":
-    "Alternatore per gruppo elettrogeno KD2500-F; tipo componente: alternatore/generatore
-    AC; quantità 1; package non visibile (nessuna foto); scritte leggibili: KD2500-F",
-    "interfaccia": "Elettrica AC / meccanica", "quantita": 1, "posizione": "Component
-    Barrel", "datasheet_url": "https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf",
+    "Alternatore/generatore AC, 1 unità, package non specificato, marcatura codice
+    FS030116-01, datasheet KD2500-F", "interfaccia": "Elettrica AC / meccanica", "quantita":
+    1, "posizione": "Component Barrel", "datasheet_url": "https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf",
     "note": "Nessuna foto disponibile; riclassificato da ''pu'' a ''motors-hardware''
     in quanto alternatore/generatore, non power unit. Codice e posizione invariati."}'
   ai_stato: da_verificare
@@ -132,11 +109,12 @@
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
-  foto_url: https://datasheet4u.com/pdfhtml/0167/1212605/page-000001.png
+  foto_url: ''
   ai_proposta: '{"codice": "KBL610", "categoria": "componenti", "descrizione": "Raddrizzatore
-    a ponte KBL610, package KBL, 4 pin, 6A, quantità 10", "interfaccia": "4PIN", "quantita":
-    10, "posizione": "PU Barrel", "datasheet_url": "https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf",
-    "note": "6A, 1000V"}'
+    a ponte (bridge rectifier) KBL610, package KBL, 4 pin, 6 A, 1000 V; quantità inventario
+    10 pezzi.", "interfaccia": "4PIN", "quantita": 10, "posizione": "PU Barrel", "datasheet_url":
+    "https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf", "note":
+    "6A, 1000V; KBL610 = 1000V 6A secondo datasheet KBL601-KBL610."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-kbp210-190
@@ -304,54 +282,22 @@
   quantita: 2
   descrizione: Solar Charger + Pannello solare
   interfaccia: DC/USB (presunta)
-  note: Riclassificato come 'pu' (power unit / modulo di ricarica solare). Codice
-    ipotizzato da 'Solar Charger'; nessun part number verificabile. Datasheet è un
-    link PDF Amazon non verificato. Quantità 2 riferita a 2 pezzi del componente/kit.
-    Nessuna foto disponibile per verifica.
+  note: Categoria 'pu' mantenuta come power unit/caricatore solare. Codice descrittivo
+    non verificato. Datasheet Amazon PDF non verificato. Quantità 2 intesa come 2
+    pezzi del componente/kit. Nessuna foto disponibile per verifica.
   datasheet_url: https://m.media-amazon.com/images/I/919dJp-mC1L.pdf
   datasheet_last_check: '2026-10-06'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: '{"codice": "Solar Charger", "categoria": "pu", "descrizione": "Caricatore
-    solare + pannello solare. Quantità dichiarata: 2. Package non specificato, nessuna
-    scritta leggibile perché non è disponibile alcuna foto.", "interfaccia": "DC/USB
-    (presunta)", "quantita": 2, "posizione": "A Box", "datasheet_url": "https://m.media-amazon.com/images/I/919dJp-mC1L.pdf",
-    "note": "Riclassificato come ''pu'' (power unit / modulo di ricarica solare).
-    Codice ipotizzato da ''Solar Charger''; nessun part number verificabile. Datasheet
-    è un link PDF Amazon non verificato. Quantità 2 riferita a 2 pezzi del componente/kit.
-    Nessuna foto disponibile per verifica."}'
-  ai_stato: da_verificare
-  updated_at: ''
-- id: pu-wifi-charger-200
-  categoria: pu
-  codice: WiFI Charger
-  quantita: 2
-  descrizione: 'IC ricevitore di potenza wireless Qi con caricabatteria integrato
-    per celle Li-Ion/Li-Po singole, package DSBGA-28 (YFF). Quantità da inventario:
-    2. Scritte leggibili: non disponibili (nessuna foto).'
-  interfaccia: 1 solo con controller
-  note: 'Riclassificato dalla riga inventario: ''WiFI Charger'' è probabilmente un
-    refuso per Wireless Charger; ''pu'' corretto in ic-components. Codice corretto
-    in bq51051B dal datasheet TI. Interfaccia originale ''1 solo con controller''
-    ambigua: il dispositivo è un ricevitore Qi con ricarica integrata, comunicazione
-    di potenza via coil e configurazione via pin. Quantità 2 da inventario.'
-  datasheet_url: https://www.ti.com/lit/ds/symlink/bq51051b.pdf
-  datasheet_last_check: '2026-10-06'
-  posizione: PU Barrel
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: '{"codice": "bq51051B", "categoria": "ic-components", "descrizione":
-    "IC ricevitore di potenza wireless Qi con caricabatteria integrato per celle Li-Ion/Li-Po
-    singole, package DSBGA-28 (YFF). Quantità da inventario: 2. Scritte leggibili:
-    non disponibili (nessuna foto).", "interfaccia": "Qi wireless power (induttiva);
-    configurazione tramite pin esterni, nessuna interfaccia dati standard nota.",
-    "quantita": 2, "posizione": "PU Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/bq51051b.pdf",
-    "note": "Riclassificato dalla riga inventario: ''WiFI Charger'' è probabilmente
-    un refuso per Wireless Charger; ''pu'' corretto in ic-components. Codice corretto
-    in bq51051B dal datasheet TI. Interfaccia originale ''1 solo con controller''
-    ambigua: il dispositivo è un ricevitore Qi con ricarica integrata, comunicazione
-    di potenza via coil e configurazione via pin. Quantità 2 da inventario."}'
+  ai_proposta: '{"codice": "Solar Charger", "categoria": "pu", "descrizione": "Nessuna
+    foto disponibile. Dai campi inventario: Solar Charger + Pannello solare; quantità
+    2; package non specificato; scritte leggibili non disponibili. Componente/kit
+    per ricarica solare.", "interfaccia": "DC/USB (presunta)", "quantita": 2, "posizione":
+    "A Box", "datasheet_url": "https://m.media-amazon.com/images/I/919dJp-mC1L.pdf",
+    "note": "Categoria ''pu'' mantenuta come power unit/caricatore solare. Codice
+    descrittivo non verificato. Datasheet Amazon PDF non verificato. Quantità 2 intesa
+    come 2 pezzi del componente/kit. Nessuna foto disponibile per verifica."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: pu-motor-dimmer-201

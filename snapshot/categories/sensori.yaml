@@ -133,7 +133,7 @@
     "Sensor Box", "datasheet_url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/ja/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf",
     "note": "Riclassificato dalla riga inventario senza foto. Codice ipotizzato SS49E;
     datasheet copre famiglia SS39ET/SS49E/SS59ET. Quantità default 1."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-na-08
   categoria: sensori
@@ -235,7 +235,7 @@
     "quantita": 4, "posizione": "Sensor Barrel", "datasheet_url": "https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758",
     "note": "Riclassificato da riga inventario; codice corretto da ACS-758 a ACS758;
     nessuna foto disponibile."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-acs712-13
   categoria: sensori
@@ -257,7 +257,7 @@
     "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/168326/ALLEGRO/ACS712.html",
     "note": "ACS712 è un sensore di corrente integrato; verificare variante di corrente
     (5A/20A/30A) e se si tratta di IC o modulo. Categoria confermata: sensori."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-adxl345-14
   categoria: sensori
@@ -278,7 +278,7 @@
     Barrel", "datasheet_url": "https://www.farnell.com/datasheets/3708808.pdf", "note":
     "Categoria confermata: sensori. Componente riclassificato come accelerometro 3
     assi ADXL345."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-ags02ma-15
   categoria: sensori
@@ -338,7 +338,7 @@
     (simile TO-92/modulo), interfaccia I2C/1-Wire, scritta leggibile AM2320.", "interfaccia":
     "I2C / 1-Wire", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html",
     "note": "Nessuna foto disponibile; riclassificato dalla riga inventario."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-am312-18
   categoria: sensori
@@ -428,7 +428,7 @@
     "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf", "note": "Riclassificato
     dalla riga inventario; nessuna foto disponibile. Categoria corretta: sensori.
     Codice confermato BMP180. Descrizione corretta da ''Barometrix'' a barometrico/pressione/temperatura/altitudine."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-bmp280-22
   categoria: sensori
@@ -473,7 +473,7 @@
     "datasheet_url": "https://www.vishay.com/docs/83751/cny70.pdf", "note": "Nessuna
     foto disponibile; riclassificato dalla riga inventario. Sensore ottico riflettente,
     package DIP-4, 5 pz, posizione B Box."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-d203-24
   categoria: sensori
@@ -487,11 +487,11 @@
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://sensore-electronic.com/wp-content/uploads/2025/07/Glovebox_Inerting-800x800.jpg
+  foto_url: ''
   ai_proposta: '{"codice": "D203S", "categoria": "sensori", "descrizione": "Sensore
-    infrarossi PIR D203S, 6 unità, package TO-5 a 3 pin, uscita analogica; nessuna
-    foto, dati ricavati dalla riga inventario", "interfaccia": "analogica", "quantita":
-    6, "posizione": "Sensor Box", "datasheet_url": "https://www.futurlec.com/PIR_D203S.shtml",
+    piroelettrico PIR D203S per infrarossi, package TO-5 a 3 pin; richiede lente Fresnel
+    e circuito di condizionamento. Quantità visibile da inventario: 6.", "interfaccia":
+    "analogica", "quantita": 6, "posizione": "Sensor Box", "datasheet_url": "https://www.futurlec.com/PIR_D203S.shtml",
     "note": "Codice originale riga: D203; probabile D203S. Sensore piroelettrico PIR,
     richiede lente Fresnel e circuito di condizionamento."}'
   ai_stato: da_verificare
@@ -596,7 +596,7 @@
     "Sensor Barrel", "datasheet_url": "https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm",
     "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     sensori confermata."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-gy-906-30
   categoria: sensori
@@ -671,22 +671,21 @@
   quantita: 1
   descrizione: Solar Tracker
   interfaccia: RS485
-  note: Riclassificato dalla riga inventario; categoria confermata sensori. Codice
-    HD-36 mantenuto come interno. Interfaccia ipotizzata RS485 (da manuale Meteocontrol
-    MS-2).
-  datasheet_url: https://www.proinso.net/pub/doc/File/ingl/Manual%20MS-2%20Tracker%20v%204.1.pdf
-  datasheet_last_check: '2026-10-11'
+  note: Riclassificato dalla riga inventario; categoria sensori confermata. Codice
+    HD-36 mantenuto come interno. Interfaccia RS485 ipotizzata da manuale Meteocontrol
+    MS-2. Nessuna foto disponibile.
+  datasheet_url: ''
+  datasheet_last_check: ''
   posizione: Sensor Barrel
   foto_drive_id: ''
-  foto_url: https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000066_03.front.jpg?v=1727098250
+  foto_url: ''
   ai_proposta: '{"codice": "HD-36", "categoria": "sensori", "descrizione": "Sensore
-    Meteocontrol MS-2 Tracker (solar tracker sensor): q.tà 1, package non visibile,
-    manuale MS-2 Tracker v4.1; probabile sensore irraggiamento/inseguimento solare.",
-    "interfaccia": "RS485", "quantita": 1, "posizione": "Sensor Barrel", "datasheet_url":
-    "https://www.proinso.net/pub/doc/File/ingl/Manual%20MS-2%20Tracker%20v%204.1.pdf",
-    "note": "Riclassificato dalla riga inventario; categoria confermata sensori. Codice
-    HD-36 mantenuto come interno. Interfaccia ipotizzata RS485 (da manuale Meteocontrol
-    MS-2)."}'
+    Solar Tracker (probabile Meteocontrol MS-2), 1 pezzo, interfaccia RS485, posizione
+    Sensor Barrel. Nessuna foto disponibile.", "interfaccia": "RS485", "quantita":
+    1, "posizione": "Sensor Barrel", "datasheet_url": "", "note": "Riclassificato
+    dalla riga inventario; categoria sensori confermata. Codice HD-36 mantenuto come
+    interno. Interfaccia RS485 ipotizzata da manuale Meteocontrol MS-2. Nessuna foto
+    disponibile."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: sensori-htu21d-34
@@ -707,7 +706,7 @@
     "I2C", "quantita": 8, "posizione": "Sensor Barrel", "datasheet_url": "https://www.farnell.com/datasheets/2207166.pdf",
     "note": "Riclassificato dalla riga inventario: sensore temp/umidità I2C; nessuna
     foto disponibile"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-hw-740-35
   categoria: sensori
@@ -812,7 +811,7 @@
     "SPI", "quantita": 3, "posizione": "Sensor Box", "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf",
     "note": "Per PT100 etc; non è un sensore di temperatura ma interfaccia/convertitore
     per RTD. Verificare se modulo breakout o IC."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-max4466-40
   categoria: sensori
@@ -904,7 +903,7 @@
     refuso per Capacitive). Il datasheet collegato è per il modulo Grove 12 Key Capacitive
     I2C Touch Sensor V2 basato su MPR121. Se in inventario è il modulo e non il chip
     nudo, categoria più appropriata: sensori."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-mq-4-44
   categoria: sensori
@@ -1036,7 +1035,7 @@
     "A Box", "datasheet_url": "https://thinkrobotics.com/products/ph4502c-ph-meter",
     "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Modulo/sensore
     pH con sonda, richiede calibrazione."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-pms5003-50
   categoria: sensori
@@ -1169,7 +1168,7 @@
     misurare corrente alternata con uscita analogica proporzionale.", "interfaccia":
     "analogica", "quantita": 2, "posizione": "Sensor Barrel", "datasheet_url": "https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf",
     "note": "https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-ta12-100-56
   categoria: sensori
@@ -1252,7 +1251,7 @@
     "interfaccia": "analogica", "quantita": 5, "posizione": "Sensor Box", "datasheet_url":
     "https://www.vishay.com/docs/81579/temt6000.pdf", "note": "Riclassificato dalla
     riga inventario; categoria sensori confermata"}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-tilt-switch-60
   categoria: sensori
@@ -1326,12 +1325,12 @@
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: '{"codice": "VL53L0X", "categoria": "sensori", "descrizione": "Sensore
-    ToF (Time-of-Flight) VL53L0X, modulo breakout Adafruit, 2 pezzi, package modulo
-    breakout con header, interfaccia I2C. Scritte leggibili non disponibili (nessuna
-    foto); dal datasheet risulta VL53L0X.", "interfaccia": "I2C", "quantita": 2, "posizione":
-    "Sensor Box", "datasheet_url": "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout.pdf",
+  foto_url: ''
+  ai_proposta: '{"codice": "VL53L0X", "categoria": "sensori", "descrizione": "Nessuna
+    foto disponibile. Dai campi risulta un sensore di distanza ToF VL53L0X, modulo/breakout
+    Adafruit con interfaccia I2C; quantità dichiarata 2. Package: breakout PCB (il
+    componente VL53L0X nudo è LGA-12). Scritte leggibili non disponibili.", "interfaccia":
+    "I2C", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout.pdf",
     "note": "Codice attuale ''VL53LDK'' corretto in VL53L0X (probabile refuso). Il
     datasheet indicato è per il breakout Adafruit VL53L0X."}'
   ai_stato: da_verificare
@@ -1355,7 +1354,7 @@
     "I2C", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Sensors/Proximity/DM00112632.pdf",
     "note": "Riclassificato: VL6180X è un sensore ToF di prossimità/luce ambientale,
     non un LIDAR. Categoria corretta: sensori. Interfaccia I2C confermata."}'
-  ai_stato: da_verificare
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-wcmcu-65
   categoria: sensori
@@ -1503,6 +1502,28 @@
     1, "posizione": "B Box", "datasheet_url": "https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/",
     "note": "Categoria corretta: sensori. Interfaccia tipica trigger/echo (compatibile
     HC-SR04); alcune versioni supportano UART/serial. Codice e descrizione confermati."}'
+  ai_stato: da_verificare
+  updated_at: ''
+- id: componenti-ic-joystick-218
+  categoria: sensori
+  codice: KY-023
+  quantita: 3
+  descrizione: Modulo joystick KY-023 (non IC), 3 pezzi, package modulo con leva analogica
+    a doppio potenziometro VRx/VRy e pulsante SW.
+  interfaccia: Analogica/Digitale (VRx, VRy, SW)
+  note: Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC. Corretto
+    codice in KY-023 e categoria in sensori.
+  datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
+  datasheet_last_check: '2026-10-07'
+  posizione: Component Barrel
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
+    joystick KY-023 (non IC), 3 pezzi, package modulo con leva analogica a doppio
+    potenziometro VRx/VRy e pulsante SW.", "interfaccia": "Analogica/Digitale (VRx,
+    VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
+    "note": "Riclassificato da ''IC Joystick'' a modulo joystick KY-023; non è un
+    IC. Corretto codice in KY-023 e categoria in sensori."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: na-na-4
