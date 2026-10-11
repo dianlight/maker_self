@@ -4909,7 +4909,7 @@
     "foto_drive_id": "1dlikIXtnHgI8FgWkCqooEHNeRVPEF_gZ",
     "foto_url": "https://drive.google.com/open?id=1dlikIXtnHgI8FgWkCqooEHNeRVPEF_gZ, https://drive.google.com/open?id=1zvVLhvapmlXKwGA4ECp3EpjzvaNN7y_h",
     "ai_proposta": "{\"codice\": \"MINI RFID-RC522\", \"categoria\": \"sensori\", \"descrizione\": \"Modulo RFID RC522 in versione mini. PCB nero con serigrafia bianca, simbolo antenna RFID al centro, 8 fori per pin su lato sinistro, scritta 'MINI RFID-RC522' sul lato destro. Quantità visibile: 1 modulo.\", \"interfaccia\": \"SPI\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf\", \"note\": \"Modulo lettore RFID a 13.56MHz basato su MFRC522, richiede alimentazione 3.3V.\"}",
-    "ai_stato": "da_verificare",
+    "ai_stato": "confermato",
     "updated_at": "11/10/2026 11.15.48"
   }
 ]
