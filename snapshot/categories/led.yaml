@@ -3,30 +3,47 @@
   codice: CJMCU-2812-B
   quantita: 1
   descrizione: 8 RGB LED BAR
-  interfaccia: ''
-  note: ''
+  interfaccia: seriale single-wire WS2812B, 5V
+  note: Basato sulla riga inventario; nessuna foto disponibile. La descrizione indica
+    8 LED RGB su barra.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://docs.keyestudio.com/projects/KS0533/en/latest/_images/image-20260127121847324.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CJMCU-2812-B", "categoria": "led", "descrizione": "Barra
+    LED RGB indirizzabile WS2812B con 8 LED, modulo CJMCU-2812-B; package modulo/barra,
+    scritta CJMCU-2812-B", "interfaccia": "seriale single-wire WS2812B, 5V", "quantita":
+    1, "posizione": "Component Barrel", "datasheet_url": "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf",
+    "note": "Basato sulla riga inventario; nessuna foto disponibile. La descrizione
+    indica 8 LED RGB su barra."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: led-ir-rx-tx-206
   categoria: led
   codice: Ir RX+TX
   quantita: 20
-  descrizione: ''
-  interfaccia: ''
-  note: ''
+  descrizione: Modulo ricevitore IR Vishay TSOP382, package a 3 pin, uscita digitale
+    demodulata per telecomandi; la riga riporta 'Ir RX+TX' e quantità 20, ma il datasheet
+    indicato è del solo ricevitore IR.
+  interfaccia: '3 pin: OUT, GND, VCC; uscita digitale demodulata a 38 kHz'
+  note: 'Riclassificato da ''led'' a ''sensori'': TSOP382 è un ricevitore IR, non
+    un LED. Verificare se la voce include anche un trasmettitore IR TX e la frequenza
+    portante esatta.'
   datasheet_url: https://www.vishay.com/docs/82491/tsop382.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Led Box
   foto_drive_id: ''
   foto_url: https://www.latticesemi.com/images/menu.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TSOP38238", "categoria": "sensori", "descrizione": "Modulo
+    ricevitore IR Vishay TSOP382, package a 3 pin, uscita digitale demodulata per
+    telecomandi; la riga riporta ''Ir RX+TX'' e quantità 20, ma il datasheet indicato
+    è del solo ricevitore IR.", "interfaccia": "3 pin: OUT, GND, VCC; uscita digitale
+    demodulata a 38 kHz", "quantita": 20, "posizione": "Led Box", "datasheet_url":
+    "https://www.vishay.com/docs/82491/tsop382.pdf", "note": "Riclassificato da ''led''
+    a ''sensori'': TSOP382 è un ricevitore IR, non un LED. Verificare se la voce include
+    anche un trasmettitore IR TX e la frequenza portante esatta."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: led-dual-ir-emitter-207
   categoria: led
@@ -34,29 +51,44 @@
   quantita: 2
   descrizione: IR Emitter
   interfaccia: ''
-  note: ''
+  note: 'Riclassificato: categoria ''led'' confermata (LED a infrarosso). Codice corretto
+    in HSDL-4260 in base al datasheet; ''DUAL IR EMITTER'' è una descrizione, non
+    un codice parte.'
   datasheet_url: https://www.mouser.com/datasheet/2/239/HSDL_4260_DS-1143990.pdf?srsltid=AU7gw4W5MeVP5AXg0JlcXsEQ518Y5-YSly0KPKn-sbLvGrRO6v1qI6HW
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://russound.com/wp-content/uploads/2026/07/ire-2-dual-ir-emitter-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HSDL-4260", "categoria": "led", "descrizione": "Emettitore
+    IR doppio (LED infrarosso), parte HSDL-4260. Quantità visibile: 2 pezzi. Package
+    non specificato. Scritte leggibili: ''DUAL IR EMITTER'' (dal campo codice) e ''HSDL-4260''
+    (dal datasheet).", "interfaccia": "", "quantita": 2, "posizione": "Component Barrel",
+    "datasheet_url": "https://www.mouser.com/datasheet/2/239/HSDL_4260_DS-1143990.pdf?srsltid=AU7gw4W5MeVP5AXg0JlcXsEQ518Y5-YSly0KPKn-sbLvGrRO6v1qI6HW",
+    "note": "Riclassificato: categoria ''led'' confermata (LED a infrarosso). Codice
+    corretto in HSDL-4260 in base al datasheet; ''DUAL IR EMITTER'' è una descrizione,
+    non un codice parte."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: na-ws2812b-64-02
   categoria: led
   codice: WS2812B-64
   quantita: 1
   descrizione: 24bit color 64 RGB LEDs
-  interfaccia: ''
-  note: ''
+  interfaccia: single-wire
+  note: Categoria led confermata; codice WS2812B-64 mantenuto. Quantità e posizione
+    da inventario.
   datasheet_url: https://cdn.sparkfun.com/assets/e/6/1/f/4/WS2812B-LED-datasheet.pdf
   datasheet_last_check: '2026-10-10'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "WS2812B-64", "categoria": "led", "descrizione": "Modulo/striscia
+    di 64 LED RGB indirizzabili WS2812B, colore 24-bit; package non specificato; nessuna
+    foto e nessuna scritta leggibile aggiuntiva.", "interfaccia": "single-wire", "quantita":
+    1, "posizione": "A Box", "datasheet_url": "https://cdn.sparkfun.com/assets/e/6/1/f/4/WS2812B-LED-datasheet.pdf",
+    "note": "Categoria led confermata; codice WS2812B-64 mantenuto. Quantità e posizione
+    da inventario."}'
+  ai_stato: da_verificare
   updated_at: '2026-09-30T14:48:45Z'
 - id: led-ws2812b-8x8
   categoria: led

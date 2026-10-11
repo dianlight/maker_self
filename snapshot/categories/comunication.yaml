@@ -19,21 +19,6 @@
     da descrizione/campo originale, categoria confermata comunication."}'
   ai_stato: confermato
   updated_at: ''
-- id: comunication-antenna-2-4g-73
-  categoria: comunication
-  codice: Antenna 2.4G
-  quantita: 17
-  descrizione: Plain Antenna 8dB
-  interfaccia: Mini IPEX
-  note: ''
-  datasheet_url: https://www.farnell.com/datasheets/2614673.pdf
-  datasheet_last_check: '2026-10-02'
-  posizione: Antenna Barrel
-  foto_drive_id: ''
-  foto_url: https://hwayaotek.com.tw/images/be035.jpg
-  ai_proposta: ''
-  ai_stato: confermato
-  updated_at: ''
 - id: comunication-antenna-2-4g-74
   categoria: comunication
   codice: Antenna 2.4G
@@ -484,20 +469,24 @@
   quantita: 2
   descrizione: 2.4Ghz wireless tranciare. LT8920 Chip
   interfaccia: SPI.
-  note: URL fornito è un'immagine eBay del prodotto, non un datasheet. Categoria 'comunication'
-    intesa come communication/wireless. Codice XY-WB e chip LT8920 coerenti con modulo
-    2.4GHz.
+  note: 'Riga originale: categoria comunication, codice XY-WB, quantità 2, descrizione
+    ''2.4Ghz wireless tranciare. LT8920 Chip'', interfaccia SPI. Correzione: ''tranciare''
+    interpretato come ''transceiver''. URL fornito è un''immagine eBay, non un datasheet
+    tecnico ufficiale. Posizione ''Io Barrel'' da verificare (forse ''I/O Barrel'').'
   datasheet_url: https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/Sa411be5d34af44c4b453e41834132e41w.jpg_480x480q75.jpg
   ai_proposta: '{"codice": "XY-WB", "categoria": "comunication", "descrizione": "Modulo
-    wireless 2.4GHz transceiver basato su chip LT8920, interfaccia SPI. Quantità da
-    inventario: 2. Nessuna foto disponibile.", "interfaccia": "SPI", "quantita": 2,
-    "posizione": "Io Barrel", "datasheet_url": "", "note": "URL fornito è un''immagine
-    eBay del prodotto, non un datasheet. Categoria ''comunication'' intesa come communication/wireless.
-    Codice XY-WB e chip LT8920 coerenti con modulo 2.4GHz."}'
+    transceiver wireless 2.4GHz basato su chip LT8920, interfaccia SPI. Modello XY-WB.
+    Quantità visibile: 2 pezzi. Package non visibile. Scritte leggibili: 2.4Ghz wireless
+    transceiver, LT8920 Chip, SPI.", "interfaccia": "SPI", "quantita": 2, "posizione":
+    "Io Barrel", "datasheet_url": "https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg",
+    "note": "Riga originale: categoria comunication, codice XY-WB, quantità 2, descrizione
+    ''2.4Ghz wireless tranciare. LT8920 Chip'', interfaccia SPI. Correzione: ''tranciare''
+    interpretato come ''transceiver''. URL fornito è un''immagine eBay, non un datasheet
+    tecnico ufficiale. Posizione ''Io Barrel'' da verificare (forse ''I/O Barrel'')."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: comunication-neo-6n-gps-96
@@ -505,20 +494,17 @@
   codice: NEO-6N GPS
   quantita: 1
   descrizione: GPS
-  interfaccia: UART, USB, SPI, I2C
-  note: Riclassificato da 'comunication' a 'sensori'; è un ricevitore GNSS, non un
-    semplice modulo di comunicazione.
+  interfaccia: UART
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario.
   datasheet_url: https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://content.u-blox.com/sites/default/files/products/NEO-6series.png
-  ai_proposta: '{"codice": "NEO-6N", "categoria": "sensori", "descrizione": "Modulo
-    GPS/GNSS u-blox NEO-6N, 1 pezzo, package modulo SMD, scritta NEO-6N (da datasheet
-    u-blox).", "interfaccia": "UART, USB, SPI, I2C", "quantita": 1, "posizione": "Io
-    Barrel", "datasheet_url": "https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf",
-    "note": "Riclassificato da ''comunication'' a ''sensori''; è un ricevitore GNSS,
-    non un semplice modulo di comunicazione."}'
+  ai_proposta: '{"codice": "NEO-6N", "categoria": "comunication", "descrizione": "Modulo
+    GPS/GNSS u-blox NEO-6N, 1 pezzo, package LCC, scritta NEO-6N", "interfaccia":
+    "UART", "quantita": 1, "posizione": "Io Barrel", "datasheet_url": "https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario."}'
   ai_stato: da_verificare
   updated_at: ''
 - id: comunication-rf-315mhz-97
@@ -526,30 +512,46 @@
   codice: RF 315Mhz
   quantita: 5
   descrizione: 315Mhx Rx + Tx
-  interfaccia: ''
-  note: ''
+  interfaccia: RF wireless 315MHz; probabile header pin (VCC/GND/DATA/ANT)
+  note: Riclassificato dalla riga inventario; categoria 'comunication' adatta a moduli
+    RF. Verificare se quantità 5 indica 5 kit Rx+Tx oppure 5 pezzi singoli.
   datasheet_url: https://wiki.seeedstudio.com/RF-Transmitter-and-Receiver-Link-Kit-315MHz-433MHz/
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://ablkart.com/wp-content/uploads/2024/07/IMAGE1565172234-600x600.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RF 315MHz", "categoria": "comunication", "descrizione":
+    "Dai campi inventario: kit RF 315MHz composto da ricevitore (Rx) e trasmettitore
+    (Tx); moduli wireless a 315MHz, package non specificato, probabile header pin
+    per alimentazione/dati/antenna. Quantità 5.", "interfaccia": "RF wireless 315MHz;
+    probabile header pin (VCC/GND/DATA/ANT)", "quantita": 5, "posizione": "Io Barrel",
+    "datasheet_url": "https://wiki.seeedstudio.com/RF-Transmitter-and-Receiver-Link-Kit-315MHz-433MHz/",
+    "note": "Riclassificato dalla riga inventario; categoria ''comunication'' adatta
+    a moduli RF. Verificare se quantità 5 indica 5 kit Rx+Tx oppure 5 pezzi singoli."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-rbx6-98
   categoria: comunication
   codice: RBX6
   quantita: 1
   descrizione: 433Mhx
-  interfaccia: ''
-  note: ''
+  interfaccia: '4 pin: ANT, GND, VCC, DATA; uscita dati digitale OOK/ASK a 433MHz'
+  note: 'Riclassificato da campi inventario: categoria comunication confermata; codice
+    corretto da RBX6 a RXB6; descrizione ''433Mhx'' ampliata. Nessuna foto disponibile.'
   datasheet_url: https://www.scribd.com/document/493735409/RXB6EN
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://stef-aap.github.io/RFLink-ESP/433%20MHz%20Transceivers_files/image0.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RXB6", "categoria": "comunication", "descrizione": "Modulo
+    ricevitore RF RXB6 a 433MHz (433.92MHz), 1 pezzo, package modulo 4 pin, marcatura
+    RXB6/433MHz (dedotto da codice e datasheet).", "interfaccia": "4 pin: ANT, GND,
+    VCC, DATA; uscita dati digitale OOK/ASK a 433MHz", "quantita": 1, "posizione":
+    "Io Barrel", "datasheet_url": "https://www.scribd.com/document/493735409/RXB6EN",
+    "note": "Riclassificato da campi inventario: categoria comunication confermata;
+    codice corretto da RBX6 a RXB6; descrizione ''433Mhx'' ampliata. Nessuna foto
+    disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-ra-02-ai-thinker-lora-sx1278-433mhz
   categoria: comunication

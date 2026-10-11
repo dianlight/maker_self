@@ -4,14 +4,20 @@
   quantita: 2
   descrizione: '8266'
   interfaccia: MINI DIP
-  note: ''
+  note: Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione
+    ampliata. Basato solo sui campi della riga, nessuna foto.
   datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
   datasheet_last_check: '2026-10-07'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://annefou.github.io/IoT_introduction/assets/img/geo-icon-blue.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ESP8266", "categoria": "mcu-board", "descrizione": "Modulo/board
+    microcontroller Wi-Fi ESP8266, quantità 2, package/interfaccia MINI DIP, scritta
+    leggibile ''8266'' (nessuna foto disponibile).", "interfaccia": "MINI DIP", "quantita":
+    2, "posizione": "MCU Box", "datasheet_url": "https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf",
+    "note": "Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione
+    ampliata. Basato solo sui campi della riga, nessuna foto."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-atmega644pa-226
   categoria: mcu
@@ -19,14 +25,20 @@
   quantita: 5
   descrizione: 64KB / 4096B Ram
   interfaccia: SMD
-  note: ''
+  note: 'Riclassificato dalla riga inventario: categoria corretta in mcu per ATmega644PA;
+    package SMD generico, non specificato se TQFP44 o QFN44.'
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf
   datasheet_last_check: '2026-10-07'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4230/150%7E44A%7EA%7E44.JPG
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ATMEGA644PA", "categoria": "mcu", "descrizione": "Microcontrollore
+    AVR ATmega644PA, 8-bit, 64KB Flash, 4096B SRAM; package SMD (TQFP/QFN non specificato);
+    quantita dichiarata 5 pezzi.", "interfaccia": "SMD", "quantita": 5, "posizione":
+    "MCU Box", "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf",
+    "note": "Riclassificato dalla riga inventario: categoria corretta in mcu per ATmega644PA;
+    package SMD generico, non specificato se TQFP44 o QFN44."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-esp-32-227
   categoria: mcu
@@ -34,14 +46,22 @@
   quantita: 2
   descrizione: '32'
   interfaccia: SMD
-  note: ''
+  note: 'Riclassificato dalla riga inventario: categoria mcu confermata; codice normalizzato
+    in ESP32; descrizione originaria ''32'' troppo generica. Possibile variante modulo/dev-board
+    ESP32.'
   datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
   datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ESP32", "categoria": "mcu", "descrizione": "Microcontrollore/modulo
+    ESP32 in package SMD, 2 pezzi visibili dalla riga inventario; nessuna marcatura
+    aggiuntiva oltre a ''ESP 32''.", "interfaccia": "SMD", "quantita": 2, "posizione":
+    "MCU", "datasheet_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf",
+    "note": "Riclassificato dalla riga inventario: categoria mcu confermata; codice
+    normalizzato in ESP32; descrizione originaria ''32'' troppo generica. Possibile
+    variante modulo/dev-board ESP32."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-esp-32-s2-228
   categoria: mcu
@@ -49,14 +69,22 @@
   quantita: 1
   descrizione: ESP 32 S2
   interfaccia: MINI DIP
-  note: ''
+  note: 'Categoria corretta da mcu a mcu-board: l''interfaccia Mini DIP suggerisce
+    una scheda/modulo con pin, non un chip nudo. Il datasheet fornito è per il chip
+    ESP32-S2.'
   datasheet_url: https://documentation.espressif.com/esp32-s2_datasheet_en.pdf
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ESP32-S2", "categoria": "mcu-board", "descrizione": "Modulo/board
+    ESP32-S2 in formato Mini DIP, 1 pezzo. Tipo: MCU/board. Package/Interfaccia: Mini
+    DIP. Scritta: ESP32-S2.", "interfaccia": "MINI DIP", "quantita": 1, "posizione":
+    "MCU Box", "datasheet_url": "https://documentation.espressif.com/esp32-s2_datasheet_en.pdf",
+    "note": "Categoria corretta da mcu a mcu-board: l''interfaccia Mini DIP suggerisce
+    una scheda/modulo con pin, non un chip nudo. Il datasheet fornito è per il chip
+    ESP32-S2."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-attiny2313a-229
   categoria: mcu
@@ -64,44 +92,41 @@
   quantita: 2
   descrizione: 2KB / 128byte Ram
   interfaccia: DIP
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dai campi inventario. ATTINY2313A
+    è un MCU AVR 8-bit.
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed.
   datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ATTINY2313A", "categoria": "mcu", "descrizione": "Microcontrollore
+    AVR ATtiny2313A, 2KB Flash, 128B RAM, package DIP-20. Quantità: 2.", "interfaccia":
+    "DIP-20", "quantita": 2, "posizione": "MCU", "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed..",
+    "note": "Nessuna foto disponibile; riclassificato dai campi inventario. ATTINY2313A
+    è un MCU AVR 8-bit."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-atmega328p-230
   categoria: mcu
   codice: ATMEGA328P
-  quantita: 5
+  quantita: 15
   descrizione: 32KB / 1024B Ram
   interfaccia: DIP
-  note: ''
+  note: Riclassificato da campi inventario; categoria MCU corretta. Codice originale
+    ATMEGA328P; variante DIP through-hole probabilmente ATMEGA328P-PU.
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: mcu-atmega328p-231
-  categoria: mcu
-  codice: ATMEGA328P
-  quantita: 5
-  descrizione: 32KB / 1024B Ram
-  interfaccia: SMD
-  note: ''
-  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
-  datasheet_last_check: '2026-10-08'
-  posizione: MCU Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ATMEGA328P-PU", "categoria": "mcu", "descrizione": "Microcontrollore
+    AVR ATmega328P (8-bit), package DIP-28/PDIP-28, 32KB Flash, 1KB SRAM (1024B),
+    2KB EEPROM; quantita 5; marcatura presumibile ATMEGA328P. Nessuna foto disponibile,
+    dati da riga inventario.", "interfaccia": "DIP-28", "quantita": 5, "posizione":
+    "MCU Box", "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf",
+    "note": "Riclassificato da campi inventario; categoria MCU corretta. Codice originale
+    ATMEGA328P; variante DIP through-hole probabilmente ATMEGA328P-PU."}'
+  ai_stato: confermato
   updated_at: ''
 - id: mcu-atmega1284p-232
   categoria: mcu
@@ -109,35 +134,25 @@
   quantita: 1
   descrizione: 128K / 16K Ram
   interfaccia: SMD
-  note: ''
+  note: Riclassificato come MCU. Verificare package esatto e tensione di alimentazione.
   datasheet_url: http://www.lyr-ing.com/DocumentosLyR/EXT/ICs/AVR/AtMega1284P_(3)_8059S.pdf
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: mcu-attiny12-attiny85-pacco-233
-  categoria: mcu
-  codice: ATTINY12 (ATTINY85 + PACCO)
-  quantita: 4
-  descrizione: 1KB
-  interfaccia: DIP
-  note: Probabilmente ATTINY12 rimachliati. Programmare uasbasp JP3 per 1Mhz
-  datasheet_url: https://www.radiolocman.com/datasheet/data.html?di=506855&%2FATtiny85=
-  datasheet_last_check: '2026-10-08'
-  posizione: MCU Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ATMEGA1284P", "categoria": "mcu", "descrizione": "Microcontrollore
+    AVR 8-bit ATmega1284P, 128K Flash / 16K RAM, package SMD (probabile TQFP-44/QFN-44);
+    nessuna foto disponibile, dati ricavati dalla riga inventario", "interfaccia":
+    "SMD", "quantita": 1, "posizione": "MCU Box", "datasheet_url": "http://www.lyr-ing.com/DocumentosLyR/EXT/ICs/AVR/AtMega1284P_(3)_8059S.pdf",
+    "note": "Riclassificato come MCU. Verificare package esatto e tensione di alimentazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-atmega8a-234
   categoria: mcu
   codice: ATMEGA8A
   quantita: 4
-  descrizione: ''
+  descrizione: Microcontrollore ATmega8A in package DIP-28, quantità 4; marcatura
+    ATmega8A; alcuni esemplari marchiati in rosso da riprogrammare in HV.
   interfaccia: DIP
   note: I marchiati in rosso devono essere riprogrammati in HV
   datasheet_url: https://www.microchip.com/wwwproducts/en/ATmega8A
@@ -145,23 +160,12 @@
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: mcu-esp-01m-235
-  categoria: mcu
-  codice: ESP-01M
-  quantita: 2
-  descrizione: '8266'
-  interfaccia: Edge
-  note: ''
-  datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
-  datasheet_last_check: '2026-10-08'
-  posizione: MCU Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ATMEGA8A-PU", "categoria": "mcu", "descrizione": "Microcontrollore
+    ATmega8A in package DIP-28, quantità 4; marcatura ATmega8A; alcuni esemplari marchiati
+    in rosso da riprogrammare in HV.", "interfaccia": "DIP-28", "quantita": 4, "posizione":
+    "MCU Box", "datasheet_url": "https://www.microchip.com/wwwproducts/en/ATmega8A",
+    "note": "I marchiati in rosso devono essere riprogrammati in HV"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-1-236
   categoria: mcu
@@ -169,14 +173,21 @@
   quantita: 3
   descrizione: '8266'
   interfaccia: DIP
-  note: ''
+  note: Codice originale '1' troppo generico; possibile modulo ESP8266 (es. ESP-01/ESP-12)
+    o chip QFN32. Interfaccia DIP non coerente col datasheet del solo chip.
   datasheet_url: https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf
   datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ESP8266", "categoria": "mcu", "descrizione": "ESP8266
+    (MCU/SoC Wi-Fi); quantità 3; package non visibile, datasheet ESP8266EX; interfaccia
+    dichiarata DIP da verificare (chip QFN32 o modulo).", "interfaccia": "DIP (dichiarato,
+    verificare)", "quantita": 3, "posizione": "MCU", "datasheet_url": "https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf",
+    "note": "Codice originale ''1'' troppo generico; possibile modulo ESP8266 (es.
+    ESP-01/ESP-12) o chip QFN32. Interfaccia DIP non coerente col datasheet del solo
+    chip."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-esp32-s-237
   categoria: mcu
@@ -184,34 +195,27 @@
   quantita: 2
   descrizione: ESP32-S
   interfaccia: SDM
-  note: ''
+  note: 'Codice incompleto: possibile ESP32-S2 o ESP32-S3. Interfaccia originale ''SDM''
+    non standard; corretta con interfacce tipiche ESP32. Datasheet fornito è per serie
+    ESP32, non specifico per ESP32-S. Quantita dichiarata 2.'
   datasheet_url: https://www.es.co.th/Schemetic/PDF/ESP32.PDF
   datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: mcu-esp-wroom32-238
-  categoria: mcu
-  codice: ESP-WROOM32
-  quantita: 1
-  descrizione: ESP-WROOM32
-  interfaccia: SDM
-  note: ''
-  datasheet_url: https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-08'
-  posizione: MCU
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ESP32-S", "categoria": "mcu", "descrizione": "Componente
+    MCU ESP32-S, quantita dichiarata 2, package non specificato, scritta leggibile
+    ''ESP32-S''.", "interfaccia": "Wi-Fi/BT, UART, SPI, I2C, I2S, ADC, DAC, PWM, SDIO",
+    "quantita": 2, "posizione": "MCU", "datasheet_url": "https://www.es.co.th/Schemetic/PDF/ESP32.PDF",
+    "note": "Codice incompleto: possibile ESP32-S2 o ESP32-S3. Interfaccia originale
+    ''SDM'' non standard; corretta con interfacce tipiche ESP32. Datasheet fornito
+    è per serie ESP32, non specifico per ESP32-S. Quantita dichiarata 2."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-zyzbp008-239
   categoria: mcu
   codice: ZYZBP008
-  quantita: 3
+  quantita: 5
   descrizione: EFR32
   interfaccia: MINI DIP
   note: Internal Antenna
@@ -220,38 +224,12 @@
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: mcu-zyzbp008-240
-  categoria: mcu
-  codice: ZYZBP008
-  quantita: 2
-  descrizione: EFR32
-  interfaccia: MINI DIP
-  note: IPEX
-  datasheet_url: https://docs.silabs.com/rail/2.19.3/using-rail-for-802-15-4-applications-with-efr32/
-  datasheet_last_check: '2026-10-08'
-  posizione: MCU Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: mcu-zyzb010-241
-  categoria: mcu
-  codice: ZYZB010
-  quantita: 1
-  descrizione: TLSR8258
-  interfaccia: MINI DP
-  note: Internal Antenna
-  datasheet_url: https://zigbee.blakadder.com/eWeLight_ZYZB010.html
-  datasheet_last_check: '2026-10-08'
-  posizione: MCU Box
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ZYZBP008", "categoria": "comunication", "descrizione":
+    "Modulo coordinatore wireless EFR32MG21, package MINI DIP, antenna interna; quantità
+    3", "interfaccia": "MINI DIP", "quantita": 3, "posizione": "MCU Box", "datasheet_url":
+    "https://source.cntooya.com/all/pro/EFR32MG21/EFR32MG21%20Coordinator%20Module%20datasheet-EN.pdf",
+    "note": "Internal Antenna"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: mcu-esp-02s-242
   categoria: mcu
@@ -259,12 +237,18 @@
   quantita: 3
   descrizione: '8266'
   interfaccia: COPIA TUYA
-  note: ''
+  note: Riclassificato da mcu a comunication. Modulo WiFi ESP8266 compatibile Tuya.
+    Interfaccia originaria 'COPIA TUYA' interpretata come compatibilità Tuya.
   datasheet_url: https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121831_DOIT-ESP-02S_C19949060.pdf
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ESP-02S", "categoria": "comunication", "descrizione":
+    "Modulo WiFi ESP8266 DOIT ESP-02S, quantità 3, package modulo, scritte leggibili:
+    ESP-02S, 8266.", "interfaccia": "UART/GPIO", "quantita": 3, "posizione": "MCU
+    Box", "datasheet_url": "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121831_DOIT-ESP-02S_C19949060.pdf",
+    "note": "Riclassificato da mcu a comunication. Modulo WiFi ESP8266 compatibile
+    Tuya. Interfaccia originaria ''COPIA TUYA'' interpretata come compatibilità Tuya."}'
+  ai_stato: da_verificare
   updated_at: ''

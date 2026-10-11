@@ -4,14 +4,20 @@
   quantita: 100
   descrizione: LED Colorati
   interfaccia: SMD
-  note: ''
+  note: Riclassificato da ic-components a led in base al codice 5730 e alla descrizione
+    LED colorati SMD. Nessuna foto disponibile.
   datasheet_url: https://www.sunrom.com/download/716.pdf
   datasheet_last_check: '2026-10-03'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://image.chukouplus.com/upload/C_1267/file/20260915/8ecd9b792a00c9e640eadc62c89c7260.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "5730", "categoria": "led", "descrizione": "LED colorati
+    SMD in package 5730 (5,7 x 3,0 mm), quantità indicata 100; codice leggibile 5730;
+    datasheet Sunrom.", "interfaccia": "SMD", "quantita": 100, "posizione": "SMD Box",
+    "datasheet_url": "https://www.sunrom.com/download/716.pdf", "note": "Riclassificato
+    da ic-components a led in base al codice 5730 e alla descrizione LED colorati
+    SMD. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-rc45558-127
   categoria: ic-components
@@ -19,14 +25,20 @@
   quantita: 10
   descrizione: OP-AMP
   interfaccia: ''
-  note: ''
+  note: Codice originale RC45558 corretto in RC4558. Categoria ic-components confermata.
   datasheet_url: https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-qrc4558_1.png?itok=bTMfLOCV
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RC4558", "categoria": "ic-components", "descrizione":
+    "Nessuna foto disponibile. Dai campi inventario: amplificatore operazionale duale
+    RC4558 (OP-AMP), circuito integrato; quantita 10 pezzi; package non specificato
+    (tipico DIP-8/SOIC-8); scritta leggibile presunta RC4558.", "interfaccia": "",
+    "quantita": 10, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F",
+    "note": "Codice originale RC45558 corretto in RC4558. Categoria ic-components
+    confermata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-24c32-128
   categoria: ic-components
@@ -40,8 +52,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.electropi.in/image/cache/catalog/24c32-ic-dip-8-package-400x400.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "24C32", "categoria": "ic-components", "descrizione": "EEPROM
+    seriale I2C 32Kbit (4KB), package SMD, 20 pezzi in inventario; la descrizione
+    attuale ''32bit'' è errata.", "interfaccia": "I2C (SMD)", "quantita": 20, "posizione":
+    "SMD Box", "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc0336.pdf",
+    "note": "Tensione 1.8V - 5.5V; 32Kbit, non 32bit; package SMD."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-25q64fv-129
   categoria: ic-components
@@ -55,8 +71,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://datasheet4u.com/pdfhtml/0740/1462011/page-000001.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "W25Q64FV", "categoria": "ic-components", "descrizione":
+    "IC memoria Flash seriale 64Mbit Winbond W25Q64FV, 1 pezzo, package SMD non specificato,
+    scritta leggibile W25Q64FV, interfaccia Quad SPI, tensione 3V; nessuna foto disponibile.",
+    "interfaccia": "QUAD SPI", "quantita": 1, "posizione": "SMD Box", "datasheet_url":
+    "https://www.pjrc.com/store/w25q64fv.pdf", "note": "3V"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-74hc126n-130
   categoria: ic-components
@@ -64,29 +84,37 @@
   quantita: 10
   descrizione: Line Driver
   interfaccia: DIP-14
-  note: ''
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://docs.rs-online.com/8629/0900766b81324aac.pdf
   datasheet_last_check: '2026-10-04'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: https://rajivelectronics.com/images/get_image/SUNELTIwMC5qcGc
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "74HC126N", "categoria": "ic-components", "descrizione":
+    "IC logico 74HC126N, quad buffer/line driver 3-state; package DIP-14; quantità
+    10; codice leggibile 74HC126N", "interfaccia": "DIP-14", "quantita": 10, "posizione":
+    "Blu IC Box", "datasheet_url": "https://docs.rs-online.com/8629/0900766b81324aac.pdf",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-93c86-131
   categoria: ic-components
   codice: 93C86
   quantita: 20
   descrizione: 16Kbit EEPROM
-  interfaccia: ''
+  interfaccia: Microwire
   note: 5V
   datasheet_url: https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386
   datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://datasheet4u.com/pdfhtml/0228/46386/page-000001.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "93C86", "categoria": "ic-components", "descrizione": "EEPROM
+    seriale Microwire 93C86, 16Kbit, 5V, 20 pezzi; package SMD (da posizione SMD Box).",
+    "interfaccia": "Microwire", "quantita": 20, "posizione": "SMD Box", "datasheet_url":
+    "https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386", "note":
+    "5V; EEPROM 16Kbit, interfaccia seriale Microwire/3-wire."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-a09t-132
   categoria: ic-components
@@ -100,8 +128,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: http://www.etstore.in/cdn/shop/files/sot23_cf7f38dc-5586-4a19-b608-c077b5de0dca.jpg?v=1756910272
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "A09T", "categoria": "ic-components", "descrizione": "MOSFET
+    N-Channel 20V SMD, package SOT-23, marking A09T (probabile SI2302), quantità 30",
+    "interfaccia": "SMD", "quantita": 30, "posizione": "SMD Box", "datasheet_url":
+    "http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf",
+    "note": "20V, N-Channel, SOT-23"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ads1115-133
   categoria: ic-components
@@ -109,14 +141,23 @@
   quantita: 10
   descrizione: ADC 4 Channel Amplifier
   interfaccia: I2C
-  note: ''
+  note: 'Riclassificazione: categoria ic-components confermata. Descrizione originale
+    ''ADC 4 Channel Amplifier'' imprecisa: ADS1115 è un ADC I2C 4 canali 16-bit con
+    PGA, non un amplificatore generico. Quantità e posizione invariate.'
   datasheet_url: https://www.farnell.com/datasheets/3759179.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1085-10.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ADS1115", "categoria": "ic-components", "descrizione":
+    "Nessuna foto disponibile. Dai campi riga: componente IC ADS1115, ADC a 4 canali,
+    16 bit, con PGA (programmable gain amplifier), interfaccia I2C. Quantità 10. Package
+    non specificato nella riga; tipicamente MSOP-10 o modulo breakout.", "interfaccia":
+    "I2C", "quantita": 10, "posizione": "IC Barrel", "datasheet_url": "https://www.farnell.com/datasheets/3759179.pdf",
+    "note": "Riclassificazione: categoria ic-components confermata. Descrizione originale
+    ''ADC 4 Channel Amplifier'' imprecisa: ADS1115 è un ADC I2C 4 canali 16-bit con
+    PGA, non un amplificatore generico. Quantità e posizione invariate."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ams1117-3-3-134
   categoria: ic-components
@@ -130,8 +171,13 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.ic-components.com/theme/images/logo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AMS1117-3.3", "categoria": "ic-components", "descrizione":
+    "Regolatore di tensione LDO lineare AMS1117-3.3, package SMD SOT-223, uscita 3.3V,
+    quantità 50 da inventario (nessuna foto disponibile). Non è un DC-DC switching
+    regulator.", "interfaccia": "SMD", "quantita": 50, "posizione": "SMD Box", "datasheet_url":
+    "https://www.advanced-monolithic.com/pdf/ds1117.pdf", "note": "3.3V; LDO lineare;
+    datasheet originale indicato era per HT73xx e non corrisponde all''AMS1117-3.3."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ams1117-5-0-135
   categoria: ic-components
@@ -145,8 +191,14 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://s.yimg.com/lo/mysterio/api/59db92369c41f701211d99a1df99e0e2b9f41b336f2668a0698826a5040685fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F7567e8b589ca7f67d5f16867d498791a
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AMS1117-5.0", "categoria": "ic-components", "descrizione":
+    "Regolatore di tensione lineare LDO positivo, uscita fissa 5.0V, sigla AMS1117-5.0,
+    package SMD (presunto SOT-223), quantità 50. Nessuna foto disponibile: scritte
+    non leggibili.", "interfaccia": "SMD", "quantita": 50, "posizione": "SMD Box",
+    "datasheet_url": "https://www.advanced-monolithic.com/pdf/ds1117.pdf", "note":
+    "5V; LDO lineare, non DC-DC switching. Datasheet originale errato: HT73xx non
+    pertinente."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ams1117-adj-136
   categoria: ic-components
@@ -160,8 +212,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.eleccircuit.com/wp-content/uploads/2024/08/ams1117-in-many-circuit-boards.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AMS1117-ADJ", "categoria": "ic-components", "descrizione":
+    "Regolatore lineare LDO regolabile AMS1117-ADJ, 1A, package SMD SOT-223; quantità
+    50 pz; nessuna foto disponibile", "interfaccia": "SMD", "quantita": 50, "posizione":
+    "SMD Box", "datasheet_url": "https://www.advanced-monolithic.com/pdf/ds1117.pdf",
+    "note": "ADJ"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-at24c256-137
   categoria: ic-components
@@ -175,8 +231,12 @@
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: https://res.utmel.com/Images/Banner/c1ac6b3f-2bb8-49bd-97f4-725776460b52.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AT24C256", "categoria": "ic-components", "descrizione":
+    "EEPROM seriale I2C 256Kbit (32K x 8), package DIP-8 (presunto), quantità 8, sigla
+    AT24C256", "interfaccia": "I2C", "quantita": 8, "posizione": "Blu IC Box", "datasheet_url":
+    "http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf",
+    "note": "1.8V - 5.5V; corretta da EPROM 256bit a EEPROM I2C 256Kbit"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-at24c512-138
   categoria: ic-components
@@ -190,8 +250,12 @@
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: http://quartzcomponents.com/cdn/shop/products/AT24C512.jpg?v=1653633960
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AT24C512", "categoria": "ic-components", "descrizione":
+    "EEPROM seriale I2C 512Kbit (64K x 8), package DIP-8, tensione 1.8-5.5V, quantità
+    5", "interfaccia": "I2C", "quantita": 5, "posizione": "Blu IC Box", "datasheet_url":
+    "https://ww1.microchip.com/downloads/en/devicedoc/doc1116.pdf", "note": "1.8V
+    - 5.5V; corretta da EPROM a EEPROM I2C"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-bc547-139
   categoria: ic-components
@@ -205,8 +269,13 @@
   posizione: Transistor Box
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/uc_product/public/uc_products/p-qbc547b_dpm_0.png?itok=3ZSFRB6e
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BC547", "categoria": "componenti", "descrizione": "Transistor
+    NPN BC547, package TO-92, foro passante, 99 pezzi in inventario. Scritte tipiche:
+    BC547, NPN.", "interfaccia": "TO-92", "quantita": 99, "posizione": "Transistor
+    Box", "datasheet_url": "https://www.sparkfun.com/datasheets/Components/BC546.pdf",
+    "note": "Vce max 45V, Ic max 100mA; nota originale ''Vice = 50V 100mA'' (probabile
+    refuso). Datasheet indicato per BC546/BC547."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-bpw34-140
   categoria: ic-components
@@ -214,14 +283,18 @@
   quantita: 5
   descrizione: Photo Diodi
   interfaccia: DIP
-  note: ''
+  note: 'Riclassificato da ic-components a sensori: è un fotodiodo/sensore di luce.'
   datasheet_url: https://www.vishay.com/docs/81521/bpw34.pdf
   datasheet_last_check: '2026-10-04'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://probots.co.in/pub/media/catalog/product/cache/891768098d9d90472b8b3c7afc6da23f/5/1/51pibu44wzl._sl1100_.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BPW34", "categoria": "sensori", "descrizione": "Fotodiodo
+    al silicio PIN BPW34, 5 pezzi, package DIP, marcatura BPW34", "interfaccia": "DIP",
+    "quantita": 5, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/81521/bpw34.pdf",
+    "note": "Riclassificato da ic-components a sensori: è un fotodiodo/sensore di
+    luce."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-bu8874-141
   categoria: ic-components
@@ -229,14 +302,20 @@
   quantita: 1
   descrizione: DTMF Receiver for Telephones
   interfaccia: DIP
-  note: ''
+  note: Riclassificato come IC; nessuna foto disponibile, dati basati sulla riga inventario.
+    Package DIP. Verificare variante e piedinatura esatta.
   datasheet_url: https://www.mouser.it/datasheet/2/348/rohm_semiconductor_rohms30191-1-1742744.pdf
   datasheet_last_check: '2026-10-04'
   posizione: GEN BLU 01 / 01
   foto_drive_id: ''
   foto_url: https://tinkersphere.com/3831/2115.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BU8874", "categoria": "ic-components", "descrizione":
+    "Circuito integrato ricevitore DTMF per telefoni, package DIP, quantità 1, marcatura
+    BU8874", "interfaccia": "DIP", "quantita": 1, "posizione": "GEN BLU 01 / 01",
+    "datasheet_url": "https://www.mouser.it/datasheet/2/348/rohm_semiconductor_rohms30191-1-1742744.pdf",
+    "note": "Riclassificato come IC; nessuna foto disponibile, dati basati sulla riga
+    inventario. Package DIP. Verificare variante e piedinatura esatta."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-cd4017-142
   categoria: ic-components
@@ -244,29 +323,43 @@
   quantita: 5
   descrizione: CMOS Counter
   interfaccia: DIP
-  note: ''
+  note: 'Riclassificato da riga inventario: IC CMOS counter; DIP è package, non interfaccia
+    di comunicazione.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4017b.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://microcontrollerslab.com/wp-content/uploads/2020/01/CD4017-Counter-IC.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CD4017", "categoria": "ic-components", "descrizione":
+    "Circuito integrato CMOS CD4017, contatore/divisore decimale (decade counter),
+    package DIP; nessuna foto disponibile, dati da inventario. Quantità 5.", "interfaccia":
+    "DIP", "quantita": 5, "posizione": "IC Box", "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd4017b.pdf",
+    "note": "Riclassificato da riga inventario: IC CMOS counter; DIP è package, non
+    interfaccia di comunicazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-cd405x-143
   categoria: ic-components
   codice: CD405x
   quantita: 8
   descrizione: Analog Multiplexer
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica/digitale di selezione
+  note: Riclassificato senza foto dai campi riga inventario. CD405x indica una famiglia
+    compatibile CD4051/CD4052/CD4053; datasheet fornito per CD4051B. Package e suffisso
+    non specificati.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4051b.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.circuitspecialists.com/content/876445/circ-4k.webp
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CD405x", "categoria": "ic-components", "descrizione":
+    "Circuito integrato CMOS analog multiplexer/demultiplexer serie CD405x (riferimento
+    datasheet CD4051B); package non specificato; quantita 8.", "interfaccia": "analogica/digitale
+    di selezione", "quantita": 8, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd4051b.pdf",
+    "note": "Riclassificato senza foto dai campi riga inventario. CD405x indica una
+    famiglia compatibile CD4051/CD4052/CD4053; datasheet fornito per CD4051B. Package
+    e suffisso non specificati."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-cd4066b-144
   categoria: ic-components
@@ -274,14 +367,18 @@
   quantita: 5
   descrizione: Quad Bilateral Switch
   interfaccia: DIP
-  note: ''
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4066b-mil.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://www.codrey.com/wp-content/uploads/2024/01/CD4066BE.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CD4066B", "categoria": "ic-components", "descrizione":
+    "Quad Bilateral Switch CD4066B, interruttore analogico quadruplo, package DIP,
+    quantità da inventario 5", "interfaccia": "DIP", "quantita": 5, "posizione": "IC
+    Box", "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd4066b-mil.pdf", "note":
+    "Riclassificato dalla riga inventario; nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ch340g-145
   categoria: ic-components
@@ -289,14 +386,20 @@
   quantita: 5
   descrizione: USB Slave Chip
   interfaccia: SMD
-  note: ''
+  note: CH340G è un chip USB to serial; descrizione corretta da 'USB Slave Chip' e
+    datasheet aggiornato al produttore WCH.
   datasheet_url: https://datacapturecontrol.com/articles/io-devices/usb-serial-adapters/overview
   datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://wiki.keyestudio.com/images/1/1e/%E5%9B%BE%E7%89%871-_ks0173.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CH340G", "categoria": "ic-components", "descrizione":
+    "Circuito integrato convertitore USB-UART, 5 pezzi, package SOP-16 SMD, marcatura
+    CH340G", "interfaccia": "USB-UART / SMD (SOP-16)", "quantita": 5, "posizione":
+    "SMD Box", "datasheet_url": "https://www.wch-ic.com/downloads/CH340DS1_PDF.html",
+    "note": "CH340G è un chip USB to serial; descrizione corretta da ''USB Slave Chip''
+    e datasheet aggiornato al produttore WCH."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-cp2101-146
   categoria: ic-components
@@ -310,8 +413,11 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://learn.microsoft.com/en-us/media/open-graph-image.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CP2101", "categoria": "ic-components", "descrizione":
+    "Circuito integrato USB-to-UART bridge, package SMD, quantità 5", "interfaccia":
+    "USB/UART", "quantita": 5, "posizione": "SMD Box", "datasheet_url": "https://www.silabs.com/documents/public/data-sheets/CP2101.pdf",
+    "note": "Nessuna foto disponibile; riclassificato da campi inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ds1307-147
   categoria: ic-components
@@ -319,14 +425,22 @@
   quantita: 10
   descrizione: RTC
   interfaccia: SMD
-  note: ''
+  note: SMD indica il package/montaggio, non l'interfaccia; il DS1307 usa I2C. Il
+    link Mouser fornito è una pagina prodotto, non il datasheet ufficiale. Verificare
+    package reale (SOIC-8 o PDIP-8).
   datasheet_url: https://www.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS1307?qs=1eQvB6Dk1vjgsJfdc7e59A%3D%3D
   datasheet_last_check: '2026-10-04'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3296-03.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "DS1307", "categoria": "ic-components", "descrizione":
+    "IC RTC (real-time clock) DS1307, package SMD SOIC-8, quantità 10, marcatura leggibile
+    DS1307; dalla riga inventario risulta RTC.", "interfaccia": "I2C", "quantita":
+    10, "posizione": "SMD Box", "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf",
+    "note": "SMD indica il package/montaggio, non l''interfaccia; il DS1307 usa I2C.
+    Il link Mouser fornito è una pagina prodotto, non il datasheet ufficiale. Verificare
+    package reale (SOIC-8 o PDIP-8)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-f3aa005v-148
   categoria: ic-components
@@ -340,8 +454,12 @@
   posizione: Relay Box
   foto_drive_id: ''
   foto_url: https://image.mono.ipros.com/public/product/image/b0f/2001506855/IPROS27928005007946865752.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FTR-F3AA005V", "categoria": "componenti", "descrizione":
+    "Relè elettromeccanico, 5 pezzi, package DIP/through-hole, sigla F3AA005V / FTR-F3AA005V,
+    contatti 5A 250VAC/30VDC, bobina 5VDC.", "interfaccia": "DIP", "quantita": 5,
+    "posizione": "Relay Box", "datasheet_url": "https://cdn.soselectronic.com/productdata/2e/41/df68a637/ftr-f3aa005v.pdf",
+    "note": "250VAC / 30VDC; 5A; bobina 5VDC."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-fqp30n06-149
   categoria: ic-components
@@ -355,8 +473,11 @@
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: http://enigma-shop.com/cdn/shop/products/fqp30n06_2.jpg?v=1680844685
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FQP30N06", "categoria": "componenti", "descrizione": "MOSFET
+    N-Channel, package TO-220, 3 pin, sigla FQP30N06. Quantità 10.", "interfaccia":
+    "TO-220", "quantita": 10, "posizione": "Mosfet Box", "datasheet_url": "https://rcl-radio.ru/wp-content/uploads/2014/11/FQP30N06.pdf",
+    "note": "Vds 60V, Id 30A continuo (120A impulsivo). Package TO-220."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ft232bl-150
   categoria: ic-components
@@ -370,23 +491,33 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5227-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"categoria": "ic-components", "codice": "FT232BL", "descrizione":
+    "Tipo componente: IC USB-UART FT232BL; quantita visibile: 2; package: SMD (presunto
+    LQFP-32); scritte leggibili: FT232BL.", "interfaccia": "USB-UART", "quantita":
+    2, "posizione": "SMD Box", "datasheet_url": "https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf",
+    "note": "Mixed Values; verificare package LQFP-32."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-hp4067-151
   categoria: ic-components
   codice: HP4067
   quantita: 2
   descrizione: Digital Multiplexer
-  interfaccia: ''
-  note: ''
+  interfaccia: 16 canali analogici/digitali, selezione a 4 bit
+  note: Codice originale HP4067 probabilmente refuso per CD74HC4067; il datasheet
+    TI conferma 16-channel analog multiplexer/demultiplexer.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
   datasheet_last_check: '2026-10-04'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://adam-meyer.com/arduino/images/2011/01/CD74HC4067.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CD74HC4067", "categoria": "ic-components", "descrizione":
+    "Multiplexer/demultiplexer analogico-digitale a 16 canali, package non specificato
+    nella riga, sigla leggibile riconducibile a CD74HC4067", "interfaccia": "", "quantita":
+    2, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf",
+    "note": "Codice originale HP4067 probabilmente refuso per CD74HC4067; il datasheet
+    TI conferma 16-channel analog multiplexer/demultiplexer."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ht1621b-152
   categoria: ic-components
@@ -400,8 +531,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/optimized/4X/c/3/7/c373f056b6ed93804b0f70cae774db9282ea7921_2_345x194.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HT1621B", "categoria": "ic-components", "descrizione":
+    "Integrato driver/controller LCD Holtek HT1621B, package SSOP48 SMD, 10 pezzi,
+    marcatura leggibile presumibilmente HT1621B.", "interfaccia": "seriale a 3 fili
+    (SPI-like)", "quantita": 10, "posizione": "SMD Box", "datasheet_url": "https://www.holtek.com/documents/10179/116711/HT1621v321.pdf",
+    "note": "SSOP48; SMD"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ht7333-153
   categoria: ic-components
@@ -409,14 +544,20 @@
   quantita: 20
   descrizione: Linar Voltage Regulator
   interfaccia: SMD
-  note: ''
+  note: 'Riclassificato da riga inventario senza foto. Corretto ''Linar'' in ''Linear''.
+    Categoria confermata: ic-components.'
   datasheet_url: https://components101.com/regulators/ht7333-linear-voltage-regulator-datasheet-pinout
   datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://d2x7gdstplisc7.cloudfront.net/.tmp/assets/_site_/images/products/regulators/1200x900/exact-size/short-side-scaled/padded/1200x900/222222/ht7333/text-overlay/4875d2f0a8c601b0e838d341130323cf/586x/padded/586x/FFFFFF/quality/60/ht7333.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HT7333", "categoria": "ic-components", "descrizione":
+    "Regolatore lineare di tensione HT7333 (LDO 3.3V), package SMD, quantità 20.",
+    "interfaccia": "SMD", "quantita": 20, "posizione": "SMD Box", "datasheet_url":
+    "https://components101.com/regulators/ht7333-linear-voltage-regulator-datasheet-pinout",
+    "note": "Riclassificato da riga inventario senza foto. Corretto ''Linar'' in ''Linear''.
+    Categoria confermata: ic-components."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-i7824hs-154
   categoria: ic-components
@@ -424,14 +565,19 @@
   quantita: 3
   descrizione: PWM controller
   interfaccia: TSOP-14
-  note: ''
+  note: 'Codice originale ''i7824HS'' probabilmente errato: il datasheet indica UC3824.
+    Interfaccia originale TSOP-14 non compatibile con UC3824 (SOIC-16/PDIP-16).'
   datasheet_url: https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134
   datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://s.alicdn.com/@sc04/kf/Hb0ae8fcd6f7442479b2093b4e8a586c7a.jpg_300x300.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "UC3824", "categoria": "ic-components", "descrizione":
+    "IC PWM controller, 3 pezzi, package SOIC-16/PDIP-16, riferimento UC3824", "interfaccia":
+    "SOIC-16/PDIP-16", "quantita": 3, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134",
+    "note": "Codice originale ''i7824HS'' probabilmente errato: il datasheet indica
+    UC3824. Interfaccia originale TSOP-14 non compatibile con UC3824 (SOIC-16/PDIP-16)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-irl540n-155
   categoria: ic-components
@@ -445,8 +591,11 @@
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: https://res.utmel.com/Images/Banner/c1ac6b3f-2bb8-49bd-97f4-725776460b52.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "IRL540N", "categoria": "componenti", "descrizione": "MOSFET
+    canale N logic-level, package TO-220, quantita 10, sigla IRL540N", "interfaccia":
+    "TO-220", "quantita": 10, "posizione": "Mosfet Box", "datasheet_url": "https://www.vishay.com/docs/91300/irl540.pdf",
+    "note": "Vds=100V, Id=36A, Rds(on)=44mΩ, N-channel logic-level"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-irlz44n-156
   categoria: ic-components
@@ -460,8 +609,12 @@
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/08/IGP15N60T-e1786347791170.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "IRLZ44N", "categoria": "componenti", "descrizione": "MOSFET
+    di potenza N-channel logic-level IRLZ44N, package TO-220AB, 55V 47A, quantità
+    inventario 16", "interfaccia": "TO-220AB", "quantita": 16, "posizione": "Mosfet
+    Box", "datasheet_url": "https://www.infineon.com/dgdl/irlz44npbf.pdf?fileId=5546d462533600a40153567217c32725",
+    "note": "Vd 55V, Id 47A, logic-level N-channel"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-l393-157
   categoria: ic-components
@@ -469,14 +622,20 @@
   quantita: 5
   descrizione: Motor Driver
   interfaccia: DIP
-  note: ''
+  note: Nessuna foto disponibile; codice originale L393 probabilmente refuso per L293/L293D.
+    Datasheet indicato per H-bridge motor driver.
   datasheet_url: https://www.arduino.cc/documents/datasheets/H-bridge_motor_driver.PDF
   datasheet_last_check: '2026-10-05'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/807-01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "L293D", "categoria": "ic-components", "descrizione": "Driver
+    motori H-bridge in package DIP, probabile L293D (marcato come L393 nei campi inventario),
+    quantità 5.", "interfaccia": "DIP", "quantita": 5, "posizione": "IC Box 1", "datasheet_url":
+    "https://www.arduino.cc/documents/datasheets/H-bridge_motor_driver.PDF", "note":
+    "Nessuna foto disponibile; codice originale L393 probabilmente refuso per L293/L293D.
+    Datasheet indicato per H-bridge motor driver."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ld33-158
   categoria: ic-components
@@ -490,8 +649,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://estore.st.com/media/catalog/product/l/d/ld1117v33.jpeg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LM3940", "categoria": "ic-components", "descrizione":
+    "Regolatore di tensione lineare 3.3V (Linear Voltage Regulator), package SMD (SOT-223),
+    quantità 10; codice originale LD33, note 3v3", "interfaccia": "SMD", "quantita":
+    10, "posizione": "SMD Box", "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm3940.pdf",
+    "note": "3v3; codice originale LD33; probabile LM3940"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-lm358p-159
   categoria: ic-components
@@ -499,14 +662,18 @@
   quantita: 20
   descrizione: Dual OP-AMP
   interfaccia: DIP
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dai campi della riga inventario.
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm358b.pdf?ts=1639818830392&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM358B%253FkeyMatch%253DLM358%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
   datasheet_last_check: '2026-10-05'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-qlm358_1.png?itok=yXCS5a5t
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LM358P", "categoria": "ic-components", "descrizione":
+    "Circuito integrato amplificatore operazionale duale, package DIP-8, 20 pezzi,
+    sigla LM358P", "interfaccia": "DIP-8", "quantita": 20, "posizione": "IC Box 1",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm358b.pdf?ts=1639818830392&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM358B%253FkeyMatch%253DLM358%2526tisearch%253Dsearch-everything%2526usecase%253DGPN",
+    "note": "Nessuna foto disponibile; riclassificato dai campi della riga inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-lm3915-160
   categoria: ic-components
@@ -520,8 +687,12 @@
   posizione: IC Box 2
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2023/06/DIP-18-Package.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LM3915", "categoria": "ic-components", "descrizione":
+    "IC driver per display LED dot/bar/linear, modello LM3915, package DIP (probabile
+    DIP-18), quantità 5", "interfaccia": "DIP", "quantita": 5, "posizione": "IC Box
+    2", "datasheet_url": "https://www.mouser.com/datasheet/2/405/lm3915-443929.pdf",
+    "note": "https://easyelectronicsproject.com/mini-projects/battery-level-indicator-circuit/"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-max7219-161
   categoria: ic-components
@@ -529,14 +700,18 @@
   quantita: 1
   descrizione: 8 DIGIT LED DRIVER
   interfaccia: DIP / SPI
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dai campi della riga inventario.
   datasheet_url: https://cdn.sparkfun.com/assets/3/e/c/b/d/COM-09622-MAX7219-MAX7221.pdf
   datasheet_last_check: '2026-10-05'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: http://keszoox.com/cdn/shop/files/MAX7219-LED-Driver-1.jpg?v=1723007377
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MAX7219", "categoria": "ic-components", "descrizione":
+    "Circuito integrato driver LED a 8 cifre MAX7219, package DIP-24, interfaccia
+    seriale SPI; quantita visibile 1", "interfaccia": "SPI", "quantita": 1, "posizione":
+    "IC Box 1", "datasheet_url": "https://cdn.sparkfun.com/assets/3/e/c/b/d/COM-09622-MAX7219-MAX7221.pdf",
+    "note": "Nessuna foto disponibile; riclassificato dai campi della riga inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-max98357a-162
   categoria: ic-components
@@ -544,59 +719,40 @@
   quantita: 1
   descrizione: Mono Amp
   interfaccia: I2S
-  note: ''
+  note: Riclassificato dalla riga inventario. Categoria ic-components confermata;
+    si tratta di amplificatore audio I2S, non di un sensore o display.
   datasheet_url: https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts
   datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/640x480/3006-04.jpg
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: ic-components-mcp23017-163
-  categoria: ic-components
-  codice: MCP23017
-  quantita: 4
-  descrizione: I/O Extender Board
-  interfaccia: I2C
-  note: ''
-  datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
-  datasheet_last_check: '2026-10-05'
-  posizione: IC Barrel
-  foto_drive_id: ''
-  foto_url: https://seengreat.com/upload/p/202504/1744007492b.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MAX98357A", "categoria": "ic-components", "descrizione":
+    "Tipo componente: amplificatore audio mono classe D MAX98357A; quantità: 1; package:
+    non specificato nella riga, probabilmente modulo/breakout Adafruit; scritte leggibili:
+    MAX98357A.", "interfaccia": "I2S", "quantita": 1, "posizione": "IC Barrel", "datasheet_url":
+    "https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts", "note":
+    "Riclassificato dalla riga inventario. Categoria ic-components confermata; si
+    tratta di amplificatore audio I2S, non di un sensore o display."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-mcp23017-164
   categoria: ic-components
   codice: MCP23017
-  quantita: 5
+  quantita: 17
   descrizione: I/O Extender Chip
   interfaccia: DIP-28
-  note: ''
+  note: Package DIP-28; 16-bit I/O expander; 5 pezzi
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
   datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/732-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
-  updated_at: ''
-- id: ic-components-mx-rs1m-us1m-165
-  categoria: ic-components
-  codice: Mx + RS1M + US1M
-  quantita: 50
-  descrizione: Diodo
-  interfaccia: SMD
-  note: ''
-  datasheet_url: https://www.diodes.com/datasheet/download/US1A.pdf
-  datasheet_last_check: '2026-10-05'
-  posizione: SMD Box
-  foto_drive_id: ''
-  foto_url: https://ae-pic-a1.aliexpress-media.com/kf/Scab8c2349dff409a985126bd2bba9e5aC.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MCP23017", "categoria": "ic-components", "descrizione":
+    "Chip I/O expander I2C a 16 bit, package DIP-28, sigla MCP23017, quantità 5",
+    "interfaccia": "I2C", "quantita": 5, "posizione": "IC Barrel", "datasheet_url":
+    "https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf", "note": "Package
+    DIP-28; 16-bit I/O expander; 5 pezzi"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ob2224ncp-166
   categoria: ic-components
@@ -604,14 +760,22 @@
   quantita: 20
   descrizione: Switch Power IC
   interfaccia: SMD
-  note: ''
+  note: Il datasheet_url fornito è per OB2223HC, non per OB2224NCP; verificare corrispondenza.
+    Package ipotizzato DIP-8/THT; se effettivamente SMD potrebbe trattarsi di variante
+    SOP-8 (es. CPA).
   datasheet_url: https://fr.scribd.com/document/651991833/ob2223hc
   datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.ic-components.com/upfile/images/20/20250905154209174.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "OB2224NCP", "categoria": "ic-components", "descrizione":
+    "IC per alimentatori switching (SMPS) On-Bright OB2224NCP, package DIP-8, 20 pezzi.
+    Descrizione originale: Switch Power IC.", "interfaccia": "DIP-8", "quantita":
+    20, "posizione": "SMD Box", "datasheet_url": "https://fr.scribd.com/document/651991833/ob2223hc",
+    "note": "Il datasheet_url fornito è per OB2223HC, non per OB2224NCP; verificare
+    corrispondenza. Package ipotizzato DIP-8/THT; se effettivamente SMD potrebbe trattarsi
+    di variante SOP-8 (es. CPA)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-pcf8574-167
   categoria: ic-components
@@ -619,14 +783,20 @@
   quantita: 1
   descrizione: GPIO Extender
   interfaccia: I2C
-  note: ''
+  note: Riclassificato dalla riga inventario senza foto. Categoria confermata ic-components.
+    Verificare package e tensione di alimentazione.
   datasheet_url: https://www.ti.com/lit/ds/symlink/pcf8574.pdf
   datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PCF8574", "categoria": "ic-components", "descrizione":
+    "Circuito integrato PCF8574, expander I/O a 8 bit con interfaccia I2C; quantità
+    1; package non specificato nei campi, nessuna foto disponibile.", "interfaccia":
+    "I2C", "quantita": 1, "posizione": "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/pcf8574.pdf",
+    "note": "Riclassificato dalla riga inventario senza foto. Categoria confermata
+    ic-components. Verificare package e tensione di alimentazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ptc1206-168
   categoria: ic-components
@@ -634,14 +804,20 @@
   quantita: 20
   descrizione: Poly-Fuse Resettable
   interfaccia: SMD
-  note: ''
+  note: 'Riclassificato da ic-components a componenti: è un PTC resettabile/protezione,
+    non un IC. Codice attuale mantenuto.'
   datasheet_url: https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf
   datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PTC1206", "categoria": "componenti", "descrizione": "Poly-Fuse
+    resettabile PTC, package SMD 1206, quantità 20; nessuna foto disponibile, marcatura
+    non leggibile.", "interfaccia": "SMD", "quantita": 20, "posizione": "SMD Box",
+    "datasheet_url": "https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf",
+    "note": "Riclassificato da ic-components a componenti: è un PTC resettabile/protezione,
+    non un IC. Codice attuale mantenuto."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-rf16100-169
   categoria: ic-components
@@ -655,8 +831,11 @@
   posizione: Fuse Box
   foto_drive_id: ''
   foto_url: https://api.optifuse.com/files/image/image/FSO/FSO-Main_l.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RF16100", "categoria": "componenti", "descrizione": "Fusibile
+    auto-ripristinante (PTC) 16V 1A, package radiale/THT, quantità 10", "interfaccia":
+    "THT", "quantita": 10, "posizione": "Fuse Box", "datasheet_url": "https://it.aliexpress.com/item/32960613217.html?spm=a2g0s.9042311.0.0.27424c4dICEFYi",
+    "note": "16V 1A"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-sip-1a05-170
   categoria: ic-components
@@ -670,8 +849,11 @@
   posizione: Relay e PU Box
   foto_drive_id: ''
   foto_url: https://c1.neweggimages.com/ProductImage/C6FGD26082804ZEQB2F.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SIP-1A05", "categoria": "componenti", "descrizione": "Relay
+    reed PAN-CHANG SIP-1A05, 1A, package SIP, 4 pin, quantità 5", "interfaccia": "4Pin",
+    "quantita": 5, "posizione": "Relay e PU Box", "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/SIP%20Series.pdf",
+    "note": "https://www.lcsc.com/product-detail/Reed-Relays_PAN-CHANG-SIP-1A05_C10496.html"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-sn74ls162-171
   categoria: ic-components
@@ -679,14 +861,22 @@
   quantita: 10
   descrizione: 4Bit counter
   interfaccia: DIP
-  note: ''
+  note: 'Riclassificato dai campi: SN74LS162 è un contatore sincrono 4-bit decade
+    con clear sincrono. Il datasheet TI copre la famiglia SN54/74LS161A/162A/163A.
+    Per package DIP il suffisso TI è N (SN74LS162N).'
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls161a-sp.pdf?ts=1791156058661
   datasheet_last_check: '2026-10-05'
   posizione: IC Box 2
   foto_drive_id: ''
   foto_url: https://www.ic-components.com/theme/images/logo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SN74LS162", "categoria": "ic-components", "descrizione":
+    "Circuito integrato contatore sincrono 4 bit decade (BCD) con clear sincrono;
+    10 pezzi; package DIP-16; marcatura SN74LS162 (nessuna foto disponibile).", "interfaccia":
+    "DIP-16", "quantita": 10, "posizione": "IC Box 2", "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn54ls161a-sp.pdf?ts=1791156058661",
+    "note": "Riclassificato dai campi: SN74LS162 è un contatore sincrono 4-bit decade
+    con clear sincrono. Il datasheet TI copre la famiglia SN54/74LS161A/162A/163A.
+    Per package DIP il suffisso TI è N (SN74LS162N)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-sn29cp-172
   categoria: ic-components
@@ -694,14 +884,17 @@
   quantita: 2
   descrizione: 6-60W Led Driver
   interfaccia: SMD
-  note: ''
+  note: Riclassificato da ic-components a pu. Modulo driver per LED, non un IC.
   datasheet_url: https://www.dc.systems/assets/public/LED-Driver-Datasheet.pdf
   datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.standardpro.com/hubfs/stanpro/product-images/Driver%2012V%20family%20pic%20600x400.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SN29CP", "categoria": "pu", "descrizione": "Driver per
+    LED 6-60W, package SMD, codice SN29CP, quantità 2", "interfaccia": "SMD", "quantita":
+    2, "posizione": "SMD Box", "datasheet_url": "https://www.dc.systems/assets/public/LED-Driver-Datasheet.pdf",
+    "note": "Riclassificato da ic-components a pu. Modulo driver per LED, non un IC."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-sn5408-173
   categoria: ic-components
@@ -709,14 +902,20 @@
   quantita: 2
   descrizione: QUAD 2 INPUT P AND GATE
   interfaccia: DIP
-  note: ''
+  note: Il datasheet fornito è per SN54LS08, non per SN5408; verificare corrispondenza.
+    Package DIP, quantità indicata 2.
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls08-sp.pdf?ts=1639771200586&ref_url=https%253A%252F%252Fwww.google.com%252F
   datasheet_last_check: '2026-10-05'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SN5408", "categoria": "ic-components", "descrizione":
+    "Circuito integrato logico TTL: quadruplo AND a 2 ingressi, package DIP, marcatura
+    SN5408, quantità indicata 2", "interfaccia": "DIP", "quantita": 2, "posizione":
+    "IC Box", "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn54ls08-sp.pdf?ts=1639771200586&ref_url=https%253A%252F%252Fwww.google.com%252F",
+    "note": "Il datasheet fornito è per SN54LS08, non per SN5408; verificare corrispondenza.
+    Package DIP, quantità indicata 2."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-ssxx-174
   categoria: ic-components
@@ -724,44 +923,61 @@
   quantita: 30
   descrizione: Scotty Diodo
   interfaccia: SMD
-  note: ''
+  note: Riclassificato da 'Scotty Diodo' a 'Diodo Schottky SS32'. Categoria corretta
+    da ic-components a componenti. Codice corretto da SSxx a SS32.
   datasheet_url: https://www.vishay.com/docs/88751/ss32.pdf
   datasheet_last_check: '2026-10-05'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://cdn.bodanius.com/resources/static/4/crop/-/Webwinkelkeur-logo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SS32", "categoria": "componenti", "descrizione": "Diodo
+    Schottky SS32, package SMD, quantità 30, marcatura SS32", "interfaccia": "SMD",
+    "quantita": 30, "posizione": "SMD Box", "datasheet_url": "https://www.vishay.com/docs/88751/ss32.pdf",
+    "note": "Riclassificato da ''Scotty Diodo'' a ''Diodo Schottky SS32''. Categoria
+    corretta da ic-components a componenti. Codice corretto da SSxx a SS32."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-tda2030-175
   categoria: ic-components
   codice: TDA2030
   quantita: 5
   descrizione: Audoo Amp
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: Descrizione originale 'Audoo Amp' corretta in Audio Amplifier IC; categoria
+    confermata ic-components.
   datasheet_url: https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf
   datasheet_last_check: '2026-10-05'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FOH/WSI6/KS0CY0A6/FOHWSI6KS0CY0A6.jpg?auto=webp&amp;frame=1&amp;width=2100
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TDA2030", "categoria": "ic-components", "descrizione":
+    "TDA2030, IC amplificatore audio in package TO-220 a 5 pin; quantità 5; scritta
+    leggibile TDA2030", "interfaccia": "", "quantita": 5, "posizione": "IC Box", "datasheet_url":
+    "https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf", "note": "Descrizione
+    originale ''Audoo Amp'' corretta in Audio Amplifier IC; categoria confermata ic-components."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-tl0754cn-176
   categoria: ic-components
   codice: TL0754CN
   quantita: 10
   descrizione: JET OP AMP
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica
+  note: 'Codice originale TL0754CN sospetto refuso: il datasheet indica TL074H/TL074.
+    Categoria confermata: ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1791156956453
   datasheet_last_check: '2026-10-05'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/W7092380-01
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TL074CN", "categoria": "ic-components", "descrizione":
+    "Circuito integrato amplificatore operazionale quad JFET-input, probabile TL074CN;
+    package DIP-14 dedotto dal suffisso CN; quantità 10; scritta riga ''JET OP AMP''
+    (probabile ''JFET OP AMP'').", "interfaccia": "", "quantita": 10, "posizione":
+    "IC Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1791156956453",
+    "note": "Codice originale TL0754CN sospetto refuso: il datasheet indica TL074H/TL074.
+    Categoria confermata: ic-components."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-tl081acp-177
   categoria: ic-components
@@ -769,14 +985,20 @@
   quantita: 10
   descrizione: OP-AMP
   interfaccia: DIP
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario. OP-AMP Texas
+    Instruments TL081ACP.
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl081a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1639737982939&ref_url=https%253A%252F%252Fwww.mouser.de%252F
   datasheet_last_check: '2026-10-06'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://microcontrollerslab.com/wp-content/uploads/2020/02/TL081-op-amp-IC.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TL081ACP", "categoria": "ic-components", "descrizione":
+    "Tipo: circuito integrato amplificatore operazionale; quantità: 10; package: DIP-8;
+    scritte leggibili/ipotesi: TL081ACP.", "interfaccia": "DIP-8", "quantita": 10,
+    "posizione": "IC Box", "datasheet_url": "https://www.ti.com/lit/ds/symlink/tl081a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1639737982939&ref_url=https%253A%252F%252Fwww.mouser.de%252F",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. OP-AMP
+    Texas Instruments TL081ACP."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-tsal6200-178
   categoria: ic-components
@@ -784,14 +1006,21 @@
   quantita: 20
   descrizione: Hight Power IR Diode 940nm
   interfaccia: DIP
-  note: ''
+  note: LED emettitore infrarosso Vishay; non è un circuito integrato. Verificare
+    polarità anodo/catodo e corrente di lavoro.
   datasheet_url: https://www.vishay.com/docs/81010/tsal6200.pdf
   datasheet_last_check: '2026-10-06'
   posizione: Led Box
   foto_drive_id: ''
   foto_url: https://www.vishay.com/images/product-images/pt-large/81010-pt-large.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TSAL6200", "categoria": "led", "descrizione": "Diodo LED
+    IR ad alta potenza 940nm, package T-1¾ (5mm) through-hole, 2 pin; part number
+    leggibile: TSAL6200. Quantità a inventario: 20 (non verificabile visivamente senza
+    foto).", "interfaccia": "through-hole 2 pin", "quantita": 20, "posizione": "Led
+    Box", "datasheet_url": "https://www.vishay.com/docs/81010/tsal6200.pdf", "note":
+    "LED emettitore infrarosso Vishay; non è un circuito integrato. Verificare polarità
+    anodo/catodo e corrente di lavoro."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-uc3845-179
   categoria: ic-components
@@ -799,14 +1028,20 @@
   quantita: 5
   descrizione: PWM Controller
   interfaccia: DIP
-  note: ''
+  note: 'Riclassificato dalla riga inventario: UC3845 è un controller PWM current-mode;
+    package DIP-8.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/uc3845.pdf?ts=1639737658616&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUC3845
   datasheet_last_check: '2026-10-06'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/09/mc33151-high-speed-dual-mosfet-driver-ic-dip-8-package-800x800-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "UC3845", "categoria": "ic-components", "descrizione":
+    "Circuito integrato PWM controller current-mode UC3845, package DIP-8, quantità
+    5", "interfaccia": "DIP-8", "quantita": 5, "posizione": "IC Box", "datasheet_url":
+    "https://www.ti.com/lit/ds/symlink/uc3845.pdf?ts=1639737658616&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUC3845",
+    "note": "Riclassificato dalla riga inventario: UC3845 è un controller PWM current-mode;
+    package DIP-8."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-w25q128bvfg-180
   categoria: ic-components
@@ -820,8 +1055,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.ultralibrarian.com/wp-content/uploads/2026/10/W25Q128-Serial-Flash-Memory-Datasheet.webp
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "W25Q128BVFG", "categoria": "ic-components", "descrizione":
+    "Circuito integrato memoria Flash NOR seriale 128Mbit, interfaccia Quad SPI, tensione
+    3V, package SMD (SOIC-8 presunto), marcatura W25Q128BVFG; quantità 5.", "interfaccia":
+    "QUAD SPI", "quantita": 5, "posizione": "SMD Box", "datasheet_url": "https://www.winbond.com/resource-files/w25q128bv%20revh%2003102016.pdf",
+    "note": "3V; Winbond; NOR Flash; non volatile; package SOIC-8 presunto"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-w25q128bvmg-181
   categoria: ic-components
@@ -835,8 +1074,12 @@
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://datasheet4u.com/pdfhtml/0560/721453/page-000001.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "W25Q128BVMG", "categoria": "ic-components", "descrizione":
+    "Circuito integrato di memoria flash seriale NOR, 128Mbit, package SOIC-8, 5 pezzi.
+    Scritta leggibile: W25Q128BVMG.", "interfaccia": "QUAD SPI", "quantita": 5, "posizione":
+    "SMD Box", "datasheet_url": "https://www.winbond.com/resource-files/w25q128bv%20revh%2003252016%20kms.pdf",
+    "note": "3V; NOR flash seriale 128Mbit; SPI/Quad SPI"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: ic-components-xy8018-182
   categoria: ic-components
@@ -850,8 +1093,13 @@
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://avatars.githubusercontent.com/u/1038959?s=60&amp;v=4
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "YX8018", "categoria": "ic-components", "descrizione":
+    "Circuito integrato driver per LED solare, package 4 pin (TO-94), marcatura YX8018,
+    quantità 10", "interfaccia": "4Pin", "quantita": 10, "posizione": "IC Barrel",
+    "datasheet_url": "https://datasheet4u.com/datasheets/Shiningic/YX8018/710956",
+    "note": "https://www.datasheetcafe.com/xy8018-datasheet-solar-led-driver/ - probabile
+    refuso: XY8018 vs YX8018"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: na-na
   categoria: ic-components
@@ -863,22 +1111,362 @@
     circa 12 cm, come da righello 22,5-34,5 cm) a un connettore USB-A maschio metallico
     piatto all''estremità opposta (contatti dorati visibili). Fondo righello/banco
     da taglio con scritta ''screw position / 450mmX300mm''.'
-  interfaccia: 3 fili
-  note: ''
+  interfaccia: single-wire seriale
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    led confermata per modulo LED RGB indirizzabile.
   datasheet_url: https://idea4fun.it/offerta/prodotti-luminosi-a-led/moduli
   datasheet_last_check: '2026-10-10'
   posizione: A Box
   foto_drive_id: 1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
   foto_url: https://drive.google.com/open?id=1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
-  ai_proposta: '{"codice": "USB-A-flat-cable-LED", "categoria": "comunication", "descrizione":
-    "1 pezzo visibile: cavo/adattatore piatto con modulo rettangolare in plastica
-    nera (circa 4x1,5 cm) recante logo USB serigrafato in bianco entro cornice e un
-    LED rosso acceso, collegato tramite nastro flessibile nero (lunghezza totale circa
-    12 cm, come da righello 22,5-34,5 cm) a un connettore USB-A maschio metallico
-    piatto all''estremità opposta (contatti dorati visibili). Fondo righello/banco
-    da taglio con scritta ''screw position / 450mmX300mm''.", "interfaccia": "USB-A
-    2.0 maschio", "quantita": 1, "posizione": "banco da lavoro", "datasheet_url":
-    "", "note": "Componente singolo, probabilmente prolunga/indicatore USB con LED
-    di stato; nessuna sigla leggibile sul corpo nero, codice ipotizzato."}'
-  ai_stato: confermato
+  ai_proposta: '{"codice": "WS2812B-64", "categoria": "led", "descrizione": "Modulo
+    con 64 LED RGB indirizzabili WS2812B, colore 24-bit; package modulo PCB; scritta
+    leggibile WS2812B-64.", "interfaccia": "single-wire seriale", "quantita": 1, "posizione":
+    "A Box", "datasheet_url": "https://cdn.sparkfun.com/assets/e/6/1/f/4/WS2812B-LED-datasheet.pdf",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    led confermata per modulo LED RGB indirizzabile."}'
+  ai_stato: da_verificare
   updated_at: 03/10/2026 18.18.28
+- id: componenti-tlp627
+  categoria: ic-components
+  codice: TLP627
+  quantita: 10
+  descrizione: Optoisolatore TLP627, package DIP-4, 10 pezzi visibili (da inventario).
+  interfaccia: ''
+  note: 'Riclassificato: categoria originale ''componenti'' errata; optoisolatore
+    classificato come ic-components. Package DIP-4.'
+  datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "TLP627", "categoria": "ic-components", "descrizione":
+    "Optoisolatore TLP627, package DIP-4, 10 pezzi visibili (da inventario).", "interfaccia":
+    "", "quantita": 10, "posizione": "Last Drawer", "datasheet_url": "https://www.farnell.com/datasheets/2007824.pdf",
+    "note": "Riclassificato: categoria originale ''componenti'' errata; optoisolatore
+    classificato come ic-components. Package DIP-4."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 16.57.33
+- id: componenti-4n35
+  categoria: ic-components
+  codice: 4N35
+  quantita: 7
+  descrizione: Optoisolatore 4N35, package DIP-6, 6 pin, quantità 7. Nessuna foto
+    disponibile; riclassificato dai campi della riga inventario.
+  interfaccia: DIP-6
+  note: Riclassificato da 'componenti' a 'ic-components'.
+  datasheet_url: https://www.vishay.com/docs/81181/4n35.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "4N35", "categoria": "ic-components", "descrizione": "Optoisolatore
+    4N35, package DIP-6, 6 pin, quantità 7. Nessuna foto disponibile; riclassificato
+    dai campi della riga inventario.", "interfaccia": "DIP-6", "quantita": 7, "posizione":
+    "Last Drawer", "datasheet_url": "https://www.vishay.com/docs/81181/4n35.pdf",
+    "note": "Riclassificato da ''componenti'' a ''ic-components''."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 16.58.19
+- id: componenti-moc3051
+  categoria: ic-components
+  codice: MOC3051
+  quantita: 9
+  descrizione: 'Optoisolatore triac driver, package DIP-6, quantita 9. Codice MOC3051.
+    Nessuna foto disponibile: scritte non leggibili direttamente.'
+  interfaccia: ''
+  note: Riclassificato da 'componenti' a 'ic-components' in base al codice MOC3051.
+    Componente optoisolatore/triac driver, 6 pin DIP, random phase.
+  datasheet_url: https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "MOC3051", "categoria": "ic-components", "descrizione":
+    "Optoisolatore triac driver, package DIP-6, quantita 9. Codice MOC3051. Nessuna
+    foto disponibile: scritte non leggibili direttamente.", "interfaccia": "", "quantita":
+    9, "posizione": "Last Drawer", "datasheet_url": "https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf",
+    "note": "Riclassificato da ''componenti'' a ''ic-components'' in base al codice
+    MOC3051. Componente optoisolatore/triac driver, 6 pin DIP, random phase."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 16.58.48
+- id: na-hpcl3700
+  categoria: ic-components
+  codice: HCPL-3700
+  quantita: 10
+  descrizione: Optocoupler AC/DC to logic interface, package DIP-8, quantità 10 da
+    inventario. Nessuna foto disponibile; codice letto come HPCL3700, probabile refuso
+    per HCPL-3700.
+  interfaccia: digitale/logica
+  note: Riclassificato da categoria 'componenti' a 'ic-components'. Codice corretto
+    da HPCL3700 a HCPL-3700.
+  datasheet_url: https://docs.broadcom.com/doc/AV02-0391EN
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "HCPL-3700", "categoria": "ic-components", "descrizione":
+    "Optocoupler AC/DC to logic interface, package DIP-8, quantità 10 da inventario.
+    Nessuna foto disponibile; codice letto come HPCL3700, probabile refuso per HCPL-3700.",
+    "interfaccia": "digitale/logica", "quantita": 10, "posizione": "Last Drawer",
+    "datasheet_url": "https://docs.broadcom.com/doc/AV02-0391EN", "note": "Riclassificato
+    da categoria ''componenti'' a ''ic-components''. Codice corretto da HPCL3700 a
+    HCPL-3700."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 16.59.14
+- id: componenti-pc8170
+  categoria: ic-components
+  codice: PC817
+  quantita: 30
+  descrizione: Optoisolatore/optocoupler, probabile PC817, package DIP-4, quantità
+    30 pezzi. Nessuna foto disponibile, scritte non leggibili.
+  interfaccia: DIP-4
+  note: 'Nessuna foto: riclassificato dai campi. Codice originale ''PC8170'' interpretato
+    come ''PC817'' (optoisolatore Sharp). Categoria corretta da ''componenti'' a ''ic-components''.'
+  datasheet_url: https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "PC817", "categoria": "ic-components", "descrizione": "Optoisolatore/optocoupler,
+    probabile PC817, package DIP-4, quantità 30 pezzi. Nessuna foto disponibile, scritte
+    non leggibili.", "interfaccia": "DIP-4", "quantita": 30, "posizione": "Last Drawer",
+    "datasheet_url": "https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf",
+    "note": "Nessuna foto: riclassificato dai campi. Codice originale ''PC8170'' interpretato
+    come ''PC817'' (optoisolatore Sharp). Categoria corretta da ''componenti'' a ''ic-components''."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 16.59.46
+- id: na-lm317t
+  categoria: ic-components
+  codice: LM317T
+  quantita: 1
+  descrizione: Regolatore di tensione lineare regolabile positivo LM317T, package
+    TO-220, 1 pezzo; marcatura tipica LM317T.
+  interfaccia: TO-220
+  note: 'Riclassificato: regolatore lineare variabile 1.25-37 V, fino a 1.5 A. Nessuna
+    foto disponibile.'
+  datasheet_url: https://www.ti.com/lit/ds/symlink/lm317.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "LM317T", "categoria": "ic-components", "descrizione":
+    "Regolatore di tensione lineare regolabile positivo LM317T, package TO-220, 1
+    pezzo; marcatura tipica LM317T.", "interfaccia": "TO-220", "quantita": 1, "posizione":
+    "Last Drawer", "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm317.pdf",
+    "note": "Riclassificato: regolatore lineare variabile 1.25-37 V, fino a 1.5 A.
+    Nessuna foto disponibile."}'
+  ai_stato: confermato
+  updated_at: 11/10/2026 17.10.59
+- id: na-lm2576
+  categoria: ic-components
+  codice: TLP627
+  quantita: 10
+  descrizione: Optoisolatore TLP627 (fotocoupler), package DIP-4, quantità 10
+  interfaccia: TO-220-5
+  note: Componente a semiconduttore; riclassificato da componenti a ic-components.
+  datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "TLP627", "categoria": "ic-components", "descrizione":
+    "Optoisolatore TLP627 (fotocoupler), package DIP-4, quantità 10", "interfaccia":
+    "", "quantita": 10, "posizione": "Last Drawer", "datasheet_url": "https://www.farnell.com/datasheets/2007824.pdf",
+    "note": "Componente a semiconduttore; riclassificato da componenti a ic-components."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.11.19
+- id: na-tc4058a
+  categoria: ic-components
+  codice: 4N35
+  quantita: 5
+  descrizione: Optocoupler/optoisolatore 4N35 con uscita a fototransistor, package
+    DIP-6; quantita 7 pezzi.
+  interfaccia: ''
+  note: Riclassificato da componenti a ic-components.
+  datasheet_url: https://www.vishay.com/docs/81181/4n35.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "4N35", "categoria": "ic-components", "descrizione": "Optocoupler/optoisolatore
+    4N35 con uscita a fototransistor, package DIP-6; quantita 7 pezzi.", "interfaccia":
+    "", "quantita": 7, "posizione": "Last Drawer", "datasheet_url": "https://www.vishay.com/docs/81181/4n35.pdf",
+    "note": "Riclassificato da componenti a ic-components."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.12.22
+- id: na-le33
+  categoria: ic-components
+  codice: MOC3051
+  quantita: 8
+  descrizione: Optoisolatore/optotriac MOC3051, package DIP-6, 6 pin, driver triac,
+    9 pezzi in inventario, nessuna foto disponibile
+  interfaccia: DIP-6
+  note: Riclassificato da categoria componenti a ic-components; componente IC optoelettronico
+    per pilotaggio triac.
+  datasheet_url: https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "MOC3051", "categoria": "ic-components", "descrizione":
+    "Optoisolatore/optotriac MOC3051, package DIP-6, 6 pin, driver triac, 9 pezzi
+    in inventario, nessuna foto disponibile", "interfaccia": "DIP-6", "quantita":
+    9, "posizione": "Last Drawer", "datasheet_url": "https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf",
+    "note": "Riclassificato da categoria componenti a ic-components; componente IC
+    optoelettronico per pilotaggio triac."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.13.10
+- id: na-ams1117
+  categoria: ic-components
+  codice: HCPL3700
+  quantita: 5
+  descrizione: Optoaccoppiatore/sensore di tensione isolato AC/DC, package DIP-8,
+    quantità 10, marcatura HCPL-3700.
+  interfaccia: logica
+  note: Codice originale 'HPCL3700' probabile refuso per HCPL3700 (HCPL-3700). Verificare
+    corrispondenza esatta e package.
+  datasheet_url: https://docs.broadcom.com/doc/AV02-0390EN
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "HCPL3700", "categoria": "ic-components", "descrizione":
+    "Optoaccoppiatore/sensore di tensione isolato AC/DC, package DIP-8, quantità 10,
+    marcatura HCPL-3700.", "interfaccia": "logica", "quantita": 10, "posizione": "Last
+    Drawer", "datasheet_url": "https://docs.broadcom.com/doc/AV02-0390EN", "note":
+    "Codice originale ''HPCL3700'' probabile refuso per HCPL3700 (HCPL-3700). Verificare
+    corrispondenza esatta e package."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.13.44
+- id: na-lm2596
+  categoria: ic-components
+  codice: PC817
+  quantita: 3
+  descrizione: 'Optoisolatore/optocoupler a 1 canale, package DIP-4, 30 pezzi. Riga
+    inventario: codice PC8170, quantità 30, posizione Last Drawer. Nessuna foto disponibile;
+    probabile refuso PC8170 -> PC817.'
+  interfaccia: DIP-4
+  note: 'Riclassificato da componenti a ic-components. Verificare codice e package:
+    probabile PC817 (optocoupler Sharp) e non PC8170.'
+  datasheet_url: https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "PC817", "categoria": "ic-components", "descrizione": "Optoisolatore/optocoupler
+    a 1 canale, package DIP-4, 30 pezzi. Riga inventario: codice PC8170, quantità
+    30, posizione Last Drawer. Nessuna foto disponibile; probabile refuso PC8170 ->
+    PC817.", "interfaccia": "DIP-4", "quantita": 30, "posizione": "Last Drawer", "datasheet_url":
+    "https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf", "note":
+    "Riclassificato da componenti a ic-components. Verificare codice e package: probabile
+    PC817 (optocoupler Sharp) e non PC8170."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.14.07
+- id: na-na-6
+  categoria: ic-components
+  codice: MC34963AP
+  quantita: 10
+  descrizione: 'Regolatore di tensione lineare regolabile positivo, package TO-220
+    a 3 pin; marcatura leggibile LM317T. Quantità visibile: 1.'
+  interfaccia: RS-422/differenziale
+  note: Riclassificato dalla riga inventario; componente IC analogico, non sensore.
+    Verificare eventuale sigla produttore (es. ST/ON/TI).
+  datasheet_url: https://www.ti.com/lit/ds/symlink/lm317.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "LM317T", "categoria": "ic-components", "descrizione":
+    "Regolatore di tensione lineare regolabile positivo, package TO-220 a 3 pin; marcatura
+    leggibile LM317T. Quantità visibile: 1.", "interfaccia": "", "quantita": 1, "posizione":
+    "Last Drawer", "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm317.pdf",
+    "note": "Riclassificato dalla riga inventario; componente IC analogico, non sensore.
+    Verificare eventuale sigla produttore (es. ST/ON/TI)."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.17.52
+- id: na-lm317
+  categoria: ic-components
+  codice: LM317
+  quantita: 8
+  descrizione: Regolatore di tensione step-down switching LM2576, package TO-220-5,
+    quantità 10. Scritte leggibili non disponibili (nessuna foto).
+  interfaccia: 'TO-220-5: VIN, OUTPUT, GND, FEEDBACK, ON/OFF'
+  note: 'Riclassificato dalla riga inventario: codice LM2576, quantità 10, posizione
+    Last Drawer. Nessuna foto disponibile.'
+  datasheet_url: https://www.ti.com/lit/ds/symlink/lm2576.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "LM2576", "categoria": "ic-components", "descrizione":
+    "Regolatore di tensione step-down switching LM2576, package TO-220-5, quantità
+    10. Scritte leggibili non disponibili (nessuna foto).", "interfaccia": "TO-220-5:
+    VIN, OUTPUT, GND, FEEDBACK, ON/OFF", "quantita": 10, "posizione": "Last Drawer",
+    "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm2576.pdf", "note": "Riclassificato
+    dalla riga inventario: codice LM2576, quantità 10, posizione Last Drawer. Nessuna
+    foto disponibile."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.18.16
+- id: na-mt3608
+  categoria: ic-components
+  codice: MT3608
+  quantita: 5
+  descrizione: MT3608 step-up boost converter IC, package SOT23-6, 2A, input 2-24V,
+    output up to 28V. Quantità 5 (da inventario).
+  interfaccia: SOT23-6
+  note: 'Nessuna foto disponibile. Riclassificato dalla riga inventario: codice MT3608,
+    quantità 5, posizione Last Drawer. Presunto IC boost converter SOT23-6.'
+  datasheet_url: https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "MT3608", "categoria": "ic-components", "descrizione":
+    "MT3608 step-up boost converter IC, package SOT23-6, 2A, input 2-24V, output up
+    to 28V. Quantità 5 (da inventario).", "interfaccia": "SOT23-6", "quantita": 5,
+    "posizione": "Last Drawer", "datasheet_url": "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf",
+    "note": "Nessuna foto disponibile. Riclassificato dalla riga inventario: codice
+    MT3608, quantità 5, posizione Last Drawer. Presunto IC boost converter SOT23-6."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.18.58
+- id: na-hw-668
+  categoria: ic-components
+  codice: HW-668
+  quantita: 8
+  descrizione: Regolatore di tensione LDO 3.3V, serie LE33, probabile package SOT-23-5
+    o TO-92, quantità 8
+  interfaccia: ''
+  note: 'Riclassificato da riga inventario: componente attivo, regolatore LDO 3.3V.'
+  datasheet_url: https://www.st.com/resource/en/datasheet/le33.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "LE33", "categoria": "ic-components", "descrizione": "Regolatore
+    di tensione LDO 3.3V, serie LE33, probabile package SOT-23-5 o TO-92, quantità
+    8", "interfaccia": "", "quantita": 8, "posizione": "Last Drawer", "datasheet_url":
+    "https://www.st.com/resource/en/datasheet/le33.pdf", "note": "Riclassificato da
+    riga inventario: componente attivo, regolatore LDO 3.3V."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.19.19
+- id: na-ams117
+  categoria: ic-components
+  codice: AMS117
+  quantita: 4
+  descrizione: 1A
+  interfaccia: ''
+  note: 'Componente riclassificato: regolatore di tensione lineare, non sensore. Verificare
+    tensione di uscita (3.3V, 5V, ADJ).'
+  datasheet_url: https://www.advanced-monolithic.com/pdf/ds1117.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "AMS1117", "categoria": "ic-components", "descrizione":
+    "Regolatore lineare LDO AMS1117, 800mA, package SOT-223, quantità 5 (da riga inventario:
+    AMS1117, 800mA, Last Drawer).", "interfaccia": "", "quantita": 5, "posizione":
+    "Last Drawer", "datasheet_url": "https://www.advanced-monolithic.com/pdf/ds1117.pdf",
+    "note": "Componente riclassificato: regolatore di tensione lineare, non sensore.
+    Verificare tensione di uscita (3.3V, 5V, ADJ)."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.19.51

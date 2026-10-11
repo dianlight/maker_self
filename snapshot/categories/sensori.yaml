@@ -1536,3 +1536,27 @@
     Busta antistatica con barcode e numeri parzialmente leggibili."}'
   ai_stato: confermato
   updated_at: 03/10/2026 18.48.01
+- id: na-hw-613
+  categoria: sensori
+  codice: HW-613
+  quantita: 5
+  descrizione: 'Modulo sensore di fiamma IR (flame sensor) basato su comparatore LM393,
+    con ricevitore IR, trimmer di soglia, LED di stato e uscite DO/AO. Package modulo
+    PCB 4 pin. Quantità da inventario: 5 pezzi. Codice associato: HW-613.'
+  interfaccia: '4 pin: VCC, GND, DO (digitale), AO (analogico)'
+  note: Riclassificato senza foto; ipotesi basata sul codice HW-613. Verificare presenza
+    di LM393 e fotodiodo/ricevitore IR.
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "HW-613", "categoria": "sensori", "descrizione": "Modulo
+    sensore di fiamma IR (flame sensor) basato su comparatore LM393, con ricevitore
+    IR, trimmer di soglia, LED di stato e uscite DO/AO. Package modulo PCB 4 pin.
+    Quantità da inventario: 5 pezzi. Codice associato: HW-613.", "interfaccia": "4
+    pin: VCC, GND, DO (digitale), AO (analogico)", "quantita": 5, "posizione": "Last
+    Drawer", "datasheet_url": "", "note": "Riclassificato senza foto; ipotesi basata
+    sul codice HW-613. Verificare presenza di LM393 e fotodiodo/ricevitore IR."}'
+  ai_stato: confermato
+  updated_at: 11/10/2026 17.09.46

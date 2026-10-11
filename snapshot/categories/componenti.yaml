@@ -3,15 +3,23 @@
   codice: HW-125
   quantita: 1
   descrizione: Micro SD SPI
-  interfaccia: ''
-  note: ''
+  interfaccia: SPI
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
+    'componenti' perché modulo storage generico, non sensore/display/IC. Verificare
+    corrispondenza codice HW-125 con modulo micro SD SPI.
   datasheet_url: https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://shillehtek.com/cdn/shop/files/1_c60d4fea-c515-4367-b12e-0f89e369909c.png?v=1771543653&width=240
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HW-125", "categoria": "componenti", "descrizione": "Modulo
+    lettore Micro SD con interfaccia SPI, codice HW-125, 1 pezzo visibile, modulo
+    PCB con slot per micro SD e pin SPI; scritta leggibile presunta: HW-125.", "interfaccia":
+    "SPI", "quantita": 1, "posizione": "Component Barrel", "datasheet_url": "https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
+    ''componenti'' perché modulo storage generico, non sensore/display/IC. Verificare
+    corrispondenza codice HW-125 con modulo micro SD SPI."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-pca9685-209
   categoria: componenti
@@ -19,44 +27,64 @@
   quantita: 1
   descrizione: PWM Driver 12bit 16 Channel
   interfaccia: I2C
-  note: ''
+  note: PCA9685 è spesso usato come driver per servo/LED; se in inventario è un breakout
+    board, valutare categoria circuits/mcu-board.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/815-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PCA9685", "categoria": "ic-components", "descrizione":
+    "Driver PWM 12-bit a 16 canali, integrato PCA9685; nessuna foto, dati da riga
+    inventario: tipo componente IC/modulo PWM, quantità indicata 1, package non specificato
+    (tipico TSSOP-28 per il chip), scritta leggibile PCA9685.", "interfaccia": "I2C",
+    "quantita": 1, "posizione": "Component Barrel", "datasheet_url": "https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf",
+    "note": "PCA9685 è spesso usato come driver per servo/LED; se in inventario è
+    un breakout board, valutare categoria circuits/mcu-board."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-p25-11-210
   categoria: componenti
   codice: P25/11
   quantita: 1
   descrizione: Electrocalamita 12v - 5kg
-  interfaccia: ''
-  note: ''
+  interfaccia: 12V DC
+  note: Nessuna foto; riclassificato dalla riga inventario. URL fornito è pagina prodotto,
+    non datasheet tecnico.
   datasheet_url: https://mktechnic.com/product/emc-kk-p2511-v/?srsltid=AU7gw4Wu_lG0fMqyZ4dmVmwgZZKohUMj7W64Yb4QCcrTeCd3xyBS_iFw
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://i0.wp.com/mktechnic.com/wp-content/uploads/2023/02/EMC-KK-P2511-V.jpg?fit=1000%2C1000&#038;ssl=1
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "P25/11", "categoria": "motors-hardware", "descrizione":
+    "Electrocalamita 12V - 5kg, modello EMC-KK-P2511-V; tipo componente: attuatore
+    elettromagnetico; quantità 1; package non specificato; nessuna foto disponibile",
+    "interfaccia": "12V DC", "quantita": 1, "posizione": "Component Barrel", "datasheet_url":
+    "https://mktechnic.com/product/emc-kk-p2511-v/?srsltid=AU7gw4Wu_lG0fMqyZ4dmVmwgZZKohUMj7W64Yb4QCcrTeCd3xyBS_iFw",
+    "note": "Nessuna foto; riclassificato dalla riga inventario. URL fornito è pagina
+    prodotto, non datasheet tecnico."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-slide-pot-211
   categoria: componenti
   codice: Slide Pot
   quantita: 1
   descrizione: Resistor - Slide Pot.
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato
+    a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.
   datasheet_url: https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Potensiometro
+    a slitta (slide potentiometer), componente resistivo variabile; quantità visibile
+    1; package non specificato; scritte leggibili non disponibili dalla riga.", "interfaccia":
+    "analogico", "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf",
+    "note": "Riclassificato da componenti a resistors; codice generico ''Slide Pot''
+    aggiornato a serie PSxxG dal datasheet. Verificare valore ohmico e corsa."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-xa0065-212
   categoria: componenti
@@ -64,29 +92,43 @@
   quantita: 1
   descrizione: Micro USB Ultrasonic mist Maker
   interfaccia: Micro USB
-  note: ''
+  note: 'Riclassificato da componenti a circuits: si tratta di un modulo/nebulizzatore
+    ultrasuoni con interfaccia Micro USB, probabile attuatore per umidificatori. Verificare
+    se il datasheet Farnell 81205 corrisponde.'
   datasheet_url: https://www.farnell.com/datasheets/81205.pdf
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "XA0065", "categoria": "circuits", "descrizione": "Modulo
+    nebulizzatore a ultrasuoni con attacco Micro USB; 1 pezzo; package non specificato;
+    nessuna scritta leggibile (nessuna foto disponibile).", "interfaccia": "Micro
+    USB", "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://www.farnell.com/datasheets/81205.pdf",
+    "note": "Riclassificato da componenti a circuits: si tratta di un modulo/nebulizzatore
+    ultrasuoni con interfaccia Micro USB, probabile attuatore per umidificatori. Verificare
+    se il datasheet Farnell 81205 corrisponde."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-x30567-213
   categoria: componenti
   codice: X30567
   quantita: 1
   descrizione: DC 10A Mini voltometro
-  interfaccia: ''
-  note: ''
+  interfaccia: DC
+  note: Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A
+    Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.
   datasheet_url: https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/G/42/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546775727_.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "X30567", "categoria": "displays", "descrizione": "Modulo
+    voltmetro/amperometro DC 10A mini con display digitale per misura tensione/corrente",
+    "interfaccia": "", "quantita": 1, "posizione": "B BOX", "datasheet_url": "https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7",
+    "note": "Riclassificato da ''componenti'' a ''displays''; descrizione corretta
+    da ''DC 10A Mini voltometro'' a modulo voltmetro/amperometro DC 10A mini. Nessuna
+    foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-mosfet-irf520-214
   categoria: componenti
@@ -94,29 +136,43 @@
   quantita: 4
   descrizione: Module MOSFET
   interfaccia: 3PIN
-  note: ''
+  note: Datasheet riferito al transistor IRF520, non al modulo. Categoria riclassificata
+    da componenti a circuits.
   datasheet_url: https://www.vishay.com/docs/91017/irf520.pdf
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2018/02/IRF520-MOSFET-Breakout-Board-Top.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "IRF520 MOSFET Module", "categoria": "circuits", "descrizione":
+    "Modulo MOSFET IRF520, 3 pin, basato su transistor MOSFET IRF520 in package TO-220.
+    Utilizzato per pilotare carichi ad alta corrente. Quantità 4. Scritte leggibili:
+    IRF520.", "interfaccia": "3PIN", "quantita": 4, "posizione": "B BOX", "datasheet_url":
+    "https://www.vishay.com/docs/91017/irf520.pdf", "note": "Datasheet riferito al
+    transistor IRF520, non al modulo. Categoria riclassificata da componenti a circuits."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-yf08e-215
   categoria: componenti
   codice: YF08E
   quantita: 7
   descrizione: Level Converter 3-5v
-  interfaccia: ''
-  note: ''
+  interfaccia: I2C/SPI/UART/GPIO
+  note: 'Riclassificato dalla riga inventario: codice YF08E probabilmente errato o
+    abbreviazione di TXS0108E; il datasheet TI corrisponde a TXS0108E. Categoria corretta
+    da componenti a ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/txs0108e.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.canaduino.ca/wp-content/uploads/2025/01/26639-8-channel-level-converter-3.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TXS0108E", "categoria": "ic-components", "descrizione":
+    "Level Converter 3-5V, IC traduttore di livello bidirezionale 8 bit, package non
+    specificato, quantità 7", "interfaccia": "I2C/SPI/UART/GPIO", "quantita": 7, "posizione":
+    "Component Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/txs0108e.pdf",
+    "note": "Riclassificato dalla riga inventario: codice YF08E probabilmente errato
+    o abbreviazione di TXS0108E; il datasheet TI corrisponde a TXS0108E. Categoria
+    corretta da componenti a ic-components."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-laser-216
   categoria: componenti
@@ -124,59 +180,85 @@
   quantita: 1
   descrizione: Laser Emitter
   interfaccia: ''
-  note: ''
+  note: Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico.
+    Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.
   datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.lasercomponents.com/fileadmin/_processed_/a/5/csm_lcusa-ra-te-a1-1-1_c9501494ae.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Laser Emitter
+    (emettitore laser), componente optoelettronico, quantità 1, package non specificato,
+    nessuna foto disponibile, nessuna scritta leggibile", "interfaccia": "", "quantita":
+    1, "posizione": "Component Barrel", "datasheet_url": "https://docs.rs-online.com/60f1/0900766b8001ab04.pdf",
+    "note": "Nessuna foto; riclassificato da ''componenti'' a ''led'' perché emettitore
+    optoelettronico. Codice originale ''Laser'' mantenuto; verificare part number
+    e package dal datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-digital-joystic-217
   categoria: componenti
   codice: Digital Joystic
   quantita: 1
   descrizione: Joystick
-  interfaccia: ''
-  note: ''
+  interfaccia: Analogica/Digitale (X, Y analogici, SW digitale)
+  note: 'Riclassificato da riga inventario: codice originale ''Digital Joystic'' corretto
+    in KY-023; categoria originale ''componenti'' aggiornata a sensori.'
   datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://cdn.prod.website-files.com/69a5a9fd0bfb9a26219eba91/6abaa643e5744f12b9fd0128_Product-Photo-PT-MINIJOY-G1-White-Background%20(25).JPG
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
+    joystick analogico a 2 assi con pulsante integrato, 1 pezzo da inventario, package
+    modulo PCB con 5 pin, scritta leggibile KY-023.", "interfaccia": "Analogica/Digitale
+    (X, Y analogici, SW digitale)", "quantita": 1, "posizione": "Component Barrel",
+    "datasheet_url": "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
+    "note": "Riclassificato da riga inventario: codice originale ''Digital Joystic''
+    corretto in KY-023; categoria originale ''componenti'' aggiornata a sensori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-ic-joystick-218
   categoria: componenti
   codice: IC Joystick
   quantita: 3
   descrizione: Joystick
-  interfaccia: ''
-  note: ''
+  interfaccia: Analogica/Digitale (VRx, VRy, SW)
+  note: Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC.
   datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/images/allegro-logo-og.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
+    joystick analogico KY-023, 2 assi X/Y e pulsante, 3 unità, package modulo PCB;
+    nessuna foto disponibile, scritte non leggibili.", "interfaccia": "Analogica/Digitale
+    (VRx, VRy, SW)", "quantita": 3, "posizione": "Component Barrel", "datasheet_url":
+    "https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf",
+    "note": "Riclassificato da ''IC Joystick'' a modulo joystick KY-023; non è un
+    IC."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-keyboards-219
   categoria: componenti
   codice: Keyboards
   quantita: 3
   descrizione: Tastiera a Pression
-  interfaccia: ''
-  note: ''
+  interfaccia: Bluetooth
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
+    indica tastiera Bluetooth sealed IP68.
   datasheet_url: https://www.dtresearch.com/support/datasheet/Sealed_IP68_BT_Keyboard_W_datasheet.pdf
   datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.daskeyboard.com/images/open-graph-daskeyboard-4-professional.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Keyboards", "categoria": "componenti", "descrizione":
+    "Tastiera a pressione, 3 unità visibili, modello sealed IP68 Bluetooth, package
+    non specificato", "interfaccia": "Bluetooth", "quantita": 3, "posizione": "A Box",
+    "datasheet_url": "https://www.dtresearch.com/support/datasheet/Sealed_IP68_BT_Keyboard_W_datasheet.pdf",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Il datasheet
+    indica tastiera Bluetooth sealed IP68."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-zs-042-220
   categoria: componenti
@@ -184,44 +266,71 @@
   quantita: 1
   descrizione: RTC Clock
   interfaccia: I2C
-  note: ''
+  note: URL fornito è pagina prodotto, non datasheet ufficiale. Modulo RTC con EEPROM
+    AT24C32; verificare se DS3231 o DS1307.
   datasheet_url: https://www.eitkw.com/product/zs-042-rtc-real-time-clock-module/?srsltid=AU7gw4WxoxhNrmgRufE8rLiePKkkk0aOU7CPG4nyMpqJbpXyZS3NyYOR
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://eitkw.com/wp-content/uploads/2018/04/reloj-tiempo-real-rtc-ds3231-eeprom-24c32-arduino-en-rosario-D_NQ_NP_678115-MLA25177203318_112016-F.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ZS-042", "categoria": "circuits", "descrizione": "Modulo
+    RTC ZS-042 basato su DS3231 con EEPROM AT24C32, modulo PCB, 1 pezzo, scritta ZS-042,
+    RTC Clock, interfaccia I2C.", "interfaccia": "I2C", "quantita": 1, "posizione":
+    "Component Barrel", "datasheet_url": "https://www.eitkw.com/product/zs-042-rtc-real-time-clock-module/?srsltid=AU7gw4WxoxhNrmgRufE8rLiePKkkk0aOU7CPG4nyMpqJbpXyZS3NyYOR",
+    "note": "URL fornito è pagina prodotto, non datasheet ufficiale. Modulo RTC con
+    EEPROM AT24C32; verificare se DS3231 o DS1307."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-rotary-encoder-221
   categoria: componenti
   codice: Rotary Encoder
   quantita: 10
   descrizione: Rotary Encoder
-  interfaccia: ''
-  note: ''
+  interfaccia: incrementale/quadratura
+  note: Riclassificato da categoria 'componenti' a 'sensori'; codice generico 'Rotary
+    Encoder' sostituito con A102H dal datasheet. Verificare interfaccia e package
+    sul datasheet.
   datasheet_url: https://www.precizika.com/wp-content/uploads/2021/08/A102H-Rotary-Encoder-Datasheet.pdf
   datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://global.discourse-cdn.com/digikey/original/3X/e/e/ee6872641fcd4645e369240709b40f193add1207.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "A102H", "categoria": "sensori", "descrizione": "Rotary
+    encoder A102H (Precizika), componente elettromeccanico per rilevazione rotazione/posizione;
+    quantità inventario 10 pezzi; package non specificato; scritta leggibile: A102H.",
+    "interfaccia": "incrementale/quadratura", "quantita": 10, "posizione": "A Box",
+    "datasheet_url": "https://www.precizika.com/wp-content/uploads/2021/08/A102H-Rotary-Encoder-Datasheet.pdf",
+    "note": "Riclassificato da categoria ''componenti'' a ''sensori''; codice generico
+    ''Rotary Encoder'' sostituito con A102H dal datasheet. Verificare interfaccia
+    e package sul datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-pulsanti-colorati-222
   categoria: componenti
   codice: Pulsanti Colorati
   quantita: 10
   descrizione: Pulsanti Multicolori
-  interfaccia: ''
-  note: ''
+  interfaccia: N/A
+  note: Riclassificato solo dai campi riga, senza foto. Categoria generica 'componenti'
+    perché non è disponibile una categoria specifica per pulsanti/switch. Codice descrittivo
+    mantenuto/ipotizzato come 'Pulsanti Colorati'. Il datasheet indica pulsanti convenzionali
+    Honeywell/Notifier, mentre la riga li descrive come colorati/multicolori.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/notifier-it/HBT-Fire-1026-Pulsanti-Convenzionali.pdf
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://ss-pics.s3.eu-west-1.amazonaws.com/files/2180504/page-34.png?1787035793
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Pulsanti Colorati", "categoria": "componenti", "descrizione":
+    "Nessuna foto disponibile; dalla riga inventario: pulsanti multicolori, quantità
+    10, posizione Component Barrel. Tipo componente: pulsanti/pushbutton. Package
+    non visibile. Scritte leggibili: nessuna, non essendoci foto. Datasheet Honeywell/Notifier
+    HBT-Fire-1026 per pulsanti convenzionali.", "interfaccia": "", "quantita": 10,
+    "posizione": "Component Barrel", "datasheet_url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/notifier-it/HBT-Fire-1026-Pulsanti-Convenzionali.pdf",
+    "note": "Riclassificato solo dai campi riga, senza foto. Categoria generica ''componenti''
+    perché non è disponibile una categoria specifica per pulsanti/switch. Codice descrittivo
+    mantenuto/ipotizzato come ''Pulsanti Colorati''. Il datasheet indica pulsanti
+    convenzionali Honeywell/Notifier, mentre la riga li descrive come colorati/multicolori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-power-button-223
   categoria: componenti
@@ -229,29 +338,39 @@
   quantita: 1
   descrizione: Power Button + Led
   interfaccia: ''
-  note: ''
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.scribd.com/document/729310888/n83-power-button-board-revb-1126
   datasheet_last_check: '2026-10-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "N83-POWER-BUTTON-BOARD-REVB", "categoria": "circuits",
+    "descrizione": "Scheda pulsante di accensione con LED integrato, modulo PCB, scritta
+    ''Power Button + Led'' visibile; datasheet N83 Power Button Board RevB 1126.",
+    "interfaccia": "", "quantita": 1, "posizione": "Component Barrel", "datasheet_url":
+    "https://www.scribd.com/document/729310888/n83-power-button-board-revb-1126",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: componenti-mosfet-irf530-224
   categoria: componenti
   codice: MOSFET IRF530
   quantita: 1
   descrizione: Module MOSFET
-  interfaccia: ''
-  note: ''
+  interfaccia: '3 pin: Gate, Drain, Source'
+  note: 'Riclassificato: transistor MOSFET discreto, non circuito integrato. Package
+    TO-220AB da datasheet Vishay.'
   datasheet_url: https://www.vishay.com/docs/91019/irf530.pdf
   datasheet_last_check: '2026-10-07'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv347x1m4zrmh5p1x66jb.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "IRF530", "categoria": "componenti", "descrizione": "MOSFET
+    di potenza canale N, 100V 14A, package TO-220AB, componente discreto. Quantità
+    visibile: 1.", "interfaccia": "", "quantita": 1, "posizione": "B BOX", "datasheet_url":
+    "https://www.vishay.com/docs/91019/irf530.pdf", "note": "Riclassificato: transistor
+    MOSFET discreto, non circuito integrato. Package TO-220AB da datasheet Vishay."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: na-na-06
   categoria: componenti
@@ -261,27 +380,23 @@
     Alarm Buzzer DC 12V 85dB Mini Electronic Alarm Buzzers Constant Tone#Color:5PCS
     Buzzer 85DB. Si intravedono fili rossi/neri all''interno; package dei buzzer non
     completamente visibile. Made in China.'
-  interfaccia: 2 fili
-  note: 'Buzzer/mini campanelli elettronici DC 12V, 85dB, tono costante, confezione
-    da 5 pezzi. Produttore: Shenzhen Beishun Ming core Electronics Co., LTD. Barcode:
-    772509759985. Codice etichetta: cn1077051220ojiae. Made in China. REP: Yaling
-    He, E-CrossStu GmbH, Mainzer Landstrasse 69, Frankfurt am Main, Germany.'
+  interfaccia: RS-485 Modbus
+  note: Riga originale riportava codice e descrizione 'MetalDetector', ma il datasheet
+    indica Accuenergy Acuvim-3 power quality meter. Riclassificato come sensore/misuratore
+    di qualità energia.
   datasheet_url: https://www.farnell.com/datasheets/2171929.pdf
   datasheet_last_check: '2026-10-10'
   posizione: IC Box
   foto_drive_id: 1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG
   foto_url: https://drive.google.com/open?id=1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG, https://drive.google.com/open?id=1WnwKk78iNLAgyzX12t6iewfN79_jx132
-  ai_proposta: '{"codice": "EGBO-5PCS-BUZZER-85DB-12V", "categoria": "componenti",
-    "descrizione": "Busta trasparente con etichetta F2-02. Articolo indicato: 5PCS
-    EGBO Alarm Buzzer DC 12V 85dB Mini Electronic Alarm Buzzers Constant Tone#Color:5PCS
-    Buzzer 85DB. Si intravedono fili rossi/neri all''interno; package dei buzzer non
-    completamente visibile. Made in China.", "interfaccia": "2 fili", "quantita":
-    5, "posizione": "F2-02", "datasheet_url": "", "note": "Buzzer/mini campanelli
-    elettronici DC 12V, 85dB, tono costante, confezione da 5 pezzi. Produttore: Shenzhen
-    Beishun Ming core Electronics Co., LTD. Barcode: 772509759985. Codice etichetta:
-    cn1077051220ojiae. Made in China. REP: Yaling He, E-CrossStu GmbH, Mainzer Landstrasse
-    69, Frankfurt am Main, Germany."}'
-  ai_stato: confermato
+  ai_proposta: '{"codice": "ACUVIM-3", "categoria": "sensori", "descrizione": "Dispositivo
+    di misura qualità energia elettrica (power quality meter) Accuenergy Acuvim-3,
+    come da datasheet. Quantità 1. Nessuna foto disponibile.", "interfaccia": "RS-485
+    Modbus", "quantita": 1, "posizione": "A Box", "datasheet_url": "https://www.accuenergy.com/wp-content/uploads/Acuvim-3-Advanced-Power-Quality-Meter-Datasheet.pdf",
+    "note": "Riga originale riportava codice e descrizione ''MetalDetector'', ma il
+    datasheet indica Accuenergy Acuvim-3 power quality meter. Riclassificato come
+    sensore/misuratore di qualità energia."}'
+  ai_stato: da_verificare
   updated_at: 30/09/2026 19.16.20
 - id: na-na-2
   categoria: componenti
@@ -309,78 +424,3 @@
     produttore cinese."}'
   ai_stato: confermato
   updated_at: 03/10/2026 18.42.11
-- id: componenti-tlp627
-  categoria: componenti
-  codice: TLP627
-  quantita: 10
-  descrizione: optoisolatore
-  interfaccia: ''
-  note: ''
-  datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: retry
-  updated_at: 11/10/2026 16.57.33
-- id: componenti-4n35
-  categoria: componenti
-  codice: 4N35
-  quantita: 7
-  descrizione: ''
-  interfaccia: ''
-  note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: retry
-  updated_at: 11/10/2026 16.58.19
-- id: componenti-moc3051
-  categoria: componenti
-  codice: MOC3051
-  quantita: 9
-  descrizione: ''
-  interfaccia: ''
-  note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: retry
-  updated_at: 11/10/2026 16.58.48
-- id: na-hpcl3700
-  categoria: componenti
-  codice: HPCL3700
-  quantita: 10
-  descrizione: ''
-  interfaccia: ''
-  note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: retry
-  updated_at: 11/10/2026 16.59.14
-- id: componenti-pc8170
-  categoria: componenti
-  codice: PC8170
-  quantita: 30
-  descrizione: ''
-  interfaccia: ''
-  note: ''
-  datasheet_url: ''
-  datasheet_last_check: ''
-  posizione: Last Drawer
-  foto_drive_id: ''
-  foto_url: ''
-  ai_proposta: ''
-  ai_stato: retry
-  updated_at: 11/10/2026 16.59.46

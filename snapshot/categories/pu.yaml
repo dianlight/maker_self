@@ -3,15 +3,19 @@
   codice: 2578AY-SZB
   quantita: 1
   descrizione: Step Down DC-DC 20A
-  interfaccia: ''
-  note: ''
+  interfaccia: morsetti a vite
+  note: Riclassificato da campi inventario; nessuna foto. Categoria 'pu' mantenuta
+    per modulo di alimentazione. Codice e descrizione basati sui campi forniti.
   datasheet_url: https://roboeq.ir/uploads/files/163826248821.pdf
   datasheet_last_check: '2026-10-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: http://quartzcomponents.com/cdn/shop/files/300W-20A-Step-Down-DC-DC-Buck-Converter-with-Constant-Voltage-and-Current-Control.jpg?v=1698320628
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "2578AY-SZB", "categoria": "pu", "descrizione": "Modulo
+    step-down DC-DC 20A (convertitore buck), 1 pezzo, package modulo, scritta ''20A''
+    visibile.", "interfaccia": "", "quantita": 1, "posizione": "B Box", "datasheet_url":
+    "https://roboeq.ir/uploads/files/163826248821.pdf", "note": ""}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-anelli-di-ferrite-184
   categoria: pu
@@ -19,14 +23,20 @@
   quantita: 5
   descrizione: Da cavo
   interfaccia: ''
-  note: ''
+  note: Il datasheet Vishay ILBB0603 si riferisce a ferrite bead SMD 0603, mentre
+    la descrizione indica anelli da cavo; verificare corrispondenza.
   datasheet_url: https://www.vishay.com/docs/34024/ilbb0603.pdf
   datasheet_last_check: '2026-10-06'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://resources.altium.com/sites/default/files/blogs/Everything%20You%20Need%20to%20Know%20About%20Ferrite%20Beads-67884.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
+    "Anelli in ferrite per cavi, quantità 5; package non specificato; nessuna scritta
+    leggibile disponibile. Componente passivo per soppressione disturbi su cavo.",
+    "interfaccia": "", "quantita": 5, "posizione": "A Box", "datasheet_url": "https://www.vishay.com/docs/34024/ilbb0603.pdf",
+    "note": "Il datasheet Vishay ILBB0603 si riferisce a ferrite bead SMD 0603, mentre
+    la descrizione indica anelli da cavo; verificare corrispondenza."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-anelli-di-ferrite-185
   categoria: pu
@@ -34,14 +44,21 @@
   quantita: 3
   descrizione: Da IC
   interfaccia: ''
-  note: ''
+  note: 'Riclassificato da categoria ''pu'' a ''componenti'': si tratta di componenti
+    passivi per filtraggio/soppressione EMI, non di una unità di potenza.'
   datasheet_url: https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://resources.altium.com/sites/default/files/blogs/Everything%20You%20Need%20to%20Know%20About%20Ferrite%20Beads-67884.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
+    "Anelli di ferrite (ferrite beads/rings) per soppressione EMI; quantità 3; package
+    non specificato; nessuna marcatura leggibile. Dati ricavati dalla riga inventario,
+    senza foto.", "interfaccia": "", "quantita": 3, "posizione": "PU Barrel", "datasheet_url":
+    "https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf",
+    "note": "Riclassificato da categoria ''pu'' a ''componenti'': si tratta di componenti
+    passivi per filtraggio/soppressione EMI, non di una unità di potenza."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-b0505s-2w-186
   categoria: pu
@@ -49,14 +66,17 @@
   quantita: 4
   descrizione: Convertitore 5v-5v 2W
   interfaccia: 4PIN
-  note: ''
+  note: Riclassificato come modulo di alimentazione DC-DC; categoria 'pu' mantenuta.
   datasheet_url: https://www.delus-power.com/products/dc-dc-fixed/B0505S-2W.html
   datasheet_last_check: '2026-10-06'
   posizione: Relay Box
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20230109_JETEKPS-B0505S-2W_C387593_front.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "B0505S-2W", "categoria": "pu", "descrizione": "Modulo
+    convertitore DC-DC isolato 5V-5V 2W, package SIP-4, 4 pin, quantità 4", "interfaccia":
+    "4PIN", "quantita": 4, "posizione": "Relay Box", "datasheet_url": "https://www.delus-power.com/products/dc-dc-fixed/B0505S-2W.html",
+    "note": "Riclassificato come modulo di alimentazione DC-DC; categoria ''pu'' mantenuta."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-db207-187
   categoria: pu
@@ -70,23 +90,33 @@
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/S36c8435b888e4117b3bca1a155f7b9a3n.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "DB207", "categoria": "componenti", "descrizione": "Raddrizzatore
+    a ponte DB207, 2A, package DB-1, quantità 10", "interfaccia": "", "quantita":
+    10, "posizione": "PU Barrel", "datasheet_url": "https://ja-bots.com/wp-content/uploads/2025/04/DB207-datasheet.pdf",
+    "note": "2A"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-fs030116-01-188
   categoria: pu
   codice: FS030116-01
   quantita: 1
   descrizione: Alternatore
-  interfaccia: ''
-  note: ''
+  interfaccia: Elettrica AC / meccanica
+  note: Nessuna foto disponibile; riclassificato da 'pu' a 'motors-hardware' in quanto
+    alternatore/generatore, non power unit. Codice e posizione invariati.
   datasheet_url: https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf
   datasheet_last_check: '2026-10-06'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://i.ytimg.com/vi/bLAvVjBiqNI/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&amp;rs=AOn4CLD1j019e4ATSj-Gdd-j10K1qNXIfg&amp;usqp=CCk
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FS030116-01", "categoria": "motors-hardware", "descrizione":
+    "Alternatore per gruppo elettrogeno KD2500-F; tipo componente: alternatore/generatore
+    AC; quantità 1; package non visibile (nessuna foto); scritte leggibili: KD2500-F",
+    "interfaccia": "Elettrica AC / meccanica", "quantita": 1, "posizione": "Component
+    Barrel", "datasheet_url": "https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf",
+    "note": "Nessuna foto disponibile; riclassificato da ''pu'' a ''motors-hardware''
+    in quanto alternatore/generatore, non power unit. Codice e posizione invariati."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-kbl610-189
   categoria: pu
@@ -100,8 +130,11 @@
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://datasheet4u.com/pdfhtml/0167/1212605/page-000001.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "KBL610", "categoria": "componenti", "descrizione": "Raddrizzatore
+    a ponte KBL610, package KBL, 4 pin, 6A, quantità 10", "interfaccia": "4PIN", "quantita":
+    10, "posizione": "PU Barrel", "datasheet_url": "https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf",
+    "note": "6A, 1000V"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-kbp210-190
   categoria: pu
@@ -115,8 +148,11 @@
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://kitsguru.com/cdn/shop/files/KBP210BridgeRectifierKBP-41000V2ADIPPackage-1.jpg?v=1754289519
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "KBP210", "categoria": "componenti", "descrizione": "Raddrizzatore
+    a ponte (bridge rectifier) KBP210, package KBP, 4 pin, 2A, 5 pezzi", "interfaccia":
+    "4PIN", "quantita": 5, "posizione": "PU Barrel", "datasheet_url": "https://www.eicsemi.com/DataSheet/KBP200_10.pdf",
+    "note": "2A"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-kbp310-191
   categoria: pu
@@ -130,23 +166,32 @@
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20190628_MDD-Microdiode-Semiconductor-KBP310_C2496_front.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "KBP310", "categoria": "componenti", "descrizione": "Raddrizzatore
+    a ponte KBP310, package KBP, 4 pin, 3A 1000V, quantità 10", "interfaccia": "4PIN",
+    "quantita": 10, "posizione": "PU Barrel", "datasheet_url": "https://www.rectron.com/public/product_datasheets/kbp304-kbp310.pdf",
+    "note": "3A; 1000V; package KBP"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-fdc-2s-2-192
   categoria: pu
   codice: FDC-2S-2
   quantita: 1
   descrizione: 18650 dual battery management
-  interfaccia: ''
-  note: ''
+  interfaccia: saldatura (P+/P-/B+/B-/BM)
+  note: Riclassificato da riga inventario. Codice originale FDC-2S-2; il datasheet
+    indica HX-2S-3A. Categoria PU/power management.
   datasheet_url: https://qqtrading.com.my/HX-2S-3A
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://qqtrading.com.my/image/cache/catalog/Products/BMS 18650/HX-2S-3A/2s3a-380x380.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HX-2S-3A", "categoria": "pu", "descrizione": "Modulo BMS/protezione
+    batteria 2S 3A per due celle 18650 in serie; scheda circuito PCB, gestione doppia
+    batteria. Nessuna foto disponibile; scritte leggibili non presenti.", "interfaccia":
+    "saldatura (P+/P-/B+/B-/BM)", "quantita": 1, "posizione": "PU Barrel", "datasheet_url":
+    "https://qqtrading.com.my/HX-2S-3A", "note": "Riclassificato da riga inventario.
+    Codice originale FDC-2S-2; il datasheet indica HX-2S-3A. Categoria PU/power management."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-stunt-193
   categoria: pu
@@ -154,14 +199,20 @@
   quantita: 1
   descrizione: 30A
   interfaccia: ''
-  note: ''
+  note: Categoria originale 'pu' corretta in resistors; codice 'Stunt' corretto in
+    SCD30A (shunt 30A).
   datasheet_url: https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf
   datasheet_last_check: '2026-10-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SCD30A", "categoria": "resistors", "descrizione": "Shunt
+    di corrente Siglent SCD30A, 30A, accessorio per multimetro SDM3065X. Package:
+    modulo shunt con morsetti. Scritte leggibili: 30A, SCD30A.", "interfaccia": "",
+    "quantita": 1, "posizione": "B Box", "datasheet_url": "https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf",
+    "note": "Categoria originale ''pu'' corretta in resistors; codice ''Stunt'' corretto
+    in SCD30A (shunt 30A)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-uu10-5-194
   categoria: pu
@@ -169,14 +220,22 @@
   quantita: 5
   descrizione: Induttore 10mh
   interfaccia: ''
-  note: ''
+  note: 'Riclassificato da ''pu'' a ''componenti'': si tratta di un induttore/common
+    mode choke passivo, non di una unità di potenza. Codice mantenuto come UU10.5;
+    verificare eventuale part number completo UU10.5LF.'
   datasheet_url: https://www.coilmaster.com.tw/Templates/att/Common%20Mode%20Choke%20%2CAC%20Line%20Filters%20-%20UU10.5LF%20SERIES.pdf?lng=en
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20191015_FH--Guangdong-Fenghua-Advanced-Tech-UU10-5-10mH_C191661_front.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "UU10.5", "categoria": "componenti", "descrizione": "Induttore
+    / common mode choke, valore 10mH, serie UU10.5LF, quantità 5, package/serie UU10.5;
+    nessuna foto disponibile", "interfaccia": "", "quantita": 5, "posizione": "PU
+    Barrel", "datasheet_url": "https://www.coilmaster.com.tw/Templates/att/Common%20Mode%20Choke%20%2CAC%20Line%20Filters%20-%20UU10.5LF%20SERIES.pdf?lng=en",
+    "note": "Riclassificato da ''pu'' a ''componenti'': si tratta di un induttore/common
+    mode choke passivo, non di una unità di potenza. Codice mantenuto come UU10.5;
+    verificare eventuale part number completo UU10.5LF."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-uu16-195
   categoria: pu
@@ -184,14 +243,17 @@
   quantita: 3
   descrizione: Induttore 3A 10mh
   interfaccia: ''
-  note: ''
+  note: Riclassificato da pu a componenti. Induttore passivo. Nessuna foto disponibile.
   datasheet_url: https://www.zxcompo.com/wp-content/uploads/2019/04/UU-series.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/H2d8a709445234b398ae07001ac1e3fd6w.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "UU16", "categoria": "componenti", "descrizione": "Induttore
+    3A 10mH, package UU, quantità 3", "interfaccia": "", "quantita": 3, "posizione":
+    "PU Barrel", "datasheet_url": "https://www.zxcompo.com/wp-content/uploads/2019/04/UU-series.pdf",
+    "note": "Riclassificato da pu a componenti. Induttore passivo. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-uu9-8-196
   categoria: pu
@@ -199,14 +261,18 @@
   quantita: 5
   descrizione: Induttore 10mh
   interfaccia: ''
-  note: ''
+  note: Componente passivo, induttore di modo comune. Riclassificato da pu a componenti.
   datasheet_url: https://alphatrans.co.jp/wp-content/pdf/coil/ac_line/UU9.8V.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20240806_FH--Guangdong-Fenghua-Advanced-Tech-UU9-8-10mH_C148474_front.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "UU9.8V", "categoria": "componenti", "descrizione": "Induttore
+    10mH (common mode choke) UU9.8V, package UU9.8, 5 pezzi", "interfaccia": "", "quantita":
+    5, "posizione": "PU Barrel", "datasheet_url": "https://alphatrans.co.jp/wp-content/pdf/coil/ac_line/UU9.8V.pdf",
+    "note": "Componente passivo, induttore di modo comune. Riclassificato da pu a
+    componenti."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-lipo-3s-20a-197
   categoria: pu
@@ -214,74 +280,115 @@
   quantita: 2
   descrizione: Lipo
   interfaccia: ''
-  note: ''
+  note: 'Riclassificato da ''pu'': il datasheet bms-20a-3s-s_sgt.pdf indica un modulo
+    BMS 3S 20A, non una batteria LiPo.'
   datasheet_url: https://www.mantech.co.za/Datasheets/Products/bms-20a-3s-s_sgt.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://maxamps.com/cdn/shop/collections/LiPo_3S_11.1v_Battery_750x.png?v=1755272718
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BMS 3S 20A", "categoria": "circuits", "descrizione": "Modulo
+    BMS/protezione per batteria LiPo 3S 20A, package scheda SGT; quantità dichiarata
+    2; nessuna foto disponibile, scritte leggibili non note.", "interfaccia": "",
+    "quantita": 2, "posizione": "PU Barrel", "datasheet_url": "https://www.mantech.co.za/Datasheets/Products/bms-20a-3s-s_sgt.pdf",
+    "note": "Riclassificato da ''pu'': il datasheet bms-20a-3s-s_sgt.pdf indica un
+    modulo BMS 3S 20A, non una batteria LiPo."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-alimentatore-198
   categoria: pu
   codice: Alimentatore
   quantita: 1
   descrizione: 220c -> 5v (2A)
-  interfaccia: ''
-  note: ''
+  interfaccia: Ingresso AC 220V, uscita DC 5V barrel
+  note: Descrizione originale '220c -> 5v (2A)' interpretata come 220V AC -> 5V DC
+    2A.
   datasheet_url: https://www.axagon.eu/en/products/ac-5v2a
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/original/4X/c/8/c/c8c84264991d7921f1990426c18a2386a995f45b.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AC-5V2A", "categoria": "pu", "descrizione": "Alimentatore
+    AC/DC Axagon AC-5V2A, ingresso 220V AC, uscita 5V DC 2A, connettore barrel.",
+    "interfaccia": "Ingresso AC 220V, uscita DC 5V barrel", "quantita": 1, "posizione":
+    "PU Barrel", "datasheet_url": "https://www.axagon.eu/en/products/ac-5v2a", "note":
+    "Descrizione originale ''220c -> 5v (2A)'' interpretata come 220V AC -> 5V DC
+    2A."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-solar-charger-199
   categoria: pu
   codice: Solar Charger
   quantita: 2
   descrizione: Solar Charger + Pannello solare
-  interfaccia: ''
-  note: ''
+  interfaccia: DC/USB (presunta)
+  note: Categoria 'pu' interpretata come power unit; codice ipotizzato da 'Solar Charger';
+    datasheet è un link PDF Amazon non verificato; quantità 2 si riferisce a 2 pezzi
+    del componente/kit; nessuna foto disponibile per verifica.
   datasheet_url: https://m.media-amazon.com/images/I/919dJp-mC1L.pdf
   datasheet_last_check: '2026-10-06'
   posizione: A Box
   foto_drive_id: ''
   foto_url: http://flexsolarenergies.com/cdn/shop/files/flexsolar20210521-01_forWEB.png?v=1626203109
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SOLAR-CHARGER", "categoria": "pu", "descrizione": "Solar
+    Charger + Pannello solare; modulo di ricarica a energia solare con pannello, quantità
+    2; package non specificato; nessuna scritta leggibile disponibile (nessuna foto).",
+    "interfaccia": "", "quantita": 2, "posizione": "A Box", "datasheet_url": "https://m.media-amazon.com/images/I/919dJp-mC1L.pdf",
+    "note": "Categoria ''pu'' interpretata come power unit; codice ipotizzato da ''Solar
+    Charger''; datasheet è un link PDF Amazon non verificato; quantità 2 si riferisce
+    a 2 pezzi del componente/kit; nessuna foto disponibile per verifica."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-wifi-charger-200
   categoria: pu
   codice: WiFI Charger
   quantita: 2
-  descrizione: ''
+  descrizione: 'Nessuna foto disponibile. Dedotto dal datasheet: IC ricevitore di
+    potenza wireless Qi con caricabatteria integrato per celle Li-Ion/Li-Po singole,
+    package DSBGA-28 (YFF). Quantità da inventario: 2. Scritte leggibili: non disponibili.'
   interfaccia: 1 solo con controller
-  note: ''
+  note: 'Riclassificato dalla riga inventario: ''WiFI Charger'' è probabilmente un
+    refuso per Wireless Charger; ''pu'' corretto in ic-components. Il datasheet TI
+    indica bq51051B come ricevitore/caricabatteria wireless. Interfaccia originale
+    ''1 solo con controller'' ambigua.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/bq51051b.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://www.cnet.com/wp-content/uploads/sites/2/9da2e9c7-d07d-45cb-89d1-18c7013249e5.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BQ51051B", "categoria": "ic-components", "descrizione":
+    "Nessuna foto disponibile. Dedotto dal datasheet: IC ricevitore di potenza wireless
+    Qi con caricabatteria integrato per celle Li-Ion/Li-Po singole, package DSBGA-28
+    (YFF). Quantità da inventario: 2. Scritte leggibili: non disponibili.", "interfaccia":
+    "Qi wireless (induttiva)", "quantita": 2, "posizione": "PU Barrel", "datasheet_url":
+    "https://www.ti.com/lit/ds/symlink/bq51051b.pdf", "note": "Riclassificato dalla
+    riga inventario: ''WiFI Charger'' è probabilmente un refuso per Wireless Charger;
+    ''pu'' corretto in ic-components. Il datasheet TI indica bq51051B come ricevitore/caricabatteria
+    wireless. Interfaccia originale ''1 solo con controller'' ambigua."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-motor-dimmer-201
   categoria: pu
   codice: Motor Dimmer
   quantita: 1
   descrizione: 4.5 - 35V dimmer
-  interfaccia: ''
-  note: ''
+  interfaccia: PWM / analogico (potenziometro)
+  note: 'Categoria riclassificata da ''pu'' a ''motors-hardware'' in base a descrizione
+    e datasheet: modulo controller PWM per motore DC/dimmer LED.'
   datasheet_url: http://5.imimg.com/data5/SELLER/Doc/2024/5/418696056/KO/NJ/DL/148135461/pwm-dc-motor-controller-5v-to-35v-5a-led-dimmer-module.pdf
   datasheet_last_check: '2026-10-06'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://electronicspices.com/uploads/products/18/large5V-30V-DC-PWM-Speed-Controller-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PWM DC Motor Controller 5V-35V 5A", "categoria": "motors-hardware",
+    "descrizione": "Modulo controller PWM per motore DC e dimmer LED, tensione 4.5-35V,
+    corrente 5A. Package: modulo PCB. Quantità visibile: 1 (da inventario). Scritte
+    leggibili (da datasheet): PWM DC Motor Controller 5V to 35V 5A LED Dimmer Module.
+    Nessuna foto disponibile.", "interfaccia": "", "quantita": 1, "posizione": "PU
+    Barrel", "datasheet_url": "http://5.imimg.com/data5/SELLER/Doc/2024/5/418696056/KO/NJ/DL/148135461/pwm-dc-motor-controller-5v-to-35v-5a-led-dimmer-module.pdf",
+    "note": "Categoria riclassificata da ''pu'' a ''motors-hardware'' in base a descrizione
+    e datasheet: modulo controller PWM per motore DC/dimmer LED."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-dc-dc-filter-50v-4a-202
   categoria: pu
@@ -289,14 +396,20 @@
   quantita: 5
   descrizione: DC-DC Filter 50v 4A
   interfaccia: ''
-  note: ''
+  note: Categoria 'pu' (power unit) mantenuta per modulo di alimentazione/filtro DC-DC.
+    Interfaccia non desumibile dalla riga.
   datasheet_url: https://www.robotics.org.za/DC-FILTER-50V-4A
   datasheet_last_check: '2026-10-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://pmdway.com/cdn/shop/files/50V-DC-4A-power-filter-pmdway_1_1200x1200_crop_center.avif?v=1788911851
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "DC-DC Filter 50V 4A", "categoria": "pu", "descrizione":
+    "Modulo filtro DC-DC 50V 4A. Quantità: 5. Package non specificato. Scritte leggibili:
+    DC-DC Filter 50v 4A.", "interfaccia": "", "quantita": 5, "posizione": "A Box",
+    "datasheet_url": "https://www.robotics.org.za/DC-FILTER-50V-4A", "note": "Categoria
+    ''pu'' (power unit) mantenuta per modulo di alimentazione/filtro DC-DC. Interfaccia
+    non desumibile dalla riga."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-lm2596-203
   categoria: pu
@@ -310,21 +423,49 @@
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: http://store.rokland.com/cdn/shop/files/1_de09216e-3e74-427a-965c-64a22d071d64.png?v=1746109710
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LM2596", "categoria": "pu", "descrizione": "Modulo DC-DC
+    step-down regolabile basato su LM2596, 2A", "interfaccia": "", "quantita": 1,
+    "posizione": "PU Barrel", "datasheet_url": "https://www.ti.com/lit/ds/symlink/lm2596.pdf?ts=1690434988173&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fes-mx%252FLM2596",
+    "note": "2A"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: pu-xl4016-204
   categoria: pu
   codice: XL4016
   quantita: 1
   descrizione: DC-DC  4-36V->1.25-36V  8A
-  interfaccia: ''
-  note: ''
+  interfaccia: morsetti a vite (VIN, VOUT, GND)
+  note: Modulo step-down, non IC singolo
   datasheet_url: https://www.makerfabs.com/desfile/files/XL4016-Datasheet.pdf?srsltid=AU7gw4Vgb2Rr-ar6Qc8OvmdN-Bgf5iAFWO3Zgi8mFo7cPa1EPYqzq9yi
   datasheet_last_check: '2026-10-07'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61SjL3pyB3L.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "XL4016", "categoria": "pu", "descrizione": "Modulo DC-DC
+    step-down 4-36V -> 1.25-36V 8A basato su XL4016", "interfaccia": "", "quantita":
+    1, "posizione": "PU Barrel", "datasheet_url": "https://www.makerfabs.com/desfile/files/XL4016-Datasheet.pdf?srsltid=AU7gw4Vgb2Rr-ar6Qc8OvmdN-Bgf5iAFWO3Zgi8mFo7cPa1EPYqzq9yi",
+    "note": "Modulo step-down, non IC singolo"}'
+  ai_stato: da_verificare
   updated_at: ''
+- id: na-mini360
+  categoria: pu
+  codice: MINI360
+  quantita: 5
+  descrizione: Modulo DC-DC step-down Mini360 basato su MP2307, ingresso 4.75-23V,
+    uscita regolabile 1-17V, corrente max 3A, package modulo mini con trimmer. Quantità
+    5.
+  interfaccia: 4 pin (IN+, IN-, OUT+, OUT-)
+  note: Modulo regolatore di tensione step-down, regolazione tramite trimmer.
+  datasheet_url: https://www.monolithicpower.com/en/mp2307.html
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "MINI360", "categoria": "pu", "descrizione": "Modulo DC-DC
+    step-down Mini360 basato su MP2307, ingresso 4.75-23V, uscita regolabile 1-17V,
+    corrente max 3A, package modulo mini con trimmer. Quantità 5.", "interfaccia":
+    "4 pin (IN+, IN-, OUT+, OUT-)", "quantita": 5, "posizione": "Last Drawer", "datasheet_url":
+    "https://www.monolithicpower.com/en/mp2307.html", "note": "Modulo regolatore di
+    tensione step-down, regolazione tramite trimmer."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.14.28

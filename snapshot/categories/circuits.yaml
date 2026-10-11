@@ -3,60 +3,89 @@
   codice: FY-0524(1)
   quantita: 2
   descrizione: Night IR Lamp for camera
-  interfaccia: ''
-  note: ''
+  interfaccia: non specificata
+  note: Riclassificato da circuits a led; accessorio per telecamera. Nessuna foto
+    disponibile.
   datasheet_url: https://adiglobal.cz/iiWWW/docs.nsf/all/C18EE97F69C86F25C12579DF002F3C29/$FILE/kl_ir_geko_prislusenstvi_en.pdf
   datasheet_last_check: '2026-10-09'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FY-0524(1)", "categoria": "led", "descrizione": "Illuminatore/lampada
+    IR per telecamera, probabilmente modulo a LED infrarossi; quantità 2; package
+    non specificato; nessuna scritta leggibile disponibile.", "interfaccia": "", "quantita":
+    2, "posizione": "B Box", "datasheet_url": "https://adiglobal.cz/iiWWW/docs.nsf/all/C18EE97F69C86F25C12579DF002F3C29/$FILE/kl_ir_geko_prislusenstvi_en.pdf",
+    "note": "Riclassificato da circuits a led; accessorio per telecamera. Nessuna
+    foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: circuits-ir-transmitter-274
   categoria: circuits
   codice: IR Transmitter
   quantita: 3
   descrizione: Dual Power IR Trasmitter
-  interfaccia: ''
-  note: ''
+  interfaccia: IR wireless
+  note: Categoria corretta da circuits a comunication. Codice più specifico IR-T2
+    dedotto dal datasheet Williams AV.
   datasheet_url: https://williamsav.com/wp-content/uploads/2020/05/Spec-Sheet-IR-T2-2021.pdf
   datasheet_last_check: '2026-10-09'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "IR-T2", "categoria": "comunication", "descrizione": "Trasmettitore
+    IR dual power, modello dedotto IR T2; 3 unità in scatola B Box; nessuna foto disponibile.
+    Scritte desunte: Dual Power IR Transmitter. Dispositivo per trasmissione audio
+    a infrarossi.", "interfaccia": "IR wireless", "quantita": 3, "posizione": "B Box",
+    "datasheet_url": "https://williamsav.com/wp-content/uploads/2020/05/Spec-Sheet-IR-T2-2021.pdf",
+    "note": "Categoria corretta da circuits a comunication. Codice più specifico IR-T2
+    dedotto dal datasheet Williams AV."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: circuits-relay-10a-275
   categoria: circuits
   codice: Relay 10A
   quantita: 1
   descrizione: Relay 10A 5v
-  interfaccia: ''
-  note: ''
+  interfaccia: 5V DC coil, contatti 10A
+  note: 'Riclassificato da circuits a componenti: si tratta di un relè, non di un
+    circuito. Verificare part number esatto, package e configurazione contatti dal
+    datasheet.'
   datasheet_url: https://www.farnell.com/datasheets/2182434.pdf
   datasheet_last_check: '2026-10-09'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Relay 10A 5V", "categoria": "componenti", "descrizione":
+    "Relè elettromeccanico 10A con bobina 5V; package e pin non specificati nei campi;
+    quantità 1.", "interfaccia": "5V DC coil, contatti 10A", "quantita": 1, "posizione":
+    "B Box", "datasheet_url": "https://www.farnell.com/datasheets/2182434.pdf", "note":
+    "Riclassificato da circuits a componenti: si tratta di un relè, non di un circuito.
+    Verificare part number esatto, package e configurazione contatti dal datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: circuits-metaldetector-276
   categoria: circuits
   codice: MetalDetector
   quantita: 1
   descrizione: MetalDetector
-  interfaccia: ''
-  note: ''
+  interfaccia: RS485/Modbus
+  note: 'Mismatch: codice/descrizione originali ''MetalDetector'' non coerenti con
+    datasheet Accuenergy Acuvim-3. Riclassificato come sensore/strumento di misura
+    di rete. Interfaccia presunta dal datasheet.'
   datasheet_url: https://www.accuenergy.com/wp-content/uploads/Acuvim-3-Advanced-Power-Quality-Meter-Datasheet.pdf
   datasheet_last_check: '2026-10-09'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Acuvim-3", "categoria": "sensori", "descrizione": "Nessuna
+    foto. Riga originale riporta ''MetalDetector'', ma il datasheet punta ad Accuenergy
+    Acuvim-3 Advanced Power Quality Meter. Quantità 1, package non visibile. Appare
+    un analizzatore/misuratore di qualità dell''energia.", "interfaccia": "RS485/Modbus",
+    "quantita": 1, "posizione": "A Box", "datasheet_url": "https://www.accuenergy.com/wp-content/uploads/Acuvim-3-Advanced-Power-Quality-Meter-Datasheet.pdf",
+    "note": "Mismatch: codice/descrizione originali ''MetalDetector'' non coerenti
+    con datasheet Accuenergy Acuvim-3. Riclassificato come sensore/strumento di misura
+    di rete. Interfaccia presunta dal datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: circuits-hcm-m02
   categoria: circuits
@@ -67,22 +96,20 @@
     10A 30VDC, 10A 28VDC, HCM-M02. Presenti morsettiere a vite blu, pulsante e componenti
     SMD.'
   interfaccia: morsettiere a vite e header di controllo
-  note: Modulo relè 5V monocanale; possibile optoisolatore/transistor di pilotaggio;
-    codice relè Songle SRD-05VDC-SL-C.
+  note: Riclassificato da circuits a led. Verificare tensione, connettore e tipo di
+    modulo; quantità 2.
   datasheet_url: https://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf
   datasheet_last_check: '2026-10-10'
   posizione: IC Barrel
   foto_drive_id: 1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
   foto_url: https://drive.google.com/open?id=1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
-  ai_proposta: '{"codice": "HCM-M02", "categoria": "circuits", "descrizione": "Modulo
-    relè su PCB blu, 1 pezzo visibile. Relè Songle SRD-05VDC-SL-C, package SIP, scritte
-    leggibili: SONGLE, SRD-05VDC-SL-C, 10A 250VAC, 10A 125VAC, 10A 30VDC, 10A 28VDC,
-    HCM-M02. Presenti morsettiere a vite blu, pulsante e componenti SMD.", "interfaccia":
-    "morsettiere a vite e header di controllo", "quantita": 1, "posizione": "contenitore
-    plastico", "datasheet_url": "https://www.songle.com/en/relay/SRD.pdf", "note":
-    "Modulo relè 5V monocanale; possibile optoisolatore/transistor di pilotaggio;
-    codice relè Songle SRD-05VDC-SL-C."}'
-  ai_stato: confermato
+  ai_proposta: '{"codice": "FY-0524(1)", "categoria": "led", "descrizione": "Illuminatore
+    IR notturno per telecamera (Night IR Lamp), quantità 2, package non specificato,
+    nessuna foto disponibile; datasheet Geko. Probabile modulo/scheda a LED IR.",
+    "interfaccia": "", "quantita": 2, "posizione": "B Box", "datasheet_url": "https://adiglobal.cz/iiWWW/docs.nsf/all/C18EE97F69C86F25C12579DF002F3C29/$FILE/kl_ir_geko_prislusenstvi_en.pdf",
+    "note": "Riclassificato da circuits a led. Verificare tensione, connettore e tipo
+    di modulo; quantità 2."}'
+  ai_stato: da_verificare
   updated_at: 30/09/2026 18.48.09
 - id: na-na-04
   categoria: circuits
@@ -91,23 +118,22 @@
   descrizione: 'Modulo rele bistabile/latching 1 canale su PCB verde, 1 pezzo visibile.
     Package: modulo PCB con fori e piazzole. Scritte leggibili: eletechsup, 1ch Bistable
     relay, I025A01, 3V, 5V, NC, COM, NO, T, GND, VCC.'
-  interfaccia: T/GND/VCC per controllo; NC/COM/NO per contatto rele; selezione 3V/5V
-  note: 'Modulo rele bistabile (latching) a 1 canale, probabile marca eletechsup.
-    Possibile selezione tensione 3V o 5V. Codice letto: I025A01.'
+  interfaccia: IR
+  note: Riclassificato da 'circuits' a 'comunication'. Codice generico 'IR Transmitter'
+    corretto in 'IR T2' in base al datasheet.
   datasheet_url: https://eletechsup.com/products/5v-24-1-4ch-flip-flop-relay-module-bistable-self-locking-trigger-time-switch-turn-on-off-plc-board
   datasheet_last_check: '2026-10-10'
   posizione: IC Barrel
   foto_drive_id: 10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
   foto_url: https://drive.google.com/open?id=10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
-  ai_proposta: '{"codice": "I025A01", "categoria": "circuits", "descrizione": "Modulo
-    rele bistabile/latching 1 canale su PCB verde, 1 pezzo visibile. Package: modulo
-    PCB con fori e piazzole. Scritte leggibili: eletechsup, 1ch Bistable relay, I025A01,
-    3V, 5V, NC, COM, NO, T, GND, VCC.", "interfaccia": "T/GND/VCC per controllo; NC/COM/NO
-    per contatto rele; selezione 3V/5V", "quantita": 1, "posizione": "contenitore
-    plastico trasparente", "datasheet_url": "", "note": "Modulo rele bistabile (latching)
-    a 1 canale, probabile marca eletechsup. Possibile selezione tensione 3V o 5V.
-    Codice letto: I025A01."}'
-  ai_stato: confermato
+  ai_proposta: '{"codice": "IR T2", "categoria": "comunication", "descrizione": "Nessuna
+    foto disponibile. Riga inventario: ''Dual Power IR Trasmitter'' (probabile refuso
+    per Transmitter). Trasmettitore IR a doppia alimentazione, 3 unità, package non
+    specificato; modello IR T2 desunto dal datasheet Williams AV.", "interfaccia":
+    "IR", "quantita": 3, "posizione": "B Box", "datasheet_url": "https://williamsav.com/wp-content/uploads/2020/05/Spec-Sheet-IR-T2-2021.pdf",
+    "note": "Riclassificato da ''circuits'' a ''comunication''. Codice generico ''IR
+    Transmitter'' corretto in ''IR T2'' in base al datasheet."}'
+  ai_stato: da_verificare
   updated_at: 30/09/2026 18.49.32
 - id: na-na-05
   categoria: circuits
@@ -117,22 +143,20 @@
     10A 250VAC / 15A 125VAC. Visibili 2 relè, 1 morsettiera a vite da 4 poli sul lato
     sinistro e 1 morsettiera a vite da 6 poli sul lato destro, optoisolatori SMD e
     jumper. Scritte leggibili sui relè: 12VDC, 10A 250VAC, 15A 125VAC, JQC-3FF-S-Z.'
-  interfaccia: morsettiere a vite / header GPIO
-  note: Modulo per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC;
-    bobina 12VDC.
+  interfaccia: 5V DC coil
+  note: Riclassificato da circuits a componenti. Codice generico 'Relay 10A' corretto
+    con part number presunto dal datasheet Farnell 2182434. Verificare part number
+    esatto.
   datasheet_url: https://denkovi.com/Documents/JQC-3FF-S-Z.pdf
   datasheet_last_check: '2026-10-10'
   posizione: IC Barrel
   foto_drive_id: 1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
   foto_url: https://drive.google.com/open?id=1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
-  ai_proposta: '{"codice": "JQC-3FF-S-Z", "categoria": "circuits", "descrizione":
-    "Modulo relè a 2 canali su PCB rosso con due relè blu JQC-3FF-S-Z 12VDC, 10A 250VAC
-    / 15A 125VAC. Visibili 2 relè, 1 morsettiera a vite da 4 poli sul lato sinistro
-    e 1 morsettiera a vite da 6 poli sul lato destro, optoisolatori SMD e jumper.
-    Scritte leggibili sui relè: 12VDC, 10A 250VAC, 15A 125VAC, JQC-3FF-S-Z.", "interfaccia":
-    "morsettiere a vite / header GPIO", "quantita": 1, "posizione": "", "datasheet_url":
-    "https://www.handsontec.com/dataspecs/relay/JQC-3FF-S-Z.pdf", "note": "Modulo
-    per commutazione carichi a 2 canali; ciascun relè ha contatti NO/COM/NC; bobina
-    12VDC."}'
-  ai_stato: confermato
+  ai_proposta: '{"codice": "G5LE-1A4 DC5", "categoria": "componenti", "descrizione":
+    "Relè elettromeccanico 5V 10A, 1 pezzo, package PCB, scritta 5V 10A (Omron G5LE-1A4
+    DC5, SPST-NO)", "interfaccia": "5V DC coil", "quantita": 1, "posizione": "B Box",
+    "datasheet_url": "https://www.farnell.com/datasheets/2182434.pdf", "note": "Riclassificato
+    da circuits a componenti. Codice generico ''Relay 10A'' corretto con part number
+    presunto dal datasheet Farnell 2182434. Verificare part number esatto."}'
+  ai_stato: da_verificare
   updated_at: 30/09/2026 18.50.33

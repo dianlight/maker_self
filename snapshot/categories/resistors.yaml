@@ -4,14 +4,22 @@
   quantita: 9
   descrizione: Variable Reistor
   interfaccia: 3PIN
-  note: ''
+  note: 'Riclassificato dalla riga inventario: ''Variable Reistor'' è probabilmente
+    un resistore variabile/trimmer 3 pin. Codice e valore B5K mantenuti come da inventario;
+    categoria assegnata a resistors.'
   datasheet_url: https://www.farnell.com/datasheets/2261187.pdf
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "B5K", "categoria": "resistors", "descrizione": "Resistore
+    variabile/potenziometro o trimmer, sigla B5K (probabile 5 kΩ, taper B lineare),
+    3 pin; quantità 9; package non specificato, nessuna foto disponibile", "interfaccia":
+    "3PIN", "quantita": 9, "posizione": "V Resistor Box", "datasheet_url": "https://www.farnell.com/datasheets/2261187.pdf",
+    "note": "Riclassificato dalla riga inventario: ''Variable Reistor'' è probabilmente
+    un resistore variabile/trimmer 3 pin. Codice e valore B5K mantenuti come da inventario;
+    categoria assegnata a resistors."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: resistors-table-1-1-b50k-244
   categoria: resistors
@@ -19,14 +27,21 @@
   quantita: 8
   descrizione: Variable Reistor
   interfaccia: 3PIN
-  note: ''
+  note: Riclassificato dalla riga inventario. 'Variable Reistor' corretto in resistore
+    variabile/potenziometro; categoria mantenuta resistors.
   datasheet_url: https://www.utmel.com/productdetail/alphataiwan-rv09af4020kb50k-24413960
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "B50K", "categoria": "resistors", "descrizione": "Resistore
+    variabile/potenziometro lineare B50K (50 kΩ), 3 terminali; quantità 8 da inventario;
+    package/part number da datasheet RV09AF4020KB50K; nessuna foto disponibile.",
+    "interfaccia": "3 pin", "quantita": 8, "posizione": "V Resistor Box", "datasheet_url":
+    "https://www.utmel.com/productdetail/alphataiwan-rv09af4020kb50k-24413960", "note":
+    "Riclassificato dalla riga inventario. ''Variable Reistor'' corretto in resistore
+    variabile/potenziometro; categoria mantenuta resistors."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: resistors-table-1-1-b100k-245
   categoria: resistors
@@ -34,14 +49,20 @@
   quantita: 5
   descrizione: Variable Reistor
   interfaccia: 3PIN
-  note: ''
+  note: Riclassificato dalla riga inventario; categoria confermata resistors. Nessuna
+    foto disponibile, dati basati sui campi forniti.
   datasheet_url: https://datasheet.b-cdn.net/posts/b100k-datasheet
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "B100K", "categoria": "resistors", "descrizione": "Resistore
+    variabile/potenziometro 100KΩ (marcatura B100K), package 3 pin, quantità visibile
+    da inventario: 5 pezzi.", "interfaccia": "3PIN", "quantita": 5, "posizione": "V
+    Resistor Box", "datasheet_url": "https://datasheet.b-cdn.net/posts/b100k-datasheet",
+    "note": "Riclassificato dalla riga inventario; categoria confermata resistors.
+    Nessuna foto disponibile, dati basati sui campi forniti."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: resistors-table-1-1-x9c103p-246
   categoria: resistors
@@ -55,8 +76,11 @@
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "X9C103P", "categoria": "ic-components", "descrizione":
+    "Digital Potentiometer IC, package DIP-8, quantità 5, scritta X9C103P", "interfaccia":
+    "DIP-8", "quantita": 5, "posizione": "V Resistor Box", "datasheet_url": "https://www.intersil.com/content/dam/Intersil/documents/x9c1/x9c102.pdf",
+    "note": "10kOhm (nota originale 50kOhm errata)"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: resistors-table-1-1-3295-247
   categoria: resistors
@@ -70,8 +94,11 @@
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "3295", "categoria": "resistors", "descrizione": "Resistore
+    variabile/trimmer 200K, 3 pin", "interfaccia": "3PIN", "quantita": 19, "posizione":
+    "V Resistor Box", "datasheet_url": "https://www.farnell.com/datasheets/2002041.pdf",
+    "note": "200K"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: resistors-table-1-1-photo-resistors-248
   categoria: resistors
@@ -79,12 +106,16 @@
   quantita: 20
   descrizione: Photo Resistor
   interfaccia: 2pin
-  note: ''
+  note: 'Riclassificato da resistors a sensori: è un sensore di luce/LDR.'
   datasheet_url: https://www.handsontec.com/dataspecs/sensor/GL55-LDR.pdf
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "GL55-LDR", "categoria": "sensori", "descrizione": "Fotoresistore
+    LDR (Light Dependent Resistor), quantità 20 pezzi, package 2 pin, sigla GL55-LDR
+    dal datasheet. Componente sensibile alla luce.", "interfaccia": "2pin", "quantita":
+    20, "posizione": "V Resistor Box", "datasheet_url": "https://www.handsontec.com/dataspecs/sensor/GL55-LDR.pdf",
+    "note": "Riclassificato da resistors a sensori: è un sensore di luce/LDR."}'
+  ai_stato: da_verificare
   updated_at: ''

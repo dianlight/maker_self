@@ -4,14 +4,21 @@
   quantita: 1
   descrizione: 5W Heater 220v
   interfaccia: Slim
-  note: ''
+  note: Riclassificato da motors-hardware a componenti. Sembra una resistenza di riscaldamento
+    5W 220V, non un componente motorio. Interfaccia 'Slim' non applicabile.
   datasheet_url: https://www.processtechnology.com/wp-content/uploads/2024/05/heaterinstallation-1.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://cdn.shoplightspeed.com/shops/648211/files/53154324/1652x2313x2/aqueon-heater-flat-submersible-5-w-up-to-2-g.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"categoria": "componenti", "codice": "5W Heater 220V", "descrizione":
+    "Componente riscaldante (heater) 5W 220V. Quantità 1. Package non specificato.
+    Scritta leggibile: 5W Heater 220v.", "interfaccia": "", "quantita": 1, "posizione":
+    "Last Drawer", "datasheet_url": "https://www.processtechnology.com/wp-content/uploads/2024/05/heaterinstallation-1.pdf",
+    "note": "Riclassificato da motors-hardware a componenti. Sembra una resistenza
+    di riscaldamento 5W 220V, non un componente motorio. Interfaccia ''Slim'' non
+    applicabile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-fan-3010-12-111
   categoria: motors-hardware
@@ -25,8 +32,11 @@
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://cdn11.bigcommerce.com/s-eblil3q2nd/images/stencil/500x659/products/510/16770/30x10_fan_Edit__02476__50349.1665255047.jpg?c=2
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "OD3010-12", "categoria": "motors-hardware", "descrizione":
+    "Ventola assiale 30x10mm 12VDC, 2 fili, package 30x10mm (serie OD3010)", "interfaccia":
+    "2 pin", "quantita": 2, "posizione": "Fan Box", "datasheet_url": "https://orionfans.com/productFiles/datasheet/OD3010.pdf",
+    "note": "Alimentazione +12V"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-fan-3010-12-p-112
   categoria: motors-hardware
@@ -40,8 +50,11 @@
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: http://us.elegoo.com/cdn/shop/files/1_b32f9b3a-8977-4059-8530-0e1e9468bff4.jpg?v=1787636004
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "OD3010-12HB02", "categoria": "motors-hardware", "descrizione":
+    "Ventola assiale DC Orion Fans OD3010-12HB02, 30x10mm, 12V, 3 pin, quantità 2",
+    "interfaccia": "3 pin", "quantita": 2, "posizione": "Fan Box", "datasheet_url":
+    "https://orionfans.com/productFiles/datasheet/OD3010.pdf", "note": "+12V"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-fan-3010-5-113
   categoria: motors-hardware
@@ -55,8 +68,11 @@
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://catalog.pelonistechnologies.com/ImgMedium/a3312-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FAN 3010 5", "categoria": "motors-hardware", "descrizione":
+    "Ventola assiale DC 30x10 mm, 5 V, 2 pin, 2 pezzi, Orion Fans OD3010", "interfaccia":
+    "2 pin", "quantita": 2, "posizione": "Fan Box", "datasheet_url": "https://orionfans.com/productFiles/datasheet/OD3010.pdf",
+    "note": "+5V"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-fan-5012-12-114
   categoria: motors-hardware
@@ -70,8 +86,12 @@
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://image.made-in-china.com/2f0j00bzkGOyRSrqoc/5012-Low-Noise-50mm-Cooling-Fan-5V-12V-Brushless-DC-Fan-50X50X12-24V-3wire-Speed-Detection.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FAN 5012 12", "categoria": "motors-hardware", "descrizione":
+    "Ventola (Radial Fan), 2 pezzi, 2 pin, alimentazione +12 V; sigla FAN 5012 12,
+    probabile formato 50x50x12 mm circa.", "interfaccia": "2 pin", "quantita": 2,
+    "posizione": "Fan Box", "datasheet_url": "https://www.mechatronics.com/pdf/mechatronics_catalog.pdf",
+    "note": "+12 V; ventola DC 12 V; 2 pin; catalogo Mechatronics."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-fan-5015-12b-115
   categoria: motors-hardware
@@ -85,8 +105,13 @@
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/04/5015-Blower-Fan-12V.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FAN-5015-12V", "categoria": "motors-hardware", "descrizione":
+    "Ventola blower 5015 da 12V, 2 pezzi, package 50x15 mm (5015), interfaccia 2 pin,
+    alimentazione +12V; tipo blower fan, scritte non leggibili dai campi disponibili.",
+    "interfaccia": "2 pin", "quantita": 2, "posizione": "Fan Box", "datasheet_url":
+    "https://protosupplies.com/product/5015-blower-fan-12v/", "note": "+12V; ventola
+    blower 5015, 2 fili"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-fan-9025-12-116
   categoria: motors-hardware
@@ -100,23 +125,36 @@
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://orionfans.com/wp-content/uploads/elementor/thumbs/OD9225-12HB-IP69K-left-copy-scaled-e1649428481822-pobc2hbbt8zntwrhr1qxdcrkjqbyy9rqbb0r9uuqv2.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FAN 9025 12", "categoria": "motors-hardware", "descrizione":
+    "Ventola assiale DC 92x92x25 mm, 12 V, 2 pin; probabilmente Orion Fans OD9225.
+    La dicitura ''Radial Fan'' è imprecisa: il datasheet OD9225 indica una ventola
+    assiale. Nessuna foto disponibile.", "interfaccia": "2 pin", "quantita": 1, "posizione":
+    "Fan Box", "datasheet_url": "https://orionfans.com/productFiles/datasheet/OD9225.pdf",
+    "note": "+12 V; 2 fili; modello OD9225; ventola di raffreddamento assiale 92x25
+    mm"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-jf-0530b-117
   categoria: motors-hardware
   codice: JF.0530B
   quantita: 1
   descrizione: Linear 10mm
-  interfaccia: ''
-  note: ''
+  interfaccia: 2 fili DC
+  note: 'Riclassificato da riga inventario: categoria motors-hardware confermata;
+    codice normalizzato da JF.0530B a JF-0530B; descrizione originale ''Linear 10mm''.'
   datasheet_url: https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "JF-0530B", "categoria": "motors-hardware", "descrizione":
+    "Attuatore lineare (linear actuator) JF-0530B con corsa 10 mm; quantità inventario
+    1; package non specificato; nessuna foto disponibile, descrizione ricavata dai
+    campi riga.", "interfaccia": "2 fili DC", "quantita": 1, "posizione": "Servo Box",
+    "datasheet_url": "https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf",
+    "note": "Riclassificato da riga inventario: categoria motors-hardware confermata;
+    codice normalizzato da JF.0530B a JF-0530B; descrizione originale ''Linear 10mm''."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-jyd8131-118
   categoria: motors-hardware
@@ -124,14 +162,21 @@
   quantita: 1
   descrizione: Fog creator
   interfaccia: 2.4Mhz 1.70Mhz 2Ohm
-  note: ''
+  note: 'Riclassificato da motors-hardware a componenti: non è un motore ma un componente/generatore
+    di nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità.'
   datasheet_url: https://smoke-factory.de/pdf/manual_fog_blaster.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.jmfx.net/sites/default/files/styles/product_home/public/viper_running_2.jpg?itok=yHecJAy3
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "JYD8131", "categoria": "componenti", "descrizione": "Modulo/generatore
+    di nebbia (fog creator) a ultrasuoni; 1 pezzo; package non specificato; scritte
+    leggibili: JYD8131; frequenze 2.4MHz e 1.70MHz, resistenza 2 Ohm.", "interfaccia":
+    "2.4MHz / 1.70MHz, 2 Ohm", "quantita": 1, "posizione": "Component Barrel", "datasheet_url":
+    "https://smoke-factory.de/pdf/manual_fog_blaster.pdf", "note": "Riclassificato
+    da motors-hardware a componenti: non è un motore ma un componente/generatore di
+    nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-mini-passo-passo-119
   categoria: motors-hardware
@@ -153,8 +198,18 @@
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: https://staminaproducts.com/cdn/shop/files/stepper-image_e0d63758-c2ee-47da-9893-4160289d12da.jpg?v=1767389296
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Mini Passo Passo 3V 4-Fili 2-Fasi 8mm", "categoria": "motors-hardware",
+    "descrizione": "Mini motore passo-passo (stepper) 2 fasi, 4 fili, 3 VDC; diametro
+    8 mm, altezza 9,2 mm, albero di uscita 0,8 mm, lunghezza albero 4 mm, pignone
+    12 denti 0,2 mod; utilizzo per fotocamera digitale o piccoli elettrodomestici.
+    Quantità da inventario: 10 pezzi. Package: mini stepper. Scritte leggibili non
+    specificate.", "interfaccia": "4 pin / 4 fili", "quantita": 10, "posizione": "Servo
+    Box", "datasheet_url": "https://www.scribd.com/document/353094200/Steper-Manual",
+    "note": "4 Wire 2 Fase Mini motore passo-passo per la Macchina Fotografica Digitale
+    o piccoli elettrodomestici. Diametro del motore: 8mm; Altezza: 9.2 millimetri;
+    Albero di Uscita: 0.8 millimetri; lunghezza albero di uscita: 4mm; 12 denti 0.2mod;
+    Tensione: 3VDC; Modalità di guida: 2 fase 4 fili."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-ministepper-120
   categoria: motors-hardware
@@ -176,8 +231,15 @@
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: https://staminaproducts.com/cdn/shop/files/stepper-image_e0d63758-c2ee-47da-9893-4160289d12da.jpg?v=1767389296
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Ministepper", "categoria": "motors-hardware", "descrizione":
+    "Mini motore passo-passo 2 fasi 4 fili, diametro 8mm, altezza 9.2mm, albero di
+    uscita 0.8mm, lunghezza albero 4mm, 12 denti 0.2mod, tensione 3VDC; quantità 10",
+    "interfaccia": "4 pin / 4 fili", "quantita": 10, "posizione": "Servo Box", "datasheet_url":
+    "https://images-eu.ssl-images-amazon.com/images/I/81v-YO2qbWS.pdf", "note": "4
+    Wire 2 Fase Mini motore passo-passo per Macchina Fotografica Digitale o piccoli
+    elettrodomestici. Modalità di guida: 2 fase 4 fili. Nessuna foto disponibile:
+    dati riclassificati dalla riga inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-motore-senza-fine-121
   categoria: motors-hardware
@@ -193,8 +255,12 @@
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/G/51/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546778527_.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "DC Motor 1.5V 10-150rpm", "categoria": "motors-hardware",
+    "descrizione": "Motore DC 1.5V, 2 pin, velocità 10-150rpm. Quantità 10. Package
+    non specificato. Nessuna scritta leggibile disponibile.", "interfaccia": "2 pin",
+    "quantita": 10, "posizione": "Servo Box", "datasheet_url": "https://www.scribd.com/doc/210101380/DC-Motors",
+    "note": "10-150rpm; ex codice: Motore Senza Fine; link prodotto: https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-sg90-122
   categoria: motors-hardware
@@ -202,44 +268,70 @@
   quantita: 5
   descrizione: Microservo 9g
   interfaccia: 3 pin
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
+    motors-hardware confermata.
   datasheet_url: https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: https://towerpro.com.tw/wp-content/uploads/2014/08/SG90-D2.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SG90", "categoria": "motors-hardware", "descrizione":
+    "Microservo 9g SG90, servo motore, package servo, 3 pin, quantità 5", "interfaccia":
+    "3 pin", "quantita": 5, "posizione": "Servo Box", "datasheet_url": "https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
+    motors-hardware confermata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-water-pump-123
   categoria: motors-hardware
   codice: Water Pump
   quantita: 1
-  descrizione: ''
-  interfaccia: ''
-  note: ''
+  descrizione: 'Nessuna foto disponibile. Riga inventario: pompa d''acqua / Water
+    Pump, quantità 1, posizione A Box, datasheet SC_Pump_Sheet.pdf. Tipo componente:
+    pompa/motore-hw. Package e scritte non visibili perché non c''è foto.'
+  interfaccia: AC/elettrica
+  note: Riclassificato dalla riga inventario. Categoria confermata motors-hardware;
+    codice ipotizzato SC_Pump dal datasheet SC_Pump_Sheet.pdf, tipo Water Pump. Interfaccia
+    e package non deducibili senza foto.
   datasheet_url: https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.usmotorworks.com/wp-content/uploads/2025/03/Derale-Logo-New.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SC_Pump", "categoria": "motors-hardware", "descrizione":
+    "Nessuna foto disponibile. Riga inventario: pompa d''acqua / Water Pump, quantità
+    1, posizione A Box, datasheet SC_Pump_Sheet.pdf. Tipo componente: pompa/motore-hw.
+    Package e scritte non visibili perché non c''è foto.", "interfaccia": "", "quantita":
+    1, "posizione": "A Box", "datasheet_url": "https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf",
+    "note": "Riclassificato dalla riga inventario. Categoria confermata motors-hardware;
+    codice ipotizzato SC_Pump dal datasheet SC_Pump_Sheet.pdf, tipo Water Pump. Interfaccia
+    e package non deducibili senza foto."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-perrier-124
   categoria: motors-hardware
   codice: Perrier
   quantita: 1
   descrizione: Perrier Cell + Fan x Liquidi
-  interfaccia: ''
-  note: ''
+  interfaccia: Non specificata; probabile alimentazione DC e connessione ventola/raccordi
+    liquido.
+  note: 'Riclassificazione basata solo sui campi della riga. Categoria originale motors-hardware
+    non pertinente: componente termoelettrico con ventola, non semplice hardware motore.
+    URL datasheet originale (Perrier) non valido come datasheet elettronico, rimosso.'
   datasheet_url: https://www.perrier.com/products/detail/perrier
   datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.perrier.com/sites/g/files/xknfdk331/files/Perrier.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Peltier Cell + Fan x Liquidi", "categoria": "componenti",
+    "descrizione": "Riga inventario: Perrier Cell + Fan x Liquidi. Interpretato come
+    cella di Peltier con ventola per liquidi. Quantità 1. Package non specificato.
+    Scritta originale ''Perrier'' probabile refuso per ''Peltier''.", "interfaccia":
+    "", "quantita": 1, "posizione": "A Box", "datasheet_url": "", "note": "Riclassificazione
+    basata solo sui campi della riga. Categoria originale motors-hardware non pertinente:
+    componente termoelettrico con ventola, non semplice hardware motore. URL datasheet
+    originale (Perrier) non valido come datasheet elettronico, rimosso."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: motors-hardware-speaker-125
   categoria: motors-hardware
@@ -247,12 +339,18 @@
   quantita: 2
   descrizione: Minispeaker
   interfaccia: 8Ohm 1W
-  note: ''
+  note: 'Riclassificato da motors-hardware a componenti: si tratta di un altoparlante/minispeaker,
+    non di hardware motore.'
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_101656_speaker_05w_8ohm-3532535.pdf
   datasheet_last_check: '2026-10-03'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://sharperimage.com/cdn/shop/collections/207072-z1.jpg?crop=center&height=1200&v=1780595910&width=1200
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Speaker", "categoria": "componenti", "descrizione": "Minispeaker/altoparlante
+    8 Ohm 1 W, quantita 2, package non specificato, nessuna scritta leggibile (nessuna
+    foto disponibile)", "interfaccia": "8Ohm 1W", "quantita": 2, "posizione": "A Box",
+    "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_101656_speaker_05w_8ohm-3532535.pdf",
+    "note": "Riclassificato da motors-hardware a componenti: si tratta di un altoparlante/minispeaker,
+    non di hardware motore."}'
+  ai_stato: da_verificare
   updated_at: ''

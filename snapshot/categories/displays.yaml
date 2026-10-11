@@ -4,14 +4,22 @@
   quantita: 1
   descrizione: OLED Display 0.96’
   interfaccia: SPI
-  note: ''
+  note: 'Codice attuale ICST7735S incongruente: ST7735S è controller TFT, non OLED.
+    Il datasheet indica OLED 0.96" 128x64 4 pin, tipicamente I2C/SSD1306. Verificare
+    interfaccia reale.'
   datasheet_url: https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://www.lcdwiki.com/images/thumb/b/b3/0.96-IPS-main-3.jpg/400px-0.96-IPS-main-3.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SSD1306", "categoria": "displays", "descrizione": "Modulo
+    display OLED 0.96 pollici, 128x64 pixel, 4 pin, colore blu; quantità 1; probabile
+    controller SSD1306.", "interfaccia": "I2C", "quantita": 1, "posizione": "Display
+    Barrel", "datasheet_url": "https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf",
+    "note": "Codice attuale ICST7735S incongruente: ST7735S è controller TFT, non
+    OLED. Il datasheet indica OLED 0.96\" 128x64 4 pin, tipicamente I2C/SSD1306. Verificare
+    interfaccia reale."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-nx3224t24-100
   categoria: displays
@@ -19,14 +27,23 @@
   quantita: 1
   descrizione: Nextion
   interfaccia: TTL Serial
-  note: ''
+  note: 'Categoria confermata: displays. Codice attuale NX3224T24 sembra refuso per
+    NX3224T024 (display Nextion 2.4 pollici). Verificare modello esatto e datasheet
+    specifico. Quantità default 1.'
   datasheet_url: https://nextion.tech/datasheets/
   datasheet_last_check: '2026-10-03'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.nextion.in/wp-content/uploads/2020/12/f2aa6b33-22e4-433c-ac20-25b32d440730.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "NX3224T024", "categoria": "displays", "descrizione": "Modulo
+    display HMI Nextion TFT touch da 2.4 pollici, probabile serie NX3224T024; 1 pezzo
+    visibile da riga inventario; package modulo PCB con connettore seriale; nessuna
+    foto disponibile per verificare marcature e package.", "interfaccia": "TTL Serial",
+    "quantita": 1, "posizione": "B Box", "datasheet_url": "https://nextion.tech/datasheets/",
+    "note": "Categoria confermata: displays. Codice attuale NX3224T24 sembra refuso
+    per NX3224T024 (display Nextion 2.4 pollici). Verificare modello esatto e datasheet
+    specifico. Quantità default 1."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-st7789-101
   categoria: displays
@@ -34,14 +51,20 @@
   quantita: 1
   descrizione: IPS 240x240 1.3”
   interfaccia: SPI
-  note: ''
+  note: Riclassificato dalla riga inventario senza foto; codice basato sul controller
+    ST7789.
   datasheet_url: https://www.waveshare.com/wiki/File:ST7789_Datasheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://www.lcdwiki.com/images/thumb/1/11/1.3-IPS-main-4.jpg/400px-1.3-IPS-main-4.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ST7789", "categoria": "displays", "descrizione": "Display
+    IPS TFT 1.3\" 240x240, controller ST7789, modulo display con interfaccia SPI;
+    quantità dichiarata 1", "interfaccia": "SPI", "quantita": 1, "posizione": "Display
+    Barrel", "datasheet_url": "https://www.waveshare.com/wiki/File:ST7789_Datasheet.pdf",
+    "note": "Riclassificato dalla riga inventario senza foto; codice basato sul controller
+    ST7789."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-sdd-102
   categoria: displays
@@ -49,14 +72,22 @@
   quantita: 1
   descrizione: OLED Display 1.3”
   interfaccia: I2C
-  note: ''
+  note: 'Categoria confermata: displays. Codice originale ''SDD?'' incompleto/dubbio;
+    ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: descrizione basata
+    sui campi della riga.'
   datasheet_url: https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SH1106", "categoria": "displays", "descrizione": "Modulo
+    display OLED 1.3 pollici, 1 pezzo, controller SH1106, interfaccia I2C, package
+    modulo breakout; scritte leggibili non disponibili (nessuna foto).", "interfaccia":
+    "I2C", "quantita": 1, "posizione": "Display Barrel", "datasheet_url": "https://cdn.sparkfun.com/assets/2/6/8/9/7/1.3inch-SH1106-OLED_Datasheet.pdf",
+    "note": "Categoria confermata: displays. Codice originale ''SDD?'' incompleto/dubbio;
+    ipotizzato SH1106 dal datasheet. Nessuna foto disponibile: descrizione basata
+    sui campi della riga."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-1309-103
   categoria: displays
@@ -64,14 +95,17 @@
   quantita: 1
   descrizione: OLED Display 1.5’
   interfaccia: I2C
-  note: ''
+  note: Display OLED 1.5", driver SSD1309, risoluzione tipica 128x64 (presunta)
   datasheet_url: https://www.hpinfotech.ro/SSD1309.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SSD1309", "categoria": "displays", "descrizione": "OLED
+    Display 1.5 pollici, controller SSD1309, interfaccia I2C", "interfaccia": "I2C",
+    "quantita": 1, "posizione": "Display Barrel", "datasheet_url": "https://www.hpinfotech.ro/SSD1309.pdf",
+    "note": "Display OLED 1.5\", driver SSD1309, risoluzione tipica 128x64 (presunta)"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-x30637-104
   categoria: displays
@@ -79,14 +113,20 @@
   quantita: 2
   descrizione: 1.5’ RGB Oled Module
   interfaccia: Spi
-  note: ''
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    confermata come displays. Codice inventariale mantenuto.
   datasheet_url: https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module?srsltid=AU7gw4WwdjijC5U-mDGhtptRisDK9YnZz5wh3vT2rY4ZKR_-mEPqPsWH
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://www.waveshare.com/w/upload/4/4e/1.5inch_RGB_OLED_Module2.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "X30637", "categoria": "displays", "descrizione": "Modulo
+    display OLED RGB da 1.5 pollici, quantità 2, package modulo display, scritta leggibile
+    ''1.5’ RGB Oled Module'', interfaccia SPI.", "interfaccia": "SPI", "quantita":
+    2, "posizione": "Display Barrel", "datasheet_url": "https://www.waveshare.com/wiki/1.5inch_RGB_OLED_Module?srsltid=AU7gw4WwdjijC5U-mDGhtptRisDK9YnZz5wh3vT2rY4ZKR_-mEPqPsWH",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    confermata come displays. Codice inventariale mantenuto."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-ssd-105
   categoria: displays
@@ -94,29 +134,41 @@
   quantita: 1
   descrizione: OLED Display 0.91”
   interfaccia: I2C
-  note: ''
+  note: Riclassificato come display OLED I2C basato su driver SSD1306; codice ipotizzato
+    SSD1306 dal datasheet.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf
   datasheet_last_check: '2026-10-03'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.lcdwiki.com/images/thumb/4/45/0.91-OLED-main.jpg/400px-0.91-OLED-main.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SSD1306", "categoria": "displays", "descrizione": "Modulo
+    display OLED 0.91 pollici monocromatico, driver SSD1306, risoluzione tipica 128x32,
+    interfaccia I2C, 4 pin (VCC, GND, SCL, SDA), package modulo.", "interfaccia":
+    "I2C", "quantita": 1, "posizione": "", "datasheet_url": "https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf",
+    "note": "Riclassificato come display OLED I2C basato su driver SSD1306; codice
+    ipotizzato SSD1306 dal datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-hw-109-106
   categoria: displays
   codice: HW-109
   quantita: 1
   descrizione: MAX7219 8x8 dot matrix
-  interfaccia: ''
-  note: ''
+  interfaccia: SPI
+  note: Riclassificato dalla riga inventario senza foto. Categoria confermata displays.
+    Codice e datasheet mantenuti; interfaccia SPI ipotizzata dal MAX7219.
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/max7219-8x8-led-matrix-module-datasheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000005_03.front.jpg?v=1777476619
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HW-109", "categoria": "displays", "descrizione": "Modulo
+    display LED a matrice di punti 8x8 basato su MAX7219, 1 pezzo, modulo PCB con
+    connettore a 5 pin, sigla HW-109 visibile, fori di montaggio", "interfaccia":
+    "SPI", "quantita": 1, "posizione": "Display Barrel", "datasheet_url": "https://components101.com/sites/default/files/component_datasheet/max7219-8x8-led-matrix-module-datasheet.pdf",
+    "note": "Riclassificato dalla riga inventario senza foto. Categoria confermata
+    displays. Codice e datasheet mantenuti; interfaccia SPI ipotizzata dal MAX7219."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-ssd130-107
   categoria: displays
@@ -124,14 +176,19 @@
   quantita: 3
   descrizione: OLED Display 0.96’
   interfaccia: I2C
-  note: ''
+  note: Riclassificato da riga inventario; codice controller corretto da SSD130? a
+    SSD1306.
   datasheet_url: https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://www.lcdwiki.com/images/thumb/f/f3/0.96-OLED-7pin-main-30.jpg/300px-0.96-OLED-7pin-main-30.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"categoria": "displays", "codice": "SSD1306", "descrizione": "OLED
+    Display 0.96\", modulo 128x64, 4 pin, colore blu; quantita 3", "interfaccia":
+    "I2C", "quantita": 3, "posizione": "Display Barrel", "datasheet_url": "https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf",
+    "note": "Riclassificato da riga inventario; codice controller corretto da SSD130?
+    a SSD1306."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-1602-i2c-108
   categoria: displays
@@ -139,27 +196,90 @@
   quantita: 3
   descrizione: 1602 + I2C Adapter
   interfaccia: I2C
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario. Codice ipotizzato
+    come LCD1602-I2C partendo da 1602 + I2C.
   datasheet_url: https://files.waveshare.com/upload/4/4d/LCD1602_I2C_Module.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FQB/FPLN/KNABJGCP/FQBFPLNKNABJGCP.jpg?auto=webp&amp;frame=1
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LCD1602-I2C", "categoria": "displays", "descrizione":
+    "Modulo display LCD 1602 16x2 con adattatore I2C, 3 pezzi, package modulo PCB,
+    scritta leggibile \"1602 + I2C Adapter\"", "interfaccia": "I2C", "quantita": 3,
+    "posizione": "Display Barrel", "datasheet_url": "https://files.waveshare.com/upload/4/4d/LCD1602_I2C_Module.pdf",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. Codice
+    ipotizzato come LCD1602-I2C partendo da 1602 + I2C."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: displays-pj-69c-109
   categoria: displays
   codice: PJ-69C
   quantita: 1
   descrizione: Clock Display
-  interfaccia: ''
-  note: ''
+  interfaccia: parallela HD44780
+  note: Codice originale PJ-69C non corrisponde (PJ-69C è un jack DC). Datasheet TX16D204VM0BVA
+    indica display LCD 16x2. Descrizione originale 'Clock Display' imprecisa. Possibile
+    codice interno CMP7377.
   datasheet_url: http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://nihrlatamcentre.com/wp-content/uploads/2023/09/01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TX16D204VM0BVA", "categoria": "displays", "descrizione":
+    "Display LCD 16x2 caratteri, modulo, 1 pezzo visibile, package modulo, marcatura
+    TX16D204VM0BVA", "interfaccia": "parallela HD44780", "quantita": 1, "posizione":
+    "Display Barrel", "datasheet_url": "http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf",
+    "note": "Codice originale PJ-69C non corrisponde (PJ-69C è un jack DC). Datasheet
+    TX16D204VM0BVA indica display LCD 16x2. Descrizione originale ''Clock Display''
+    imprecisa. Possibile codice interno CMP7377."}'
+  ai_stato: da_verificare
   updated_at: ''
+- id: na-hx40023
+  categoria: displays
+  codice: HX40023
+  quantita: 5
+  descrizione: 'Display LED a 7 segmenti a 4 cifre, 0.4 pollici, catodo comune, package
+    DIP-12, marcatura HX40023. Quantità visibile da inventario: 5 pezzi.'
+  interfaccia: parallela/diretto
+  note: 'Nessuna foto disponibile. Riclassificato dalla riga inventario: codice HX40023,
+    quantità 5, posizione Last Drawer. Identificazione basata sul codice come display
+    7 segmenti 4 cifre.'
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "HX40023", "categoria": "displays", "descrizione": "Display
+    LED a 7 segmenti a 4 cifre, 0.4 pollici, catodo comune, package DIP-12, marcatura
+    HX40023. Quantità visibile da inventario: 5 pezzi.", "interfaccia": "parallela/diretto",
+    "quantita": 5, "posizione": "Last Drawer", "datasheet_url": "", "note": "Nessuna
+    foto disponibile. Riclassificato dalla riga inventario: codice HX40023, quantità
+    5, posizione Last Drawer. Identificazione basata sul codice come display 7 segmenti
+    4 cifre."}'
+  ai_stato: confermato
+  updated_at: 11/10/2026 17.10.36
+- id: na-tl431
+  categoria: displays
+  codice: TL431
+  quantita: 20
+  descrizione: 'Nessuna foto disponibile. Riga inventario: codice HX40023, quantità
+    5, posizione Last Drawer. Identificato come probabile display LED a 7 segmenti
+    a 4 cifre, formato 0.4 pollice, package DIP. Scritte e pinout non leggibili perché
+    manca foto.'
+  interfaccia: multiplexed 7-segment
+  note: Riclassificato dai campi della riga inventario. Verificare package, comune
+    anodo/catodo e datasheet.
+  datasheet_url: https://www.ti.com/lit/ds/symlink/tl431.pdf
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: '{"codice": "HX40023", "categoria": "displays", "descrizione": "Nessuna
+    foto disponibile. Riga inventario: codice HX40023, quantità 5, posizione Last
+    Drawer. Identificato come probabile display LED a 7 segmenti a 4 cifre, formato
+    0.4 pollice, package DIP. Scritte e pinout non leggibili perché manca foto.",
+    "interfaccia": "multiplexed 7-segment", "quantita": 5, "posizione": "Last Drawer",
+    "datasheet_url": "", "note": "Riclassificato dai campi della riga inventario.
+    Verificare package, comune anodo/catodo e datasheet."}'
+  ai_stato: da_verificare
+  updated_at: 11/10/2026 17.14.47
