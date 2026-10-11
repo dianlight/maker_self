@@ -1,6 +1,51 @@
-- id: na-hpcl3700
+- id: na-hw-613
   categoria: ''
-  codice: HPCL3700
+  codice: HW-613
+  quantita: 5
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.09.46
+- id: na-hx40023
+  categoria: ''
+  codice: HX40023
+  quantita: 5
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.10.36
+- id: na-lm317t
+  categoria: ''
+  codice: LM317T
+  quantita: 1
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.10.59
+- id: na-lm2576
+  categoria: ''
+  codice: LM2576
   quantita: 10
   descrizione: ''
   interfaccia: ''
@@ -12,4 +57,169 @@
   foto_url: ''
   ai_proposta: ''
   ai_stato: ''
-  updated_at: 11/10/2026 16.59.14
+  updated_at: 11/10/2026 17.11.19
+- id: na-tc4058a
+  categoria: ''
+  codice: TC4058A
+  quantita: 5
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.12.22
+- id: na-le33
+  categoria: ''
+  codice: LE33
+  quantita: 8
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.13.10
+- id: na-ams1117
+  categoria: ''
+  codice: AMS1117
+  quantita: 5
+  descrizione: 800mA
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.13.44
+- id: na-lm2596
+  categoria: ''
+  codice: LM2596
+  quantita: 3
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.14.07
+- id: na-mini360
+  categoria: ''
+  codice: MINI360
+  quantita: 5
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.14.28
+- id: na-tl431
+  categoria: ''
+  codice: TL431
+  quantita: 20
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.14.47
+- id: na-na-6
+  categoria: ''
+  codice: ''
+  quantita: 10
+  descrizione: chip 8 piedini targato 34963api nccrtns 608ay
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.17.52
+- id: na-lm317
+  categoria: ''
+  codice: LM317
+  quantita: 8
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.18.16
+- id: na-mt3608
+  categoria: ''
+  codice: MT3608
+  quantita: 5
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.18.58
+- id: na-hw-668
+  categoria: ''
+  codice: HW-668
+  quantita: 8
+  descrizione: ''
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.19.19
+- id: na-ams117
+  categoria: ''
+  codice: AMS117
+  quantita: 4
+  descrizione: 1A
+  interfaccia: ''
+  note: ''
+  datasheet_url: ''
+  datasheet_last_check: ''
+  posizione: Last Drawer
+  foto_drive_id: ''
+  foto_url: ''
+  ai_proposta: ''
+  ai_stato: ''
+  updated_at: 11/10/2026 17.19.51

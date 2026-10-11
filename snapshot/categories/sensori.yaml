@@ -4,14 +4,20 @@
   quantita: 8
   descrizione: Rain Sensors
   interfaccia: '?'
-  note: ''
+  note: Riclassificato dalla riga inventario; categoria confermata sensori; codice
+    ipotizzato dal datasheet Soldered 333044.
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf
   datasheet_last_check: '2026-10-10'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.krain.com/content/files/images/landingpages/rain%20sensor/product_main_rain%20sensors-min.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "333044", "categoria": "sensori", "descrizione": "Sensore
+    di pioggia (Rain Sensors), modulo sensore, quantità 8, package non visibile, marca
+    Soldered, codice 333044", "interfaccia": "analogico/digitale", "quantita": 8,
+    "posizione": "B Box", "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf",
+    "note": "Riclassificato dalla riga inventario; categoria confermata sensori; codice
+    ipotizzato dal datasheet Soldered 333044."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-03
   categoria: sensori
@@ -19,104 +25,150 @@
   quantita: 1
   descrizione: Capacitive Soil Moisture Sensor
   interfaccia: I2C
-  note: ''
+  note: 'Interfaccia corretta da I2C ad analogica. Codice ipotizzato SEN0193 / DFRobot
+    SEN0193. Nessuna foto disponibile: riclassificazione basata sulla riga inventario
+    e sul datasheet.'
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://dfimg.dfrobot.com/enshop/SEN0193/SEN0193_Main_01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SEN0193", "categoria": "sensori", "descrizione": "Capacitive
+    Soil Moisture Sensor DFRobot SEN0193, modulo sensore capacitivo di umidità del
+    suolo, 1 pezzo visibile, package modulo PCB con connettore a 3 pin, uscita analogica;
+    scritte leggibili ipotizzate: SEN0193.", "interfaccia": "Analogica", "quantita":
+    1, "posizione": "Sensor Barrel", "datasheet_url": "https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf",
+    "note": "Interfaccia corretta da I2C ad analogica. Codice ipotizzato SEN0193 /
+    DFRobot SEN0193. Nessuna foto disponibile: riclassificazione basata sulla riga
+    inventario e sul datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-04
   categoria: sensori
   codice: '?'
   quantita: 2
   descrizione: Soil Sensore
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: 'Riclassificato dalla riga inventario: categoria ''sensori'' confermata; codice
+    ricavato dal datasheet DFRobot SEN0193. Quantità 2 come da riga.'
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://res.cloudinary.com/campbellsci/image/upload/f_auto,c_limit,w_600,h_600/11468.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SEN0193", "categoria": "sensori", "descrizione": "Sensore
+    di umidità del suolo capacitivo DFRobot SEN0193, modulo PCB con connettore a 3
+    pin; quantità indicata: 2; nessuna foto disponibile, scritte non leggibili.",
+    "interfaccia": "analogico", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
+    "https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf",
+    "note": "Riclassificato dalla riga inventario: categoria ''sensori'' confermata;
+    codice ricavato dal datasheet DFRobot SEN0193. Quantità 2 come da riga."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-05
   categoria: sensori
   codice: '?'
   quantita: 1
   descrizione: Water Level
-  interfaccia: ''
-  note: ''
+  interfaccia: LoRaWAN
+  note: 'Riclassificato da riga inventario: categoria sensori, codice ipotizzato RAK7205.
+    Verificare modello esatto.'
   datasheet_url: https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.glerl.noaa.gov/images/glerlLogoInvertNoDefSmall.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RAK7205", "categoria": "sensori", "descrizione": "Nodo/sensore
+    RAKwireless WisNode Water Level Monitoring per livello acqua, quantità 1, posizione
+    Sensor Box; nessuna foto disponibile, dati ricavati dalla riga inventario.", "interfaccia":
+    "LoRaWAN", "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/",
+    "note": "Riclassificato da riga inventario: categoria sensori, codice ipotizzato
+    RAK7205. Verificare modello esatto."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-06
   categoria: sensori
   codice: '?'
   quantita: 1
   descrizione: Color Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: I2C
+  note: Riclassificato da descrizione e URL datasheet; codice ipotizzato come TCS34725.
+    Nessuna foto disponibile.
   datasheet_url: https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/images/thumbnail/mega-menu/k_thumb_photodiode.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TCS34725", "categoria": "sensori", "descrizione": "Sensore
+    di colore RGB/clear e luce ambientale basato su TCS34725. Nessuna foto disponibile;
+    riga inventario: Color Sensor. Package tipico FN a 6 pin, spesso su modulo breakout.
+    Interfaccia I2C. Quantita inventario: 1.", "interfaccia": "I2C", "quantita": 1,
+    "posizione": "Sensor Box", "datasheet_url": "https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor",
+    "note": "Riclassificato da descrizione e URL datasheet; codice ipotizzato come
+    TCS34725. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-07
   categoria: sensori
   codice: '?'
   quantita: 1
   descrizione: Linear Hall Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica
+  note: Riclassificato dalla riga inventario senza foto. Codice ipotizzato SS49E;
+    datasheet copre famiglia SS39ET/SS49E/SS59ET. Quantità default 1.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/ja/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/optimized/4X/3/6/2/362da1bf6d2e78a06096c64693e401e412c18220_2_690x335.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SS49E", "categoria": "sensori", "descrizione": "Sensore
+    Hall lineare (Linear Hall Sensor), quantità 1, probabile Honeywell SS49E/SS39ET/SS59ET;
+    package non visibile.", "interfaccia": "analogica", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/ja/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf",
+    "note": "Riclassificato dalla riga inventario senza foto. Codice ipotizzato SS49E;
+    datasheet copre famiglia SS39ET/SS49E/SS59ET. Quantità default 1."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-08
   categoria: sensori
   codice: '?'
   quantita: 1
   descrizione: Magnetic Spring
-  interfaccia: ''
-  note: ''
+  interfaccia: meccanica
+  note: 'Riclassificato da sensori a motors-hardware: non è un sensore ma un componente
+    hardware/molla magnetica LinMot.'
   datasheet_url: https://linmot.com/en/produkte/magspring/
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.fenetex.com/media/bxipk1vh/spring-demo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LINMOT-MAGSPRING", "categoria": "motors-hardware", "descrizione":
+    "Componente LinMot MagSpring (molla magnetica), quantità 1, package non specificato,
+    scritta leggibile: Magnetic Spring", "interfaccia": "meccanica", "quantita": 1,
+    "posizione": "Sensor Box", "datasheet_url": "https://linmot.com/en/produkte/magspring/",
+    "note": "Riclassificato da sensori a motors-hardware: non è un sensore ma un componente
+    hardware/molla magnetica LinMot."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-09
   categoria: sensori
   codice: '?'
   quantita: 2
   descrizione: IR Distance Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: Codice dedotto dal datasheet Sharp GP2Y0A21YK; categoria confermata sensori.
   datasheet_url: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/164-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "GP2Y0A21YK0F", "categoria": "sensori", "descrizione":
+    "Sensore di distanza a infrarossi Sharp GP2Y0A21YK0F, modulo analogico a 3 pin,
+    range tipico 10-80 cm; dalla riga inventario quantità 2. Nessuna foto disponibile.",
+    "interfaccia": "analogico", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
+    "https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf",
+    "note": "Codice dedotto dal datasheet Sharp GP2Y0A21YK; categoria confermata sensori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-18n20-tem-10
   categoria: sensori
@@ -131,37 +183,51 @@
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/1/11050-04.jpg
   ai_proposta: ''
-  ai_stato: ''
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-a3144-11
   categoria: sensori
   codice: A3144
   quantita: 10
   descrizione: Hall Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: '3 pin: VCC, GND, OUT (digitale open collector)'
+  note: 'Riclassificato dalla riga inventario senza foto disponibili. Categoria confermata:
+    sensori. A3144 è un sensore Hall switch unipolare; la sigla indicata è compatibile
+    con la famiglia A3141/A3142/A3143/A3144.'
   datasheet_url: https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61gUkDoHh-L.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "A3144", "categoria": "sensori", "descrizione": "Sensore
+    di effetto Hall unipolare A3144, package TO-92S, uscita digitale open collector,
+    quantita visibile/riferita 10 pezzi", "interfaccia": "3 pin: VCC, GND, OUT (digitale
+    open collector)", "quantita": 10, "posizione": "Sensor Box", "datasheet_url":
+    "https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf", "note": "Riclassificato
+    dalla riga inventario senza foto disponibili. Categoria confermata: sensori. A3144
+    è un sensore Hall switch unipolare; la sigla indicata è compatibile con la famiglia
+    A3141/A3142/A3143/A3144."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-acs-758-12
   categoria: sensori
   codice: ACS-758
   quantita: 4
   descrizione: Current Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: Riclassificato da riga inventario; codice corretto da ACS-758 a ACS758; nessuna
+    foto disponibile.
   datasheet_url: https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/-/media/images/packaging/cb-package/allegro-cb-5-package-image.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ACS758", "categoria": "sensori", "descrizione": "Sensore
+    di corrente ACS758 (integrato Allegro), quantità 4", "interfaccia": "analogico",
+    "quantita": 4, "posizione": "Sensor Barrel", "datasheet_url": "https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758",
+    "note": "Riclassificato da riga inventario; codice corretto da ACS-758 a ACS758;
+    nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-acs712-13
   categoria: sensori
@@ -169,14 +235,21 @@
   quantita: 2
   descrizione: Current Sensor
   interfaccia: '?'
-  note: ''
+  note: 'ACS712 è un sensore di corrente integrato; verificare variante di corrente
+    (5A/20A/30A) e se si tratta di IC o modulo. Categoria confermata: sensori.'
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/168326/ALLEGRO/ACS712.html
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/-/media/images/products/0712/acs712-product-image.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ACS712", "categoria": "sensori", "descrizione": "Sensore
+    di corrente ACS712 a effetto Hall, uscita analogica proporzionale alla corrente;
+    quantità 2; package tipico SOIC-8, spesso montato su modulo breakout. Nessuna
+    foto disponibile: dati dedotti dalla riga inventario.", "interfaccia": "analogica",
+    "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/168326/ALLEGRO/ACS712.html",
+    "note": "ACS712 è un sensore di corrente integrato; verificare variante di corrente
+    (5A/20A/30A) e se si tratta di IC o modulo. Categoria confermata: sensori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-adxl345-14
   categoria: sensori
@@ -184,14 +257,20 @@
   quantita: 1
   descrizione: 3 Axis acce 13bit
   interfaccia: I2C- SPI
-  note: ''
+  note: 'Categoria confermata: sensori. Componente riclassificato come accelerometro
+    3 assi ADXL345.'
   datasheet_url: https://www.farnell.com/datasheets/3708808.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721152116/ADXL345_I2CS_A_1.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"categoria": "sensori", "codice": "ADXL345", "descrizione": "Accelerometro
+    3 assi ADXL345, 13-bit, interfaccia I2C/SPI, package non specificato, marcatura
+    ADXL345, quantità 1", "interfaccia": "I2C, SPI", "quantita": 1, "posizione": "Sensor
+    Barrel", "datasheet_url": "https://www.farnell.com/datasheets/3708808.pdf", "note":
+    "Categoria confermata: sensori. Componente riclassificato come accelerometro 3
+    assi ADXL345."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ags02ma-15
   categoria: sensori
@@ -199,29 +278,40 @@
   quantita: 1
   descrizione: TVOC Gas Sensor
   interfaccia: I2C
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dalla riga dell'inventario.
   datasheet_url: http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF
   datasheet_last_check: '2026-10-11'
   posizione: S Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5593-01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AGS02MA", "categoria": "sensori", "descrizione": "Sensore
+    di gas TVOC AGS02MA, interfaccia I2C; quantità 1; posizione S Box. Package non
+    specificato nei campi disponibili.", "interfaccia": "I2C", "quantita": 1, "posizione":
+    "S Box", "datasheet_url": "http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF", "note":
+    "Nessuna foto disponibile; riclassificato dalla riga dell''inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-am2302-16
   categoria: sensori
   codice: AM2302
   quantita: 1
   descrizione: Temperature sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: single-wire digitale
+  note: 'Riclassificato: categoria corretta sensori; AM2302 misura temperatura e umidità,
+    non solo temperatura. Interfaccia proprietaria single-wire.'
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/393-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AM2302", "categoria": "sensori", "descrizione": "Sensore
+    digitale di temperatura e umidità AM2302 (equivalente DHT22), quantità 1; package/modulo
+    non specificato e scritte non leggibili senza foto; il codice AM2302 identifica
+    il modello.", "interfaccia": "single-wire digitale", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf",
+    "note": "Riclassificato: categoria corretta sensori; AM2302 misura temperatura
+    e umidità, non solo temperatura. Interfaccia proprietaria single-wire."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-am2320-17
   categoria: sensori
@@ -229,59 +319,84 @@
   quantita: 2
   descrizione: Temperature sensor
   interfaccia: '? + I2C?'
-  note: ''
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario.
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3721-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AM2320", "categoria": "sensori", "descrizione": "Sensore
+    digitale di temperatura e umidità AM2320, quantità 2, package compatto a 4 pin
+    (simile TO-92/modulo), interfaccia I2C/1-Wire, scritta leggibile AM2320.", "interfaccia":
+    "I2C / 1-Wire", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-am312-18
   categoria: sensori
   codice: AM312
   quantita: 4
   descrizione: HW-740 Pir Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: digitale
+  note: HW-740 è il nome modulo riportato; il sensore è basato su AM312. Uscita digitale,
+    alimentazione tipica 3.3-5V.
   datasheet_url: https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/
   datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://makerselectronics.com/wp-content/uploads/2025/05/b687d94e-a1c9-4204-9f88-f1e8e3b11b1e.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AM312", "categoria": "sensori", "descrizione": "Tipo:
+    sensore PIR per movimento umano. Riga inventario: HW-740 Pir Sensor / AM312, quantità
+    4, package modulo mini. Scritte leggibili dai campi: AM312, HW-740 Pir Sensor.",
+    "interfaccia": "digitale", "quantita": 4, "posizione": "B Box", "datasheet_url":
+    "https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/",
+    "note": "HW-740 è il nome modulo riportato; il sensore è basato su AM312. Uscita
+    digitale, alimentazione tipica 3.3-5V."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-as5600-19
   categoria: sensori
   codice: AS5600
   quantita: 1
   descrizione: Angolo Rotazione/RPM
-  interfaccia: ''
-  note: ''
+  interfaccia: I2C
+  note: Modulo Grove basato su AS5600, output angolo/RPM via I2C. Categoria confermata
+    sensori.
   datasheet_url: https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AS5600", "categoria": "sensori", "descrizione": "Sensore
+    magnetico rotativo AS5600, 12-bit, misura angolo/RPM, modulo Grove, q.tà 1, package
+    non visibile (nessuna foto)", "interfaccia": "I2C", "quantita": 1, "posizione":
+    "Sensor Barrel", "datasheet_url": "https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf",
+    "note": "Modulo Grove basato su AS5600, output angolo/RPM via I2C. Categoria confermata
+    sensori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-big-sound-20
   categoria: sensori
   codice: Big Sound
   quantita: 1
   descrizione: Microphone
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: Nessuna foto disponibile; riclassificazione basata solo sui campi della riga.
+    Categoria 'sensori' confermata per microfono. Codice 'Big Sound' mantenuto come
+    identificativo di magazzino.
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://shure.widen.net/content/tcasbybhcw/webp/web_hero_imx_room_kits_zoom.webp?position=c&amp;color=ffffffff&amp;quality=82&amp;u=s1b3kh
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Big Sound", "categoria": "sensori", "descrizione": "Microfono
+    / modulo sensore audio, quantità 1, package non specificato, scritte leggibili:
+    ''Microphone'' e ''Big Sound''.", "interfaccia": "analogico", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://www.farnell.com/datasheets/1920625.pdf",
+    "note": "Nessuna foto disponibile; riclassificazione basata solo sui campi della
+    riga. Categoria ''sensori'' confermata per microfono. Codice ''Big Sound'' mantenuto
+    come identificativo di magazzino."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-bmp180-21
   categoria: sensori
@@ -289,14 +404,22 @@
   quantita: 2
   descrizione: Barometrix/Temp/Pressure/altitude
   interfaccia: I2C
-  note: ''
+  note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    corretta: sensori. Codice confermato BMP180. Descrizione corretta da ''Barometrix''
+    a barometrico/pressione/temperatura/altitudine.'
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1603-03.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BMP180", "categoria": "sensori", "descrizione": "Sensore
+    barometrico di pressione, temperatura e altitudine; package non specificato nella
+    riga; quantità visibile indicata: 2; scritta leggibile dalla riga: BMP180, Barometrix/Temp/Pressure/altitude",
+    "interfaccia": "I2C", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
+    "https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf", "note": "Riclassificato
+    dalla riga inventario; nessuna foto disponibile. Categoria corretta: sensori.
+    Codice confermato BMP180. Descrizione corretta da ''Barometrix'' a barometrico/pressione/temperatura/altitudine."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-bmp280-22
   categoria: sensori
@@ -304,29 +427,44 @@
   quantita: 2
   descrizione: Barometrix/Temp/Pressure/altitude
   interfaccia: I2C
-  note: ''
+  note: Riclassificato dalla riga inventario; 'Barometrix' nella descrizione originale
+    è probabilmente un refuso per barometrico. BMP280 supporta anche SPI, ma qui è
+    indicato I2C.
   datasheet_url: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/096/medium800/BMP280_top.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BMP280", "categoria": "sensori", "descrizione": "Sensore
+    barometrico BMP280 per pressione, temperatura e altitudine; 2 unità; package LGA-8;
+    interfaccia I2C. Nessuna foto disponibile, dati ricavati dalla riga inventario.",
+    "interfaccia": "I2C", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
+    "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf",
+    "note": "Riclassificato dalla riga inventario; ''Barometrix'' nella descrizione
+    originale è probabilmente un refuso per barometrico. BMP280 supporta anche SPI,
+    ma qui è indicato I2C."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-cny70-23
   categoria: sensori
   codice: CNY70
   quantita: 5
   descrizione: Reflective Optical Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario. Sensore ottico
+    riflettente, package DIP-4, 5 pz, posizione B Box.
   datasheet_url: https://www.vishay.com/docs/83751/cny70.pdf
   datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.vishay.com/images/product-images/pt-large/83751-pt-large.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CNY70", "categoria": "sensori", "descrizione": "Sensore
+    ottico riflettente CNY70, package DIP-4 a 4 pin, uscita a fototransistor, 5 pezzi,
+    marcatura CNY70", "interfaccia": "analogico", "quantita": 5, "posizione": "B Box",
+    "datasheet_url": "https://www.vishay.com/docs/83751/cny70.pdf", "note": "Nessuna
+    foto disponibile; riclassificato dalla riga inventario. Sensore ottico riflettente,
+    package DIP-4, 5 pz, posizione B Box."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-d203-24
   categoria: sensori
@@ -334,29 +472,42 @@
   quantita: 6
   descrizione: Sensore Infrarossi
   interfaccia: '?'
-  note: ''
+  note: 'Codice originale riga: D203; probabile D203S. Sensore piroelettrico PIR,
+    richiede lente Fresnel e circuito di condizionamento.'
   datasheet_url: https://www.futurlec.com/PIR_D203S.shtml
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sensore-electronic.com/wp-content/uploads/2025/07/Glovebox_Inerting-800x800.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "D203S", "categoria": "sensori", "descrizione": "Sensore
+    infrarossi PIR D203S, 6 unità, package TO-5 a 3 pin, uscita analogica; nessuna
+    foto, dati ricavati dalla riga inventario", "interfaccia": "analogica", "quantita":
+    6, "posizione": "Sensor Box", "datasheet_url": "https://www.futurlec.com/PIR_D203S.shtml",
+    "note": "Codice originale riga: D203; probabile D203S. Sensore piroelettrico PIR,
+    richiede lente Fresnel e circuito di condizionamento."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-dht-11-25
   categoria: sensori
   codice: DHT-11
   quantita: 1
   descrizione: Temperature sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: single-wire digitale
+  note: Riclassificato dalla riga inventario; categoria confermata sensori; codice
+    normalizzato da DHT-11 a DHT11.
   datasheet_url: https://moodle.upm.es/en-abierto/pluginfile.php/47163/mod_page/content/10/DHT11.PDF
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://shillehtek.com/cdn/shop/files/1_a4b6495a-07ba-44f0-b580-8c834b854558.jpg?v=1765786089
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "DHT11", "categoria": "sensori", "descrizione": "Sensore
+    di temperatura e umidità DHT11, componente singolo, package 4 pin, interfaccia
+    digitale single-wire; nella riga inventario è indicato come Temperature sensor.",
+    "interfaccia": "single-wire digitale", "quantita": 1, "posizione": "Sensor Box",
+    "datasheet_url": "https://moodle.upm.es/en-abierto/pluginfile.php/47163/mod_page/content/10/DHT11.PDF",
+    "note": "Riclassificato dalla riga inventario; categoria confermata sensori; codice
+    normalizzato da DHT-11 a DHT11."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ds1820-26
   categoria: sensori
@@ -371,7 +522,7 @@
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/374-01.jpg
   ai_proposta: ''
-  ai_stato: ''
+  ai_stato: confermato
   updated_at: ''
 - id: sensori-dsm501a-27
   categoria: sensori
@@ -379,14 +530,20 @@
   quantita: 1
   descrizione: Dust Sensor
   interfaccia: '?'
-  note: ''
+  note: Riclassificato da riga inventario. Categoria confermata sensori. Interfaccia
+    ipotizzata PWM (tipica del modulo DSM501A).
   datasheet_url: https://www.elektronik.ropla.eu/pdf/stock/smy/dsm501.pdf
   datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/d/u/dust_sensor-_dsm501a.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "DSM501A", "categoria": "sensori", "descrizione": "Dust
+    Sensor DSM501A - modulo sensore polveri PM2.5, package modulo 5 pin, scritta DSM501A,
+    quantità 1, nessuna foto disponibile", "interfaccia": "PWM", "quantita": 1, "posizione":
+    "B Box", "datasheet_url": "https://www.elektronik.ropla.eu/pdf/stock/smy/dsm501.pdf",
+    "note": "Riclassificato da riga inventario. Categoria confermata sensori. Interfaccia
+    ipotizzata PWM (tipica del modulo DSM501A)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-flame-sensor-28
   categoria: sensori
@@ -394,14 +551,23 @@
   quantita: 1
   descrizione: Flame Sensor
   interfaccia: ''
-  note: ''
+  note: Categoria confermata sensori. Codice generico 'Flame Sensor' ricondotto a
+    FFS05 dal datasheet Lamtec; possibile variante FFS05-EX. Interfaccia e package
+    non desumibili dalla riga.
   datasheet_url: https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.hogslat.com/images/thumbs/0012731_flame-sensor_600.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "FFS05", "categoria": "sensori", "descrizione": "Sensore
+    di fiamma (flame sensor) per rilevamento fiamma; riga inventario indica quantità
+    1, posizione Sensor Box; package non specificato; scritte leggibili: ''Flame Sensor'',
+    ''Sensor Box''; datasheet Lamtec FFS05/FFS05-EX.", "interfaccia": "", "quantita":
+    1, "posizione": "Sensor Box", "datasheet_url": "https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/",
+    "note": "Categoria confermata sensori. Codice generico ''Flame Sensor'' ricondotto
+    a FFS05 dal datasheet Lamtec; possibile variante FFS05-EX. Interfaccia e package
+    non desumibili dalla riga."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-gy-521-29
   categoria: sensori
@@ -409,14 +575,20 @@
   quantita: 9
   descrizione: 3 axis Gyro, Accel
   interfaccia: I2C
-  note: ''
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    sensori confermata.
   datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/03/MPU-6050-Accel-and-Gyro-Module.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "GY-521", "categoria": "sensori", "descrizione": "Modulo
+    GY-521 basato su MPU-6050: accelerometro e giroscopio 3 assi (IMU 6 DOF), package
+    breakout. Quantità inventario: 9.", "interfaccia": "I2C", "quantita": 9, "posizione":
+    "Sensor Barrel", "datasheet_url": "https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    sensori confermata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-gy-906-30
   categoria: sensori
@@ -424,14 +596,18 @@
   quantita: 1
   descrizione: Non contact infra temp sensor
   interfaccia: I2C
-  note: ''
+  note: Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614.
   datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "GY-906", "categoria": "sensori", "descrizione": "Modulo
+    sensore di temperatura a infrarossi senza contatto, basato su MLX90614, package
+    breakout GY-906, interfaccia I2C, quantita 1", "interfaccia": "I2C", "quantita":
+    1, "posizione": "Sensor Box", "datasheet_url": "https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf",
+    "note": "Riclassificato come sensore; GY-906 è il modulo breakout del MLX90614."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-gy-91-31
   categoria: sensori
@@ -439,44 +615,66 @@
   quantita: 1
   descrizione: 9-Axis MPU9250+BMP280
   interfaccia: I2C
-  note: ''
+  note: 'Il datasheet_url precedente era un link a forum, non un datasheet ufficiale.
+    Datasheet BMP280: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf'
   datasheet_url: https://forum.arduino.cc/t/unlocking-the-gy-91-mpu-9250-bmp-280/701895
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sigmanortec.ro/1181-large_default/sensor-9-axis-10-dof-gy-91-mpu9250-bmp280-3-5v.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "GY-91", "categoria": "sensori", "descrizione": "Modulo
+    breakout GY-91, 1 pz, combina IMU 9 assi MPU-9250 e sensore barometrico BMP280;
+    package PCB con pin/piazzole, marcatura GY-91; nessuna foto disponibile, dati
+    desunti dalla riga inventario.", "interfaccia": "I2C/SPI", "quantita": 1, "posizione":
+    "Sensor Box", "datasheet_url": "https://invensense.tdk.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf",
+    "note": "Il datasheet_url precedente era un link a forum, non un datasheet ufficiale.
+    Datasheet BMP280: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-hc-sr04-32
   categoria: sensori
   codice: HC-SR04
   quantita: 1
   descrizione: Micronde distance sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: GPIO digitale (Trig/Echo) 5V
+  note: 'Corretto: HC-SR04 è un sensore a ultrasuoni, non a microonde. Categoria sensori
+    confermata.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/5/15569-Ultrasonic_Distance_Sensor_-_HC-SR04-01a.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HC-SR04", "categoria": "sensori", "descrizione": "Sensore
+    di distanza a ultrasuoni HC-SR04, modulo PCB a 4 pin, con scritta HC-SR04, range
+    tipico 2-400 cm", "interfaccia": "GPIO digitale (Trig/Echo) 5V", "quantita": 1,
+    "posizione": "Sensor Box", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf",
+    "note": "Corretto: HC-SR04 è un sensore a ultrasuoni, non a microonde. Categoria
+    sensori confermata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-hd-36-33
   categoria: sensori
   codice: HD-36
   quantita: 1
   descrizione: Solar Tracker
-  interfaccia: ''
-  note: ''
+  interfaccia: RS485
+  note: Riclassificato dalla riga inventario; categoria confermata sensori. Codice
+    HD-36 mantenuto come interno. Interfaccia ipotizzata RS485 (da manuale Meteocontrol
+    MS-2).
   datasheet_url: https://www.proinso.net/pub/doc/File/ingl/Manual%20MS-2%20Tracker%20v%204.1.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn.shopify.com/s/files/1/0438/4735/2471/files/A000066_03.front.jpg?v=1727098250
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HD-36", "categoria": "sensori", "descrizione": "Sensore
+    Meteocontrol MS-2 Tracker (solar tracker sensor): q.tà 1, package non visibile,
+    manuale MS-2 Tracker v4.1; probabile sensore irraggiamento/inseguimento solare.",
+    "interfaccia": "RS485", "quantita": 1, "posizione": "Sensor Barrel", "datasheet_url":
+    "https://www.proinso.net/pub/doc/File/ingl/Manual%20MS-2%20Tracker%20v%204.1.pdf",
+    "note": "Riclassificato dalla riga inventario; categoria confermata sensori. Codice
+    HD-36 mantenuto come interno. Interfaccia ipotizzata RS485 (da manuale Meteocontrol
+    MS-2)."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-htu21d-34
   categoria: sensori
@@ -484,29 +682,41 @@
   quantita: 8
   descrizione: Temp/Humidity
   interfaccia: I2C
-  note: ''
+  note: 'Riclassificato dalla riga inventario: sensore temp/umidità I2C; nessuna foto
+    disponibile'
   datasheet_url: https://www.farnell.com/datasheets/2207166.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/640x480/1899-04.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HTU21D", "categoria": "sensori", "descrizione": "Sensore
+    di temperatura e umidità HTU21D, 8 unità, package DFN-8, interfaccia I2C", "interfaccia":
+    "I2C", "quantita": 8, "posizione": "Sensor Barrel", "datasheet_url": "https://www.farnell.com/datasheets/2207166.pdf",
+    "note": "Riclassificato dalla riga inventario: sensore temp/umidità I2C; nessuna
+    foto disponibile"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-hw-740-35
   categoria: sensori
   codice: HW-740
   quantita: 4
   descrizione: IR Presence Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: digitale
+  note: Il datasheet fornito è generico Honeywell e non specifico per HW-740. HW-740
+    è tipicamente un modulo sensore IR di presenza; verificare tensione di alimentazione
+    e pinout.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://c1.neweggimages.com/WebResource/Themes/2005/Nest/logo_424x210.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HW-740", "categoria": "sensori", "descrizione": "Sensore
+    di presenza a infrarossi (IR), modulo HW-740, 4 pezzi, package non specificato,
+    marcatura HW-740.", "interfaccia": "digitale", "quantita": 4, "posizione": "Sensor
+    Box", "datasheet_url": "", "note": "Il datasheet fornito è generico Honeywell
+    e non specifico per HW-740. HW-740 è tipicamente un modulo sensore IR di presenza;
+    verificare tensione di alimentazione e pinout."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ina226-36
   categoria: sensori
@@ -514,14 +724,21 @@
   quantita: 2
   descrizione: Current Sensor
   interfaccia: I2C
-  note: ''
+  note: 'Riclassificato da sensori a ic-components: INA226 è un IC current/power monitor
+    con interfaccia I2C, non un sensore discreto. Quantità invariata.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina226.pdf?ts=1790852131805
   datasheet_last_check: '2026-10-11'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://deepbluembedded.com/wp-content/uploads/2025/02/Arduino-INA226-DC-Current-Sensor-Library-Code-Example.webp
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "INA226", "categoria": "ic-components", "descrizione":
+    "Componente elettronico INA226, current/power monitor I2C, quantità 2, package
+    non specificato (tipico VSSOP-10/MSOP-10), scritte leggibili non disponibili senza
+    foto.", "interfaccia": "I2C", "quantita": "2", "posizione": "", "datasheet_url":
+    "https://www.ti.com/lit/ds/symlink/ina226.pdf?ts=1790852131805", "note": "Riclassificato
+    da sensori a ic-components: INA226 è un IC current/power monitor con interfaccia
+    I2C, non un sensore discreto. Quantità invariata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ina3221-37
   categoria: sensori
@@ -529,14 +746,21 @@
   quantita: 1
   descrizione: Power monitor 3 ch
   interfaccia: I2C
-  note: ''
+  note: 'Riclassificato da sensori a ic-components: è un IC monitor di potenza, non
+    un sensore autonomo. Verificare package effettivo.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina3221.pdf
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/6062-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "INA3221", "categoria": "ic-components", "descrizione":
+    "INA3221: monitor di corrente/tensione/potenza a 3 canali, interfaccia I2C, IC
+    SMD a 16 pin (VQFN/TSSOP), quantità 1. Nessuna foto disponibile: dati ricavati
+    dalla riga inventario.", "interfaccia": "I2C", "quantita": 1, "posizione": "Sensor
+    Box", "datasheet_url": "https://www.ti.com/lit/ds/symlink/ina3221.pdf", "note":
+    "Riclassificato da sensori a ic-components: è un IC monitor di potenza, non un
+    sensore autonomo. Verificare package effettivo."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-inmp441-38
   categoria: sensori
@@ -544,14 +768,19 @@
   quantita: 2
   descrizione: Microphone
   interfaccia: I2S
-  note: ''
+  note: Sensore audio MEMS digitale; possibile IC SMD o modulo breakout, verificare
+    package e pinout.
   datasheet_url: https://www.farnell.com/datasheets/1824785.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://lectronz-images.b-cdn.net/lectronz/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0NzAsInB1ciI6ImJsb2JfaWQifX0=--a058b6344247194c38865f457780091620470c3e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2xpbWl0IjpbNjQwLG51bGxdLCJzYXZlciI6eyJzYXZlciI6ImpwZWciLCJRIjo5MCwic3RyaXAiOnRydWV9fSwicHVyIjoidmFyaWF0aW9uIn19--746e2d4375972e82a11ea47d1ec12203cd2c035e/DSC_0022.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "INMP441", "categoria": "sensori", "descrizione": "Microfono
+    MEMS digitale I2S INMP441, quantità 2, package non visibile, scritta leggibile
+    INMP441", "interfaccia": "I2S", "quantita": 2, "posizione": "Sensor Box", "datasheet_url":
+    "https://www.farnell.com/datasheets/1824785.pdf", "note": "Sensore audio MEMS
+    digitale; possibile IC SMD o modulo breakout, verificare package e pinout."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-max31865-39
   categoria: sensori
@@ -565,23 +794,35 @@
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3328-11.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MAX31865", "categoria": "ic-components", "descrizione":
+    "Convertitore RTD-to-digital MAX31865 per sensori PT100/PT1000, probabile IC/modulo,
+    quantità 3, package non visibile, scritta leggibile MAX31865", "interfaccia":
+    "SPI", "quantita": 3, "posizione": "Sensor Box", "datasheet_url": "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX31865.pdf",
+    "note": "Per PT100 etc; non è un sensore di temperatura ma interfaccia/convertitore
+    per RTD. Verificare se modulo breakout o IC."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-max4466-40
   categoria: sensori
   codice: MAX4466
   quantita: 1
   descrizione: Microphone
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica
+  note: Riclassificato come sensore/modulo microfono; MAX4466 è un amplificatore per
+    microfono.
   datasheet_url: https://www.datasheetall.com/pdf/max4466.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1063-06.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MAX4466", "categoria": "sensori", "descrizione": "Modulo/scheda
+    microfono basato su MAX4466, amplificatore per microfono elettrete con uscita
+    analogica; 1 pezzo indicato nella riga inventario, package breakout (nessuna foto
+    disponibile).", "interfaccia": "analogica", "quantita": 1, "posizione": "Sensor
+    Box", "datasheet_url": "https://www.datasheetall.com/pdf/max4466.pdf", "note":
+    "Riclassificato come sensore/modulo microfono; MAX4466 è un amplificatore per
+    microfono."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-md-ps002-41
   categoria: sensori
@@ -589,29 +830,44 @@
   quantita: 2
   descrizione: Pressure Sensor 700Kpa
   interfaccia: '?'
-  note: ''
+  note: Riclassificato da riga inventario. Codice e categoria confermati. Interfaccia
+    ipotizzata analogica; verificare sul datasheet.
   datasheet_url: https://electronperdido.com/wp-content/uploads/2021/12/MD_PS002-Datasheet.zh-CN.en_.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.smart-prototyping.com/image/cache/data/SKU Photos/10100233/air-pressure-sensor-module-md-ps002-43945-600x315.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MD-PS002", "categoria": "sensori", "descrizione": "Sensore
+    di pressione 700Kpa (MD-PS002), package non specificato, quantità 2. Nessuna foto
+    disponibile; dati ricavati dalla riga inventario.", "interfaccia": "analogico",
+    "quantita": 2, "posizione": "Sensor Barrel", "datasheet_url": "https://electronperdido.com/wp-content/uploads/2021/12/MD_PS002-Datasheet.zh-CN.en_.pdf",
+    "note": "Riclassificato da riga inventario. Codice e categoria confermati. Interfaccia
+    ipotizzata analogica; verificare sul datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-metal-touch-42
   categoria: sensori
   codice: Metal Touch
   quantita: 1
   descrizione: Metal Touch Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: 3 pin (VCC, GND, SIG), uscita digitale
+  note: Categoria sensori confermata. Codice inventario 'Metal Touch' ampliato a 'Metal
+    Touch Sensor'. Interfaccia ipotizzata da modulo Keyestudio simile; verificare
+    pinout reale.
   datasheet_url: https://docs.keyestudio.com/projects/KT0193F/en/latest/docs/22.html
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sensorkit.joy-it.net/files/files/sensors/KY-036/KY-036.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Metal Touch Sensor", "categoria": "sensori", "descrizione":
+    "Modulo sensore tattile metallico (Metal Touch Sensor), 1 unità, modulo Keyestudio
+    KT0193F; nessuna foto disponibile, dati ricavati dalla riga inventario.", "interfaccia":
+    "3 pin (VCC, GND, SIG), uscita digitale", "quantita": 1, "posizione": "Sensor
+    Box", "datasheet_url": "https://docs.keyestudio.com/projects/KT0193F/en/latest/docs/22.html",
+    "note": "Categoria sensori confermata. Codice inventario ''Metal Touch'' ampliato
+    a ''Metal Touch Sensor''. Interfaccia ipotizzata da modulo Keyestudio simile;
+    verificare pinout reale."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-mpr121-43
   categoria: sensori
@@ -619,119 +875,173 @@
   quantita: 1
   descrizione: Capacity Touch Sensor IC
   interfaccia: I2C
-  note: ''
+  note: 'La descrizione originale riporta ''Capacity Touch Sensor IC'' (probabile
+    refuso per Capacitive). Il datasheet collegato è per il modulo Grove 12 Key Capacitive
+    I2C Touch Sensor V2 basato su MPR121. Se in inventario è il modulo e non il chip
+    nudo, categoria più appropriata: sensori.'
   datasheet_url: https://wiki.seeedstudio.com/Grove-12_Key_Capacitive_I2C_Touch_Sensor_V2-MPR121/
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1982-08.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MPR121", "categoria": "ic-components", "descrizione":
+    "IC sensore capacitivo touch a 12 canali MPR121, interfaccia I2C; quantità 1;
+    package non specificato; nessuna foto disponibile, scritte non leggibili.", "interfaccia":
+    "I2C", "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://wiki.seeedstudio.com/Grove-12_Key_Capacitive_I2C_Touch_Sensor_V2-MPR121/",
+    "note": "La descrizione originale riporta ''Capacity Touch Sensor IC'' (probabile
+    refuso per Capacitive). Il datasheet collegato è per il modulo Grove 12 Key Capacitive
+    I2C Touch Sensor V2 basato su MPR121. Se in inventario è il modulo e non il chip
+    nudo, categoria più appropriata: sensori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-mq-4-44
   categoria: sensori
   codice: MQ-4
   quantita: 1
   descrizione: Methane Gas Sensor/ Nature Gas Detection Gas Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica
+  note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    corretta: sensori.'
   datasheet_url: https://components101.com/sensors/mq-4-methane-gas-sensor-pinout-datasheet
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721151117/ADC121C_I2CGAS_MQ4_C_1.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MQ-4", "categoria": "sensori", "descrizione": "Sensore
+    chimico MQ-4 per metano/gas naturale; 1 unità; package non visibile; marcatura
+    leggibile MQ-4.", "interfaccia": "analogica", "quantita": 1, "posizione": "Sensor
+    Box", "datasheet_url": "https://components101.com/sensors/mq-4-methane-gas-sensor-pinout-datasheet",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    corretta: sensori."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-mq-9-45
   categoria: sensori
   codice: MQ-9
   quantita: 1
   descrizione: CO/Combustible GAS sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica
+  note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    confermata: sensori. Codice confermato: MQ-9.'
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/MQ-9%20Sensor%20Datasheet.pdf
   datasheet_last_check: '2026-10-01'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.smart-prototyping.com/image/cache/data/SKU Photos/10100058/mq-9-carbon-monoxide-combustible-gas-sensor-detection-alarm-module-43349-600x315.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MQ-9", "categoria": "sensori", "descrizione": "Sensore
+    di gas MQ-9 per monossido di carbonio (CO) e gas combustibili; componente elettronico
+    con modulo/breakout, quantità 1; package non specificato dai campi, scritta leggibile
+    MQ-9.", "interfaccia": "analogica", "quantita": 1, "posizione": "", "datasheet_url":
+    "https://components101.com/sites/default/files/component_datasheet/MQ-9%20Sensor%20Datasheet.pdf",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
+    confermata: sensori. Codice confermato: MQ-9."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-mq135-46
   categoria: sensori
   codice: MQ135
   quantita: 1
   descrizione: NH3, NOx, alcohol, benzene, smoke, CO2, etc.
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: 'Best guess: sensore/modulo gas MQ-135; uscita analogica; richiede riscaldamento.
+    Verificare se modulo breakout con uscita digitale.'
   datasheet_url: https://www.olimex.com/Products/Components/Sensors/Gas/SNS-MQ135/resources/SNS-MQ135.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://envistiamall.com/cdn/shop/articles/mq-135-nh3-nox-ammonia-alcohol-benzene-smoke-co2-gas-sensor-detector-module-user-guide-3339854.jpg?v=1777086497
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MQ-135", "categoria": "sensori", "descrizione": "Sensore
+    di gas MQ-135 per qualità dell''aria; rileva NH3, NOx, alcol, benzene, fumo, CO2;
+    quantità 1; package modulo/sensore; scritte non leggibili (nessuna foto).", "interfaccia":
+    "analogico", "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://www.olimex.com/Products/Components/Sensors/Gas/SNS-MQ135/resources/SNS-MQ135.pdf",
+    "note": "Best guess: sensore/modulo gas MQ-135; uscita analogica; richiede riscaldamento.
+    Verificare se modulo breakout con uscita digitale."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-owc-236-47
   categoria: sensori
   codice: OWC 236
   quantita: 1
   descrizione: Omnidirectional Microphone
-  interfaccia: ''
-  note: ''
+  interfaccia: analogico
+  note: 'Riclassificato dalla riga inventario: microfono omnidirezionale, categoria
+    sensori. Interfaccia analogica ipotizzata.'
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
   datasheet_last_check: '2026-10-01'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.icomjapan.com/media/images/common/ogp_en.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "OWC 236", "categoria": "sensori", "descrizione": "Microfono
+    omnidirezionale OWC 236, componente acustico/sensore, quantità 1, package non
+    specificato; nessuna foto disponibile.", "interfaccia": "analogico", "quantita":
+    1, "posizione": "", "datasheet_url": "https://www.farnell.com/datasheets/1920625.pdf",
+    "note": "Riclassificato dalla riga inventario: microfono omnidirezionale, categoria
+    sensori. Interfaccia analogica ipotizzata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-p100-48
   categoria: sensori
   codice: P100
   quantita: 2
   descrizione: Temperature sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica/resistiva
+  note: 'Riclassificazione dalla riga inventario: categoria sensori confermata. Codice
+    P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile.'
   datasheet_url: https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf
   datasheet_last_check: '2026-10-01'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.polyscience.com/media/ilwfivnr/ps_logo.png?width=1200&amp;height=630&amp;rnd=133050635806030000
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "P100", "categoria": "sensori", "descrizione": "Sensore
+    di temperatura, probabile Pt100/P100, quantità 2, package non specificato, nessuna
+    scritta leggibile; datasheet Stoerk-Tronic 900001_030", "interfaccia": "analogica/resistiva",
+    "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf",
+    "note": "Riclassificazione dalla riga inventario: categoria sensori confermata.
+    Codice P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ph-4502c-49
   categoria: sensori
   codice: PH-4502C
   quantita: 1
   descrizione: Controller + sonda
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica (uscita analogica; connettore BNC per sonda pH)
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile. Modulo/sensore
+    pH con sonda, richiede calibrazione.
   datasheet_url: https://thinkrobotics.com/products/ph4502c-ph-meter
   datasheet_last_check: '2026-10-01'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.dnatechindia.com/image/cache/catalog/DAH509-500x500.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PH-4502C", "categoria": "sensori", "descrizione": "Controller/modulo
+    pH PH-4502C con sonda pH. Dalla riga inventario risulta 1 kit composto da controller
+    + sonda. Package non specificato. Scritte leggibili: PH-4502C.", "interfaccia":
+    "analogica (uscita analogica; connettore BNC per sonda pH)", "quantita": 1, "posizione":
+    "A Box", "datasheet_url": "https://thinkrobotics.com/products/ph4502c-ph-meter",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile. Modulo/sensore
+    pH con sonda, richiede calibrazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-pms5003-50
   categoria: sensori
   codice: PMS5003
   quantita: 1
   descrizione: Ait Quality Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: UART
+  note: Corretta descrizione da 'Ait Quality Sensor' a Air Quality Sensor; PMS5003
+    è un sensore laser di particolato con uscita seriale UART.
   datasheet_url: https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual_v2-3.pdf
   datasheet_last_check: '2026-10-01'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/3686-04.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "PMS5003", "categoria": "sensori", "descrizione": "Sensore
+    di qualità dell''aria Plantower PMS5003, modulo per particolato PM1.0/PM2.5/PM10,
+    1 pezzo, scritta PMS5003", "interfaccia": "UART", "quantita": 1, "posizione":
+    "B Box", "datasheet_url": "https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual_v2-3.pdf",
+    "note": "Corretta descrizione da ''Ait Quality Sensor'' a Air Quality Sensor;
+    PMS5003 è un sensore laser di particolato con uscita seriale UART."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-rp-c7-6-lt-51
   categoria: sensori
@@ -745,83 +1055,114 @@
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://digilogelectronics.com/wp-content/uploads/2025/09/digilogelectronics-logo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RP-C7.6-LT", "categoria": "sensori", "descrizione": "Force
+    Sensitive Resistor (FSR), sensore di forza resistivo, modello RP-C7.6-LT, range
+    20g-1.5kg, package piatto/lineare; nessuna foto disponibile", "interfaccia": "analogico
+    (resistivo)", "quantita": 1, "posizione": "V Resistor Box", "datasheet_url": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf",
+    "note": "20g to 1.5kg; FSR resistivo analogico; datasheet riferito a DFRobot SEN0298"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-rp-s5-st-52
   categoria: sensori
   codice: RP-s5-ST
   quantita: 1
   descrizione: Force Sensitive Resistor
-  interfaccia: ''
+  interfaccia: analogico
   note: 10g to 1000g
   datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/force-sensitive-resistor-fsr.pdf
   datasheet_last_check: '2026-10-02'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://film-sensor.com/wp-content/uploads/2025/10/RP-S5-ST.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RP-S5-ST", "categoria": "sensori", "descrizione": "Force
+    Sensitive Resistor (FSR), sensore di forza, package piatto/circolare, range 10g-1000g",
+    "interfaccia": "analogico", "quantita": 1, "posizione": "V Resistor Box", "datasheet_url":
+    "https://cdn-learn.adafruit.com/downloads/pdf/force-sensitive-resistor-fsr.pdf",
+    "note": "10g to 1000g"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-shock-53
   categoria: sensori
   codice: Shock
   quantita: 1
   descrizione: Shock Switch
-  interfaccia: ''
-  note: ''
+  interfaccia: SPDT (contatti elettrici)
+  note: 'Riclassificato dalla riga: categoria originale sensori confermata; codice
+    originale ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
+    di rilevamento vibrazioni/shock.'
   datasheet_url: https://www.swann-associates.com/pdf/murphy/VS2.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://images.ctfassets.net/b3qyjbtna6pj/6s4EHioVVa8X0pt5SWA2Ya/02b9c1294a273382bc6367a70b2ff841/APEM-FAQ-92-1536x864.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "VS2", "categoria": "sensori", "descrizione": "Interruttore
+    di shock/vibrazione (Shock Switch) Murphy VS2, quantità 1, package non desumibile
+    dalla riga, scritta leggibile: VS2", "interfaccia": "SPDT (contatti elettrici)",
+    "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://www.swann-associates.com/pdf/murphy/VS2.pdf",
+    "note": "Riclassificato dalla riga: categoria originale sensori confermata; codice
+    originale ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
+    di rilevamento vibrazioni/shock."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-small-sound-54
   categoria: sensori
   codice: Small Sound
   quantita: 2
   descrizione: Microphone
-  interfaccia: ''
-  note: ''
+  interfaccia: wireless
+  note: Codice attuale 'Small Sound' non standard e riclassificato; verificare se
+    accessorio o componente. Categoria sensori per microfono.
   datasheet_url: https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn.mos.cms.futurecdn.net/duaRKvMTHQonkB23LRUEgd-2048-80.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MIC-RESOUND-MINI", "categoria": "sensori", "descrizione":
+    "Microfono remoto/accessorio ReSound Mini Microphone per apparecchi acustici;
+    quantità 2; package non visibile; nessuna scritta leggibile oltre al nome dal
+    datasheet.", "interfaccia": "wireless", "quantita": 2, "posizione": "Sensor Box",
+    "datasheet_url": "https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf",
+    "note": "Codice attuale ''Small Sound'' non standard e riclassificato; verificare
+    se accessorio o componente. Categoria sensori per microfono."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-zmct103c-55
   categoria: sensori
   codice: ZMCT103C
   quantita: 2
   descrizione: Current Sensor/Trnsformer
-  interfaccia: ''
+  interfaccia: analogica
   note: https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/
   datasheet_url: https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.dnatechindia.com/image/cache/catalog/new_images_2020/zmct103c-india-500x500.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ZMCT103C", "categoria": "sensori", "descrizione": "Sensore/trasformatore
+    di corrente AC ZMCT103C, quantità 2, package PCB mount/through-hole; usato per
+    misurare corrente alternata con uscita analogica proporzionale.", "interfaccia":
+    "analogica", "quantita": 2, "posizione": "Sensor Barrel", "datasheet_url": "https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf",
+    "note": "https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-ta12-100-56
   categoria: sensori
   codice: TA12-100
   quantita: 1
   descrizione: Current Sensor
-  interfaccia: ''
+  interfaccia: analogica
   note: https://electronics.stackexchange.com/questions/406959/ta12-100-current-sensor-increase-range
   datasheet_url: https://www.electronicoscaldas.com/datasheet/TA12-TA12L-Series_YHDC.pdf
   datasheet_last_check: '2026-10-02'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.dnatechindia.com/image/cache/catalog/3735-500x500.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TA12-100", "categoria": "sensori", "descrizione": "Sensore/trasformatore
+    di corrente AC TA12-100, package PCB mount, rapporto 1000:1, portata tipica 5A,
+    uscita analogica; quantità 1.", "interfaccia": "analogica", "quantita": 1, "posizione":
+    "", "datasheet_url": "https://www.electronicoscaldas.com/datasheet/TA12-TA12L-Series_YHDC.pdf",
+    "note": "https://electronics.stackexchange.com/questions/406959/ta12-100-current-sensor-increase-range"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-tap-module-57
   categoria: sensori
@@ -829,74 +1170,100 @@
   quantita: 1
   descrizione: Tao Module
   interfaccia: ''
-  note: ''
+  note: Categoria originale 'sensori' mantenuta; probabile refuso Tap/Tao nel codice
+    e nella descrizione. Nessuna foto disponibile.
   datasheet_url: https://taphome.com/en/datasheets/
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://arduinomodules.info/wp-content/uploads/KY-031_knock_sensor_module.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TAP Module", "categoria": "sensori", "descrizione": "Modulo
+    TAP (Tao Module), quantità 1, package non specificato, scritte leggibili: ''Tap
+    Module'' / ''Tao Module''. Possibile sensore/modulo per sistema TAP Home.", "interfaccia":
+    "", "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://taphome.com/en/datasheets/",
+    "note": "Categoria originale ''sensori'' mantenuta; probabile refuso Tap/Tao nel
+    codice e nella descrizione. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-tds-ntc-58
   categoria: sensori
   codice: TDS + NTC
   quantita: 1
   descrizione: Conducibilità + Temperatura
-  interfaccia: ''
+  interfaccia: analogica
   note: Sonda manca controller TDS. NTC da 10K
   datasheet_url: https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf
   datasheet_last_check: '2026-10-02'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.ametherm.com/wp-content/uploads/2024/01/NTC-and-RTD.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TDS+NTC-10K", "categoria": "sensori", "descrizione": "Sonda
+    combinata TDS + NTC 10K per misura di conducibilità e temperatura; quantità 1;
+    package tipo sonda/elettrodo; scritte non leggibili perché nessuna foto disponibile.",
+    "interfaccia": "analogica", "quantita": 1, "posizione": "A Box", "datasheet_url":
+    "https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf",
+    "note": "Sonda manca controller TDS. NTC da 10K. Datasheet fornito riferito a
+    termistori TCS, non specifico per la parte TDS."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-temt6000-59
   categoria: sensori
   codice: TEMT6000
   quantita: 5
   descrizione: Ambient Light Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: analogica
+  note: Riclassificato dalla riga inventario; categoria sensori confermata
   datasheet_url: https://www.vishay.com/docs/81579/temt6000.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/0/8/08688-01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TEMT6000", "categoria": "sensori", "descrizione": "Sensore
+    di luce ambientale TEMT6000, package SMD 4 pin, quantità 5, nessuna foto disponibile",
+    "interfaccia": "analogica", "quantita": 5, "posizione": "Sensor Box", "datasheet_url":
+    "https://www.vishay.com/docs/81579/temt6000.pdf", "note": "Riclassificato dalla
+    riga inventario; categoria sensori confermata"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-tilt-switch-60
   categoria: sensori
   codice: Tilt Switch
   quantita: 1
   descrizione: Tilt Switch
-  interfaccia: ''
-  note: ''
+  interfaccia: digitale
+  note: Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
+    sensori confermata; codice ipotizzato ETS-Tilt-Switch dal datasheet.
   datasheet_url: https://www.leveldevelopments.com/wp/wp-content/uploads/documents/ETS-Tilt-Switch.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sunfounder.com/cdn/shop/products/sunfounder-default-title-tilt-switch-module-11144022229153_600x600_crop_center.jpg?v=1768447335
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ETS-Tilt-Switch", "categoria": "sensori", "descrizione":
+    "Tilt Switch, sensore/switch di inclinazione; quantità 1; package e scritte non
+    visibili (nessuna foto disponibile); posizione Sensor Box.", "interfaccia": "digitale",
+    "quantita": 1, "posizione": "Sensor Box", "datasheet_url": "https://www.leveldevelopments.com/wp/wp-content/uploads/documents/ETS-Tilt-Switch.pdf",
+    "note": "Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
+    sensori confermata; codice ipotizzato ETS-Tilt-Switch dal datasheet."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-tmb12a05-61
   categoria: sensori
   codice: TMB12A05
   quantita: 3
   descrizione: Buzzer
-  interfaccia: ''
-  note: ''
+  interfaccia: 2 pin
+  note: 'Riclassificato da sensori a componenti: TMB12A05 è un buzzer, non un sensore.'
   datasheet_url: https://www.javanelec.com/stfiles/getappdocument/1/true/7d2107c2-4d68-41ec-be98-ad927a83c466.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://global.discourse-cdn.com/digikey/original/3X/1/d/1d1ba24fe0a949837be43b7fc86233f986d85375.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "TMB12A05", "categoria": "componenti", "descrizione": "Buzzer
+    attivo 5V TMB12A05, package cilindrico circa 12mm, 2 pin, quantità 3 pz", "interfaccia":
+    "2 pin", "quantita": 3, "posizione": "Sensor Box", "datasheet_url": "https://www.javanelec.com/stfiles/getappdocument/1/true/7d2107c2-4d68-41ec-be98-ad927a83c466.pdf",
+    "note": "Riclassificato da sensori a componenti: TMB12A05 è un buzzer, non un
+    sensore."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-veml-6040-62
   categoria: sensori
@@ -904,14 +1271,19 @@
   quantita: 2
   descrizione: Sensore di colore RGBW RGB
   interfaccia: I2C
-  note: ''
+  note: Codice corretto da 'VEML 6040' a 'VEML6040'; categoria 'sensori' confermata;
+    sensore RGBW con uscita digitale I2C.
   datasheet_url: https://www.vishay.com/docs/84276/veml6040.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://hackmakemod.com/cdn/shop/files/96_5ec7949a-687e-42fb-a864-ff19d02e5201.png?v=1778101737
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "VEML6040", "categoria": "sensori", "descrizione": "Sensore
+    di colore RGBW Vishay VEML6040, package SMD, interfaccia I2C, quantità 2", "interfaccia":
+    "I2C", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://www.vishay.com/docs/84276/veml6040.pdf",
+    "note": "Codice corretto da ''VEML 6040'' a ''VEML6040''; categoria ''sensori''
+    confermata; sensore RGBW con uscita digitale I2C."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-vl53ldk-63
   categoria: sensori
@@ -919,14 +1291,21 @@
   quantita: 2
   descrizione: TOF Ranging
   interfaccia: I2C
-  note: ''
+  note: Codice attuale 'VL53LDK' corretto in VL53L0X (probabile refuso). Il datasheet
+    indicato è per il breakout Adafruit VL53L0X.
   datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "VL53L0X", "categoria": "sensori", "descrizione": "Sensore
+    ToF (Time-of-Flight) VL53L0X, modulo breakout Adafruit, 2 pezzi, package modulo
+    breakout con header, interfaccia I2C. Scritte leggibili non disponibili (nessuna
+    foto); dal datasheet risulta VL53L0X.", "interfaccia": "I2C", "quantita": 2, "posizione":
+    "Sensor Box", "datasheet_url": "https://cdn-learn.adafruit.com/downloads/pdf/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout.pdf",
+    "note": "Codice attuale ''VL53LDK'' corretto in VL53L0X (probabile refuso). Il
+    datasheet indicato è per il breakout Adafruit VL53L0X."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-vl6180x-64
   categoria: sensori
@@ -934,29 +1313,41 @@
   quantita: 2
   descrizione: LIDAR
   interfaccia: I2C
-  note: ''
+  note: 'Riclassificato: VL6180X è un sensore ToF di prossimità/luce ambientale, non
+    un LIDAR. Categoria corretta: sensori. Interfaccia I2C confermata.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/DM00112632.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/520/medium800/VL6180_top.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "VL6180X", "categoria": "sensori", "descrizione": "Sensore
+    di prossimità Time-of-Flight e luce ambientale VL6180X; quantità 2; package non
+    specificato; nessuna foto disponibile; scritta leggibile: VL6180X.", "interfaccia":
+    "I2C", "quantita": 2, "posizione": "Sensor Box", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Sensors/Proximity/DM00112632.pdf",
+    "note": "Riclassificato: VL6180X è un sensore ToF di prossimità/luce ambientale,
+    non un LIDAR. Categoria corretta: sensori. Interfaccia I2C confermata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-wcmcu-65
   categoria: sensori
   codice: WCMCU
   quantita: 2
   descrizione: IR SPEED SENSOR
-  interfaccia: ''
-  note: ''
+  interfaccia: Digitale (DO)
+  note: Codice inventario WCMCU; possibile modulo compatibile FC-03/LM393. Sensore
+    a forca ottica per rilevamento velocità/rotazione.
   datasheet_url: https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html
   datasheet_last_check: '2026-10-02'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "WCMCU", "categoria": "sensori", "descrizione": "Modulo
+    sensore di velocità a infrarossi (IR speed sensor), package modulo PCB, quantità
+    2, scritta WCMCU.", "interfaccia": "Digitale (DO)", "quantita": 2, "posizione":
+    "Sensor Box", "datasheet_url": "https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html",
+    "note": "Codice inventario WCMCU; possibile modulo compatibile FC-03/LM393. Sensore
+    a forca ottica per rilevamento velocità/rotazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-xfw-hx711-66
   categoria: sensori
@@ -970,8 +1361,14 @@
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/3/13879-SparkFun_Load_Cell_Amplifier_-_HX711-01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HX711", "categoria": "ic-components", "descrizione": "2
+    IC HX711, convertitore ADC 24-bit per celle di carico/bilance, package SOP-16,
+    scritte leggibili: HX711. Non è un sensore ma un IC di condizionamento/amplificazione.",
+    "interfaccia": "seriale a 2 fili (DOUT/PD_SCK)", "quantita": 2, "posizione": "Sensor
+    Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Sensors/ForceFlex/hx711_english.pdf",
+    "note": "2 IC presenti, ma nessun sensore/cella di carico; la categoria originale
+    ''sensori'' è errata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-xkc-y25-npn-67
   categoria: sensori
@@ -979,29 +1376,39 @@
   quantita: 1
   descrizione: Level Sensor
   interfaccia: NPN
-  note: ''
+  note: Categoria sensori confermata; codice e interfaccia coerenti con sensore di
+    livello XKC-Y25-NPN.
   datasheet_url: https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf
   datasheet_last_check: '2026-10-02'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.ram-e-shop.com/web/image/product.template/8131/image_1024?unique=f7f3331
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "XKC-Y25-NPN", "categoria": "sensori", "descrizione": "Sensore
+    di livello liquido senza contatto XKC-Y25-NPN, 1 pezzo, uscita NPN; nessuna foto
+    disponibile.", "interfaccia": "NPN", "quantita": 1, "posizione": "B Box", "datasheet_url":
+    "https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf", "note":
+    "Categoria sensori confermata; codice e interfaccia coerenti con sensore di livello
+    XKC-Y25-NPN."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-yf-s401-68
   categoria: sensori
   codice: YF-S401
   quantita: 1
   descrizione: Flow Sensor
-  interfaccia: ''
-  note: ''
+  interfaccia: digitale a impulsi, 3 fili (VCC, GND, segnale)
+  note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.rajguruelectronics.com/Product/1669/YF-S401%20PVC%20Water%20Flow%20Hall%20Sensor.pdf
   datasheet_last_check: '2026-10-02'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://einstronic.com/wp-content/uploads/2020/10/YF-S401-Water-Flow-Rate-Sensor-Module-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "YF-S401", "categoria": "sensori", "descrizione": "Sensore
+    di flusso acqua YF-S401 a effetto Hall, 1 pezzo, modulo con corpo plastico e attacco
+    filettato, scritta leggibile YF-S401", "interfaccia": "digitale a impulsi, 3 fili
+    (VCC, GND, segnale)", "quantita": 1, "posizione": "A Box", "datasheet_url": "https://www.rajguruelectronics.com/Product/1669/YF-S401%20PVC%20Water%20Flow%20Hall%20Sensor.pdf",
+    "note": "Riclassificato dalla riga inventario; nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-cjmcu-811-69
   categoria: sensori
@@ -1015,23 +1422,36 @@
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://image.made-in-china.com/2f0j00syNWliEFygbn/CCS811-Gas-Sensor-Module-CO2-Eco2-Tvoc-Air-Quality-Detection-I2c-Output-Cjmcu-811-Carbon-Dioxide-Detection-Sensor-Module-Stocked.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "CJMCU-811", "categoria": "sensori", "descrizione": "Modulo
+    sensore qualità aria basato su CCS811 per misura eCO2 e TVOC, package modulo breakout
+    PCB, interfaccia I2C; nessuna foto disponibile per verificare scritte/quantità
+    visibile", "interfaccia": "I2C", "quantita": 1, "posizione": "Sensor Barrel",
+    "datasheet_url": "https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf",
+    "note": "CCS811"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-na-70
   categoria: sensori
-  codice: ''
+  codice: MAGNETIC-WINDOW-SWITCH
   quantita: 1
   descrizione: Magnetic Window switch
-  interfaccia: ''
-  note: ''
+  interfaccia: contatto magnetico reed NC/NO, 2 fili
+  note: 'Categoria confermata: sensori. Codice ipotizzato dalla descrizione; verificare
+    part number e configurazione contatto (NO/NC) sul componente fisico.'
   datasheet_url: https://probots.co.in/technical_data/LockIT%20Magnetic%20Door%20Sensors%20Datasheet.pdf
   datasheet_last_check: '2026-10-02'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721162053/CKN6004-900.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MAGNETIC-WINDOW-SWITCH", "categoria": "sensori", "descrizione":
+    "Sensore magnetico per finestre/porte (Magnetic Window switch), tipo contatto
+    reed con magnete separato. Nessuna foto disponibile; dai campi non risultano package
+    o scritte leggibili. Quantità visibile/indicata: 1.", "interfaccia": "contatto
+    magnetico reed NC/NO, 2 fili", "quantita": 1, "posizione": "B Box", "datasheet_url":
+    "https://probots.co.in/technical_data/LockIT%20Magnetic%20Door%20Sensors%20Datasheet.pdf",
+    "note": "Categoria confermata: sensori. Codice ipotizzato dalla descrizione; verificare
+    part number e configurazione contatto (NO/NC) sul componente fisico."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: sensori-aj-sr04m-71
   categoria: sensori
@@ -1039,19 +1459,25 @@
   quantita: 1
   descrizione: Waterproof Ultrasonic Sensor AJ-SR04M
   interfaccia: SERIAL
-  note: ''
+  note: 'Categoria corretta: sensori. Interfaccia tipica trigger/echo (compatibile
+    HC-SR04); alcune versioni supportano UART/serial. Codice e descrizione confermati.'
   datasheet_url: https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/
   datasheet_last_check: '2026-10-02'
   posizione: B Box
   foto_drive_id: ''
   foto_url: http://openelab.io/cdn/shop/files/2_afe85717-4a9a-4818-9223-0a1d2fb7031e.webp?v=1758533769
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "AJ-SR04M", "categoria": "sensori", "descrizione": "Sensore
+    a ultrasuoni impermeabile AJ-SR04M (JSN-SR04T), modulo con trasduttore, package
+    scheda con 4 pin, scritta AJ-SR04M; quantità 1", "interfaccia": "TRIG/ECHO", "quantita":
+    1, "posizione": "B Box", "datasheet_url": "https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/",
+    "note": "Categoria corretta: sensori. Interfaccia tipica trigger/echo (compatibile
+    HC-SR04); alcune versioni supportano UART/serial. Codice e descrizione confermati."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: na-na-4
   categoria: sensori
   codice: DS18B20
-  quantita: 1
+  quantita: 8
   descrizione: 'Sensore di temperatura DS18B20 impermeabile in busta plastica trasparente
     con etichetta ''Kzhu-1Mxian''. Sonda in acciaio inox con cavo da 1 m e 3 fili
     (giallo, rosso, nero). Etichetta leggibile: ''DS18B20 Temperature Sensor Module

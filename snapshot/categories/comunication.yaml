@@ -1,22 +1,28 @@
 - id: comunication-antenna-2-4g-72
   categoria: comunication
   codice: Antenna 2.4G
-  quantita: 4
+  quantita: 21
   descrizione: Plain Antenna 5dB
   interfaccia: Mini IPEX
-  note: ''
+  note: Riclassificato dalla riga inventario; nessuna foto. Codice ipotizzato da descrizione/campo
+    originale, categoria confermata comunication.
   datasheet_url: https://www.farnell.com/datasheets/4393752.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://cdn11.bigcommerce.com/s-blpsc02m/products/703/images/8899/Antena_Data_Alliance_1_1500x1500__34887.1790277414.220.220.png?c=2
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ANT-2.4G-5DBI-IPEX", "categoria": "comunication", "descrizione":
+    "Antenna 2.4 GHz 5 dB, connettore Mini IPEX; quantità 4; package non visibile;
+    nessuna foto disponibile", "interfaccia": "Mini IPEX", "quantita": 4, "posizione":
+    "Antenna Barrel", "datasheet_url": "https://www.farnell.com/datasheets/4393752.pdf",
+    "note": "Riclassificato dalla riga inventario; nessuna foto. Codice ipotizzato
+    da descrizione/campo originale, categoria confermata comunication."}'
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-antenna-2-4g-73
   categoria: comunication
   codice: Antenna 2.4G
-  quantita: 5
+  quantita: 17
   descrizione: Plain Antenna 8dB
   interfaccia: Mini IPEX
   note: ''
@@ -26,37 +32,49 @@
   foto_drive_id: ''
   foto_url: https://hwayaotek.com.tw/images/be035.jpg
   ai_proposta: ''
-  ai_stato: ''
+  ai_stato: confermato
   updated_at: ''
 - id: comunication-antenna-2-4g-74
   categoria: comunication
   codice: Antenna 2.4G
-  quantita: 7
+  quantita: 22
   descrizione: Antenna
   interfaccia: IPEX
-  note: ''
+  note: Riclassificata come comunicazione/antenna. Il datasheet fornito si riferisce
+    a una antenna airMAX Omni; verificare corrispondenza con il connettore IPEX indicato.
   datasheet_url: https://dl.ubnt.com/datasheets/airmaxomni/amo_ds_web.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/2308-02.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"categoria": "comunication", "codice": "ANT-2.4G-IPEX", "descrizione":
+    "Antenna 2.4G con connettore IPEX, quantità 7, posizione Antenna Barrel; package
+    non visibile.", "interfaccia": "IPEX", "quantita": 7, "posizione": "Antenna Barrel",
+    "datasheet_url": "https://dl.ubnt.com/datasheets/airmaxomni/amo_ds_web.pdf", "note":
+    "Riclassificata come comunicazione/antenna. Il datasheet fornito si riferisce
+    a una antenna airMAX Omni; verificare corrispondenza con il connettore IPEX indicato."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-antenna-433mhz-75
   categoria: comunication
   codice: Antenna 433Mhz
   quantita: 10
   descrizione: Attorcigliata
-  interfaccia: ''
-  note: ''
+  interfaccia: RF
+  note: Riclassificata dalla riga inventario; categoria 'comunication' mantenuta,
+    codice corretto in Antenna 433MHz e quantità confermata. Nessuna foto disponibile.
   datasheet_url: https://www.farnell.com/datasheets/1669554.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/4394-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "Antenna 433MHz", "categoria": "comunication", "descrizione":
+    "Antenna elicoidale/attorcigliata per 433 MHz, quantità 10, package non visibile,
+    scritta dedotta dal codice: 433MHz.", "interfaccia": "RF", "quantita": 10, "posizione":
+    "Antenna Barrel", "datasheet_url": "https://www.farnell.com/datasheets/1669554.pdf",
+    "note": "Riclassificata dalla riga inventario; categoria ''comunication'' mantenuta,
+    codice corretto in Antenna 433MHz e quantità confermata. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-bte19-05-76
   categoria: comunication
@@ -64,14 +82,18 @@
   quantita: 5
   descrizione: USB -> TTL
   interfaccia: CH340N
-  note: ''
+  note: Riclassificato dalla riga inventario; codice interno BTE19-05.
   datasheet_url: https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf
   datasheet_last_check: '2026-10-02'
   posizione: Program Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/2/12977-00.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "BTE19-05", "categoria": "comunication", "descrizione":
+    "Modulo convertitore USB -> TTL basato su CH340N; quantita 5 pezzi; package non
+    indicato; nessuna foto disponibile.", "interfaccia": "USB / UART (CH340N)", "quantita":
+    5, "posizione": "Program Box", "datasheet_url": "https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf",
+    "note": "Riclassificato dalla riga inventario; codice interno BTE19-05."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-enc28j60-77
   categoria: comunication
@@ -79,59 +101,84 @@
   quantita: 1
   descrizione: ETH Adapter
   interfaccia: '?'
-  note: ''
+  note: ENC28J60 è un controller Ethernet 10Base-T con interfaccia SPI, tipicamente
+    usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione.
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "ENC28J60", "categoria": "comunication", "descrizione":
+    "Nessuna foto disponibile. Dai campi risulta un adattatore Ethernet basato su
+    ENC28J60; quantità 1; package non visibile; scritte leggibili desumibili: ENC28J60,
+    ETH Adapter.", "interfaccia": "SPI", "quantita": 1, "posizione": "Io Barrel",
+    "datasheet_url": "https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf",
+    "note": "ENC28J60 è un controller Ethernet 10Base-T con interfaccia SPI, tipicamente
+    usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-hc-05-78
   categoria: comunication
   codice: HC-05
   quantita: 1
   descrizione: Bluetooth
-  interfaccia: ''
-  note: ''
+  interfaccia: UART / Serial TTL
+  note: 'Nessuna foto disponibile: riclassificato leggendo i campi della riga inventario.
+    Categoria comunication confermata per modulo Bluetooth.'
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.electronicwings.com/storage/PlatformSection/TopicContent/118/description/1_HC-05_Bluetooth_Module.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HC-05", "categoria": "comunication", "descrizione": "Modulo
+    Bluetooth HC-05 per comunicazione seriale wireless, con breakout e pin header;
+    quantità 1; package modulo HC-05.", "interfaccia": "UART / Serial TTL", "quantita":
+    1, "posizione": "Io Barrel", "datasheet_url": "https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf",
+    "note": "Nessuna foto disponibile: riclassificato leggendo i campi della riga
+    inventario. Categoria comunication confermata per modulo Bluetooth."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-hc-06-79
   categoria: comunication
   codice: HC-06
   quantita: 1
   descrizione: Bluetooth Slave
-  interfaccia: ''
-  note: ''
+  interfaccia: UART seriale
+  note: 'Riclassificato: HC-06 è modulo di comunicazione Bluetooth seriale slave;
+    categoria corretta comunication.'
   datasheet_url: https://www.utmel.com/components/hc-06-bluetooth-module-pinout-datasheet-pdf-and-arduino-connection?id=884
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/08/hc-06-4pin-bluetooth-module-slave-no-button-800x800-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HC-06", "categoria": "comunication", "descrizione": "Modulo
+    Bluetooth HC-06 slave, interfaccia seriale UART, package modulo breakout, quantita
+    1; nessuna foto disponibile, dati letti dalla riga inventario.", "interfaccia":
+    "UART seriale", "quantita": 1, "posizione": "Io Barrel", "datasheet_url": "https://www.utmel.com/components/hc-06-bluetooth-module-pinout-datasheet-pdf-and-arduino-connection?id=884",
+    "note": "Riclassificato: HC-06 è modulo di comunicazione Bluetooth seriale slave;
+    categoria corretta comunication."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-hw-244-80
   categoria: comunication
   codice: HW-244
   quantita: 1
   descrizione: USB Host 2.0
-  interfaccia: ''
-  note: ''
+  interfaccia: USB 2.0 Host, SPI
+  note: Riclassificato da riga inventario senza foto. HW-244 compatibile con USB Host
+    Shield 2.0 per Arduino; categoria impostata su comunication.
   datasheet_url: https://www.hestore.hu/prod_getfile.php?id=16097&srsltid=AU7gw4V22QROJ_Q0a2Fg2_8_W_rcT5jVokWWtkxGGtqx61ZxCg9vmTI_
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://x2robotics.ca/image/cache/catalog/Products/0800/0826-228x228.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "HW-244", "categoria": "comunication", "descrizione": "Modulo
+    USB Host 2.0 / USB Host Shield 2.0, quantità 1, package shield Arduino, chip MAX3421E,
+    scritta HW-244", "interfaccia": "USB 2.0 Host, SPI", "quantita": 1, "posizione":
+    "Io Barrel", "datasheet_url": "https://www.hestore.hu/prod_getfile.php?id=16097&srsltid=AU7gw4V22QROJ_Q0a2Fg2_8_W_rcT5jVokWWtkxGGtqx61ZxCg9vmTI_",
+    "note": "Riclassificato da riga inventario senza foto. HW-244 compatibile con
+    USB Host Shield 2.0 per Arduino; categoria impostata su comunication."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-lan8720-81
   categoria: comunication
@@ -145,8 +192,13 @@
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: http://keszoox.com/cdn/shop/files/lan8720-ethernet-transceiver-rmii-arduino-board.webp?v=1761806434
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "LAN8720", "categoria": "comunication", "descrizione":
+    "Nessuna foto disponibile; dalla riga inventario risulta un ETH Adapter con codice
+    LAN8720, quantità 1. Componente Ethernet PHY/transceiver 10/100 Mbps, probabilmente
+    modulo o IC in package QFN24; scritta attesa: LAN8720.", "interfaccia": "RMII
+    / MDIO-MDC (Ethernet 10/100 Mbps)", "quantita": 1, "posizione": "Io Barrel", "datasheet_url":
+    "https://ww1.microchip.com/downloads/en/devicedoc/00002165b.pdf", "note": "https://sautter.com/blog/ethernet-on-esp32-using-lan8720/"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-mcp2515-82
   categoria: comunication
@@ -154,14 +206,22 @@
   quantita: 2
   descrizione: CAN BUS MODULE
   interfaccia: TTL
-  note: ''
+  note: 'Categoria corretta in comunicazione. Interfaccia corretta da TTL a SPI: MCP2515
+    è controller CAN stand-alone con interfaccia SPI. Verificare se il modulo include
+    anche transceiver CAN.'
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/c/a/can_module_mcp2515.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "MCP2515", "categoria": "comunication", "descrizione":
+    "Modulo CAN bus basato su controller MCP2515; riga inventario ''CAN BUS MODULE'',
+    2 unità, package modulo non specificato, nessuna foto disponibile.", "interfaccia":
+    "SPI", "quantita": 2, "posizione": "Io Barrel", "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf",
+    "note": "Categoria corretta in comunicazione. Interfaccia corretta da TTL a SPI:
+    MCP2515 è controller CAN stand-alone con interfaccia SPI. Verificare se il modulo
+    include anche transceiver CAN."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-nfr24-83
   categoria: comunication
@@ -175,8 +235,12 @@
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "nRF24L01", "categoria": "comunication", "descrizione":
+    "Modulo transceiver 2.4GHz nRF24L01, package modulo, interfaccia SPI, connettore
+    antenna IPEX; quantità 6", "interfaccia": "SPI", "quantita": 6, "posizione": "Io
+    Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
+    "note": "Antenna IPEX; codice originale riga: nFR24"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-nfr24-84
   categoria: comunication
@@ -190,8 +254,12 @@
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://s.yimg.com/cv/apiv2/cv/apiv2/social/images/yahoo-finance-default-logo.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "nRF24L01+", "categoria": "comunication", "descrizione":
+    "Modulo transceiver 2.4GHz nRF24L01+ con antenna interna, interfaccia SPI. Package:
+    modulo PCB. Scritte leggibili: nRF24L01+, 2.4GHz. Quantità: 4.", "interfaccia":
+    "SPI", "quantita": 4, "posizione": "Io Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
+    "note": "Antenna interna"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-nfr24-adapter-85
   categoria: comunication
@@ -199,44 +267,64 @@
   quantita: 2
   descrizione: Adapter
   interfaccia: SPI
-  note: ''
+  note: 'Riclassificato dalla riga: categoria confermata come comunicazione; codice
+    corretto da ''nFR24 Adapter'' a ''nRF24 Adapter''; datasheet riferito al modulo
+    nRF24L01, non specifico per l''adattatore.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.electromaker.io/images/icons/twitter-footer-logo-2025.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "nRF24 Adapter", "categoria": "comunication", "descrizione":
+    "Adattatore per modulo nRF24L01, interfaccia SPI, quantità 2", "interfaccia":
+    "SPI", "quantita": 2, "posizione": "Io Barrel", "datasheet_url": "https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf",
+    "note": "Riclassificato dalla riga: categoria confermata come comunicazione; codice
+    corretto da ''nFR24 Adapter'' a ''nRF24 Adapter''; datasheet riferito al modulo
+    nRF24L01, non specifico per l''adattatore."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-rf96-86
   categoria: comunication
   codice: RF96
   quantita: 1
   descrizione: 433Mhz Rx+Tx
-  interfaccia: ''
-  note: ''
+  interfaccia: RF 433MHz
+  note: 'Riclassificato dalla riga inventario: categoria communication confermata;
+    quantità default 1.'
   datasheet_url: https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://media.mikroelectron.com/27096/conversions/8PGvJu1pSCq0EgbdioRV8tNBqvZLU57drxwAr1Ht-og.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RF96", "categoria": "comunication", "descrizione": "Modulo
+    ricetrasmettitore RF 433MHz Rx+Tx, coppia trasmettitore + ricevitore, package
+    modulo, indicazione 433MHz; nessuna foto disponibile", "interfaccia": "RF 433MHz",
+    "quantita": 1, "posizione": "Io Barrel", "datasheet_url": "https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf",
+    "note": "Riclassificato dalla riga inventario: categoria communication confermata;
+    quantità default 1."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-rf98-87
   categoria: comunication
   codice: RF98
   quantita: 3
   descrizione: 433Mhz Rx+Tx
-  interfaccia: ''
-  note: ''
+  interfaccia: RF 433 MHz wireless
+  note: Riclassificato dalla riga inventario senza foto. Categoria confermata comunication.
+    Codice RF98 mantenuto come da inventario; descrizione ampliata con tipo e quantità.
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_101229_433mhz_rf_transmitter_and_receiver-3532571.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://media.mikroelectron.com/27096/conversions/8PGvJu1pSCq0EgbdioRV8tNBqvZLU57drxwAr1Ht-og.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "RF98", "categoria": "comunication", "descrizione": "Modulo
+    RF 433MHz trasmettitore + ricevitore (Rx+Tx), quantità 3, package non visibile,
+    nessuna scritta leggibile (nessuna foto disponibile).", "interfaccia": "RF 433
+    MHz wireless", "quantita": 3, "posizione": "Io Barrel", "datasheet_url": "https://www.mouser.com/datasheet/2/1398/Soldered_101229_433mhz_rf_transmitter_and_receiver-3532571.pdf",
+    "note": "Riclassificato dalla riga inventario senza foto. Categoria confermata
+    comunication. Codice RF98 mantenuto come da inventario; descrizione ampliata con
+    tipo e quantità."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-sn65hvd230-88
   categoria: comunication
@@ -244,14 +332,20 @@
   quantita: 3
   descrizione: CAN BUS Commutator
   interfaccia: CAN
-  note: ''
+  note: 'Riclassificato: SN65HVD230 è un transceiver CAN 3.3V in SOIC-8, non un commutatore.
+    Categoria corretta in ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1640328008103&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://seengreat.com/upload/p/202504/1745627202b.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SN65HVD230", "categoria": "ic-components", "descrizione":
+    "IC transceiver CAN SN65HVD230, 3.3V, package SOIC-8, quantità 3, scritta SN65HVD230",
+    "interfaccia": "CAN", "quantita": 3, "posizione": "Io Barrel", "datasheet_url":
+    "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1640328008103&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230",
+    "note": "Riclassificato: SN65HVD230 è un transceiver CAN 3.3V in SOIC-8, non un
+    commutatore. Categoria corretta in ic-components."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-sn65hvd239-89
   categoria: comunication
@@ -259,14 +353,22 @@
   quantita: 3
   descrizione: CAN BUS MODULE
   interfaccia: TTL
-  note: ''
+  note: Riclassificato da comunication a ic-components in base al codice SN65HVD239,
+    transceiver CAN. Descrizione originale 'CAN BUS MODULE' suggerisce modulo CAN
+    basato su questo IC. Nessuna foto disponibile.
   datasheet_url: https://docs.rs-online.com/a748/A700000007028912.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://electropeak.com/media/catalog/product/cache/fd3007d55266f7276c10ebf7f3da2215/c/o/com-05-041-new-1.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SN65HVD239", "categoria": "ic-components", "descrizione":
+    "Transceiver CAN bus SN65HVD239, 3 pezzi, package non visibile, scritte leggibili:
+    SN65HVD239, CAN BUS MODULE, TTL", "interfaccia": "TTL", "quantita": 3, "posizione":
+    "Io Barrel", "datasheet_url": "https://docs.rs-online.com/a748/A700000007028912.pdf",
+    "note": "Riclassificato da comunication a ic-components in base al codice SN65HVD239,
+    transceiver CAN. Descrizione originale ''CAN BUS MODULE'' suggerisce modulo CAN
+    basato su questo IC. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-srx882-90
   categoria: comunication
@@ -274,14 +376,20 @@
   quantita: 1
   descrizione: 433Mhz ASK Rx
   interfaccia: Con antenna
-  note: ''
+  note: Modulo di comunicazione RF 433MHz ASK; riclassificato dai campi della riga,
+    nessuna foto disponibile
   datasheet_url: https://www.scribd.com/document/718639676/srx882
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://chiptronicx.b-cdn.net/wp-content/uploads/2024/08/433MHz-100-Meters-STX882-ASK-Transmitter-Module-SRX882-Receiver-Module-000.webp
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "SRX882", "categoria": "comunication", "descrizione": "Modulo
+    ricevitore RF 433MHz ASK/OOK SRX882, quantità 1, package non specificato, scritta
+    leggibile SRX882", "interfaccia": "Con antenna", "quantita": 1, "posizione": "Io
+    Barrel", "datasheet_url": "https://www.scribd.com/document/718639676/srx882",
+    "note": "Modulo di comunicazione RF 433MHz ASK; riclassificato dai campi della
+    riga, nessuna foto disponibile"}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-stx882-91
   categoria: comunication
@@ -289,14 +397,20 @@
   quantita: 1
   descrizione: 433Mhz ASK Tx
   interfaccia: Con antenna
-  note: ''
+  note: Riclassificato dalla riga inventario; categoria corretta in comunication.
+    STX882 risulta un trasmettitore RF ASK 433MHz. Nessuna foto disponibile.
   datasheet_url: https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://c1.neweggimages.com/ProductImageCompressAll1280/C5UED26042513FNE806.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "STX882", "categoria": "comunication", "descrizione": "Modulo
+    trasmettitore RF ASK 433MHz, package modulo, scritta STX882, 1 pezzo", "interfaccia":
+    "RF 433MHz ASK, con antenna", "quantita": 1, "posizione": "Io Barrel", "datasheet_url":
+    "https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf", "note": "Riclassificato
+    dalla riga inventario; categoria corretta in comunication. STX882 risulta un trasmettitore
+    RF ASK 433MHz. Nessuna foto disponibile."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-w5500-92
   categoria: comunication
@@ -304,14 +418,20 @@
   quantita: 1
   descrizione: ETH Adapter
   interfaccia: SPI
-  note: ''
+  note: Riclassificato come componente di comunicazione Ethernet; codice W5500 confermato
+    dai campi.
   datasheet_url: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://lectronz-images.b-cdn.net/lectronz/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0MTUsInB1ciI6ImJsb2JfaWQifX0=--3466abd8dc95d26d8f52e8e74b3a0ab4988de044/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2xpbWl0IjpbNjQwLG51bGxdLCJzYXZlciI6eyJzYXZlciI6ImpwZWciLCJRIjo5MCwic3RyaXAiOnRydWV9fSwicHVyIjoidmFyaWF0aW9uIn19--746e2d4375972e82a11ea47d1ec12203cd2c035e/DSC_0025.jpeg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "W5500", "categoria": "comunication", "descrizione": "Adattatore/modulo
+    Ethernet basato su W5500, interfaccia SPI; nessuna foto disponibile, package non
+    visibile.", "interfaccia": "SPI", "quantita": 1, "posizione": "Io Barrel", "datasheet_url":
+    "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf",
+    "note": "Riclassificato come componente di comunicazione Ethernet; codice W5500
+    confermato dai campi."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-wl101-341-93
   categoria: comunication
@@ -319,29 +439,44 @@
   quantita: 3
   descrizione: 433Mhz Rx+Tx
   interfaccia: '2 schede     Antenne - Small TX'
-  note: ''
+  note: Riclassificato dalla riga inventario, nessuna foto. Modulo RF 433MHz Rx+Tx,
+    probabilmente coppia trasmettitore/ricevitore con antenna. Verificare se quantità
+    3 indica kit completi o pezzi singoli.
   datasheet_url: https://michiel.vanderwulp.be/domotica/Modules/RF-433Mhz-transmitter-receiver/
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.lyonscomputer.com.au/Electronic-Modules/WL101-341-443Mhz-Modules/images/433Mhz-Modules-01.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "WL101-341", "categoria": "comunication", "descrizione":
+    "Dai campi: modulo RF 433MHz trasmettitore + ricevitore (Rx+Tx), 2 schede con
+    antenna, TX small; scritta leggibile WL101-341. Quantità a inventario: 3 pezzi.",
+    "interfaccia": "RF 433MHz; 2 schede con antenna (TX small)", "quantita": 3, "posizione":
+    "Io Barrel", "datasheet_url": "https://michiel.vanderwulp.be/domotica/Modules/RF-433Mhz-transmitter-receiver/",
+    "note": "Riclassificato dalla riga inventario, nessuna foto. Modulo RF 433MHz
+    Rx+Tx, probabilmente coppia trasmettitore/ricevitore con antenna. Verificare se
+    quantità 3 indica kit completi o pezzi singoli."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-wlc-tx1-94
   categoria: comunication
   codice: WLC-TX1
   quantita: 3
   descrizione: 433Mhz ASK Tx
-  interfaccia: ''
-  note: ''
+  interfaccia: 3 pin (VCC, GND, DATA) - 433MHz ASK
+  note: Riclassificato da riga inventario; nessuna foto. Categoria corretta in comunication.
+    Codice WLC-TX1 mantenuto; modello TX1. Interfaccia ipotizzata.
   datasheet_url: https://www.scribd.com/document/1033295124/TX1
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://circuitdigest.com/sites/default/files/projectimage/433MHz-ASK-RF-Link-Uses.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "WLC-TX1", "categoria": "comunication", "descrizione":
+    "Modulo trasmettitore RF ASK 433MHz (TX1). Quantità 3. Package non specificato.
+    Scritte leggibili: TX1.", "interfaccia": "3 pin (VCC, GND, DATA) - 433MHz ASK",
+    "quantita": 3, "posizione": "Io Barrel", "datasheet_url": "https://www.scribd.com/document/1033295124/TX1",
+    "note": "Riclassificato da riga inventario; nessuna foto. Categoria corretta in
+    comunication. Codice WLC-TX1 mantenuto; modello TX1. Interfaccia ipotizzata."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-xy-wb-95
   categoria: comunication
@@ -349,29 +484,42 @@
   quantita: 2
   descrizione: 2.4Ghz wireless tranciare. LT8920 Chip
   interfaccia: SPI.
-  note: ''
+  note: URL fornito è un'immagine eBay del prodotto, non un datasheet. Categoria 'comunication'
+    intesa come communication/wireless. Codice XY-WB e chip LT8920 coerenti con modulo
+    2.4GHz.
   datasheet_url: https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/Sa411be5d34af44c4b453e41834132e41w.jpg_480x480q75.jpg
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "XY-WB", "categoria": "comunication", "descrizione": "Modulo
+    wireless 2.4GHz transceiver basato su chip LT8920, interfaccia SPI. Quantità da
+    inventario: 2. Nessuna foto disponibile.", "interfaccia": "SPI", "quantita": 2,
+    "posizione": "Io Barrel", "datasheet_url": "", "note": "URL fornito è un''immagine
+    eBay del prodotto, non un datasheet. Categoria ''comunication'' intesa come communication/wireless.
+    Codice XY-WB e chip LT8920 coerenti con modulo 2.4GHz."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-neo-6n-gps-96
   categoria: comunication
   codice: NEO-6N GPS
   quantita: 1
   descrizione: GPS
-  interfaccia: ''
-  note: ''
+  interfaccia: UART, USB, SPI, I2C
+  note: Riclassificato da 'comunication' a 'sensori'; è un ricevitore GNSS, non un
+    semplice modulo di comunicazione.
   datasheet_url: https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf
   datasheet_last_check: '2026-10-03'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://content.u-blox.com/sites/default/files/products/NEO-6series.png
-  ai_proposta: ''
-  ai_stato: ''
+  ai_proposta: '{"codice": "NEO-6N", "categoria": "sensori", "descrizione": "Modulo
+    GPS/GNSS u-blox NEO-6N, 1 pezzo, package modulo SMD, scritta NEO-6N (da datasheet
+    u-blox).", "interfaccia": "UART, USB, SPI, I2C", "quantita": 1, "posizione": "Io
+    Barrel", "datasheet_url": "https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf",
+    "note": "Riclassificato da ''comunication'' a ''sensori''; è un ricevitore GNSS,
+    non un semplice modulo di comunicazione."}'
+  ai_stato: da_verificare
   updated_at: ''
 - id: comunication-rf-315mhz-97
   categoria: comunication
