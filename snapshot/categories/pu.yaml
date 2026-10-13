@@ -389,7 +389,7 @@
   interfaccia: 4 pin (IN+, IN-, OUT+, OUT-)
   note: Modulo regolatore di tensione step-down, regolazione tramite trimmer.
   datasheet_url: https://www.monolithicpower.com/en/mp2307.html
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''

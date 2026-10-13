@@ -32,7 +32,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.lcdwiki.com/resources/assets/logo.png
   ai_proposta: '{"codice": "CH32F103C8T6", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo (Dev Board) con MCU CH32F103C8T6, interfaccia USB, 1 pezzo,
     nessuna foto disponibile. Package non specificato.", "interfaccia": "USB", "quantita":
@@ -52,7 +52,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: Garage 01 e 02
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.wemos.cc/en/latest/_images/d1_mini_v4.0.0_1_16x16.png
   ai_proposta: '{"codice": "WEMOS D1 mini", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo WEMOS D1 mini basata su ESP8266, con interfaccia USB e WiFi.
     Package: modulo D1 mini. Nessuna foto disponibile per scritte leggibili. Quantità
@@ -116,7 +116,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.olimex.com/Products/IoT/ESP32-S2/ESP32-S2-DevKit-Lipo-USB/images/thumbs/310x230/ESP32-S2-DevKitLipo-USB-a.jpg
   ai_proposta: '{"codice": "ESP32 Board", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo basata su ESP32 con USB, Bluetooth e Wi-Fi e supporto batteria;
     1 unità indicata in inventario.", "interfaccia": "USB+Bluetooth+Wifi", "quantita":
@@ -137,7 +137,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.espressif.com/sites/default/files/devBoardCategory/s_2.png
   ai_proposta: '{"codice": "ESP32-DEVKIT", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo ESP32 montata, con header/pin, quantità 2; package non specificato,
     scritta leggibile riconducibile a ESP BOARD/dev board.", "interfaccia": "PIN",
@@ -157,7 +157,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://content.instructables.com/FM0/7CMV/IJX7GE45/FM07CMVIJX7GE45.jpg?auto=webp&amp;frame=1
   ai_proposta: '{"codice": "ESP-01/ESP-01S", "categoria": "mcu-board", "descrizione":
     "Modulo MCU Wi-Fi ESP8266, modello ESP-01/ESP-01S, 4 pezzi, package modulo, interfaccia
     Wi-Fi e UART, scritta 8266.", "interfaccia": "Wi-Fi/UART", "quantita": 4, "posizione":
@@ -177,7 +177,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://content.instructables.com/FM0/7CMV/IJX7GE45/FM07CMVIJX7GE45.jpg?auto=webp&amp;frame=1
   ai_proposta: '{"codice": "ESP-01M", "categoria": "mcu-board", "descrizione": "Modulo
     MCU ESP8266 ESP-01M, quantita 2, package modulo PCB con antenna, interfaccia UART/GPIO.
     Scritte non leggibili (nessuna foto).", "interfaccia": "UART/GPIO", "quantita":

@@ -79,7 +79,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://img.drz.lazcdn.com/static/pk/p/a82f6dc77bb202e3a2736d9ea4b88aba.jpg_720x720q80.jpg_.webp
   ai_proposta: '{"codice": "B50K", "categoria": "resistors", "descrizione": "Resistore
     variabile/potenziometro lineare B50K (50 kΩ), 3 terminali; quantità 8 da inventario;
     package/part number da datasheet RV09AF4020KB50K; nessuna foto disponibile.",
@@ -101,7 +101,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.totalsolution.in/admin/product-images/prod_6a54f5fbc8a4a.png
   ai_proposta: '{"codice": "B100K", "categoria": "resistors", "descrizione": "Resistore
     variabile/potenziometro 100KΩ (marcatura B100K), package 3 pin, quantità visibile
     da inventario: 5 pezzi.", "interfaccia": "3PIN", "quantita": 5, "posizione": "V
@@ -157,7 +157,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://eepower.com/images/site/og_default.png
   ai_proposta: '{"codice": "GL55-LDR", "categoria": "sensori", "descrizione": "Fotoresistore
     LDR (Light Dependent Resistor), quantità 20 pezzi, package 2 pin, sigla GL55-LDR
     dal datasheet. Componente sensibile alla luce.", "interfaccia": "2pin", "quantita":
@@ -172,8 +172,8 @@
   descrizione: Resistore through-hole 10
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/3760829.pdf
+  datasheet_last_check: '2026-10-12'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -189,8 +189,8 @@
   descrizione: Resistore through-hole 22
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/3760829.pdf
+  datasheet_last_check: '2026-10-12'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -207,8 +207,8 @@
   descrizione: Resistore through-hole 47
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.mouser.com/en/c/passive-components/resistors/film-resistors/metal-film-resistors-through-hole?resistance=47+Ohms&tolerance=5+%25
+  datasheet_last_check: '2026-10-12'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''

@@ -227,8 +227,8 @@
   interfaccia: parallela HD44780
   note: Codice originale PJ-69C non corrisponde (PJ-69C è un jack DC). Datasheet TX16D204VM0BVA
     indica display LCD 16x2. Possibile codice interno CMP7377.
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf
+  datasheet_last_check: '2026-10-12'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -251,8 +251,8 @@
   note: 'Nessuna foto disponibile. Riclassificato dalla riga inventario: codice HX40023,
     quantità 5, posizione Last Drawer. Identificazione basata sul codice come display
     7 segmenti 4 cifre.'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.arkledcn.com/dp-4-digit-7-segment-display-12-pin-datasheet-k4481012.html
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -277,7 +277,7 @@
   note: Riclassificato dai campi della riga inventario. Verificare package, comune
     anodo/catodo e datasheet.
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl431.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''

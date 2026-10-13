@@ -1132,7 +1132,7 @@
   note: 'Riclassificato: categoria originale ''componenti'' errata; optoisolatore
     classificato come ic-components. Package DIP-4.'
   datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1152,7 +1152,7 @@
   interfaccia: DIP-6
   note: Riclassificato da 'componenti' a 'ic-components'.
   datasheet_url: https://www.vishay.com/docs/81181/4n35.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1173,7 +1173,7 @@
   note: Riclassificato da 'componenti' a 'ic-components' in base al codice MOC3051.
     Componente optoisolatore/triac driver, 6 pin DIP, random phase.
   datasheet_url: https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1196,7 +1196,7 @@
   note: Riclassificato da categoria 'componenti' a 'ic-components'. Codice corretto
     da HPCL3700 a HCPL-3700.
   datasheet_url: https://docs.broadcom.com/doc/AV02-0391EN
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1218,8 +1218,8 @@
   interfaccia: DIP-4
   note: 'Nessuna foto: riclassificato dai campi. Codice originale ''PC8170'' interpretato
     come ''PC817'' (optoisolatore Sharp). Categoria corretta da ''componenti'' a ''ic-components''.'
-  datasheet_url: https://www.sharpsde.com/fileadmin/products/Optoelectronics/PC817X.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://global.sharp/products/device/lineup/data/pdf/datasheet/PC817XxNSZ1B_e.pdf
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1241,7 +1241,7 @@
   note: 'Riclassificato: regolatore lineare variabile 1.25-37 V, fino a 1.5 A. Nessuna
     foto disponibile.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm317.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1263,7 +1263,7 @@
   note: Riclassificato dalla riga inventario; componente IC analogico, non sensore.
     Verificare eventuale sigla produttore (es. ST/ON/TI).
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm317.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1285,7 +1285,7 @@
   note: 'Riclassificato dalla riga inventario: codice LM2576, quantità 10, posizione
     Last Drawer. Nessuna foto disponibile.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm2576.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1308,7 +1308,7 @@
   note: 'Nessuna foto disponibile. Riclassificato dalla riga inventario: codice MT3608,
     quantità 5, posizione Last Drawer. Presunto IC boost converter SOT23-6.'
   datasheet_url: https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
-  datasheet_last_check: ''
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1328,8 +1328,8 @@
     o TO-92, quantità 8
   interfaccia: ''
   note: 'Riclassificato da riga inventario: componente attivo, regolatore LDO 3.3V.'
-  datasheet_url: https://www.st.com/resource/en/datasheet/le33.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://italian.alibaba.com/g/3.3v-regulator-ic.html
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1348,8 +1348,8 @@
   interfaccia: ''
   note: 'Componente riclassificato: regolatore di tensione lineare, non sensore. Verificare
     tensione di uscita (3.3V, 5V, ADJ).'
-  datasheet_url: https://www.advanced-monolithic.com/pdf/ds1117.pdf
-  datasheet_last_check: ''
+  datasheet_url: https://media.digikey.com/pdf/Data%20Sheets/UTD%20Semi%20PDFs/AMS1117.pdf
+  datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''

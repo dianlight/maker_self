@@ -9,8 +9,8 @@
   note: 'Riclassificato da sensori a motors-hardware: non è un sensore ma un componente/accessorio
     meccanico a molla magnetica LinMot. Codice non specificato nell''inventario; ipotizzato
     MagSpring.'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://s3.amazonaws.com/www.motionusa.com/linmot/Magnetic_Springs.pdf
+  datasheet_last_check: '2026-10-12'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''

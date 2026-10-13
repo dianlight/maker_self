@@ -55,7 +55,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.espressif.com/sites/default/files/Banner/esp32-s2-banner-new-1-mobile-bg.jpg
   ai_proposta: '{"codice": "ESP32-S2", "categoria": "mcu-board", "descrizione": "Modulo/board
     ESP32-S2 in formato Mini DIP, 1 pezzo. Tipo: MCU/board. Package/Interfaccia: Mini
     DIP. Scritta: ESP32-S2.", "interfaccia": "MINI DIP", "quantita": 1, "posizione":
@@ -77,7 +77,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://media.rs-online.com/t_medium/Y1773007-02.jpg
   ai_proposta: '{"codice": "ATTINY2313A", "categoria": "mcu", "descrizione": "Microcontrollore
     AVR ATtiny2313A, 2KB Flash, 128B RAM, package DIP-20. Quantità: 2.", "interfaccia":
     "DIP-20", "quantita": 2, "posizione": "MCU", "datasheet_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed..",
@@ -97,7 +97,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://res.utmel.com/Images/Article/74cef38d-8bf5-46c1-a90b-3949a3bf7876.jpg
   ai_proposta: '{"codice": "ATMEGA328P-PU", "categoria": "mcu", "descrizione": "Microcontrollore
     AVR ATmega328P (8-bit), package DIP-28/PDIP-28, 32KB Flash, 1KB SRAM (1024B),
     2KB EEPROM; quantita 5; marcatura presumibile ATMEGA328P. Nessuna foto disponibile,
@@ -118,7 +118,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.electrokit.com/resource/u1IY/Xip/X6RZr2G5MVn/product/41010/41010044/40363208.jpg
   ai_proposta: '{"codice": "ATMEGA1284P", "categoria": "mcu", "descrizione": "Microcontrollore
     AVR 8-bit ATmega1284P, 128K Flash / 16K RAM, package SMD (probabile TQFP-44/QFN-44);
     nessuna foto disponibile, dati ricavati dalla riga inventario", "interfaccia":
@@ -138,7 +138,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.ariat-tech.com/ariat/images/Logo.jpg
   ai_proposta: '{"codice": "ATMEGA8A-PU", "categoria": "mcu", "descrizione": "Microcontrollore
     ATmega8A in package DIP-28, quantità 4; marcatura ATmega8A; alcuni esemplari marchiati
     in rosso da riprogrammare in HV.", "interfaccia": "DIP-28", "quantita": 4, "posizione":
@@ -181,7 +181,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://protosupplies.com/wp-content/uploads/2019/04/ESP32-S-Development-Board-1.jpg
   ai_proposta: '{"codice": "ESP32-S", "categoria": "mcu", "descrizione": "Componente
     MCU ESP32-S, quantita dichiarata 2, package non specificato, scritta leggibile
     ''ESP32-S''.", "interfaccia": "Wi-Fi/BT, UART, SPI, I2C, I2S, ADC, DAC, PWM, SDIO",
@@ -202,7 +202,7 @@
   datasheet_last_check: '2026-10-08'
   posizione: MCU Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://opengraph.githubassets.com/9ac34182bbde6e57e1a57df300dea291865c92f4c75331ed21934ab6ee393d7e/zigpy/zigpy/discussions/586
   ai_proposta: '{"codice": "ZYZBP008", "categoria": "comunication", "descrizione":
     "Modulo coordinatore wireless EFR32MG21, package MINI DIP, antenna interna; quantità
     3", "interfaccia": "MINI DIP", "quantita": 3, "posizione": "MCU Box", "datasheet_url":
