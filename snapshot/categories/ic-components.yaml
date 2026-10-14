@@ -1135,7 +1135,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://ae-pic-a1.aliexpress-media.com/kf/S9534e56f7fd3458f9a68db3c8e9f66d8D.jpg
   ai_proposta: '{"codice": "TLP627", "categoria": "ic-components", "descrizione":
     "Optoisolatore TLP627, package DIP-4, 10 pezzi visibili (da inventario).", "interfaccia":
     "", "quantita": 10, "posizione": "Last Drawer", "datasheet_url": "https://www.farnell.com/datasheets/2007824.pdf",
@@ -1176,7 +1176,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://dzautomation.net/wp-content/uploads/2026/08/images-44.jpeg
   ai_proposta: '{"codice": "MOC3051", "categoria": "ic-components", "descrizione":
     "Optoisolatore triac driver, package DIP-6, quantita 9. Codice MOC3051. Nessuna
     foto disponibile: scritte non leggibili direttamente.", "interfaccia": "", "quantita":
@@ -1199,7 +1199,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://componentstree.com/wp-content/uploads/2021/09/hcpl-3700-a3700-optocoupler-ic-800x800-1.jpg
   ai_proposta: '{"codice": "HCPL-3700", "categoria": "ic-components", "descrizione":
     "Optocoupler AC/DC to logic interface, package DIP-8, quantità 10 da inventario.
     Nessuna foto disponibile; codice letto come HPCL3700, probabile refuso per HCPL-3700.",
@@ -1222,7 +1222,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://protosupplies.com/wp-content/uploads/2018/03/PC817-Optocoupler-1.jpg
   ai_proposta: '{"codice": "PC817", "categoria": "ic-components", "descrizione": "Optoisolatore/optocoupler,
     probabile PC817, package DIP-4, quantità 30 pezzi. Nessuna foto disponibile, scritte
     non leggibili.", "interfaccia": "DIP-4", "quantita": 30, "posizione": "Last Drawer",
@@ -1244,7 +1244,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://m.media-amazon.com/images/I/61ARZmNw5PL.jpg
   ai_proposta: '{"codice": "LM317T", "categoria": "ic-components", "descrizione":
     "Regolatore di tensione lineare regolabile positivo LM317T, package TO-220, 1
     pezzo; marcatura tipica LM317T.", "interfaccia": "TO-220", "quantita": 1, "posizione":
@@ -1266,7 +1266,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.eleccircuit.com/wp-content/uploads/2020/08/LM317-voltage-regulator_-Pinout-CALCULATOR-and-circuits.png
   ai_proposta: '{"codice": "LM317T", "categoria": "ic-components", "descrizione":
     "Regolatore di tensione lineare regolabile positivo, package TO-220 a 3 pin; marcatura
     leggibile LM317T. Quantità visibile: 1.", "interfaccia": "", "quantita": 1, "posizione":
@@ -1288,7 +1288,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://res.utmel.com/Images/Article/20abbd6e-d098-43d1-bbb0-34062759420b.jpg
   ai_proposta: '{"codice": "LM2576", "categoria": "ic-components", "descrizione":
     "Regolatore di tensione step-down switching LM2576, package TO-220-5, quantità
     10. Scritte leggibili non disponibili (nessuna foto).", "interfaccia": "TO-220-5:
@@ -1311,7 +1311,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://static.kynix.cn/dimg/rohmsemiconductor-bh1406kve2-3208.jpg
   ai_proposta: '{"codice": "MT3608", "categoria": "ic-components", "descrizione":
     "MT3608 step-up boost converter IC, package SOT23-6, 2A, input 2-24V, output up
     to 28V. Quantità 5 (da inventario).", "interfaccia": "SOT23-6", "quantita": 5,

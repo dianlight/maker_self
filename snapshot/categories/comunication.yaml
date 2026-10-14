@@ -618,8 +618,8 @@
   datasheet_url: https://docs.sunfounder.com/projects/elite-explorer-kit/it/latest/basic_projects/08_basic_mfrc522.html
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
-  foto_drive_id: 1dlikIXtnHgI8FgWkCqooEHNeRVPEF_gZ
-  foto_url: https://drive.google.com/open?id=1dlikIXtnHgI8FgWkCqooEHNeRVPEF_gZ, https://drive.google.com/open?id=1zvVLhvapmlXKwGA4ECp3EpjzvaNN7y_h
+  foto_drive_id: ''
+  foto_url: https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png
   ai_proposta: '{"codice": "MINI RFID-RC522", "categoria": "sensori", "descrizione":
     "Modulo RFID RC522 in versione mini. PCB nero con serigrafia bianca, simbolo antenna
     RFID al centro, 8 fori per pin su lato sinistro, scritta ''MINI RFID-RC522'' sul
