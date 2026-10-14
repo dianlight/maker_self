@@ -217,7 +217,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://static-cdn.m5stack.com/resource/docs/products/unit/esp32cam/esp32cam_01.webp
   ai_proposta: '{"codice": "ESP32-CAM", "categoria": "mcu-board", "descrizione": "Modulo/scheda
     di sviluppo ESP32-CAM basata su ESP32-S con camera OV2640; 2 pezzi. Package: modulo
     con header. Scritte leggibili dai campi: ESP-CAM, ESP32S, OVcam.", "interfaccia":
@@ -238,7 +238,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://community-assets.home-assistant.io/original/4X/5/0/e/50e585faea85010ebb16d3d466f071ef90ec1393.png
   ai_proposta: '{"codice": "ESP32-WROOM-32", "categoria": "mcu", "descrizione": "Modulo
     MCU ESP32-WROOM-32, 1 unità, package SMD con piedini castellati e shield metallico,
     scritta leggibile ''ESP32-WROOM-32''; modulo Wi-Fi/Bluetooth, interfaccia a PIN.",
@@ -258,7 +258,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.espressif.com/sites/default/files/banner/esp32-socs-banner.jpg
   ai_proposta: ''
   ai_stato: confermato
   updated_at: ''
@@ -319,7 +319,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.make-it.ca/wp-content/uploads/2021/09/nodemcu-carrier-board-1200x600-1.jpg
   ai_proposta: '{"codice": "NodeMCU ESP8266", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo NodeMCU basata su ESP8266, 1 pezzo; package modulo/scheda
     con interfaccia USB e WiFi, scritte leggibili riconducibili a NodeMCU/ESP8266.",
@@ -341,7 +341,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.addicore.com/cdn/shop/products/AD249-2.jpg?v=1689765563&width=1214
   ai_proposta: '{"codice": "Arduino Pro Mini", "categoria": "mcu-board", "descrizione":
     "Scheda microcontroller Arduino Pro Mini basata su ATmega328P, package modulo,
     interfaccia TTL/UART; scritta originale ATMEDA328P corretta.", "interfaccia":
@@ -361,7 +361,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://stm32-base.org/assets/img/boards/STM32F103C8T6_STM32_Smart_V2.0-1.jpg
   ai_proposta: '{"codice": "STM32 Smart V2.0", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo MCU basata su STM32F103C8T6; quantità visibile dalla riga
     inventario: 1; package: modulo board; scritte/indicazioni leggibili: STM32F103,
@@ -381,7 +381,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: http://biqu.equipment/cdn/shop/products/shopify_929d24ac-8c96-4953-a51e-29d7f16bc83b.jpg?v=1700265410
   ai_proposta: '{"codice": "TFT35-E3-V3.0", "categoria": "displays", "descrizione":
     "Modulo display TFT touchscreen 3.5\" BigTreeTech TFT35 E3 V3.0, con MCU STM32F103VCT6,
     slot SD e interfaccia TTL/JTAG. Quantità visibile: 1 modulo su PCB con display.",
@@ -404,7 +404,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_1_16x16.jpg
   ai_proposta: '{"codice": "ESP32-S2 Mini", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo MCU ESP32-S2 Mini, basata su ESP32-S2FN4R2, WiFi, 4MB Flash,
     2MB PSRAM, compatibile D1 mini; quantita 1; package modulo/scheda; scritte leggibili
@@ -427,7 +427,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.nologo.tech/assets/img/esp32/esp32c3supermini/esp32c3.png
   ai_proposta: '{"codice": "ESP32-C3 SuperMini", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo ESP32-C3 SuperMini con ESP32-C3, connettività WiFi e Bluetooth,
     formato compatto per Arduino. Quantità visibile: 1 pezzo. Package: modulo/scheda
@@ -453,8 +453,8 @@
   datasheet_url: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf
   datasheet_last_check: '2026-10-10'
   posizione: MCU Box
-  foto_drive_id: 1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
-  foto_url: https://drive.google.com/open?id=1cSzv0GSsHKGWlAlzv3JJLtXX53tPdMID
+  foto_drive_id: ''
+  foto_url: https://www.elecrow.com/media/magefan_blog/_-1_04_3.jpg
   ai_proposta: '{"codice": "NodeMCU-ESP8266-ESP12E", "categoria": "mcu-board", "descrizione":
     "Scheda di sviluppo per modulo ESP8266 ESP-12E, PCB nero con antenna PCB integrata,
     shield metallico con scritte ''ESP-12E'' e ''ESP8266EX''. Presenti header maschio

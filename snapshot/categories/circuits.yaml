@@ -10,7 +10,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://tech-led.com/wp-content/uploads/2018/05/IR-NIR-LED.jpg
   ai_proposta: '{"codice": "FY-0524(1)", "categoria": "led", "descrizione": "Illuminatore/lampada
     IR per telecamera, probabilmente modulo a LED infrarossi; quantità 2; package
     non specificato; nessuna scritta leggibile disponibile.", "interfaccia": "", "quantita":
@@ -31,7 +31,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/5639-00.jpg
   ai_proposta: '{"codice": "IR-T2", "categoria": "comunication", "descrizione": "Trasmettitore
     IR dual power, modello dedotto IR T2; 3 unità in scatola B Box; nessuna foto disponibile.
     Scritte desunte: Dual Power IR Transmitter. Dispositivo per trasmissione audio
@@ -54,7 +54,7 @@
   datasheet_last_check: '2026-10-09'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.twinschip.com/image/cache/catalog/Products%20Twins%20Chip%20Store%202020/Relay%205V%2010A%20-%20%205%20Pin%20PCB/Relay%205V%2010A%20-%20%205%20Pin%20PCB%20-%20Twins%20Chip%202-600x315w.jpg
   ai_proposta: '{"codice": "Relay 10A 5V", "categoria": "componenti", "descrizione":
     "Relè elettromeccanico 10A con bobina 5V; package e pin non specificati nei campi;
     quantità 1.", "interfaccia": "5V DC coil, contatti 10A", "quantita": 1, "posizione":

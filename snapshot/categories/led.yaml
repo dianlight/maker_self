@@ -84,7 +84,7 @@
   datasheet_last_check: '2026-10-10'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/1487-00.jpg
   ai_proposta: '{"codice": "WS2812B-64", "categoria": "led", "descrizione": "Modulo/striscia
     di 64 LED RGB indirizzabili WS2812B, colore 24-bit; package non specificato; nessuna
     foto e nessuna scritta leggibile aggiuntiva.", "interfaccia": "single-wire", "quantita":
@@ -107,8 +107,8 @@
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
   datasheet_last_check: '2026-10-10'
   posizione: A Box
-  foto_drive_id: 1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI
-  foto_url: https://drive.google.com/open?id=1fhY5GdujPF6e6u1PHY8GvpBXDgpVtNdI, https://drive.google.com/open?id=1EO4hgn5ULjg0_ckzvo1fbYDyaJ5AWSDd
+  foto_drive_id: ''
+  foto_url: https://m.media-amazon.com/images/I/61dPrK5PVsL.jpg
   ai_proposta: '{"codice":"WS2812B-8x8","categoria":"led","descrizione":"Pannello/matrice
     di LED RGB indirizzabili 8x8 (64 LED) con package SMD 5050 e lente bianca quadrata,
     montati su PCB nero; singolo modulo in busta antistatica. Scritte sul modulo non
