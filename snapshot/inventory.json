@@ -5713,19 +5713,19 @@
   },
   {
     "id": "na-na-7",
-    "categoria": "",
-    "codice": "",
+    "categoria": "componenti",
+    "codice": "Tantalio goccia 10µF (marcatura non leggibile)",
     "quantita": 5,
     "descrizione": "Tantalum Capacitor 100uf",
-    "interfaccia": "",
-    "note": "",
+    "interfaccia": "through-hole",
+    "note": "Componente polarizzato (se tantalio): rispettare la polarità in fase di montaggio; verificare capacità/tensione prima dell'uso. Marcatura illeggibile: possibile 104 (100nF) se ceramico multistrato oppure valore in µF se tantalio. Da confermare con misura di capacità.",
     "datasheet_url": "",
     "datasheet_last_check": "",
     "posizione": "Last Drawer",
     "foto_drive_id": "1CS-18Fd_Cajp8wrhKeIq4QnGJf3FcHzY",
     "foto_url": "https://drive.google.com/open?id=1CS-18Fd_Cajp8wrhKeIq4QnGJf3FcHzY",
-    "ai_proposta": "",
-    "ai_stato": "",
+    "ai_proposta": "{\"codice\": \"Tantalio goccia 10µF (marcatura non leggibile)\", \"categoria\": \"componenti\", \"descrizione\": \"Condensatore al tantalio (o ceramico) con corpo a goccia di colore giallo/ambra, package radiale through-hole con 2 reofori metallici dritti. Quantità visibile: 1 pezzo. Presente marcatura serigrafata sul corpo ma illeggibile nella foto (verosimilmente codice capacità/tensione e polarità '+'). Corpo di dimensioni ridotte (pochi mm) appoggiato su vassoio/ripiano blu; intorno visibili residui, trucioli e piccoli detriti, oltre a un piccolo frammento metallico in alto al centro.\", \"interfaccia\": \"through-hole\", \"quantita\": 1, \"posizione\": \"\", \"datasheet_url\": \"\", \"note\": \"Componente polarizzato (se tantalio): rispettare la polarità in fase di montaggio; verificare capacità/tensione prima dell'uso. Marcatura illeggibile: possibile 104 (100nF) se ceramico multistrato oppure valore in µF se tantalio. Da confermare con misura di capacità.\"}",
+    "ai_stato": "da_verificare",
     "updated_at": "14/10/2026 21.55.22"
   }
 ]
