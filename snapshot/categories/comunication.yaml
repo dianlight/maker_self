@@ -7,7 +7,7 @@
   note: Riclassificato dalla riga inventario; nessuna foto. Codice ipotizzato da descrizione/campo
     originale, categoria confermata comunication.
   datasheet_url: https://www.farnell.com/datasheets/4393752.pdf
-  datasheet_last_check: '2026-10-02'
+  datasheet_last_check: '2026-10-15'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://cdn11.bigcommerce.com/s-blpsc02m/products/703/images/8899/Antena_Data_Alliance_1_1500x1500__34887.1790277414.220.220.png?c=2
@@ -28,7 +28,7 @@
   note: Riclassificata come comunicazione/antenna. Il datasheet fornito si riferisce
     a una antenna airMAX Omni; verificare corrispondenza con il connettore IPEX indicato.
   datasheet_url: https://dl.ubnt.com/datasheets/airmaxomni/amo_ds_web.pdf
-  datasheet_last_check: '2026-10-02'
+  datasheet_last_check: '2026-10-15'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/2308-02.jpg
@@ -49,7 +49,7 @@
   note: Riclassificata dalla riga inventario; categoria 'comunication' mantenuta,
     codice corretto in Antenna 433MHz e quantità confermata. Nessuna foto disponibile.
   datasheet_url: https://www.farnell.com/datasheets/1669554.pdf
-  datasheet_last_check: '2026-10-02'
+  datasheet_last_check: '2026-10-15'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/4394-00.jpg
@@ -69,7 +69,7 @@
   interfaccia: CH340N
   note: Riclassificato dalla riga inventario; codice interno BTE19-05.
   datasheet_url: https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf
-  datasheet_last_check: '2026-10-02'
+  datasheet_last_check: '2026-10-15'
   posizione: Program Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/2/12977-00.jpg
@@ -90,7 +90,7 @@
     usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione. Nessuna
     foto disponibile: riclassificato dalla riga inventario.'
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -112,7 +112,7 @@
   note: 'Nessuna foto disponibile: riclassificato leggendo i campi della riga inventario.
     Categoria comunication confermata per modulo Bluetooth.'
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/HC-05%20Datasheet.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.electronicwings.com/storage/PlatformSection/TopicContent/118/description/1_HC-05_Bluetooth_Module.jpg
@@ -133,7 +133,7 @@
   note: 'Riclassificato: HC-06 è modulo di comunicazione Bluetooth seriale slave;
     categoria corretta comunication.'
   datasheet_url: https://www.utmel.com/components/hc-06-bluetooth-module-pinout-datasheet-pdf-and-arduino-connection?id=884
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/08/hc-06-4pin-bluetooth-module-slave-no-button-800x800-1.jpg
@@ -154,7 +154,7 @@
   note: Riclassificato da riga inventario senza foto. HW-244 compatibile con USB Host
     Shield 2.0 per Arduino; categoria impostata su comunication.
   datasheet_url: https://www.hestore.hu/prod_getfile.php?id=16097&srsltid=AU7gw4V22QROJ_Q0a2Fg2_8_W_rcT5jVokWWtkxGGtqx61ZxCg9vmTI_
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://x2robotics.ca/image/cache/catalog/Products/0800/0826-228x228.jpg
@@ -174,7 +174,7 @@
   interfaccia: '?'
   note: https://sautter.com/blog/ethernet-on-esp32-using-lan8720/
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/00002165b.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: http://keszoox.com/cdn/shop/files/lan8720-ethernet-transceiver-rmii-arduino-board.webp?v=1761806434
@@ -196,7 +196,7 @@
     è controller CAN stand-alone con interfaccia SPI. Verificare se il modulo include
     anche transceiver CAN.'
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/MCP2515-Stand-Alone-CAN-Controller-with-SPI-20001801J.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/c/a/can_module_mcp2515.jpg
@@ -218,7 +218,7 @@
   interfaccia: SPI
   note: Antenna IPEX
   datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -238,7 +238,7 @@
   interfaccia: SPI
   note: Antenna interna (Internal Antenna)
   datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-15'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''

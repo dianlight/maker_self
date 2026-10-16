@@ -604,7 +604,7 @@
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-quf4007_pic1_1.png?itok=OT5dyvZ9
   ai_proposta: '{"codice": "UF4007", "categoria": "componenti", "descrizione": "Diodo
     raddrizzatore ultrafast 1A 1000V, package DO-41, through-hole. Codice UF4007.
     Quantità 10.", "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode
@@ -642,7 +642,7 @@
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.taydaelectronics.com/media/catalog/product/cache/1eb4f7f02fef46fb836117af4bb921e7/d/o/do-41.jpg_2.jpg
   ai_proposta: '{"codice": "FR207", "categoria": "componenti", "descrizione": "Diodo
     raddrizzatore fast recovery, 2 A / 1000 V (Vrrm), package DO-15 (DO-204AC) through-hole,
     10 pezzi visibili in busta/contenitore bulk; marcatura sul corpo: ''FR207'' con
@@ -664,7 +664,7 @@
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.taydaelectronics.com/media/catalog/product/cache/1eb4f7f02fef46fb836117af4bb921e7/D/O/DO-41_34.jpg
   ai_proposta: '{"codice": "1N5817", "categoria": "componenti", "descrizione": "Diodo
     Schottky 1N5817, 1A 20V, package DO-41, through-hole; quantità 10.", "interfaccia":
     "through-hole", "quantita": 10, "posizione": "Diode Box", "datasheet_url": "https://www.vishay.com/docs/88525/1n5817.pdf",
@@ -682,7 +682,7 @@
   datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
   posizione: Diode Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://protosupplies.com/wp-content/uploads/2017/10/Diode-1N5819-5-Pack-1.jpg
   ai_proposta: '{"codice": "1N5819", "categoria": "componenti", "descrizione": "Diodo
     Schottky 1A 40V, package DO-41, through-hole. Quantità visibile: 10. Scritte leggibili:
     1N5819.", "interfaccia": "through-hole", "quantita": 10, "posizione": "Diode Box",
@@ -717,8 +717,8 @@
     verificare capacità/tensione prima dell''uso. Marcatura illeggibile: possibile
     104 (100nF) se ceramico multistrato oppure valore in µF se tantalio. Da confermare
     con misura di capacità.'
-  datasheet_url: ''
-  datasheet_last_check: ''
+  datasheet_url: https://www.farnell.com/datasheets/4550028.pdf
+  datasheet_last_check: '2026-10-15'
   posizione: Last Drawer
   foto_drive_id: 1CS-18Fd_Cajp8wrhKeIq4QnGJf3FcHzY
   foto_url: https://drive.google.com/open?id=1CS-18Fd_Cajp8wrhKeIq4QnGJf3FcHzY
