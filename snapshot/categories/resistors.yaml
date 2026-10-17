@@ -536,7 +536,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/2784-00.jpg
   ai_proposta: '{"codice": "10k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 10kΩ, quantità 20, package assiale/through-hole, valore leggibile
     10k", "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor
@@ -573,7 +573,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/2786-00.jpg
   ai_proposta: '{"codice": "47k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 47k, quantità 20, package through-hole, marcatura leggibile 47k",
     "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor Box",
@@ -591,7 +591,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://elexbot.in/wp-content/uploads/2026/08/elexbot-logo-new-224x63.png
   ai_proposta: '{"codice": "51k", "categoria": "resistors", "descrizione": "Resistore
     through-hole da 51k, quantità 20, package assiale/through-hole non specificato
     (nessuna foto disponibile)", "interfaccia": "through-hole", "quantita": 20, "posizione":
@@ -609,7 +609,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://elexbot.in/wp-content/uploads/2026/06/0.25w-resistor-thakor.jpg
   ai_proposta: '{"codice": "68k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 68 kΩ; quantità dichiarata: 20; package: through-hole; scritta leggibile:
     68k", "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor
@@ -627,7 +627,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/2787-00.jpg
   ai_proposta: '{"codice": "100k", "categoria": "resistors", "descrizione": "Resistore
     through-hole da 100k, quantità 20, package through-hole, valore leggibile 100k",
     "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor Box",
@@ -645,7 +645,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://elexbot.in/wp-content/uploads/2026/06/0.25w-resistor-thakor.jpg
   ai_proposta: '{"codice": "220k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 220 kΩ, quantità indicata 20, package assiale through-hole, marcatura
     220k", "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor
@@ -663,7 +663,7 @@
   datasheet_last_check: '2026-10-13'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://elexbot.in/wp-content/uploads/2026/06/0.5w-resistor-thakor.jpg
   ai_proposta: '{"codice": "300k", "categoria": "resistors", "descrizione": "Resistore
     through-hole, valore 300 kΩ, quantità indicata 20, package through-hole, nessuna
     marcatura aggiuntiva leggibile.", "interfaccia": "through-hole", "quantita": 20,
@@ -718,7 +718,7 @@
   datasheet_last_check: '2026-10-14'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://osoyoo.com/wp-content/uploads/2017/05/1M-RESISTORS-200x200.jpg
   ai_proposta: '{"codice": "1M", "categoria": "resistors", "descrizione": "Resistore
     through-hole 1MΩ, package assiale, quantità 20; nessuna foto disponibile, marcatura
     non leggibile", "interfaccia": "through-hole", "quantita": 20, "posizione": "V

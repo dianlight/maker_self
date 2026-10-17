@@ -57,7 +57,7 @@
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://dfimg.dfrobot.com/enshop/SEN0193/SEN0193_Main_01.jpg
   ai_proposta: '{"codice": "SEN0193", "categoria": "sensori", "descrizione": "Nessuna
     foto disponibile. Tipo componente: sensore di umidità del suolo capacitivo DFRobot
     SEN0193, modulo PCB con connettore Gravity a 3 pin. Quantità da inventario: 2.
@@ -81,7 +81,7 @@
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://res.rakwireless.com/ext/images.docs.rakwireless.com/wisnode/water-level-monitoring/water-level-monitoring-sensor.png?fm=webp
   ai_proposta: '{"codice": "RAK7205", "categoria": "sensori", "descrizione": "Sensore
     di livello dell''acqua LoRaWAN RAK7205 (Water Level), 1 unità, package non visibile,
     scritta leggibile: Water Level.", "interfaccia": "LoRaWAN", "quantita": 1, "posizione":
@@ -103,7 +103,7 @@
   datasheet_last_check: '2026-10-10'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://look.ams-osram.com/transform/82cabd10-d50e-4ab0-9f20-3ce562ad4c6c/ams-OSRAM-visual-CI-grey-cicrle
   ai_proposta: '{"codice": "TCS34725", "categoria": "sensori", "descrizione": "Sensore
     di colore/light-to-digital TCS34725 (RGB + clear), interfaccia I2C. Nessuna foto
     disponibile: package e scritte non verificabili; quantita 1 da riga inventario.",

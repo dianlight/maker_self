@@ -13,7 +13,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://linmot.com/wp-content/uploads/2026/01/linmot_magspring-1024x282.jpg
   ai_proposta: '{"codice": "MagSpring", "categoria": "motors-hardware", "descrizione":
     "Componente/accessorio hardware LinMot tipo Magnetic Spring (molla magnetica).
     Quantità visibile: 1. Package non specificato/visibile. Scritte leggibili nella
@@ -32,7 +32,7 @@
   note: Riclassificato da motors-hardware a componenti. Sembra una resistenza di riscaldamento
     5W 220V, non un componente motorio. Interfaccia 'Slim' non applicabile.
   datasheet_url: https://www.processtechnology.com/wp-content/uploads/2024/05/heaterinstallation-1.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://cdn.shoplightspeed.com/shops/648211/files/53154324/1652x2313x2/aqueon-heater-flat-submersible-5-w-up-to-2-g.jpg

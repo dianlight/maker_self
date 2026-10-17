@@ -262,7 +262,7 @@
     corretto da ''nFR24 Adapter'' a ''nRF24 Adapter''; datasheet riferito al modulo
     nRF24L01, non specifico per l''adattatore.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Wireless/Nordic/nRF24L01_Product_Specification_v2_0.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -285,7 +285,7 @@
   note: 'Riclassificato dalla riga inventario: categoria communication confermata;
     quantità default 1.'
   datasheet_url: https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://media.mikroelectron.com/27096/conversions/8PGvJu1pSCq0EgbdioRV8tNBqvZLU57drxwAr1Ht-og.jpg
@@ -306,7 +306,7 @@
   note: Riclassificato dalla riga inventario senza foto. Categoria confermata comunication.
     Codice RF98 mantenuto come da inventario; descrizione ampliata con tipo e quantità.
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_101229_433mhz_rf_transmitter_and_receiver-3532571.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://media.mikroelectron.com/27096/conversions/8PGvJu1pSCq0EgbdioRV8tNBqvZLU57drxwAr1Ht-og.jpg
@@ -328,7 +328,7 @@
   note: 'Riclassificato: SN65HVD230 è un transceiver CAN 3.3V in SOIC-8, non un commutatore.
     Categoria corretta in ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf?ts=1640328008103&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN65HVD230
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://seengreat.com/upload/p/202504/1745627202b.jpg
@@ -350,7 +350,7 @@
     transceiver CAN. Descrizione originale 'CAN BUS MODULE' suggerisce modulo CAN
     basato su questo IC. Nessuna foto disponibile.
   datasheet_url: https://docs.rs-online.com/a748/A700000007028912.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://electropeak.com/media/catalog/product/cache/fd3007d55266f7276c10ebf7f3da2215/c/o/com-05-041-new-1.jpg
@@ -372,7 +372,7 @@
   note: Modulo di comunicazione RF 433MHz ASK; riclassificato dai campi della riga,
     nessuna foto disponibile
   datasheet_url: https://www.scribd.com/document/718639676/srx882
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://chiptronicx.b-cdn.net/wp-content/uploads/2024/08/433MHz-100-Meters-STX882-ASK-Transmitter-Module-SRX882-Receiver-Module-000.webp
@@ -393,7 +393,7 @@
   note: Riclassificato dalla riga inventario; categoria corretta in comunication.
     STX882 risulta un trasmettitore RF ASK 433MHz. Nessuna foto disponibile.
   datasheet_url: https://www.handsontec.com/dataspecs/module/433MHz-RF-Mod-2.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://c1.neweggimages.com/ProductImageCompressAll1280/C5UED26042513FNE806.jpg
@@ -414,7 +414,7 @@
   note: Riclassificato come componente di comunicazione Ethernet; codice W5500 confermato
     dai campi.
   datasheet_url: https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://lectronz-images.b-cdn.net/lectronz/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0MTUsInB1ciI6ImJsb2JfaWQifX0=--3466abd8dc95d26d8f52e8e74b3a0ab4988de044/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2xpbWl0IjpbNjQwLG51bGxdLCJzYXZlciI6eyJzYXZlciI6ImpwZWciLCJRIjo5MCwic3RyaXAiOnRydWV9fSwicHVyIjoidmFyaWF0aW9uIn19--746e2d4375972e82a11ea47d1ec12203cd2c035e/DSC_0025.jpeg
@@ -436,7 +436,7 @@
     probabilmente coppia trasmettitore/ricevitore con antenna. Verificare se quantità
     3 indica kit completi o pezzi singoli.
   datasheet_url: https://michiel.vanderwulp.be/domotica/Modules/RF-433Mhz-transmitter-receiver/
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://www.lyonscomputer.com.au/Electronic-Modules/WL101-341-443Mhz-Modules/images/433Mhz-Modules-01.jpg
@@ -459,7 +459,7 @@
   note: Riclassificato da riga inventario; nessuna foto. Categoria corretta in comunication.
     Codice WLC-TX1 mantenuto; modello TX1. Interfaccia ipotizzata.
   datasheet_url: https://www.scribd.com/document/1033295124/TX1
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://circuitdigest.com/sites/default/files/projectimage/433MHz-ASK-RF-Link-Uses.jpg
@@ -482,7 +482,7 @@
     interpretato come ''transceiver''. URL fornito è un''immagine eBay, non un datasheet
     tecnico ufficiale. Posizione ''Io Barrel'' da verificare (forse ''I/O Barrel'').'
   datasheet_url: https://i.ebayimg.com/images/g/4g4AAOSwurZZEa-S/s-l1600.jpg
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/Sa411be5d34af44c4b453e41834132e41w.jpg_480x480q75.jpg
@@ -505,7 +505,7 @@
   interfaccia: UART
   note: Nessuna foto disponibile; riclassificato dalla riga inventario.
   datasheet_url: https://content.u-blox.com/sites/default/files/products/documents/NEO-6_DataSheet_%28GPS.G6-HW-09005%29.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://content.u-blox.com/sites/default/files/products/NEO-6series.png
@@ -524,7 +524,7 @@
   note: Riclassificato dalla riga inventario; categoria 'comunication' adatta a moduli
     RF. Verificare se quantità 5 indica 5 kit Rx+Tx oppure 5 pezzi singoli.
   datasheet_url: https://wiki.seeedstudio.com/RF-Transmitter-and-Receiver-Link-Kit-315MHz-433MHz/
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://ablkart.com/wp-content/uploads/2024/07/IMAGE1565172234-600x600.jpg
@@ -549,7 +549,7 @@
     corretto da RBX6 a RXB6; descrizione ampliata. Nessuna foto disponibile; dati
     basati solo sulla riga inventario.'
   datasheet_url: https://www.scribd.com/document/493735409/RXB6EN
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-16'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: ''
