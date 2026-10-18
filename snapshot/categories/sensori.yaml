@@ -329,7 +329,7 @@
   datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: https://makerselectronics.com/wp-content/uploads/2025/05/b687d94e-a1c9-4204-9f88-f1e8e3b11b1e.jpg
+  foto_url: https://kunkune.co.uk/wp-content/uploads/2021/11/2-2.jpg
   ai_proposta: '{"codice": "AM312", "categoria": "sensori", "descrizione": "Tipo:
     sensore PIR per movimento umano. Riga inventario: HW-740 Pir Sensor / AM312, quantità
     4, package modulo mini. Scritte leggibili dai campi: AM312, HW-740 Pir Sensor.",
@@ -506,7 +506,7 @@
   datasheet_last_check: '2026-10-11'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: https://www.adafruit.com/images/480x360/374-01.jpg
+  foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/1/11050-04.jpg
   ai_proposta: ''
   ai_stato: confermato
   updated_at: ''
@@ -655,7 +655,7 @@
   datasheet_last_check: '2026-10-12'
   posizione: Sensor Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.allearthrenewables.com/wp-content/uploads/2021/02/Gary-Hall-15-125-14.jpg
   ai_proposta: '{"codice": "HD-36", "categoria": "sensori", "descrizione": "Sensore
     Solar Tracker (probabile Meteocontrol MS-2), 1 pezzo, interfaccia RS485, posizione
     Sensor Barrel. Nessuna foto disponibile.", "interfaccia": "RS485", "quantita":
@@ -697,7 +697,7 @@
   datasheet_last_check: '2026-10-11'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://smarthomescene.com/wp-content/uploads/2024/01/best-and-worst-presence-sensors-for-home-assistant.jpg
   ai_proposta: '{"codice": "HW-740", "categoria": "sensori", "descrizione": "Modulo
     sensore IR di presenza/ostacolo, uscita digitale, package modulo PCB, codice HW-740,
     quantità 4 (da inventario).", "interfaccia": "digitale", "quantita": 4, "posizione":
@@ -718,7 +718,7 @@
   datasheet_last_check: '2026-10-11'
   posizione: ''
   foto_drive_id: ''
-  foto_url: https://deepbluembedded.com/wp-content/uploads/2025/02/Arduino-INA226-DC-Current-Sensor-Library-Code-Example.webp
+  foto_url: https://probots.co.in/pub/media/catalog/product/cache/891768098d9d90472b8b3c7afc6da23f/3/-/3-800x800.jpg
   ai_proposta: '{"codice": "INA226", "categoria": "ic-components", "descrizione":
     "Componente elettronico INA226, current/power monitor I2C, quantità 2, package
     non specificato (tipico VSSOP-10/MSOP-10), scritte leggibili non disponibili senza

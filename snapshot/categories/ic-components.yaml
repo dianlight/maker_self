@@ -7,7 +7,7 @@
   note: Riclassificato da ic-components a led in base al codice 5730 e alla descrizione
     LED colorati SMD. Nessuna foto disponibile.
   datasheet_url: https://www.sunrom.com/download/716.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://image.chukouplus.com/upload/C_1267/file/20260915/8ecd9b792a00c9e640eadc62c89c7260.png
@@ -28,7 +28,7 @@
   note: 'Codice originale RC45558 corretto in RC4558. Categoria ic-components confermata.
     Nessuna foto disponibile: package non deducibile dalla riga.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -48,7 +48,7 @@
   interfaccia: SMD I2C
   note: 1.8V - 5.5V
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/doc0336.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.electropi.in/image/cache/catalog/24c32-ic-dip-8-package-400x400.jpg
@@ -67,7 +67,7 @@
   interfaccia: QUAD SPI
   note: 3V
   datasheet_url: https://www.pjrc.com/store/w25q64fv.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -87,7 +87,7 @@
   interfaccia: DIP-14
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://docs.rs-online.com/8629/0900766b81324aac.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: https://rajivelectronics.com/images/get_image/SUNELTIwMC5qcGc
@@ -106,7 +106,7 @@
   interfaccia: Microwire
   note: 5V
   datasheet_url: https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -125,7 +125,7 @@
   interfaccia: SMD
   note: 20V
   datasheet_url: http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: http://www.etstore.in/cdn/shop/files/sot23_cf7f38dc-5586-4a19-b608-c077b5de0dca.jpg?v=1756910272
@@ -146,7 +146,7 @@
     ''ADC 4 Channel Amplifier'' imprecisa: ADS1115 è un ADC I2C 4 canali 16-bit con
     PGA, non un amplificatore generico. Quantità e posizione invariate.'
   datasheet_url: https://www.farnell.com/datasheets/3759179.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1085-10.jpg
@@ -168,7 +168,7 @@
   interfaccia: SMD
   note: 3.3V
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.ic-components.com/theme/images/logo.png
@@ -188,7 +188,7 @@
   interfaccia: SMD
   note: 5V
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://s.yimg.com/lo/mysterio/api/59db92369c41f701211d99a1df99e0e2b9f41b336f2668a0698826a5040685fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F7567e8b589ca7f67d5f16867d498791a
@@ -209,7 +209,7 @@
   interfaccia: SMD
   note: ADJ
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.eleccircuit.com/wp-content/uploads/2024/08/ams1117-in-many-circuit-boards.jpg

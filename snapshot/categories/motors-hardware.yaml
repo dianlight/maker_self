@@ -53,7 +53,7 @@
   interfaccia: 2 pin
   note: +12v
   datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://cdn11.bigcommerce.com/s-eblil3q2nd/images/stencil/500x659/products/510/16770/30x10_fan_Edit__02476__50349.1665255047.jpg?c=2
@@ -71,7 +71,7 @@
   interfaccia: 3 pin
   note: +12v
   datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: http://us.elegoo.com/cdn/shop/files/1_b32f9b3a-8977-4059-8530-0e1e9468bff4.jpg?v=1787636004
@@ -89,7 +89,7 @@
   interfaccia: 2 pin
   note: +5v
   datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://catalog.pelonistechnologies.com/ImgMedium/a3312-1.jpg
@@ -107,7 +107,7 @@
   interfaccia: 2 pin
   note: +12v
   datasheet_url: https://www.mechatronics.com/pdf/mechatronics_catalog.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://image.made-in-china.com/2f0j00bzkGOyRSrqoc/5012-Low-Noise-50mm-Cooling-Fan-5V-12V-Brushless-DC-Fan-50X50X12-24V-3wire-Speed-Detection.jpg
@@ -126,7 +126,7 @@
   interfaccia: 2 pin
   note: +12v
   datasheet_url: https://protosupplies.com/product/5015-blower-fan-12v/
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/04/5015-Blower-Fan-12V.jpg
@@ -146,7 +146,7 @@
   interfaccia: 2 pin
   note: +12v
   datasheet_url: https://orionfans.com/productFiles/datasheet/OD9225.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://orionfans.com/wp-content/uploads/elementor/thumbs/OD9225-12HB-IP69K-left-copy-scaled-e1649428481822-pobc2hbbt8zntwrhr1qxdcrkjqbyy9rqbb0r9uuqv2.jpg
@@ -169,7 +169,7 @@
     codice normalizzato da JF.0530B a JF-0530B; descrizione ampliata come attuatore
     lineare DC 10 mm, 2 fili. Nessuna foto disponibile per verificare package e scritte.'
   datasheet_url: https://www.hobbytronics.co.za/Content/external/1274/D2512640695.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -198,7 +198,7 @@
 
     Modalità di guida: 2 fase 4 fili mini motore passo a passo'
   datasheet_url: https://www.scribd.com/document/353094200/Steper-Manual
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -235,7 +235,7 @@
 
     Modalità di guida: 2 fase 4 fili mini motore passo a passo'
   datasheet_url: https://images-eu.ssl-images-amazon.com/images/I/81v-YO2qbWS.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -260,7 +260,7 @@
   interfaccia: 2 pin
   note: '10-150rpm; link prodotto AliExpress: https://it.aliexpress.com/item/1922694195.html?spm=a2g0o.order_list.order_list_main.393.35353696UKvKTX&gatewayAdapt=glo2ita'
   datasheet_url: https://www.scribd.com/doc/210101380/DC-Motors
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: ''
@@ -281,7 +281,7 @@
   note: Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
     motors-hardware confermata.
   datasheet_url: https://www.friendlywire.com/projects/ne555-servo-safe/SG90-datasheet.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: Servo Box
   foto_drive_id: ''
   foto_url: https://towerpro.com.tw/wp-content/uploads/2014/08/SG90-D2.jpg
@@ -304,7 +304,7 @@
     Codice ipotizzato SC_Pump dal datasheet. Interfaccia e package non deducibili
     senza foto.'
   datasheet_url: https://www.mifab.com/Catalog/Library/SC_Pump_Sheet.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -330,7 +330,7 @@
     ''Perrier'' corretto in ''Peltier'' (probabile refuso). URL datasheet Perrier
     non valido come datasheet elettronico, rimosso.'
   datasheet_url: https://www.perrier.com/products/detail/perrier
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -355,7 +355,7 @@
   note: 'Riclassificato da motors-hardware a componenti: si tratta di un altoparlante/minispeaker,
     non di hardware motore.'
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_101656_speaker_05w_8ohm-3532535.pdf
-  datasheet_last_check: '2026-10-03'
+  datasheet_last_check: '2026-10-17'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
