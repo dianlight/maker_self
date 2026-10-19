@@ -228,7 +228,7 @@
   interfaccia: DIP I2C
   note: 1.8V - 5.5V
   datasheet_url: http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -247,7 +247,7 @@
   interfaccia: DIP I2C
   note: 1.8V - 5.5V
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/doc1116.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: http://quartzcomponents.com/cdn/shop/products/AT24C512.jpg?v=1653633960
@@ -266,7 +266,7 @@
   interfaccia: DIP
   note: Vice = 50V 100mA
   datasheet_url: https://www.sparkfun.com/datasheets/Components/BC546.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: Transistor Box
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/uc_product/public/uc_products/p-qbc547b_dpm_0.png?itok=3ZSFRB6e
@@ -286,7 +286,7 @@
   interfaccia: DIP
   note: 'Riclassificato da ic-components a sensori: è un fotodiodo/sensore di luce.'
   datasheet_url: https://www.vishay.com/docs/81521/bpw34.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://probots.co.in/pub/media/catalog/product/cache/891768098d9d90472b8b3c7afc6da23f/5/1/51pibu44wzl._sl1100_.jpg
@@ -306,7 +306,7 @@
   note: Riclassificato come IC; nessuna foto disponibile, dati basati sulla riga inventario.
     Package DIP. Verificare variante e piedinatura esatta.
   datasheet_url: https://www.mouser.it/datasheet/2/348/rohm_semiconductor_rohms30191-1-1742744.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: GEN BLU 01 / 01
   foto_drive_id: ''
   foto_url: https://tinkersphere.com/3831/2115.jpg
@@ -327,7 +327,7 @@
   note: 'Riclassificato da riga inventario: IC CMOS counter; DIP è package, non interfaccia
     di comunicazione.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4017b.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://microcontrollerslab.com/wp-content/uploads/2020/01/CD4017-Counter-IC.jpg
@@ -349,7 +349,7 @@
     compatibile CD4051/CD4052/CD4053; datasheet fornito per CD4051B. Package e suffisso
     non specificati.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4051b.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -370,7 +370,7 @@
   interfaccia: DIP
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4066b-mil.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://www.codrey.com/wp-content/uploads/2024/01/CD4066BE.jpeg
@@ -390,7 +390,7 @@
   note: CH340G è un chip USB to serial; descrizione corretta da 'USB Slave Chip' e
     datasheet aggiornato al produttore WCH.
   datasheet_url: https://datacapturecontrol.com/articles/io-devices/usb-serial-adapters/overview
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://wiki.keyestudio.com/images/1/1e/%E5%9B%BE%E7%89%871-_ks0173.png
@@ -410,7 +410,7 @@
   interfaccia: SMD
   note: Mixed Values
   datasheet_url: https://www.silabs.com/documents/public/data-sheets/CP2101.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -431,7 +431,7 @@
     link Mouser fornito è una pagina prodotto, non il datasheet ufficiale. Verificare
     package reale (SOIC-8 o PDIP-8).
   datasheet_url: https://www.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS1307?qs=1eQvB6Dk1vjgsJfdc7e59A%3D%3D
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3296-03.jpg
@@ -452,7 +452,7 @@
   interfaccia: DIP
   note: 250AC / 30DC
   datasheet_url: https://cdn.soselectronic.com/productdata/2e/41/df68a637/ftr-f3aa005v.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: Relay Box
   foto_drive_id: ''
   foto_url: https://image.mono.ipros.com/public/product/image/b0f/2001506855/IPROS27928005007946865752.png
@@ -471,7 +471,7 @@
   interfaccia: DIP
   note: Vd 60v Id 120A
   datasheet_url: https://rcl-radio.ru/wp-content/uploads/2014/11/FQP30N06.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: http://enigma-shop.com/cdn/shop/products/fqp30n06_2.jpg?v=1680844685
@@ -489,7 +489,7 @@
   interfaccia: SMD
   note: Mixed Values
   datasheet_url: https://ftdichip.com/wp-content/uploads/2020/08/DS_FT232BL_BQ.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5227-00.jpg
@@ -509,7 +509,7 @@
   note: Codice originale HP4067 probabilmente refuso per CD74HC4067; il datasheet
     TI conferma 16-channel analog multiplexer/demultiplexer.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf
-  datasheet_last_check: '2026-10-04'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -530,7 +530,7 @@
   interfaccia: SMD
   note: SSOP48
   datasheet_url: https://www.holtek.com/documents/10179/116711/HT1621v321.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/optimized/4X/c/3/7/c373f056b6ed93804b0f70cae774db9282ea7921_2_345x194.jpeg
@@ -550,7 +550,7 @@
   note: 'Riclassificato da riga inventario senza foto. Corretto ''Linar'' in ''Linear''.
     Categoria confermata: ic-components.'
   datasheet_url: https://components101.com/regulators/ht7333-linear-voltage-regulator-datasheet-pinout
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://d2x7gdstplisc7.cloudfront.net/.tmp/assets/_site_/images/products/regulators/1200x900/exact-size/short-side-scaled/padded/1200x900/222222/ht7333/text-overlay/4875d2f0a8c601b0e838d341130323cf/586x/padded/586x/FFFFFF/quality/60/ht7333.jpg
@@ -571,7 +571,7 @@
   note: 'Codice originale ''i7824HS'' probabilmente errato: il datasheet indica UC3824.
     Interfaccia originale TSOP-14 non compatibile con UC3824 (SOIC-16/PDIP-16).'
   datasheet_url: https://www.ti.com/lit/ds/symlink/uc3824.pdf?ts=1791172079134
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://s.alicdn.com/@sc04/kf/Hb0ae8fcd6f7442479b2093b4e8a586c7a.jpg_300x300.jpg
@@ -590,7 +590,7 @@
   interfaccia: DIP
   note: Vd 55v Id 47A
   datasheet_url: https://www.infineon.com/dgdl/irlz44npbf.pdf?fileId=5546d462533600a40153567217c32725
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/08/IGP15N60T-e1786347791170.jpg
@@ -610,7 +610,7 @@
   note: Nessuna foto disponibile; codice originale L393 probabilmente refuso per L293/L293D.
     Datasheet indicato per H-bridge motor driver.
   datasheet_url: https://www.arduino.cc/documents/datasheets/H-bridge_motor_driver.PDF
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/807-01.jpg
@@ -630,7 +630,7 @@
   interfaccia: SMD
   note: 3v3
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm3940.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://estore.st.com/media/catalog/product/l/d/ld1117v33.jpeg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700
@@ -649,7 +649,7 @@
   interfaccia: DIP
   note: Nessuna foto disponibile; riclassificato dai campi della riga inventario.
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm358b.pdf?ts=1639818830392&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM358B%253FkeyMatch%253DLM358%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-qlm358_1.png?itok=yXCS5a5t
@@ -668,7 +668,7 @@
   interfaccia: DIP
   note: https://easyelectronicsproject.com/mini-projects/battery-level-indicator-circuit/
   datasheet_url: https://www.mouser.com/datasheet/2/405/lm3915-443929.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Box 2
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2023/06/DIP-18-Package.jpg
@@ -687,7 +687,7 @@
   interfaccia: DIP / SPI
   note: Nessuna foto disponibile; riclassificato dai campi della riga inventario.
   datasheet_url: https://cdn.sparkfun.com/assets/3/e/c/b/d/COM-09622-MAX7219-MAX7221.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-18'
   posizione: IC Box 1
   foto_drive_id: ''
   foto_url: http://keszoox.com/cdn/shop/files/MAX7219-LED-Driver-1.jpg?v=1723007377

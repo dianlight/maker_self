@@ -960,7 +960,7 @@
   datasheet_last_check: '2026-10-14'
   posizione: ''
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.icomjapan.com/media/images/common/ogp_en.jpg
   ai_proposta: '{"codice": "OWC 236", "categoria": "sensori", "descrizione": "Microfono
     omnidirezionale OWC 236, 1 pezzo, package non visibile, probabilmente electret
     condenser, sigla OWC 236 leggibile dai campi inventario.", "interfaccia": "analogico",
@@ -983,7 +983,7 @@
   datasheet_last_check: '2026-10-14'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.sensoriditemperatura.it/wp-content/uploads/La-Sonda-Pt100-img.webp
   ai_proposta: '{"codice": "P100", "categoria": "sensori", "descrizione": "Sensore
     di temperatura, probabile Pt100 (sonda resistiva). Quantità 2. Package non specificato;
     nessuna foto disponibile.", "interfaccia": "analogica/resistiva", "quantita":
@@ -1049,7 +1049,7 @@
   datasheet_last_check: '2026-10-14'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://image.dfrobot.com/image//data/SEN0298/1.png
   ai_proposta: '{"codice": "RP-C7.6-LT", "categoria": "sensori", "descrizione": "Sensore
     di forza resistivo (FSR) DFRobot RP-C7.6-LT / SEN0298, package a film sottile
     flessibile con area sensibile circolare da 7.6 mm e 2 terminali. Quantità da inventario:
@@ -1117,7 +1117,7 @@
   datasheet_last_check: '2026-10-14'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.resound.com/-/media/resound/resound-international/products/wireless-accesories/multi-mic-plus/resound-multi-mic-plus-hearing-aid-horizontal.ashx?w=1600&usecustomfunctions=1&centercrop=1&hash=FF98B69D75B403F82D3C57AC85B8275E
   ai_proposta: '{"codice": "MIC-WIRELESS", "categoria": "sensori", "descrizione":
     "Microfono, quantità 2, interfaccia wireless. Probabile accessorio/componente
     audio (ReSound Mini Microphone). Package non specificato. Scritte leggibili: ReSound
@@ -1201,7 +1201,7 @@
   datasheet_last_check: '2026-10-14'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.blancatogp.com/favImage.png
   ai_proposta: '{"codice": "TDS+NTC", "categoria": "sensori", "descrizione": "Sonda/misuratore
     di conducibilità TDS con sensore di temperatura NTC 10K, interfaccia analogica;
     quantità 1; package non specificato; nessuna foto disponibile, scritte leggibili
