@@ -48,7 +48,7 @@
   note: Riclassificato da 'Scotty Diodo' a 'Diodo Schottky SS32'. Categoria corretta
     da ic-components a componenti. Codice corretto da SSxx a SS32.
   datasheet_url: https://www.vishay.com/docs/88751/ss32.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -71,7 +71,7 @@
     riferisce a ferrite bead SMD 0603, mentre la descrizione indica anelli da cavo;
     verificare corrispondenza e package.
   datasheet_url: https://www.vishay.com/docs/34024/ilbb0603.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''

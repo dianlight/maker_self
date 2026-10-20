@@ -7,7 +7,7 @@
   note: Riclassificato da campi inventario; nessuna foto. Categoria 'pu' mantenuta
     per modulo di alimentazione. Codice e descrizione basati sui campi forniti.
   datasheet_url: https://roboeq.ir/uploads/files/163826248821.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: B Box
   foto_drive_id: ''
   foto_url: http://quartzcomponents.com/cdn/shop/files/300W-20A-Step-Down-DC-DC-Buck-Converter-with-Constant-Voltage-and-Current-Control.jpg?v=1698320628
@@ -27,7 +27,7 @@
     per filtraggio/soppressione EMI, non di una unità di potenza. Codice mantenuto
     descrittivo ''Anelli Di Ferrite''.'
   datasheet_url: https://www.tdk-electronics.tdk.com/download/519704/069c210d0363d7b4682d9ff22c2ba503/ferrites-and-accessories-db-130501.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -49,7 +49,7 @@
   interfaccia: 4PIN
   note: Riclassificato come modulo di alimentazione DC-DC; categoria 'pu' mantenuta.
   datasheet_url: https://www.delus-power.com/products/dc-dc-fixed/B0505S-2W.html
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: Relay Box
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20230109_JETEKPS-B0505S-2W_C387593_front.jpg
@@ -67,7 +67,7 @@
   interfaccia: DIN
   note: 2A
   datasheet_url: https://ja-bots.com/wp-content/uploads/2025/04/DB207-datasheet.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/S36c8435b888e4117b3bca1a155f7b9a3n.jpg
@@ -86,7 +86,7 @@
   note: Nessuna foto disponibile; riclassificato da 'pu' a 'motors-hardware' in quanto
     alternatore/generatore, non power unit. Codice e posizione invariati.
   datasheet_url: https://eastcoastgenerators.com.au/wp-content/uploads/2020/05/KD2500-F-Alternator-Data-Sheet.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''

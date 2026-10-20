@@ -707,7 +707,7 @@
   note: Riclassificato dalla riga inventario. Categoria ic-components confermata;
     si tratta di amplificatore audio I2S, non di un sensore o display.
   datasheet_url: https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/pinouts
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/640x480/3006-04.jpg
@@ -728,7 +728,7 @@
   interfaccia: DIP-28
   note: Package DIP-28; 16-bit I/O expander; 5 pezzi
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/732-05.jpg
@@ -749,7 +749,7 @@
     e sostituire con datasheet corretto. Package SMD SOP-8 coerente con posizione
     SMD Box; la nota precedente su DIP-8/THT non è coerente con interfaccia SMD.
   datasheet_url: https://fr.scribd.com/document/651991833/ob2223hc
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -771,7 +771,7 @@
   note: Riclassificato dalla riga inventario senza foto. Categoria confermata ic-components.
     Verificare package e tensione di alimentazione.
   datasheet_url: https://www.ti.com/lit/ds/symlink/pcf8574.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -792,7 +792,7 @@
   note: 'Riclassificato da ic-components a componenti: è un PTC resettabile/protezione,
     non un IC. Codice attuale mantenuto.'
   datasheet_url: https://m.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_1206l_datasheet.pdf.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -812,7 +812,7 @@
   interfaccia: DIP
   note: 16V 1A
   datasheet_url: https://it.aliexpress.com/item/32960613217.html?spm=a2g0s.9042311.0.0.27424c4dICEFYi
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: Fuse Box
   foto_drive_id: ''
   foto_url: https://api.optifuse.com/files/image/image/FSO/FSO-Main_l.jpg
@@ -830,7 +830,7 @@
   interfaccia: 4Pin
   note: https://www.lcsc.com/product-detail/Reed-Relays_PAN-CHANG-SIP-1A05_C10496.html
   datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5562/SIP%20Series.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: Relay e PU Box
   foto_drive_id: ''
   foto_url: https://c1.neweggimages.com/ProductImage/C6FGD26082804ZEQB2F.jpg
@@ -850,7 +850,7 @@
     con clear sincrono. Il datasheet TI copre la famiglia SN54/74LS161A/162A/163A.
     Per package DIP il suffisso TI è N (SN74LS162N).'
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls161a-sp.pdf?ts=1791156058661
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Box 2
   foto_drive_id: ''
   foto_url: https://www.ic-components.com/theme/images/logo.png
@@ -871,7 +871,7 @@
   interfaccia: SMD
   note: Riclassificato da ic-components a pu. Modulo driver per LED, non un IC.
   datasheet_url: https://www.dc.systems/assets/public/LED-Driver-Datasheet.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.standardpro.com/hubfs/stanpro/product-images/Driver%2012V%20family%20pic%20600x400.jpg
@@ -890,7 +890,7 @@
   note: Il datasheet fornito è per SN54LS08, non per SN5408; verificare corrispondenza.
     Package DIP, quantità indicata 2.
   datasheet_url: https://www.ti.com/lit/ds/symlink/sn54ls08-sp.pdf?ts=1639771200586&ref_url=https%253A%252F%252Fwww.google.com%252F
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -912,7 +912,7 @@
     codice TDA2030; descrizione corretta da ''Audoo Amp'' a audio amplifier IC. Nessuna
     foto disponibile.'
   datasheet_url: https://www.changpuak.ch/electronics/datasheets/TDA2030.pdf
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: ''
@@ -935,7 +935,7 @@
   note: 'Codice originale TL0754CN sospetto refuso: il datasheet indica TL074H/TL074.
     Categoria confermata: ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl074h.pdf?ts=1791156956453
-  datasheet_last_check: '2026-10-05'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/W7092380-01
@@ -957,7 +957,7 @@
   note: Nessuna foto disponibile; riclassificato dalla riga inventario. OP-AMP Texas
     Instruments TL081ACP.
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl081a.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1639737982939&ref_url=https%253A%252F%252Fwww.mouser.de%252F
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://microcontrollerslab.com/wp-content/uploads/2020/02/TL081-op-amp-IC.jpg
@@ -978,7 +978,7 @@
   note: LED emettitore infrarosso Vishay; non è un circuito integrato. Verificare
     polarità anodo/catodo e corrente di lavoro.
   datasheet_url: https://www.vishay.com/docs/81010/tsal6200.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: Led Box
   foto_drive_id: ''
   foto_url: https://www.vishay.com/images/product-images/pt-large/81010-pt-large.jpg
@@ -1000,7 +1000,7 @@
   note: 'Riclassificato dalla riga inventario: UC3845 è un controller PWM current-mode;
     package DIP-8.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/uc3845.pdf?ts=1639737658616&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FUC3845
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/09/mc33151-high-speed-dual-mosfet-driver-ic-dip-8-package-800x800-1.jpg
@@ -1020,7 +1020,7 @@
   interfaccia: QUAD SPI
   note: 3V
   datasheet_url: https://www.scribd.com/document/413276139/datasheet-1-abc
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.ultralibrarian.com/wp-content/uploads/2026/10/W25Q128-Serial-Flash-Memory-Datasheet.webp
@@ -1040,7 +1040,7 @@
   interfaccia: QUAD SPI
   note: 3V
   datasheet_url: https://www.scribd.com/document/413276139/datasheet-1-abc
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: ''
@@ -1059,7 +1059,7 @@
   interfaccia: 4Pin
   note: https://www.datasheetcafe.com/xy8018-datasheet-solar-led-driver/
   datasheet_url: https://datasheet4u.com/datasheets/Shiningic/YX8018/710956
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: ''
