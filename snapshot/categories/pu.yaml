@@ -106,7 +106,7 @@
   interfaccia: 4PIN
   note: 6A
   datasheet_url: https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -124,7 +124,7 @@
   interfaccia: 4PIN
   note: 2A
   datasheet_url: https://www.eicsemi.com/DataSheet/KBP200_10.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://kitsguru.com/cdn/shop/files/KBP210BridgeRectifierKBP-41000V2ADIPPackage-1.jpg?v=1754289519
@@ -142,7 +142,7 @@
   interfaccia: 4PIN
   note: 3A
   datasheet_url: https://www.rectron.com/public/product_datasheets/kbp304-kbp310.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20190628_MDD-Microdiode-Semiconductor-KBP310_C2496_front.jpg
@@ -161,7 +161,7 @@
   note: Riclassificato da riga inventario. Codice originale FDC-2S-2; il datasheet
     indica HX-2S-3A. Categoria PU/power management.
   datasheet_url: https://qqtrading.com.my/HX-2S-3A
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://qqtrading.com.my/image/cache/catalog/Products/BMS 18650/HX-2S-3A/2s3a-380x380.jpg
@@ -183,7 +183,7 @@
     mode choke passivo, non di una unità di potenza. Codice mantenuto come UU10.5;
     verificare eventuale part number completo UU10.5LF.'
   datasheet_url: https://www.coilmaster.com.tw/Templates/att/Common%20Mode%20Choke%20%2CAC%20Line%20Filters%20-%20UU10.5LF%20SERIES.pdf?lng=en
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20191015_FH--Guangdong-Fenghua-Advanced-Tech-UU10-5-10mH_C191661_front.jpg
@@ -204,7 +204,7 @@
   interfaccia: ''
   note: Riclassificato da pu a componenti. Induttore passivo. Nessuna foto disponibile.
   datasheet_url: https://www.zxcompo.com/wp-content/uploads/2019/04/UU-series.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/H2d8a709445234b398ae07001ac1e3fd6w.jpg
@@ -222,7 +222,7 @@
   interfaccia: ''
   note: Componente passivo, induttore di modo comune. Riclassificato da pu a componenti.
   datasheet_url: https://alphatrans.co.jp/wp-content/pdf/coil/ac_line/UU9.8V.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://assets.lcsc.com/images/lcsc/900x900/20240806_FH--Guangdong-Fenghua-Advanced-Tech-UU9-8-10mH_C148474_front.jpg
@@ -242,7 +242,7 @@
   note: 'Riclassificato da ''pu'': il datasheet bms-20a-3s-s_sgt.pdf indica un modulo
     BMS 3S 20A, non una batteria LiPo.'
   datasheet_url: https://www.mantech.co.za/Datasheets/Products/bms-20a-3s-s_sgt.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://maxamps.com/cdn/shop/collections/LiPo_3S_11.1v_Battery_750x.png?v=1755272718
@@ -263,7 +263,7 @@
   note: Descrizione originale '220c -> 5v (2A)' interpretata come 220V AC -> 5V DC
     2A.
   datasheet_url: https://www.axagon.eu/en/products/ac-5v2a
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/original/4X/c/8/c/c8c84264991d7921f1990426c18a2386a995f45b.png
@@ -285,7 +285,7 @@
     non verificato. Datasheet Amazon PDF non verificato. Quantità 2 intesa come 2
     pezzi del componente/kit. Nessuna foto disponibile per verifica.
   datasheet_url: https://m.media-amazon.com/images/I/919dJp-mC1L.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''
@@ -308,7 +308,7 @@
   note: 'Categoria riclassificata da ''pu'' a ''motors-hardware'' in base a descrizione
     e datasheet: modulo controller PWM per motore DC/dimmer LED.'
   datasheet_url: http://5.imimg.com/data5/SELLER/Doc/2024/5/418696056/KO/NJ/DL/148135461/pwm-dc-motor-controller-5v-to-35v-5a-led-dimmer-module.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://electronicspices.com/uploads/products/18/large5V-30V-DC-PWM-Speed-Controller-1.jpg
@@ -331,7 +331,7 @@
   note: Categoria 'pu' (power unit) mantenuta per modulo di alimentazione/filtro DC-DC.
     Interfaccia non desumibile dalla riga.
   datasheet_url: https://www.robotics.org.za/DC-FILTER-50V-4A
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://pmdway.com/cdn/shop/files/50V-DC-4A-power-filter-pmdway_1_1200x1200_crop_center.avif?v=1788911851
@@ -351,7 +351,7 @@
   interfaccia: ''
   note: 2A
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm2596.pdf?ts=1690434988173&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fes-mx%252FLM2596
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: http://store.rokland.com/cdn/shop/files/1_de09216e-3e74-427a-965c-64a22d071d64.png?v=1746109710
@@ -369,7 +369,7 @@
   interfaccia: morsetti a vite (VIN, VOUT, GND)
   note: Modulo step-down, non IC singolo
   datasheet_url: https://www.makerfabs.com/desfile/files/XL4016-Datasheet.pdf?srsltid=AU7gw4Vgb2Rr-ar6Qc8OvmdN-Bgf5iAFWO3Zgi8mFo7cPa1EPYqzq9yi
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61SjL3pyB3L.jpg

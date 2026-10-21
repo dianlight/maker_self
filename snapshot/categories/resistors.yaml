@@ -8,7 +8,7 @@
   note: 'Riclassificato: shunt 30A Siglent SCD30A; categoria corretta da pu a resistors;
     codice corretto da Stunt a SCD30A. Quantità 1, posizione B Box.'
   datasheet_url: https://www.batronix.com/files/Siglent/Multimeter/SDM3065X/SCD30A_Datasheet.pdf
-  datasheet_last_check: '2026-10-06'
+  datasheet_last_check: '2026-10-20'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -31,7 +31,7 @@
   note: Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato
     a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.
   datasheet_url: https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''

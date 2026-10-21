@@ -7,7 +7,7 @@
   note: Basato sulla riga inventario; nessuna foto disponibile. La descrizione indica
     8 LED RGB su barra.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://docs.keyestudio.com/projects/KS0533/en/latest/_images/image-20260127121847324.png
@@ -32,7 +32,7 @@
     un LED. Codice corretto da ''Ir RX+TX'' a TSOP382; verificare se la voce include
     anche un trasmettitore IR TX e la frequenza portante esatta (38 kHz indicata).'
   datasheet_url: https://www.vishay.com/docs/82491/tsop382.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: Led Box
   foto_drive_id: ''
   foto_url: ''
@@ -58,7 +58,7 @@
     in HSDL-4260 in base al datasheet; ''DUAL IR EMITTER'' è una descrizione, non
     un codice parte.'
   datasheet_url: https://www.mouser.com/datasheet/2/239/HSDL_4260_DS-1143990.pdf?srsltid=AU7gw4W5MeVP5AXg0JlcXsEQ518Y5-YSly0KPKn-sbLvGrRO6v1qI6HW
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://russound.com/wp-content/uploads/2026/07/ire-2-dual-ir-emitter-1.jpg

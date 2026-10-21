@@ -94,7 +94,7 @@
     'componenti' perché modulo storage generico, non sensore/display/IC. Verificare
     corrispondenza codice HW-125 con modulo micro SD SPI.
   datasheet_url: https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://shillehtek.com/cdn/shop/files/1_c60d4fea-c515-4367-b12e-0f89e369909c.png?v=1771543653&width=240
@@ -116,7 +116,7 @@
   note: PCA9685 è spesso usato come driver per servo/LED; se in inventario è un breakout
     board, valutare categoria circuits/mcu-board.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/815-05.jpg
@@ -138,7 +138,7 @@
   note: Nessuna foto; riclassificato dalla riga inventario. URL fornito è pagina prodotto,
     non datasheet tecnico.
   datasheet_url: https://mktechnic.com/product/emc-kk-p2511-v/?srsltid=AU7gw4Wu_lG0fMqyZ4dmVmwgZZKohUMj7W64Yb4QCcrTeCd3xyBS_iFw
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://i0.wp.com/mktechnic.com/wp-content/uploads/2023/02/EMC-KK-P2511-V.jpg?fit=1000%2C1000&#038;ssl=1
@@ -161,7 +161,7 @@
     ultrasuoni con interfaccia Micro USB, probabile attuatore per umidificatori. Verificare
     se il datasheet Farnell 81205 corrisponde.'
   datasheet_url: https://www.farnell.com/datasheets/81205.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
@@ -183,7 +183,7 @@
   note: Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A
     Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.
   datasheet_url: https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-20'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: ''
