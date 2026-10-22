@@ -8,7 +8,7 @@
   note: Riclassificato da mcu a mcu-board; codice normalizzato in ESP8266; descrizione
     ampliata. Basato solo sui campi della riga, nessuna foto.
   datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''

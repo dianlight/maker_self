@@ -54,7 +54,7 @@
     un resistore variabile/trimmer 3 pin. Codice e valore B5K mantenuti come da inventario;
     categoria assegnata a resistors.'
   datasheet_url: https://www.farnell.com/datasheets/2261187.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -76,7 +76,7 @@
   note: Riclassificato dalla riga inventario. 'Variable Reistor' corretto in resistore
     variabile/potenziometro; categoria mantenuta resistors.
   datasheet_url: https://www.utmel.com/productdetail/alphataiwan-rv09af4020kb50k-24413960
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://img.drz.lazcdn.com/static/pk/p/a82f6dc77bb202e3a2736d9ea4b88aba.jpg_720x720q80.jpg_.webp
@@ -98,7 +98,7 @@
   note: Riclassificato dalla riga inventario; categoria confermata resistors. Nessuna
     foto disponibile, dati basati sui campi forniti.
   datasheet_url: https://datasheet.b-cdn.net/posts/b100k-datasheet
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://www.totalsolution.in/admin/product-images/prod_6a54f5fbc8a4a.png
@@ -118,7 +118,7 @@
   interfaccia: 8DIP
   note: 50kOhm
   datasheet_url: https://www.instructables.com/X9C103P-Basic-Operation
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -136,7 +136,7 @@
   interfaccia: 3PIN
   note: 200K
   datasheet_url: https://www.farnell.com/datasheets/2002041.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''

@@ -31,7 +31,7 @@
   datasheet_last_check: '2026-10-17'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-qrc4558_1.png?itok=bTMfLOCV
   ai_proposta: '{"codice": "RC4558", "categoria": "ic-components", "descrizione":
     "OP-AMP RC4558, integrato dual operational amplifier, package non specificato,
     quantità 10", "interfaccia": "analogico", "quantita": 10, "posizione": "IC Barrel",
@@ -70,7 +70,7 @@
   datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.winbond.com/export/system/modules/com.thesys.project.winbond/resources/images/logo.png_1914476845.png
   ai_proposta: '{"codice": "W25Q64FV", "categoria": "ic-components", "descrizione":
     "Memoria Flash seriale 64Mbit (8MB), interfaccia Quad SPI, tensione 3V, package
     SMD non specificato, quantita 1. Nessuna foto disponibile; dati ricavati dalla
@@ -109,7 +109,7 @@
   datasheet_last_check: '2026-10-17'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://datasheet4u.com/pdfhtml/0228/46386/page-000001.png
   ai_proposta: '{"codice": "93C86", "categoria": "ic-components", "descrizione": "Circuito
     integrato EEPROM 16Kbit con interfaccia Microwire, 5V, package SMD (non specificato),
     quantità 20. Marcatura/identificativo: 93C86.", "interfaccia": "Microwire", "quantita":
@@ -231,7 +231,7 @@
   datasheet_last_check: '2026-10-18'
   posizione: Blu IC Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: http://www.sainsmart.com/cdn/shop/products/02_595_12_14_grande.jpg?v=1762541388
   ai_proposta: '{"codice": "AT24C256", "categoria": "ic-components", "descrizione":
     "EEPROM I2C 256 Kbit (32 KByte), package DIP-8; quantità 8; parte AT24C256", "interfaccia":
     "I2C", "quantita": 8, "posizione": "Blu IC Box", "datasheet_url": "http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf",

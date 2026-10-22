@@ -1515,7 +1515,7 @@
   interfaccia: Analogica/Digitale (VRx, VRy, SW)
   note: Riclassificato da 'IC Joystick' a modulo joystick KY-023; non è un IC.
   datasheet_url: https://naylampmechatronics.com/img/cms/Datasheets/000036%20-%20datasheet%20KY-023-Joy-IT.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-21'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''

@@ -7,7 +7,7 @@
   note: 'Riclassificato dalla riga inventario: categoria corretta in mcu per ATmega644PA;
     package SMD generico, non specificato se TQFP44 o QFN44.'
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf
-  datasheet_last_check: '2026-10-07'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4230/150%7E44A%7EA%7E44.JPG
@@ -29,7 +29,7 @@
     in ESP32; descrizione originaria ''32'' troppo generica. Possibile variante modulo/dev-board
     ESP32.'
   datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -52,7 +52,7 @@
     una scheda/modulo con pin, non un chip nudo. Il datasheet fornito è per il chip
     ESP32-S2.'
   datasheet_url: https://documentation.espressif.com/esp32-s2_datasheet_en.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://www.espressif.com/sites/default/files/Banner/esp32-s2-banner-new-1-mobile-bg.jpg
@@ -74,7 +74,7 @@
   note: Nessuna foto disponibile; riclassificato dai campi inventario. ATTINY2313A
     è un MCU AVR 8-bit.
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed.
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://media.rs-online.com/t_medium/Y1773007-02.jpg
@@ -94,7 +94,7 @@
   note: Riclassificato da campi inventario; categoria MCU corretta. Codice originale
     ATMEGA328P; variante DIP through-hole probabilmente ATMEGA328P-PU.
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061B.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://res.utmel.com/Images/Article/74cef38d-8bf5-46c1-a90b-3949a3bf7876.jpg
@@ -115,7 +115,7 @@
   interfaccia: SMD
   note: Riclassificato come MCU. Verificare package esatto e tensione di alimentazione.
   datasheet_url: http://www.lyr-ing.com/DocumentosLyR/EXT/ICs/AVR/AtMega1284P_(3)_8059S.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://www.electrokit.com/resource/u1IY/Xip/X6RZr2G5MVn/product/41010/41010044/40363208.jpg
@@ -135,7 +135,7 @@
   interfaccia: DIP
   note: I marchiati in rosso devono essere riprogrammati in HV
   datasheet_url: https://www.microchip.com/wwwproducts/en/ATmega8A
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://www.ariat-tech.com/ariat/images/Logo.jpg
@@ -155,7 +155,7 @@
   note: Codice originale '1' troppo generico; possibile modulo ESP8266 (es. ESP-01/ESP-12)
     o chip QFN32. Interfaccia DIP non coerente col datasheet del solo chip.
   datasheet_url: https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -178,7 +178,7 @@
     non standard; corretta con interfacce tipiche ESP32. Datasheet fornito è per serie
     ESP32, non specifico per ESP32-S. Quantita dichiarata 2.'
   datasheet_url: https://www.es.co.th/Schemetic/PDF/ESP32.PDF
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/04/ESP32-S-Development-Board-1.jpg
@@ -199,7 +199,7 @@
   interfaccia: MINI DIP
   note: Internal Antenna
   datasheet_url: https://source.cntooya.com/all/pro/EFR32MG21/EFR32MG21%20Coordinator%20Module%20datasheet-EN.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://opengraph.githubassets.com/9ac34182bbde6e57e1a57df300dea291865c92f4c75331ed21934ab6ee393d7e/zigpy/zigpy/discussions/586
@@ -219,7 +219,7 @@
   note: Riclassificato da mcu a comunication. Modulo WiFi ESP8266 compatibile Tuya.
     Interfaccia originaria 'COPIA TUYA' interpretata come compatibilità Tuya.
   datasheet_url: https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401121831_DOIT-ESP-02S_C19949060.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: ''
