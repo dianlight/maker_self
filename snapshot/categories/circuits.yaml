@@ -7,7 +7,7 @@
   note: Riclassificato da circuits a led; accessorio per telecamera. Nessuna foto
     disponibile.
   datasheet_url: https://adiglobal.cz/iiWWW/docs.nsf/all/C18EE97F69C86F25C12579DF002F3C29/$FILE/kl_ir_geko_prislusenstvi_en.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://tech-led.com/wp-content/uploads/2018/05/IR-NIR-LED.jpg
@@ -28,7 +28,7 @@
   note: Categoria corretta da circuits a comunication. Codice più specifico IR-T2
     dedotto dal datasheet Williams AV.
   datasheet_url: https://williamsav.com/wp-content/uploads/2020/05/Spec-Sheet-IR-T2-2021.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5639-00.jpg
@@ -51,7 +51,7 @@
     circuito. Verificare part number esatto, package e configurazione contatti dal
     datasheet.'
   datasheet_url: https://www.farnell.com/datasheets/2182434.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.twinschip.com/image/cache/catalog/Products%20Twins%20Chip%20Store%202020/Relay%205V%2010A%20-%20%205%20Pin%20PCB/Relay%205V%2010A%20-%20%205%20Pin%20PCB%20-%20Twins%20Chip%202-600x315w.jpg
@@ -73,7 +73,7 @@
     datasheet Accuenergy Acuvim-3. Riclassificato come sensore/strumento di misura
     di rete. Interfaccia presunta dal datasheet.'
   datasheet_url: https://www.accuenergy.com/wp-content/uploads/Acuvim-3-Advanced-Power-Quality-Meter-Datasheet.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: A Box
   foto_drive_id: ''
   foto_url: ''

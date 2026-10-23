@@ -29,7 +29,7 @@
   note: Datasheet fornito si riferisce a modulo STM32F103, non a CH32F103C8T6; codice
     indica MCU WCH CH32F103C8T6. Categoria mcu-board in base a 'Dev Boards'.
   datasheet_url: https://handsontec.com/dataspecs/module/STM32F103%20module.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.lcdwiki.com/resources/assets/logo.png
@@ -49,7 +49,7 @@
   interfaccia: USB + Wifi
   note: Basata su ESP8266, compatibile con Arduino IDE.
   datasheet_url: https://www.wemos.cc/en/latest/_static/files/sch_d1_mini_v3.0.0.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-22'
   posizione: Garage 01 e 02
   foto_drive_id: ''
   foto_url: https://www.wemos.cc/en/latest/_images/d1_mini_v4.0.0_1_16x16.png
@@ -71,7 +71,7 @@
     mcu-board, corretta in mcu. Codice originale EFR32MG2X mantenuto (famiglia). Datasheet
     riferito a EFR32MG24.
   datasheet_url: https://datasheet4u.com/datasheets/Silicon-Labs/EFR32MG24/1502659
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -92,7 +92,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -113,7 +113,7 @@
   interfaccia: USB+Bluetooth+Wifi
   note: Nessuna foto disponibile; riclassificazione basata sulla riga del tab inventario.
   datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.olimex.com/Products/IoT/ESP32-S2/ESP32-S2-DevKit-Lipo-USB/images/thumbs/310x230/ESP32-S2-DevKitLipo-USB-a.jpg
@@ -134,7 +134,7 @@
   note: Nessuna foto disponibile; riclassificato dai campi della riga. Codice ipotizzato
     ESP32-DEVKIT dal datasheet ESP32 Dev Kits; verificare modello esatto.
   datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.espressif.com/sites/default/files/devBoardCategory/s_2.png
@@ -154,7 +154,7 @@
   interfaccia: Wifi
   note: Nessuna foto disponibile; riclassificato dai campi della riga inventario.
   datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FM0/7CMV/IJX7GE45/FM07CMVIJX7GE45.jpg?auto=webp&amp;frame=1
@@ -174,7 +174,7 @@
   note: Interfaccia originale 'Blade' non standard, corretta in UART/GPIO. Datasheet
     riferito a ESP-01, non specifico per ESP-01M.
   datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FM0/7CMV/IJX7GE45/FM07CMVIJX7GE45.jpg?auto=webp&amp;frame=1
@@ -194,7 +194,7 @@
   interfaccia: TTL + Wifi
   note: SDK non cinese
   datasheet_url: https://www.winnermicro.com/en/upload/1/editor/1565008131994.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -214,7 +214,7 @@
   note: Codice inventario originale ESP-CAM; standardizzato in ESP32-CAM. Categoria
     mcu-board confermata. Datasheet DFR0602 corrispondente a modulo ESP32-CAM DFRobot.
   datasheet_url: https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0602_Web.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://static-cdn.m5stack.com/resource/docs/products/unit/esp32cam/esp32cam_01.webp
@@ -235,7 +235,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://community-assets.home-assistant.io/original/4X/5/0/e/50e585faea85010ebb16d3d466f071ef90ec1393.png
@@ -255,7 +255,7 @@
   interfaccia: TTL
   note: ''
   datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://www.espressif.com/sites/default/files/banner/esp32-socs-banner.jpg
@@ -271,7 +271,7 @@
   note: Categoria mcu-board confermata. Codice attuale ESP32-S incompleto; il datasheet
     indica ESP32-S3 DEV MODULE.
   datasheet_url: https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2025/09/ESP32-S3-DEV-MODULE-datasheet-1-1.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: ''
@@ -293,7 +293,7 @@
   note: Categoria mantenuta mcu-board; codice ESP32-T invariato. Nessuna foto disponibile,
     riclassificazione basata solo sui campi della riga.
   datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU
   foto_drive_id: ''
   foto_url: ''
@@ -316,7 +316,7 @@
     come NodeMCU ESP8266; verificare versione esatta (v0.9/v1.0) e datasheet ufficiale
     Espressif.
   datasheet_url: https://www.make-it.ca/nodemcu-details-specifications/
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.make-it.ca/wp-content/uploads/2021/09/nodemcu-carrier-board-1200x600-1.jpg
@@ -338,7 +338,7 @@
   note: Riclassificazione da riga inventario; 'ATMEDA328P' probabilmente refuso per
     ATmega328P. Nessuna foto disponibile.
   datasheet_url: https://arala.r-e-f.org/wp-content/uploads/2022/03/PRO-Mini-5V_EN.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://www.addicore.com/cdn/shop/products/AD249-2.jpg?v=1689765563&width=1214
@@ -358,7 +358,7 @@
   interfaccia: USB + JTag
   note: +512k eproom i2c
   datasheet_url: https://stm32-base.org/boards/STM32F103C8T6-STM32-Smart-V2.0.html
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://stm32-base.org/assets/img/boards/STM32F103C8T6_STM32_Smart_V2.0-1.jpg
@@ -378,7 +378,7 @@
   interfaccia: TTL +JTAG
   note: Con TFT35 e SD
   datasheet_url: https://github.com/bigtreetech/BTT-TFT35-E3-V3.0/blob/master/BTT%20TFT35-E3%20V3.0%20User%20Guide.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: A Box
   foto_drive_id: ''
   foto_url: http://biqu.equipment/cdn/shop/products/shopify_929d24ac-8c96-4953-a51e-29d7f16bc83b.jpg?v=1700265410
@@ -401,7 +401,7 @@
   note: 'Nessuna foto disponibile; riclassificato leggendo i campi della riga inventario.
     Categoria confermata: mcu-board. Codice normalizzato in ESP32-S2 Mini.'
   datasheet_url: https://www.wemos.cc/en/latest/s2/s2_mini.html
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_1_16x16.jpg
@@ -424,7 +424,7 @@
   note: 'Riclassificata da riga inventario: categoria confermata mcu-board, codice
     normalizzato in ESP32-C3 SuperMini.'
   datasheet_url: https://dl.artronshop.co.th/ESP32-C3%20SuperMini%20datasheet.pdf
-  datasheet_last_check: '2026-10-09'
+  datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.nologo.tech/assets/img/esp32/esp32c3supermini/esp32c3.png

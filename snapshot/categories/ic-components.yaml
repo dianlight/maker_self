@@ -352,7 +352,7 @@
   datasheet_last_check: '2026-10-18'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.circuitspecialists.com/content/876445/circ-4k.webp
   ai_proposta: '{"codice": "CD405x", "categoria": "ic-components", "descrizione":
     "Circuito integrato analog multiplexer della famiglia CD405x (compatibile CD4051/CD4052/CD4053);
     quantita 8; package e suffisso non specificati; nessuna foto disponibile.", "interfaccia":
@@ -413,7 +413,7 @@
   datasheet_last_check: '2026-10-18'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://diyables.io/images/products/cp210x-driver.jpg
   ai_proposta: '{"codice": "CP2101", "categoria": "ic-components", "descrizione":
     "IC CP2101, USB-to-UART bridge, package SMD/QFN-28 presunto, quantità 5; nessuna
     foto disponibile", "interfaccia": "USB to UART", "quantita": 5, "posizione": "SMD
@@ -512,7 +512,7 @@
   datasheet_last_check: '2026-10-18'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://kitsguru.com/cdn/shop/products/10pcs-CD74HC4067-16-Channel-Analog-Digital-Multiplexer-Breakout-Board-Module-For-Arduino_jpg_Q90_jpg.jpg?v=1645790306
   ai_proposta: '{"codice": "CD74HC4067", "categoria": "ic-components", "descrizione":
     "IC multiplexer/demultiplexer analogico a 16 canali, quantita 2, package non specificato,
     marcatura leggibile HP4067 (probabile refuso per CD74HC4067)", "interfaccia":

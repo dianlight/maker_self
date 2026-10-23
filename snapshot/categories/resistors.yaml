@@ -154,7 +154,7 @@
   interfaccia: 2pin
   note: 'Riclassificato da resistors a sensori: è un sensore di luce/LDR.'
   datasheet_url: https://www.handsontec.com/dataspecs/sensor/GL55-LDR.pdf
-  datasheet_last_check: '2026-10-08'
+  datasheet_last_check: '2026-10-22'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://eepower.com/images/site/og_default.png
