@@ -752,7 +752,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.ic-components.com/theme/images/logo.png
   ai_proposta: '{"codice": "OB2224NCP", "categoria": "ic-components", "descrizione":
     "Switch Power IC (IC per alimentatori switching), modello OB2224NCP, package SOP-8
     SMD, 20 pezzi.", "interfaccia": "SMD", "quantita": 20, "posizione": "SMD Box",
@@ -774,7 +774,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://cdn-learn.adafruit.com/guides/images/000/003/640/medium800thumb/PCF8574_guide.gif
   ai_proposta: '{"codice": "PCF8574", "categoria": "ic-components", "descrizione":
     "IC expander I/O a 8 bit PCF8574, interfaccia I2C; nessuna foto disponibile, quantità
     1, package non specificato, scritte non leggibili.", "interfaccia": "I2C", "quantita":
@@ -795,7 +795,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://api.optifuse.com/files/image/image/R1206/R1206-Main_l.jpg
   ai_proposta: '{"codice": "PTC1206", "categoria": "componenti", "descrizione": "Poly-Fuse
     resettabile PTC, package SMD 1206, quantità 20; nessuna foto disponibile, marcatura
     non leggibile.", "interfaccia": "SMD", "quantita": 20, "posizione": "SMD Box",
@@ -893,7 +893,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: IC Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://datasheet4u.com/pdfhtml/0909/1414177/page-000001.png
   ai_proposta: '{"codice": "SN5408", "categoria": "ic-components", "descrizione":
     "Circuito integrato logico TTL: quadruplo AND a 2 ingressi, package DIP, marcatura
     SN5408, quantità indicata 2", "interfaccia": "DIP", "quantita": 2, "posizione":
@@ -915,7 +915,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: IC Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://content.instructables.com/FOH/WSI6/KS0CY0A6/FOHWSI6KS0CY0A6.jpg?auto=webp&amp;frame=1&amp;width=2100
   ai_proposta: '{"codice": "TDA2030", "categoria": "ic-components", "descrizione":
     "IC amplificatore audio TDA2030, package Pentawatt/TO-220 a 5 pin, quantita 5;
     sigla leggibile TDA2030 (descrizione originale ''Audoo Amp'' corretta in Audio
@@ -1043,7 +1043,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.winbond.com/export/sites/winbond/product/code-storage-flash/qspi-nor/Qspi-NOR_1.png
   ai_proposta: '{"codice": "W25Q128BVMG", "categoria": "ic-components", "descrizione":
     "SERIAL FLASH MEMORY - 128Mbit, Winbond W25Q128BVMG, package SOIC-8, 3V, interfaccia
     Quad SPI; quantità 5", "interfaccia": "QUAD SPI", "quantita": 5, "posizione":
@@ -1062,7 +1062,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: IC Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://datasheet4u.com/pdfhtml/0155/710956/page-000001.png
   ai_proposta: '{"codice": "YX8018", "categoria": "ic-components", "descrizione":
     "Circuito integrato driver LED solare YX8018, package TO-94 a 4 pin, quantita
     10", "interfaccia": "4Pin", "quantita": 10, "posizione": "IC Barrel", "datasheet_url":
@@ -1110,8 +1110,8 @@
   interfaccia: single-wire seriale
   note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     led confermata per modulo LED RGB indirizzabile.
-  datasheet_url: https://idea4fun.it/offerta/prodotti-luminosi-a-led/moduli
-  datasheet_last_check: '2026-10-10'
+  datasheet_url: https://denalielectronics.com/it/collections/s4?filter.p.product_type=Accessori+per+l%27illuminazione
+  datasheet_last_check: '2026-10-23'
   posizione: A Box
   foto_drive_id: 1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
   foto_url: https://drive.google.com/open?id=1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH

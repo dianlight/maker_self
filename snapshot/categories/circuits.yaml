@@ -99,7 +99,7 @@
   note: Riclassificato da circuits a led. Verificare tensione, connettore e tipo di
     modulo; quantità 2.
   datasheet_url: https://www.circuitbasics.com/wp-content/uploads/2015/11/SRD-05VDC-SL-C-Datasheet.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: IC Barrel
   foto_drive_id: 1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
   foto_url: https://drive.google.com/open?id=1SHS7o9hyaSuq10kl2GCvivhjXWgb6a8C
@@ -122,7 +122,7 @@
   note: Riclassificato da 'circuits' a 'comunication'. Codice generico 'IR Transmitter'
     corretto in 'IR T2' in base al datasheet.
   datasheet_url: https://eletechsup.com/products/5v-24-1-4ch-flip-flop-relay-module-bistable-self-locking-trigger-time-switch-turn-on-off-plc-board
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: IC Barrel
   foto_drive_id: 10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
   foto_url: https://drive.google.com/open?id=10DSdPhxxu4jm9Fo9_Lftsi6wkYPrFvFp
@@ -148,7 +148,7 @@
     con part number presunto dal datasheet Farnell 2182434. Verificare part number
     esatto.
   datasheet_url: https://denkovi.com/Documents/JQC-3FF-S-Z.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: IC Barrel
   foto_drive_id: 1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn
   foto_url: https://drive.google.com/open?id=1yqFy6YzEB9pHgHkADoVWvhKC-mNWMBfn

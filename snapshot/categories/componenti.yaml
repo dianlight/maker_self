@@ -51,7 +51,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://en.semiware.com/blog/wp-content/uploads/2023/09/logo.png
   ai_proposta: '{"codice": "SS32", "categoria": "componenti", "descrizione": "Diodo
     Schottky SS32, package SMD, quantita 30, scritta leggibile SS32", "interfaccia":
     "SMD", "quantita": 30, "posizione": "SMD Box", "datasheet_url": "https://www.vishay.com/docs/88751/ss32.pdf",
@@ -74,7 +74,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.vishay.com/images/megamenu/ads/SensorsProductAdvertiles.jpg
   ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
     "Anelli di ferrite per cavo, quantità 5. Package non specificato; nessuna scritta
     leggibile nella riga. Il datasheet associato è per ferrite bead SMD 0603 Vishay
@@ -408,7 +408,7 @@
     indica Accuenergy Acuvim-3 power quality meter. Riclassificato come sensore/misuratore
     di qualità energia.
   datasheet_url: https://www.farnell.com/datasheets/2171929.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: IC Box
   foto_drive_id: 1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG
   foto_url: https://drive.google.com/open?id=1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG, https://drive.google.com/open?id=1WnwKk78iNLAgyzX12t6iewfN79_jx132
@@ -433,7 +433,7 @@
   note: Componente piezo con wire da 15 mm; possibile utilizzo come buzzer/sensore.
     Etichetta riporta anche codici 6970273694769 e 787157151343; produttore cinese.
   datasheet_url: https://dc-piezo.com/static/upload/file/20250320/1742441333643609.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Component Barrel
   foto_drive_id: 1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk
   foto_url: https://drive.google.com/open?id=1HKEX3R8dMNwozKkmLCd-8HtPlPFblyZk, https://drive.google.com/open?id=1h-qE213Bd4UwD_9gz8F55UhHnfuj_Xw5

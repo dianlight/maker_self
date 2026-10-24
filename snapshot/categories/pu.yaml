@@ -30,7 +30,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: PU Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://resources.altium.com/sites/default/files/blogs/Everything%20You%20Need%20to%20Know%20About%20Ferrite%20Beads-67884.jpg
   ai_proposta: '{"codice": "Anelli Di Ferrite", "categoria": "componenti", "descrizione":
     "Anelli di ferrite (ferrite rings/beads) per filtraggio e soppressione EMI. Quantità
     3. Package non specificato. Scritte leggibili non disponibili. Provenienza indicata:
@@ -89,7 +89,7 @@
   datasheet_last_check: '2026-10-19'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://i.ytimg.com/vi/bLAvVjBiqNI/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&amp;rs=AOn4CLD1j019e4ATSj-Gdd-j10K1qNXIfg
   ai_proposta: '{"codice": "FS030116-01", "categoria": "motors-hardware", "descrizione":
     "Alternatore/generatore AC, modello KD2500-F; nessuna foto disponibile, package
     non visibile; quantità inventariata 1.", "interfaccia": "Elettrica AC / meccanica",
@@ -109,7 +109,7 @@
   datasheet_last_check: '2026-10-20'
   posizione: PU Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://m.media-amazon.com/images/G/29/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546381738_.png
   ai_proposta: '{"codice": "KBL610", "categoria": "componenti", "descrizione": "Raddrizzatore
     a ponte KBL610, 10 pezzi, package KBL, 4 pin, 6A, 1000V", "interfaccia": "4PIN",
     "quantita": 10, "posizione": "PU Barrel", "datasheet_url": "https://www.rectron.com/public/product_datasheets/kbl601-kbl610.pdf",

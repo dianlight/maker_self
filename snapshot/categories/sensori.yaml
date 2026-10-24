@@ -7,7 +7,7 @@
   note: Riclassificato dalla riga inventario; categoria confermata sensori; codice
     ipotizzato dal datasheet Soldered 333044.
   datasheet_url: https://www.mouser.com/datasheet/2/1398/Soldered_333044-3395140.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: B Box
   foto_drive_id: ''
   foto_url: ''
@@ -30,7 +30,7 @@
     SEN0193. Nessuna foto disponibile: riclassificazione basata sulla riga inventario
     e sul datasheet.'
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://dfimg.dfrobot.com/enshop/SEN0193/SEN0193_Main_01.jpg
@@ -54,7 +54,7 @@
     SEN0193 ricavato dal datasheet DFRobot; interfaccia analogica; quantità 2 come
     da riga.'
   datasheet_url: https://media.digikey.com/pdf/data%20sheets/dfrobot%20pdfs/sen0193_web.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://dfimg.dfrobot.com/enshop/SEN0193/SEN0193_Main_01.jpg
@@ -78,7 +78,7 @@
   note: 'Riclassificato da riga inventario: categoria sensori, codice ipotizzato RAK7205.
     Verificare modello esatto.'
   datasheet_url: https://docs.rakwireless.com/product-categories/wisnode/water-level-monitoring/datasheet/
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://res.rakwireless.com/ext/images.docs.rakwireless.com/wisnode/water-level-monitoring/water-level-monitoring-sensor.png?fm=webp
@@ -100,7 +100,7 @@
     codice TCS34725 coerente con descrizione Color Sensor e datasheet AMS/OSRAM. Quantita
     impostata a 1.'
   datasheet_url: https://ams-osram.com/products/sensor-solutions/ambient-light-color-spectral-proximity-sensors/ams-tcs34725-color-sensor
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://look.ams-osram.com/transform/82cabd10-d50e-4ab0-9f20-3ce562ad4c6c/ams-OSRAM-visual-CI-grey-cicrle
@@ -123,7 +123,7 @@
   note: Riclassificato dalla riga inventario senza foto. Codice ipotizzato SS49E;
     datasheet copre famiglia SS39ET/SS49E/SS59ET. Quantità default 1.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/ja/products/sensors/magnetic-sensors/linear-and-angle-sensor-ics/common/documents/sps-siot-ss39et-ss49e-ss59et-product-sheet-005850-3-en-ciid-50359.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://europe1.discourse-cdn.com/arduino/optimized/4X/3/6/2/362da1bf6d2e78a06096c64693e401e412c18220_2_690x335.jpeg
@@ -143,7 +143,7 @@
   interfaccia: analogico
   note: Codice dedotto dal datasheet Sharp GP2Y0A21YK; categoria confermata sensori.
   datasheet_url: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/164-00.jpg
@@ -163,7 +163,7 @@
   interfaccia: ''
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/1/11050-04.jpg
@@ -180,7 +180,7 @@
     sensori. A3144 è un sensore Hall switch unipolare; la sigla indicata è compatibile
     con la famiglia A3141/A3142/A3143/A3144.'
   datasheet_url: https://www.elecrow.com/download/A3141-2-3-4-Datasheet.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61gUkDoHh-L.jpg
@@ -203,7 +203,7 @@
   note: Riclassificato da riga inventario; codice corretto da ACS-758 a ACS758; nessuna
     foto disponibile.
   datasheet_url: https://www.allegromicro.com/en/products/sense/current-sensor-ics/fifty-to-two-hundred-amp-integrated-conductor-sensor-ics/acs758
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/-/media/images/packaging/cb-package/allegro-cb-5-package-image.png
@@ -223,7 +223,7 @@
   note: 'ACS712 è un sensore di corrente integrato; verificare variante di corrente
     (5A/20A/30A) e se si tratta di IC o modulo. Categoria confermata: sensori.'
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/168326/ALLEGRO/ACS712.html
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.allegromicro.com/-/media/images/products/0712/acs712-product-image.jpg
@@ -245,7 +245,7 @@
   note: 'Categoria confermata: sensori. Componente riclassificato come accelerometro
     3 assi ADXL345.'
   datasheet_url: https://www.farnell.com/datasheets/3708808.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721152116/ADXL345_I2CS_A_1.png
@@ -1542,7 +1542,7 @@
     originale riporta ''Eaterproof'' invece di Waterproof e ''100cm stainless steel
     1m cable''. Corretto e integrato con dettagli visibili in foto.'
   datasheet_url: https://protosupplies.com/product/ds18b20-waterproof/
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2017/12/DS18B20-Waterproof-Digital-Temp-Sensor-1.jpg
@@ -1573,7 +1573,7 @@
     MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865.
     Busta antistatica con barcode e numeri parzialmente leggibili.
   datasheet_url: https://www.pickadogbreed.com/best/singles
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://electropeak.com/media/catalog/product/cache/fd3007d55266f7276c10ebf7f3da2215/s/e/sen-10-062-new-1.jpg

@@ -81,7 +81,7 @@
   note: Categoria led confermata; codice WS2812B-64 mantenuto. Quantità e posizione
     da inventario.
   datasheet_url: https://cdn.sparkfun.com/assets/e/6/1/f/4/WS2812B-LED-datasheet.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1487-00.jpg
@@ -105,7 +105,7 @@
   note: Probabile WS2812B o compatibile; 8x8 = 64 LED; richiede alimentazione 5V e
     controllo seriale.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
-  datasheet_last_check: '2026-10-10'
+  datasheet_last_check: '2026-10-23'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61dPrK5PVsL.jpg
