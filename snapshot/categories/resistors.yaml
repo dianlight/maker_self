@@ -11,7 +11,7 @@
   datasheet_last_check: '2026-10-20'
   posizione: B Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.siglenteu.com/wp-content/uploads/2023/05/scd30a.png
   ai_proposta: '{"codice": "SCD30A", "categoria": "resistors", "descrizione": "Shunt
     di corrente Siglent SCD30A, 30 A, per multimetro SDM3065X; quantità visibile 1;
     package non specificato; scritte leggibili: 30A, SCD30A.", "interfaccia": "",
@@ -34,7 +34,7 @@
   datasheet_last_check: '2026-10-20'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.ctscorp.com/Files/cts-logo.png
   ai_proposta: '{"codice": "PSxxG", "categoria": "resistors", "descrizione": "Resistor
     - Slide Pot. / potenziometro a slitta, serie TTE PSxxG; quantità visibile 1; package
     non specificato (probabile PCB/assiale); scritte leggibili non disponibili.",

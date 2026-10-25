@@ -265,7 +265,7 @@
   interfaccia: I2C
   note: Nessuna foto disponibile; riclassificato dalla riga dell'inventario.
   datasheet_url: http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: S Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5593-01.jpg
@@ -285,7 +285,7 @@
   note: 'Riclassificato: categoria corretta sensori; AM2302 misura temperatura e umidità,
     non solo temperatura. Interfaccia proprietaria single-wire.'
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/393-00.jpg
@@ -306,7 +306,7 @@
   interfaccia: '? + I2C?'
   note: Nessuna foto disponibile; riclassificato dalla riga inventario.
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3721-00.jpg
@@ -326,7 +326,7 @@
   note: HW-740 è il nome modulo riportato; il sensore è basato su AM312. Uscita digitale,
     alimentazione tipica 3.3-5V.
   datasheet_url: https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://kunkune.co.uk/wp-content/uploads/2021/11/2-2.jpg
@@ -348,7 +348,7 @@
   note: Modulo Grove Seeed Studio basato su AS5600, sensore magnetico rotativo a 12
     bit, output angolo/RPM via I2C. Categoria confermata sensori.
   datasheet_url: https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -371,7 +371,7 @@
     Categoria 'sensori' confermata per microfono. Codice 'Big Sound' mantenuto come
     identificativo di magazzino.
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -394,7 +394,7 @@
     corretta: sensori. Codice confermato BMP180. Descrizione corretta da ''Barometrix''
     a barometrico/pressione/temperatura/altitudine.'
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1603-03.jpg
@@ -417,7 +417,7 @@
     è probabilmente un refuso per barometrico. BMP280 supporta anche SPI, ma qui è
     indicato I2C.
   datasheet_url: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/096/medium800/BMP280_top.jpg
@@ -440,7 +440,7 @@
   note: Nessuna foto disponibile; riclassificato dalla riga inventario. Sensore ottico
     riflettente, package DIP-4, 5 pz, posizione B Box.
   datasheet_url: https://www.vishay.com/docs/83751/cny70.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.vishay.com/images/product-images/pt-large/83751-pt-large.jpg
@@ -461,7 +461,7 @@
   note: 'Codice originale riga: D203; probabile D203S. Sensore piroelettrico PIR,
     richiede lente Fresnel e circuito di condizionamento.'
   datasheet_url: https://www.futurlec.com/PIR_D203S.shtml
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -482,7 +482,7 @@
   note: Riclassificato dalla riga inventario; categoria confermata sensori; codice
     normalizzato da DHT-11 a DHT11.
   datasheet_url: https://moodle.upm.es/en-abierto/pluginfile.php/47163/mod_page/content/10/DHT11.PDF
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://shillehtek.com/cdn/shop/files/1_a4b6495a-07ba-44f0-b580-8c834b854558.jpg?v=1765786089
@@ -503,7 +503,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/1/11050-04.jpg
@@ -519,7 +519,7 @@
   note: Riclassificato da riga inventario. Categoria confermata sensori. Interfaccia
     ipotizzata PWM (tipica del modulo DSM501A).
   datasheet_url: https://www.elektronik.ropla.eu/pdf/stock/smy/dsm501.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/d/u/dust_sensor-_dsm501a.jpg
@@ -541,7 +541,7 @@
     FFS05 dal datasheet Lamtec; possibile variante FFS05-EX. Interfaccia e package
     non desumibili dalla riga.
   datasheet_url: https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -563,7 +563,7 @@
   note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     sensori confermata.
   datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/03/MPU-6050-Accel-and-Gyro-Module.jpg
@@ -585,7 +585,7 @@
     modulo GY-906, possibile alternativa/chip MLX90614. Interfaccia I2C. Nessuna foto
     disponibile.
   datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -608,7 +608,7 @@
   note: 'Il datasheet_url precedente era un link a forum, non un datasheet ufficiale.
     Datasheet BMP280: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf'
   datasheet_url: https://forum.arduino.cc/t/unlocking-the-gy-91-mpu-9250-bmp-280/701895
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sigmanortec.ro/1181-large_default/sensor-9-axis-10-dof-gy-91-mpu9250-bmp280-3-5v.jpg
@@ -630,7 +630,7 @@
   note: 'Corretto: HC-SR04 è un sensore a ultrasuoni, non a microonde. Categoria sensori
     confermata.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/5/15569-Ultrasonic_Distance_Sensor_-_HC-SR04-01a.jpg
@@ -674,7 +674,7 @@
   note: 'Riclassificato dalla riga inventario: sensore temp/umidità I2C; nessuna foto
     disponibile'
   datasheet_url: https://www.farnell.com/datasheets/2207166.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/640x480/1899-04.jpg
@@ -694,7 +694,7 @@
   note: Il datasheet Honeywell fornito è generico e non specifico per HW-740; nessun
     datasheet specifico verificato. Verificare tensione di alimentazione e pinout.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://smarthomescene.com/wp-content/uploads/2024/01/best-and-worst-presence-sensors-for-home-assistant.jpg
@@ -715,7 +715,7 @@
   note: 'Riclassificato da sensori a ic-components: INA226 è un IC current/power monitor
     con interfaccia I2C, non un sensore discreto. Quantità invariata.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina226.pdf?ts=1790852131805
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://probots.co.in/pub/media/catalog/product/cache/891768098d9d90472b8b3c7afc6da23f/3/-/3-800x800.jpg
@@ -737,7 +737,7 @@
   note: 'Riclassificato da sensori a ic-components: è un IC monitor di potenza, non
     un sensore autonomo. Verificare package effettivo.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina3221.pdf
-  datasheet_last_check: '2026-10-11'
+  datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/6062-00.jpg

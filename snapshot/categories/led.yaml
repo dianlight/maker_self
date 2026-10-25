@@ -35,7 +35,7 @@
   datasheet_last_check: '2026-10-20'
   posizione: Led Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://static.kynix.net/imgs/BlogImage-v/ky_bg_head_20211119145535.jpg
   ai_proposta: '{"codice": "TSOP382", "categoria": "sensori", "descrizione": "Modulo
     ricevitore IR Vishay TSOP382, package a 3 pin (OUT, GND, VCC), uscita digitale
     demodulata a 38 kHz per telecomandi. Quantità 20. La riga originale riporta ''Ir

@@ -164,7 +164,7 @@
   datasheet_last_check: '2026-10-20'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://static.rocketreach.co/images/logo/logoWhiteRocketBlueHaloWhiteText.png
   ai_proposta: '{"codice": "XA0065", "categoria": "circuits", "descrizione": "Modulo
     nebulizzatore a ultrasuoni con attacco Micro USB; 1 pezzo; package non specificato;
     nessuna scritta leggibile (nessuna foto disponibile).", "interfaccia": "Micro
@@ -186,7 +186,7 @@
   datasheet_last_check: '2026-10-20'
   posizione: B BOX
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://yourpixelstore.com/wp-content/uploads/2023/02/61LxswXyyEL._AC_SL1010_.jpg
   ai_proposta: '{"codice": "X30567", "categoria": "displays", "descrizione": "Modulo
     voltmetro/amperometro DC 10A mini, 1 pezzo, package modulo, display, scritta ''DC
     10A Mini voltometro''", "interfaccia": "DC", "quantita": 1, "posizione": "B BOX",
@@ -455,7 +455,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_last_check: '2026-10-24'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
@@ -474,7 +474,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_last_check: '2026-10-24'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
