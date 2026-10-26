@@ -229,7 +229,7 @@
   note: Codice originale PJ-69C non corrisponde (PJ-69C è un jack DC). Datasheet TX16D204VM0BVA
     indica display LCD 16x2. Possibile codice interno CMP7377.
   datasheet_url: http://d7rh5s3nxmpy4.cloudfront.net/CMP7377/files/TX16D204VM0BVA.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/181-06.jpg

@@ -32,7 +32,7 @@
   datasheet_last_check: '2026-10-21'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://wiki.elegoo.com/oshw-getting-started-kits/1.2_pin_out.png
   ai_proposta: '{"codice": "ESP32", "categoria": "mcu", "descrizione": "Microcontrollore/modulo
     ESP32 in package SMD, 2 pezzi visibili dalla riga inventario; nessuna marcatura
     aggiuntiva oltre a ''ESP 32''.", "interfaccia": "SMD", "quantita": 2, "posizione":
@@ -158,7 +158,7 @@
   datasheet_last_check: '2026-10-21'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: http://robocraze.com/cdn/shop/articles/What_is_NodeMCU_ESP8266_2_16bc1727-8d77-40f9-8806-74306b76022b.png?v=1765428544
   ai_proposta: '{"codice": "ESP8266", "categoria": "mcu", "descrizione": "ESP8266
     (MCU/SoC Wi-Fi); quantità 3; package non visibile, datasheet ESP8266EX; interfaccia
     dichiarata DIP da verificare (chip QFN32 o modulo).", "interfaccia": "DIP (dichiarato,
@@ -222,7 +222,7 @@
   datasheet_last_check: '2026-10-21'
   posizione: MCU Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://esp8266.com/wiki/lib/tpl/esp8266/images/logo.png
   ai_proposta: '{"codice": "ESP-02S", "categoria": "comunication", "descrizione":
     "Modulo WiFi ESP8266 DOIT ESP-02S, quantità 3, package modulo, scritte leggibili:
     ESP-02S, 8266.", "interfaccia": "UART/GPIO", "quantita": 3, "posizione": "MCU

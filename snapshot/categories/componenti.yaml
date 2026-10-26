@@ -8,7 +8,7 @@
   note: 'Riclassificato da motors-hardware a componenti: non è un motore ma un componente/generatore
     di nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità.'
   datasheet_url: https://www.smoke-defender.com/it/come-funziona-generatore-nebbia-antifurto/
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.smoke-defender.com/images/come-funziona-nebbiogeno-italia-cover.jpg
@@ -252,7 +252,7 @@
   datasheet_last_check: '2026-10-21'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.lasercomponents.com/fileadmin/_processed_/a/5/csm_lcusa-ra-te-a1-1-1_c9501494ae.jpg
   ai_proposta: '{"codice": "Laser", "categoria": "led", "descrizione": "Laser Emitter
     (emettitore laser/diodo laser optoelettronico); quantità 1; nessuna foto disponibile,
     package e scritte non visibili/leggibili.", "interfaccia": "N/A", "quantita":
@@ -272,10 +272,10 @@
     indica tastiera Bluetooth sealed IP68. Categoria generica 'componenti' perché
     non esiste categoria specifica per tastiere.
   datasheet_url: https://www.sprintek.com/documents/datasheets/DS0002%20SK5100%20Datasheet.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.daskeyboard.com/images/open-graph-daskeyboard-4-professional.jpg
   ai_proposta: '{"codice": "KEYBOARD-BT-IP68", "categoria": "componenti", "descrizione":
     "Tastiera a pressione Bluetooth, sealed IP68, quantità 3. Nessuna foto disponibile;
     dati dalla riga inventario.", "interfaccia": "Bluetooth", "quantita": 3, "posizione":
@@ -315,10 +315,10 @@
     Encoder'' sostituito con A102H dalla nota/datasheet. Nessuna foto: verificare
     package e pinout sul datasheet.'
   datasheet_url: https://www.heidenhain.us/wp-content/uploads/2018/03/349529-2H_Rotary_Encoders_en.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: A Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/0/9/09117-03-L.jpg
   ai_proposta: '{"codice": "A102H", "categoria": "sensori", "descrizione": "Rotary
     encoder incrementale/quadratura, 10 pezzi in inventario, package non specificato;
     scritta leggibile/nota: A102H. Verificare package e interfaccia sul datasheet.",
@@ -492,8 +492,8 @@
   descrizione: Raddrizzatore general purpose 1A 1000V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: http://www.sunfounder.com/cdn/shop/products/sunfounder-default-title-100pcs-1n4007-4007-1a-1000v-do-41-high-quality-rectifier-diode-in4007-1n4007-32122205602027.png?v=1768447046
@@ -510,8 +510,8 @@
   descrizione: Raddrizzatore general purpose 2A 1000V, DO-15
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/RL201-207.pdf
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://edzeal.in/wp-content/uploads/2024/09/RL-207.jpg
@@ -529,7 +529,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88516/1n5400.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://res.cloudinary.com/rsc/image/upload/w_1200/F6289473-01
@@ -547,7 +547,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88516/1n5400.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
@@ -564,8 +564,8 @@
   descrizione: Raddrizzatore 3A 1000V, DO-201AD
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.diodes.com/datasheet/download/1N5407.pdf
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
@@ -582,8 +582,8 @@
   descrizione: Diodo switching veloce 100V, DO-35
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: https://www.vishay.com/docs/85651/1n4148.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.vishay.com/docs/81857/1n4148.pdf
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
@@ -600,8 +600,8 @@
   descrizione: Raddrizzatore ultrafast 1A 1000V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: https://www.vishay.com/docs/88743/uf4001.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.scribd.com/document/15428315/UF4001-4007-1A-%E9%AB%98%E9%80%9F
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-quf4007_pic1_1.png?itok=OT5dyvZ9
@@ -619,8 +619,8 @@
   descrizione: Raddrizzatore fast recovery 1A 1000V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: https://www.diodes.com/assets/Datasheets/ds28004.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.diodes.com/datasheet/download/FR107++%28Not+Recommended%29.pdf
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''
@@ -638,8 +638,8 @@
   descrizione: Raddrizzatore fast recovery 2A 1000V, DO-15
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: https://www.vishay.com/docs/88528/fr201.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.taydaelectronics.com/fr207-switching-diode-1000-v-2-a-d0-15.html
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://www.taydaelectronics.com/media/catalog/product/cache/1eb4f7f02fef46fb836117af4bb921e7/d/o/do-41.jpg_2.jpg
@@ -661,7 +661,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88525/1n5817.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://www.taydaelectronics.com/media/catalog/product/cache/1eb4f7f02fef46fb836117af4bb921e7/D/O/DO-41_34.jpg
@@ -678,8 +678,8 @@
   descrizione: Diodo Schottky 1A 40V, DO-41
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: ''
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.vishay.com/docs/88525/1n5817.pdf
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2017/10/Diode-1N5819-5-Pack-1.jpg
@@ -696,8 +696,8 @@
   descrizione: Diodo Schottky 3A 40V, DO-201AD
   interfaccia: through-hole
   note: Bulk add 2026-10-11
-  datasheet_url: https://www.vishay.com/docs/88525/1n5820.pdf
-  datasheet_last_check: '2026-10-11T16:28:03.491372+00:00'
+  datasheet_url: https://www.scribd.com/document/440625984/1n5822
+  datasheet_last_check: '2026-10-25'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: ''

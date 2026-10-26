@@ -652,7 +652,7 @@
     HD-36 mantenuto come interno. Interfaccia RS485 ipotizzata da manuale Meteocontrol
     MS-2. Nessuna foto disponibile.
   datasheet_url: https://www.allearthrenewables.com/solar-products/solar-tracker/
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.allearthrenewables.com/wp-content/uploads/2021/02/Gary-Hall-15-125-14.jpg
@@ -1492,10 +1492,10 @@
   note: 'Riclassificato da riga inventario: codice originale ''Digital Joystic'' corretto
     in KY-023; categoria originale ''componenti'' aggiornata a sensori.'
   datasheet_url: https://arduinomodules.info/ky-023-joystick-dual-axis-module/
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://arduinomodules.info/wp-content/uploads/KY-023_dual_axis_joystick_module_arduino.jpg
   ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
     joystick KY-023: joystick a due assi con potenziometri analogici X/Y e pulsante
     digitale SW; quantità 1; package modulo breakout; scritta leggibile KY-023 (nessuna
@@ -1518,7 +1518,7 @@
   datasheet_last_check: '2026-10-21'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://arduinomodules.info/wp-content/uploads/KY-023_dual_axis_joystick_module_arduino.jpg
   ai_proposta: '{"codice": "KY-023", "categoria": "sensori", "descrizione": "Modulo
     joystick KY-023 a 2 assi con pulsante; breakout board, 3 unità in inventario;
     uscite analogiche VRx/VRy e digitale SW.", "interfaccia": "Analogica/Digitale
@@ -1601,7 +1601,7 @@
   note: Riclassificato senza foto; ipotesi basata sul codice HW-613. Verificare presenza
     di LM393 e fotodiodo/ricevitore IR.
   datasheet_url: https://www.rajguruelectronics.com/Product/13200/A132002_Flame%20sensor%20Module%20LM393_Datasheet.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/71cCwCODtpL.jpg

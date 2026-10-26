@@ -1132,7 +1132,7 @@
   note: 'Riclassificato: categoria originale ''componenti'' errata; optoisolatore
     classificato come ic-components. Package DIP-4.'
   datasheet_url: https://www.farnell.com/datasheets/2007824.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://ae-pic-a1.aliexpress-media.com/kf/S9534e56f7fd3458f9a68db3c8e9f66d8D.jpg
@@ -1152,7 +1152,7 @@
   interfaccia: DIP-6
   note: Riclassificato da 'componenti' a 'ic-components'.
   datasheet_url: https://www.vishay.com/docs/81181/4n35.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1173,7 +1173,7 @@
   note: Riclassificato da 'componenti' a 'ic-components' in base al codice MOC3051.
     Componente optoisolatore/triac driver, 6 pin DIP, random phase.
   datasheet_url: https://www.onsemi.com/pdf/datasheet/moc3051m-d.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://dzautomation.net/wp-content/uploads/2026/08/images-44.jpeg
@@ -1196,7 +1196,7 @@
   note: Riclassificato da categoria 'componenti' a 'ic-components'. Codice corretto
     da HPCL3700 a HCPL-3700.
   datasheet_url: https://docs.broadcom.com/doc/AV02-0391EN
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://componentstree.com/wp-content/uploads/2021/09/hcpl-3700-a3700-optocoupler-ic-800x800-1.jpg
@@ -1219,7 +1219,7 @@
   note: 'Nessuna foto: riclassificato dai campi. Codice originale ''PC8170'' interpretato
     come ''PC817'' (optoisolatore Sharp). Categoria corretta da ''componenti'' a ''ic-components''.'
   datasheet_url: https://global.sharp/products/device/lineup/data/pdf/datasheet/PC817XxNSZ1B_e.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-25'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2018/03/PC817-Optocoupler-1.jpg
