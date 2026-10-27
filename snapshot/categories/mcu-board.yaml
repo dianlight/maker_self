@@ -74,7 +74,7 @@
   datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://datasheet4u.com/pdfhtml/0412/1502659/page-000001.png
   ai_proposta: '{"codice": "EFR32MG2X", "categoria": "mcu", "descrizione": "MCU wireless
     Silicon Labs EFR32MG2x (famiglia EFR32MG24), quantità 2, interfaccia a pin, package
     non specificato, scritta/descrizione originale ''Blank for EFR32''.", "interfaccia":
@@ -95,7 +95,7 @@
   datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://t3.ftcdn.net/jpg/02/73/06/20/360_F_273062022_ZyqXVjC0xqlhddlRCUwoDFSYwLcoge55.jpg
   ai_proposta: '{"codice": "ESP8266_TEST", "categoria": "mcu-board", "descrizione":
     "Nessuna foto disponibile. Riga inventario: Test ESP8266, codice ESB TEST, interfaccia
     PIN, quantità 1, posizione MCU IK Box, note Autostampato. Tipo componente: modulo/board
@@ -197,7 +197,7 @@
   datasheet_last_check: '2026-10-22'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/w/6/w600_wifi_module_tw-01.jpg
   ai_proposta: '{"codice": "ESP-01W", "categoria": "comunication", "descrizione":
     "Modulo WiFi basato su chip WinnerMicro W600/W300, formato ESP-01, interfaccia
     TTL seriale + WiFi, SDK non cinese", "interfaccia": "TTL + WiFi", "quantita":
@@ -274,7 +274,7 @@
   datasheet_last_check: '2026-10-22'
   posizione: MCU IK Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://content.instructables.com/F10/PI2A/LT03C4O8/F10PI2ALT03C4O8.png?auto=webp&amp;frame=1
   ai_proposta: '{"codice": "ESP32-S3-DEV-MODULE", "categoria": "mcu-board", "descrizione":
     "Dev board ESP32-S3 da montare, modulo dev con interfaccia a pin; quantità dichiarata
     3. Package/board con pin header. Scritte desumibili dal datasheet: ESP32-S3 DEV
@@ -296,7 +296,7 @@
   datasheet_last_check: '2026-10-22'
   posizione: MCU
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/3269-04.jpg
   ai_proposta: '{"codice": "ESP32-T", "categoria": "mcu-board", "descrizione": "Scheda/modulo
     MCU basato su ESP32; riga inventario ''Blank for ESP32''; probabile board o PCB
     blank per ESP32, quantità 1, package non specificato, interfaccia USB, nessuna

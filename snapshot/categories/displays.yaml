@@ -253,7 +253,7 @@
     quantità 5, posizione Last Drawer. Identificazione basata sul codice come display
     7 segmenti 4 cifre.'
   datasheet_url: https://www.arkledcn.com/dp-4-digit-7-segment-display-12-pin-datasheet-k4481012.html
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://bsg-i.nbxc.com/company/dc/a2f91f67dff17e0d7737710cc03f3f.png
@@ -278,7 +278,7 @@
   note: Riclassificato dai campi della riga inventario. Verificare package, comune
     anodo/catodo e datasheet.
   datasheet_url: https://www.ti.com/lit/ds/symlink/tl431.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''

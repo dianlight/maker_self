@@ -1241,7 +1241,7 @@
   note: 'Riclassificato: regolatore lineare variabile 1.25-37 V, fino a 1.5 A. Nessuna
     foto disponibile.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm317.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/61ARZmNw5PL.jpg
@@ -1263,7 +1263,7 @@
   note: Riclassificato dalla riga inventario; componente IC analogico, non sensore.
     Verificare eventuale sigla produttore (es. ST/ON/TI).
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm317.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://www.eleccircuit.com/wp-content/uploads/2020/08/LM317-voltage-regulator_-Pinout-CALCULATOR-and-circuits.png
@@ -1285,7 +1285,7 @@
   note: 'Riclassificato dalla riga inventario: codice LM2576, quantità 10, posizione
     Last Drawer. Nessuna foto disponibile.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/lm2576.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://res.utmel.com/Images/Article/20abbd6e-d098-43d1-bbb0-34062759420b.jpg
@@ -1308,7 +1308,7 @@
   note: 'Nessuna foto disponibile. Riclassificato dalla riga inventario: codice MT3608,
     quantità 5, posizione Last Drawer. Presunto IC boost converter SOT23-6.'
   datasheet_url: https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://static.kynix.cn/dimg/rohmsemiconductor-bh1406kve2-3208.jpg
@@ -1329,7 +1329,7 @@
   interfaccia: ''
   note: 'Riclassificato da riga inventario: componente attivo, regolatore LDO 3.3V.'
   datasheet_url: https://italian.alibaba.com/g/3.3v-regulator-ic.html
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
@@ -1349,7 +1349,7 @@
   note: 'Componente riclassificato: regolatore di tensione lineare, non sensore. Verificare
     tensione di uscita (3.3V, 5V, ADJ).'
   datasheet_url: https://media.digikey.com/pdf/Data%20Sheets/UTD%20Semi%20PDFs/AMS1117.pdf
-  datasheet_last_check: '2026-10-12'
+  datasheet_last_check: '2026-10-26'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: ''
