@@ -759,7 +759,7 @@
   note: Sensore audio MEMS digitale; possibile IC SMD o modulo breakout, verificare
     package e pinout.
   datasheet_url: https://www.farnell.com/datasheets/1824785.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://lectronz-images.b-cdn.net/lectronz/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTY0NzAsInB1ciI6ImJsb2JfaWQifX0=--a058b6344247194c38865f457780091620470c3e/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2xpbWl0IjpbNjQwLG51bGxdLCJzYXZlciI6eyJzYXZlciI6ImpwZWciLCJRIjo5MCwic3RyaXAiOnRydWV9fSwicHVyIjoidmFyaWF0aW9uIn19--746e2d4375972e82a11ea47d1ec12203cd2c035e/DSC_0022.jpeg
@@ -778,7 +778,7 @@
   interfaccia: '?'
   note: Per PT100 etc
   datasheet_url: https://www.scribd.com/document/944025037/RTD-Sensor
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3328-11.jpg
@@ -799,7 +799,7 @@
   note: Riclassificato come sensore/modulo microfono; MAX4466 è un amplificatore per
     microfono.
   datasheet_url: https://www.datasheetall.com/pdf/max4466.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1063-06.jpg
@@ -821,7 +821,7 @@
   note: Riclassificato da riga inventario. Codice e categoria confermati. Interfaccia
     ipotizzata analogica; verificare sul datasheet.
   datasheet_url: https://electronperdido.com/wp-content/uploads/2021/12/MD_PS002-Datasheet.zh-CN.en_.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.smart-prototyping.com/image/cache/data/SKU Photos/10100233/air-pressure-sensor-module-md-ps002-43945-600x315.jpg
@@ -843,7 +843,7 @@
     Touch Sensor'. Interfaccia ipotizzata da modulo Keyestudio simile; verificare
     pinout reale.
   datasheet_url: https://docs.keyestudio.com/projects/KT0193F/en/latest/docs/22.html
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sensorkit.joy-it.net/files/files/sensors/KY-036/KY-036.png
@@ -868,7 +868,7 @@
     I2C Touch Sensor V2 basato su MPR121. Se in inventario è il modulo e non il chip
     nudo, categoria più appropriata: sensori.'
   datasheet_url: https://wiki.seeedstudio.com/Grove-12_Key_Capacitive_I2C_Touch_Sensor_V2-MPR121/
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1982-08.jpg
@@ -891,7 +891,7 @@
   note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     corretta: sensori.'
   datasheet_url: https://components101.com/sensors/mq-4-methane-gas-sensor-pinout-datasheet
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721151117/ADC121C_I2CGAS_MQ4_C_1.png
@@ -912,7 +912,7 @@
   note: 'Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     confermata: sensori. Codice confermato: MQ-9.'
   datasheet_url: https://components101.com/sites/default/files/component_datasheet/MQ-9%20Sensor%20Datasheet.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.smart-prototyping.com/image/cache/data/SKU Photos/10100058/mq-9-carbon-monoxide-combustible-gas-sensor-detection-alarm-module-43349-600x315.jpg
@@ -934,7 +934,7 @@
   note: 'Best guess: sensore/modulo gas MQ-135; uscita analogica; richiede riscaldamento.
     Verificare se modulo breakout con uscita digitale.'
   datasheet_url: https://www.olimex.com/Products/Components/Sensors/Gas/SNS-MQ135/resources/SNS-MQ135.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://envistiamall.com/cdn/shop/articles/mq-135-nh3-nox-ammonia-alcohol-benzene-smoke-co2-gas-sensor-detector-module-user-guide-3339854.jpg?v=1777086497
@@ -957,7 +957,7 @@
     sensori. Interfaccia analogica ipotizzata. Nessuna foto disponibile; package non
     determinabile.'
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.icomjapan.com/media/images/common/ogp_en.jpg
@@ -980,7 +980,7 @@
   note: 'Riclassificazione dalla riga inventario: categoria sensori confermata. Codice
     P100 mantenuto, possibile Pt100. Quantità 2. Nessuna foto disponibile.'
   datasheet_url: https://www.stoerk-tronic.com/fileadmin/erp/dokumente/datenblaetter/en/900001_030.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sensoriditemperatura.it/wp-content/uploads/La-Sonda-Pt100-img.webp
@@ -1001,7 +1001,7 @@
   note: Riclassificato dalla riga inventario; nessuna foto disponibile. Modulo/sensore
     pH con sonda, richiede calibrazione.
   datasheet_url: https://thinkrobotics.com/products/ph4502c-ph-meter
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.dnatechindia.com/image/cache/catalog/DAH509-500x500.jpeg
@@ -1023,7 +1023,7 @@
   note: Corretta descrizione da 'Ait Quality Sensor' a Air Quality Sensor; PMS5003
     è un sensore laser di particolato con uscita seriale UART.
   datasheet_url: https://www.aqmd.gov/docs/default-source/aq-spec/resources-page/plantower-pms5003-manual_v2-3.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-27'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/3686-04.jpg

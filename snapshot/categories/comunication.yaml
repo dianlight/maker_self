@@ -586,8 +586,8 @@
   datasheet_url: https://docs.ai-thinker.com/_media/lora/docs/ra-02_product_specification.pdf
   datasheet_last_check: '2026-10-23'
   posizione: Io Barrel
-  foto_drive_id: 1Xiby1Ow0tHS8_7L6x-uSo55UVYJtJaYV
-  foto_url: https://drive.google.com/open?id=1Xiby1Ow0tHS8_7L6x-uSo55UVYJtJaYV
+  foto_drive_id: ''
+  foto_url: https://image.easyeda.com/components/a1c64554fd184e4782d9b12f89287a1f.png
   ai_proposta: '{"codice": "Ra-02 (Ai-Thinker LoRa SX1278 433MHz)", "categoria": "comunication",
     "descrizione": "Modulo ricetrasmettitore LoRa su breakout board blu, tenuto in
     mano: 1 pezzo visibile. Shield metallico stagnato con logo Ai-Thinker e marcature
