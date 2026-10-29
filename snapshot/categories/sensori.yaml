@@ -1046,7 +1046,7 @@
   interfaccia: analogico resistivo
   note: 20g to 1.5kg; FSR DFRobot SEN0298; resistenza variabile con forza applicata.
   datasheet_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/695/SEN0298_Web.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://image.dfrobot.com/image//data/SEN0298/1.png
@@ -1067,7 +1067,7 @@
   interfaccia: analogico
   note: 10g to 1000g
   datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/force-sensitive-resistor-fsr.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://film-sensor.com/wp-content/uploads/2025/10/RP-S5-ST.png
@@ -1089,7 +1089,7 @@
     ''Shock'' generico, sostituito con VS2 dal datasheet. Componente elettromeccanico
     di rilevamento vibrazioni/shock.'
   datasheet_url: https://www.swann-associates.com/pdf/murphy/VS2.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: ''
@@ -1114,7 +1114,7 @@
     Categoria sensori per microfono. Verificare se accessorio o componente. Nessuna
     foto disponibile; basato sulla riga inventario.
   datasheet_url: https://www.nardelliaudiologists.com/page/hearing-aids/ReSound/brochures/ReSound-Mini-Microphone-Data-Sheet.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.resound.com/-/media/resound/resound-international/products/wireless-accesories/multi-mic-plus/resound-multi-mic-plus-hearing-aid-horizontal.ashx?w=1600&usecustomfunctions=1&centercrop=1&hash=FF98B69D75B403F82D3C57AC85B8275E
@@ -1136,7 +1136,7 @@
   interfaccia: analogica
   note: https://iotprojectsideas.com/interfacing-zmct103c-current-sensor-with-arduino/
   datasheet_url: https://innovatorsguru.com/wp-content/uploads/2019/08/zmct103C-datasheet.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.dnatechindia.com/image/cache/catalog/new_images_2020/zmct103c-india-500x500.jpg
@@ -1155,7 +1155,7 @@
   interfaccia: analogica
   note: https://electronics.stackexchange.com/questions/406959/ta12-100-current-sensor-increase-range
   datasheet_url: https://www.electronicoscaldas.com/datasheet/TA12-TA12L-Series_YHDC.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://www.dnatechindia.com/image/cache/catalog/3735-500x500.jpg
@@ -1175,7 +1175,7 @@
   note: Categoria originale 'sensori' mantenuta; probabile refuso Tap/Tao nel codice
     e nella descrizione. Nessuna foto disponibile.
   datasheet_url: https://taphome.com/en/datasheets/
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://arduinomodules.info/wp-content/uploads/KY-031_knock_sensor_module.jpg
@@ -1198,7 +1198,7 @@
   note: Sonda manca controller TDS. NTC da 10K. Datasheet attuale riferito ai termistori
     NTC; datasheet TDS non disponibile nella riga.
   datasheet_url: https://www.teamwavelength.com/download/Datasheets/tcs-series-thermistors.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.blancatogp.com/favImage.png
@@ -1219,7 +1219,7 @@
   interfaccia: analogica
   note: Riclassificato dalla riga inventario; categoria sensori confermata
   datasheet_url: https://www.vishay.com/docs/81579/temt6000.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/0/8/08688-01.jpg
@@ -1239,7 +1239,7 @@
   note: Nessuna foto disponibile; riclassificato dalla riga inventario. Categoria
     sensori confermata; codice ipotizzato ETS-Tilt-Switch dal datasheet.
   datasheet_url: https://www.leveldevelopments.com/wp/wp-content/uploads/documents/ETS-Tilt-Switch.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sunfounder.com/cdn/shop/products/sunfounder-default-title-tilt-switch-module-11144022229153_600x600_crop_center.jpg?v=1768447335
@@ -1259,7 +1259,7 @@
   interfaccia: 2 pin
   note: 'Riclassificato da sensori a componenti: TMB12A05 è un buzzer, non un sensore.'
   datasheet_url: https://www.javanelec.com/stfiles/getappdocument/1/true/7d2107c2-4d68-41ec-be98-ad927a83c466.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://global.discourse-cdn.com/digikey/original/3X/1/d/1d1ba24fe0a949837be43b7fc86233f986d85375.png
@@ -1279,7 +1279,7 @@
   note: Codice corretto da 'VEML 6040' a 'VEML6040'; categoria 'sensori' confermata;
     sensore RGBW con uscita digitale I2C.
   datasheet_url: https://www.vishay.com/docs/84276/veml6040.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://hackmakemod.com/cdn/shop/files/96_5ec7949a-687e-42fb-a864-ff19d02e5201.png?v=1778101737
@@ -1299,7 +1299,7 @@
   note: Codice attuale 'VL53LDK' corretto in VL53L0X (probabile refuso). Il datasheet
     indicato è per il breakout Adafruit VL53L0X.
   datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/product-videos/320x240/6353-05.jpg
@@ -1321,7 +1321,7 @@
   note: 'Riclassificato: VL6180X è un sensore ToF di prossimità/luce ambientale, non
     un LIDAR. Categoria corretta: sensori. Interfaccia I2C confermata.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/DM00112632.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/520/medium800/VL6180_top.jpg
@@ -1343,7 +1343,7 @@
   note: Codice inventario WCMCU; modulo compatibile FC-03/LM393; sensore a forcella
     ottica per rilevamento velocità/rotazione; possibile uscita analogica AO.
   datasheet_url: https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png
@@ -1364,7 +1364,7 @@
   interfaccia: '?'
   note: 2 IC ma solo un sensore
   datasheet_url: https://www.scribd.com/document/347141991/HX711-Avia-Semiconductor
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/3/13879-SparkFun_Load_Cell_Amplifier_-_HX711-01.jpg
@@ -1386,7 +1386,7 @@
   note: Categoria sensori confermata; codice e interfaccia coerenti con sensore di
     livello XKC-Y25-NPN.
   datasheet_url: https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.ram-e-shop.com/web/image/product.template/8131/image_1024?unique=f7f3331
@@ -1406,7 +1406,7 @@
   interfaccia: digitale a impulsi, 3 fili (VCC, GND, segnale)
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.rajguruelectronics.com/Product/1669/YF-S401%20PVC%20Water%20Flow%20Hall%20Sensor.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://einstronic.com/wp-content/uploads/2020/10/YF-S401-Water-Flow-Rate-Sensor-Module-1.jpg
@@ -1425,7 +1425,7 @@
   interfaccia: I2C
   note: CCS811
   datasheet_url: https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://image.made-in-china.com/2f0j00syNWliEFygbn/CCS811-Gas-Sensor-Module-CO2-Eco2-Tvoc-Air-Quality-Detection-I2c-Output-Cjmcu-811-Carbon-Dioxide-Detection-Sensor-Module-Stocked.jpg
@@ -1446,7 +1446,7 @@
   note: 'Categoria confermata: sensori. Codice ipotizzato dalla descrizione; verificare
     part number e configurazione contatto (NO/NC) sul componente fisico.'
   datasheet_url: https://probots.co.in/technical_data/LockIT%20Magnetic%20Door%20Sensors%20Datasheet.pdf
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721162053/CKN6004-900.jpeg
@@ -1469,7 +1469,7 @@
   note: 'Categoria corretta: sensori. Interfaccia tipica trigger/echo (compatibile
     HC-SR04); alcune versioni supportano UART/serial. Codice e descrizione confermati.'
   datasheet_url: https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/
-  datasheet_last_check: '2026-10-15'
+  datasheet_last_check: '2026-10-28'
   posizione: B Box
   foto_drive_id: ''
   foto_url: http://openelab.io/cdn/shop/files/2_afe85717-4a9a-4818-9223-0a1d2fb7031e.webp?v=1758533769

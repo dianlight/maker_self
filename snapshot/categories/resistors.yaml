@@ -211,7 +211,7 @@
   datasheet_last_check: '2026-10-26'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://protosupplies.com/wp-content/uploads/2017/11/Resistor-47-Ohm-5.jpg
   ai_proposta: '{"codice": "47Ω", "categoria": "resistors", "descrizione": "Resistore
     through-hole 47 Ω, quantità 20, package assiale/through-hole, scritta 47 (probabile
     47 Ω)", "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor
@@ -679,7 +679,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.utmel.com/productdetail/yageo-fmp100jr52470k-913726
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -697,7 +697,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://assets.rs-online.com/v1699613067/Datasheets/7ec977c91977fd4e95a020bd86d6d6c5.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: ''
@@ -715,7 +715,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.farnell.com/datasheets/3760829.pdf
-  datasheet_last_check: '2026-10-14'
+  datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://osoyoo.com/wp-content/uploads/2017/05/1M-RESISTORS-200x200.jpg
