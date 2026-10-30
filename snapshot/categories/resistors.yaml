@@ -284,7 +284,7 @@
   datasheet_last_check: '2026-10-26'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://global.discourse-cdn.com/digikey/optimized/3X/0/5/0504e3ebf9715babcb7362507855a1eb4b321166_2_1024x586.jpeg
   ai_proposta: '{"codice": "200", "categoria": "resistors", "descrizione": "Resistore
     through-hole valore 200 (presunto 200 Ω), quantità 20 pezzi, package assiale/through-hole,
     scritta leggibile: 200", "interfaccia": "through-hole", "quantita": 20, "posizione":
@@ -392,7 +392,7 @@
   datasheet_last_check: '2026-10-26'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://elexbot.in/wp-content/uploads/2026/08/elexbot-logo-new-224x63.png
   ai_proposta: '{"codice": "680", "categoria": "resistors", "descrizione": "Resistore
     through-hole da 680 Ω, package assiale; quantità 20; scritta leggibile: 680",
     "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor Box",
@@ -428,7 +428,7 @@
   datasheet_last_check: '2026-10-26'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://global.discourse-cdn.com/digikey/optimized/3X/0/5/0504e3ebf9715babcb7362507855a1eb4b321166_2_1024x586.jpeg
   ai_proposta: '{"codice": "2k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 2 kΩ, package assiale, quantità 20. Nessuna foto disponibile; dati
     ricavati dalla riga inventario.", "interfaccia": "through-hole", "quantita": 20,
@@ -446,7 +446,7 @@
   datasheet_last_check: '2026-10-26'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://m.media-amazon.com/images/G/56/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546817245_.png
   ai_proposta: '{"codice": "2k2", "categoria": "resistors", "descrizione": "Resistore
     through-hole 2k2 (2.2 kΩ), 20 pezzi, package through-hole; valore leggibile: 2k2",
     "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor Box",
@@ -482,7 +482,7 @@
   datasheet_last_check: '2026-10-27'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.adafruit.com/images/480x360/2783-00.jpg
   ai_proposta: '{"codice": "4k7", "categoria": "resistors", "descrizione": "Resistore
     through-hole 4k7, valore 4.7 kΩ, package through-hole/assiale non specificato,
     quantità 20.", "interfaccia": "through-hole", "quantita": 20, "posizione": "V
@@ -518,7 +518,7 @@
   datasheet_last_check: '2026-10-27'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://static.lcsc.com/feassets/pc/images/product/no_goods_pic6.jpg
   ai_proposta: '{"codice": "6k8", "categoria": "resistors", "descrizione": "Resistore
     through-hole 6k8 (6.8 kΩ), quantità 20, package assiale through-hole, scritta
     leggibile: 6k8.", "interfaccia": "through-hole", "quantita": 20, "posizione":
