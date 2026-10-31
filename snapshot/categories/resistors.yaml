@@ -554,7 +554,7 @@
   datasheet_last_check: '2026-10-27'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://s.yimg.com/lo/mysterio/api/d0050888d2a301237c397ceeaf158684d0f6b1ed69740ae18cc2e4caf09347a2/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_motley_fool_261%2F8faab48d5e337bd974e9a579a5e6953f
   ai_proposta: '{"codice": "20k", "categoria": "resistors", "descrizione": "Resistore
     through-hole da 20 kΩ, quantità 20; package through-hole/assiale ipotizzato; scritta
     valore ''20k'' dal campo codice; nessuna foto disponibile.", "interfaccia": "through-hole",
@@ -682,7 +682,7 @@
   datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://orwintech.com/uploads/images/20241028/0b9ef45cea4892eda632fdd8e6c4baf0.png
   ai_proposta: '{"codice": "470k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 470k (470 kΩ), package assiale; quantità 20. Nessuna foto disponibile.",
     "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor Box",
@@ -700,7 +700,7 @@
   datasheet_last_check: '2026-10-28'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://elexbot.in/wp-content/uploads/2026/08/elexbot-logo-new-224x63.png
   ai_proposta: '{"codice": "680k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 680 kΩ, package assiale, quantità 20", "interfaccia": "through-hole",
     "quantita": 20, "posizione": "V Resistor Box", "datasheet_url": "", "note": "Bulk

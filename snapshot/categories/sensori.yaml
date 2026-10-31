@@ -351,7 +351,7 @@
   datasheet_last_check: '2026-10-24'
   posizione: Sensor Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://content.instructables.com/FUL/0M9I/L6JC6S4Z/FUL0M9IL6JC6S4Z.jpg?auto=webp&amp;frame=1
   ai_proposta: '{"codice": "AS5600", "categoria": "sensori", "descrizione": "Tipo
     componente: modulo sensore magnetico rotativo. Quantità visibile: 1 modulo. Package:
     modulo Grove. Scritte leggibili: AS5600. Funzione: misura angolo di rotazione/RPM
@@ -374,7 +374,7 @@
   datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://shure.widen.net/content/stbglaq7ja/webp/web-hero_banner-smb7b_white.webp?position=c&amp;color=ffffffff&amp;quality=80&amp;u=s1b3kh
   ai_proposta: '{"codice": "Big Sound", "categoria": "sensori", "descrizione": "Microfono
     (Microphone), quantità 1, package non specificato, scritte leggibili: nessuna
     (nessuna foto disponibile).", "interfaccia": "analogico", "quantita": 1, "posizione":
@@ -464,7 +464,7 @@
   datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.futurlec.com/Tab-Hardware3.gif
   ai_proposta: '{"codice": "D203S", "categoria": "sensori", "descrizione": "Sensore
     piroelettrico PIR D203S per infrarossi, package TO-5 a 3 pin; richiede lente Fresnel
     e circuito di condizionamento. Quantità visibile da inventario: 6.", "interfaccia":
