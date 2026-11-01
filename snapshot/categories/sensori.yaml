@@ -544,7 +544,7 @@
   datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.hogslat.com/images/thumbs/0012731_flame-sensor_600.jpeg
   ai_proposta: '{"codice": "FFS05", "categoria": "sensori", "descrizione": "Sensore
     di fiamma, quantità 1, package non desumibile, scritta leggibile: ''Flame Sensor''.
     Ricondotto a Lamtec FFS05; possibile variante FFS05-EX.", "interfaccia": "", "quantita":
@@ -588,7 +588,7 @@
   datasheet_last_check: '2026-10-24'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://protosupplies.com/wp-content/uploads/2019/08/GY-906-MLX90614-Non-Contact-Temperature-Sensor.jpg
   ai_proposta: '{"codice": "GY-906", "categoria": "sensori", "descrizione": "Sensore
     di temperatura a infrarossi senza contatto; modulo GY-906 basato su MLX90614,
     1 pezzo, package breakout, interfaccia I2C. Nessuna foto disponibile: scritte
@@ -983,7 +983,7 @@
   datasheet_last_check: '2026-10-27'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: https://www.sensoriditemperatura.it/wp-content/uploads/La-Sonda-Pt100-img.webp
+  foto_url: https://www.emerson.com/is/image/emerson/logo?fmt=webp-alpha&amp;qlt=95
   ai_proposta: '{"codice": "P100", "categoria": "sensori", "descrizione": "Sensore
     di temperatura, probabile Pt100 (sonda resistiva). Quantità 2. Package non specificato;
     nessuna foto disponibile.", "interfaccia": "analogica/resistiva", "quantita":

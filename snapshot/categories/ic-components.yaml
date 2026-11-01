@@ -7,7 +7,7 @@
   note: Riclassificato da ic-components a led in base al codice 5730 e alla descrizione
     LED colorati SMD. Nessuna foto disponibile.
   datasheet_url: https://www.sunrom.com/download/716.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://image.chukouplus.com/upload/C_1267/file/20260915/8ecd9b792a00c9e640eadc62c89c7260.png
@@ -28,7 +28,7 @@
   note: 'Codice originale RC45558 corretto in RC4558. Categoria ic-components confermata.
     Nessuna foto disponibile: package non deducibile dalla riga.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/rc4558.pdf?ts=1727829970381&ref_url=https%253A%252F%252Fwww.google.com%252F
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/opengraph/public/uc_products/p-qrc4558_1.png?itok=bTMfLOCV
@@ -48,7 +48,7 @@
   interfaccia: SMD I2C
   note: 1.8V - 5.5V
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/doc0336.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.electropi.in/image/cache/catalog/24c32-ic-dip-8-package-400x400.jpg
@@ -67,7 +67,7 @@
   interfaccia: QUAD SPI
   note: 3V
   datasheet_url: https://www.pjrc.com/store/w25q64fv.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.winbond.com/export/system/modules/com.thesys.project.winbond/resources/images/logo.png_1914476845.png
@@ -87,7 +87,7 @@
   interfaccia: DIP-14
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://docs.rs-online.com/8629/0900766b81324aac.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: https://rajivelectronics.com/images/get_image/SUNELTIwMC5qcGc
@@ -106,7 +106,7 @@
   interfaccia: Microwire
   note: 5V
   datasheet_url: https://datasheet4u.com/datasheets/Microchip-Technology/93C86/46386
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://datasheet4u.com/pdfhtml/0228/46386/page-000001.png
@@ -125,7 +125,7 @@
   interfaccia: SMD
   note: 20V
   datasheet_url: http://umw-ic.com/UploadFiles/img/2018/1/17/59f12a4a-2706-4c5f-b433-dc311f5a16ca.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: http://www.etstore.in/cdn/shop/files/sot23_cf7f38dc-5586-4a19-b608-c077b5de0dca.jpg?v=1756910272
@@ -146,7 +146,7 @@
     ''ADC 4 Channel Amplifier'' imprecisa: ADS1115 è un ADC I2C 4 canali 16-bit con
     PGA, non un amplificatore generico. Quantità e posizione invariate.'
   datasheet_url: https://www.farnell.com/datasheets/3759179.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1085-10.jpg
@@ -168,7 +168,7 @@
   interfaccia: SMD
   note: 3.3V
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.ic-components.com/theme/images/logo.png
@@ -188,7 +188,7 @@
   interfaccia: SMD
   note: 5V
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://s.yimg.com/lo/mysterio/api/59db92369c41f701211d99a1df99e0e2b9f41b336f2668a0698826a5040685fb/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fglobenewswire.com%2F7567e8b589ca7f67d5f16867d498791a
@@ -209,7 +209,7 @@
   interfaccia: SMD
   note: ADJ
   datasheet_url: https://www.angeladvance.com/HT73xx.pdf
-  datasheet_last_check: '2026-10-17'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.eleccircuit.com/wp-content/uploads/2024/08/ams1117-in-many-circuit-boards.jpg
@@ -228,7 +228,7 @@
   interfaccia: DIP I2C
   note: 1.8V - 5.5V
   datasheet_url: http://ww1.microchip.com/downloads/en/devicedoc/atmel-8568-seeprom-at24c256c-datasheet.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: http://www.sainsmart.com/cdn/shop/products/02_595_12_14_grande.jpg?v=1762541388
@@ -247,7 +247,7 @@
   interfaccia: DIP I2C
   note: 1.8V - 5.5V
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/doc1116.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: Blu IC Box
   foto_drive_id: ''
   foto_url: http://quartzcomponents.com/cdn/shop/products/AT24C512.jpg?v=1653633960
@@ -266,7 +266,7 @@
   interfaccia: DIP
   note: Vice = 50V 100mA
   datasheet_url: https://www.sparkfun.com/datasheets/Components/BC546.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: Transistor Box
   foto_drive_id: ''
   foto_url: https://www.amplifiedparts.com/sites/default/files/styles/uc_product/public/uc_products/p-qbc547b_dpm_0.png?itok=3ZSFRB6e
@@ -286,7 +286,7 @@
   interfaccia: DIP
   note: 'Riclassificato da ic-components a sensori: è un fotodiodo/sensore di luce.'
   datasheet_url: https://www.vishay.com/docs/81521/bpw34.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://probots.co.in/pub/media/catalog/product/cache/891768098d9d90472b8b3c7afc6da23f/5/1/51pibu44wzl._sl1100_.jpg
@@ -306,7 +306,7 @@
   note: Riclassificato come IC; nessuna foto disponibile, dati basati sulla riga inventario.
     Package DIP. Verificare variante e piedinatura esatta.
   datasheet_url: https://www.mouser.it/datasheet/2/348/rohm_semiconductor_rohms30191-1-1742744.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: GEN BLU 01 / 01
   foto_drive_id: ''
   foto_url: https://tinkersphere.com/3831/2115.jpg
@@ -327,7 +327,7 @@
   note: 'Riclassificato da riga inventario: IC CMOS counter; DIP è package, non interfaccia
     di comunicazione.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4017b.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://microcontrollerslab.com/wp-content/uploads/2020/01/CD4017-Counter-IC.jpg
@@ -349,7 +349,7 @@
     compatibile CD4051/CD4052/CD4053; datasheet fornito per CD4051B. Package e suffisso
     non specificati.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4051b.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: IC Barrel
   foto_drive_id: ''
   foto_url: https://www.circuitspecialists.com/content/876445/circ-4k.webp
@@ -370,7 +370,7 @@
   interfaccia: DIP
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.ti.com/lit/ds/symlink/cd4066b-mil.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: IC Box
   foto_drive_id: ''
   foto_url: https://www.codrey.com/wp-content/uploads/2024/01/CD4066BE.jpeg
@@ -390,7 +390,7 @@
   note: CH340G è un chip USB to serial; descrizione corretta da 'USB Slave Chip' e
     datasheet aggiornato al produttore WCH.
   datasheet_url: https://datacapturecontrol.com/articles/io-devices/usb-serial-adapters/overview
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://wiki.keyestudio.com/images/1/1e/%E5%9B%BE%E7%89%871-_ks0173.png
@@ -410,7 +410,7 @@
   interfaccia: SMD
   note: Mixed Values
   datasheet_url: https://www.silabs.com/documents/public/data-sheets/CP2101.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://diyables.io/images/products/cp210x-driver.jpg
@@ -431,7 +431,7 @@
     link Mouser fornito è una pagina prodotto, non il datasheet ufficiale. Verificare
     package reale (SOIC-8 o PDIP-8).
   datasheet_url: https://www.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/DS1307?qs=1eQvB6Dk1vjgsJfdc7e59A%3D%3D
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3296-03.jpg
@@ -452,7 +452,7 @@
   interfaccia: DIP
   note: 250AC / 30DC
   datasheet_url: https://cdn.soselectronic.com/productdata/2e/41/df68a637/ftr-f3aa005v.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: Relay Box
   foto_drive_id: ''
   foto_url: https://image.mono.ipros.com/public/product/image/b0f/2001506855/IPROS27928005007946865752.png
@@ -471,7 +471,7 @@
   interfaccia: DIP
   note: Vd 60v Id 120A
   datasheet_url: https://rcl-radio.ru/wp-content/uploads/2014/11/FQP30N06.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-10-31'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: http://enigma-shop.com/cdn/shop/products/fqp30n06_2.jpg?v=1680844685
