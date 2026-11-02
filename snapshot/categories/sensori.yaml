@@ -1092,7 +1092,7 @@
   datasheet_last_check: '2026-10-28'
   posizione: Sensor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: http://www.cnmec.com/pic/Carmel-control-PNG-LOGO.png
   ai_proposta: '{"codice": "VS2", "categoria": "sensori", "descrizione": "Interruttore
     di shock/vibrazione Murphy VS2, SPDT, 1 pezzo, package non specificato, scritte
     non leggibili (nessuna foto).", "interfaccia": "SPDT", "quantita": 1, "posizione":

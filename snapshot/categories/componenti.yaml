@@ -29,7 +29,7 @@
   interfaccia: TO-220AB
   note: Vds 100V, Id 20A
   datasheet_url: https://www.vishay.com/docs/91300/irl540.pdf
-  datasheet_last_check: '2026-10-18'
+  datasheet_last_check: '2026-11-01'
   posizione: Mosfet Box
   foto_drive_id: ''
   foto_url: https://res.utmel.com/Images/Banner/c1ac6b3f-2bb8-49bd-97f4-725776460b52.jpg
@@ -48,7 +48,7 @@
   note: Riclassificato da 'Scotty Diodo' a 'Diodo Schottky SS32'. Categoria corretta
     da ic-components a componenti. Codice corretto da SSxx a SS32.
   datasheet_url: https://www.vishay.com/docs/88751/ss32.pdf
-  datasheet_last_check: '2026-10-19'
+  datasheet_last_check: '2026-11-01'
   posizione: SMD Box
   foto_drive_id: ''
   foto_url: https://en.semiware.com/blog/wp-content/uploads/2023/09/logo.png
