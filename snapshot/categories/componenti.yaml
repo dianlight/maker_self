@@ -94,7 +94,7 @@
     'componenti' perché modulo storage generico, non sensore/display/IC. Verificare
     corrispondenza codice HW-125 con modulo micro SD SPI.
   datasheet_url: https://components101.com/modules/micro-sd-card-module-pinout-features-datasheet-alternatives
-  datasheet_last_check: '2026-10-20'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://shillehtek.com/cdn/shop/files/1_c60d4fea-c515-4367-b12e-0f89e369909c.png?v=1771543653&width=240
@@ -116,7 +116,7 @@
   note: PCA9685 è spesso usato come driver per servo/LED; se in inventario è un breakout
     board, valutare categoria circuits/mcu-board.
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/PCA9685.pdf
-  datasheet_last_check: '2026-10-20'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/815-05.jpg
@@ -138,7 +138,7 @@
   note: Nessuna foto; riclassificato dalla riga inventario. URL fornito è pagina prodotto,
     non datasheet tecnico.
   datasheet_url: https://mktechnic.com/product/emc-kk-p2511-v/?srsltid=AU7gw4Wu_lG0fMqyZ4dmVmwgZZKohUMj7W64Yb4QCcrTeCd3xyBS_iFw
-  datasheet_last_check: '2026-10-20'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://i0.wp.com/mktechnic.com/wp-content/uploads/2023/02/EMC-KK-P2511-V.jpg?fit=1000%2C1000&#038;ssl=1
@@ -161,7 +161,7 @@
     ultrasuoni con interfaccia Micro USB, probabile attuatore per umidificatori. Verificare
     se il datasheet Farnell 81205 corrisponde.'
   datasheet_url: https://www.farnell.com/datasheets/81205.pdf
-  datasheet_last_check: '2026-10-20'
+  datasheet_last_check: '2026-11-03'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://static.rocketreach.co/images/logo/logoWhiteRocketBlueHaloWhiteText.png
@@ -183,7 +183,7 @@
   note: Riclassificato da 'componenti' a 'displays'; descrizione corretta da 'DC 10A
     Mini voltometro' a modulo voltmetro/amperometro DC 10A mini. Nessuna foto disponibile.
   datasheet_url: https://curtocircuito.com.br/datasheet/modulo/voltimetro_e_amperimetro.pdf?srsltid=AU7gw4XtYIoKS0vKcujzWxf_NJZK4zlHO7cFL06lc41KwO99hm6JLOI7
-  datasheet_last_check: '2026-10-20'
+  datasheet_last_check: '2026-11-03'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://yourpixelstore.com/wp-content/uploads/2023/02/61LxswXyyEL._AC_SL1010_.jpg
@@ -205,7 +205,7 @@
   note: Datasheet riferito al transistor IRF520, non al modulo. Categoria riclassificata
     da componenti a circuits.
   datasheet_url: https://www.vishay.com/docs/91017/irf520.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2018/02/IRF520-MOSFET-Breakout-Board-Top.jpg
@@ -227,7 +227,7 @@
     abbreviazione di TXS0108E; il datasheet TI corrisponde a TXS0108E. Categoria corretta
     da componenti a ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/txs0108e.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.canaduino.ca/wp-content/uploads/2025/01/26639-8-channel-level-converter-3.jpg
@@ -249,7 +249,7 @@
   note: Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico.
     Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.
   datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.lasercomponents.com/fileadmin/_processed_/a/5/csm_lcusa-ra-te-a1-1-1_c9501494ae.jpg
@@ -293,7 +293,7 @@
   note: URL fornito è pagina prodotto, non datasheet ufficiale. Modulo RTC con EEPROM
     AT24C32; verificare se DS3231 o DS1307.
   datasheet_url: https://www.eitkw.com/product/zs-042-rtc-real-time-clock-module/?srsltid=AU7gw4WxoxhNrmgRufE8rLiePKkkk0aOU7CPG4nyMpqJbpXyZS3NyYOR
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://eitkw.com/wp-content/uploads/2018/04/reloj-tiempo-real-rtc-ds3231-eeprom-24c32-arduino-en-rosario-D_NQ_NP_678115-MLA25177203318_112016-F.jpg
@@ -339,7 +339,7 @@
     mantenuto/ipotizzato come 'Pulsanti Colorati'. Il datasheet indica pulsanti convenzionali
     Honeywell/Notifier, mentre la riga li descrive come colorati/multicolori.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/notifier-it/HBT-Fire-1026-Pulsanti-Convenzionali.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://ss-pics.s3.eu-west-1.amazonaws.com/files/2180504/page-34.png?1787035793
@@ -363,7 +363,7 @@
   interfaccia: ''
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.scribd.com/document/729310888/n83-power-button-board-revb-1126
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: ''
@@ -384,7 +384,7 @@
   note: 'Riclassificato: transistor MOSFET discreto, non circuito integrato. Package
     TO-220AB da datasheet Vishay.'
   datasheet_url: https://www.vishay.com/docs/91019/irf530.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv347x1m4zrmh5p1x66jb.jpg

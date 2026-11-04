@@ -31,7 +31,7 @@
   note: Riclassificato da componenti a resistors; codice generico 'Slide Pot' aggiornato
     a serie PSxxG dal datasheet. Verificare valore ohmico e corsa.
   datasheet_url: https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/PSxxG.pdf
-  datasheet_last_check: '2026-10-20'
+  datasheet_last_check: '2026-11-03'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://www.ctscorp.com/Files/cts-logo.png

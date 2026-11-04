@@ -7,7 +7,7 @@
   note: 'Riclassificato dalla riga inventario: categoria corretta in mcu per ATmega644PA;
     package SMD generico, non specificato se TQFP44 o QFN44.'
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega164A_PA-324A_PA-644A_PA-1284_P_Data-Sheet-40002070B.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4230/150%7E44A%7EA%7E44.JPG
@@ -29,7 +29,7 @@
     in ESP32; descrizione originaria ''32'' troppo generica. Possibile variante modulo/dev-board
     ESP32.'
   datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://wiki.elegoo.com/oshw-getting-started-kits/1.2_pin_out.png
@@ -52,7 +52,7 @@
     una scheda/modulo con pin, non un chip nudo. Il datasheet fornito è per il chip
     ESP32-S2.'
   datasheet_url: https://documentation.espressif.com/esp32-s2_datasheet_en.pdf
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: MCU Box
   foto_drive_id: ''
   foto_url: https://www.espressif.com/sites/default/files/Banner/esp32-s2-banner-new-1-mobile-bg.jpg
@@ -74,7 +74,7 @@
   note: Nessuna foto disponibile; riclassificato dai campi inventario. ATTINY2313A
     è un MCU AVR 8-bit.
   datasheet_url: https://ww1.microchip.com/downloads/en/DeviceDoc/8246S.pdf#:~:text=The%20ATtiny2313A%2F4313%20is%20a,power%20consumption%20versus%20processing%20speed.
-  datasheet_last_check: '2026-10-21'
+  datasheet_last_check: '2026-11-03'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://media.rs-online.com/t_medium/Y1773007-02.jpg
