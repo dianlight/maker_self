@@ -29,7 +29,7 @@
   note: Datasheet fornito si riferisce a modulo STM32F103, non a CH32F103C8T6; codice
     indica MCU WCH CH32F103C8T6. Categoria mcu-board in base a 'Dev Boards'.
   datasheet_url: https://handsontec.com/dataspecs/module/STM32F103%20module.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.lcdwiki.com/resources/assets/logo.png
@@ -49,7 +49,7 @@
   interfaccia: USB + Wifi
   note: Basata su ESP8266, compatibile con Arduino IDE.
   datasheet_url: https://www.wemos.cc/en/latest/_static/files/sch_d1_mini_v3.0.0.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: Garage 01 e 02
   foto_drive_id: ''
   foto_url: https://www.wemos.cc/en/latest/_images/d1_mini_v4.0.0_1_16x16.png
@@ -71,7 +71,7 @@
     mcu-board, corretta in mcu. Codice originale EFR32MG2X mantenuto (famiglia). Datasheet
     riferito a EFR32MG24.
   datasheet_url: https://datasheet4u.com/datasheets/Silicon-Labs/EFR32MG24/1502659
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://datasheet4u.com/pdfhtml/0412/1502659/page-000001.png
@@ -92,7 +92,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: https://documentation.espressif.com/0a-esp8266ex_datasheet_en.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://t3.ftcdn.net/jpg/02/73/06/20/360_F_273062022_ZyqXVjC0xqlhddlRCUwoDFSYwLcoge55.jpg
@@ -113,7 +113,7 @@
   interfaccia: USB+Bluetooth+Wifi
   note: Nessuna foto disponibile; riclassificazione basata sulla riga del tab inventario.
   datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.olimex.com/Products/IoT/ESP32-S2/ESP32-S2-DevKit-Lipo-USB/images/thumbs/310x230/ESP32-S2-DevKitLipo-USB-a.jpg
@@ -134,7 +134,7 @@
   note: Nessuna foto disponibile; riclassificato dai campi della riga. Codice ipotizzato
     ESP32-DEVKIT dal datasheet ESP32 Dev Kits; verificare modello esatto.
   datasheet_url: https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32/esp-dev-kits-en-master-esp32.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.espressif.com/sites/default/files/devBoardCategory/s_2.png
@@ -154,7 +154,7 @@
   interfaccia: Wifi
   note: Nessuna foto disponibile; riclassificato dai campi della riga inventario.
   datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FM0/7CMV/IJX7GE45/FM07CMVIJX7GE45.jpg?auto=webp&amp;frame=1
@@ -174,7 +174,7 @@
   note: Interfaccia originale 'Blade' non standard, corretta in UART/GPIO. Datasheet
     riferito a ESP-01, non specifico per ESP-01M.
   datasheet_url: https://academy.cba.mit.edu/classes/networking_communications/ESP8266/esp01.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FM0/7CMV/IJX7GE45/FM07CMVIJX7GE45.jpg?auto=webp&amp;frame=1
@@ -194,7 +194,7 @@
   interfaccia: TTL + Wifi
   note: SDK non cinese
   datasheet_url: https://www.winnermicro.com/en/upload/1/editor/1565008131994.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/w/6/w600_wifi_module_tw-01.jpg
@@ -214,7 +214,7 @@
   note: Codice inventario originale ESP-CAM; standardizzato in ESP32-CAM. Categoria
     mcu-board confermata. Datasheet DFR0602 corrispondente a modulo ESP32-CAM DFRobot.
   datasheet_url: https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0602_Web.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://static-cdn.m5stack.com/resource/docs/products/unit/esp32cam/esp32cam_01.webp
@@ -235,7 +235,7 @@
   interfaccia: PIN
   note: Autostampato
   datasheet_url: https://documentation.espressif.com/esp32-wroom-32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://community-assets.home-assistant.io/original/4X/5/0/e/50e585faea85010ebb16d3d466f071ef90ec1393.png
@@ -255,7 +255,7 @@
   interfaccia: TTL
   note: ''
   datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-04'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://www.espressif.com/sites/default/files/banner/esp32-socs-banner.jpg
