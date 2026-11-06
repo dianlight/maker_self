@@ -271,7 +271,7 @@
   note: Categoria mcu-board confermata. Codice attuale ESP32-S incompleto; il datasheet
     indica ESP32-S3 DEV MODULE.
   datasheet_url: https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2025/09/ESP32-S3-DEV-MODULE-datasheet-1-1.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://content.instructables.com/F10/PI2A/LT03C4O8/F10PI2ALT03C4O8.png?auto=webp&amp;frame=1
@@ -293,7 +293,7 @@
   note: Categoria mantenuta mcu-board; codice ESP32-T invariato. Nessuna foto disponibile,
     riclassificazione basata solo sui campi della riga.
   datasheet_url: https://documentation.espressif.com/esp32_datasheet_en.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3269-04.jpg
@@ -316,7 +316,7 @@
     come NodeMCU ESP8266; verificare versione esatta (v0.9/v1.0) e datasheet ufficiale
     Espressif.
   datasheet_url: https://www.make-it.ca/nodemcu-details-specifications/
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.make-it.ca/wp-content/uploads/2021/09/nodemcu-carrier-board-1200x600-1.jpg
@@ -338,7 +338,7 @@
   note: Riclassificazione da riga inventario; 'ATMEDA328P' probabilmente refuso per
     ATmega328P. Nessuna foto disponibile.
   datasheet_url: https://arala.r-e-f.org/wp-content/uploads/2022/03/PRO-Mini-5V_EN.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU
   foto_drive_id: ''
   foto_url: https://www.addicore.com/cdn/shop/products/AD249-2.jpg?v=1689765563&width=1214
@@ -358,7 +358,7 @@
   interfaccia: USB + JTag
   note: +512k eproom i2c
   datasheet_url: https://stm32-base.org/boards/STM32F103C8T6-STM32-Smart-V2.0.html
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://stm32-base.org/assets/img/boards/STM32F103C8T6_STM32_Smart_V2.0-1.jpg
@@ -378,7 +378,7 @@
   interfaccia: TTL +JTAG
   note: Con TFT35 e SD
   datasheet_url: https://github.com/bigtreetech/BTT-TFT35-E3-V3.0/blob/master/BTT%20TFT35-E3%20V3.0%20User%20Guide.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: A Box
   foto_drive_id: ''
   foto_url: http://biqu.equipment/cdn/shop/products/shopify_929d24ac-8c96-4953-a51e-29d7f16bc83b.jpg?v=1700265410
@@ -401,7 +401,7 @@
   note: 'Nessuna foto disponibile; riclassificato leggendo i campi della riga inventario.
     Categoria confermata: mcu-board. Codice normalizzato in ESP32-S2 Mini.'
   datasheet_url: https://www.wemos.cc/en/latest/s2/s2_mini.html
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.wemos.cc/en/latest/_images/s2_mini_v1.0.0_1_16x16.jpg
@@ -424,7 +424,7 @@
   note: 'Riclassificata da riga inventario: categoria confermata mcu-board, codice
     normalizzato in ESP32-C3 SuperMini.'
   datasheet_url: https://dl.artronshop.co.th/ESP32-C3%20SuperMini%20datasheet.pdf
-  datasheet_last_check: '2026-10-22'
+  datasheet_last_check: '2026-11-05'
   posizione: MCU IK Box
   foto_drive_id: ''
   foto_url: https://www.nologo.tech/assets/img/esp32/esp32c3supermini/esp32c3.png
