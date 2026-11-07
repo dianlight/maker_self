@@ -265,7 +265,7 @@
   interfaccia: I2C
   note: Nessuna foto disponibile; riclassificato dalla riga dell'inventario.
   datasheet_url: http://www.es.co.th/Schemetic/PDF/AGS02MA.PDF
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: S Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/5593-01.jpg
@@ -285,7 +285,7 @@
   note: 'Riclassificato: categoria corretta sensori; AM2302 misura temperatura e umidità,
     non solo temperatura. Interfaccia proprietaria single-wire.'
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/393-00.jpg
@@ -306,7 +306,7 @@
   interfaccia: '? + I2C?'
   note: Nessuna foto disponibile; riclassificato dalla riga inventario.
   datasheet_url: https://www.alldatasheet.com/datasheet-pdf/pdf/1132617/ETC2/AM2320.html
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3721-00.jpg
@@ -326,7 +326,7 @@
   note: HW-740 è il nome modulo riportato; il sensore è basato su AM312. Uscita digitale,
     alimentazione tipica 3.3-5V.
   datasheet_url: https://kunkune.co.uk/shop/arduino-sensors/am312-mini-ir-infrared-pir-body-motion-human-sensor/
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://kunkune.co.uk/wp-content/uploads/2021/11/2-2.jpg
@@ -348,7 +348,7 @@
   note: Modulo Grove Seeed Studio basato su AS5600, sensore magnetico rotativo a 12
     bit, output angolo/RPM via I2C. Categoria confermata sensori.
   datasheet_url: https://files.seeedstudio.com/wiki/Grove-12-bit-Magnetic-Rotary-Position-Sensor-AS5600/res/Magnetic%20Rotary%20Position%20Sensor%20AS5600%20Datasheet.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://content.instructables.com/FUL/0M9I/L6JC6S4Z/FUL0M9IL6JC6S4Z.jpg?auto=webp&amp;frame=1
@@ -371,7 +371,7 @@
     Categoria 'sensori' confermata per microfono. Codice 'Big Sound' mantenuto come
     identificativo di magazzino.
   datasheet_url: https://www.farnell.com/datasheets/1920625.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://shure.widen.net/content/stbglaq7ja/webp/web-hero_banner-smb7b_white.webp?position=c&amp;color=ffffffff&amp;quality=80&amp;u=s1b3kh
@@ -394,7 +394,7 @@
     corretta: sensori. Codice confermato BMP180. Descrizione corretta da ''Barometrix''
     a barometrico/pressione/temperatura/altitudine.'
   datasheet_url: https://cdn-shop.adafruit.com/datasheets/BST-BMP180-DS000-09.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/1603-03.jpg
@@ -416,8 +416,8 @@
   note: Riclassificato dalla riga inventario; 'Barometrix' nella descrizione originale
     è probabilmente un refuso per barometrico. BMP280 supporta anche SPI, ma qui è
     indicato I2C.
-  datasheet_url: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_url: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-bmp280-barometric-pressure-plus-temperature-sensor-breakout.pdf
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/096/medium800/BMP280_top.jpg
@@ -440,7 +440,7 @@
   note: Nessuna foto disponibile; riclassificato dalla riga inventario. Sensore ottico
     riflettente, package DIP-4, 5 pz, posizione B Box.
   datasheet_url: https://www.vishay.com/docs/83751/cny70.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.vishay.com/images/product-images/pt-large/83751-pt-large.jpg
@@ -461,7 +461,7 @@
   note: 'Codice originale riga: D203; probabile D203S. Sensore piroelettrico PIR,
     richiede lente Fresnel e circuito di condizionamento.'
   datasheet_url: https://www.futurlec.com/PIR_D203S.shtml
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.futurlec.com/Tab-Hardware3.gif
@@ -482,7 +482,7 @@
   note: Riclassificato dalla riga inventario; categoria confermata sensori; codice
     normalizzato da DHT-11 a DHT11.
   datasheet_url: https://moodle.upm.es/en-abierto/pluginfile.php/47163/mod_page/content/10/DHT11.PDF
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: http://shillehtek.com/cdn/shop/files/1_a4b6495a-07ba-44f0-b580-8c834b854558.jpg?v=1765786089
@@ -503,7 +503,7 @@
   interfaccia: '?'
   note: ''
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Temp/DS18B20.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/1/11050-04.jpg
@@ -518,8 +518,8 @@
   interfaccia: '?'
   note: Riclassificato da riga inventario. Categoria confermata sensori. Interfaccia
     ipotizzata PWM (tipica del modulo DSM501A).
-  datasheet_url: https://www.elektronik.ropla.eu/pdf/stock/smy/dsm501.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_url: https://www.elecrow.com/download/DSM501.pdf?srsltid=AYCX9vIvtv2iThLnxC4OHayQ68W2I_Jb35MYDcEDPzVdM847GGzwqLEY
+  datasheet_last_check: '2026-11-06'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.makerfabs.com/media/catalog/product/cache/6ab262b0af1e33517c917f0f4bd15d2d/d/u/dust_sensor-_dsm501a.jpg
@@ -1542,7 +1542,7 @@
     originale riporta ''Eaterproof'' invece di Waterproof e ''100cm stainless steel
     1m cable''. Corretto e integrato con dettagli visibili in foto.'
   datasheet_url: https://protosupplies.com/product/ds18b20-waterproof/
-  datasheet_last_check: '2026-10-23'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2017/12/DS18B20-Waterproof-Digital-Temp-Sensor-1.jpg
@@ -1573,7 +1573,7 @@
     MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865.
     Busta antistatica con barcode e numeri parzialmente leggibili.
   datasheet_url: https://www.pickadogbreed.com/best/singles
-  datasheet_last_check: '2026-10-23'
+  datasheet_last_check: '2026-11-06'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://electropeak.com/media/catalog/product/cache/fd3007d55266f7276c10ebf7f3da2215/s/e/sen-10-062-new-1.jpg

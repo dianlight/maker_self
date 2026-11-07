@@ -584,7 +584,7 @@
     flessibile adesiva. Da usare con librerie LoRa (es. sandeepmistry/arduino-LoRa).
     Verificare la frequenza di banda libera locale prima dell'uso.
   datasheet_url: https://docs.ai-thinker.com/_media/lora/docs/ra-02_product_specification.pdf
-  datasheet_last_check: '2026-10-23'
+  datasheet_last_check: '2026-11-06'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://image.easyeda.com/components/a1c64554fd184e4782d9b12f89287a1f.png

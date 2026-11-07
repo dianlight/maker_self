@@ -408,7 +408,7 @@
     indica Accuenergy Acuvim-3 power quality meter. Riclassificato come sensore/misuratore
     di qualità energia.
   datasheet_url: https://www.farnell.com/datasheets/2171929.pdf
-  datasheet_last_check: '2026-10-23'
+  datasheet_last_check: '2026-11-06'
   posizione: IC Box
   foto_drive_id: 1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG
   foto_url: https://drive.google.com/open?id=1saVV7QyWztnoua-Iz2uuU10Ue-LdmErG, https://drive.google.com/open?id=1WnwKk78iNLAgyzX12t6iewfN79_jx132
@@ -433,7 +433,7 @@
   note: Componente piezo con wire da 15 mm; possibile utilizzo come buzzer/sensore.
     Etichetta riporta anche codici 6970273694769 e 787157151343; produttore cinese.
   datasheet_url: https://dc-piezo.com/static/upload/file/20250320/1742441333643609.pdf
-  datasheet_last_check: '2026-10-23'
+  datasheet_last_check: '2026-11-06'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://piezo.com/cdn/shop/t/8/assets/o-home.png?v=83126886695790078201706709329

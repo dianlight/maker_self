@@ -1043,7 +1043,7 @@
   datasheet_last_check: '2026-11-02'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: https://www.winbond.com/export/sites/winbond/product/code-storage-flash/qspi-nor/Qspi-NOR_1.png
+  foto_url: https://www.winbond.com/export/system/modules/com.thesys.project.winbond/resources/images/logo.png_1914476845.png
   ai_proposta: '{"codice": "W25Q128BVMG", "categoria": "ic-components", "descrizione":
     "SERIAL FLASH MEMORY - 128Mbit, Winbond W25Q128BVMG, package SOIC-8, 3V, interfaccia
     Quad SPI; quantità 5", "interfaccia": "QUAD SPI", "quantita": 5, "posizione":
@@ -1085,7 +1085,7 @@
   datasheet_last_check: '2026-11-02'
   posizione: PU Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.chargewithqi.com/media/clygqjtk/homepage-qi-products-image.png
   ai_proposta: '{"codice": "bq51051B", "categoria": "ic-components", "descrizione":
     "IC ricevitore di potenza wireless Qi con caricabatteria integrato per celle Li-Ion/Li-Po
     singole, package DSBGA-28 (YFF). Nessuna foto disponibile: scritte non leggibili.
@@ -1111,7 +1111,7 @@
   note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     led confermata per modulo LED RGB indirizzabile.
   datasheet_url: https://denalielectronics.com/it/collections/s4?filter.p.product_type=Accessori+per+l%27illuminazione
-  datasheet_last_check: '2026-10-23'
+  datasheet_last_check: '2026-11-06'
   posizione: A Box
   foto_drive_id: 1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
   foto_url: https://drive.google.com/open?id=1CyTLyzM4BNMq1gytgfZkxLKaUsdqDuSH
