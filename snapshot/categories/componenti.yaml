@@ -8,7 +8,7 @@
   note: 'Riclassificato da motors-hardware a componenti: non è un motore ma un componente/generatore
     di nebbia. Datasheet riferito a manuale Fog Blaster; verificare compatibilità.'
   datasheet_url: https://www.smoke-defender.com/it/come-funziona-generatore-nebbia-antifurto/
-  datasheet_last_check: '2026-10-25'
+  datasheet_last_check: '2026-11-07'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.smoke-defender.com/images/come-funziona-nebbiogeno-italia-cover.jpg
@@ -272,7 +272,7 @@
     indica tastiera Bluetooth sealed IP68. Categoria generica 'componenti' perché
     non esiste categoria specifica per tastiere.
   datasheet_url: https://www.sprintek.com/documents/datasheets/DS0002%20SK5100%20Datasheet.pdf
-  datasheet_last_check: '2026-10-25'
+  datasheet_last_check: '2026-11-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.daskeyboard.com/images/open-graph-daskeyboard-4-professional.jpg
@@ -315,7 +315,7 @@
     Encoder'' sostituito con A102H dalla nota/datasheet. Nessuna foto: verificare
     package e pinout sul datasheet.'
   datasheet_url: https://www.heidenhain.us/wp-content/uploads/2018/03/349529-2H_Rotary_Encoders_en.pdf
-  datasheet_last_check: '2026-10-25'
+  datasheet_last_check: '2026-11-07'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/0/9/09117-03-L.jpg
@@ -366,7 +366,7 @@
   datasheet_last_check: '2026-11-03'
   posizione: Component Barrel
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: http://ameridroid.com/cdn/shop/products/0489_1.jpg?v=1568065757
   ai_proposta: '{"codice": "N83-POWER-BUTTON-BOARD-REVB", "categoria": "circuits",
     "descrizione": "Scheda pulsante di accensione con LED integrato, modulo PCB, scritta
     ''Power Button + Led'' visibile; datasheet N83 Power Button Board RevB 1126.",
@@ -455,7 +455,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-07'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/711FxrH1rcL.jpg
@@ -474,7 +474,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.vishay.com/docs/88503/1n4001.pdf
-  datasheet_last_check: '2026-10-24'
+  datasheet_last_check: '2026-11-07'
   posizione: Diode Box
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2017/10/Diode-1N4004-10-Pack.jpg
