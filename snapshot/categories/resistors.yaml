@@ -57,7 +57,7 @@
   datasheet_last_check: '2026-11-04'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: http://www.harfington.com/cdn/shop/products/ux_a19032700ux0507_ux_g02.jpg?v=1638252217
   ai_proposta: '{"codice": "B5K", "categoria": "resistors", "descrizione": "Resistore
     variabile/potenziometro o trimmer, sigla B5K (probabile 5 kΩ, taper B lineare),
     3 pin; quantità 9; package non specificato, nessuna foto disponibile", "interfaccia":
@@ -173,7 +173,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.farnell.com/datasheets/3760829.pdf
-  datasheet_last_check: '2026-10-26'
+  datasheet_last_check: '2026-11-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://global.discourse-cdn.com/digikey/original/2X/0/0d0b41746c6e0cc637ece33ef4f9e19d6928cc09.jpg
@@ -190,7 +190,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.farnell.com/datasheets/3760829.pdf
-  datasheet_last_check: '2026-10-26'
+  datasheet_last_check: '2026-11-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: http://buildyourcnc.com/cdn/shop/files/IMG_9491-800.jpg?v=1730085440
@@ -208,7 +208,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.mouser.com/en/c/passive-components/resistors/film-resistors/metal-film-resistors-through-hole?resistance=47+Ohms&tolerance=5+%25
-  datasheet_last_check: '2026-10-26'
+  datasheet_last_check: '2026-11-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2017/11/Resistor-47-Ohm-5.jpg
@@ -226,7 +226,7 @@
   interfaccia: through-hole
   note: Bulk add 2026-10-11
   datasheet_url: https://www.mouser.com/datasheet/2/447/Through-hole_2013-770756.pdf?srsltid=AU7gw4XtND_lo-nzRmzzoARh1eOtpbfI0fspqViY6nkkj3rS349urro_
-  datasheet_last_check: '2026-10-26'
+  datasheet_last_check: '2026-11-08'
   posizione: V Resistor Box
   foto_drive_id: ''
   foto_url: https://elexbot.in/wp-content/uploads/2026/06/0.25w-resistor-thakor.jpg
