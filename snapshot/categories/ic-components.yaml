@@ -1155,7 +1155,7 @@
   datasheet_last_check: '2026-11-07'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.watelectronics.com/wp-content/uploads/4N35-IC.jpg
   ai_proposta: '{"codice": "4N35", "categoria": "ic-components", "descrizione": "Optoisolatore
     4N35, package DIP-6, 6 pin, quantità 7. Nessuna foto disponibile; riclassificato
     dai campi della riga inventario.", "interfaccia": "DIP-6", "quantita": 7, "posizione":

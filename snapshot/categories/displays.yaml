@@ -281,7 +281,7 @@
   datasheet_last_check: '2026-11-08'
   posizione: Last Drawer
   foto_drive_id: ''
-  foto_url: ''
+  foto_url: https://www.brescianet.com/appunti/Elettronica/Arduino/corso/immagini/7segment4digit_schema.png
   ai_proposta: '{"codice": "HX40023", "categoria": "displays", "descrizione": "Nessuna
     foto disponibile. Riga inventario: codice HX40023, quantità 5, posizione Last
     Drawer. Identificato come probabile display LED a 7 segmenti a 4 cifre, formato
