@@ -1321,7 +1321,7 @@
   note: 'Riclassificato: VL6180X è un sensore ToF di prossimità/luce ambientale, non
     un LIDAR. Categoria corretta: sensori. Interfaccia I2C confermata.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/DM00112632.pdf
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://cdn-learn.adafruit.com/guides/images/000/001/520/medium800/VL6180_top.jpg
@@ -1343,7 +1343,7 @@
   note: Codice inventario WCMCU; modulo compatibile FC-03/LM393; sensore a forcella
     ottica per rilevamento velocità/rotazione; possibile uscita analogica AO.
   datasheet_url: https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/07-component_speed.html
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://ezblock.cc/readDocFile/sunfounder_LOGO_160x@2x.png
@@ -1364,7 +1364,7 @@
   interfaccia: '?'
   note: 2 IC ma solo un sensore
   datasheet_url: https://www.scribd.com/document/347141991/HX711-Avia-Semiconductor
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/3/13879-SparkFun_Load_Cell_Amplifier_-_HX711-01.jpg
@@ -1386,7 +1386,7 @@
   note: Categoria sensori confermata; codice e interfaccia coerenti con sensore di
     livello XKC-Y25-NPN.
   datasheet_url: https://naylampmechatronics.com/img/cms/000435/datasheet_XKC-Y25-V.pdf
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://www.ram-e-shop.com/web/image/product.template/8131/image_1024?unique=f7f3331
@@ -1405,8 +1405,8 @@
   descrizione: Flow Sensor
   interfaccia: digitale a impulsi, 3 fili (VCC, GND, segnale)
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
-  datasheet_url: https://www.rajguruelectronics.com/Product/1669/YF-S401%20PVC%20Water%20Flow%20Hall%20Sensor.pdf
-  datasheet_last_check: '2026-10-28'
+  datasheet_url: https://www.scribd.com/document/548623280/Datasheet-YF-S401
+  datasheet_last_check: '2026-11-11'
   posizione: A Box
   foto_drive_id: ''
   foto_url: https://einstronic.com/wp-content/uploads/2020/10/YF-S401-Water-Flow-Rate-Sensor-Module-1.jpg
@@ -1425,7 +1425,7 @@
   interfaccia: I2C
   note: CCS811
   datasheet_url: https://cdn.sparkfun.com/assets/learn_tutorials/1/4/3/CCS811_Datasheet-DS000459.pdf
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://image.made-in-china.com/2f0j00syNWliEFygbn/CCS811-Gas-Sensor-Module-CO2-Eco2-Tvoc-Air-Quality-Detection-I2c-Output-Cjmcu-811-Carbon-Dioxide-Detection-Sensor-Module-Stocked.jpg
@@ -1446,7 +1446,7 @@
   note: 'Categoria confermata: sensori. Codice ipotizzato dalla descrizione; verificare
     part number e configurazione contatto (NO/NC) sul componente fisico.'
   datasheet_url: https://probots.co.in/technical_data/LockIT%20Magnetic%20Door%20Sensors%20Datasheet.pdf
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: https://media.ncd.io/sites/2/20170721162053/CKN6004-900.jpeg
@@ -1469,7 +1469,7 @@
   note: 'Categoria corretta: sensori. Interfaccia tipica trigger/echo (compatibile
     HC-SR04); alcune versioni supportano UART/serial. Codice e descrizione confermati.'
   datasheet_url: https://tutorials.probots.co.in/communicating-with-a-waterproof-ultrasonic-sensor-aj-sr04m-jsn-sr04t/
-  datasheet_last_check: '2026-10-28'
+  datasheet_last_check: '2026-11-11'
   posizione: B Box
   foto_drive_id: ''
   foto_url: http://openelab.io/cdn/shop/files/2_afe85717-4a9a-4818-9223-0a1d2fb7031e.webp?v=1758533769
