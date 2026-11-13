@@ -32,7 +32,7 @@
   note: Riclassificato da motors-hardware a componenti. Sembra una resistenza di riscaldamento
     5W 220V, non un componente motorio. Interfaccia 'Slim' non applicabile.
   datasheet_url: https://www.processtechnology.com/wp-content/uploads/2024/05/heaterinstallation-1.pdf
-  datasheet_last_check: '2026-10-30'
+  datasheet_last_check: '2026-11-12'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://cdn.shoplightspeed.com/shops/648211/files/53154324/1652x2313x2/aqueon-heater-flat-submersible-5-w-up-to-2-g.jpg
@@ -53,7 +53,7 @@
   interfaccia: 2 pin
   note: +12v
   datasheet_url: https://orionfans.com/productFiles/datasheet/OD3010.pdf
-  datasheet_last_check: '2026-10-30'
+  datasheet_last_check: '2026-11-12'
   posizione: Fan Box
   foto_drive_id: ''
   foto_url: https://cdn11.bigcommerce.com/s-eblil3q2nd/images/stencil/500x659/products/510/16770/30x10_fan_Edit__02476__50349.1665255047.jpg?c=2
