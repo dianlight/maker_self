@@ -227,7 +227,7 @@
     abbreviazione di TXS0108E; il datasheet TI corrisponde a TXS0108E. Categoria corretta
     da componenti a ic-components.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/txs0108e.pdf
-  datasheet_last_check: '2026-11-03'
+  datasheet_last_check: '2026-11-17'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.canaduino.ca/wp-content/uploads/2025/01/26639-8-channel-level-converter-3.jpg
@@ -249,7 +249,7 @@
   note: Nessuna foto; riclassificato da 'componenti' a 'led' perché emettitore optoelettronico.
     Codice originale 'Laser' mantenuto; verificare part number e package dal datasheet.
   datasheet_url: https://docs.rs-online.com/60f1/0900766b8001ab04.pdf
-  datasheet_last_check: '2026-11-03'
+  datasheet_last_check: '2026-11-17'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://www.lasercomponents.com/fileadmin/_processed_/a/5/csm_lcusa-ra-te-a1-1-1_c9501494ae.jpg
@@ -293,7 +293,7 @@
   note: URL fornito è pagina prodotto, non datasheet ufficiale. Modulo RTC con EEPROM
     AT24C32; verificare se DS3231 o DS1307.
   datasheet_url: https://www.eitkw.com/product/zs-042-rtc-real-time-clock-module/?srsltid=AU7gw4WxoxhNrmgRufE8rLiePKkkk0aOU7CPG4nyMpqJbpXyZS3NyYOR
-  datasheet_last_check: '2026-11-03'
+  datasheet_last_check: '2026-11-17'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://eitkw.com/wp-content/uploads/2018/04/reloj-tiempo-real-rtc-ds3231-eeprom-24c32-arduino-en-rosario-D_NQ_NP_678115-MLA25177203318_112016-F.jpg
@@ -339,7 +339,7 @@
     mantenuto/ipotizzato come 'Pulsanti Colorati'. Il datasheet indica pulsanti convenzionali
     Honeywell/Notifier, mentre la riga li descrive come colorati/multicolori.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/notifier-it/HBT-Fire-1026-Pulsanti-Convenzionali.pdf
-  datasheet_last_check: '2026-11-03'
+  datasheet_last_check: '2026-11-17'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://ss-pics.s3.eu-west-1.amazonaws.com/files/2180504/page-34.png?1787035793
@@ -363,7 +363,7 @@
   interfaccia: ''
   note: Riclassificato dalla riga inventario; nessuna foto disponibile.
   datasheet_url: https://www.scribd.com/document/729310888/n83-power-button-board-revb-1126
-  datasheet_last_check: '2026-11-03'
+  datasheet_last_check: '2026-11-17'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: http://ameridroid.com/cdn/shop/products/0489_1.jpg?v=1568065757
@@ -384,7 +384,7 @@
   note: 'Riclassificato: transistor MOSFET discreto, non circuito integrato. Package
     TO-220AB da datasheet Vishay.'
   datasheet_url: https://www.vishay.com/docs/91019/irf530.pdf
-  datasheet_last_check: '2026-11-03'
+  datasheet_last_check: '2026-11-17'
   posizione: B BOX
   foto_drive_id: ''
   foto_url: https://media2.dev.to/dynamic/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv347x1m4zrmh5p1x66jb.jpg
