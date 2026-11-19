@@ -393,7 +393,7 @@
   datasheet_last_check: '2026-11-14'
   posizione: SMD Box
   foto_drive_id: ''
-  foto_url: https://wiki.keyestudio.com/images/1/1e/%E5%9B%BE%E7%89%871-_ks0173.png
+  foto_url: https://datacapturecontrol.com/articles/static/images/io-devices/usb-serial-adapters/overview/sparkfun-dev-14050-ch340.png
   ai_proposta: '{"codice": "CH340G", "categoria": "ic-components", "descrizione":
     "Circuito integrato convertitore USB-UART, 5 pezzi, package SOP-16 SMD, marcatura
     CH340G", "interfaccia": "USB-UART / SMD (SOP-16)", "quantita": 5, "posizione":
