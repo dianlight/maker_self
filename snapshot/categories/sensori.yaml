@@ -541,7 +541,7 @@
     FFS05 dal datasheet Lamtec; possibile variante FFS05-EX. Interfaccia e package
     non desumibili dalla riga.
   datasheet_url: https://www.lamtec.de/en/service-support/downloads/ffs05-ffs05-ex-technical-data-1/
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.hogslat.com/images/thumbs/0012731_flame-sensor_600.jpeg
@@ -563,7 +563,7 @@
   note: Riclassificato dalla riga inventario; nessuna foto disponibile. Categoria
     sensori confermata.
   datasheet_url: https://win.adrirobot.it/sensori/MPU-6050/sensore_MPU-6050.htm
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/03/MPU-6050-Accel-and-Gyro-Module.jpg
@@ -585,7 +585,7 @@
     modulo GY-906, possibile alternativa/chip MLX90614. Interfaccia I2C. Nessuna foto
     disponibile.
   datasheet_url: https://www.melexis.com/-/media/files/documents/datasheets/mlx90614-datasheet-melexis.pdf
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2019/08/GY-906-MLX90614-Non-Contact-Temperature-Sensor.jpg
@@ -608,7 +608,7 @@
   note: 'Il datasheet_url precedente era un link a forum, non un datasheet ufficiale.
     Datasheet BMP280: https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp280-ds001.pdf'
   datasheet_url: https://forum.arduino.cc/t/unlocking-the-gy-91-mpu-9250-bmp-280/701895
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://sigmanortec.ro/1181-large_default/sensor-9-axis-10-dof-gy-91-mpu9250-bmp280-3-5v.jpg
@@ -630,7 +630,7 @@
   note: 'Corretto: HC-SR04 è un sensore a ultrasuoni, non a microonde. Categoria sensori
     confermata.'
   datasheet_url: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/5/15569-Ultrasonic_Distance_Sensor_-_HC-SR04-01a.jpg
@@ -652,7 +652,7 @@
     HD-36 mantenuto come interno. Interfaccia RS485 ipotizzata da manuale Meteocontrol
     MS-2. Nessuna foto disponibile.
   datasheet_url: https://www.allearthrenewables.com/solar-products/solar-tracker/
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://www.allearthrenewables.com/wp-content/uploads/2021/02/Gary-Hall-15-125-14.jpg
@@ -674,7 +674,7 @@
   note: 'Riclassificato dalla riga inventario: sensore temp/umidità I2C; nessuna foto
     disponibile'
   datasheet_url: https://www.farnell.com/datasheets/2207166.pdf
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://cdn-shop.adafruit.com/640x480/1899-04.jpg
@@ -694,7 +694,7 @@
   note: Il datasheet Honeywell fornito è generico e non specifico per HW-740; nessun
     datasheet specifico verificato. Verificare tensione di alimentazione e pinout.
   datasheet_url: https://prod-edam.honeywell.com/content/dam/honeywell-edam/hbt/en-us/documents/literature-and-specs/datasheets/ep-datasheets/HBT-EP-DATASHEETS-SENSORS.pdf?download=false
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://smarthomescene.com/wp-content/uploads/2024/01/best-and-worst-presence-sensors-for-home-assistant.jpg
@@ -715,7 +715,7 @@
   note: 'Riclassificato da sensori a ic-components: INA226 è un IC current/power monitor
     con interfaccia I2C, non un sensore discreto. Quantità invariata.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina226.pdf?ts=1790852131805
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: ''
   foto_drive_id: ''
   foto_url: https://probots.co.in/pub/media/catalog/product/cache/891768098d9d90472b8b3c7afc6da23f/3/-/3-800x800.jpg
@@ -737,7 +737,7 @@
   note: 'Riclassificato da sensori a ic-components: è un IC monitor di potenza, non
     un sensore autonomo. Verificare package effettivo.'
   datasheet_url: https://www.ti.com/lit/ds/symlink/ina3221.pdf
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Box
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/6062-00.jpg
@@ -1542,7 +1542,7 @@
     originale riporta ''Eaterproof'' invece di Waterproof e ''100cm stainless steel
     1m cable''. Corretto e integrato con dettagli visibili in foto.'
   datasheet_url: https://protosupplies.com/product/ds18b20-waterproof/
-  datasheet_last_check: '2026-11-06'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://protosupplies.com/wp-content/uploads/2017/12/DS18B20-Waterproof-Digital-Temp-Sensor-1.jpg
@@ -1573,7 +1573,7 @@
     MAX31865 è specifico per PT100/PT1000. Possibile codice prodotto TS1229P-MAX31865.
     Busta antistatica con barcode e numeri parzialmente leggibili.
   datasheet_url: https://www.pickadogbreed.com/best/singles
-  datasheet_last_check: '2026-11-06'
+  datasheet_last_check: '2026-11-20'
   posizione: Sensor Barrel
   foto_drive_id: ''
   foto_url: https://electropeak.com/media/catalog/product/cache/fd3007d55266f7276c10ebf7f3da2215/s/e/sen-10-062-new-1.jpg
