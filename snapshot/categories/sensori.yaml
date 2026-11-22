@@ -1492,7 +1492,7 @@
   note: 'Riclassificato da riga inventario: codice originale ''Digital Joystic'' corretto
     in KY-023; categoria originale ''componenti'' aggiornata a sensori.'
   datasheet_url: https://arduinomodules.info/ky-023-joystick-dual-axis-module/
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-21'
   posizione: Component Barrel
   foto_drive_id: ''
   foto_url: https://arduinomodules.info/wp-content/uploads/KY-023_dual_axis_joystick_module_arduino.jpg
@@ -1601,7 +1601,7 @@
   note: Riclassificato senza foto; ipotesi basata sul codice HW-613. Verificare presenza
     di LM393 e fotodiodo/ricevitore IR.
   datasheet_url: https://www.amazon.com/clp/B0924TF3HD
-  datasheet_last_check: '2026-11-07'
+  datasheet_last_check: '2026-11-21'
   posizione: Last Drawer
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/71cCwCODtpL.jpg
