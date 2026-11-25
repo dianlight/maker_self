@@ -7,7 +7,7 @@
   note: Riclassificato dalla riga inventario; nessuna foto. Codice ipotizzato da descrizione/campo
     originale, categoria confermata comunication.
   datasheet_url: https://www.farnell.com/datasheets/4393752.pdf
-  datasheet_last_check: '2026-11-11'
+  datasheet_last_check: '2026-11-24'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://cdn11.bigcommerce.com/s-blpsc02m/products/703/images/8899/Antena_Data_Alliance_1_1500x1500__34887.1790277414.220.220.png?c=2
@@ -28,7 +28,7 @@
   note: Riclassificata come comunicazione/antenna. Il datasheet fornito si riferisce
     a una antenna airMAX Omni; verificare corrispondenza con il connettore IPEX indicato.
   datasheet_url: https://dl.ubnt.com/datasheets/airmaxomni/amo_ds_web.pdf
-  datasheet_last_check: '2026-11-11'
+  datasheet_last_check: '2026-11-24'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/2308-02.jpg
@@ -49,7 +49,7 @@
   note: Riclassificata dalla riga inventario; categoria 'comunication' mantenuta,
     codice corretto in Antenna 433MHz e quantità confermata. Nessuna foto disponibile.
   datasheet_url: https://www.farnell.com/datasheets/1669554.pdf
-  datasheet_last_check: '2026-11-11'
+  datasheet_last_check: '2026-11-24'
   posizione: Antenna Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/4394-00.jpg
@@ -69,7 +69,7 @@
   interfaccia: CH340N
   note: Riclassificato dalla riga inventario; codice interno BTE19-05.
   datasheet_url: https://www.blackboxtoolkit.com/docs/pdf/USBTTLv1r19.pdf
-  datasheet_last_check: '2026-11-11'
+  datasheet_last_check: '2026-11-24'
   posizione: Program Box
   foto_drive_id: ''
   foto_url: https://www.sparkfun.com/media/catalog/product/cache/6b78ac9ed927a3c2db42a3c84dab4ce5/1/2/12977-00.jpg
@@ -90,7 +90,7 @@
     usato in moduli/adattatori Ethernet. Categoria mantenuta come comunicazione. Nessuna
     foto disponibile: riclassificato dalla riga inventario.'
   datasheet_url: https://ww1.microchip.com/downloads/en/devicedoc/39662c.pdf
-  datasheet_last_check: '2026-11-11'
+  datasheet_last_check: '2026-11-24'
   posizione: Io Barrel
   foto_drive_id: ''
   foto_url: https://m.media-amazon.com/images/I/514H3-ILFjL.jpg
