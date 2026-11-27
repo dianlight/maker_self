@@ -8,7 +8,7 @@
     Il datasheet indica OLED 0.96" 128x64 4 pin, tipicamente I2C/SSD1306. Verificare
     interfaccia reale.'
   datasheet_url: https://s20f2fdae3465e2c6.jimcontent.com/download/version/1675361647/module/14737241229/name/OLED%204%20Pin%20128x64%20Display%20module%200.96%20inch%20blue%20color.pdf
-  datasheet_last_check: '2026-11-12'
+  datasheet_last_check: '2026-11-26'
   posizione: Display Barrel
   foto_drive_id: ''
   foto_url: https://www.adafruit.com/images/480x360/3533-07.jpg
