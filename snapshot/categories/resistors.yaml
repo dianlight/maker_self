@@ -392,7 +392,7 @@
   datasheet_last_check: '2026-11-23'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: https://elexbot.in/wp-content/uploads/2026/08/elexbot-logo-new-224x63.png
+  foto_url: http://vetco.net/cdn/shop/files/nte-hw168_a_680_ohm_resistor_6f45e114-e319-4919-a9e3-9f1fb027be3b.jpg?v=1722909925&width=1024
   ai_proposta: '{"codice": "680", "categoria": "resistors", "descrizione": "Resistore
     through-hole da 680 Ω, package assiale; quantità 20; scritta leggibile: 680",
     "interfaccia": "through-hole", "quantita": 20, "posizione": "V Resistor Box",
@@ -464,7 +464,7 @@
   datasheet_last_check: '2026-11-24'
   posizione: V Resistor Box
   foto_drive_id: ''
-  foto_url: https://elexbot.in/wp-content/uploads/2026/08/elexbot-logo-new-224x63.png
+  foto_url: https://tavily.com/opengraph-image.png
   ai_proposta: '{"codice": "3k", "categoria": "resistors", "descrizione": "Resistore
     through-hole 3kΩ, quantità 20, package assiale through-hole", "interfaccia": "through-hole",
     "quantita": 20, "posizione": "V Resistor Box", "datasheet_url": "", "note": "Bulk
